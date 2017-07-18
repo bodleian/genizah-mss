@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_140">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital description of MS. Heb. e. 52 (R)</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>[Name of cataloguer]</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date calendar="Gregorian">[Date when first made available]</date>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine>
+                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                    </addrLine>
+                    <addrLine>
+                        <email>oriental@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address>
+                </pubPlace>
+                <idno>MS_Heb_e_52(R)</idno>
+             
+            <idno type="msID">MS_Heb_e_52_R</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="MS_Heb_e_52_R" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <idno>MS. Heb. e. 52 (R)</idno>
+                        <altIdentifier type="other">
+                            <idno type="cat_no">2678</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                       
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_e_52_R-item1">
+                                 <locus from="1a" to="10a"/>
+                                <author/>
+                                <title>A scroll, writing on both sides, containing Babylonian Talmud, tractate ביצה</title>
+                                <note>beg. with the words <quote type="beg">ונודים באנו למחלוקת ר̇ יהודה ורבנן</quote> (fol. 28b, l. 17) to end.
+                                    <p>Postscript: <quote>הדרן עלך משילין. חסלת ביצה ברחמי שמיא</quote>.</p>
+                                    <p>Owner: <quote type="own">לאברהם בר יצחק בר אברהם בר דניאל בר יצחק נ̇ע̇ הידוע באבן אלבקרה</quote>.</p>
+                                     
+                                </note>  
+                              
+                                <textLang mainLang="he"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Syr. Rabb. char.; <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <provenance>Owner: <persName type="own">Abraham b. Isaac, אבן אלבקרה</persName>.</provenance>
+                            <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="Gregorian" when="1893">1893</date> (from the Genizah).
+                            </acquisition>
+                        </history>
+                        <additional>
+                            <adminInfo>
+                                <recordHist>
+                                    <source>Manuscript description based on <bibl>Catalogue
+                                        of the Hebrew Manuscripts in the Bodleian
+                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p028a.jpg">No. 2678</ref>.</source>
+                                </recordHist>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on
+                                        presentation of a valid reader's card (for admissions
+                                        procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
+                                        <email>oriental@bodleian.ox.ac.uk</email> for further
+                                        information on the availability of this manuscript</p>
+                                </availability>
+                            </adminInfo>
+                            
+                        </additional>
+                    
+                     
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="INDEX">
+                    <desc>General index of <bibl>Catalogue
+                        of the Hebrew Manuscripts in the Bodleian
+                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                        Cowley, Oxford 1906</bibl>
+               </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="Neubauer">
+                    <term>Talmud and commentaries</term>
+                </keywords>
+                
+                <keywords scheme="#INDEX">     
+                    
+                    <term>
+                  <ref target="#MS_Heb_e_52_R">
+                     <persName type="ment">Abraham b. Daniel</persName>.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_e_52_R">
+                     <persName type="own">Abraham b. Isaac, אבן אלבקרה</persName>.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_e_52_R">
+                     <persName type="ment">Daniel b. Isaac</persName>.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_e_52_R">
+                     <persName type="ment">Isaac b. Abraham</persName>.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_e_52_R">Talmud, Babli. ביצה.</ref>
+               </term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+         <change when="2017-07-18">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+            <change when="2010-08-02">
+                <persName>Sabine Arndt</persName> created this file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>        
+        <graphic url="MS_HEB_e_52(R)_1a.tif"/>        
+        <graphic url="MS_HEB_e_52(R)_1b.tif"/>
+        
+        <graphic url="MS_HEB_e_52(R)_1a_detail_1.tif"/>
+        <graphic url="MS_HEB_e_52(R)_1a_detail_2.tif"/>
+        <graphic url="MS_HEB_e_52(R)_1a_detail_3.tif"/>
+        <graphic url="MS_HEB_e_52(R)_1a_detail_4.tif"/>
+        <graphic url="MS_HEB_e_52(R)_1a_detail_5.tif"/>
+        
+        <graphic url="MS_HEB_e_52(R)_1b_detail_1.tif"/>
+        <graphic url="MS_HEB_e_52(R)_1b_detail_2.tif"/>
+        <graphic url="MS_HEB_e_52(R)_1b_detail_3.tif"/>
+        <graphic url="MS_HEB_e_52(R)_1b_detail_4.tif"/>
+        <graphic url="MS_HEB_e_52(R)_1b_detail_5.tif"/>      
+    </facsimile>
+</TEI>

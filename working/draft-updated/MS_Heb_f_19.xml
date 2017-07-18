@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_176">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital description of MS. Heb. f. 19</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>[Name of cataloguer]</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date calendar="Gregorian">[Date when first made available]</date>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine>
+                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                    </addrLine>
+                    <addrLine>
+                        <email>oriental@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address>
+                </pubPlace>
+                <idno>MS_Heb_f_19</idno>
+             
+            <idno type="msID">MS_Heb_f_19</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="MS_Heb_f_19" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <idno>MS. Heb. f. 19</idno>
+                        <altIdentifier type="other">
+                            <idno type="cat_no">2655</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                       
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_f_19-item1">
+                                <locus from="1a" to="5b"/>
+                                <author/>
+                                <title>Fragment of <persName type="aut">Seadiah Gaon</persName>'s Arabic translation and commentary on the book of Esther</title>
+                                <note>end of the pre-face and beg. of the first chapter; translation beg. <quote>כאן פי איאם אחשורוש הו אחשו̇ אלד̇י מלך מן אלהנד אלי אלחבשה̈ ק̇כ̇ו̇ מדינה</quote>. 
+                                    
+                                    
+                                </note>  
+                                
+                                <textLang mainLang="jrb"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Syr. squ. char.; 8vo, <material>vellum</material>.</p>
+                            <p>Ff. 5.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1890</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        <additional>
+                            <adminInfo>
+                                <recordHist>
+                                    <source>Manuscript description based on <bibl>Catalogue
+                                        of the Hebrew Manuscripts in the Bodleian
+                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p020a.jpg">No. 2655</ref>.</source>
+                                </recordHist>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on
+                                        presentation of a valid reader's card (for admissions
+                                        procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
+                                        <email>oriental@bodleian.ox.ac.uk</email> for further
+                                        information on the availability of this manuscript</p>
+                                </availability>
+                            </adminInfo>
+                            
+                        </additional>
+                    
+                     
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="INDEX">
+                    <desc>General index of <bibl>Catalogue
+                        of the Hebrew Manuscripts in the Bodleian
+                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                        Cowley, Oxford 1906</bibl>
+               </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="Neubauer">
+                    <term>Commentaries and supercommentaries</term>
+                </keywords>
+                <keywords scheme="#INDEX">
+                    <term>
+                  <ref target="#MS_Heb_f_19">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Versions, Arabic: Esther.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_f_19">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Commentaries, Arabic: Esther. (with introduction).</ref>
+               </term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+         <change when="2017-07-18">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+            <change when="2010-07-22">
+                <persName>Sabine Arndt</persName> created this file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="MS_HEB_f_19_1a.tif"/>
+        <graphic url="MS_HEB_f_19_1b.tif"/>
+        <graphic url="MS_HEB_f_19_2a.tif"/>
+        <graphic url="MS_HEB_f_19_2b.tif"/>
+        <graphic url="MS_HEB_f_19_3a.tif"/>
+        <graphic url="MS_HEB_f_19_3b.tif"/>
+        <graphic url="MS_HEB_f_19_4a.tif"/>
+        <graphic url="MS_HEB_f_19_4b.tif"/>
+        <graphic url="MS_HEB_f_19_5a.tif"/>
+        <graphic url="MS_HEB_f_19_5b.tif"/>
+        
+    </facsimile>
+</TEI>

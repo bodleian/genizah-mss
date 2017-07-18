@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_61"><!-- every second file named wrong, begins with fol. 4 -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital description of MS. Heb. d. 35</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>[Name of cataloguer]</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date calendar="Gregorian">[Date when first made available]</date>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine>
+                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                    </addrLine>
+                    <addrLine>
+                        <email>oriental@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address>
+                </pubPlace>
+                <idno>MS_Heb_d_35</idno>
+             
+            <idno type="msID">MS_Heb_d_35</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="MS_Heb_d_35" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <idno>MS. Heb. d. 35</idno>
+                        <altIdentifier type="other">
+                            <idno type="cat_no">2780</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                  <p>Ff. 97.</p>
+               </physDesc>
+                    <history>
+                        <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    Manuscript description based on <bibl>Catalogue
+                                        of the Hebrew Manuscripts in the Bodleian
+                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p057b.jpg">No. 2780</ref>.
+                                </source>
+                            </recordHist>
+                            <availability status="restricted">
+                                <p>Entry to read in the Library is permitted only on
+                                    presentation of a valid reader's card (for admissions
+                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
+                                    <email>oriental@bodleian.ox.ac.uk</email> for further
+                                    information on the availability of this manuscript</p>
+                            </availability>
+                        </adminInfo>
+                    </additional>
+                    <msPart xml:id="MS_Heb_d_35-part1" n="1">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/1</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part1-item1">
+                                <locus from="1a" to="3b"/>
+                                <author/>
+                                
+                                <note>See <ref target="MS_Heb_e_82_b">No. 2801 b</ref>.</note>  
+                            </msItem>
+                             
+                        </msContents>
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part2" n="2">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/2</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part2-item1">
+                                <locus from="4a" to="5b">Fol. 4</locus>
+                                <author/>
+                                <title>Geomantic tables</title>
+                                <note>beg. missing. There are the tables of the kings and the beg. of the animals. Elsewhere attributed to R. <persName>Seadiah Gaon</persName>. See <ref>No. 2321</ref>.</note> 
+                               
+                                <textLang mainLang="he"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Span. Rabb. char.; 8vo, <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part3" n="3">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/3</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part3-item1">
+                                <locus from="6a" to="12b">Fol. 6</locus>
+                                <author/>
+                                <title>Fragment of a sermon in Arabic</title>
+                                <note>sentences beg. with <quote>תם</quote> (ثم) and some fables are quoted.</note>  
+                               
+                                <textLang mainLang="jrb"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part4" n="4">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/4</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part4-item1">
+                                <locus from="13a" to="16b">Fol. 13</locus>
+                                <author/>
+                                <title>A medical treatise in Arabic</title>
+                                <note>beg. missing; the sections beg. with the word <quote type="beg">שראב</quote>. The following passage (<locus from="13b">fol. 13b</locus>) may help towards identification:
+                                    <p>
+                              <quote>שראב אלכדר אלהנדי איצ̇א והדא אלשראב לא יעאדלה שי פי אלנפע מן פסאד אלהוא אלמוג̇ב ללטואע ואלג̇דרי ואלורשכין קאל אלמסמי לם אזל מד וקע אליי כבר הדא אלשראב ונחוהא. אסאל ענה רסל מלוך אלסנד ואלתג̇אר אללדין טאל מקאמהם בתלך אלבלאד פיכברוני מן מנאפעה במא לא יוג̇ד פי גירה. קאל ולמא וקעת לי אלנסכה אלתי דכרהא אלראזי פי כתאבה פי אלגדרי</quote>.</p>
+                        </note>  
+                               
+                                <textLang mainLang="jrb"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Syr. Rabb. char.; 8vo, <material>paper</material>, stained.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part5" n="5">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/5</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part5-item1">
+                                <locus from="17a" to="20b">Fol. 17</locus>
+                                <author/>
+                                <title>An Arabic treatise on the manner of killing animals for food</title>
+                                <note>beg. missing; 
+                                    the eleventh rule (<locus from="18b">fol. 18b</locus>) is as follows: <quote>ואלי̇א̇ אדא וג̇ד אלכיש מתקוב פי אלמכאן אלרקיק מנה ומן דלךּ אלמכאן יפרג זבלה וחו יסמי כרם הפנימית והדא מדהב רב האיי ז̇ל̇</quote>.</note>  
+                               
+                                <textLang mainLang="jrb"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Syr. Rabb. char.; 8vo, <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part6" n="6">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/6</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part6-item1">
+                                <locus from="21a" to="26b">Fol. 21</locus>
+                                <author/>
+                                <title>A philosophical treatise in Arabic</title>
+                                <note>beg. missing; beg. <quote type="beg">אן נלתמס אולא פיה תלכיץ אמור מבאדיהא ומן שאן אלטריק אן תכון מן אלאמור אלתי הן ערף ואבין ענדנא אלי אלאמור אלתי הי אבין ואערף ענד אלטביעה</quote>.
+                                    <p>The paragraphs are introduced by  פן and תעליר; the following quotations occur: <locus from="23a">fol. 23</locus>,  <quote>עלי מא קאל אסחאק</quote> and <quote>ברמאנידס ומאלסס</quote>, 
+                                    <locus from="25a">fol. 25</locus>, <quote>מתל קול אברקליטס</quote>.</p>
+                        </note>  
+                               
+                                <textLang mainLang="jrb"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Syr. Rabb. char.; 8vo, <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part7" n="7">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/7</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part7-item1">
+                                <locus from="27a" to="34b">Fol. 27</locus>
+                                <author/>
+                                <title>Fragment of the text of <persName>Jedaiah</persName>’s בחינת עולם with a commentary</title>
+                                <note>beg. with <quote type="beg">ומה תתהלל הגבור וכו̇</quote>, ed. Soncino, ff. 5a to 13b, l. 3 (<quote type="end">הסובבים</quote>).</note>  
+                               
+                                <textLang mainLang="he"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Ital. Rabb. char.; 4to, <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part8" n="8">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/8</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part8-item1">
+                                <locus from="35a" to="48b">Fol. 35</locus>
+                                <author/>
+                                <title>פרקי דרבי אליעזר</title>
+                                <note>chap. 4, beg. missing, to chap. 15, end missing.</note> 
+                                
+                                <textLang mainLang="he"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Yemen Rabb. char.; small 4to, <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part9" n="9">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/9</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part9-item1">
+                                <locus from="49a" to="58b">Fol. 49</locus>
+                                <author/>
+                                <title>תיקונין of the Zohar</title>
+                                <note>end of 38 to beg. of 50.</note>  
+                               
+                                <textLang mainLang="he"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Ital. curs. char.; 8vo, <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part10" n="10">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/10</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part10-item1">
+                                <locus from="59a" to="64b">Fol. 59</locus>
+                                <author/>
+                                <title>
+                           <quote type="head">דרוש מפ̇ זאת חקת</quote>, Kabbalistical</title>
+                                <note>at the end <quote>ספר הרב רבי יצחק אשכנזי</quote>, followed by a note beg. <quote>אמרו חכ̇ ז̇ל̇ האוי עלמא שיתה אלפי שנין</quote>.</note>  
+                               
+                                <textLang mainLang="he"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Ital. Rabb. char.; 8vo, <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    <msPart xml:id="MS_Heb_d_35-part11" n="11">
+                        <msIdentifier>
+                     <altIdentifier type="partial">
+                            <idno>MS. Heb. d. 35/11</idno>
+                        </altIdentifier>
+                  </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_d_35-part11-item1">
+                                <locus from="65a" to="97b">Fol. 65</locus>
+                                <author/>
+                                <title>
+                           <persName>Samuel Nagid</persName>’s commentary on Numbers</title>
+                                <note>(see Nos. 277, 278, and 2443) beg. and end missing.</note>  
+                               
+                                <textLang mainLang="he"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Ital. Rabb. char.; 4to, <material>paper</material>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1891">1891</date> (from the Genizah). 
+                            </acquisition>
+                        </history>
+                        
+                    </msPart>
+                    
+                     
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="INDEX">
+                    <desc>General index of <bibl>Catalogue
+                        of the Hebrew Manuscripts in the Bodleian
+                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                        Cowley, Oxford 1906</bibl>
+               </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="Neubauer">
+                    <term>Astronomy and magic</term>
+                </keywords>
+                
+                <keywords scheme="#INDEX">
+                    <term>
+                  <ref target="#MS_Heb_d_35">Magic, treatises and notes on.</ref>
+               </term>
+                    
+                    <term>
+                  <ref target="#MS_Heb_d_35_02">
+                     <persName type="ment">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Works attributed to him. ספר הגורלות.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_03">Fables.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_03">Homilies. Arabic.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_04">Medical treatises, and notes. Arabic.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_04">
+                     <persName type="ment">Rhazes</persName>.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_05">
+                     <persName type="ment">Hai Gaon</persName>.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_06">
+                     <persName type="ment">Isaac</persName>.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_06">Philosophical treatises, anonymous. Arabic.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_07">
+                     <persName type="aut">Yedayah hap-penini, of Beziers</persName>. בחינת עולם.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_07">Yedayah hap-penini, of Beziers. בחינת עולם. Commentary on it.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_08">Eliezer b. Hyrcanus (pseud.) Pirqe d' R. Eliezer.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_09">Zohar. תיקוני זוהר.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_10">Homiletical treatise.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_10">
+                     <persName type="own">Isaac Ashkenazi</persName>.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_10">Qabbalistic treatises or notes.</ref>
+               </term>
+                    <term>
+                  <ref target="#MS_Heb_d_35_11">
+                     <persName type="aut">Samuel the Nagid (b. Joseph)</persName>. Commentary on Numbers.</ref>
+               </term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+         <change when="2017-07-18">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+            <change when="2011-03-25">
+                <persName>Sabine Arndt</persName> created this file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- every second file named wrong, begins with fol. 4 -->
+        
+        <graphic url="MS_HEB_d_35_4a.tif"/>
+        <graphic url="MS_HEB_d_35_4b.tif"/>
+        <graphic url="MS_HEB_d_35_5a.tif"/>
+        <graphic url="MS_HEB_d_35_5b.tif"/>
+        <graphic url="MS_HEB_d_35_6a.tif"/>
+        <graphic url="MS_HEB_d_35_6b.tif"/>
+        <graphic url="MS_HEB_d_35_7a.tif"/>
+        <graphic url="MS_HEB_d_35_7b.tif"/>
+        <graphic url="MS_HEB_d_35_8a.tif"/>
+        <graphic url="MS_HEB_d_35_8b.tif"/>
+        <graphic url="MS_HEB_d_35_9a.tif"/>
+        <graphic url="MS_HEB_d_35_9b.tif"/>
+        
+        <graphic url="MS_HEB_d_35_10a.tif"/>
+        <graphic url="MS_HEB_d_35_10b.tif"/>
+        <graphic url="MS_HEB_d_35_11a.tif"/>
+        <graphic url="MS_HEB_d_35_11b.tif"/>
+        <graphic url="MS_HEB_d_35_12a.tif"/>
+        <graphic url="MS_HEB_d_35_12b.tif"/>
+        <graphic url="MS_HEB_d_35_13a.tif"/>
+        <graphic url="MS_HEB_d_35_13b.tif"/>
+        <graphic url="MS_HEB_d_35_14a.tif"/>
+        <graphic url="MS_HEB_d_35_14b.tif"/>
+        <graphic url="MS_HEB_d_35_15a.tif"/>
+        <graphic url="MS_HEB_d_35_15b.tif"/>
+        <graphic url="MS_HEB_d_35_16a.tif"/>
+        <graphic url="MS_HEB_d_35_16b.tif"/>
+        <graphic url="MS_HEB_d_35_17a.tif"/>
+        <graphic url="MS_HEB_d_35_17b.tif"/>
+        <graphic url="MS_HEB_d_35_18a.tif"/>
+        <graphic url="MS_HEB_d_35_18b.tif"/>
+        <graphic url="MS_HEB_d_35_19a.tif"/>
+        <graphic url="MS_HEB_d_35_19b.tif"/>
+        
+        <graphic url="MS_HEB_d_35_20a.tif"/>
+        <graphic url="MS_HEB_d_35_20b.tif"/>
+        <graphic url="MS_HEB_d_35_21a.tif"/>
+        <graphic url="MS_HEB_d_35_21b.tif"/>
+        <graphic url="MS_HEB_d_35_22a.tif"/>
+        <graphic url="MS_HEB_d_35_22b.tif"/>
+        <graphic url="MS_HEB_d_35_23a.tif"/>
+        <graphic url="MS_HEB_d_35_23b.tif"/>
+        <graphic url="MS_HEB_d_35_24a.tif"/>
+        <graphic url="MS_HEB_d_35_24b.tif"/>
+        <graphic url="MS_HEB_d_35_25a.tif"/>
+        <graphic url="MS_HEB_d_35_25b.tif"/>
+        <graphic url="MS_HEB_d_35_26a.tif"/>
+        <graphic url="MS_HEB_d_35_26b.tif"/>
+        <graphic url="MS_HEB_d_35_27a.tif"/>
+        <graphic url="MS_HEB_d_35_27b.tif"/>
+        <graphic url="MS_HEB_d_35_28a.tif"/>
+        <graphic url="MS_HEB_d_35_28b.tif"/>
+        <graphic url="MS_HEB_d_35_29a.tif"/>
+        <graphic url="MS_HEB_d_35_29b.tif"/>
+        
+        <graphic url="MS_HEB_d_35_30a.tif"/>
+        <graphic url="MS_HEB_d_35_30b.tif"/>
+        <graphic url="MS_HEB_d_35_31a.tif"/>
+        <graphic url="MS_HEB_d_35_31b.tif"/>
+        <graphic url="MS_HEB_d_35_32a.tif"/>
+        <graphic url="MS_HEB_d_35_32b.tif"/>
+        <graphic url="MS_HEB_d_35_33a.tif"/>
+        <graphic url="MS_HEB_d_35_33b.tif"/>
+        <graphic url="MS_HEB_d_35_34a.tif"/>
+        <graphic url="MS_HEB_d_35_34b.tif"/>
+        <graphic url="MS_HEB_d_35_35a.tif"/>
+        <graphic url="MS_HEB_d_35_35b.tif"/>
+        <graphic url="MS_HEB_d_35_36a.tif"/>
+        <graphic url="MS_HEB_d_35_36b.tif"/>
+        <graphic url="MS_HEB_d_35_37a.tif"/>
+        <graphic url="MS_HEB_d_35_37b.tif"/>
+        <graphic url="MS_HEB_d_35_38a.tif"/>
+        <graphic url="MS_HEB_d_35_38b.tif"/>
+        <graphic url="MS_HEB_d_35_39a.tif"/>
+        <graphic url="MS_HEB_d_35_39b.tif"/>
+        
+        <graphic url="MS_HEB_d_35_40a.tif"/>
+        <graphic url="MS_HEB_d_35_40b.tif"/>
+        <graphic url="MS_HEB_d_35_41a.tif"/>
+        <graphic url="MS_HEB_d_35_41b.tif"/>
+        <graphic url="MS_HEB_d_35_42a.tif"/>
+        <graphic url="MS_HEB_d_35_42b.tif"/>
+        <graphic url="MS_HEB_d_35_43a.tif"/>
+        <graphic url="MS_HEB_d_35_43b.tif"/>
+        <graphic url="MS_HEB_d_35_44a.tif"/>
+        <graphic url="MS_HEB_d_35_44b.tif"/>
+        <graphic url="MS_HEB_d_35_45a.tif"/>
+        <graphic url="MS_HEB_d_35_45b.tif"/>
+        <graphic url="MS_HEB_d_35_46a.tif"/>
+        <graphic url="MS_HEB_d_35_46b.tif"/>
+        <graphic url="MS_HEB_d_35_47a.tif"/>
+        <graphic url="MS_HEB_d_35_47b.tif"/>
+        <graphic url="MS_HEB_d_35_48a.tif"/>
+        <graphic url="MS_HEB_d_35_48b.tif"/>
+        <graphic url="MS_HEB_d_35_49a.tif"/>
+        <graphic url="MS_HEB_d_35_49b.tif"/>
+        
+        <graphic url="MS_HEB_d_35_50a.tif"/>
+        <graphic url="MS_HEB_d_35_50b.tif"/>
+        <graphic url="MS_HEB_d_35_51a.tif"/>
+        <graphic url="MS_HEB_d_35_51b.tif"/>
+        <graphic url="MS_HEB_d_35_52a.tif"/>
+        <graphic url="MS_HEB_d_35_52b.tif"/>
+        <graphic url="MS_HEB_d_35_53a.tif"/>
+        <graphic url="MS_HEB_d_35_53b.tif"/>
+        <graphic url="MS_HEB_d_35_54a.tif"/>
+        <graphic url="MS_HEB_d_35_54b.tif"/>
+        <graphic url="MS_HEB_d_35_55a.tif"/>
+        <graphic url="MS_HEB_d_35_55b.tif"/>
+        <graphic url="MS_HEB_d_35_56a.tif"/>
+        <graphic url="MS_HEB_d_35_56b.tif"/>
+        <graphic url="MS_HEB_d_35_57a.tif"/>
+        <graphic url="MS_HEB_d_35_57b.tif"/>
+        <graphic url="MS_HEB_d_35_58a.tif"/>
+        <graphic url="MS_HEB_d_35_58b.tif"/>
+        <graphic url="MS_HEB_d_35_59a.tif"/>
+        <graphic url="MS_HEB_d_35_59b.tif"/>
+        
+        <graphic url="MS_HEB_d_35_60a.tif"/>
+        <graphic url="MS_HEB_d_35_60b.tif"/>
+        <graphic url="MS_HEB_d_35_61a.tif"/>
+        <graphic url="MS_HEB_d_35_61b.tif"/>
+        <graphic url="MS_HEB_d_35_62a.tif"/>
+        <graphic url="MS_HEB_d_35_62b.tif"/>
+        <graphic url="MS_HEB_d_35_63a.tif"/>
+        <graphic url="MS_HEB_d_35_63b.tif"/>
+        <graphic url="MS_HEB_d_35_64a.tif"/>
+        <graphic url="MS_HEB_d_35_64b.tif"/>
+        <graphic url="MS_HEB_d_35_65a.tif"/>
+        <graphic url="MS_HEB_d_35_65b.tif"/>
+        <graphic url="MS_HEB_d_35_66a.tif"/>
+        <graphic url="MS_HEB_d_35_66b.tif"/>
+        <graphic url="MS_HEB_d_35_67a.tif"/>
+        <graphic url="MS_HEB_d_35_67b.tif"/>
+        <graphic url="MS_HEB_d_35_68a.tif"/>
+        <graphic url="MS_HEB_d_35_68b.tif"/>
+        <graphic url="MS_HEB_d_35_69a.tif"/>
+        <graphic url="MS_HEB_d_35_69b.tif"/>
+        
+        <graphic url="MS_HEB_d_35_70a.tif"/>
+        <graphic url="MS_HEB_d_35_70b.tif"/>
+        <graphic url="MS_HEB_d_35_71a.tif"/>
+        <graphic url="MS_HEB_d_35_71b.tif"/>
+        <graphic url="MS_HEB_d_35_72a.tif"/>
+        <graphic url="MS_HEB_d_35_72b.tif"/>
+        <graphic url="MS_HEB_d_35_73a.tif"/>
+        <graphic url="MS_HEB_d_35_73b.tif"/>
+        <graphic url="MS_HEB_d_35_74a.tif"/>
+        <graphic url="MS_HEB_d_35_74b.tif"/>
+        <graphic url="MS_HEB_d_35_75a.tif"/>
+        <graphic url="MS_HEB_d_35_75b.tif"/>
+        <graphic url="MS_HEB_d_35_76a.tif"/>
+        <graphic url="MS_HEB_d_35_76b.tif"/>
+        <graphic url="MS_HEB_d_35_77a.tif"/>
+        <graphic url="MS_HEB_d_35_77b.tif"/>
+        <graphic url="MS_HEB_d_35_78a.tif"/>
+        <graphic url="MS_HEB_d_35_78b.tif"/>
+        <graphic url="MS_HEB_d_35_79a.tif"/>
+        <graphic url="MS_HEB_d_35_79b.tif"/>
+        
+        <graphic url="MS_HEB_d_35_80a.tif"/>
+        <graphic url="MS_HEB_d_35_80b.tif"/>
+        <graphic url="MS_HEB_d_35_81a.tif"/>
+        <graphic url="MS_HEB_d_35_81b.tif"/>
+        <graphic url="MS_HEB_d_35_82a.tif"/>
+        <graphic url="MS_HEB_d_35_82b.tif"/>
+        <graphic url="MS_HEB_d_35_83a.tif"/>
+        <graphic url="MS_HEB_d_35_83b.tif"/>
+        <graphic url="MS_HEB_d_35_84a.tif"/>
+        <graphic url="MS_HEB_d_35_84b.tif"/>
+        <graphic url="MS_HEB_d_35_85a.tif"/>
+        <graphic url="MS_HEB_d_35_85b.tif"/>
+        <graphic url="MS_HEB_d_35_86a.tif"/>
+        <graphic url="MS_HEB_d_35_86b.tif"/>
+        <graphic url="MS_HEB_d_35_87a.tif"/>
+        <graphic url="MS_HEB_d_35_87b.tif"/>
+        <graphic url="MS_HEB_d_35_88a.tif"/>
+        <graphic url="MS_HEB_d_35_88b.tif"/>
+        <graphic url="MS_HEB_d_35_89a.tif"/>
+        <graphic url="MS_HEB_d_35_89b.tif"/>
+        
+        <graphic url="MS_HEB_d_35_90a.tif"/>
+        <graphic url="MS_HEB_d_35_90b.tif"/>
+        <graphic url="MS_HEB_d_35_91a.tif"/>
+        <graphic url="MS_HEB_d_35_91b.tif"/>
+        <graphic url="MS_HEB_d_35_92a.tif"/>
+        <graphic url="MS_HEB_d_35_92b.tif"/>
+        <graphic url="MS_HEB_d_35_93a.tif"/>
+        <graphic url="MS_HEB_d_35_93b.tif"/>
+        <graphic url="MS_HEB_d_35_94a.tif"/>
+        <graphic url="MS_HEB_d_35_94b.tif"/>
+        <graphic url="MS_HEB_d_35_95a.tif"/>
+        <graphic url="MS_HEB_d_35_95b.tif"/>
+        <graphic url="MS_HEB_d_35_96a.tif"/>
+        <graphic url="MS_HEB_d_35_96b.tif"/>
+        <graphic url="MS_HEB_d_35_97a.tif"/>
+        <graphic url="MS_HEB_d_35_97b.tif"/>
+        
+    </facsimile>
+</TEI>

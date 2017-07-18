@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_110">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital description of MS. Heb. e. 110</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>[Name of cataloguer]</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date calendar="Gregorian">[Date when first made available]</date>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine>
+                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                    </addrLine>
+                    <addrLine>
+                        <email>oriental@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address>
+                </pubPlace>
+                <idno>MS_Heb_e_110</idno>
+             
+            <idno type="msID">MS_Heb_e_110</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="MS_Heb_e_110" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <idno>MS. Heb. e. 110</idno>
+                    </msIdentifier>                    
+                    
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_e_110-item1">
+                                <locus from="1a" to="8b">Fols. 1-8</locus>
+                                <author/>
+                                <title>Arabic commentary on Lev. 14,17 to 15,12</title>
+                                <note>Fragment of the same manuscript as <ref target="MS_Heb_d_34_11">no. 2680, 11</ref>.                                   
+                                    <p>At the beginning are bound in:</p> 
+                                    <p>
+                           <locus from="extra_2">(a)</locus> a note by <persName>G. Maspero</persName> on the contents of the fragment;</p> 
+                                    <p>
+                           <locus from="extra_1">(b)</locus> a letter from <persName>F.Ll. Griffith</persName> on the provenance of it.</p>
+                     </note>  
+                                
+                                <textLang mainLang="jrb"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>8 folios.</p>
+                            <p>Syr. Rabb. char.; <material>paper</material>, 7 1/2 x 5 3/8 in., about 35 lines; much injured.</p>
+                            <p>Fragment of the same manuscript as <ref target="MS_Heb_d_34_11">no. 2680, 11</ref>.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Given (through <persName>F.Ll. Griffith</persName>) in <date calendar="Gregorian" when="1911">1911</date> by <persName>G.W. Murray</persName>, who obtained them in the Fayum. Probably from the Genizah as no. <ref target="MS_Heb_d_34_11">2680, 11</ref>.
+                            </acquisition>
+                        </history>
+                        <additional>
+                            <adminInfo>
+                                <recordHist>
+                                    <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p078.jpg">fol. 78</ref>.</source>
+                                </recordHist>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on
+                                        presentation of a valid reader's card (for admissions
+                                        procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
+                                        <email>oriental@bodleian.ox.ac.uk</email> for further
+                                        information on the availability of this manuscript</p>
+                                </availability>
+                            </adminInfo>
+                            
+                        </additional>
+                    
+                     
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="TYPED">
+                    <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue
+                        of the Hebrew Manuscripts in the Bodleian
+                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                        Cowley, Oxford 1906</bibl>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                
+                
+                <keywords scheme="#TYPED">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+         <change when="2017-07-18">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+            <change when="2011-07-01">
+                <persName>Sabine Arndt</persName> created this file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="MS_HEB_e_110_extra_3.tif"/>        
+        <graphic url="MS_HEB_e_110_extra_2.tif"/>
+        <graphic url="MS_HEB_e_110_extra_1.tif"/>      
+        
+        <graphic url="MS_HEB_e_110_1a.tif"/>
+        <graphic url="MS_HEB_e_110_1b.tif"/>
+        <graphic url="MS_HEB_e_110_2a.tif"/>
+        <graphic url="MS_HEB_e_110_2b.tif"/>
+        <graphic url="MS_HEB_e_110_3a.tif"/>
+        <graphic url="MS_HEB_e_110_3b.tif"/>
+        <graphic url="MS_HEB_e_110_4a.tif"/>
+        <graphic url="MS_HEB_e_110_4b.tif"/>
+        <graphic url="MS_HEB_e_110_5a.tif"/>
+        <graphic url="MS_HEB_e_110_5b.tif"/>
+        <graphic url="MS_HEB_e_110_6a.tif"/>
+        <graphic url="MS_HEB_e_110_6b.tif"/>
+        <graphic url="MS_HEB_e_110_7a.tif"/>
+        <graphic url="MS_HEB_e_110_7b.tif"/>
+        <graphic url="MS_HEB_e_110_8a.tif"/>
+        <graphic url="MS_HEB_e_110_8b.tif"/>       
+        
+       
+    </facsimile>
+</TEI>

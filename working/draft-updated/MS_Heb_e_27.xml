@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_116">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital description of MS. Heb. e. 27</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>[Name of cataloguer]</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date calendar="Gregorian">[Date when first made available]</date>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine>
+                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                    </addrLine>
+                    <addrLine>
+                        <email>oriental@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address>
+                </pubPlace>
+                <idno>MS_Heb_e_27</idno>
+             
+            <idno type="msID">MS_Heb_e_27</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="MS_Heb_e_27" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <idno>MS. Heb. e. 27</idno>
+                        <altIdentifier type="other">
+                            <idno type="cat_no">2627</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_e_27-item1">
+                                <locus from="1a" to="6b"/>
+                                <author/>
+                                <title>
+                        <persName type="aut">Seadiah Gaon</persName>'s Arabic translation of Genesis i and ii</title>
+                                <note>preceded by the preface (beg. missing), beg. <quote type="beg">לא תדכל פי כתיר מן אלאוקאת אלי אלקדם</quote> (ed. J. Derenbourg, 1893, p. 2, l. 6 from below).
+                                    
+                                </note>  
+                                
+                                <textLang mainLang="jrb"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>Syr. Rabb, char.; 8vo, yellow <material>paper</material>, ff. 6.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1890</date> (from the Genizah).
+                            </acquisition>
+                        </history>
+                        <additional>
+                            <adminInfo>
+                                <recordHist>
+                                    <source>Manuscript description based on <bibl>Catalogue
+                                        of the Hebrew Manuscripts in the Bodleian
+                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p014a.jpg">No. 2627</ref>.
+                                        </source>
+                                </recordHist>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on
+                                        presentation of a valid reader's card (for admissions
+                                        procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
+                                        <email>oriental@bodleian.ox.ac.uk</email> for further
+                                        information on the availability of this manuscript</p>
+                                </availability>
+                            </adminInfo>
+                            
+                        </additional>
+                    
+                     
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="INDEX">
+                    <desc>General index of <bibl>Catalogue
+                        of the Hebrew Manuscripts in the Bodleian
+                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                        Cowley, Oxford 1906</bibl>
+               </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="Neubauer">
+                    <term>Translations</term>
+                </keywords>
+                <keywords scheme="#INDEX">
+                    <term>
+                  <ref target="#MS_Heb_e_27">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Versions, Arabic: Genesis.</ref>
+               </term>
+
+                    <term>
+                  <ref target="#MS_Heb_e_27">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Commentaries, Arabic: Genesis.</ref>
+               </term>
+            </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+         <change when="2017-07-18">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+            <change when="2010-07-13">
+                <persName>Sabine Arndt</persName> created this file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="MS_HEB_e_27_1a.tif"/>
+        <graphic url="MS_HEB_e_27_1b.tif"/>
+        <graphic url="MS_HEB_e_27_2a.tif"/>
+        <graphic url="MS_HEB_e_27_2b.tif"/>
+        <graphic url="MS_HEB_e_27_3a.tif"/>
+        <graphic url="MS_HEB_e_27_3b.tif"/>
+        <graphic url="MS_HEB_e_27_4a.tif"/>
+        <graphic url="MS_HEB_e_27_4b.tif"/>
+        <graphic url="MS_HEB_e_27_5a.tif"/>
+        <graphic url="MS_HEB_e_27_5b.tif"/>
+        <graphic url="MS_HEB_e_27_6a.tif"/>
+        <graphic url="MS_HEB_e_27_6b.tif"/>
+       
+    </facsimile>
+</TEI>

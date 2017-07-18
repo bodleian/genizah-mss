@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_174">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital description of MS. Heb. f. 111</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>[Name of cataloguer]</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date calendar="Gregorian">[Date when first made available]</date>
+                <publisher>Bodleian Library</publisher>
+                <pubPlace>
+                    <address>
+                    <addrLine>Department of Special Collections</addrLine>
+                    <addrLine>Bodleian Library</addrLine>
+                    <street>Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <addrLine>
+                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                    </addrLine>
+                    <addrLine>
+                        <email>oriental@bodleian.ox.ac.uk</email>
+                    </addrLine>
+                    </address>
+                </pubPlace>
+                <idno>MS_Heb_f_111</idno>
+             
+            <idno type="msID">MS_Heb_f_111</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="MS_Heb_f_111" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <idno>MS. Heb. f. 111</idno>
+                    </msIdentifier>                 
+                    
+                        <msContents>                            
+                            <msItem xml:id="MS_Heb_f_111-item1">
+                                <locus from="1" to="136">Fols. 1-135</locus>
+                                <author/>
+                                <title>A collection of hymns</title>
+                                <note>beg. missing. Fol. 1 is numbered י"ב in the original foliation, which has been altered more than once in some parts of the volume. Each page is headed פיוטים, and each hymn פיוט. In most cases the acrostic is noted (not always correctly) at the beginning, and in many cases the model is mentioned.</note>
+                                <note>Temporary record.</note>  
+                               <textLang mainLang="he"/>
+                            </msItem>
+                             
+                        </msContents>
+                        <physDesc>
+                            <p>135 leaves.</p>
+                        </physDesc>
+                        <history>
+                            <acquisition>Given in <date calendar="Gregorian" when="1915">1915</date> by <persName>A. Cowley</persName>, who bought the volume from a dealer. 
+                            </acquisition>
+                        </history>
+                        <additional>
+                            <adminInfo>
+                                <recordHist>
+                                    <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p109.jpg Catalogue-2_p110.jpg Catalogue-2_p111.jpg Catalogue-2_p112.jpg Catalogue-2_p113.jpg Catalogue-2_p114.jpg Catalogue-2_p115.jpg Catalogue-2_p116.jpg Catalogue-2_p117.jpg Catalogue-2_p118.jpg Catalogue-2_p119.jpg">fols. 109-119</ref>.</source>
+                                </recordHist>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on
+                                        presentation of a valid reader's card (for admissions
+                                        procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
+                                        <email>oriental@bodleian.ox.ac.uk</email> for further
+                                        information on the availability of this manuscript</p>
+                                </availability>
+                            </adminInfo>
+                            
+                        </additional>
+                    
+                     
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="TYPED">
+                    <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue
+                        of the Hebrew Manuscripts in the Bodleian
+                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
+                        Cowley, Oxford 1906</bibl>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                
+                
+                <keywords scheme="#TYPED">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+         <change when="2017-07-18">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+            <change when="2011-08-16">
+                <persName>Sabine Arndt</persName> created this file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="MS_HEB_f_111_1.tif"/>       
+        <graphic url="MS_HEB_f_111_2.tif"/>       
+        <graphic url="MS_HEB_f_111_3.tif"/>       
+        <graphic url="MS_HEB_f_111_4.tif"/>       
+        <graphic url="MS_HEB_f_111_5.tif"/>      
+        <graphic url="MS_HEB_f_111_6.tif"/>      
+        <graphic url="MS_HEB_f_111_7.tif"/>        
+        <graphic url="MS_HEB_f_111_8.tif"/>       
+        <graphic url="MS_HEB_f_111_9.tif"/>        
+        
+        <graphic url="MS_HEB_f_111_10.tif"/>
+        <graphic url="MS_HEB_f_111_11.tif"/>       
+        <graphic url="MS_HEB_f_111_12.tif"/>       
+        <graphic url="MS_HEB_f_111_13.tif"/>       
+        <graphic url="MS_HEB_f_111_14.tif"/>       
+        <graphic url="MS_HEB_f_111_15.tif"/>      
+        <graphic url="MS_HEB_f_111_16.tif"/>      
+        <graphic url="MS_HEB_f_111_17.tif"/>        
+        <graphic url="MS_HEB_f_111_18.tif"/>       
+        <graphic url="MS_HEB_f_111_19.tif"/>        
+        
+        <graphic url="MS_HEB_f_111_20.tif"/>
+        <graphic url="MS_HEB_f_111_21.tif"/>       
+        <graphic url="MS_HEB_f_111_22.tif"/>       
+        <graphic url="MS_HEB_f_111_23.tif"/>       
+        <graphic url="MS_HEB_f_111_24.tif"/>       
+        <graphic url="MS_HEB_f_111_25.tif"/>      
+        <graphic url="MS_HEB_f_111_26.tif"/>      
+        <graphic url="MS_HEB_f_111_27.tif"/>        
+        <graphic url="MS_HEB_f_111_28.tif"/>       
+        <graphic url="MS_HEB_f_111_29.tif"/>    
+        
+        <graphic url="MS_HEB_f_111_30.tif"/>
+        <graphic url="MS_HEB_f_111_31.tif"/>       
+        <graphic url="MS_HEB_f_111_32.tif"/>       
+        <graphic url="MS_HEB_f_111_33.tif"/>       
+        <graphic url="MS_HEB_f_111_34.tif"/>       
+        <graphic url="MS_HEB_f_111_35.tif"/>      
+        <graphic url="MS_HEB_f_111_36.tif"/>      
+        <graphic url="MS_HEB_f_111_37.tif"/>        
+        <graphic url="MS_HEB_f_111_38.tif"/>       
+        <graphic url="MS_HEB_f_111_39.tif"/>     
+        
+        <graphic url="MS_HEB_f_111_40.tif"/>
+        <graphic url="MS_HEB_f_111_41.tif"/>       
+        <graphic url="MS_HEB_f_111_42.tif"/>       
+        <graphic url="MS_HEB_f_111_43.tif"/>       
+        <graphic url="MS_HEB_f_111_44.tif"/>       
+        <graphic url="MS_HEB_f_111_45.tif"/>      
+        <graphic url="MS_HEB_f_111_46.tif"/>      
+        <graphic url="MS_HEB_f_111_47.tif"/>        
+        <graphic url="MS_HEB_f_111_48.tif"/>       
+        <graphic url="MS_HEB_f_111_49.tif"/>    
+        
+        <graphic url="MS_HEB_f_111_50.tif"/>
+        <graphic url="MS_HEB_f_111_51.tif"/>       
+        <graphic url="MS_HEB_f_111_52.tif"/>       
+        <graphic url="MS_HEB_f_111_53.tif"/>       
+        <graphic url="MS_HEB_f_111_54.tif"/>       
+        <graphic url="MS_HEB_f_111_55.tif"/>      
+        <graphic url="MS_HEB_f_111_56.tif"/>      
+        <graphic url="MS_HEB_f_111_57.tif"/>        
+        <graphic url="MS_HEB_f_111_58.tif"/>       
+        <graphic url="MS_HEB_f_111_59.tif"/>    
+        
+        <graphic url="MS_HEB_f_111_60.tif"/>
+        <graphic url="MS_HEB_f_111_61.tif"/>       
+        <graphic url="MS_HEB_f_111_62.tif"/>       
+        <graphic url="MS_HEB_f_111_63.tif"/>       
+        <graphic url="MS_HEB_f_111_64.tif"/>       
+        <graphic url="MS_HEB_f_111_65.tif"/>      
+        <graphic url="MS_HEB_f_111_66.tif"/>      
+        <graphic url="MS_HEB_f_111_67.tif"/>        
+        <graphic url="MS_HEB_f_111_68.tif"/>       
+        <graphic url="MS_HEB_f_111_69.tif"/>    
+        
+        <graphic url="MS_HEB_f_111_70.tif"/>
+        <graphic url="MS_HEB_f_111_71.tif"/>       
+        <graphic url="MS_HEB_f_111_72.tif"/>       
+        <graphic url="MS_HEB_f_111_73.tif"/>       
+        <graphic url="MS_HEB_f_111_74.tif"/>       
+        <graphic url="MS_HEB_f_111_75.tif"/>      
+        <graphic url="MS_HEB_f_111_76.tif"/>      
+        <graphic url="MS_HEB_f_111_77.tif"/>        
+        <graphic url="MS_HEB_f_111_78.tif"/>       
+        <graphic url="MS_HEB_f_111_79.tif"/>    
+        
+        <graphic url="MS_HEB_f_111_80.tif"/>
+        <graphic url="MS_HEB_f_111_81.tif"/>       
+        <graphic url="MS_HEB_f_111_82.tif"/>       
+        <graphic url="MS_HEB_f_111_83.tif"/>       
+        <graphic url="MS_HEB_f_111_84.tif"/>       
+        <graphic url="MS_HEB_f_111_85.tif"/>      
+        <graphic url="MS_HEB_f_111_86.tif"/>      
+        <graphic url="MS_HEB_f_111_87.tif"/>        
+        <graphic url="MS_HEB_f_111_88.tif"/>       
+        <graphic url="MS_HEB_f_111_89.tif"/>   
+        
+        <graphic url="MS_HEB_f_111_90.tif"/>
+        <graphic url="MS_HEB_f_111_91.tif"/>       
+        <graphic url="MS_HEB_f_111_92.tif"/>       
+        <graphic url="MS_HEB_f_111_93.tif"/>       
+        <graphic url="MS_HEB_f_111_94.tif"/>       
+        <graphic url="MS_HEB_f_111_95.tif"/>      
+        <graphic url="MS_HEB_f_111_96.tif"/>      
+        <graphic url="MS_HEB_f_111_97.tif"/>        
+        <graphic url="MS_HEB_f_111_98.tif"/>       
+        <graphic url="MS_HEB_f_111_99.tif"/>   
+        
+        <graphic url="MS_HEB_f_111_100.tif"/>
+        <graphic url="MS_HEB_f_111_101.tif"/>       
+        <graphic url="MS_HEB_f_111_102.tif"/>       
+        <graphic url="MS_HEB_f_111_103.tif"/>       
+        <graphic url="MS_HEB_f_111_104.tif"/>       
+        <graphic url="MS_HEB_f_111_105.tif"/>      
+        <graphic url="MS_HEB_f_111_106.tif"/>      
+        <graphic url="MS_HEB_f_111_107.tif"/>        
+        <graphic url="MS_HEB_f_111_108.tif"/>       
+        <graphic url="MS_HEB_f_111_109.tif"/>    
+        
+        <graphic url="MS_HEB_f_111_110.tif"/>
+        <graphic url="MS_HEB_f_111_111.tif"/>       
+        <graphic url="MS_HEB_f_111_112.tif"/>       
+        <graphic url="MS_HEB_f_111_113.tif"/>       
+        <graphic url="MS_HEB_f_111_114.tif"/>       
+        <graphic url="MS_HEB_f_111_115.tif"/>      
+        <graphic url="MS_HEB_f_111_116.tif"/>      
+        <graphic url="MS_HEB_f_111_117.tif"/>        
+        <graphic url="MS_HEB_f_111_118.tif"/>       
+        <graphic url="MS_HEB_f_111_119.tif"/>    
+        
+        <graphic url="MS_HEB_f_111_120.tif"/>
+        <graphic url="MS_HEB_f_111_121.tif"/>       
+        <graphic url="MS_HEB_f_111_122.tif"/>       
+        <graphic url="MS_HEB_f_111_123.tif"/>       
+        <graphic url="MS_HEB_f_111_124.tif"/>       
+        <graphic url="MS_HEB_f_111_125.tif"/>      
+        <graphic url="MS_HEB_f_111_126.tif"/>      
+        <graphic url="MS_HEB_f_111_127.tif"/>        
+        <graphic url="MS_HEB_f_111_128.tif"/>       
+        <graphic url="MS_HEB_f_111_129.tif"/>    
+        
+        <graphic url="MS_HEB_f_111_130.tif"/>
+        <graphic url="MS_HEB_f_111_131.tif"/>       
+        <graphic url="MS_HEB_f_111_132.tif"/>       
+        <graphic url="MS_HEB_f_111_133.tif"/>       
+        <graphic url="MS_HEB_f_111_134.tif"/>       
+        <graphic url="MS_HEB_f_111_135.tif"/>      
+        <graphic url="MS_HEB_f_111_136.tif"/>      
+       
+    </facsimile>
+</TEI>
