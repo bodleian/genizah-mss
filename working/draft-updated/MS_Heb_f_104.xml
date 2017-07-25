@@ -2,302 +2,274 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_168">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. f. 104</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_f_104</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. f. 104</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_f_104</idno>
             <idno type="msID">MS_Heb_f_104</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_f_104" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. f. 104</idno>
-                    </msIdentifier>
-                        <msContents>     
-                            <summary>Extracts from the Zohar; imperfect at the beginning.</summary>
-                            <msItem xml:id="MS_Heb_f_104-item1">
-                                <locus from="1a" to="88b">Fols. 1-88</locus>
-                                <author/>
-                                <title>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_f_104" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. f. 104</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Extracts from the Zohar; imperfect at the beginning.</summary>
+                  <msItem xml:id="MS_Heb_f_104-item1">
+                     <locus from="1a" to="88b">Fols. 1-88</locus>
+                     <title>
                         <quote>שבחי רשבי</quote>
                      </title>
-                                <note>Temporary record.</note>
-                               
-                                <textLang mainLang="he" otherLangs="arc"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Ff. 88.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        <additional>
-                            <adminInfo>
-                                <recordHist>
-                                    <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p098.jpg">fol. 98</ref>.</source>
-                                </recordHist>
-                                <availability status="restricted">
-                                    <p>Entry to read in the Library is permitted only on
-                                        presentation of a valid reader's card (for admissions
-                                        procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                        <email>oriental@bodleian.ox.ac.uk</email> for further
-                                        information on the availability of this manuscript</p>
-                                </availability>
-                            </adminInfo>
-                            
-                        </additional>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="TYPED">
-                    <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
-                    </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                
-                
-                <keywords scheme="#TYPED">
-                    <term/>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+                     <note>Temporary record.</note>
+                     <textLang mainLang="he" otherLangs="arc"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ff. 88.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Acquired by exchange from<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p098.jpg">fol. 98</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="TYPED">
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2011-08-01">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS_HEB_f_104_1a.tif"/>
-        <graphic url="MS_HEB_f_104_1b.tif"/>
-        <graphic url="MS_HEB_f_104_2a.tif"/>
-        <graphic url="MS_HEB_f_104_2b.tif"/>
-        <graphic url="MS_HEB_f_104_3a.tif"/>
-        <graphic url="MS_HEB_f_104_3b.tif"/>
-        <graphic url="MS_HEB_f_104_4a.tif"/>
-        <graphic url="MS_HEB_f_104_4b.tif"/>
-        <graphic url="MS_HEB_f_104_5a.tif"/>
-        <graphic url="MS_HEB_f_104_5b.tif"/>
-        <graphic url="MS_HEB_f_104_6a.tif"/>
-        <graphic url="MS_HEB_f_104_6b.tif"/>
-        <graphic url="MS_HEB_f_104_7a.tif"/>
-        <graphic url="MS_HEB_f_104_7b.tif"/>
-        <graphic url="MS_HEB_f_104_8a.tif"/>
-        <graphic url="MS_HEB_f_104_8b.tif"/>
-        <graphic url="MS_HEB_f_104_9a.tif"/>
-        <graphic url="MS_HEB_f_104_9b.tif"/>
-        
-        <graphic url="MS_HEB_f_104_10a.tif"/>
-        <graphic url="MS_HEB_f_104_10b.tif"/>
-        <graphic url="MS_HEB_f_104_11a.tif"/>
-        <graphic url="MS_HEB_f_104_11b.tif"/>
-        <graphic url="MS_HEB_f_104_12a.tif"/>
-        <graphic url="MS_HEB_f_104_12b.tif"/>
-        <graphic url="MS_HEB_f_104_13a.tif"/>
-        <graphic url="MS_HEB_f_104_13b.tif"/>
-        <graphic url="MS_HEB_f_104_14a.tif"/>
-        <graphic url="MS_HEB_f_104_14b.tif"/>
-        <graphic url="MS_HEB_f_104_15a.tif"/>
-        <graphic url="MS_HEB_f_104_15b.tif"/>
-        <graphic url="MS_HEB_f_104_16a.tif"/>
-        <graphic url="MS_HEB_f_104_16b.tif"/>
-        <graphic url="MS_HEB_f_104_17a.tif"/>
-        <graphic url="MS_HEB_f_104_17b.tif"/>
-        <graphic url="MS_HEB_f_104_18a.tif"/>
-        <graphic url="MS_HEB_f_104_18b.tif"/>
-        <graphic url="MS_HEB_f_104_19a.tif"/>
-        <graphic url="MS_HEB_f_104_19b.tif"/>
-        
-        <graphic url="MS_HEB_f_104_20a.tif"/>
-        <graphic url="MS_HEB_f_104_20b.tif"/>
-        <graphic url="MS_HEB_f_104_21a.tif"/>
-        <graphic url="MS_HEB_f_104_21b.tif"/>
-        <graphic url="MS_HEB_f_104_22a.tif"/>
-        <graphic url="MS_HEB_f_104_22b.tif"/>
-        <graphic url="MS_HEB_f_104_23a.tif"/>
-        <graphic url="MS_HEB_f_104_23b.tif"/>
-        <graphic url="MS_HEB_f_104_24a.tif"/>
-        <graphic url="MS_HEB_f_104_24b.tif"/>
-        <graphic url="MS_HEB_f_104_25a.tif"/>
-        <graphic url="MS_HEB_f_104_25b.tif"/>
-        <graphic url="MS_HEB_f_104_26a.tif"/>
-        <graphic url="MS_HEB_f_104_26b.tif"/>
-        <graphic url="MS_HEB_f_104_27a.tif"/>
-        <graphic url="MS_HEB_f_104_27b.tif"/>
-        <graphic url="MS_HEB_f_104_28a.tif"/>
-        <graphic url="MS_HEB_f_104_28b.tif"/>
-        <graphic url="MS_HEB_f_104_29a.tif"/>
-        <graphic url="MS_HEB_f_104_29b.tif"/>
-        
-        <graphic url="MS_HEB_f_104_30a.tif"/>
-        <graphic url="MS_HEB_f_104_30b.tif"/>
-        <graphic url="MS_HEB_f_104_31a.tif"/>
-        <graphic url="MS_HEB_f_104_31b.tif"/>
-        <graphic url="MS_HEB_f_104_32a.tif"/>
-        <graphic url="MS_HEB_f_104_32b.tif"/>
-        <graphic url="MS_HEB_f_104_33a.tif"/>
-        <graphic url="MS_HEB_f_104_33b.tif"/>
-        <graphic url="MS_HEB_f_104_34a.tif"/>
-        <graphic url="MS_HEB_f_104_34b.tif"/>
-        <graphic url="MS_HEB_f_104_35a.tif"/>
-        <graphic url="MS_HEB_f_104_35b.tif"/>
-        <graphic url="MS_HEB_f_104_36a.tif"/>
-        <graphic url="MS_HEB_f_104_36b.tif"/>
-        <graphic url="MS_HEB_f_104_37a.tif"/>
-        <graphic url="MS_HEB_f_104_37b.tif"/>
-        <graphic url="MS_HEB_f_104_38a.tif"/>
-        <graphic url="MS_HEB_f_104_38b.tif"/>
-        <graphic url="MS_HEB_f_104_39a.tif"/>
-        <graphic url="MS_HEB_f_104_39b.tif"/>
-        
-        <graphic url="MS_HEB_f_104_40a.tif"/>
-        <graphic url="MS_HEB_f_104_40b.tif"/>
-        <graphic url="MS_HEB_f_104_41a.tif"/>
-        <graphic url="MS_HEB_f_104_41b.tif"/>
-        <graphic url="MS_HEB_f_104_42a.tif"/>
-        <graphic url="MS_HEB_f_104_42b.tif"/>
-        <graphic url="MS_HEB_f_104_43a.tif"/>
-        <graphic url="MS_HEB_f_104_43b.tif"/>
-        <graphic url="MS_HEB_f_104_44a.tif"/>
-        <graphic url="MS_HEB_f_104_44b.tif"/>
-        <graphic url="MS_HEB_f_104_45a.tif"/>
-        <graphic url="MS_HEB_f_104_45b.tif"/>
-        <graphic url="MS_HEB_f_104_46a.tif"/>
-        <graphic url="MS_HEB_f_104_46b.tif"/>
-        <graphic url="MS_HEB_f_104_47a.tif"/>
-        <graphic url="MS_HEB_f_104_47b.tif"/>
-        <graphic url="MS_HEB_f_104_48a.tif"/>
-        <graphic url="MS_HEB_f_104_48b.tif"/>
-        <graphic url="MS_HEB_f_104_49a.tif"/>
-        <graphic url="MS_HEB_f_104_49b.tif"/>
-        
-        <graphic url="MS_HEB_f_104_50a.tif"/>
-        <graphic url="MS_HEB_f_104_50b.tif"/>
-        <graphic url="MS_HEB_f_104_51a.tif"/>
-        <graphic url="MS_HEB_f_104_51b.tif"/>
-        <graphic url="MS_HEB_f_104_52a.tif"/>
-        <graphic url="MS_HEB_f_104_52b.tif"/>
-        <graphic url="MS_HEB_f_104_53a.tif"/>
-        <graphic url="MS_HEB_f_104_53b.tif"/>
-        <graphic url="MS_HEB_f_104_54a.tif"/>
-        <graphic url="MS_HEB_f_104_54b.tif"/>
-        <graphic url="MS_HEB_f_104_55a.tif"/>
-        <graphic url="MS_HEB_f_104_55b.tif"/>
-        <graphic url="MS_HEB_f_104_56a.tif"/>
-        <graphic url="MS_HEB_f_104_56b.tif"/>
-        <graphic url="MS_HEB_f_104_57a.tif"/>
-        <graphic url="MS_HEB_f_104_57b.tif"/>
-        <graphic url="MS_HEB_f_104_58a.tif"/>
-        <graphic url="MS_HEB_f_104_58b.tif"/>
-        <graphic url="MS_HEB_f_104_59a.tif"/>
-        <graphic url="MS_HEB_f_104_59b.tif"/>
-        
-        <graphic url="MS_HEB_f_104_60a.tif"/>
-        <graphic url="MS_HEB_f_104_60b.tif"/>
-        <graphic url="MS_HEB_f_104_61a.tif"/>
-        <graphic url="MS_HEB_f_104_61b.tif"/>
-        <graphic url="MS_HEB_f_104_62a.tif"/>
-        <graphic url="MS_HEB_f_104_62b.tif"/>
-        <graphic url="MS_HEB_f_104_63a.tif"/>
-        <graphic url="MS_HEB_f_104_63b.tif"/>
-        <graphic url="MS_HEB_f_104_64a.tif"/>
-        <graphic url="MS_HEB_f_104_64b.tif"/>
-        <graphic url="MS_HEB_f_104_65a.tif"/>
-        <graphic url="MS_HEB_f_104_65b.tif"/>
-        <graphic url="MS_HEB_f_104_66a.tif"/>
-        <graphic url="MS_HEB_f_104_66b.tif"/>
-        <graphic url="MS_HEB_f_104_67a.tif"/>
-        <graphic url="MS_HEB_f_104_67b.tif"/>
-        <graphic url="MS_HEB_f_104_68a.tif"/>
-        <graphic url="MS_HEB_f_104_68b.tif"/>
-        <graphic url="MS_HEB_f_104_69a.tif"/>
-        <graphic url="MS_HEB_f_104_69b.tif"/>
-        
-        <graphic url="MS_HEB_f_104_70a.tif"/>
-        <graphic url="MS_HEB_f_104_70b.tif"/>
-        <graphic url="MS_HEB_f_104_71a.tif"/>
-        <graphic url="MS_HEB_f_104_71b.tif"/>
-        <graphic url="MS_HEB_f_104_72a.tif"/>
-        <graphic url="MS_HEB_f_104_72b.tif"/>
-        <graphic url="MS_HEB_f_104_73a.tif"/>
-        <graphic url="MS_HEB_f_104_73b.tif"/>
-        <graphic url="MS_HEB_f_104_74a.tif"/>
-        <graphic url="MS_HEB_f_104_74b.tif"/>
-        <graphic url="MS_HEB_f_104_75a.tif"/>
-        <graphic url="MS_HEB_f_104_75b.tif"/>
-        <graphic url="MS_HEB_f_104_76a.tif"/>
-        <graphic url="MS_HEB_f_104_76b.tif"/>
-        <graphic url="MS_HEB_f_104_77a.tif"/>
-        <graphic url="MS_HEB_f_104_77b.tif"/>
-        <graphic url="MS_HEB_f_104_78a.tif"/>
-        <graphic url="MS_HEB_f_104_78b.tif"/>
-        <graphic url="MS_HEB_f_104_79a.tif"/>
-        <graphic url="MS_HEB_f_104_79b.tif"/>
-        
-        <graphic url="MS_HEB_f_104_80a.tif"/>
-        <graphic url="MS_HEB_f_104_80b.tif"/>
-        <graphic url="MS_HEB_f_104_81a.tif"/>
-        <graphic url="MS_HEB_f_104_81b.tif"/>
-        <graphic url="MS_HEB_f_104_82a.tif"/>
-        <graphic url="MS_HEB_f_104_82b.tif"/>
-        <graphic url="MS_HEB_f_104_83a.tif"/>
-        <graphic url="MS_HEB_f_104_83b.tif"/>
-        <graphic url="MS_HEB_f_104_84a.tif"/>
-        <graphic url="MS_HEB_f_104_84b.tif"/>
-        <graphic url="MS_HEB_f_104_85a.tif"/>
-        <graphic url="MS_HEB_f_104_85b.tif"/>
-        <graphic url="MS_HEB_f_104_86a.tif"/>
-        <graphic url="MS_HEB_f_104_86b.tif"/>
-        <graphic url="MS_HEB_f_104_87a.tif"/>
-        <graphic url="MS_HEB_f_104_87b.tif"/>
-        <graphic url="MS_HEB_f_104_88a.tif"/>
-        <graphic url="MS_HEB_f_104_88b.tif"/>
-      
-    </facsimile>
+         <change when="2011-08-01">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_f_104_1a.tif"/>
+      <graphic url="MS_HEB_f_104_1b.tif"/>
+      <graphic url="MS_HEB_f_104_2a.tif"/>
+      <graphic url="MS_HEB_f_104_2b.tif"/>
+      <graphic url="MS_HEB_f_104_3a.tif"/>
+      <graphic url="MS_HEB_f_104_3b.tif"/>
+      <graphic url="MS_HEB_f_104_4a.tif"/>
+      <graphic url="MS_HEB_f_104_4b.tif"/>
+      <graphic url="MS_HEB_f_104_5a.tif"/>
+      <graphic url="MS_HEB_f_104_5b.tif"/>
+      <graphic url="MS_HEB_f_104_6a.tif"/>
+      <graphic url="MS_HEB_f_104_6b.tif"/>
+      <graphic url="MS_HEB_f_104_7a.tif"/>
+      <graphic url="MS_HEB_f_104_7b.tif"/>
+      <graphic url="MS_HEB_f_104_8a.tif"/>
+      <graphic url="MS_HEB_f_104_8b.tif"/>
+      <graphic url="MS_HEB_f_104_9a.tif"/>
+      <graphic url="MS_HEB_f_104_9b.tif"/>
+      <graphic url="MS_HEB_f_104_10a.tif"/>
+      <graphic url="MS_HEB_f_104_10b.tif"/>
+      <graphic url="MS_HEB_f_104_11a.tif"/>
+      <graphic url="MS_HEB_f_104_11b.tif"/>
+      <graphic url="MS_HEB_f_104_12a.tif"/>
+      <graphic url="MS_HEB_f_104_12b.tif"/>
+      <graphic url="MS_HEB_f_104_13a.tif"/>
+      <graphic url="MS_HEB_f_104_13b.tif"/>
+      <graphic url="MS_HEB_f_104_14a.tif"/>
+      <graphic url="MS_HEB_f_104_14b.tif"/>
+      <graphic url="MS_HEB_f_104_15a.tif"/>
+      <graphic url="MS_HEB_f_104_15b.tif"/>
+      <graphic url="MS_HEB_f_104_16a.tif"/>
+      <graphic url="MS_HEB_f_104_16b.tif"/>
+      <graphic url="MS_HEB_f_104_17a.tif"/>
+      <graphic url="MS_HEB_f_104_17b.tif"/>
+      <graphic url="MS_HEB_f_104_18a.tif"/>
+      <graphic url="MS_HEB_f_104_18b.tif"/>
+      <graphic url="MS_HEB_f_104_19a.tif"/>
+      <graphic url="MS_HEB_f_104_19b.tif"/>
+      <graphic url="MS_HEB_f_104_20a.tif"/>
+      <graphic url="MS_HEB_f_104_20b.tif"/>
+      <graphic url="MS_HEB_f_104_21a.tif"/>
+      <graphic url="MS_HEB_f_104_21b.tif"/>
+      <graphic url="MS_HEB_f_104_22a.tif"/>
+      <graphic url="MS_HEB_f_104_22b.tif"/>
+      <graphic url="MS_HEB_f_104_23a.tif"/>
+      <graphic url="MS_HEB_f_104_23b.tif"/>
+      <graphic url="MS_HEB_f_104_24a.tif"/>
+      <graphic url="MS_HEB_f_104_24b.tif"/>
+      <graphic url="MS_HEB_f_104_25a.tif"/>
+      <graphic url="MS_HEB_f_104_25b.tif"/>
+      <graphic url="MS_HEB_f_104_26a.tif"/>
+      <graphic url="MS_HEB_f_104_26b.tif"/>
+      <graphic url="MS_HEB_f_104_27a.tif"/>
+      <graphic url="MS_HEB_f_104_27b.tif"/>
+      <graphic url="MS_HEB_f_104_28a.tif"/>
+      <graphic url="MS_HEB_f_104_28b.tif"/>
+      <graphic url="MS_HEB_f_104_29a.tif"/>
+      <graphic url="MS_HEB_f_104_29b.tif"/>
+      <graphic url="MS_HEB_f_104_30a.tif"/>
+      <graphic url="MS_HEB_f_104_30b.tif"/>
+      <graphic url="MS_HEB_f_104_31a.tif"/>
+      <graphic url="MS_HEB_f_104_31b.tif"/>
+      <graphic url="MS_HEB_f_104_32a.tif"/>
+      <graphic url="MS_HEB_f_104_32b.tif"/>
+      <graphic url="MS_HEB_f_104_33a.tif"/>
+      <graphic url="MS_HEB_f_104_33b.tif"/>
+      <graphic url="MS_HEB_f_104_34a.tif"/>
+      <graphic url="MS_HEB_f_104_34b.tif"/>
+      <graphic url="MS_HEB_f_104_35a.tif"/>
+      <graphic url="MS_HEB_f_104_35b.tif"/>
+      <graphic url="MS_HEB_f_104_36a.tif"/>
+      <graphic url="MS_HEB_f_104_36b.tif"/>
+      <graphic url="MS_HEB_f_104_37a.tif"/>
+      <graphic url="MS_HEB_f_104_37b.tif"/>
+      <graphic url="MS_HEB_f_104_38a.tif"/>
+      <graphic url="MS_HEB_f_104_38b.tif"/>
+      <graphic url="MS_HEB_f_104_39a.tif"/>
+      <graphic url="MS_HEB_f_104_39b.tif"/>
+      <graphic url="MS_HEB_f_104_40a.tif"/>
+      <graphic url="MS_HEB_f_104_40b.tif"/>
+      <graphic url="MS_HEB_f_104_41a.tif"/>
+      <graphic url="MS_HEB_f_104_41b.tif"/>
+      <graphic url="MS_HEB_f_104_42a.tif"/>
+      <graphic url="MS_HEB_f_104_42b.tif"/>
+      <graphic url="MS_HEB_f_104_43a.tif"/>
+      <graphic url="MS_HEB_f_104_43b.tif"/>
+      <graphic url="MS_HEB_f_104_44a.tif"/>
+      <graphic url="MS_HEB_f_104_44b.tif"/>
+      <graphic url="MS_HEB_f_104_45a.tif"/>
+      <graphic url="MS_HEB_f_104_45b.tif"/>
+      <graphic url="MS_HEB_f_104_46a.tif"/>
+      <graphic url="MS_HEB_f_104_46b.tif"/>
+      <graphic url="MS_HEB_f_104_47a.tif"/>
+      <graphic url="MS_HEB_f_104_47b.tif"/>
+      <graphic url="MS_HEB_f_104_48a.tif"/>
+      <graphic url="MS_HEB_f_104_48b.tif"/>
+      <graphic url="MS_HEB_f_104_49a.tif"/>
+      <graphic url="MS_HEB_f_104_49b.tif"/>
+      <graphic url="MS_HEB_f_104_50a.tif"/>
+      <graphic url="MS_HEB_f_104_50b.tif"/>
+      <graphic url="MS_HEB_f_104_51a.tif"/>
+      <graphic url="MS_HEB_f_104_51b.tif"/>
+      <graphic url="MS_HEB_f_104_52a.tif"/>
+      <graphic url="MS_HEB_f_104_52b.tif"/>
+      <graphic url="MS_HEB_f_104_53a.tif"/>
+      <graphic url="MS_HEB_f_104_53b.tif"/>
+      <graphic url="MS_HEB_f_104_54a.tif"/>
+      <graphic url="MS_HEB_f_104_54b.tif"/>
+      <graphic url="MS_HEB_f_104_55a.tif"/>
+      <graphic url="MS_HEB_f_104_55b.tif"/>
+      <graphic url="MS_HEB_f_104_56a.tif"/>
+      <graphic url="MS_HEB_f_104_56b.tif"/>
+      <graphic url="MS_HEB_f_104_57a.tif"/>
+      <graphic url="MS_HEB_f_104_57b.tif"/>
+      <graphic url="MS_HEB_f_104_58a.tif"/>
+      <graphic url="MS_HEB_f_104_58b.tif"/>
+      <graphic url="MS_HEB_f_104_59a.tif"/>
+      <graphic url="MS_HEB_f_104_59b.tif"/>
+      <graphic url="MS_HEB_f_104_60a.tif"/>
+      <graphic url="MS_HEB_f_104_60b.tif"/>
+      <graphic url="MS_HEB_f_104_61a.tif"/>
+      <graphic url="MS_HEB_f_104_61b.tif"/>
+      <graphic url="MS_HEB_f_104_62a.tif"/>
+      <graphic url="MS_HEB_f_104_62b.tif"/>
+      <graphic url="MS_HEB_f_104_63a.tif"/>
+      <graphic url="MS_HEB_f_104_63b.tif"/>
+      <graphic url="MS_HEB_f_104_64a.tif"/>
+      <graphic url="MS_HEB_f_104_64b.tif"/>
+      <graphic url="MS_HEB_f_104_65a.tif"/>
+      <graphic url="MS_HEB_f_104_65b.tif"/>
+      <graphic url="MS_HEB_f_104_66a.tif"/>
+      <graphic url="MS_HEB_f_104_66b.tif"/>
+      <graphic url="MS_HEB_f_104_67a.tif"/>
+      <graphic url="MS_HEB_f_104_67b.tif"/>
+      <graphic url="MS_HEB_f_104_68a.tif"/>
+      <graphic url="MS_HEB_f_104_68b.tif"/>
+      <graphic url="MS_HEB_f_104_69a.tif"/>
+      <graphic url="MS_HEB_f_104_69b.tif"/>
+      <graphic url="MS_HEB_f_104_70a.tif"/>
+      <graphic url="MS_HEB_f_104_70b.tif"/>
+      <graphic url="MS_HEB_f_104_71a.tif"/>
+      <graphic url="MS_HEB_f_104_71b.tif"/>
+      <graphic url="MS_HEB_f_104_72a.tif"/>
+      <graphic url="MS_HEB_f_104_72b.tif"/>
+      <graphic url="MS_HEB_f_104_73a.tif"/>
+      <graphic url="MS_HEB_f_104_73b.tif"/>
+      <graphic url="MS_HEB_f_104_74a.tif"/>
+      <graphic url="MS_HEB_f_104_74b.tif"/>
+      <graphic url="MS_HEB_f_104_75a.tif"/>
+      <graphic url="MS_HEB_f_104_75b.tif"/>
+      <graphic url="MS_HEB_f_104_76a.tif"/>
+      <graphic url="MS_HEB_f_104_76b.tif"/>
+      <graphic url="MS_HEB_f_104_77a.tif"/>
+      <graphic url="MS_HEB_f_104_77b.tif"/>
+      <graphic url="MS_HEB_f_104_78a.tif"/>
+      <graphic url="MS_HEB_f_104_78b.tif"/>
+      <graphic url="MS_HEB_f_104_79a.tif"/>
+      <graphic url="MS_HEB_f_104_79b.tif"/>
+      <graphic url="MS_HEB_f_104_80a.tif"/>
+      <graphic url="MS_HEB_f_104_80b.tif"/>
+      <graphic url="MS_HEB_f_104_81a.tif"/>
+      <graphic url="MS_HEB_f_104_81b.tif"/>
+      <graphic url="MS_HEB_f_104_82a.tif"/>
+      <graphic url="MS_HEB_f_104_82b.tif"/>
+      <graphic url="MS_HEB_f_104_83a.tif"/>
+      <graphic url="MS_HEB_f_104_83b.tif"/>
+      <graphic url="MS_HEB_f_104_84a.tif"/>
+      <graphic url="MS_HEB_f_104_84b.tif"/>
+      <graphic url="MS_HEB_f_104_85a.tif"/>
+      <graphic url="MS_HEB_f_104_85b.tif"/>
+      <graphic url="MS_HEB_f_104_86a.tif"/>
+      <graphic url="MS_HEB_f_104_86b.tif"/>
+      <graphic url="MS_HEB_f_104_87a.tif"/>
+      <graphic url="MS_HEB_f_104_87b.tif"/>
+      <graphic url="MS_HEB_f_104_88a.tif"/>
+      <graphic url="MS_HEB_f_104_88b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

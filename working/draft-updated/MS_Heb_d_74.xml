@@ -1,1539 +1,1308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_93"><!-- CHECK FOLS 7, 7* !!-->
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. d. 74</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_d_74</idno>
-             
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_93">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. d. 74</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_d_74</idno>
             <idno type="msID">MS_Heb_d_74</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_d_74" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. d. 74</idno>
-                    </msIdentifier>
-                    <physDesc>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_d_74" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. d. 74</idno>
+               </msIdentifier>
+               <physDesc>
                   <p>Ff. 48 (as f. 7 is double).</p>
                </physDesc>
-                    <history>
-                        <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p015.jpg Catalogue-2_p016.jpg Catalogue-2_p017.jpg Catalogue-2_p018.jpg Catalogue-2_p019.jpg">fols. 15-19</ref>.</source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_d_74-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p015.jpg Catalogue-2_p016.jpg Catalogue-2_p017.jpg Catalogue-2_p018.jpg Catalogue-2_p019.jpg">fols. 15-19</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_d_74-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part1-item1">
-                                <locus from="1a" to="1b">Fol. 1</locus>
-                                <author/>
-                                <title>Deut. 2,33 to 3,18</title>
-                                <note>with vowel points and accents.</note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material> (cut), 7 in. wide, 2 columns; injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part2" n="2">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part1-item1">
+                        <locus from="1a" to="1b">Fol. 1</locus>
+                        <title>Deut. 2,33 to 3,18</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>(cut), 7 in. wide, 2 columns; injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part2-item1">
-                                <locus from="2a" to="3b">Fols. 2, 3</locus>
-                                <author/>
-                                <title>Haftaroth with Targum after each verse</title>
-                                <note/>  
-                                <msItem xml:id="MS_Heb_d_74-part2-item1-item1" n="a">
-                                    <p>
-                              <title>[on עקב]</title> beg. missing, Jerem. 2,11-12 and 4,1-2;</p>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_d_74-part2-item1-item2" n="b">
-                                    <p>
-                              <title>on ראה</title> incomplete, Jer. 28,1-4;</p>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_d_74-part2-item1-item3" n="c">
-                                    <p>
-                              <locus from="3a" to="3b">fol. 3</locus> [on ?] beg. and end missing, Josh. 19,51 to 20,6 Targ.</p>
-                                </msItem>
-                                <textLang mainLang="he" otherLangs="arc"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 9 x 7 1/4 in., 2 columns, 18 lines; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part3" n="3">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part2-item1">
+                        <locus from="2a" to="3b">Fols. 2, 3</locus>
+                        <title>Haftaroth with Targum after each verse</title>
+                        <msItem xml:id="MS_Heb_d_74-part2-item1-item1" n="a">
+                           <p>
+                              <title>[on עקב]</title>beg. missing, Jerem. 2,11-12 and 4,1-2;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part2-item1-item2" n="b">
+                           <p>
+                              <title>on ראה</title>incomplete, Jer. 28,1-4;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part2-item1-item3" n="c">
+                           <p>
+                              <locus from="3a" to="3b">fol. 3</locus>[on ?] beg. and end missing, Josh. 19,51 to 20,6 Targ.</p>
+                        </msItem>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 9 x 7 1/4 in., 2 columns, 18 lines; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part3" n="3">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/3</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/3</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part3-item1">
-                                <locus from="4a" to="4b">Fol. 4</locus>
-                                <author/>
-                                <title>Midrash Samuel</title>
-                                <note>as in ed. Buber p. 56, line 6 to p. 58, line 13.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. squ. char.; <material>paper</material>, 8 7/8 x 6 1/2 in., 27 lines; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part4" n="4">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part3-item1">
+                        <locus from="4a" to="4b">Fol. 4</locus>
+                        <title>Midrash Samuel</title>
+                        <note>as in ed. Buber p. 56, line 6 to p. 58, line 13.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. squ. char.;<material>paper</material>, 8 7/8 x 6 1/2 in., 27 lines; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part4" n="4">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/4</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/4</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part4-item1">
-                                <locus from="5a" to="5b">Fol. 5</locus>
-                                <author/>
-                                <title>Ibn Ezra's commentary on Num. 14,22 (שהוא לעתיד) to 15,16</title>
-                                <note>broken.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. Rabb. char.; <material>paper</material>, about 8 1/2 x 6 3/4 in., about 26 lines; much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part5" n="5">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part4-item1">
+                        <locus from="5a" to="5b">Fol. 5</locus>
+                        <title>Ibn Ezra's commentary on Num. 14,22 (שהוא לעתיד) to 15,16</title>
+                        <note>broken.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.;<material>paper</material>, about 8 1/2 x 6 3/4 in., about 26 lines; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part5" n="5">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/5</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/5</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part5-item1">
-                                <locus from="6a" to="6b">Fol. 6</locus>
-                                <author/>
-                                <title>Fragment of a homiletical  commentary on 2 Kings 3,26 to 5,5</title>
-                                <note>ending  <quote type="end">אז בא אל בית אלישע כי הוא טהור ופסיק תאנקטאע הצרע נקרא לשון רפואה ככת' והנה נרפא וטהר הוא לשון טהרה כי היה טמא ומטמא ויטהר להודיעך כי כל אדם יש' וגוי כאחד בטמאה ככ' אדם כי יהיה בעור בשרו. ולא קבל עשר ככרי כסף</quote>
-                                    <p>No authorities seem to be mentioned.</p>
-                        </note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 8 x 6 1/2 in., 19 lines; much injured and mostly illegible.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part6" n="6">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part5-item1">
+                        <locus from="6a" to="6b">Fol. 6</locus>
+                        <title>Fragment of a homiletical commentary on 2 Kings 3,26 to 5,5</title>
+                        <note>ending<quote type="end">אז בא אל בית אלישע כי הוא טהור ופסיק תאנקטאע הצרע נקרא לשון רפואה ככת' והנה נרפא וטהר הוא לשון טהרה כי היה טמא ומטמא ויטהר להודיעך כי כל אדם יש' וגוי כאחד בטמאה ככ' אדם כי יהיה בעור בשרו. ולא קבל עשר ככרי כסף</quote>
+                           <p>No authorities seem to be mentioned.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 8 x 6 1/2 in., 19 lines; much injured and mostly illegible.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part6" n="6">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/6</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/6</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part6-item1">
-                                <locus from="7a" to="7(b)b">Fols. 7, 7*</locus>
-                                <author/>
-                                <title>Grammatical fragment in Arabic on Hiphil and Hithpael</title>
-                                <note>a legible passage beg. (<locus from="7b" to="7b">fol. 7b</locus>) <quote>אסם מַאֲזִין מַאֲזִינִים. ואיצ̇א מַאֲזֵן מַאֲזִינָה מכרת מַאֲזִינוֹת סמוך מתל מַחְכִימַת פֶתִי...</quote> 
-                                    <p>On <locus from="7(b)b" to="7(b)b">fol. 7*b</locus> a section beg. <quote>[וב]אב מא יכון חרף אלדי קבל אלאכיר פי אלאמר ...נה עתיד בהדא אלרסם. ומא יכון ... קבל אלאכיר פי לפט̇ה אלעתיד איצא [מתל ית]יצֵב יגי מנה יִתְיַצַב סמוך יְתְיַצָב...</quote>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part6-item1">
+                        <locus from="7a" to="7(b)b">Fols. 7, 7*</locus>
+                        <title>Grammatical fragment in Arabic on Hiphil and Hithpael</title>
+                        <note>a legible passage beg. (<locus from="7b" to="7b">fol. 7b</locus>)<quote>אסם מַאֲזִין מַאֲזִינִים. ואיצ̇א מַאֲזֵן מַאֲזִינָה מכרת מַאֲזִינוֹת סמוך מתל מַחְכִימַת פֶתִי...</quote>
+                           <p>On<locus from="7(b)b" to="7(b)b">fol. 7*b</locus>a section beg.<quote>[וב]אב מא יכון חרף אלדי קבל אלאכיר פי אלאמר ...נה עתיד בהדא אלרסם. ומא יכון ... קבל אלאכיר פי לפט̇ה אלעתיד איצא [מתל ית]יצֵב יגי מנה יִתְיַצַב סמוך יְתְיַצָב...</quote>
                            </p>
-                                    <p>The examples are mostly arranged in tabular form.</p>
-                                </note>  
-                              
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material> (torn), 3 3/4 in. wide, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part7" n="7">
-                        <msIdentifier>
+                           <p>The examples are mostly arranged in tabular form.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>(torn), 3 3/4 in. wide, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part7" n="7">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/7</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/7</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part7-item1">
-                                <locus from="8a" to="13b">Fols. 8-13</locus>
-                                <author/>
-                                <title>Commentary on Babylonian Talmud ברכות fols. 58b end, to 60a</title>
-                                <note>beginning obliterated. 
-                                    <p>On <locus from="8b" to="8b">fol. 8b</locus> a legible passage (on Ber. 59 top) is</p> 
-                                    <p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part7-item1">
+                        <locus from="8a" to="13b">Fols. 8-13</locus>
+                        <title>Commentary on Babylonian Talmud ברכות fols. 58b end, to 60a</title>
+                        <note>beginning obliterated.<p>On<locus from="8b" to="8b">fol. 8b</locus>a legible passage (on Ber. 59 top) is</p>
+                           <p>
                               <quote>וכל דמיתי לעלמא משום ישראל הוא לפום מאי דכת' רק אתכם ידעתי מכל משפחות האדמה וג' ורבנן אמרי' אין טובה באה לעולם אילא בשביל ישראל ואין רעה באה לעולם אילא בשביל ישראל ואילין מיד דאני דמיחזי להו קודשא בריך הוא בשמיא ובארעא מופתים וסימנים אינון לישראל על דברים שבינו לבינם כגון הקשת שבשעה שנראית בענן אית אות ברית מבול...</quote>
                            </p>
-                                    <p>On <locus from="10a" to="10b">fol. 10</locus>, on זועות, it says</p> 
-                                    <p>
+                           <p>On<locus from="10a" to="10b">fol. 10</locus>, on זועות, it says</p>
+                           <p>
                               <quote>...שאותן מלאכים שהן קרובים לארץ שדומין מן השכינה כרגלים מן הגוף נדחקין זה בזה ויוצא מביניהן קול וזה הוא גוהא ולא חכמי ישראל אמרו כן אילא הרבה מחכמי יונים וזולתם אמרו כן...</quote>
                            </p>
-                                    
-                                </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 8 1/2 x 6 3/8 in., 21 lines; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part8" n="8">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 8 1/2 x 6 3/8 in., 21 lines; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part8" n="8">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/8</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/8</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part8-item1">
-                                <locus from="14a" to="14b">Fol. 14</locus>
-                                <author/>
-                                <title>Babylonian Talmud ביצה fol. 22, line 8 from below, to fol. 23a end</title>
-                                <note>The leaf seems not to have been part of a volume, as the <locus from="14b">verso</locus> is written in the contrary direction.
-                                    Perhaps it was an exercise in writing.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Yemen/Syr. ? Rabb. char.; <material>paper</material>, 8 3/4 x 7 1/4 in., 29 lines; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part9" n="9">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part8-item1">
+                        <locus from="14a" to="14b">Fol. 14</locus>
+                        <title>Babylonian Talmud ביצה fol. 22, line 8 from below, to fol. 23a end</title>
+                        <note>The leaf seems not to have been part of a volume, as the<locus from="14b">verso</locus>is written in the contrary direction. Perhaps it was an exercise in writing.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen/Syr. ? Rabb. char.;<material>paper</material>, 8 3/4 x 7 1/4 in., 29 lines; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part9" n="9">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/9</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/9</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part9-item1">
-                                <locus from="15a" to="15b">Fol. 15</locus>
-                                <author/>
-                                <title>Small fragment of an Arabic commentary on Babylonian Talmud בבא מציעא fol. 38b מורידין קרוב לנכסיו.</title>
-                                <note> No consecutively legible passage.</note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. Rabb. char.; <material>vellum</material> (torn), 7 3/4 in. wide; stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part10" n="10">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part9-item1">
+                        <locus from="15a" to="15b">Fol. 15</locus>
+                        <title>Small fragment of an Arabic commentary on Babylonian Talmud בבא מציעא fol. 38b מורידין קרוב לנכסיו.</title>
+                        <note>No consecutively legible passage.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.;<material>vellum</material>(torn), 7 3/4 in. wide; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part10" n="10">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/10</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/10</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part10-item1">
-                                <locus from="16a" to="16b">Fol. 16</locus>
-                                <author/>
-                                <title>Introduction to an Arabic treatise on phylacteries by <persName>Moses b. Joseph of Cordova</persName>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part10-item1">
+                        <locus from="16a" to="16b">Fol. 16</locus>
+                        <title>Introduction to an Arabic treatise on phylacteries by<persName>Moses b. Joseph of Cordova</persName>
                         </title>
-                                <note>
-                           <locus from="16a" to="16a">Recto</locus> blank. Beg. (<locus from="16b" to="16b">verso</locus>) <quote type="beg">הדא כ[ת]אב וגוב אלתפילין וכיפיה [צנאעתה]א תאליף מר̇ [מוסי] אל[סו]פ[ר בן מר̇ י]וסף נ̇ע̇ בן אל[קרט]בי...</quote>
-                                    and below <quote>אלמערוף בא[בן] אלקרטבי</quote>. There are some corrections by a late hand, from which the title can be completed.
-                                    
-                                </note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>paper</material>, about 7 1/2 x 6 1/4 in., about 14 lines; much injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part11" n="11">
-                        <msIdentifier>
+                        <note>
+                           <locus from="16a" to="16a">Recto</locus>blank. Beg. (<locus from="16b" to="16b">verso</locus>)<quote type="beg">הדא כ[ת]אב וגוב אלתפילין וכיפיה [צנאעתה]א תאליף מר̇ [מוסי] אל[סו]פ[ר בן מר̇ י]וסף נ̇ע̇ בן אל[קרט]בי...</quote>and below<quote>אלמערוף בא[בן] אלקרטבי</quote>. There are some corrections by a late hand, from which the title can be completed.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>paper</material>, about 7 1/2 x 6 1/4 in., about 14 lines; much injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part11" n="11">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/11</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/11</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part11-item1">
-                                <locus from="17a" to="17b">Fol. 17</locus>
-                                <author/>
-                                <title>Leaf of a Siddur (<persName>Saadia</persName>'s?)</title>
-                                <note>containing the end of <quote type="head">מנחה שליום כיפור</quote>, cf. No. 1096 fol. 108b sq. At the end <quote type="end">כתבת צלוה מעריב ללילה כפור...</quote>. 
-                                    <p>With vowel points.</p>
-                        </note>  
-                                
-                                <textLang mainLang="he" otherLangs="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>paper</material>, about 8 x 6 1/4 in., about 19 lines, much injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part12" n="12">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part11-item1">
+                        <locus from="17a" to="17b">Fol. 17</locus>
+                        <title>Leaf of a Siddur (<persName>Saadia</persName>'s?)</title>
+                        <note>containing the end of<quote type="head">מנחה שליום כיפור</quote>, cf. No. 1096 fol. 108b sq. At the end<quote type="end">כתבת צלוה מעריב ללילה כפור...</quote>.<p>With vowel points.</p>
+                        </note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>paper</material>, about 8 x 6 1/4 in., about 19 lines, much injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part12" n="12">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/12</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/12</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part12-item1">
-                                <locus from="18a" to="18b">Fol. 18</locus>
-                                <author/>
-                                <title>Beginning of a Mahzor</title>
-                                <note>
-                           <locus from="18a" to="18a">Recto</locus> blank. <locus from="18b" to="18b">Verso</locus>, beg. <quote type="beg">ב̇ש̇מ̇ך̇ ר̇ח̇מ̇נ̇א̇ כתאב גמע אלצלואת ואלתסאביח אבתדא גאמעה פקאל תבארך אללה אלה אסראיל...</quote>
-                                    
-                                </note>  
-                               
-                                <textLang mainLang="he" otherLangs="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. Rabb. char.; <material>paper</material>, 8 x 7 in., 22 lines; injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part13" n="13">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part12-item1">
+                        <locus from="18a" to="18b">Fol. 18</locus>
+                        <title>Beginning of a Mahzor</title>
+                        <note>
+                           <locus from="18a" to="18a">Recto</locus>blank.<locus from="18b" to="18b">Verso</locus>, beg.<quote type="beg">ב̇ש̇מ̇ך̇ ר̇ח̇מ̇נ̇א̇ כתאב גמע אלצלואת ואלתסאביח אבתדא גאמעה פקאל תבארך אללה אלה אסראיל...</quote>
+                        </note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.;<material>paper</material>, 8 x 7 in., 22 lines; injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part13" n="13">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/13</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/13</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part13-item1">
-                                <locus from="19a" to="19b">Fol. 19</locus>
-                                <author/>
-                                <title>Hymn for גשם</title>
-                                <note>headed <quote type="head">בש' יי צלות גש' ללמעלם אבי סלימאן נ̇נ̇ קאל אדא וצלת אלי תפלה למשה... וקול בעד דלך. ישועה הלוי בן מברך כת̇ בתשרי ש̇ ת̇מ̇ה̇...</quote>
-                                    beg. <quote type="beg">גילי מאד בת ציון</quote>. 
-                                    <p>With a few vowel points.</p> 
-                                    <p>
-                              <locus from="19b" to="19b">Verso</locus> scribbling only.</p>
-                                    
-                                </note>  
-                               
-                                <textLang mainLang="he" otherLangs="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 8 1/4 in., 19 lines and 1 in the margin; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <origin>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part13-item1">
+                        <locus from="19a" to="19b">Fol. 19</locus>
+                        <title>Hymn for גשם</title>
+                        <note>headed<quote type="head">בש' יי צלות גש' ללמעלם אבי סלימאן נ̇נ̇ קאל אדא וצלת אלי תפלה למשה... וקול בעד דלך. ישועה הלוי בן מברך כת̇ בתשרי ש̇ ת̇מ̇ה̇...</quote>beg.<quote type="beg">גילי מאד בת ציון</quote>.<p>With a few vowel points.</p>
+                           <p>
+                              <locus from="19b" to="19b">Verso</locus>scribbling only.</p>
+                        </note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 8 1/4 in., 19 lines and 1 in the margin; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
                         <p>
                            <origDate calendar="Hebrew-Seleucid" when="1445">1445 Sel.</origDate>
                         </p>
-                                <p>
+                        <p>
                            <origDate when="1133">1133</origDate>
                         </p>
                      </origin>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part14" n="14">
-                        <msIdentifier>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part14" n="14">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/14</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/14</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part14-item1">
-                                <locus from="20a" to="20b">Fol. 20</locus>
-                                <author/>
-                                <title>For (the ? 8th day of) Succoth</title>
-                                <note>א̇ב̇, beg. missing, beg. <quote type="beg">מלך דֿובר ומקים... מלך הֿיוצרם ויודע מספרם</quote>, 
-                                    <p>ending <quote type="end">תֿפרוס עלימו סוכת שלומך ב̇ פורס סוכת ש'</quote>.</p> 
-                                    <p>
-                              <locus from="20b" to="20b">Verso</locus>, scribbling only.</p>
-                        </note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 6 1/2 x 8 in., 13 lines; injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part15" n="15">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/15</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part15-item1">
-                                <locus from="21a" to="21b">Fol. 21</locus>
-                                <author/>
-                                <title>סליחות</title>
-                                <note/>  
-                               
-                                <msItem xml:id="MS_Heb_d_74-part15-item1-item1" n="a">
-                           <p>end of א̇ב̇, ending: <quote type="end">שֿבים עדיך. תֿאיבי ישעך</quote>;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_d_74-part15-item1-item2" n="b">
-                           <p>beg. <quote type="beg">עשה למען חכמים ותלמידיהם</quote>;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_d_74-part15-item1-item3" n="c">
-                           <p>א̇ב̇ beg. <quote type="beg">עשה למען האֿומרים</quote>;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_d_74-part15-item1-item4" n="d">
-                           <p>beg. <quote type="beg">עשה למענך ולא למעננו</quote>;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_d_74-part15-item1-item5" n="e">
-                           <p>(<locus from="21b" to="21b">verso</locus>) beg. <quote type="beg">אל רחום שמך אל חנון שמך בנו נקרא שמך</quote>;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_d_74-part15-item1-item6" n="f">
-                           <p>א̇ב̇ beg. <quote type="beg">עשה למען אמתך. עשה למען בריתך</quote>;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_d_74-part15-item1-item7" n="g">
-                           <p>א̇ב̇ beg. <quote type="beg">עשה... אֿוהביך שֿוכני עפר</quote>, incomplete.</p>
-                        </msItem>
-                                <note>With vowel points.</note>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 8 1/2 x 7 in, 19 lines; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part16" n="16">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/16</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part16-item1">
-                                <locus from="22a" to="22b">Fol. 22</locus>
-                                <author/>
-                                <title>Poem on Joseph</title>
-                                <note>beg. <quote type="beg">את ניבי אסדר[ה. ומי]לולים אשגרה. ליטע מפוארה. בן פורת יוסף</quote>. 
-                                    <p>Each line ends with יוסף and consists of four members.</p> 
-                                    <p>
-                              <locus from="22b" to="22b">Verso</locus>, a few words only.</p>
-                                    
-                                </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>paper</material>, 7 1/2 x 7 in., 18 lines, injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part17" n="17">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/17</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part17-item1">
-                                <locus from="23a" to="23b">Fol. 23</locus>
-                                <author/>
-                                <title>Qinah</title>
-                                <note>א̇ב̇, headed <quote type="head">אקונן בקינים</quote>, 
-                                    <p>beg. <quote type="beg">אֿבכה במר ואבדי קינים. בֿאסיפת בני (?) מהודר בזקנים</quote>.</p> 
-                                    <p>A few letters of a previous piece are visible at the top.</p> 
-                                    <p>
-                              <locus from="23b" to="23b">Verso</locus> blank.</p>
-                                     
-                                </note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 6 1/2 in., 16 lines; much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part18" n="18">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/18</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part18-item1">
-                                <locus from="24a" to="24b">Fol. 24</locus>
-                                <author/>
-                                <title>Fragment of Qinoth</title>
-                                <note/>  
-                                <msItem xml:id="MS_Heb_d_74-part18-item1-item1" n="a">
-                                    <p>obliterated;</p>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_d_74-part18-item1-item2" n="b">
-                                    <p>headed <quote type="head">קינה</quote>, beg. obliterated; the refrain is <quote>…לו מתנו תחת אבינו</quote>, incomplete;</p>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_d_74-part18-item1-item3" n="c">
-                                    <p>beg. missing, the first legible line is <quote>ועל מה זה בטוח. בלי אובד זנוח. בהעלות הרוח המושב ליי</quote>. Each line ends with יי.</p>
-                                    <p>Last line <quote type="end">אמונים הנאמנים. לראות פנים בפנים. ובאשר הם חונים</quote> (torn).</p>
-                                </msItem>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, about 7 in. wide, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part19" n="19">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/19</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part19-item1">
-                                <locus from="25a" to="25b">Fol. 25</locus>
-                                <author/>
-                                <title>Liturgical</title>
-                                <note/>  
-                                
-                                <msItem xml:id="MS_Heb_d_74-part19-item1-item1" n="a">
-                           <p>beg. missing, end <quote type="end">ועל יד ימינך יָי צלך היום הזה א̇ג̇</quote>;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_d_74-part19-item1-item2" n="b">
-                           <p>beg. <quote type="beg">תן ריחך בשמי</quote>, by <persName>Judah ha-Levi</persName>, see ed. Brody, i, p. 122;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_d_74-part19-item1-item3" n="c">
-                           <p>(<locus from="25b" to="25b">verso</locus>) <quote type="head">רשות לנשמת</quote>, beg. <quote type="beg">יוצרי לפלולי הסכת והקשיבה</quote>, acr. <quote type="acr">יוסף</quote>;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_d_74-part19-item1-item4" n="d">
-                           <p>beg. <quote type="beg">אופנים ברעש ירחישו ויקדישו</quote>, incomplete.</p>
-                        </msItem> 
-                                <note>Some vowel points.</note>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, about 8 x 5 1/2 in.; much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part20" n="20">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/20</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part20-item1">
-                                <locus from="26a" to="26b">Fol. 26</locus>
-                                <author/>
-                                <title>Complimentary beginnings of letters</title>
-                                <note/>  
-                                <msItem xml:id="MS_Heb_d_74-part20-item1-item1" n="a">
-                                    <p>beg. missing, beg. <quote type="beg">וראוי הוא באלפי יהודה בתקונו</quote>;</p>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_d_74-part20-item1-item2" n="b">
-                                    <p>
-                              <locus from="26b" to="26b">verso</locus>, beg. <quote type="beg">אלעזר המאוזר במשזר ולא זר</quote>.</p>
-                                </msItem>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material> (torn), 6 1/2 in. wide; injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part21" n="21">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/21</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part21-item1">
-                                <locus from="27a" to="31b">Fols. 27-31</locus>
-                                <author/>
-                                <title>Fragments of a collection of texts relating to the controversy between Saadia and Ben Meir about the calendar</title>
-                                <note>
-                           <p>They are half leaves, completing those published by Schechter in his Saadyana pp. 16 ff. (=J.Q.R.). See the full texts edited by Guillaume in J.Q.R. new series, vol. v, p. 543-557.</p>
-                        </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 7 3/8 in. wide; stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part22" n="22">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/22</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part22-item1">
-                                <locus from="32a" to="32b">Fol. 32</locus>
-                                <author/>
-                                <title>Fragment of a calendar for one month in Arabic</title>
-                                <note>
-                           <p>The days of each week are numbered א to ז at the side, and the sign of the Zodiac is given for each day.</p> 
-                                    <p>
-                              <locus from="32b" to="32b">Verso</locus>, a poem in Arabic, beg. <quote type="beg">אל איהא אלשאדן אלדי קד גפאני...</quote>
-                           </p>
-                        </note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, about 8 x 6 1/4 in., about 36 and 24 lines; much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part23" n="23">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/23</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part23-item1">
-                                <locus from="33a" to="33b">Fol. 33</locus>
-                                <author/>
-                                <title>תלויות המשנה</title>
-                                <note>Upper part of leaf.</note>  
-                                <msItem xml:id="MS_Heb_d_74-part23-item1-item1">
-                                    <p>
-                              <locus from="33a" to="33a">Recto</locus>, title only <quote type="head">תל[ויות] המשנה שתלה יוסף ברבי יעקב הבבלי כשהיה למ[ד תו]רה</quote>.</p>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_d_74-part23-item1-item2">
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part14-item1">
+                        <locus from="20a" to="20b">Fol. 20</locus>
+                        <title>For (the ? 8th day of) Succoth</title>
+                        <note>א̇ב̇, beg. missing, beg.<quote type="beg">מלך דֿובר ומקים... מלך הֿיוצרם ויודע מספרם</quote>,<p>ending<quote type="end">תֿפרוס עלימו סוכת שלומך ב̇ פורס סוכת ש'</quote>.</p>
                            <p>
-                              <locus from="33b" to="33b">Verso</locus>, title again <quote type="head">תעאליק אל מש[נה] ממא עלק יוסף...</quote>.</p>
-                        </msItem>
-                                <note>Text headed <quote type="head">יומא פרק ב̇</quote>, beg.
-                                    <quote>החזה והגרה (ii,3) חזהֿ אלזור ומן אלנאס מן יסמיה אלקץ ואלג̇מיע עבארה ען אלצדר קאלוא... חזה הרואה את הקרקע. למעלה עד הצואר.</quote>
-                                    <p>The rest is torn off, or illegible.</p>
-                                </note>
-                                <textLang mainLang="jrb" otherLangs="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Yemen squ. (title) and Rabb. char.; <material>paper</material>, 6 7/8 in. wide.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part24" n="24">
-                        <msIdentifier>
+                              <locus from="20b" to="20b">Verso</locus>, scribbling only.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 6 1/2 x 8 in., 13 lines; injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part15" n="15">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/24</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/15</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part24-item1">
-                                <locus from="34a" to="34b">Fol. 34</locus>
-                                <author/>
-                                <title>Controversial theological work; List of biblical readings</title>
-                                <note>Lower part of a leaf</note>  
-                                <msItem xml:id="MS_Heb_d_74-part24-item1-item1">
-                                    <locus from="34a" to="34b">Recto</locus>
-                                    <title>Fragment of a controversial theological work, in Arabic</title>
-                                    <note>
-                              <p>a few words of the end of a section, then the end of a heading (?) <quote type="head">...רד עלי אלקראין</quote>
-                              </p> 
-                                        <p>The rest is as follows:</p>
-                                        <p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part15-item1">
+                        <locus from="21a" to="21b">Fol. 21</locus>
+                        <title>סליחות</title>
+                        <msItem xml:id="MS_Heb_d_74-part15-item1-item1" n="a">
+                           <p>end of א̇ב̇, ending:<quote type="end">שֿבים עדיך. תֿאיבי ישעך</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part15-item1-item2" n="b">
+                           <p>beg.<quote type="beg">עשה למען חכמים ותלמידיהם</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part15-item1-item3" n="c">
+                           <p>א̇ב̇ beg.<quote type="beg">עשה למען האֿומרים</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part15-item1-item4" n="d">
+                           <p>beg.<quote type="beg">עשה למענך ולא למעננו</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part15-item1-item5" n="e">
+                           <p>(<locus from="21b" to="21b">verso</locus>) beg.<quote type="beg">אל רחום שמך אל חנון שמך בנו נקרא שמך</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part15-item1-item6" n="f">
+                           <p>א̇ב̇ beg.<quote type="beg">עשה למען אמתך. עשה למען בריתך</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part15-item1-item7" n="g">
+                           <p>א̇ב̇ beg.<quote type="beg">עשה... אֿוהביך שֿוכני עפר</quote>, incomplete.</p>
+                        </msItem>
+                        <note>With vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 8 1/2 x 7 in, 19 lines; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part16" n="16">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 74/16</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part16-item1">
+                        <locus from="22a" to="22b">Fol. 22</locus>
+                        <title>Poem on Joseph</title>
+                        <note>beg.<quote type="beg">את ניבי אסדר[ה. ומי]לולים אשגרה. ליטע מפוארה. בן פורת יוסף</quote>.<p>Each line ends with יוסף and consists of four members.</p>
+                           <p>
+                              <locus from="22b" to="22b">Verso</locus>, a few words only.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>paper</material>, 7 1/2 x 7 in., 18 lines, injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part17" n="17">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 74/17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part17-item1">
+                        <locus from="23a" to="23b">Fol. 23</locus>
+                        <title>Qinah</title>
+                        <note>א̇ב̇, headed<quote type="head">אקונן בקינים</quote>,<p>beg.<quote type="beg">אֿבכה במר ואבדי קינים. בֿאסיפת בני (?) מהודר בזקנים</quote>.</p>
+                           <p>A few letters of a previous piece are visible at the top.</p>
+                           <p>
+                              <locus from="23b" to="23b">Verso</locus>blank.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 6 1/2 in., 16 lines; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part18" n="18">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 74/18</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part18-item1">
+                        <locus from="24a" to="24b">Fol. 24</locus>
+                        <title>Fragment of Qinoth</title>
+                        <msItem xml:id="MS_Heb_d_74-part18-item1-item1" n="a">
+                           <p>obliterated;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part18-item1-item2" n="b">
+                           <p>headed<quote type="head">קינה</quote>, beg. obliterated; the refrain is<quote>…לו מתנו תחת אבינו</quote>, incomplete;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part18-item1-item3" n="c">
+                           <p>beg. missing, the first legible line is<quote>ועל מה זה בטוח. בלי אובד זנוח. בהעלות הרוח המושב ליי</quote>. Each line ends with יי.</p>
+                           <p>Last line<quote type="end">אמונים הנאמנים. לראות פנים בפנים. ובאשר הם חונים</quote>(torn).</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, about 7 in. wide, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part19" n="19">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 74/19</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part19-item1">
+                        <locus from="25a" to="25b">Fol. 25</locus>
+                        <title>Liturgical</title>
+                        <msItem xml:id="MS_Heb_d_74-part19-item1-item1" n="a">
+                           <p>beg. missing, end<quote type="end">ועל יד ימינך יָי צלך היום הזה א̇ג̇</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part19-item1-item2" n="b">
+                           <p>beg.<quote type="beg">תן ריחך בשמי</quote>, by<persName>Judah ha-Levi</persName>, see ed. Brody, i, p. 122;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part19-item1-item3" n="c">
+                           <p>(<locus from="25b" to="25b">verso</locus>)<quote type="head">רשות לנשמת</quote>, beg.<quote type="beg">יוצרי לפלולי הסכת והקשיבה</quote>, acr.<quote type="acr">יוסף</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part19-item1-item4" n="d">
+                           <p>beg.<quote type="beg">אופנים ברעש ירחישו ויקדישו</quote>, incomplete.</p>
+                        </msItem>
+                        <note>Some vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, about 8 x 5 1/2 in.; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part20" n="20">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 74/20</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part20-item1">
+                        <locus from="26a" to="26b">Fol. 26</locus>
+                        <title>Complimentary beginnings of letters</title>
+                        <msItem xml:id="MS_Heb_d_74-part20-item1-item1" n="a">
+                           <p>beg. missing, beg.<quote type="beg">וראוי הוא באלפי יהודה בתקונו</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part20-item1-item2" n="b">
+                           <p>
+                              <locus from="26b" to="26b">verso</locus>, beg.<quote type="beg">אלעזר המאוזר במשזר ולא זר</quote>.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>(torn), 6 1/2 in. wide; injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part21" n="21">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 74/21</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part21-item1">
+                        <locus from="27a" to="31b">Fols. 27-31</locus>
+                        <title>Fragments of a collection of texts relating to the controversy between Saadia and Ben Meir about the calendar</title>
+                        <note>
+                           <p>They are half leaves, completing those published by Schechter in his Saadyana pp. 16 ff. (=J.Q.R.). See the full texts edited by Guillaume in J.Q.R. new series, vol. v, p. 543-557.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 3/8 in. wide; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part22" n="22">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 74/22</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part22-item1">
+                        <locus from="32a" to="32b">Fol. 32</locus>
+                        <title>Fragment of a calendar for one month in Arabic</title>
+                        <note>
+                           <p>The days of each week are numbered א to ז at the side, and the sign of the Zodiac is given for each day.</p>
+                           <p>
+                              <locus from="32b" to="32b">Verso</locus>, a poem in Arabic, beg.<quote type="beg">אל איהא אלשאדן אלדי קד גפאני...</quote>
+                           </p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, about 8 x 6 1/4 in., about 36 and 24 lines; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part23" n="23">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 74/23</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part23-item1">
+                        <locus from="33a" to="33b">Fol. 33</locus>
+                        <title>תלויות המשנה</title>
+                        <note>Upper part of leaf.</note>
+                        <msItem xml:id="MS_Heb_d_74-part23-item1-item1">
+                           <p>
+                              <locus from="33a" to="33a">Recto</locus>, title only<quote type="head">תל[ויות] המשנה שתלה יוסף ברבי יעקב הבבלי כשהיה למ[ד תו]רה</quote>.</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part23-item1-item2">
+                           <p>
+                              <locus from="33b" to="33b">Verso</locus>, title again<quote type="head">תעאליק אל מש[נה] ממא עלק יוסף...</quote>.</p>
+                        </msItem>
+                        <note>Text headed<quote type="head">יומא פרק ב̇</quote>, beg.<quote>החזה והגרה (ii,3) חזהֿ אלזור ומן אלנאס מן יסמיה אלקץ ואלג̇מיע עבארה ען אלצדר קאלוא... חזה הרואה את הקרקע. למעלה עד הצואר.</quote>
+                           <p>The rest is torn off, or illegible.</p>
+                        </note>
+                        <textLang mainLang="jrb" otherLangs="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen squ. (title) and Rabb. char.;<material>paper</material>, 6 7/8 in. wide.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part24" n="24">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 74/24</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part24-item1">
+                        <locus from="34a" to="34b">Fol. 34</locus>
+                        <title>Controversial theological work; List of biblical readings</title>
+                        <note>Lower part of a leaf</note>
+                        <msItem xml:id="MS_Heb_d_74-part24-item1-item1">
+                           <locus from="34a" to="34b">Recto</locus>
+                           <title>Fragment of a controversial theological work, in Arabic</title>
+                           <note>
+                              <p>a few words of the end of a section, then the end of a heading (?)<quote type="head">...רד עלי אלקראין</quote>
+                              </p>
+                              <p>The rest is as follows:</p>
+                              <p>
                                  <quote>...נסכה תתצ̇מן מקאלתין אלמקאלה אלראבעה ואלמקאלה אלכאמסה מן כתאב אלאנואר ואלמראקיב תאליף אבי יוסף יעקב בר יצחק אלקרקסאני. אמא אלמקאלה אלראבעה פפי אלוג̇וה ואלאסבאב אלתי יוצל בהא אלי מערפה אלפראיץ̇ ודכר וג̇וה אלנץ ווג̇וה אלקיאס והי תמאניה וסתון באבא ואמא אלמקאלה אלכאמסה פפי אלכתאנה ואלסבת והי ארבעין באבא מן דלך אחד עשר באבא פי אלכתאנה ותשעה ועשרין באבא פי אלסבת.</quote>
-                              </p> 
-                                        <p>In the margin (partly torn off)</p>
-                                        <p>
+                              </p>
+                              <p>In the margin (partly torn off)</p>
+                              <p>
                                  <quote>אולא... אלא למא... בחלב או... באקי אלפר[שה הנה אנכי שלח] מלאך לפניך (Exod. 23,20) וג'... פאלחאצל אן הדה אלמכלתא תתצ̇מן תפסיר מן החדש הזה אלי הנה אנכי שלח מלאך לפניך וקליל מן כי תשא וקליל מן ויקהל פאעלם כאמל עלי תלאוה ונט̇אם.</quote>
                               </p>
-                                        <p>For the contents of the كتاب الانوار see Poznanski in Festschrift Steinschneider p. 196.</p> 
-                                        <p>The author is called Abu Joseph also in a British Museum MS., see G. Margoliouth in J.Q.R. xi, p. 215.</p> 
-                                    </note>
-                                </msItem>
-                                    <msItem xml:id="MS_Heb_d_74-part24-item1-item2">
-                                        <locus from="34b" to="34b">Verso</locus>
-                                        <title>A list of biblical readings</title>
-                                        <note>numbered א̇ to כ̇ח̇ , beg. <quote type="beg">א̇ חנוכה ב̇ כי תשא ג̇ זכור</quote>. 
-                                            <p>Nos. 15-18 are <quote>ט̇ו̇ שמעו י̇ו̇ איכה י̇ז̇ נחמו י̇ח̇ ותאמר ציון</quote>. Below is a note</p> 
-                                            <p>
+                              <p>For the contents of the كتاب الانوار see Poznanski in Festschrift Steinschneider p. 196.</p>
+                              <p>The author is called Abu Joseph also in a British Museum MS., see G. Margoliouth in J.Q.R. xi, p. 215.</p>
+                           </note>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part24-item1-item2">
+                           <locus from="34b" to="34b">Verso</locus>
+                           <title>A list of biblical readings</title>
+                           <note>numbered א̇ to כ̇ח̇ , beg.<quote type="beg">א̇ חנוכה ב̇ כי תשא ג̇ זכור</quote>.<p>Nos. 15-18 are<quote>ט̇ו̇ שמעו י̇ו̇ איכה י̇ז̇ נחמו י̇ח̇ ותאמר ציון</quote>. Below is a note</p>
+                              <p>
                                  <quote>פי בצץ̇ אלנסך שור או כשב ועשר ולקחתם לכם (nos. 9-11) בעד אחרי מות (no. 27) קבל שמיני עצרת (no.28) והו אלצחיח</quote>
-                              </p> 
-                                            <p>Another note at the side is too incomplete to be intelligible.</p>
+                              </p>
+                              <p>Another note at the side is too incomplete to be intelligible.</p>
                            </note>
-                                    </msItem>
-                                
-                                <textLang mainLang="jrb" otherLangs="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Yemen curs. char.; <material>paper</material>, 7 1/4 in. wide.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part25" n="25">
-                        <msIdentifier>
+                        </msItem>
+                        <textLang mainLang="jrb" otherLangs="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen curs. char.;<material>paper</material>, 7 1/4 in. wide.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part25" n="25">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/25</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/25</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part25-item1">
-                                <locus from="35a" to="35b">Fol. 35</locus>
-                                <author/>
-                                <title>Legal document; treatise</title>
-                                <note/> 
-                                  
-                                <msItem xml:id="MS_Heb_d_74-part25-item1-item1">
-                                    <locus from="35a" to="35a">Recto</locus>
-                                    <title>Part of a legal document in Arabic</title>
-                                    <note>apparently dealing with the property of some person deceased. No name or date remains.</note>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_d_74-part25-item1-item2">
-                                    <locus from="35b" to="35b">Verso</locus>
-                                    <title>An extract, in Arabic, on the various meanings of the root ידע, with biblical examples</title>
-                                    <note>Beg. and end missing, beg. <quote type="beg">וקאל ושמי יי לא נודעתי להם יעני בקול' הד... פנים בפנים כאשר נודעתי לך. ואלג̇ רחמה כק' וירא אלהים א[ת בני יש' וידע]... אסראיל ורחמהם. ואלד שעור תבואהו שואה לא יידע לא... ומתלה לא ידעתי נפשי שמתני. ואלה̇ אדב ועקובה כק'...</quote>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part25-item1">
+                        <locus from="35a" to="35b">Fol. 35</locus>
+                        <title>Legal document; treatise</title>
+                        <msItem xml:id="MS_Heb_d_74-part25-item1-item1">
+                           <locus from="35a" to="35a">Recto</locus>
+                           <title>Part of a legal document in Arabic</title>
+                           <note>apparently dealing with the property of some person deceased. No name or date remains.</note>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_74-part25-item1-item2">
+                           <locus from="35b" to="35b">Verso</locus>
+                           <title>An extract, in Arabic, on the various meanings of the root ידע, with biblical examples</title>
+                           <note>Beg. and end missing, beg.<quote type="beg">וקאל ושמי יי לא נודעתי להם יעני בקול' הד... פנים בפנים כאשר נודעתי לך. ואלג̇ רחמה כק' וירא אלהים א[ת בני יש' וידע]... אסראיל ורחמהם. ואלד שעור תבואהו שואה לא יידע לא... ומתלה לא ידעתי נפשי שמתני. ואלה̇ אדב ועקובה כק'...</quote>
                            </note>
-                                </msItem>
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char. (<locus from="35a" to="35a">recto</locus> and <locus from="35b" to="35b">verso</locus> by different hands); <material>paper</material>, torn.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part26" n="26">
-                        <msIdentifier>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char. (<locus from="35a" to="35a">recto</locus>and<locus from="35b" to="35b">verso</locus>by different hands);<material>paper</material>, torn.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part26" n="26">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/26</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/26</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part26-item1">
-                                <locus from="36a" to="36b">Fol. 36</locus>
-                                <author/>
-                                <title>Legal document in Arabic, concerning a dowry</title>
-                                <note>Parties <persName type="heb">גאליה בנת יצחק רחמה אללה ארמלה פוריג...</persName> and  <persName type="heb">מוצף (?) בנת אברהים הידוע בן פולה</persName> and <persName type="heb">אלשיך אבו יוסף יעקוב בן דויד</persName>. 
-                                    <p>Other names mentioned are: <persName type="heb">מסאפר החזן בן שלמה החזן נ̇ב̇ע̇</persName> and <persName type="heb">אבו מנצור גאלב ביר̇ יצחק נ̇ב̇ע̇</persName>.</p> 
-                                    <p>Scribe and witness <persName type="heb">זכריה הלוי ביר̇ משה (?) נ̇ב̇ע̇</persName>. End missing.</p> 
-                                    <p>
-                              <locus from="36b" to="36b">Verso</locus> blank.</p> 
-                                    
-                                </note>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char. (unusual hand); <material>paper</material>, about 7 x 7 in., 18 lines; much injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part27" n="27">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part26-item1">
+                        <locus from="36a" to="36b">Fol. 36</locus>
+                        <title>Legal document in Arabic, concerning a dowry</title>
+                        <note>Parties<persName type="heb">גאליה בנת יצחק רחמה אללה ארמלה פוריג...</persName>and<persName type="heb">מוצף (?) בנת אברהים הידוע בן פולה</persName>and<persName type="heb">אלשיך אבו יוסף יעקוב בן דויד</persName>.<p>Other names mentioned are:<persName type="heb">מסאפר החזן בן שלמה החזן נ̇ב̇ע̇</persName>and<persName type="heb">אבו מנצור גאלב ביר̇ יצחק נ̇ב̇ע̇</persName>.</p>
+                           <p>Scribe and witness<persName type="heb">זכריה הלוי ביר̇ משה (?) נ̇ב̇ע̇</persName>. End missing.</p>
+                           <p>
+                              <locus from="36b" to="36b">Verso</locus>blank.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char. (unusual hand);<material>paper</material>, about 7 x 7 in., 18 lines; much injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part27" n="27">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/27</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/27</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part27-item1">
-                                <locus from="37a" to="37b">Fol. 37</locus>
-                                <author/>
-                                <title>Letter in Arabic, with introduction in Hebrew, to <persName type="heb">מצליח הכהן ראש ישיבה</persName>.</title>
-                                <note>'Best wishes for <quote>שני חמודיו הפרחים</quote>. My late daughter's property has been seized by her brothers and their sons, and the sons of <persName type="heb">אברהים אלכביר</persName>. They have left me not even bread to eat. I beg you to see about it.’ 
-                                    <p>
-                              <locus from="37b" to="37b">Verso</locus> blank.</p> 
-                                    
-                                </note>  
-                               
-                                <textLang mainLang="jrb" otherLangs="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 7 3/4 x 6 1/2 in., 20 lines; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part28" n="28">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part27-item1">
+                        <locus from="37a" to="37b">Fol. 37</locus>
+                        <title>Letter in Arabic, with introduction in Hebrew, to<persName type="heb">מצליח הכהן ראש ישיבה</persName>.</title>
+                        <note>'Best wishes for<quote>שני חמודיו הפרחים</quote>. My late daughter's property has been seized by her brothers and their sons, and the sons of<persName type="heb">אברהים אלכביר</persName>. They have left me not even bread to eat. I beg you to see about it.’<p>
+                              <locus from="37b" to="37b">Verso</locus>blank.</p>
+                        </note>
+                        <textLang mainLang="jrb" otherLangs="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 3/4 x 6 1/2 in., 20 lines; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part28" n="28">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/28</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/28</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part28-item1">
-                                <locus from="38a" to="38b">Fol. 38</locus>
-                                <author/>
-                                <title>Fragment apparently relating to Ps. 19.</title>
-                                <note>Below <persName type="heb">אהרן בר עובדיה החזן נ̇ע̇</persName> is written several times. 
-                                    <p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part28-item1">
+                        <locus from="38a" to="38b">Fol. 38</locus>
+                        <title>Fragment apparently relating to Ps. 19.</title>
+                        <note>Below<persName type="heb">אהרן בר עובדיה החזן נ̇ע̇</persName>is written several times.<p>
                               <locus from="38b" to="38b">Verso</locus>, scribbling.</p>
-                                    
-                                </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 9 x 7 1/4 in.; much injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part29" n="29">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 9 x 7 1/4 in.; much injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part29" n="29">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/29</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/29</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part29-item1">
-                                <locus from="39a" to="39b">Fol. 39</locus>
-                                <author/>
-                                <title>Arabic letter as to the division of an inheritance.</title>
-                                <note>Small fragment only. <locus from="39b" to="39b">Verso</locus> blank.</note>  
-                            
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>paper</material>, 6 1/2 in. wide.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part30" n="30">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part29-item1">
+                        <locus from="39a" to="39b">Fol. 39</locus>
+                        <title>Arabic letter as to the division of an inheritance.</title>
+                        <note>Small fragment only.<locus from="39b" to="39b">Verso</locus>blank.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 6 1/2 in. wide.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part30" n="30">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/30</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/30</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part30-item1">
-                                <locus from="40a" to="40b">Fol. 40</locus>
-                                <author/>
-                                <title>Arabic letter from a person in some distress.</title>
-                                <note>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part30-item1">
+                        <locus from="40a" to="40b">Fol. 40</locus>
+                        <title>Arabic letter from a person in some distress.</title>
+                        <note>
                            <p>Beg. missing.</p>
-                                    <p>Names mentioned are: <persName type="heb">בן נחום</persName>, <persName type="heb">ר̇ ישועה</persName>, <persName type="heb">ר̇ אברהם הדיין</persName>, <persName type="heb">ר̇ נסים</persName>, <persName type="heb">אבו נצר</persName>.</p> 
-                                    <p>
-                              <locus from="40b" to="40b">Verso</locus> blank.</p>
-                        </note>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 7 1/2 in. wide; much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part31" n="31">
-                        <msIdentifier>
+                           <p>Names mentioned are:<persName type="heb">בן נחום</persName>,<persName type="heb">ר̇ ישועה</persName>,<persName type="heb">ר̇ אברהם הדיין</persName>,<persName type="heb">ר̇ נסים</persName>,<persName type="heb">אבו נצר</persName>.</p>
+                           <p>
+                              <locus from="40b" to="40b">Verso</locus>blank.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 1/2 in. wide; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part31" n="31">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/31</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/31</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part31-item1">
-                                <locus from="41a" to="41b">Fol. 41</locus>
-                                <author/>
-                                <title>Arabic letter from <persName type="heb">יצחק בן ברוך</persName> to <persName type="heb">אבו סעיד הלוי בר̇ נתאל</persName> [i.e. נתנאל].</title>
-                                <note/>  
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>paper</material>, 6 1/2 x 7 3/4 in.; injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part32" n="32">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part31-item1">
+                        <locus from="41a" to="41b">Fol. 41</locus>
+                        <title>Arabic letter from<persName type="heb">יצחק בן ברוך</persName>to<persName type="heb">אבו סעיד הלוי בר̇ נתאל</persName>[i.e. נתנאל].</title>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 6 1/2 x 7 3/4 in.; injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part32" n="32">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/32</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/32</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part32-item1">
-                                <locus from="42a" to="42b">Fol. 42</locus>
-                                <author/>
-                                <title>Arabic letter, with Hebrew introduction</title>
-                                <note>from <persName type="heb">פכיר בן שבת</persName> (?) to <persName type="heb">אברהם בר סעדיה</persName> (?). Beg. and end missing. Mentions <persName type="heb">דויד הכהן ואכותה</persName> at <placeName type="heb">סומבאט</placeName> (Sombat) and <persName type="heb">אבו אלוחש</persName>.</note>  
-                               
-                                <textLang mainLang="jrb" otherLangs="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, about 6 in. wide; injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part33" n="33">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part32-item1">
+                        <locus from="42a" to="42b">Fol. 42</locus>
+                        <title>Arabic letter, with Hebrew introduction</title>
+                        <note>from<persName type="heb">פכיר בן שבת</persName>(?) to<persName type="heb">אברהם בר סעדיה</persName>(?). Beg. and end missing. Mentions<persName type="heb">דויד הכהן ואכותה</persName>at<placeName type="heb">סומבאט</placeName>(Sombat) and<persName type="heb">אבו אלוחש</persName>.</note>
+                        <textLang mainLang="jrb" otherLangs="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, about 6 in. wide; injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part33" n="33">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/33</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/33</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part33-item1">
-                                <locus from="43a" to="43b">Fol. 43</locus>
-                                <author/>
-                                <title>Arabic letter</title>
-                                <note>beg. and end missing. Most of what is legible is common-place. Mentions <persName type="heb">...בירבי חיים הכהן המומתה ז̇צ̇ל̇</persName>. 
-                                    <p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part33-item1">
+                        <locus from="43a" to="43b">Fol. 43</locus>
+                        <title>Arabic letter</title>
+                        <note>beg. and end missing. Most of what is legible is common-place. Mentions<persName type="heb">...בירבי חיים הכהן המומתה ז̇צ̇ל̇</persName>.<p>
                               <locus from="43b" to="43b">Verso</locus>, blank.</p>
-                        </note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, fragment only.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part34" n="34">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, fragment only.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part34" n="34">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/34</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/34</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part34-item1">
-                                <locus from="44a" to="44b">Fol. 44</locus>
-                                <author/>
-                                <title>Arabic letter to <persName type="ara">ابو الفرج ابن عمران</persName> from <persName type="ara">موسى ابن اسحق المغربى ... ساكن ... سوق النحاسه</persName>.</title>
-                                <note>Apparently written from <placeName>Jerusalem</placeName> (<placeName type="heb">אלקדס</placeName>). Only a fragment of the beginning containing the compliments. 
-                                    <p>
-                              <locus from="44b" to="44b">Verso</locus>, address only, in naskhi.</p> 
-                                    
-                                </note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char. (<locus from="44b" to="44b">verso</locus>, naskhi); <material>paper</material>, 6 1/2 in. wide; injured.</p>
-                        </physDesc>
-                        <history>
-                            <origin>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part34-item1">
+                        <locus from="44a" to="44b">Fol. 44</locus>
+                        <title>Arabic letter to<persName type="ara">ابو الفرج ابن عمران</persName>from<persName type="ara">موسى ابن اسحق المغربى ... ساكن ... سوق النحاسه</persName>.</title>
+                        <note>Apparently written from<placeName>Jerusalem</placeName>(<placeName type="heb">אלקדס</placeName>). Only a fragment of the beginning containing the compliments.<p>
+                              <locus from="44b" to="44b">Verso</locus>, address only, in naskhi.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char. (<locus from="44b" to="44b">verso</locus>, naskhi);<material>paper</material>, 6 1/2 in. wide; injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
                         <origPlace>Jerusalem</origPlace>
                      </origin>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part35" n="35">
-                        <msIdentifier>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part35" n="35">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/35</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/35</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part35-item1">
-                                <locus from="45a" to="45b">Fol. 45</locus>
-                                <author/>
-                                <title>Business letter, in Arabic</title>
-                                <note>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part35-item1">
+                        <locus from="45a" to="45b">Fol. 45</locus>
+                        <title>Business letter, in Arabic</title>
+                        <note>
                            <p>relating to transactions in corn and slaves.</p>
-                                    <p>The writer was an uneducated person. Beg. (and end?) missing.</p>
-                                    <p>Mentions <persName type="heb">נתנאל הפרח</persName> and <placeName type="heb">קיסאריה</placeName>.</p>
-                                    <p>
+                           <p>The writer was an uneducated person. Beg. (and end?) missing.</p>
+                           <p>Mentions<persName type="heb">נתנאל הפרח</persName>and<placeName type="heb">קיסאריה</placeName>.</p>
+                           <p>
                               <locus from="45b" to="45b">Verso</locus>, 3 lines in naskhi (address?) only.</p>
-                        </note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 7 1/4 in. wide; injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part36" n="36">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 1/4 in. wide; injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part36" n="36">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/36</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/36</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part36-item1">
-                                <locus from="46a" to="46b">Fol. 46</locus>
-                                <author/>
-                                <title>Arabic letter from <persName type="heb">נהראי בן נסים</persName> to <persName type="heb">אבי אסחק ברהון בן צלח ז̇ל̇ בן ברהון אלתיהרתי</persName>.</title>
-                                <note>Written on a <date calendar="AM">Friday, the 1st of Adar</date>.</note>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>paper</material>, 9 x 7 in.; much injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                           
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_74-part37" n="37">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part36-item1">
+                        <locus from="46a" to="46b">Fol. 46</locus>
+                        <title>Arabic letter from<persName type="heb">נהראי בן נסים</persName>to<persName type="heb">אבי אסחק ברהון בן צלח ז̇ל̇ בן ברהון אלתיהרתי</persName>.</title>
+                        <note>Written on a<date calendar="AM">Friday, the 1st of Adar</date>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 9 x 7 in.; much injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_74-part37" n="37">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 74/37</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 74/37</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_74-part37-item1">
-                                <locus from="47a" to="47b">Fol. 47</locus>
-                                <author/>
-                                <title>Arabic letter</title>
-                                <note>Beg. and end missing. No names. <locus from="47b" to="47b">Verso</locus> blank.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, about 9 1/2 x 7 1/4 in.; much injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through <persName>J. Offord</persName>. Ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="TYPED">
-                    <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
-                    </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                
-                <keywords scheme="Neubauer">
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_74-part37-item1">
+                        <locus from="47a" to="47b">Fol. 47</locus>
+                        <title>Arabic letter</title>
+                        <note>Beg. and end missing. No names.<locus from="47b" to="47b">Verso</locus>blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, about 9 1/2 x 7 1/4 in.; much injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="TYPED">
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
                <term>
                   <ref target="#MS_Heb_d_74_01 #MS_Heb_d_74_02">Biblical fragments</ref>
                </term>
             </keywords>
-                <keywords scheme="#TYPED">
-                    <term>
+            <keywords scheme="#TYPED">
+               <term>
                   <ref target="#MS_Heb_d_74_04">
                      <persName type="aut">Abraham (b. Meir) b. Ezra</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_10">
                      <persName type="aut">Moses b. Joseph of Cordoba</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_11">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_13">
                      <persName type="aut">Abu Sulaiman</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_13">
                      <persName type="scribe">Jeshua hal-Levi b. Mebhorakh</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_13">
                      <persName type="heb">ישועה הלוי בן מברך</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_19">
                      <persName type="aut">Judah hal-Levi</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_19">
                      <persName type="aut">Joseph</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_23">
                      <persName type="aut">Joseph b. Jacob</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_24">
                      <persName type="heb">אבו יוסף יעקב בר יצחק אלקרקסאני</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_24">
                      <persName type="ment">Abu Joseph Jacob b. Isaac Qirqisani</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_26">
                      <persName type="heb">גאליה בנת יצחק רחמה אללה ארמלה פוריג</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_26">
                      <persName type="heb">מוצף (?) בנת אברהים הידוע בן פולה</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_26">
                      <persName type="heb">אבו יוסף יעקוב בן דויד</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_26">
                      <persName type="heb">מסאפר החזן בן שלמה החזן נ̇ב̇ע̇</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_26">
                      <persName type="heb">אבו מנצור גאלב ביר̇ יצחק נ̇ב̇ע̇</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_26">
                      <persName type="scribe">Zechariah hal-Levi b. Moses</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_27">
                      <persName type="ment">Maẓliaḥ hak-kohen (Gaon and ראש ישיבה ?)</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_27">
                      <persName type="ment">Ibrahim al-kabir</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_28">
                      <persName type="ment">Aaron b. Obadiah he-ḥazan</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_30">
                      <persName type="ment">Ben Nahum</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_30">
                      <persName type="ment">Jeshua</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_30">
                      <persName type="ment">Abraham (dayan)</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_30">
                      <persName type="ment">Nissim</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_30">
                      <persName type="ment">Abu Naṣr</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_31">
                      <persName type="ment">Isaac ben Baruch</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_31">
                      <persName type="ment">Abu Saʿid hal-Levi b. Nethaneel</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_32">
                      <persName type="ment">Fakhir b. Shabbath</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_32">
                      <persName type="ment">David hak-Kohen</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_32">
                      <placeName type="ment">Sombat</placeName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_32">
                      <persName type="ment">Abu 'l-waḥsh</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_33">
                      <persName type="ment">Ḥayyim hak-Kohen</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_33">
                      <persName type="ment">... b. Ḥayyim hak-Kohen</persName>.</ref>
                </term>
-                    
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_34">
                      <persName type="ment">Abu 'l-faraj b. ʿImran</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_34">
                      <persName type="ara">Musa b. Isaac al-maghrebi</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_35">
                      <persName type="heb">Nethaneel הפרח</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_35">
                      <placeName type="ment">Caesarea</placeName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_36">
                      <persName type="aut">Nahrai b. Nissim (Abu Yaḥya)</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_74_36">
                      <persName type="ment">Abu Isḥaq Barhon b. Shelah, of Tihert</persName>.</ref>
                </term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2010-11-05">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <!-- CHECK FOLS 7, 7* !!-->
-        <graphic url="MS_HEB_d_74_1a.tif"/>
-        <graphic url="MS_HEB_d_74_1b.tif"/>
-        <graphic url="MS_HEB_d_74_2a.tif"/>
-        <graphic url="MS_HEB_d_74_2b.tif"/>
-        <graphic url="MS_HEB_d_74_3a.tif"/>
-        <graphic url="MS_HEB_d_74_3b.tif"/>
-        <graphic url="MS_HEB_d_74_4a.tif"/>
-        <graphic url="MS_HEB_d_74_4b.tif"/>
-        <graphic url="MS_HEB_d_74_5a.tif"/>
-        <graphic url="MS_HEB_d_74_5b.tif"/>
-        <graphic url="MS_HEB_d_74_6a.tif"/>
-        <graphic url="MS_HEB_d_74_6b.tif"/>
-        <graphic url="MS_HEB_d_74_7a.tif"/>
-        <graphic url="MS_HEB_d_74_7b.tif"/>
-       
-        <graphic url="MS_HEB_d_74_7(b)a.tif"/>
-        <graphic url="MS_HEB_d_74_7(b)b.tif"/>
-        
-        <graphic url="MS_HEB_d_74_8a.tif"/>
-        <graphic url="MS_HEB_d_74_8b.tif"/>
-        <graphic url="MS_HEB_d_74_9a.tif"/>
-        <graphic url="MS_HEB_d_74_9b.tif"/>
-        
-        <graphic url="MS_HEB_d_74_10a.tif"/>
-        <graphic url="MS_HEB_d_74_10b.tif"/>
-        <graphic url="MS_HEB_d_74_11a.tif"/>
-        <graphic url="MS_HEB_d_74_11b.tif"/>
-        <graphic url="MS_HEB_d_74_12a.tif"/>
-        <graphic url="MS_HEB_d_74_12b.tif"/>
-        <graphic url="MS_HEB_d_74_13a.tif"/>
-        <graphic url="MS_HEB_d_74_13b.tif"/>
-        <graphic url="MS_HEB_d_74_14a.tif"/>
-        <graphic url="MS_HEB_d_74_14b.tif"/>
-        <graphic url="MS_HEB_d_74_15a.tif"/>
-        <graphic url="MS_HEB_d_74_15b.tif"/>
-        <graphic url="MS_HEB_d_74_16a.tif"/>
-        <graphic url="MS_HEB_d_74_16b.tif"/>
-        <graphic url="MS_HEB_d_74_17a.tif"/>
-        <graphic url="MS_HEB_d_74_17b.tif"/>
-        <graphic url="MS_HEB_d_74_18a.tif"/>
-        <graphic url="MS_HEB_d_74_18b.tif"/>
-        <graphic url="MS_HEB_d_74_19a.tif"/>
-        <graphic url="MS_HEB_d_74_19b.tif"/>
-        
-        <graphic url="MS_HEB_d_74_20a.tif"/>
-        <graphic url="MS_HEB_d_74_20b.tif"/>
-        <graphic url="MS_HEB_d_74_21a.tif"/>
-        <graphic url="MS_HEB_d_74_21b.tif"/>
-        <graphic url="MS_HEB_d_74_22a.tif"/>
-        <graphic url="MS_HEB_d_74_22b.tif"/>
-        <graphic url="MS_HEB_d_74_23a.tif"/>
-        <graphic url="MS_HEB_d_74_23b.tif"/>
-        <graphic url="MS_HEB_d_74_24a.tif"/>
-        <graphic url="MS_HEB_d_74_24b.tif"/>
-        <graphic url="MS_HEB_d_74_25a.tif"/>
-        <graphic url="MS_HEB_d_74_25b.tif"/>
-        <graphic url="MS_HEB_d_74_26a.tif"/>
-        <graphic url="MS_HEB_d_74_26b.tif"/>
-        <graphic url="MS_HEB_d_74_27a.tif"/>
-        <graphic url="MS_HEB_d_74_27b.tif"/>
-        <graphic url="MS_HEB_d_74_28a.tif"/>
-        <graphic url="MS_HEB_d_74_28b.tif"/>
-        <graphic url="MS_HEB_d_74_29a.tif"/>
-        <graphic url="MS_HEB_d_74_29b.tif"/>
-        
-        <graphic url="MS_HEB_d_74_30a.tif"/>
-        <graphic url="MS_HEB_d_74_30b.tif"/>
-        <graphic url="MS_HEB_d_74_31a.tif"/>
-        <graphic url="MS_HEB_d_74_31b.tif"/>
-        <graphic url="MS_HEB_d_74_32a.tif"/>
-        <graphic url="MS_HEB_d_74_32b.tif"/>
-        <graphic url="MS_HEB_d_74_33a.tif"/>
-        <graphic url="MS_HEB_d_74_33b.tif"/>
-        <graphic url="MS_HEB_d_74_34a.tif"/>
-        <graphic url="MS_HEB_d_74_34b.tif"/>
-        <graphic url="MS_HEB_d_74_35a.tif"/>
-        <graphic url="MS_HEB_d_74_35b.tif"/>
-        <graphic url="MS_HEB_d_74_36a.tif"/>
-        <graphic url="MS_HEB_d_74_36b.tif"/>
-        <graphic url="MS_HEB_d_74_37a.tif"/>
-        <graphic url="MS_HEB_d_74_37b.tif"/>
-        <graphic url="MS_HEB_d_74_38a.tif"/>
-        <graphic url="MS_HEB_d_74_38b.tif"/>
-        <graphic url="MS_HEB_d_74_39a.tif"/>
-        <graphic url="MS_HEB_d_74_39b.tif"/>
-        
-        <graphic url="MS_HEB_d_74_40a.tif"/>
-        <graphic url="MS_HEB_d_74_40b.tif"/>
-        <graphic url="MS_HEB_d_74_41a.tif"/>
-        <graphic url="MS_HEB_d_74_41b.tif"/>
-        <graphic url="MS_HEB_d_74_42a.tif"/>
-        <graphic url="MS_HEB_d_74_42b.tif"/>
-        <graphic url="MS_HEB_d_74_43a.tif"/>
-        <graphic url="MS_HEB_d_74_43b.tif"/>
-        <graphic url="MS_HEB_d_74_44a.tif"/>
-        <graphic url="MS_HEB_d_74_44b.tif"/>
-        <graphic url="MS_HEB_d_74_45a.tif"/>
-        <graphic url="MS_HEB_d_74_45b.tif"/>
-        <graphic url="MS_HEB_d_74_46a.tif"/>
-        <graphic url="MS_HEB_d_74_46b.tif"/>
-        <graphic url="MS_HEB_d_74_47a.tif"/>
-        <graphic url="MS_HEB_d_74_47b.tif"/>
-       
-    </facsimile>
+         <change when="2010-11-05">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_d_74_1a.tif"/>
+      <graphic url="MS_HEB_d_74_1b.tif"/>
+      <graphic url="MS_HEB_d_74_2a.tif"/>
+      <graphic url="MS_HEB_d_74_2b.tif"/>
+      <graphic url="MS_HEB_d_74_3a.tif"/>
+      <graphic url="MS_HEB_d_74_3b.tif"/>
+      <graphic url="MS_HEB_d_74_4a.tif"/>
+      <graphic url="MS_HEB_d_74_4b.tif"/>
+      <graphic url="MS_HEB_d_74_5a.tif"/>
+      <graphic url="MS_HEB_d_74_5b.tif"/>
+      <graphic url="MS_HEB_d_74_6a.tif"/>
+      <graphic url="MS_HEB_d_74_6b.tif"/>
+      <graphic url="MS_HEB_d_74_7a.tif"/>
+      <graphic url="MS_HEB_d_74_7b.tif"/>
+      <graphic url="MS_HEB_d_74_7(b)a.tif"/>
+      <graphic url="MS_HEB_d_74_7(b)b.tif"/>
+      <graphic url="MS_HEB_d_74_8a.tif"/>
+      <graphic url="MS_HEB_d_74_8b.tif"/>
+      <graphic url="MS_HEB_d_74_9a.tif"/>
+      <graphic url="MS_HEB_d_74_9b.tif"/>
+      <graphic url="MS_HEB_d_74_10a.tif"/>
+      <graphic url="MS_HEB_d_74_10b.tif"/>
+      <graphic url="MS_HEB_d_74_11a.tif"/>
+      <graphic url="MS_HEB_d_74_11b.tif"/>
+      <graphic url="MS_HEB_d_74_12a.tif"/>
+      <graphic url="MS_HEB_d_74_12b.tif"/>
+      <graphic url="MS_HEB_d_74_13a.tif"/>
+      <graphic url="MS_HEB_d_74_13b.tif"/>
+      <graphic url="MS_HEB_d_74_14a.tif"/>
+      <graphic url="MS_HEB_d_74_14b.tif"/>
+      <graphic url="MS_HEB_d_74_15a.tif"/>
+      <graphic url="MS_HEB_d_74_15b.tif"/>
+      <graphic url="MS_HEB_d_74_16a.tif"/>
+      <graphic url="MS_HEB_d_74_16b.tif"/>
+      <graphic url="MS_HEB_d_74_17a.tif"/>
+      <graphic url="MS_HEB_d_74_17b.tif"/>
+      <graphic url="MS_HEB_d_74_18a.tif"/>
+      <graphic url="MS_HEB_d_74_18b.tif"/>
+      <graphic url="MS_HEB_d_74_19a.tif"/>
+      <graphic url="MS_HEB_d_74_19b.tif"/>
+      <graphic url="MS_HEB_d_74_20a.tif"/>
+      <graphic url="MS_HEB_d_74_20b.tif"/>
+      <graphic url="MS_HEB_d_74_21a.tif"/>
+      <graphic url="MS_HEB_d_74_21b.tif"/>
+      <graphic url="MS_HEB_d_74_22a.tif"/>
+      <graphic url="MS_HEB_d_74_22b.tif"/>
+      <graphic url="MS_HEB_d_74_23a.tif"/>
+      <graphic url="MS_HEB_d_74_23b.tif"/>
+      <graphic url="MS_HEB_d_74_24a.tif"/>
+      <graphic url="MS_HEB_d_74_24b.tif"/>
+      <graphic url="MS_HEB_d_74_25a.tif"/>
+      <graphic url="MS_HEB_d_74_25b.tif"/>
+      <graphic url="MS_HEB_d_74_26a.tif"/>
+      <graphic url="MS_HEB_d_74_26b.tif"/>
+      <graphic url="MS_HEB_d_74_27a.tif"/>
+      <graphic url="MS_HEB_d_74_27b.tif"/>
+      <graphic url="MS_HEB_d_74_28a.tif"/>
+      <graphic url="MS_HEB_d_74_28b.tif"/>
+      <graphic url="MS_HEB_d_74_29a.tif"/>
+      <graphic url="MS_HEB_d_74_29b.tif"/>
+      <graphic url="MS_HEB_d_74_30a.tif"/>
+      <graphic url="MS_HEB_d_74_30b.tif"/>
+      <graphic url="MS_HEB_d_74_31a.tif"/>
+      <graphic url="MS_HEB_d_74_31b.tif"/>
+      <graphic url="MS_HEB_d_74_32a.tif"/>
+      <graphic url="MS_HEB_d_74_32b.tif"/>
+      <graphic url="MS_HEB_d_74_33a.tif"/>
+      <graphic url="MS_HEB_d_74_33b.tif"/>
+      <graphic url="MS_HEB_d_74_34a.tif"/>
+      <graphic url="MS_HEB_d_74_34b.tif"/>
+      <graphic url="MS_HEB_d_74_35a.tif"/>
+      <graphic url="MS_HEB_d_74_35b.tif"/>
+      <graphic url="MS_HEB_d_74_36a.tif"/>
+      <graphic url="MS_HEB_d_74_36b.tif"/>
+      <graphic url="MS_HEB_d_74_37a.tif"/>
+      <graphic url="MS_HEB_d_74_37b.tif"/>
+      <graphic url="MS_HEB_d_74_38a.tif"/>
+      <graphic url="MS_HEB_d_74_38b.tif"/>
+      <graphic url="MS_HEB_d_74_39a.tif"/>
+      <graphic url="MS_HEB_d_74_39b.tif"/>
+      <graphic url="MS_HEB_d_74_40a.tif"/>
+      <graphic url="MS_HEB_d_74_40b.tif"/>
+      <graphic url="MS_HEB_d_74_41a.tif"/>
+      <graphic url="MS_HEB_d_74_41b.tif"/>
+      <graphic url="MS_HEB_d_74_42a.tif"/>
+      <graphic url="MS_HEB_d_74_42b.tif"/>
+      <graphic url="MS_HEB_d_74_43a.tif"/>
+      <graphic url="MS_HEB_d_74_43b.tif"/>
+      <graphic url="MS_HEB_d_74_44a.tif"/>
+      <graphic url="MS_HEB_d_74_44b.tif"/>
+      <graphic url="MS_HEB_d_74_45a.tif"/>
+      <graphic url="MS_HEB_d_74_45b.tif"/>
+      <graphic url="MS_HEB_d_74_46a.tif"/>
+      <graphic url="MS_HEB_d_74_46b.tif"/>
+      <graphic url="MS_HEB_d_74_47a.tif"/>
+      <graphic url="MS_HEB_d_74_47b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

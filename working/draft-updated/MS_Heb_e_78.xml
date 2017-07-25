@@ -2,350 +2,322 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_155">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. e. 78</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_e_78</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. e. 78</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_e_78</idno>
             <idno type="msID">MS_Heb_e_78</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_e_78" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. e. 78</idno>
-                        <altIdentifier type="other">
-                            <idno type="cat_no">2837</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                        
-                    <msContents>                            
-                        <msItem xml:id="MS_Heb_e_78-item1">
-                            <locus from="1a" to="65b">Fols. 1-65</locus>
-                            <author/>
-                            <title>Fragments of Homilies in Arabic by Nissim תמאם</title>
-                            <note/>     
-                            <msItem xml:id="MS_Heb_e_78-item1-item1" n="a">
-                                <p>On Genesis, as in No. 1002; the fragments correspond as follows:</p> 
-                                <p>
-                           <locus from="1a">fol. 1</locus> with No. 1002 fol. ס,</p> 
-                                <p>
-                           <locus from="2a">fol. 2</locus> = fol. עט,</p> 
-                                <p>
-                           <locus from="3a">fol. 3</locus> = fol. פב,</p> 
-                                <p>
-                           <locus from="4a">fol. 4</locus> = fol. פו,</p> 
-                                <p>
-                           <locus from="6a">fol. 6</locus> = fol. קלט;</p> 
-                            </msItem>
-                            <msItem xml:id="MS_Heb_e_78-item1-item2" n="b">
-                                <p>on Leviticus, as in No. 1004: </p>
-                                <p>
-                           <locus from="8a">fol. 8</locus> = No. 1004 fol. 108b,</p> 
-                                <p>
-                           <locus from="11a">fol. 11</locus> = fol. 126b,</p> 
-                                <p>
-                           <locus from="13a">fol. 13</locus> = fol. 133b,</p>
-                                <p>
-                           <locus from="16a">fol. 16</locus> = fol. 143,</p> 
-                                <p>
-                           <locus from="17a">fol. 17</locus> = fol. 176;</p> 
-                            </msItem>
-                            <msItem xml:id="MS_Heb_e_78-item1-item3" n="c">
-                                <p>on Numbers, as in No. 1005:</p> 
-                                <p>
-                           <locus from="18a">fol. 18</locus> = No. 1005 fol. 12,</p> 
-                                <p>
-                           <locus from="21a">fol. 21</locus> = fol. 25,</p> 
-                                <p>
-                           <locus from="27a">fol. 27</locus> = fol. 91,</p> 
-                                <p>
-                           <locus from="29a">fol. 29</locus> = fol. 143b,</p> 
-                                <p>
-                           <locus from="30a">fol. 30</locus> = fol. 162,</p> 
-                                <p>
-                           <locus from="33a">fol. 33</locus> = fol. 172,</p> 
-                                <p>
-                           <locus from="34a">fol. 34</locus> = fol. 176,</p> 
-                                <p>
-                           <locus from="37a">fol. 37</locus> = fol. 185,</p> 
-                                <p>
-                           <locus from="40a">fol. 40</locus> = fol. 192,</p> 
-                                <p>
-                           <locus from="47a">fol. 47</locus> = fol. 215;</p> 
-                            </msItem>
-                            <msItem xml:id="MS_Heb_e_78-item1-item4" n="d">
-                                <p>on Deuteronomy, as in No. 1006:</p>                                    
-                                <p>
-                           <locus from="48a">ff. 48, 49</locus> = No. 1006 ff. סא , סב;</p> 
-                                <p>
-                           <locus from="50a">ff. 50, 51</locus> = ff. סו, סז;</p> 
-                                <p>lacuna;</p> 
-                                <p>
-                           <locus from="52a">fol. 52</locus> = fol. סז;</p> 
-                                <p>
-                           <locus from="53a">ff. 53, 54</locus> = ff. פ, פא.</p>
-                            </msItem>
-                            <msItem xml:id="MS_Heb_e_78-item1-item5">
-                                <p>
-                           <locus from="55a" to="65b">Ff. 55 to 65</locus> not identified.</p>
-                            </msItem>
-                            <textLang mainLang="jrb"/>
-                        </msItem>
-                        
-                        </msContents>
-                        <physDesc>
-                            <p>Span. Rabb. char.; 8vo, <material>paper</material>, stained, some leaves injured.</p>
-                            <p>Ff. 65.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        <additional>
-                            <adminInfo>
-                                <recordHist>
-                                    <source>Manuscript description based on <bibl>Catalogue
-                                        of the Hebrew Manuscripts in the Bodleian
-                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p079a.jpg">No. 2837</ref>.</source>
-                                </recordHist>
-                                <availability status="restricted">
-                                    <p>Entry to read in the Library is permitted only on
-                                        presentation of a valid reader's card (for admissions
-                                        procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                        <email>oriental@bodleian.ox.ac.uk</email> for further
-                                        information on the availability of this manuscript</p>
-                                </availability>
-                            </adminInfo>
-                            
-                        </additional>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="INDEX">
-                    <desc>General index of <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_e_78" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. e. 78</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="MS_Heb_e_78-item1">
+                     <locus from="1a" to="65b">Fols. 1-65</locus>
+                     <title>Fragments of Homilies in Arabic by Nissim תמאם</title>
+                     <msItem xml:id="MS_Heb_e_78-item1-item1" n="a">
+                        <p>On Genesis, as in No. 1002; the fragments correspond as follows:</p>
+                        <p>
+                           <locus from="1a">fol. 1</locus>with No. 1002 fol. ס,</p>
+                        <p>
+                           <locus from="2a">fol. 2</locus>= fol. עט,</p>
+                        <p>
+                           <locus from="3a">fol. 3</locus>= fol. פב,</p>
+                        <p>
+                           <locus from="4a">fol. 4</locus>= fol. פו,</p>
+                        <p>
+                           <locus from="6a">fol. 6</locus>= fol. קלט;</p>
+                     </msItem>
+                     <msItem xml:id="MS_Heb_e_78-item1-item2" n="b">
+                        <p>on Leviticus, as in No. 1004:</p>
+                        <p>
+                           <locus from="8a">fol. 8</locus>= No. 1004 fol. 108b,</p>
+                        <p>
+                           <locus from="11a">fol. 11</locus>= fol. 126b,</p>
+                        <p>
+                           <locus from="13a">fol. 13</locus>= fol. 133b,</p>
+                        <p>
+                           <locus from="16a">fol. 16</locus>= fol. 143,</p>
+                        <p>
+                           <locus from="17a">fol. 17</locus>= fol. 176;</p>
+                     </msItem>
+                     <msItem xml:id="MS_Heb_e_78-item1-item3" n="c">
+                        <p>on Numbers, as in No. 1005:</p>
+                        <p>
+                           <locus from="18a">fol. 18</locus>= No. 1005 fol. 12,</p>
+                        <p>
+                           <locus from="21a">fol. 21</locus>= fol. 25,</p>
+                        <p>
+                           <locus from="27a">fol. 27</locus>= fol. 91,</p>
+                        <p>
+                           <locus from="29a">fol. 29</locus>= fol. 143b,</p>
+                        <p>
+                           <locus from="30a">fol. 30</locus>= fol. 162,</p>
+                        <p>
+                           <locus from="33a">fol. 33</locus>= fol. 172,</p>
+                        <p>
+                           <locus from="34a">fol. 34</locus>= fol. 176,</p>
+                        <p>
+                           <locus from="37a">fol. 37</locus>= fol. 185,</p>
+                        <p>
+                           <locus from="40a">fol. 40</locus>= fol. 192,</p>
+                        <p>
+                           <locus from="47a">fol. 47</locus>= fol. 215;</p>
+                     </msItem>
+                     <msItem xml:id="MS_Heb_e_78-item1-item4" n="d">
+                        <p>on Deuteronomy, as in No. 1006:</p>
+                        <p>
+                           <locus from="48a">ff. 48, 49</locus>= No. 1006 ff. סא , סב;</p>
+                        <p>
+                           <locus from="50a">ff. 50, 51</locus>= ff. סו, סז;</p>
+                        <p>lacuna;</p>
+                        <p>
+                           <locus from="52a">fol. 52</locus>= fol. סז;</p>
+                        <p>
+                           <locus from="53a">ff. 53, 54</locus>= ff. פ, פא.</p>
+                     </msItem>
+                     <msItem xml:id="MS_Heb_e_78-item1-item5">
+                        <p>
+                           <locus from="55a" to="65b">Ff. 55 to 65</locus>not identified.</p>
+                     </msItem>
+                     <textLang mainLang="jrb"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Span. Rabb. char.; 8vo,<material>paper</material>, stained, some leaves injured.</p>
+                  <p>Ff. 65.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p079a.jpg">No. 2837</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="Neubauer">
-                    <term>Talmud</term>
-                    <term>Later Acquisitions</term>
-                </keywords>
-                
-                <keywords scheme="#INDEX">
-                    <term>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Talmud</term>
+               <term>Later Acquisitions</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
                   <ref target="#MS_Heb_e_78">Homilies. Arabic. On Genesis.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_78">Homilies. Arabic. On Leviticus.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_78">Homilies. Arabic. On Numbers.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_78">Homilies. Arabic. On Deuteronomy.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_78">
                      <persName type="aut">Nissim תמאם</persName>. Homilies.</ref>
                </term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2011-08-01">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-       
-        <graphic url="MS_HEB_e_78_1a.tif"/>
-        <graphic url="MS_HEB_e_78_1b.tif"/>
-        <graphic url="MS_HEB_e_78_2a.tif"/>
-        <graphic url="MS_HEB_e_78_2b.tif"/>
-        <graphic url="MS_HEB_e_78_3a.tif"/>
-        <graphic url="MS_HEB_e_78_3b.tif"/>
-        <graphic url="MS_HEB_e_78_4a.tif"/>
-        <graphic url="MS_HEB_e_78_4b.tif"/>
-        <graphic url="MS_HEB_e_78_5a.tif"/>
-        <graphic url="MS_HEB_e_78_5b.tif"/>
-        <graphic url="MS_HEB_e_78_6a.tif"/>
-        <graphic url="MS_HEB_e_78_6b.tif"/>
-        <graphic url="MS_HEB_e_78_7a.tif"/>
-        <graphic url="MS_HEB_e_78_7b.tif"/>
-        <graphic url="MS_HEB_e_78_8a.tif"/>
-        <graphic url="MS_HEB_e_78_8b.tif"/>
-        <graphic url="MS_HEB_e_78_9a.tif"/>
-        <graphic url="MS_HEB_e_78_9b.tif"/>
-        
-        <graphic url="MS_HEB_e_78_10a.tif"/>
-        <graphic url="MS_HEB_e_78_10b.tif"/>
-        <graphic url="MS_HEB_e_78_11a.tif"/>
-        <graphic url="MS_HEB_e_78_11b.tif"/>
-        <graphic url="MS_HEB_e_78_12a.tif"/>
-        <graphic url="MS_HEB_e_78_12b.tif"/>
-        <graphic url="MS_HEB_e_78_13a.tif"/>
-        <graphic url="MS_HEB_e_78_13b.tif"/>
-        <graphic url="MS_HEB_e_78_14a.tif"/>
-        <graphic url="MS_HEB_e_78_14b.tif"/>
-        <graphic url="MS_HEB_e_78_15a.tif"/>
-        <graphic url="MS_HEB_e_78_15b.tif"/>
-        <graphic url="MS_HEB_e_78_16a.tif"/>
-        <graphic url="MS_HEB_e_78_16b.tif"/>
-        <graphic url="MS_HEB_e_78_17a.tif"/>
-        <graphic url="MS_HEB_e_78_17b.tif"/>
-        <graphic url="MS_HEB_e_78_18a.tif"/>
-        <graphic url="MS_HEB_e_78_18b.tif"/>
-        <graphic url="MS_HEB_e_78_19a.tif"/>
-        <graphic url="MS_HEB_e_78_19b.tif"/>
-        
-        <graphic url="MS_HEB_e_78_20a.tif"/>
-        <graphic url="MS_HEB_e_78_20b.tif"/>
-        <graphic url="MS_HEB_e_78_21a.tif"/>
-        <graphic url="MS_HEB_e_78_21b.tif"/>
-        <graphic url="MS_HEB_e_78_22a.tif"/>
-        <graphic url="MS_HEB_e_78_22b.tif"/>
-        <graphic url="MS_HEB_e_78_23a.tif"/>
-        <graphic url="MS_HEB_e_78_23b.tif"/>
-        <graphic url="MS_HEB_e_78_24a.tif"/>
-        <graphic url="MS_HEB_e_78_24b.tif"/>
-        <graphic url="MS_HEB_e_78_25a.tif"/>
-        <graphic url="MS_HEB_e_78_25b.tif"/>
-        <graphic url="MS_HEB_e_78_26a.tif"/>
-        <graphic url="MS_HEB_e_78_26b.tif"/>
-        <graphic url="MS_HEB_e_78_27a.tif"/>
-        <graphic url="MS_HEB_e_78_27b.tif"/>
-        <graphic url="MS_HEB_e_78_28a.tif"/>
-        <graphic url="MS_HEB_e_78_28b.tif"/>
-        <graphic url="MS_HEB_e_78_29a.tif"/>
-        <graphic url="MS_HEB_e_78_29b.tif"/>
-        
-        <graphic url="MS_HEB_e_78_30a.tif"/>
-        <graphic url="MS_HEB_e_78_30b.tif"/>
-        <graphic url="MS_HEB_e_78_31a.tif"/>
-        <graphic url="MS_HEB_e_78_31b.tif"/>
-        <graphic url="MS_HEB_e_78_32a.tif"/>
-        <graphic url="MS_HEB_e_78_32b.tif"/>
-        <graphic url="MS_HEB_e_78_33a.tif"/>
-        <graphic url="MS_HEB_e_78_33b.tif"/>
-        <graphic url="MS_HEB_e_78_34a.tif"/>
-        <graphic url="MS_HEB_e_78_34b.tif"/>
-        <graphic url="MS_HEB_e_78_35a.tif"/>
-        <graphic url="MS_HEB_e_78_35b.tif"/>
-        
-        <graphic url="MS_HEB_e_78_35(a)a.tif"/>
-        <graphic url="MS_HEB_e_78_35(a)b.tif"/>
-        
-        <graphic url="MS_HEB_e_78_36a.tif"/>
-        <graphic url="MS_HEB_e_78_36b.tif"/>
-        <graphic url="MS_HEB_e_78_37a.tif"/>
-        <graphic url="MS_HEB_e_78_37b.tif"/>
-        <graphic url="MS_HEB_e_78_38a.tif"/>
-        <graphic url="MS_HEB_e_78_38b.tif"/>
-        <graphic url="MS_HEB_e_78_39a.tif"/>
-        <graphic url="MS_HEB_e_78_39b.tif"/>
-        
-        <graphic url="MS_HEB_e_78_40a.tif"/>
-        <graphic url="MS_HEB_e_78_40b.tif"/>
-        <graphic url="MS_HEB_e_78_41a.tif"/>
-        <graphic url="MS_HEB_e_78_41b.tif"/>
-        <graphic url="MS_HEB_e_78_42a.tif"/>
-        <graphic url="MS_HEB_e_78_42b.tif"/>
-        <graphic url="MS_HEB_e_78_43a.tif"/>
-        <graphic url="MS_HEB_e_78_43b.tif"/>
-        <graphic url="MS_HEB_e_78_44a.tif"/>
-        <graphic url="MS_HEB_e_78_44b.tif"/>
-        <graphic url="MS_HEB_e_78_45a.tif"/>
-        <graphic url="MS_HEB_e_78_45b.tif"/>
-        <graphic url="MS_HEB_e_78_46a.tif"/>
-        <graphic url="MS_HEB_e_78_46b.tif"/>
-        <graphic url="MS_HEB_e_78_47a.tif"/>
-        <graphic url="MS_HEB_e_78_47b.tif"/>
-        <graphic url="MS_HEB_e_78_48a.tif"/>
-        <graphic url="MS_HEB_e_78_48b.tif"/>
-        <graphic url="MS_HEB_e_78_49a.tif"/>
-        <graphic url="MS_HEB_e_78_49b.tif"/>
-        
-        <graphic url="MS_HEB_e_78_50a.tif"/>
-        <graphic url="MS_HEB_e_78_50b.tif"/>
-        <graphic url="MS_HEB_e_78_51a.tif"/>
-        <graphic url="MS_HEB_e_78_51b.tif"/>
-        <graphic url="MS_HEB_e_78_52a.tif"/>
-        <graphic url="MS_HEB_e_78_52b.tif"/>
-        <graphic url="MS_HEB_e_78_53a.tif"/>
-        <graphic url="MS_HEB_e_78_53b.tif"/>
-        <graphic url="MS_HEB_e_78_54a.tif"/>
-        <graphic url="MS_HEB_e_78_54b.tif"/>
-        <graphic url="MS_HEB_e_78_55a.tif"/>
-        <graphic url="MS_HEB_e_78_55b.tif"/>
-        <graphic url="MS_HEB_e_78_56a.tif"/>
-        <graphic url="MS_HEB_e_78_56b.tif"/>
-        <graphic url="MS_HEB_e_78_57a.tif"/>
-        <graphic url="MS_HEB_e_78_57b.tif"/>
-        <graphic url="MS_HEB_e_78_58a.tif"/>
-        <graphic url="MS_HEB_e_78_58b.tif"/>
-        <graphic url="MS_HEB_e_78_59a.tif"/>
-        <graphic url="MS_HEB_e_78_59b.tif"/>
-        
-        <graphic url="MS_HEB_e_78_60a.tif"/>
-        <graphic url="MS_HEB_e_78_60b.tif"/>
-        <graphic url="MS_HEB_e_78_61a.tif"/>
-        <graphic url="MS_HEB_e_78_61b.tif"/>
-        <graphic url="MS_HEB_e_78_62a.tif"/>
-        <graphic url="MS_HEB_e_78_62b.tif"/>
-        <graphic url="MS_HEB_e_78_63a.tif"/>
-        <graphic url="MS_HEB_e_78_63b.tif"/>
-        <graphic url="MS_HEB_e_78_64a.tif"/>
-        <graphic url="MS_HEB_e_78_64b.tif"/>
-        <graphic url="MS_HEB_e_78_65a.tif"/>
-        <graphic url="MS_HEB_e_78_65b.tif"/>
-        <graphic url="MS_HEB_e_78_66a.tif"/>
-        <graphic url="MS_HEB_e_78_66b.tif"/>
-        <graphic url="MS_HEB_e_78_67a.tif"/>
-        <graphic url="MS_HEB_e_78_67b.tif"/>
-      
-    </facsimile>
+         <change when="2011-08-01">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_e_78_1a.tif"/>
+      <graphic url="MS_HEB_e_78_1b.tif"/>
+      <graphic url="MS_HEB_e_78_2a.tif"/>
+      <graphic url="MS_HEB_e_78_2b.tif"/>
+      <graphic url="MS_HEB_e_78_3a.tif"/>
+      <graphic url="MS_HEB_e_78_3b.tif"/>
+      <graphic url="MS_HEB_e_78_4a.tif"/>
+      <graphic url="MS_HEB_e_78_4b.tif"/>
+      <graphic url="MS_HEB_e_78_5a.tif"/>
+      <graphic url="MS_HEB_e_78_5b.tif"/>
+      <graphic url="MS_HEB_e_78_6a.tif"/>
+      <graphic url="MS_HEB_e_78_6b.tif"/>
+      <graphic url="MS_HEB_e_78_7a.tif"/>
+      <graphic url="MS_HEB_e_78_7b.tif"/>
+      <graphic url="MS_HEB_e_78_8a.tif"/>
+      <graphic url="MS_HEB_e_78_8b.tif"/>
+      <graphic url="MS_HEB_e_78_9a.tif"/>
+      <graphic url="MS_HEB_e_78_9b.tif"/>
+      <graphic url="MS_HEB_e_78_10a.tif"/>
+      <graphic url="MS_HEB_e_78_10b.tif"/>
+      <graphic url="MS_HEB_e_78_11a.tif"/>
+      <graphic url="MS_HEB_e_78_11b.tif"/>
+      <graphic url="MS_HEB_e_78_12a.tif"/>
+      <graphic url="MS_HEB_e_78_12b.tif"/>
+      <graphic url="MS_HEB_e_78_13a.tif"/>
+      <graphic url="MS_HEB_e_78_13b.tif"/>
+      <graphic url="MS_HEB_e_78_14a.tif"/>
+      <graphic url="MS_HEB_e_78_14b.tif"/>
+      <graphic url="MS_HEB_e_78_15a.tif"/>
+      <graphic url="MS_HEB_e_78_15b.tif"/>
+      <graphic url="MS_HEB_e_78_16a.tif"/>
+      <graphic url="MS_HEB_e_78_16b.tif"/>
+      <graphic url="MS_HEB_e_78_17a.tif"/>
+      <graphic url="MS_HEB_e_78_17b.tif"/>
+      <graphic url="MS_HEB_e_78_18a.tif"/>
+      <graphic url="MS_HEB_e_78_18b.tif"/>
+      <graphic url="MS_HEB_e_78_19a.tif"/>
+      <graphic url="MS_HEB_e_78_19b.tif"/>
+      <graphic url="MS_HEB_e_78_20a.tif"/>
+      <graphic url="MS_HEB_e_78_20b.tif"/>
+      <graphic url="MS_HEB_e_78_21a.tif"/>
+      <graphic url="MS_HEB_e_78_21b.tif"/>
+      <graphic url="MS_HEB_e_78_22a.tif"/>
+      <graphic url="MS_HEB_e_78_22b.tif"/>
+      <graphic url="MS_HEB_e_78_23a.tif"/>
+      <graphic url="MS_HEB_e_78_23b.tif"/>
+      <graphic url="MS_HEB_e_78_24a.tif"/>
+      <graphic url="MS_HEB_e_78_24b.tif"/>
+      <graphic url="MS_HEB_e_78_25a.tif"/>
+      <graphic url="MS_HEB_e_78_25b.tif"/>
+      <graphic url="MS_HEB_e_78_26a.tif"/>
+      <graphic url="MS_HEB_e_78_26b.tif"/>
+      <graphic url="MS_HEB_e_78_27a.tif"/>
+      <graphic url="MS_HEB_e_78_27b.tif"/>
+      <graphic url="MS_HEB_e_78_28a.tif"/>
+      <graphic url="MS_HEB_e_78_28b.tif"/>
+      <graphic url="MS_HEB_e_78_29a.tif"/>
+      <graphic url="MS_HEB_e_78_29b.tif"/>
+      <graphic url="MS_HEB_e_78_30a.tif"/>
+      <graphic url="MS_HEB_e_78_30b.tif"/>
+      <graphic url="MS_HEB_e_78_31a.tif"/>
+      <graphic url="MS_HEB_e_78_31b.tif"/>
+      <graphic url="MS_HEB_e_78_32a.tif"/>
+      <graphic url="MS_HEB_e_78_32b.tif"/>
+      <graphic url="MS_HEB_e_78_33a.tif"/>
+      <graphic url="MS_HEB_e_78_33b.tif"/>
+      <graphic url="MS_HEB_e_78_34a.tif"/>
+      <graphic url="MS_HEB_e_78_34b.tif"/>
+      <graphic url="MS_HEB_e_78_35a.tif"/>
+      <graphic url="MS_HEB_e_78_35b.tif"/>
+      <graphic url="MS_HEB_e_78_35(a)a.tif"/>
+      <graphic url="MS_HEB_e_78_35(a)b.tif"/>
+      <graphic url="MS_HEB_e_78_36a.tif"/>
+      <graphic url="MS_HEB_e_78_36b.tif"/>
+      <graphic url="MS_HEB_e_78_37a.tif"/>
+      <graphic url="MS_HEB_e_78_37b.tif"/>
+      <graphic url="MS_HEB_e_78_38a.tif"/>
+      <graphic url="MS_HEB_e_78_38b.tif"/>
+      <graphic url="MS_HEB_e_78_39a.tif"/>
+      <graphic url="MS_HEB_e_78_39b.tif"/>
+      <graphic url="MS_HEB_e_78_40a.tif"/>
+      <graphic url="MS_HEB_e_78_40b.tif"/>
+      <graphic url="MS_HEB_e_78_41a.tif"/>
+      <graphic url="MS_HEB_e_78_41b.tif"/>
+      <graphic url="MS_HEB_e_78_42a.tif"/>
+      <graphic url="MS_HEB_e_78_42b.tif"/>
+      <graphic url="MS_HEB_e_78_43a.tif"/>
+      <graphic url="MS_HEB_e_78_43b.tif"/>
+      <graphic url="MS_HEB_e_78_44a.tif"/>
+      <graphic url="MS_HEB_e_78_44b.tif"/>
+      <graphic url="MS_HEB_e_78_45a.tif"/>
+      <graphic url="MS_HEB_e_78_45b.tif"/>
+      <graphic url="MS_HEB_e_78_46a.tif"/>
+      <graphic url="MS_HEB_e_78_46b.tif"/>
+      <graphic url="MS_HEB_e_78_47a.tif"/>
+      <graphic url="MS_HEB_e_78_47b.tif"/>
+      <graphic url="MS_HEB_e_78_48a.tif"/>
+      <graphic url="MS_HEB_e_78_48b.tif"/>
+      <graphic url="MS_HEB_e_78_49a.tif"/>
+      <graphic url="MS_HEB_e_78_49b.tif"/>
+      <graphic url="MS_HEB_e_78_50a.tif"/>
+      <graphic url="MS_HEB_e_78_50b.tif"/>
+      <graphic url="MS_HEB_e_78_51a.tif"/>
+      <graphic url="MS_HEB_e_78_51b.tif"/>
+      <graphic url="MS_HEB_e_78_52a.tif"/>
+      <graphic url="MS_HEB_e_78_52b.tif"/>
+      <graphic url="MS_HEB_e_78_53a.tif"/>
+      <graphic url="MS_HEB_e_78_53b.tif"/>
+      <graphic url="MS_HEB_e_78_54a.tif"/>
+      <graphic url="MS_HEB_e_78_54b.tif"/>
+      <graphic url="MS_HEB_e_78_55a.tif"/>
+      <graphic url="MS_HEB_e_78_55b.tif"/>
+      <graphic url="MS_HEB_e_78_56a.tif"/>
+      <graphic url="MS_HEB_e_78_56b.tif"/>
+      <graphic url="MS_HEB_e_78_57a.tif"/>
+      <graphic url="MS_HEB_e_78_57b.tif"/>
+      <graphic url="MS_HEB_e_78_58a.tif"/>
+      <graphic url="MS_HEB_e_78_58b.tif"/>
+      <graphic url="MS_HEB_e_78_59a.tif"/>
+      <graphic url="MS_HEB_e_78_59b.tif"/>
+      <graphic url="MS_HEB_e_78_60a.tif"/>
+      <graphic url="MS_HEB_e_78_60b.tif"/>
+      <graphic url="MS_HEB_e_78_61a.tif"/>
+      <graphic url="MS_HEB_e_78_61b.tif"/>
+      <graphic url="MS_HEB_e_78_62a.tif"/>
+      <graphic url="MS_HEB_e_78_62b.tif"/>
+      <graphic url="MS_HEB_e_78_63a.tif"/>
+      <graphic url="MS_HEB_e_78_63b.tif"/>
+      <graphic url="MS_HEB_e_78_64a.tif"/>
+      <graphic url="MS_HEB_e_78_64b.tif"/>
+      <graphic url="MS_HEB_e_78_65a.tif"/>
+      <graphic url="MS_HEB_e_78_65b.tif"/>
+      <graphic url="MS_HEB_e_78_66a.tif"/>
+      <graphic url="MS_HEB_e_78_66b.tif"/>
+      <graphic url="MS_HEB_e_78_67a.tif"/>
+      <graphic url="MS_HEB_e_78_67b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

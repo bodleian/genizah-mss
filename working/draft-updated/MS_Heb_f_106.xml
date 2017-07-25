@@ -2,1202 +2,874 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_170">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. f. 106</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_f_106</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. f. 106</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_f_106</idno>
             <idno type="msID">MS_Heb_f_106</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_f_106" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. f. 106</idno>
-                    </msIdentifier>
-                    <msContents>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_f_106" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. f. 106</idno>
+               </msIdentifier>
+               <msContents>
                   <summary>Miscellaneous fragments.</summary>
                </msContents>
-                    <physDesc>
+               <physDesc>
                   <p>Ff. 68.</p>
                </physDesc>
-                    <history>
-                        <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p100.jpg Catalogue-2_p101.jpg Catalogue-2_p102.jpg Catalogue-2_p103.jpg">fols. 100-103</ref>.</source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_f_106-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p100.jpg Catalogue-2_p101.jpg Catalogue-2_p102.jpg Catalogue-2_p103.jpg">fols. 100-103</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_f_106-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part1-item1">
-                                <locus from="1a" to="4b">Fols. 1-4</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part2" n="2">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part1-item1">
+                        <locus from="1a" to="4b">Fols. 1-4</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part2-item1">
-                                <locus from="5a" to="8b">Fols. 5-8</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part3" n="3">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part2-item1">
+                        <locus from="5a" to="8b">Fols. 5-8</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part3" n="3">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/3</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/3</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part3-item1">
-                                <locus from="9a" to="10b">Fols. 9-10</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part4" n="4">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part3-item1">
+                        <locus from="9a" to="10b">Fols. 9-10</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part4" n="4">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/4</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/4</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part4-item1">
-                                <locus from="11a" to="12b">Fols. 11, 12</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part5" n="5">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part4-item1">
+                        <locus from="11a" to="12b">Fols. 11, 12</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part5" n="5">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/5</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/5</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part5-item1">
-                                <locus from="13a" to="13b">Fol. 13</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part6" n="6">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part5-item1">
+                        <locus from="13a" to="13b">Fol. 13</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part6" n="6">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/6</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/6</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part6-item1">
-                                <locus from="14a" to="15b">Fols. 14, 15</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part7" n="7">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part6-item1">
+                        <locus from="14a" to="15b">Fols. 14, 15</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part7" n="7">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/7</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/7</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part7-item1">
-                                <locus from="16a" to="17b">Fols. 16, 17</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part8" n="8">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part7-item1">
+                        <locus from="16a" to="17b">Fols. 16, 17</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part8" n="8">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/8</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/8</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part8-item1">
-                                <locus from="18a" to="19b">Fols. 18, 19</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part9" n="9">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part8-item1">
+                        <locus from="18a" to="19b">Fols. 18, 19</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part9" n="9">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/9</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/9</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part9-item1">
-                                <locus from="20a" to="23b">Fols. 20-23</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part10" n="10">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part9-item1">
+                        <locus from="20a" to="23b">Fols. 20-23</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part10" n="10">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/10</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/10</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part10-item1">
-                                <locus from="24a" to="24b">Fol. 24</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part11" n="11">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part10-item1">
+                        <locus from="24a" to="24b">Fol. 24</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part11" n="11">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/11</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/11</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part11-item1">
-                                <locus from="25a" to="25b">Fol. 25</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part12" n="12">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part11-item1">
+                        <locus from="25a" to="25b">Fol. 25</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part12" n="12">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/12</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/12</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part12-item1">
-                                <locus from="26a" to="26b">Fol. 26</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part13" n="13">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part12-item1">
+                        <locus from="26a" to="26b">Fol. 26</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part13" n="13">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/13</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/13</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part13-item1">
-                                <locus from="27a" to="27b">Fol. 27</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part14" n="14">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part13-item1">
+                        <locus from="27a" to="27b">Fol. 27</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part14" n="14">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/14</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/14</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part14-item1">
-                                <locus from="28a" to="33b">Fols. 28-33</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part15" n="15">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part14-item1">
+                        <locus from="28a" to="33b">Fols. 28-33</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part15" n="15">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/15</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/15</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part15-item1">
-                                <locus from="34a" to="34b">Fol. 34</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part16" n="16">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part15-item1">
+                        <locus from="34a" to="34b">Fol. 34</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part16" n="16">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/16</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/16</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part16-item1">
-                                <locus from="35a" to="36b">Fols. 35, 36</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part17" n="17">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part16-item1">
+                        <locus from="35a" to="36b">Fols. 35, 36</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part17" n="17">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/17</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/17</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part17-item1">
-                                <locus from="37a" to="38b">Fols. 37, 38</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part18" n="18">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part17-item1">
+                        <locus from="37a" to="38b">Fols. 37, 38</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part18" n="18">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/18</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/18</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part18-item1">
-                                <locus from="39a" to="39(bis)b">Fols. 39, 39(bis)</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part19" n="19">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part18-item1">
+                        <locus from="39a" to="39(bis)b">Fols. 39, 39(bis)</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part19" n="19">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/19</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/19</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part19-item1">
-                                <locus from="40a" to="41b">Fols. 40, 41</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part20" n="20">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part19-item1">
+                        <locus from="40a" to="41b">Fols. 40, 41</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part20" n="20">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/20</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/20</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part20-item1">
-                                <locus from="42a" to="42b">Fol. 42</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part21" n="21">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part20-item1">
+                        <locus from="42a" to="42b">Fol. 42</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part21" n="21">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/21</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/21</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part21-item1">
-                                <locus from="43a" to="43b">Fol. 43</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part22" n="22">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part21-item1">
+                        <locus from="43a" to="43b">Fol. 43</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part22" n="22">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/22</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/22</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part22-item1">
-                                <locus from="44a" to="45b">Fol. 45</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part23" n="23">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part22-item1">
+                        <locus from="44a" to="45b">Fol. 45</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part23" n="23">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/23</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/23</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part23-item1">
-                                <locus from="46a" to="47b">Fols. 46, 47</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part24" n="24">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part23-item1">
+                        <locus from="46a" to="47b">Fols. 46, 47</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part24" n="24">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/24</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/24</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part24-item1">
-                                <locus from="48a" to="49b">Fols. 48, 49</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part25" n="25">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part24-item1">
+                        <locus from="48a" to="49b">Fols. 48, 49</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part25" n="25">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/25</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/25</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part25-item1">
-                                <locus from="50a" to="51b">Fols. 50, 51</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part26" n="26">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part25-item1">
+                        <locus from="50a" to="51b">Fols. 50, 51</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part26" n="26">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/26</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/26</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part26-item1">
-                                <locus from="52a" to="52b">Fol. 52</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part27" n="27">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part26-item1">
+                        <locus from="52a" to="52b">Fol. 52</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part27" n="27">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/27</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/27</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part27-item1">
-                                <locus from="53a" to="54b">Fols. 53, 54</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part28" n="28">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part27-item1">
+                        <locus from="53a" to="54b">Fols. 53, 54</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part28" n="28">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/28</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/28</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part28-item1">
-                                <locus from="55a" to="56b">Fols. 55, 56</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part29" n="29">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part28-item1">
+                        <locus from="55a" to="56b">Fols. 55, 56</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part29" n="29">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/29</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/29</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part29-item1">
-                                <locus from="57a" to="57b">Fol. 57</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part30" n="30">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part29-item1">
+                        <locus from="57a" to="57b">Fol. 57</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part30" n="30">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/30</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/30</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part30-item1">
-                                <locus from="58a" to="58b">Fol. 58</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part31" n="31">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part30-item1">
+                        <locus from="58a" to="58b">Fol. 58</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part31" n="31">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/31</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/31</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part31-item1">
-                                <locus from="59a" to="59b">Fol. 59</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part32" n="32">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part31-item1">
+                        <locus from="59a" to="59b">Fol. 59</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part32" n="32">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/32</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/32</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part32-item1">
-                                <locus from="60a" to="61b">Fols. 60, 61</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part33" n="33">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part32-item1">
+                        <locus from="60a" to="61b">Fols. 60, 61</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part33" n="33">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/33</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/33</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part33-item1">
-                                <locus from="62a" to="62b">Fol. 62</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part34" n="34">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part33-item1">
+                        <locus from="62a" to="62b">Fol. 62</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part34" n="34">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/34</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/34</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part34-item1">
-                                <locus from="63a" to="63b">Fol. 63</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part35" n="35">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part34-item1">
+                        <locus from="63a" to="63b">Fol. 63</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part35" n="35">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/35</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/35</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part35-item1">
-                                <locus from="64a" to="64b">Fol. 64</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part36" n="36">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part35-item1">
+                        <locus from="64a" to="64b">Fol. 64</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part36" n="36">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/36</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/36</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part36-item1">
-                                <locus from="65a" to="66b">Fols. 65, 66</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part37" n="37">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part36-item1">
+                        <locus from="65a" to="66b">Fols. 65, 66</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part37" n="37">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/37</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/37</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part37-item1">
-                                <locus from="67a" to="67b">Fol. 67</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_106-part38" n="38">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part37-item1">
+                        <locus from="67a" to="67b">Fol. 67</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_106-part38" n="38">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 106/38</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 106/38</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_106-part38-item1">
-                                <locus from="68a" to="68b">Fol. 68</locus>
-                                <author/>
-                                <title/>
-                                <note>Temporary record.</note>  
-                                <textLang mainLang="und"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            
-                        </physDesc>
-                        <history>
-                            <acquisition>Given in <date calendar="Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>. From the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="TYPED">
-                    <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
-                    </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                
-                
-                <keywords scheme="#TYPED">
-                    <term/>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_106-part38-item1">
+                        <locus from="68a" to="68b">Fol. 68</locus>
+                        <note>Temporary record.</note>
+                        <textLang mainLang="und"/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <acquisition>Given in<date calendar="Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>. From the Genizah.</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="TYPED">
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2011-08-16">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-    
-        <graphic url="MS_HEB_f_106_1a.tif"/>
-        <graphic url="MS_HEB_f_106_1b.tif"/>
-        <graphic url="MS_HEB_f_106_2a.tif"/>
-        <graphic url="MS_HEB_f_106_2b.tif"/>
-        <graphic url="MS_HEB_f_106_3a.tif"/>
-        <graphic url="MS_HEB_f_106_3b.tif"/>
-        <graphic url="MS_HEB_f_106_4a.tif"/>
-        <graphic url="MS_HEB_f_106_4b.tif"/>
-        <graphic url="MS_HEB_f_106_5a.tif"/>
-        <graphic url="MS_HEB_f_106_5b.tif"/>
-        <graphic url="MS_HEB_f_106_6a.tif"/>
-        <graphic url="MS_HEB_f_106_6b.tif"/>
-        <graphic url="MS_HEB_f_106_7a.tif"/>
-        <graphic url="MS_HEB_f_106_7b.tif"/>
-        <graphic url="MS_HEB_f_106_8a.tif"/>
-        <graphic url="MS_HEB_f_106_8b.tif"/>
-        <graphic url="MS_HEB_f_106_9a.tif"/>
-        <graphic url="MS_HEB_f_106_9b.tif"/>
-        
-        <graphic url="MS_HEB_f_106_10a.tif"/>
-        <graphic url="MS_HEB_f_106_10b.tif"/>
-        <graphic url="MS_HEB_f_106_11a.tif"/>
-        <graphic url="MS_HEB_f_106_11b.tif"/>
-        <graphic url="MS_HEB_f_106_12a.tif"/>
-        <graphic url="MS_HEB_f_106_12b.tif"/>
-        <graphic url="MS_HEB_f_106_13a.tif"/>
-        <graphic url="MS_HEB_f_106_13b.tif"/>
-        <graphic url="MS_HEB_f_106_14a.tif"/>
-        <graphic url="MS_HEB_f_106_14b.tif"/>
-        <graphic url="MS_HEB_f_106_15a.tif"/>
-        <graphic url="MS_HEB_f_106_15b.tif"/>
-        <graphic url="MS_HEB_f_106_16a.tif"/>
-        <graphic url="MS_HEB_f_106_16b.tif"/>
-        <graphic url="MS_HEB_f_106_17a.tif"/>
-        <graphic url="MS_HEB_f_106_17b.tif"/>
-        <graphic url="MS_HEB_f_106_18a.tif"/>
-        <graphic url="MS_HEB_f_106_18b.tif"/>
-        <graphic url="MS_HEB_f_106_19a.tif"/>
-        <graphic url="MS_HEB_f_106_19b.tif"/>
-        
-        <graphic url="MS_HEB_f_106_20a.tif"/>
-        <graphic url="MS_HEB_f_106_20b.tif"/>
-        <graphic url="MS_HEB_f_106_21a.tif"/>
-        <graphic url="MS_HEB_f_106_21b.tif"/>
-        <graphic url="MS_HEB_f_106_22a.tif"/>
-        <graphic url="MS_HEB_f_106_22b.tif"/>
-        <graphic url="MS_HEB_f_106_23a.tif"/>
-        <graphic url="MS_HEB_f_106_23b.tif"/>
-        <graphic url="MS_HEB_f_106_24a.tif"/>
-        <graphic url="MS_HEB_f_106_24b.tif"/>
-        <graphic url="MS_HEB_f_106_25a.tif"/>
-        <graphic url="MS_HEB_f_106_25b.tif"/>
-        <graphic url="MS_HEB_f_106_26a.tif"/>
-        <graphic url="MS_HEB_f_106_26b.tif"/>
-        <graphic url="MS_HEB_f_106_27a.tif"/>
-        <graphic url="MS_HEB_f_106_27b.tif"/>
-        <graphic url="MS_HEB_f_106_28a.tif"/>
-        <graphic url="MS_HEB_f_106_28b.tif"/>
-        <graphic url="MS_HEB_f_106_29a.tif"/>
-        <graphic url="MS_HEB_f_106_29b.tif"/>
-        
-        <graphic url="MS_HEB_f_106_30a.tif"/>
-        <graphic url="MS_HEB_f_106_30b.tif"/>
-        <graphic url="MS_HEB_f_106_31a.tif"/>
-        <graphic url="MS_HEB_f_106_31b.tif"/>
-        <graphic url="MS_HEB_f_106_32a.tif"/>
-        <graphic url="MS_HEB_f_106_32b.tif"/>
-        <graphic url="MS_HEB_f_106_33a.tif"/>
-        <graphic url="MS_HEB_f_106_33b.tif"/>
-        <graphic url="MS_HEB_f_106_34a.tif"/>
-        <graphic url="MS_HEB_f_106_34b.tif"/>
-        <graphic url="MS_HEB_f_106_35a.tif"/>
-        <graphic url="MS_HEB_f_106_35b.tif"/>
-        <graphic url="MS_HEB_f_106_36a.tif"/>
-        <graphic url="MS_HEB_f_106_36b.tif"/>
-        <graphic url="MS_HEB_f_106_37a.tif"/>
-        <graphic url="MS_HEB_f_106_37b.tif"/>
-        <graphic url="MS_HEB_f_106_38a.tif"/>
-        <graphic url="MS_HEB_f_106_38b.tif"/>
-        <graphic url="MS_HEB_f_106_39a.tif"/>
-        <graphic url="MS_HEB_f_106_39b.tif"/>
-        
-        <graphic url="MS_HEB_f_106_39(bis)a.tif"/>
-        <graphic url="MS_HEB_f_106_39(bis)b.tif"/>
-        
-        <graphic url="MS_HEB_f_106_40a.tif"/>
-        <graphic url="MS_HEB_f_106_40b.tif"/>
-        <graphic url="MS_HEB_f_106_41a.tif"/>
-        <graphic url="MS_HEB_f_106_41b.tif"/>
-        <graphic url="MS_HEB_f_106_42a.tif"/>
-        <graphic url="MS_HEB_f_106_42b.tif"/>
-        <graphic url="MS_HEB_f_106_43a.tif"/>
-        <graphic url="MS_HEB_f_106_43b.tif"/>
-        <graphic url="MS_HEB_f_106_44a.tif"/>
-        <graphic url="MS_HEB_f_106_44b.tif"/>
-        <graphic url="MS_HEB_f_106_45a.tif"/>
-        <graphic url="MS_HEB_f_106_45b.tif"/>
-        <graphic url="MS_HEB_f_106_46a.tif"/>
-        <graphic url="MS_HEB_f_106_46b.tif"/>
-        <graphic url="MS_HEB_f_106_47a.tif"/>
-        <graphic url="MS_HEB_f_106_47b.tif"/>
-        <graphic url="MS_HEB_f_106_48a.tif"/>
-        <graphic url="MS_HEB_f_106_48b.tif"/>
-        <graphic url="MS_HEB_f_106_49a.tif"/>
-        <graphic url="MS_HEB_f_106_49b.tif"/>
-        
-        <graphic url="MS_HEB_f_106_50a.tif"/>
-        <graphic url="MS_HEB_f_106_50b.tif"/>
-        <graphic url="MS_HEB_f_106_51a.tif"/>
-        <graphic url="MS_HEB_f_106_51b.tif"/>
-        <graphic url="MS_HEB_f_106_52a.tif"/>
-        <graphic url="MS_HEB_f_106_52b.tif"/>
-        <graphic url="MS_HEB_f_106_53a.tif"/>
-        <graphic url="MS_HEB_f_106_53b.tif"/>
-        <graphic url="MS_HEB_f_106_54a.tif"/>
-        <graphic url="MS_HEB_f_106_54b.tif"/>
-        <graphic url="MS_HEB_f_106_55a.tif"/>
-        <graphic url="MS_HEB_f_106_55b.tif"/>
-        <graphic url="MS_HEB_f_106_56a.tif"/>
-        <graphic url="MS_HEB_f_106_56b.tif"/>
-        <graphic url="MS_HEB_f_106_57a.tif"/>
-        <graphic url="MS_HEB_f_106_57b.tif"/>
-        <graphic url="MS_HEB_f_106_58a.tif"/>
-        <graphic url="MS_HEB_f_106_58b.tif"/>
-        <graphic url="MS_HEB_f_106_59a.tif"/>
-        <graphic url="MS_HEB_f_106_59b.tif"/>
-        
-        <graphic url="MS_HEB_f_106_60a.tif"/>
-        <graphic url="MS_HEB_f_106_60b.tif"/>
-        <graphic url="MS_HEB_f_106_61a.tif"/>
-        <graphic url="MS_HEB_f_106_61b.tif"/>
-        <graphic url="MS_HEB_f_106_62a.tif"/>
-        <graphic url="MS_HEB_f_106_62b.tif"/>
-        <graphic url="MS_HEB_f_106_63a.tif"/>
-        <graphic url="MS_HEB_f_106_63b.tif"/>
-        <graphic url="MS_HEB_f_106_64a.tif"/>
-        <graphic url="MS_HEB_f_106_64b.tif"/>
-        <graphic url="MS_HEB_f_106_65a.tif"/>
-        <graphic url="MS_HEB_f_106_65b.tif"/>
-        <graphic url="MS_HEB_f_106_66a.tif"/>
-        <graphic url="MS_HEB_f_106_66b.tif"/>
-        <graphic url="MS_HEB_f_106_67a.tif"/>
-        <graphic url="MS_HEB_f_106_67b.tif"/>
-        <graphic url="MS_HEB_f_106_68a.tif"/>
-        <graphic url="MS_HEB_f_106_68b.tif"/>
-       
-    </facsimile>
+         <change when="2011-08-16">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_f_106_1a.tif"/>
+      <graphic url="MS_HEB_f_106_1b.tif"/>
+      <graphic url="MS_HEB_f_106_2a.tif"/>
+      <graphic url="MS_HEB_f_106_2b.tif"/>
+      <graphic url="MS_HEB_f_106_3a.tif"/>
+      <graphic url="MS_HEB_f_106_3b.tif"/>
+      <graphic url="MS_HEB_f_106_4a.tif"/>
+      <graphic url="MS_HEB_f_106_4b.tif"/>
+      <graphic url="MS_HEB_f_106_5a.tif"/>
+      <graphic url="MS_HEB_f_106_5b.tif"/>
+      <graphic url="MS_HEB_f_106_6a.tif"/>
+      <graphic url="MS_HEB_f_106_6b.tif"/>
+      <graphic url="MS_HEB_f_106_7a.tif"/>
+      <graphic url="MS_HEB_f_106_7b.tif"/>
+      <graphic url="MS_HEB_f_106_8a.tif"/>
+      <graphic url="MS_HEB_f_106_8b.tif"/>
+      <graphic url="MS_HEB_f_106_9a.tif"/>
+      <graphic url="MS_HEB_f_106_9b.tif"/>
+      <graphic url="MS_HEB_f_106_10a.tif"/>
+      <graphic url="MS_HEB_f_106_10b.tif"/>
+      <graphic url="MS_HEB_f_106_11a.tif"/>
+      <graphic url="MS_HEB_f_106_11b.tif"/>
+      <graphic url="MS_HEB_f_106_12a.tif"/>
+      <graphic url="MS_HEB_f_106_12b.tif"/>
+      <graphic url="MS_HEB_f_106_13a.tif"/>
+      <graphic url="MS_HEB_f_106_13b.tif"/>
+      <graphic url="MS_HEB_f_106_14a.tif"/>
+      <graphic url="MS_HEB_f_106_14b.tif"/>
+      <graphic url="MS_HEB_f_106_15a.tif"/>
+      <graphic url="MS_HEB_f_106_15b.tif"/>
+      <graphic url="MS_HEB_f_106_16a.tif"/>
+      <graphic url="MS_HEB_f_106_16b.tif"/>
+      <graphic url="MS_HEB_f_106_17a.tif"/>
+      <graphic url="MS_HEB_f_106_17b.tif"/>
+      <graphic url="MS_HEB_f_106_18a.tif"/>
+      <graphic url="MS_HEB_f_106_18b.tif"/>
+      <graphic url="MS_HEB_f_106_19a.tif"/>
+      <graphic url="MS_HEB_f_106_19b.tif"/>
+      <graphic url="MS_HEB_f_106_20a.tif"/>
+      <graphic url="MS_HEB_f_106_20b.tif"/>
+      <graphic url="MS_HEB_f_106_21a.tif"/>
+      <graphic url="MS_HEB_f_106_21b.tif"/>
+      <graphic url="MS_HEB_f_106_22a.tif"/>
+      <graphic url="MS_HEB_f_106_22b.tif"/>
+      <graphic url="MS_HEB_f_106_23a.tif"/>
+      <graphic url="MS_HEB_f_106_23b.tif"/>
+      <graphic url="MS_HEB_f_106_24a.tif"/>
+      <graphic url="MS_HEB_f_106_24b.tif"/>
+      <graphic url="MS_HEB_f_106_25a.tif"/>
+      <graphic url="MS_HEB_f_106_25b.tif"/>
+      <graphic url="MS_HEB_f_106_26a.tif"/>
+      <graphic url="MS_HEB_f_106_26b.tif"/>
+      <graphic url="MS_HEB_f_106_27a.tif"/>
+      <graphic url="MS_HEB_f_106_27b.tif"/>
+      <graphic url="MS_HEB_f_106_28a.tif"/>
+      <graphic url="MS_HEB_f_106_28b.tif"/>
+      <graphic url="MS_HEB_f_106_29a.tif"/>
+      <graphic url="MS_HEB_f_106_29b.tif"/>
+      <graphic url="MS_HEB_f_106_30a.tif"/>
+      <graphic url="MS_HEB_f_106_30b.tif"/>
+      <graphic url="MS_HEB_f_106_31a.tif"/>
+      <graphic url="MS_HEB_f_106_31b.tif"/>
+      <graphic url="MS_HEB_f_106_32a.tif"/>
+      <graphic url="MS_HEB_f_106_32b.tif"/>
+      <graphic url="MS_HEB_f_106_33a.tif"/>
+      <graphic url="MS_HEB_f_106_33b.tif"/>
+      <graphic url="MS_HEB_f_106_34a.tif"/>
+      <graphic url="MS_HEB_f_106_34b.tif"/>
+      <graphic url="MS_HEB_f_106_35a.tif"/>
+      <graphic url="MS_HEB_f_106_35b.tif"/>
+      <graphic url="MS_HEB_f_106_36a.tif"/>
+      <graphic url="MS_HEB_f_106_36b.tif"/>
+      <graphic url="MS_HEB_f_106_37a.tif"/>
+      <graphic url="MS_HEB_f_106_37b.tif"/>
+      <graphic url="MS_HEB_f_106_38a.tif"/>
+      <graphic url="MS_HEB_f_106_38b.tif"/>
+      <graphic url="MS_HEB_f_106_39a.tif"/>
+      <graphic url="MS_HEB_f_106_39b.tif"/>
+      <graphic url="MS_HEB_f_106_39(bis)a.tif"/>
+      <graphic url="MS_HEB_f_106_39(bis)b.tif"/>
+      <graphic url="MS_HEB_f_106_40a.tif"/>
+      <graphic url="MS_HEB_f_106_40b.tif"/>
+      <graphic url="MS_HEB_f_106_41a.tif"/>
+      <graphic url="MS_HEB_f_106_41b.tif"/>
+      <graphic url="MS_HEB_f_106_42a.tif"/>
+      <graphic url="MS_HEB_f_106_42b.tif"/>
+      <graphic url="MS_HEB_f_106_43a.tif"/>
+      <graphic url="MS_HEB_f_106_43b.tif"/>
+      <graphic url="MS_HEB_f_106_44a.tif"/>
+      <graphic url="MS_HEB_f_106_44b.tif"/>
+      <graphic url="MS_HEB_f_106_45a.tif"/>
+      <graphic url="MS_HEB_f_106_45b.tif"/>
+      <graphic url="MS_HEB_f_106_46a.tif"/>
+      <graphic url="MS_HEB_f_106_46b.tif"/>
+      <graphic url="MS_HEB_f_106_47a.tif"/>
+      <graphic url="MS_HEB_f_106_47b.tif"/>
+      <graphic url="MS_HEB_f_106_48a.tif"/>
+      <graphic url="MS_HEB_f_106_48b.tif"/>
+      <graphic url="MS_HEB_f_106_49a.tif"/>
+      <graphic url="MS_HEB_f_106_49b.tif"/>
+      <graphic url="MS_HEB_f_106_50a.tif"/>
+      <graphic url="MS_HEB_f_106_50b.tif"/>
+      <graphic url="MS_HEB_f_106_51a.tif"/>
+      <graphic url="MS_HEB_f_106_51b.tif"/>
+      <graphic url="MS_HEB_f_106_52a.tif"/>
+      <graphic url="MS_HEB_f_106_52b.tif"/>
+      <graphic url="MS_HEB_f_106_53a.tif"/>
+      <graphic url="MS_HEB_f_106_53b.tif"/>
+      <graphic url="MS_HEB_f_106_54a.tif"/>
+      <graphic url="MS_HEB_f_106_54b.tif"/>
+      <graphic url="MS_HEB_f_106_55a.tif"/>
+      <graphic url="MS_HEB_f_106_55b.tif"/>
+      <graphic url="MS_HEB_f_106_56a.tif"/>
+      <graphic url="MS_HEB_f_106_56b.tif"/>
+      <graphic url="MS_HEB_f_106_57a.tif"/>
+      <graphic url="MS_HEB_f_106_57b.tif"/>
+      <graphic url="MS_HEB_f_106_58a.tif"/>
+      <graphic url="MS_HEB_f_106_58b.tif"/>
+      <graphic url="MS_HEB_f_106_59a.tif"/>
+      <graphic url="MS_HEB_f_106_59b.tif"/>
+      <graphic url="MS_HEB_f_106_60a.tif"/>
+      <graphic url="MS_HEB_f_106_60b.tif"/>
+      <graphic url="MS_HEB_f_106_61a.tif"/>
+      <graphic url="MS_HEB_f_106_61b.tif"/>
+      <graphic url="MS_HEB_f_106_62a.tif"/>
+      <graphic url="MS_HEB_f_106_62b.tif"/>
+      <graphic url="MS_HEB_f_106_63a.tif"/>
+      <graphic url="MS_HEB_f_106_63b.tif"/>
+      <graphic url="MS_HEB_f_106_64a.tif"/>
+      <graphic url="MS_HEB_f_106_64b.tif"/>
+      <graphic url="MS_HEB_f_106_65a.tif"/>
+      <graphic url="MS_HEB_f_106_65b.tif"/>
+      <graphic url="MS_HEB_f_106_66a.tif"/>
+      <graphic url="MS_HEB_f_106_66b.tif"/>
+      <graphic url="MS_HEB_f_106_67a.tif"/>
+      <graphic url="MS_HEB_f_106_67b.tif"/>
+      <graphic url="MS_HEB_f_106_68a.tif"/>
+      <graphic url="MS_HEB_f_106_68b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

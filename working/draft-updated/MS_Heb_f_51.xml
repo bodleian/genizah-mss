@@ -2,227 +2,197 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_204">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. f. 51</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_f_51</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. f. 51</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_f_51</idno>
             <idno type="msID">MS_Heb_f_51</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_f_51" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. f. 51</idno>
-                        <altIdentifier type="other">
-                            <idno type="cat_no">2820</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <physDesc>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_f_51" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. f. 51</idno>
+               </msIdentifier>
+               <physDesc>
                   <p>Ff. 11.</p>
                </physDesc>
-                    <history>
-                        <acquisition>Given by <persName>A. E. Cowley</persName>, <date calendar="Gregorian" when="1895">1895</date> (from the Genizah).
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>
-                                    Manuscript description based on <bibl>Catalogue
-                                        of the Hebrew Manuscripts in the Bodleian
-                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p067b.jpg">No. 2820</ref>.
-                                </source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_f_51-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>Given by<persName>A. E. Cowley</persName>,<date calendar="Gregorian" when="1895">1895</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p067b.jpg">No. 2820</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_f_51-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 51/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 51/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_51-part1-item1">
-                                <locus from="1a" to="9b">Fol. 1</locus>
-                                <author/>
-                                <title>Fragments of Exodus in shorthand writing</title>
-                                <note>(see <ref target="MS_Heb_d_30_01">No. 2608, 1</ref>, and Jewish Quarterly Review, vii. p.361 sqq. and p. 564 sqq.), with vowel points, accents, and the lesser Masorah.</note>  
-                                
-                                <msItem xml:id="MS_Heb_f_51-part1-item1-item1" n="a">
-                           <locus from="1a">(fol. 1)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_51-part1-item1">
+                        <locus from="1a" to="9b">Fol. 1</locus>
+                        <title>Fragments of Exodus in shorthand writing</title>
+                        <note>(see<ref target="MS_Heb_d_30_01">No. 2608, 1</ref>, and Jewish Quarterly Review, vii. p.361 sqq. and p. 564 sqq.), with vowel points, accents, and the lesser Masorah.</note>
+                        <msItem xml:id="MS_Heb_f_51-part1-item1-item1" n="a">
+                           <locus from="1a">(fol. 1)</locus>
                            <title>Exodus iii. 8 to ix. 10</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_f_51-part1-item1-item2" n="b">
-                           <locus from="7a">(fol. 7)</locus> 
+                        <msItem xml:id="MS_Heb_f_51-part1-item1-item2" n="b">
+                           <locus from="7a">(fol. 7)</locus>
                            <title>Exodus xi. 1 to xii. 18</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_f_51-part1-item1-item3" n="c">
-                           <locus from="8a">(fol. 8)</locus> 
+                        <msItem xml:id="MS_Heb_f_51-part1-item1-item3" n="c">
+                           <locus from="8a">(fol. 8)</locus>
                            <title>Exodus xviii. 16 to xix. 16</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_f_51-part1-item1-item4" n="d">
-                           <locus from="9a">(fol. 9)</locus> 
+                        <msItem xml:id="MS_Heb_f_51-part1-item1-item4" n="d">
+                           <locus from="9a">(fol. 9)</locus>
                            <title>Exodus xxvi. 31 to xxviii. 3</title>
                         </msItem>
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; oblong 16mo, <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Given by <persName>A. E. Cowley</persName>, <date calendar="Gregorian" when="1895">1895</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_f_51-part2" n="2">
-                        <msIdentifier>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; oblong 16mo,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by<persName>A. E. Cowley</persName>,<date calendar="Gregorian" when="1895">1895</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_51-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. f. 51/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. f. 51/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_f_51-part2-item1">
-                                <locus from="10a" to="11b">Fol. 10</locus>
-                                <author/>
-                                <title>Liturgical</title>
-                                <note/>
-                               
-                                <msItem xml:id="MS_Heb_f_51-part2-item1-item1" n="a">
-                           <p>(<locus from="10a">fol. 10</locus>) א̇ב̇, beg. missing, ק beg. <quote>ז̇ קֿרא בשמך אל אלהי ישראל ונקראת קדוש יושב תהילות ישראל</quote>, followed by <title>Exodus iii. 14-16</title>;</p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_51-part2-item1">
+                        <locus from="10a" to="11b">Fol. 10</locus>
+                        <title>Liturgical</title>
+                        <msItem xml:id="MS_Heb_f_51-part2-item1-item1" n="a">
+                           <p>(<locus from="10a">fol. 10</locus>) א̇ב̇, beg. missing, ק beg.<quote>ז̇ קֿרא בשמך אל אלהי ישראל ונקראת קדוש יושב תהילות ישראל</quote>, followed by<title>Exodus iii. 14-16</title>;</p>
                         </msItem>
-                                <msItem xml:id="MS_Heb_f_51-part2-item1-item2" n="b">
-                           <p>(<locus from="10a">ibid.</locus>) א̇ב̇, beg. <quote type="beg">עזרינו אלהי ישעינו על דבר כבוד שמך ... יי̇ אֿדונינו כעבדים לך עינינו וחנינו ע̇ד̇כ̇ש̇</quote>;</p> 
+                        <msItem xml:id="MS_Heb_f_51-part2-item1-item2" n="b">
+                           <p>(<locus from="10a">ibid.</locus>) א̇ב̇, beg.<quote type="beg">עזרינו אלהי ישעינו על דבר כבוד שמך ... יי̇ אֿדונינו כעבדים לך עינינו וחנינו ע̇ד̇כ̇ש̇</quote>;</p>
                         </msItem>
-                                <msItem xml:id="MS_Heb_f_51-part2-item1-item3" n="c">
-                           <p>(<locus from="11b">fol. 11b</locus>) א̇ב̇, beg. <quote type="beg">אל איילותינו אזון אנקתינו וז̇ ל̇</quote>, incomplete, ending with נ.</p>
+                        <msItem xml:id="MS_Heb_f_51-part2-item1-item3" n="c">
+                           <p>(<locus from="11b">fol. 11b</locus>) א̇ב̇, beg.<quote type="beg">אל איילותינו אזון אנקתינו וז̇ ל̇</quote>, incomplete, ending with נ.</p>
                         </msItem>
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; oblong 24mo, <material>vellum</material>, beg. and end partially obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Given by <persName>A. E. Cowley</persName>, <date calendar="Gregorian" when="1895">1895</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="INDEX">
-                    <desc>General index of <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; oblong 24mo,<material>vellum</material>, beg. and end partially obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by<persName>A. E. Cowley</persName>,<date calendar="Gregorian" when="1895">1895</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="Neubauer">
-                    <term>Biblical fragments</term>
-                    <term>Later Acquisitions</term>
-                </keywords>
-                
-                <keywords scheme="#INDEX">
-                    <term>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Biblical fragments</term>
+               <term>Later Acquisitions</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
                   <ref target="#MS_Heb_f_51_01">Bible. Exodus. in shorthand.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_f_51_01">Shorthand.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_f_51_02">Bible. Exodus.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_f_51_02">Liturgy. פיוטים for various occasions.</ref>
                </term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2011-04-21">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS_HEB_f_51_1a.tif"/>
-        <graphic url="MS_HEB_f_51_1b.tif"/>
-        <graphic url="MS_HEB_f_51_2a.tif"/>
-        <graphic url="MS_HEB_f_51_2b.tif"/>
-        <graphic url="MS_HEB_f_51_3a.tif"/>
-        <graphic url="MS_HEB_f_51_3b.tif"/>
-        <graphic url="MS_HEB_f_51_4a.tif"/>
-        <graphic url="MS_HEB_f_51_4b.tif"/>
-        <graphic url="MS_HEB_f_51_5a.tif"/>
-        <graphic url="MS_HEB_f_51_5b.tif"/>
-        <graphic url="MS_HEB_f_51_6a.tif"/>
-        <graphic url="MS_HEB_f_51_6b.tif"/>
-        <graphic url="MS_HEB_f_51_7a.tif"/>
-        <graphic url="MS_HEB_f_51_7b.tif"/>
-        <graphic url="MS_HEB_f_51_8a.tif"/>
-        <graphic url="MS_HEB_f_51_8b.tif"/>
-        <graphic url="MS_HEB_f_51_9a.tif"/>
-        <graphic url="MS_HEB_f_51_9b.tif"/>
-        
-        <graphic url="MS_HEB_f_51_10a.tif"/>
-        <graphic url="MS_HEB_f_51_10b.tif"/>
-        <graphic url="MS_HEB_f_51_11a.tif"/>
-        <graphic url="MS_HEB_f_51_11b.tif"/>
-        
-    </facsimile>
+         <change when="2011-04-21">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_f_51_1a.tif"/>
+      <graphic url="MS_HEB_f_51_1b.tif"/>
+      <graphic url="MS_HEB_f_51_2a.tif"/>
+      <graphic url="MS_HEB_f_51_2b.tif"/>
+      <graphic url="MS_HEB_f_51_3a.tif"/>
+      <graphic url="MS_HEB_f_51_3b.tif"/>
+      <graphic url="MS_HEB_f_51_4a.tif"/>
+      <graphic url="MS_HEB_f_51_4b.tif"/>
+      <graphic url="MS_HEB_f_51_5a.tif"/>
+      <graphic url="MS_HEB_f_51_5b.tif"/>
+      <graphic url="MS_HEB_f_51_6a.tif"/>
+      <graphic url="MS_HEB_f_51_6b.tif"/>
+      <graphic url="MS_HEB_f_51_7a.tif"/>
+      <graphic url="MS_HEB_f_51_7b.tif"/>
+      <graphic url="MS_HEB_f_51_8a.tif"/>
+      <graphic url="MS_HEB_f_51_8b.tif"/>
+      <graphic url="MS_HEB_f_51_9a.tif"/>
+      <graphic url="MS_HEB_f_51_9b.tif"/>
+      <graphic url="MS_HEB_f_51_10a.tif"/>
+      <graphic url="MS_HEB_f_51_10b.tif"/>
+      <graphic url="MS_HEB_f_51_11a.tif"/>
+      <graphic url="MS_HEB_f_51_11b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

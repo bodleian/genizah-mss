@@ -2,1673 +2,1443 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_11">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. b. 13</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_b_13</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. b. 13</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_b_13</idno>
             <idno type="msID">MS_Heb_b_13</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_b_13" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. b. 13</idno>
-                        <altIdentifier type="other">
-                            <idno type="cat_no">2834</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <physDesc>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_b_13" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. b. 13</idno>
+               </msIdentifier>
+               <physDesc>
                   <p>Ff. 55.</p>
                </physDesc>
-                    <history>
-                        <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>
-                                    Manuscript description based on <bibl>Catalogue
-                                        of the Hebrew Manuscripts in the Bodleian
-                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p075b.jpg Catalogue-1_p076a.jpg Catalogue-1_p076b.jpg">No. 2834</ref>.
-                                </source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_b_13-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p075b.jpg Catalogue-1_p076a.jpg Catalogue-1_p076b.jpg">No. 2834</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_b_13-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part1-item1">
-                                <locus from="1a" to="1b">Fol. 1</locus>
-                                <author/>
-                                <title>Mishnah ברכות with the commentary of <persName>Maimonides</persName> in Arabic</title>
-                                <note>from i. 3 (<quote>מאשי אמא אדא אשתגלת</quote>) to ii. 1 (text), incomplete.</note>  
-                                
-                                <textLang mainLang="he" otherLangs="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part2" n="2">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part1-item1">
+                        <locus from="1a" to="1b">Fol. 1</locus>
+                        <title>Mishnah ברכות with the commentary of<persName>Maimonides</persName>in Arabic</title>
+                        <note>from i. 3 (<quote>מאשי אמא אדא אשתגלת</quote>) to ii. 1 (text), incomplete.</note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part2-item1">
-                                <locus from="2a" to="3b"/>
-                                <author/>
-                                <title>Mishnah</title>
-                                <note/>  
-                                
-                                <msItem xml:id="MS_Heb_b_13-part2-item1-item1" n="a">
-                           <locus from="2a">(fol. 2)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part2-item1">
+                        <locus from="2a" to="3b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_b_13-part2-item1-item1" n="a">
+                           <locus from="2a">(fol. 2)</locus>
                            <title>Mishnah בכורים iii. 4 (בשיר) to iii. 9 (MS. 8)</title>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_b_13-part2-item1-item2" n="b">
-                           <locus from="2b">(fol. 2b)</locus> 
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_13-part2-item1-item2" n="b">
+                           <locus from="2b">(fol. 2b)</locus>
                            <title>Mishnah שבת i. 4 (MS. 7) to 9 (MS. 13, אילו ואילו)</title>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_b_13-part2-item1-item3" n="c">
-                           <locus from="3a">(fol. 3)</locus> 
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_13-part2-item1-item3" n="c">
+                           <locus from="3a">(fol. 3)</locus>
                            <title>Mishnah שבת xvi. 7 (חושש אני) to xix. 3</title>
-                        </msItem> 
-                                <note>A few vowel points and accents.</note>
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; 2 coll., 4to, <material>vellum</material>, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part3" n="3">
-                        <msIdentifier>
+                        </msItem>
+                        <note>A few vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 2 coll., 4to,<material>vellum</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part3" n="3">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/3</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/3</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part3-item1">
-                                <locus from="4a" to="5b">Fol. 4</locus>
-                                <author/>
-                                <title>Tosefta טבול יום and עוקצין, ed. Zuckermandel, p. 685, line 16 (ומאה) to p. 687, line 33 (ששלקן אין)</title>
-                                <note/> 
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; sm. 4to, <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part4" n="4">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part3-item1">
+                        <locus from="4a" to="5b">Fol. 4</locus>
+                        <title>Tosefta טבול יום and עוקצין, ed. Zuckermandel, p. 685, line 16 (ומאה) to p. 687, line 33 (ששלקן אין)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; sm. 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part4" n="4">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/4</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/4</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part4-item1">
-                                <locus from="6a" to="7b">Fol. 6</locus>
-                                <author/>
-                                <title>Babylonian Talmud ראש השנה, fol. 29b, line 21 (בר לחמא) to fol. 32, line 26 (אף כאן)</title>
-                                <note/>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; 4to (<locus from="7a" to="7b">fol. 7</locus> a fragment only), <material>vellum</material>, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part5" n="5">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part4-item1">
+                        <locus from="6a" to="7b">Fol. 6</locus>
+                        <title>Babylonian Talmud ראש השנה, fol. 29b, line 21 (בר לחמא) to fol. 32, line 26 (אף כאן)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to (<locus from="7a" to="7b">fol. 7</locus>a fragment only),<material>vellum</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part5" n="5">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/5</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/5</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part5-item1">
-                                <locus from="8a" to="9b"/>
-                                <author/>
-                                <title>Babylonian Talmud חגיגה</title>
-                                <note/>  
-                                
-                                <msItem xml:id="MS_Heb_b_13-part5-item1-item1" n="a">
-                           <locus from="8a">(fol. 8)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part5-item1">
+                        <locus from="8a" to="9b"/>
+                        <title>Babylonian Talmud חגיגה</title>
+                        <msItem xml:id="MS_Heb_b_13-part5-item1-item1" n="a">
+                           <locus from="8a">(fol. 8)</locus>
                            <title>Babylonian Talmud חגיגה fol. 8b, line 3 (ורב אשי) to line 35 (שמע)</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_13-part5-item1-item2" n="b">
-                           <locus from="9a">(fol. 9)</locus> 
+                        <msItem xml:id="MS_Heb_b_13-part5-item1-item2" n="b">
+                           <locus from="9a">(fol. 9)</locus>
                            <title>Babylonian Talmud חגיגה fol. 10, line 31 (דא̇ע̇ג̇) to fol. 11, line 4 (תחתיה)</title>
                         </msItem>
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; 4to (<locus from="8a" to="8b">fol. 8</locus>, half leaf), <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part6" n="6">
-                        <msIdentifier>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to (<locus from="8a" to="8b">fol. 8</locus>, half leaf),<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part6" n="6">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/6</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/6</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part6-item1">
-                                <locus from="10a" to="11b">Fol. 10</locus>
-                                <author/>
-                                <title>
-                           <persName>Alfasi</persName> בבא קמא i. 2 (למעוטי מאי) to ii. 2 (וחצי נזק הוא)</title>
-                                <note/> 
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part7" n="7">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part6-item1">
+                        <locus from="10a" to="11b">Fol. 10</locus>
+                        <title>
+                           <persName>Alfasi</persName>בבא קמא i. 2 (למעוטי מאי) to ii. 2 (וחצי נזק הוא)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part7" n="7">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/7</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/7</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part7-item1">
-                                <locus from="12a" to="14b"/>
-                                <author/>
-                                <title>Fragments of Midrash בראשית רבה</title>
-                                <note/>  
-                             <msItem xml:id="MS_Heb_b_13-part7-item1-item1">
-                                <msItem xml:id="MS_Heb_b_13-part7-item1-item1-item1" n="a">
-                              <locus from="12a">(fol. 12)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part7-item1">
+                        <locus from="12a" to="14b"/>
+                        <title>Fragments of Midrash בראשית רבה</title>
+                        <msItem xml:id="MS_Heb_b_13-part7-item1-item1">
+                           <msItem xml:id="MS_Heb_b_13-part7-item1-item1-item1" n="a">
+                              <locus from="12a">(fol. 12)</locus>
                               <title>Midrash בראשית רבה, fol. 79c, line 5 (א̇ ר̇ יוחנן) to fol. 80a, line 18 (את גמלת)</title>
-                           </msItem> 
-                                 <msItem xml:id="MS_Heb_b_13-part7-item1-item1-item2" n="b">
-                              <locus from="13a">(fol. 13)</locus> 
+                           </msItem>
+                           <msItem xml:id="MS_Heb_b_13-part7-item1-item1-item2" n="b">
+                              <locus from="13a">(fol. 13)</locus>
                               <title>Midrash בראשית רבה, fol. 81b, line 29 (מישין) to fol. 82a, line 12 (נפשי וגו̇)</title>
                            </msItem>
-                                <msItem xml:id="MS_Heb_b_13-part7-item1-item1-item3" n="c">
-                              <locus from="14a">(fol. 14)</locus> 
+                           <msItem xml:id="MS_Heb_b_13-part7-item1-item1-item3" n="c">
+                              <locus from="14a">(fol. 14)</locus>
                               <title>Small fragments of Babylonian Talmud מנחות</title>
-                           </msItem> 
-                                 </msItem>
-                                <msItem xml:id="MS_Heb_b_13-part7-item1-item2">
-                                    <note>All palimpsest; the lower writing contains (<locus from="12a">fol. 12</locus>) <title>Lam. i. 10 to 18</title>, and (<locus from="13a">fol. 13</locus>) <title>Jer. lii. 22 sqq.</title> in Palestinian Syriac.</note> 
-                               </msItem>
-                               
-                                <textLang mainLang="he" otherLangs="syc">Hebrew, Palestinian Syriac</textLang>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; sm. 4to, <material>vellum</material>, much injured.</p>
-                            <p>a, b part of the same as No. <ref target="MS_Heb_e_73_17">2827, 17</ref>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part8" n="8">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/8</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part8-item1">
-                                <locus from="15a" to="16b">Fol. 15</locus>
-                                <author/>
-                                <title>Fragment of Midrash</title>
-                                <note>a section beg. (Prov. xxx. 4.) <quote>מי עלה שמים וירד .. ד̇א̇ ק̇ב̇ה̇ מהו שמו י̇ה̇ו̇ה̇ שמו ומה שם בנו. דכתיב שמו בני בכורי ישראל והא אוקמנא ליה</quote>; 
-                                    <p>on <locus from="16a">fol. 16</locus> a section beg. <quote>ר̇ אלעזר פתח עמי זכור נא.. מעשה. ... חבריא אזלו ... חד בי חקל ושמשא הוה תקיף חמו ההוא בי חקל בשפירו דעשׂבין ומיין נפקין בכל סטר ואולני חקלא סגיאין יתבו תמן. אמר ר̇ אלעזר כמה יאות אתר ...</quote>.</p>    
-                                </note>  
-                                <textLang mainLang="he" otherLangs="arc"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Ital. Rabb. char.; fol., <material>paper</material>, stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part9" n="9">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/9</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part9-item1">
-                                <locus from="17a" to="24b">Fol. 17</locus>
-                                <author/>
-                                <title>
-                           <persName>Rashi</persName>’s commentary on Exodus xxxiv. 31 (הוא כל) to Leviticus v. 17 (ביום הכפורים ע̇א̇כ̇ו̇).</title>
-                                <note/>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. Rabb. char.; large 8vo, <material>paper</material>, obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part10" n="10">
-                        <msIdentifier>
-                     <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/10</idno>
-                        </altIdentifier>
-                  </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part10-item1">
-                                <locus from="25a" to="26b">Fol. 25</locus>
-                                <author/>
-                                <title>Title <quote type="head">מן תפסיר בראשית</quote>, commentary in Arabic on Genesis</title>
-                                <note/>  
-                                
-                                <msItem xml:id="MS_Heb_b_13-part10-item1-item1" n="a">
-                           <p>(<locus from="25b">fol. 25b</locus>) Genesis i. 1 beg. <quote type="beg">... פי אול מא כלק אלאלאה ... תנקסם קסמין למעני אול אלאשיא ... אול אלאפעאל והו קסם ידכל [ת]חתה כל אלאעמאל אלצנעיה כאלאבניה ואלגרוס ומא שאכלהא ...</quote>; </p>
+                           </msItem>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_13-part10-item1-item2" n="b">
+                        <msItem xml:id="MS_Heb_b_13-part7-item1-item2">
+                           <note>All palimpsest; the lower writing contains (<locus from="12a">fol. 12</locus>)<title>Lam. i. 10 to 18</title>, and (<locus from="13a">fol. 13</locus>)<title>Jer. lii. 22 sqq.</title>in Palestinian Syriac.</note>
+                        </msItem>
+                        <textLang mainLang="he" otherLangs="syc">Hebrew, Palestinian Syriac</textLang>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; sm. 4to,<material>vellum</material>, much injured.</p>
+                     <p>a, b part of the same as No.<ref target="MS_Heb_e_73_17">2827, 17</ref>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 13/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part8-item1">
+                        <locus from="15a" to="16b">Fol. 15</locus>
+                        <title>Fragment of Midrash</title>
+                        <note>a section beg. (Prov. xxx. 4.)<quote>מי עלה שמים וירד .. ד̇א̇ ק̇ב̇ה̇ מהו שמו י̇ה̇ו̇ה̇ שמו ומה שם בנו. דכתיב שמו בני בכורי ישראל והא אוקמנא ליה</quote>;<p>on<locus from="16a">fol. 16</locus>a section beg.<quote>ר̇ אלעזר פתח עמי זכור נא.. מעשה. ... חבריא אזלו ... חד בי חקל ושמשא הוה תקיף חמו ההוא בי חקל בשפירו דעשׂבין ומיין נפקין בכל סטר ואולני חקלא סגיאין יתבו תמן. אמר ר̇ אלעזר כמה יאות אתר ...</quote>.</p>
+                        </note>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Ital. Rabb. char.; fol.,<material>paper</material>, stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 13/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part9-item1">
+                        <locus from="17a" to="24b">Fol. 17</locus>
+                        <title>
+                           <persName>Rashi</persName>’s commentary on Exodus xxxiv. 31 (הוא כל) to Leviticus v. 17 (ביום הכפורים ע̇א̇כ̇ו̇).</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.; large 8vo,<material>paper</material>, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 13/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part10-item1">
+                        <locus from="25a" to="26b">Fol. 25</locus>
+                        <title>Title<quote type="head">מן תפסיר בראשית</quote>, commentary in Arabic on Genesis</title>
+                        <msItem xml:id="MS_Heb_b_13-part10-item1-item1" n="a">
+                           <p>(<locus from="25b">fol. 25b</locus>) Genesis i. 1 beg.<quote type="beg">... פי אול מא כלק אלאלאה ... תנקסם קסמין למעני אול אלאשיא ... אול אלאפעאל והו קסם ידכל [ת]חתה כל אלאעמאל אלצנעיה כאלאבניה ואלגרוס ומא שאכלהא ...</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_13-part10-item1-item2" n="b">
                            <p>(<locus from="26a">fol. 26</locus>) on Genesis i. 14.</p>
                         </msItem>
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part11" n="11">
-                        <msIdentifier>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part11" n="11">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/11</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/11</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part11-item1">
-                                <locus from="27a" to="27b">Fol. 27</locus>
-                                <author/>
-                                <title>Arabic translation of Psalm lxxxvi. 6 to 14, with commentary</title>
-                                <note>on verse 14 the author says
-                                    <p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part11-item1">
+                        <locus from="27a" to="27b">Fol. 27</locus>
+                        <title>Arabic translation of Psalm lxxxvi. 6 to 14, with commentary</title>
+                        <note>on verse 14 the author says<p>
                               <quote>... פאלזדים הם אלדין יתעמדון ט̇לם ישראל בגיר תאויל ולא שבהה כמא קאל פי אלמצריין כי בדבר אשר זדו עליהם. וקד קיל אן הולא אלזדים הם אלארבע מלכיות.</quote>.</p>
-                        </note>  
-                              
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; sm. 4to, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part12" n="12">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; sm. 4to,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part12" n="12">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/12</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/12</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part12-item1">
-                                <locus from="28a" to="29b"/>
-                                <author/>
-                                <title>Arabic translation of Daniel, with commentary</title>
-                                <note/>  
-                                
-                                <msItem xml:id="MS_Heb_b_13-part12-item1-item1" n="a">
-                           <p>(<locus from="28a">fol. 28</locus>) Daniel ix. 24 to 26; </p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part12-item1">
+                        <locus from="28a" to="29b"/>
+                        <title>Arabic translation of Daniel, with commentary</title>
+                        <msItem xml:id="MS_Heb_b_13-part12-item1-item1" n="a">
+                           <p>(<locus from="28a">fol. 28</locus>) Daniel ix. 24 to 26;</p>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_13-part12-item1-item2" n="b">
+                        <msItem xml:id="MS_Heb_b_13-part12-item1-item2" n="b">
                            <p>(<locus from="29a">fol. 29</locus>) Daniel xi. 10 to 14;</p>
-                                <p>towards the end the writer says <quote>ואמא דין אלנצראניה אנמא ט̇הר עלי עהד טוסטנטינוס אלכביר בעד זמאן אלרגל בת̇ סנה ולקסטנטינוס אלכביר ו̇ הליני אליום ת̇ק̇פ̇ סנה. תם נקול אדא כאן ישו לם יכן עלי עהד אליונאניין לם צ̇מה גבריאל אלי קצתם ...</quote>.</p>
+                           <p>towards the end the writer says<quote>ואמא דין אלנצראניה אנמא ט̇הר עלי עהד טוסטנטינוס אלכביר בעד זמאן אלרגל בת̇ סנה ולקסטנטינוס אלכביר ו̇ הליני אליום ת̇ק̇פ̇ סנה. תם נקול אדא כאן ישו לם יכן עלי עהד אליונאניין לם צ̇מה גבריאל אלי קצתם ...</quote>.</p>
                         </msItem>
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Yemen Rabb. char.; large 8vo, <material>paper</material>, stained and injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part13" n="13">
-                        <msIdentifier>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen Rabb. char.; large 8vo,<material>paper</material>, stained and injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part13" n="13">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/13</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/13</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part13-item1">
-                                <locus from="30a" to="31b"/>
-                                <author/>
-                                <title>הלכות גדולות on ברכות</title>
-                                <note/>  
-                               
-                                <msItem xml:id="MS_Heb_b_13-part13-item1-item1" n="a">
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part13-item1">
+                        <locus from="30a" to="31b"/>
+                        <title>הלכות גדולות on ברכות</title>
+                        <msItem xml:id="MS_Heb_b_13-part13-item1-item1" n="a">
                            <p>(<locus from="30a">fol. 30</locus>) ed. Hildesheimer, p. 37 (beg. obliterated) to p. 40 line 6 from below (ואחר כך ישאל);</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_b_13-part13-item1-item2" n="b">
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_13-part13-item1-item2" n="b">
                            <p>(<locus from="31a">fol. 31</locus>) pp. 64 to 70, beg. and end obliterated.</p>
                         </msItem>
-                                <note>With many variations from the edition.</note>
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; 4to, <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part14" n="14">
-                        <msIdentifier>
+                        <note>With many variations from the edition.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part14" n="14">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/14</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/14</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part14-item1">
-                                <locus from="32a" to="32b">Fol. 32</locus>
-                                <author/>
-                                <title>Halakhoth</title>
-                                <note>ending <quote type="end">והלכתא עוף טהור מותר לשלח דכת̇ צפור עוף טמא פטור מלשלח והיכא דשלחה וחזרה אפילו ארבעה וחמשה פעמים חייב לשלח אפרוחים מפרחין וביצים מוזרות פטור מלשלח וכן חילכתא. תנו רבנן מפרנסין עניי גוים וג̇</quote> (Gittin, fol. 61); cf. הל̇ גד̇ ed. Hildesheimer, p. 569 sq. 
-                                    <p>Colophon <quote type="col">סליק סדר קדשׁים הל̇ פס̇וּ זכינו ושלמנו לטובה ולברכה לכ̇ג̇ק̇ מר̇ ור̇ ישעיה הח̇ והנ̇ בן כ̇ג̇ק̇ מר̇ ור̇ יוסף החבר המעולה בחבורה בן כ̇ג̇ק̇ מר̇ ור̇ יעקב הח̇ וראש הסדר ה̇ק̇ב̇ה̇ ישימהו עליו סימן טוב ויקיים עליו ענין קד̇ דכת̇ אז תקרא ויֿיֿ יענה וג̇ לישועתך קויתי ייָי</quote>;</p> 
-                                    <p>below, in a later hand, <quote type="col">נעתק לנתן בי ר̇ אברהם ת̇נ̇צ̇ב̇ה̇</quote>.</p>
-                                </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            
-                            <provenance>Owners: <persName type="own">Isaiah b. Joseph b. Jacob</persName>, <persName type="own">Nathan b. Abraham</persName>.</provenance>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part15" n="15">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part14-item1">
+                        <locus from="32a" to="32b">Fol. 32</locus>
+                        <title>Halakhoth</title>
+                        <note>ending<quote type="end">והלכתא עוף טהור מותר לשלח דכת̇ צפור עוף טמא פטור מלשלח והיכא דשלחה וחזרה אפילו ארבעה וחמשה פעמים חייב לשלח אפרוחים מפרחין וביצים מוזרות פטור מלשלח וכן חילכתא. תנו רבנן מפרנסין עניי גוים וג̇</quote>(Gittin, fol. 61); cf. הל̇ גד̇ ed. Hildesheimer, p. 569 sq.<p>Colophon<quote type="col">סליק סדר קדשׁים הל̇ פס̇וּ זכינו ושלמנו לטובה ולברכה לכ̇ג̇ק̇ מר̇ ור̇ ישעיה הח̇ והנ̇ בן כ̇ג̇ק̇ מר̇ ור̇ יוסף החבר המעולה בחבורה בן כ̇ג̇ק̇ מר̇ ור̇ יעקב הח̇ וראש הסדר ה̇ק̇ב̇ה̇ ישימהו עליו סימן טוב ויקיים עליו ענין קד̇ דכת̇ אז תקרא ויֿיֿ יענה וג̇ לישועתך קויתי ייָי</quote>;</p>
+                           <p>below, in a later hand,<quote type="col">נעתק לנתן בי ר̇ אברהם ת̇נ̇צ̇ב̇ה̇</quote>.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <provenance>Owners:<persName type="own">Isaiah b. Joseph b. Jacob</persName>,<persName type="own">Nathan b. Abraham</persName>.</provenance>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part15" n="15">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/15</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/15</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part15-item1">
-                                <locus from="33a" to="33b">Fol. 33</locus>
-                                <author/>
-                                <title>Commentary on Babylonian Talmud סוכה, end of chap. ii and beg. of chap. iii</title>
-                                <note>With some vowel points, marginal notes and corrections between the lines.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. and Rabb. char.; fol., <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part16" n="16">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part15-item1">
+                        <locus from="33a" to="33b">Fol. 33</locus>
+                        <title>Commentary on Babylonian Talmud סוכה, end of chap. ii and beg. of chap. iii</title>
+                        <note>With some vowel points, marginal notes and corrections between the lines.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. and Rabb. char.; fol.,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part16" n="16">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/16</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/16</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part16-item1">
-                                <locus from="34a" to="35b">Fol. 34</locus>
-                                <author/>
-                                <title>Fragment of an ethical treatise, in Arabic</title>
-                                <note>beg. missing, beg. <quote>אילא אמא ראבה פרט לשקנא דרך אמלוה אביי פרי צותא קא אסר רחמנא אילא אמא אביי פרט לשקנא לה בנשיקה שרח דלך שכבת זרע אלתי לשוטה ממא תני שכבת זרע פצח ען שי אכר ...</quote>.</note>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Yemen Rabb. char.; large 8vo, <material>paper</material>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part17" n="17">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part16-item1">
+                        <locus from="34a" to="35b">Fol. 34</locus>
+                        <title>Fragment of an ethical treatise, in Arabic</title>
+                        <note>beg. missing, beg.<quote>אילא אמא ראבה פרט לשקנא דרך אמלוה אביי פרי צותא קא אסר רחמנא אילא אמא אביי פרט לשקנא לה בנשיקה שרח דלך שכבת זרע אלתי לשוטה ממא תני שכבת זרע פצח ען שי אכר ...</quote>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen Rabb. char.; large 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part17" n="17">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/17</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/17</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part17-item1">
-                                <locus from="36a" to="36b">Fol. 36</locus>
-                                <author/>
-                                <title>Report of proceedings before the בית דין</title>
-                                <note>parties <persName type="heb">מר̇ יוסף</persName>, <persName type="heb">מר̇ שועא בן מנחם (?) אלשעאלי</persName>, and <persName type="heb">שמואל ב̇ מר̇ אפרים בר יצחק הידוע בן אלאערב</persName>; dated Tuesday, <date calendar="Hebrew-Seleucid" when="1359">16th Iyyar, 1359 Sel.</date> = <date calendar="Gregorian" when="1048">A.D. 1048</date>, at <placeName>Fostat</placeName>: signed by <persName>Nathan b. Shemariah</persName>: some scribbling.</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <origin>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part17-item1">
+                        <locus from="36a" to="36b">Fol. 36</locus>
+                        <title>Report of proceedings before the בית דין</title>
+                        <note>parties<persName type="heb">מר̇ יוסף</persName>,<persName type="heb">מר̇ שועא בן מנחם (?) אלשעאלי</persName>, and<persName type="heb">שמואל ב̇ מר̇ אפרים בר יצחק הידוע בן אלאערב</persName>; dated Tuesday,<date calendar="Hebrew-Seleucid" when="1359">16th Iyyar, 1359 Sel.</date>=<date calendar="Gregorian" when="1048">A.D. 1048</date>, at<placeName>Fostat</placeName>: signed by<persName>Nathan b. Shemariah</persName>: some scribbling.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
                         <origDate when="1048">1048</origDate>
-                            <origPlace>Fostat</origPlace>
+                        <origPlace>Fostat</origPlace>
                      </origin>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part18" n="18">
-                        <msIdentifier>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part18" n="18">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/18</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/18</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part18-item1">
-                                <locus from="37a" to="37b">Fol. 37</locus>
-                                <author/>
-                                <title>Report of proceedings before the בית דין</title>
-                                <note>parties <persName type="heb">אבו אלחסין מנצור בן רבי יצחק בירבי עלון נ̇ע̇</persName>, and <persName type="heb">מר̇ אפרים בן רבי עלון הכהן</persName>: dated at <placeName>Fostat</placeName> in <date calendar="Hebrew-Seleucid" when="1396">ve-Adar, 1396 Sel.</date> = <date calendar="Gregorian" when="1085">A.D. 1085</date>: signed <persName>David b. Ẓedaqah b. Israel</persName>, and <persName>ʿAli b. Ephraim b. ʿAli נ̇ע̇</persName>.</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <origin>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part18-item1">
+                        <locus from="37a" to="37b">Fol. 37</locus>
+                        <title>Report of proceedings before the בית דין</title>
+                        <note>parties<persName type="heb">אבו אלחסין מנצור בן רבי יצחק בירבי עלון נ̇ע̇</persName>, and<persName type="heb">מר̇ אפרים בן רבי עלון הכהן</persName>: dated at<placeName>Fostat</placeName>in<date calendar="Hebrew-Seleucid" when="1396">ve-Adar, 1396 Sel.</date>=<date calendar="Gregorian" when="1085">A.D. 1085</date>: signed<persName>David b. Ẓedaqah b. Israel</persName>, and<persName>ʿAli b. Ephraim b. ʿAli נ̇ע̇</persName>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
                         <origDate when="1085">1085</origDate>
-                                <origPlace>Fostat</origPlace>
+                        <origPlace>Fostat</origPlace>
                      </origin>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part19" n="19">
-                        <msIdentifier>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part19" n="19">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/19</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/19</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part19-item1">
-                                <locus from="38a" to="38b">Fol. 38</locus>
-                                <author/>
-                                <title>Fragment of a decision of the year <date calendar="Hebrew-Seleucid" when="1406">1406 Sel.</date> = <date calendar="Gregorian" when="1095">A.D. 1095</date>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part19-item1">
+                        <locus from="38a" to="38b">Fol. 38</locus>
+                        <title>Fragment of a decision of the year<date calendar="Hebrew-Seleucid" when="1406">1406 Sel.</date>=<date calendar="Gregorian" when="1095">A.D. 1095</date>
                         </title>
-                                <note>as to the inheritance of <persName type="heb">ברכאת</persName> and <persName type="heb">פריג</persName>, sons of <persName type="heb">סלמאן הכהן</persName>: signed by <persName type="heb">יצחק המלמד ביר̇ חיים נ̇ע̇</persName>, and <persName type="heb">... הכהן ביר̇ יחיי נ̇ע̇</persName>
-                        </note> 
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; fol., <material>paper</material>, torn.</p>
-                        </physDesc>
-                        <history>
-                            <origin>
+                        <note>as to the inheritance of<persName type="heb">ברכאת</persName>and<persName type="heb">פריג</persName>, sons of<persName type="heb">סלמאן הכהן</persName>: signed by<persName type="heb">יצחק המלמד ביר̇ חיים נ̇ע̇</persName>, and<persName type="heb">... הכהן ביר̇ יחיי נ̇ע̇</persName>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>paper</material>, torn.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
                         <origDate when="1095">1095</origDate>
                      </origin>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part20" n="20">
-                        <msIdentifier>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part20" n="20">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/20</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/20</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part20-item1">
-                                <locus from="39a" to="39b">Fol. 39</locus>
-                                <author/>
-                                <title>Fragment of a decision</title>
-                                <note>dated in the second decade of Kislew, <date calendar="Hebrew-Seleucid" when="1487">1487 Sel.</date> = <date calendar="Gregorian" when="1176">A.D. 1176</date>, at <placeName>Fostat</placeName>:
-                                    parties <persName type="heb">אבו אלפצ̇איל ... שרנו ... יקותיאל ... בן ... משה השר</persName>, and <persName type="heb">אבו אלברכאת אלכאתב שרנו ואדירנו יהודה ... בן ... אלעזר הכהן ... נ̇ע̇</persName>: 
-                                    signed <persName type="heb">ישוע הלוי בר̇ חותם נ̇ע̇</persName>, and <persName type="heb">משה הלוי ב̇י̇ר̇ אברהם ר̇י̇ת̇</persName>.</note>  
-                                
-                            
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <origin>
-                                <origDate when="1176">1176</origDate>
-                                <origPlace>Fostat</origPlace>
-                            </origin>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part21" n="21">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part20-item1">
+                        <locus from="39a" to="39b">Fol. 39</locus>
+                        <title>Fragment of a decision</title>
+                        <note>dated in the second decade of Kislew,<date calendar="Hebrew-Seleucid" when="1487">1487 Sel.</date>=<date calendar="Gregorian" when="1176">A.D. 1176</date>, at<placeName>Fostat</placeName>: parties<persName type="heb">אבו אלפצ̇איל ... שרנו ... יקותיאל ... בן ... משה השר</persName>, and<persName type="heb">אבו אלברכאת אלכאתב שרנו ואדירנו יהודה ... בן ... אלעזר הכהן ... נ̇ע̇</persName>: signed<persName type="heb">ישוע הלוי בר̇ חותם נ̇ע̇</persName>, and<persName type="heb">משה הלוי ב̇י̇ר̇ אברהם ר̇י̇ת̇</persName>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1176">1176</origDate>
+                        <origPlace>Fostat</origPlace>
+                     </origin>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part21" n="21">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/21</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/21</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part21-item1">
-                                <locus from="40a" to="40b">Fol. 40</locus>
-                                <author/>
-                                <title>Fragment of a contract</title>
-                                <note>dated <date calendar="Hebrew-Seleucid" when="1488">Monday, 19th Nisan, 1488 Sel.</date> = <date calendar="Gregorian" when="1177">A.D. 1177</date>: 
-                                    signed by <persName type="heb">אלעזרהלוי ביר̇ צדוק החבר ...</persName> in presence of <persName type="heb">שר שלום ברבי ... [ראש ישיבת] גאון יעקב ז̇צ̇ל̇</persName>, and <persName type="heb">יוסף .. בר דניאל נ̇ע̇</persName>.
-                                </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; <material>vellum</material>, fragment, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part22" n="22">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part21-item1">
+                        <locus from="40a" to="40b">Fol. 40</locus>
+                        <title>Fragment of a contract</title>
+                        <note>dated<date calendar="Hebrew-Seleucid" when="1488">Monday, 19th Nisan, 1488 Sel.</date>=<date calendar="Gregorian" when="1177">A.D. 1177</date>: signed by<persName type="heb">אלעזרהלוי ביר̇ צדוק החבר ...</persName>in presence of<persName type="heb">שר שלום ברבי ... [ראש ישיבת] גאון יעקב ז̇צ̇ל̇</persName>, and<persName type="heb">יוסף .. בר דניאל נ̇ע̇</persName>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.;<material>vellum</material>, fragment, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part22" n="22">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/22</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/22</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part22-item1">
-                                <locus from="41a" to="41b">Fol. 41</locus>
-                                <author/>
-                                <title>An official recognition of the rite of the כניסה̈ אלשאמיין</title>
-                                <note>with a list of authorities beginning with <persName>Seadiah</persName>: dated in the first decade of <date calendar="Hebrew-Seleucid" when="1522">Adar, 1522 Sel.</date> = <date calendar="Gregorian" when="1211"> A.D. 1211</date>: signed by <persName type="heb">... הכהן בר̇ סעדיה הכהן נ̇ע̇</persName>: 
-                                    <p>on the <locus from="41b">verso</locus> (in another hand) is a list of the prayers, etc., used.</p>
-                        </note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <origin>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part22-item1">
+                        <locus from="41a" to="41b">Fol. 41</locus>
+                        <title>An official recognition of the rite of the כניסה̈ אלשאמיין</title>
+                        <note>with a list of authorities beginning with<persName>Seadiah</persName>: dated in the first decade of<date calendar="Hebrew-Seleucid" when="1522">Adar, 1522 Sel.</date>=<date calendar="Gregorian" when="1211">A.D. 1211</date>: signed by<persName type="heb">... הכהן בר̇ סעדיה הכהן נ̇ע̇</persName>:<p>on the<locus from="41b">verso</locus>(in another hand) is a list of the prayers, etc., used.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
                         <origDate when="1211">1211</origDate>
                      </origin>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part23" n="23">
-                        <msIdentifier>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part23" n="23">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/23</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/23</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part23-item1">
-                                <locus from="42a" to="42b">Fol. 42</locus>
-                                <author/>
-                                <title>Fragments of a report of evidence</title>
-                                <note>concerning <persName type="heb">עמרון בר אליה ממדינת צקיליה</persName>, and <persName type="heb">אפרים בר שמריה הנודע אלגזי</persName>; dated at <placeName>Fostat</placeName> the <date calendar="Hebrew-Seleucid" notBefore="1027" notAfter="1827">27th Tebeth, 1.27 Sel.</date>: signed by <persName type="heb">יהודה בר חדיד</persName>, <persName type="heb">... הכהן בן אברהם</persName>, <persName type="heb">שמואל הכהן בר עליון</persName> , <persName type="heb">יוסף בר בנימין</persName>.</note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; fol., <material>paper</material>, torn.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part24" n="24">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part23-item1">
+                        <locus from="42a" to="42b">Fol. 42</locus>
+                        <title>Fragments of a report of evidence</title>
+                        <note>concerning<persName type="heb">עמרון בר אליה ממדינת צקיליה</persName>, and<persName type="heb">אפרים בר שמריה הנודע אלגזי</persName>; dated at<placeName>Fostat</placeName>the<date calendar="Hebrew-Seleucid" notBefore="1027" notAfter="1827">27th Tebeth, 1.27 Sel.</date>: signed by<persName type="heb">יהודה בר חדיד</persName>,<persName type="heb">... הכהן בן אברהם</persName>,<persName type="heb">שמואל הכהן בר עליון</persName>,<persName type="heb">יוסף בר בנימין</persName>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>paper</material>, torn.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part24" n="24">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/24</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/24</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part24-item1">
-                                <locus from="43a" to="43b">Fol. 43</locus>
-                                <author/>
-                                <title>A letter, in Arabic</title>
-                                <note>to R. <persName>Ḥayyim</persName> from <persName>Abraham b. Joseph</persName>. Beg. obliterated. He mentions <persName>David han-nagid ז̇צ̇ל̇</persName>, <persName>Obadiah השר ז̇צ̇ל̇</persName>, <persName>Abu 'l-fadhl</persName>, <persName>Abu 'l-barakat</persName>.</note>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; fol., <material>paper</material>, partly obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part25" n="25">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part24-item1">
+                        <locus from="43a" to="43b">Fol. 43</locus>
+                        <title>A letter, in Arabic</title>
+                        <note>to R.<persName>Ḥayyim</persName>from<persName>Abraham b. Joseph</persName>. Beg. obliterated. He mentions<persName>David han-nagid ז̇צ̇ל̇</persName>,<persName>Obadiah השר ז̇צ̇ל̇</persName>,<persName>Abu 'l-fadhl</persName>,<persName>Abu 'l-barakat</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; fol.,<material>paper</material>, partly obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part25" n="25">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/25</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/25</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part25-item1">
-                                <locus from="44a" to="44b">Fol. 44</locus>
-                                <author/>
-                                <title>A letter, in Arabic</title>
-                                <note>addressed to the congregation in Egypt, by <persName type="heb">דוד בירבינו יהושוע (?) הנגיד ראש ישיבתה שלתורה בירבינו אברהם הנגיד החסיד ארי התורה בירבינו דוד הנגיד ראש ישיבתה שלתורה בירבינו אברהם החסיד מקל התפארה בירבינו משה הגאון בירבינו מימון הדיין זֿצֿוֿקֿל</persName>ֿ.</note>  
-                              
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; fol., <material>paper</material>, stained and injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part26" n="26">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part25-item1">
+                        <locus from="44a" to="44b">Fol. 44</locus>
+                        <title>A letter, in Arabic</title>
+                        <note>addressed to the congregation in Egypt, by<persName type="heb">דוד בירבינו יהושוע (?) הנגיד ראש ישיבתה שלתורה בירבינו אברהם הנגיד החסיד ארי התורה בירבינו דוד הנגיד ראש ישיבתה שלתורה בירבינו אברהם החסיד מקל התפארה בירבינו משה הגאון בירבינו מימון הדיין זֿצֿוֿקֿל</persName>ֿ.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; fol.,<material>paper</material>, stained and injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part26" n="26">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/26</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/26</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part26-item1">
-                                <locus from="45a" to="45b">Fol. 45</locus>
-                                <author/>
-                                <title>A business letter</title>
-                                <note>from <persName>Joseph b. (?) עקרא</persName> to <persName type="heb">השר ... יצחק</persName>.</note> 
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Small curs. char.; fol., <material>paper</material>, stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part27" n="27">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part26-item1">
+                        <locus from="45a" to="45b">Fol. 45</locus>
+                        <title>A business letter</title>
+                        <note>from<persName>Joseph b. (?) עקרא</persName>to<persName type="heb">השר ... יצחק</persName>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Small curs. char.; fol.,<material>paper</material>, stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part27" n="27">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/27</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/27</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part27-item1">
-                                <locus from="46a" to="46b">Fol. 46</locus>
-                                <author/>
-                                <title>A will, or disposition of property</title>
-                                <note>beg. missing: signed <persName type="heb">הלל החזן ...</persName> and <persName type="heb">יצחק בר אלעזר נ̇נ̇</persName>.</note>
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; fol., <material>paper</material>, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part28" n="28">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part27-item1">
+                        <locus from="46a" to="46b">Fol. 46</locus>
+                        <title>A will, or disposition of property</title>
+                        <note>beg. missing: signed<persName type="heb">הלל החזן ...</persName>and<persName type="heb">יצחק בר אלעזר נ̇נ̇</persName>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; fol.,<material>paper</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part28" n="28">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/28</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/28</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part28-item1">
-                                <locus from="47a" to="47b">Fol. 47</locus>
-                                <author/>
-                                <title>Fragment of the marriage contract of <persName>Ephraim hal-levi</persName> and <persName type="heb">סת אלחסן</persName>.</title>
-                                <note/>  
-                              
-                                <textLang mainLang="arc"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>vellum</material>, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part29" n="29">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part28-item1">
+                        <locus from="47a" to="47b">Fol. 47</locus>
+                        <title>Fragment of the marriage contract of<persName>Ephraim hal-levi</persName>and<persName type="heb">סת אלחסן</persName>.</title>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>vellum</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part29" n="29">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/29</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/29</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part29-item1">
-                                <locus from="48a" to="48b">Fol. 48</locus>
-                                <author/>
-                                <title>Fragment of the marriage contract</title>
-                                <note>parties <persName>Eleazar</persName> (?) and <persName type="heb">... בת מר̇ור̇ סעדיה החזן נ̇ע̇</persName>; witnesses <persName type="heb">חלפון הלוי ביר̇ מנשה נ̇ע̇</persName>, and <persName type="heb">יפת בר יוסף הפרנס ס̇ט̇</persName>.</note>  
-                               
-                                <textLang mainLang="arc"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>vellum</material>, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part30" n="30">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part29-item1">
+                        <locus from="48a" to="48b">Fol. 48</locus>
+                        <title>Fragment of the marriage contract</title>
+                        <note>parties<persName>Eleazar</persName>(?) and<persName type="heb">... בת מר̇ור̇ סעדיה החזן נ̇ע̇</persName>; witnesses<persName type="heb">חלפון הלוי ביר̇ מנשה נ̇ע̇</persName>, and<persName type="heb">יפת בר יוסף הפרנס ס̇ט̇</persName>.</note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>vellum</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part30" n="30">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/30</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/30</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part30-item1">
-                                <locus from="49a" to="49b">Fol. 49</locus>
-                                <author/>
-                                <title>A letter, in Arabic</title>
-                                <note>from <persName>Labrat b. Moses נ̇ע̇ b. סגמאר</persName> to his brother <persName>Abu Zacharia Judah</persName>.</note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; 4to, <material>paper</material>, obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part31" n="31">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part30-item1">
+                        <locus from="49a" to="49b">Fol. 49</locus>
+                        <title>A letter, in Arabic</title>
+                        <note>from<persName>Labrat b. Moses נ̇ע̇ b. סגמאר</persName>to his brother<persName>Abu Zacharia Judah</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 4to,<material>paper</material>, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part31" n="31">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/31</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/31</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part31-item1">
-                                <locus from="50a" to="50b">Fol. 50</locus>
-                                <author/>
-                                <title>A letter, in Arabic</title>
-                                <note>from <persName type="heb">טוביהו הכהן בר̇ עלי הכהן החבר המעולה ז̇ל̇</persName> to <persName type="heb">מר̇ור̇ נתן הכהן החבר... בר כ̇ג̇ק̇ מר̇ור̇ שלמה הכהן החסיד ז̇ל̇</persName>.</note>  
-                              
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; large 8vo, <material>paper</material>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part32" n="32">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part31-item1">
+                        <locus from="50a" to="50b">Fol. 50</locus>
+                        <title>A letter, in Arabic</title>
+                        <note>from<persName type="heb">טוביהו הכהן בר̇ עלי הכהן החבר המעולה ז̇ל̇</persName>to<persName type="heb">מר̇ור̇ נתן הכהן החבר... בר כ̇ג̇ק̇ מר̇ור̇ שלמה הכהן החסיד ז̇ל̇</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; large 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part32" n="32">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/32</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/32</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part32-item1">
-                                <locus from="51a" to="51b">Fol. 51</locus>
-                                <author/>
-                                <title>A letter, in Arabic</title>
-                                <note>from <persName type="heb">סעדיה הכהן ביר̇ הלל [רא]ש הקהל ..</persName> to <persName type="heb">טוביהו הכהן בר̇ עלי הכהן החבר המעולה ז̇ל̇</persName>.</note>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part33" n="33">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part32-item1">
+                        <locus from="51a" to="51b">Fol. 51</locus>
+                        <title>A letter, in Arabic</title>
+                        <note>from<persName type="heb">סעדיה הכהן ביר̇ הלל [רא]ש הקהל ..</persName>to<persName type="heb">טוביהו הכהן בר̇ עלי הכהן החבר המעולה ז̇ל̇</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part33" n="33">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/33</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/33</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part33-item1">
-                                <locus from="52a" to="52b">Fol. 52</locus>
-                                <author/>
-                                <title>A letter in Arabic</title>
-                                <note>from <persName>Nathan (?) b. Judah נ̇ע̇</persName> to <persName>Moses b. Ẓemaḥ</persName> and his brother.</note> 
-                            
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; large 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part34" n="34">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part33-item1">
+                        <locus from="52a" to="52b">Fol. 52</locus>
+                        <title>A letter in Arabic</title>
+                        <note>from<persName>Nathan (?) b. Judah נ̇ע̇</persName>to<persName>Moses b. Ẓemaḥ</persName>and his brother.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; large 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part34" n="34">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/34</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/34</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part34-item1">
-                                <locus from="53a" to="53b">Fol. 53</locus>
-                                <author/>
-                                <title>A charm, in Arabic</title>
-                                <note>beg. <quote type="beg">בשמך רחמנא. עקדת לסאן עיסא בן מריה באלאסם אלדי עקד בה אלנאר ען אברהם אלכליל פקאל יא נאר כוני ברד ...</quote>.</note> 
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; sm. 4to, <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part35" n="35">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part34-item1">
+                        <locus from="53a" to="53b">Fol. 53</locus>
+                        <title>A charm, in Arabic</title>
+                        <note>beg.<quote type="beg">בשמך רחמנא. עקדת לסאן עיסא בן מריה באלאסם אלדי עקד בה אלנאר ען אברהם אלכליל פקאל יא נאר כוני ברד ...</quote>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; sm. 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part35" n="35">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/35</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/35</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part35-item1">
-                                <locus from="54a" to="54b">Fol. 54</locus>
-                                <author/>
-                                <title>A letter, in Arabic</title>
-                                <note>from <persName>? of Fostat</persName>, to <persName>מ̇ור̇ אפרים החבר ביר̇ שמריה ת̇נ̇צ̇ב̇ה̇</persName>.</note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; 8vo, <material>paper</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_13-part36" n="36">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part35-item1">
+                        <locus from="54a" to="54b">Fol. 54</locus>
+                        <title>A letter, in Arabic</title>
+                        <note>from<persName>? of Fostat</persName>, to<persName>מ̇ור̇ אפרים החבר ביר̇ שמריה ת̇נ̇צ̇ב̇ה̇</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_13-part36" n="36">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 13/36</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 13/36</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_13-part36-item1">
-                                <locus from="55a" to="55b">Fol. 55</locus>
-                                <author/>
-                                <title>A list of names</title>
-                                <note>mostly crossed through or encircled: at the end <quote>גבאיה̈ אול יום אלעיד ללמגרבי אלכהן</quote>.</note>
-                              
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <persName>paper</persName> strip, partly obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, <date calendar="Gregorian" when="1899">1899</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="INDEX">
-                    <desc>General index of <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_13-part36-item1">
+                        <locus from="55a" to="55b">Fol. 55</locus>
+                        <title>A list of names</title>
+                        <note>mostly crossed through or encircled: at the end<quote>גבאיה̈ אול יום אלעיד ללמגרבי אלכהן</quote>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<persName>paper</persName>strip, partly obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="Gregorian" when="1899">1899</date>.</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="Neubauer">
-                    <term>Talmud</term>
-                    <term>Later Acquisitions</term>
-                </keywords>
-                
-                <keywords scheme="#INDEX">
-                    <term>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Talmud</term>
+               <term>Later Acquisitions</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
                   <ref target="#MS_Heb_b_13_01">Mishnah. ברכות.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_01">
                      <persName type="aut">Moses b. Maimon</persName>. Commentaries: Arabic, on Mishnah.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_02">Mishnah. בכורים.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_02">Mishnah. שבת.</ref>
                </term>
-                    
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_04">Talmud, Babli. ראש השנה.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_05">Talmud, Babli. חגיגה.</ref>
-               </term>                    
-                    <term>
+               </term>
+               <term>
                   <ref target="#MS_Heb_b_13_06">
                      <persName type="aut">Alfasi (Isaac b. Jacob)</persName>. בבא קמא.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_07">Bible. Versions. Anonymous. Palestinian Syriac: Jeremiah.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_07">Bible. Versions. Anonymous. Palestinian Syriac: Jeremiah.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_07">Midrash. רבה; בראשית.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_07">Palestinian Syriac fragments.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_07">Palimpsest fragments.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_07">Talmud, Babli. מנחות.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_08">Midrash. Various fragments.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_09">
                      <persName type="aut">Solomon b. Isaac (Rashi)</persName>. Commentaries: Exodus.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_09">
                      <persName type="aut">Solomon b. Isaac (Rashi)</persName>. Commentaries: Leviticus.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_10">Bible. Commentaries. Anonymous. Arabic: Genesis.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_11">Bible. Versions. Anonymous. Arabic: Psalms.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_11">Bible. Commentaries. Anonymous. Arabic: Psalms.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_12">Bible. Versions. Anonymous. Arabic: Daniel.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_12">Bible. Commentaries. Anonymous. Arabic: Daniel.</ref>
                </term>
-                    
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_14">
                      <persName type="own">Isaiah b. Joseph b. Jacob</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_14">
                      <persName type="ment">Joseph b. Jacob</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_14">
                      <persName type="own">Nathan b. Abraham</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_15">Talmud, Babli. Commentaries. סוכה.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_16">Ethical fragments. Arabic.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_17">Deeds. Various.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_17">
                      <persName type="ment">Ephraim b. Isaac</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_17">
                      <persName type="par">Jeshua b. Menahem</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_17">
                      <persName type="par">Joseph</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_17">
                      <persName type="wit">Nathan b. Shemariah</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_17">
                      <persName type="par">Samuel b. Ephraim b. Isaac (בן אלאערב)</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_18">
                      <persName type="par">Abu 'l-ḥusain Manṣur b. Isaac b. Alvan</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_18">
                      <persName type="wit">ʿAli b. Ephraim b. ʿAli</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_18">
                      <persName type="wit">David b. Ẓedaqah b. Israel</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_18">Deeds. Various.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_18">
                      <persName type="ment">Ephraim b. ʿAli</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_18">
                      <persName type="par">Ephraim b. Alvan hak-kohen</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_18">
                      <persName type="ment">Isaac b. Alvan</persName>.</ref>
-               </term>     
-                    <term>
+               </term>
+               <term>
                   <ref target="#MS_Heb_b_13_18">
                      <persName type="ment">Ẓedaqah b. Israel</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_19">
                      <persName type="par">Barakat b. סלמאן, kohen</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_19">Deeds. Various.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_19">
                      <persName type="par">Furaij b. סלמאן hak-kohen</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_19">
                      <persName type="wit">Isaac b. Ḥayyim</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_19">
                      <persName type="wit">... hak-kohen b. Yaḥya</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_20">
                      <persName type="par">Abu 'l-barakat Judah b. Eleazar hak-kohen</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_20">
                      <persName type="par">Abu 'l-fudhail Jekuthiel b. Moses</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_20">Deeds. Various.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_20">
                      <persName type="wit">Jeshua (levi) b. חותם</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_20">
                      <persName type="wit">Moses (levi) b. Abraham</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_21">Deeds. Various.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_21">
                      <persName type="wit">Eleazar (levi) b. Zadok</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_21">
                      <persName type="wit">Joseph b. Daniel</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_21">
                      <persName type="ment">Sar Shalom hal-levi Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_22">Deeds. Various.</ref>
-               </term>       
-                    <term>
+               </term>
+               <term>
                   <ref target="#MS_Heb_b_13_22">
                      <persName type="wit">... kohen, b. Seadiah</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_22">
                      <persName type="ment">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_23">
                      <persName type="wit">.... (kohen) b. Abraham</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_23">Deeds. Various.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_23">
                      <persName type="par">Ephraim b. Shemariah אלגזי</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_23">
                      <persName type="wit">Joseph b. Benjamin</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_23">
                      <persName type="wit">Judah b. חדיד</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_23">
                      <persName type="wit">Samuel (kohen) b. עליון</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_24">
                      <persName type="aut">Abraham b. Joseph</persName>. Letter.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_24">
                      <persName type="ment">Abu 'l-barakat</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_24">
                      <persName type="ment">Abu 'l-fadhl</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_24">
                      <persName type="ment">Ḥayyim</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_24">Letters. Arabic.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_24">
                      <persName type="ment">Obadiah</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_25">
                      <persName type="ment">Abraham b. Moses b. Maimon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_25">
                      <persName type="ment">Abraham han-Nagid b. David b. Abraham</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_25">
                      <persName type="ment">David han-Nagid b. Abraham Maimuni</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_25">
                      <persName type="aut">David han-Nagid b. Joshua (?) b. Abraham</persName>. Letter.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_25">Historical treatises and fragments. (genealogy of Maimonides).</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_25">
                      <persName type="ment">Joshua (?) b. Abraham Nagid b. David</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_25">Letters. Arabic.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_25">
                      <persName type="ment">Moses b. Maimon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_26">
                      <persName type="ment">Isaac</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_26">
                      <persName type="aut">Joseph b. עקרא (?)</persName>. Letter.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_26">Letters.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_27">Deeds. Wills.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_27">
                      <persName type="wit">Hillel he-ḥazan</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_27">
                      <persName type="wit">Isaac b. Eleazar</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_28">Deeds. Marriage.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_28">
                      <persName type="par">Ephraim hal-levi</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_28">
                      <persName type="par">Sitt-al-ḥusn</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_29">Deeds. Marriage.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_29">
                      <persName type="par">Eleazar</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_29">
                      <persName type="wit">Ḥalfon (levi) b. Manasseh</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_29">
                      <persName type="wit">Japhet b. Joseph</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_29">
-                     <persName type="par">... dtr of Seadiah he-ḥazan</persName>. </ref>
+                     <persName type="par">... dtr of Seadiah he-ḥazan</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_30">
                      <persName type="ment">Abu Zakaria Judah b. Moses</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_30">
                      <persName type="aut">Labrat b. Moses b. Sigmar</persName>. Letter.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_30">Letters. Arabic.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_30">
                      <persName type="ment">Moses b. Sigmar</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_31">Letters. Arabic.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_31">
                      <persName type="wit">Nathan (kohen) b. Solomon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_31">
                      <persName type="aut">Tobiah (kohen) b. ʿAli</persName>. Letter.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_32">Letters. Arabic.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_32">
                      <persName type="aut">Seadiah (kohen) b. Hillel</persName>. Letter.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_32">
                      <persName type="ment">Tobiah (kohen) b. ʿAli</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_33">Letters. Arabic.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_33">
                      <persName type="ment">Moses b. Ẓemaḥ</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_33">
                      <persName type="aut">Nathan (?) b. Judah</persName>. Letter.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_33">
                      <persName type="ment">... b. Ẓemaḥ</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_34">Amulets.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_34">Magic, treatises and notes on.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_35">
                      <persName type="ment">Ephraim b. Shemariah</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_35">Letters. Arabic.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_13_36">Lists of names.</ref>
                </term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2011-06-14">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS_HEB_b_13_1a.tif"/>
-        <graphic url="MS_HEB_b_13_1b.tif"/>
-        <graphic url="MS_HEB_b_13_2a.tif"/>
-        <graphic url="MS_HEB_b_13_2b.tif"/>
-        <graphic url="MS_HEB_b_13_3a.tif"/>
-        <graphic url="MS_HEB_b_13_3b.tif"/>
-        <graphic url="MS_HEB_b_13_4a.tif"/>
-        <graphic url="MS_HEB_b_13_4b.tif"/>
-        <graphic url="MS_HEB_b_13_5a.tif"/>
-        <graphic url="MS_HEB_b_13_5b.tif"/>
-        <graphic url="MS_HEB_b_13_6a.tif"/>
-        <graphic url="MS_HEB_b_13_6b.tif"/>
-        <graphic url="MS_HEB_b_13_7a.tif"/>
-        <graphic url="MS_HEB_b_13_7b.tif"/>
-        <graphic url="MS_HEB_b_13_8a.tif"/>
-        <graphic url="MS_HEB_b_13_8b.tif"/>
-        <graphic url="MS_HEB_b_13_9a.tif"/>
-        <graphic url="MS_HEB_b_13_9b.tif"/>
-        
-        <graphic url="MS_HEB_b_13_10a.tif"/>
-        <graphic url="MS_HEB_b_13_10b.tif"/>
-        <graphic url="MS_HEB_b_13_11a.tif"/>
-        <graphic url="MS_HEB_b_13_11b.tif"/>
-        <graphic url="MS_HEB_b_13_12a.tif"/>
-        <graphic url="MS_HEB_b_13_12b.tif"/>
-        <graphic url="MS_HEB_b_13_13a.tif"/>
-        <graphic url="MS_HEB_b_13_13b.tif"/>
-        <graphic url="MS_HEB_b_13_14a.tif"/>
-        <graphic url="MS_HEB_b_13_14b.tif"/>
-        <graphic url="MS_HEB_b_13_15a.tif"/>
-        <graphic url="MS_HEB_b_13_15b.tif"/>
-        <graphic url="MS_HEB_b_13_16a.tif"/>
-        <graphic url="MS_HEB_b_13_16b.tif"/>
-        <graphic url="MS_HEB_b_13_17a.tif"/>
-        <graphic url="MS_HEB_b_13_17b.tif"/>
-        <graphic url="MS_HEB_b_13_18a.tif"/>
-        <graphic url="MS_HEB_b_13_18b.tif"/>
-        <graphic url="MS_HEB_b_13_19a.tif"/>
-        <graphic url="MS_HEB_b_13_19b.tif"/>
-        
-        <graphic url="MS_HEB_b_13_20a.tif"/>
-        <graphic url="MS_HEB_b_13_20b.tif"/>
-        <graphic url="MS_HEB_b_13_21a.tif"/>
-        <graphic url="MS_HEB_b_13_21b.tif"/>
-        <graphic url="MS_HEB_b_13_22a.tif"/>
-        <graphic url="MS_HEB_b_13_22b.tif"/>
-        <graphic url="MS_HEB_b_13_23a.tif"/>
-        <graphic url="MS_HEB_b_13_23b.tif"/>
-        <graphic url="MS_HEB_b_13_24a.tif"/>
-        <graphic url="MS_HEB_b_13_24b.tif"/>
-        <graphic url="MS_HEB_b_13_25a.tif"/>
-        <graphic url="MS_HEB_b_13_25b.tif"/>
-        <graphic url="MS_HEB_b_13_26a.tif"/>
-        <graphic url="MS_HEB_b_13_26b.tif"/>
-        <graphic url="MS_HEB_b_13_27a.tif"/>
-        <graphic url="MS_HEB_b_13_27b.tif"/>
-        <graphic url="MS_HEB_b_13_28a.tif"/>
-        <graphic url="MS_HEB_b_13_28b.tif"/>
-        <graphic url="MS_HEB_b_13_29a.tif"/>
-        <graphic url="MS_HEB_b_13_29b.tif"/>
-        
-        <graphic url="MS_HEB_b_13_30a.tif"/>
-        <graphic url="MS_HEB_b_13_30b.tif"/>
-        <graphic url="MS_HEB_b_13_31a.tif"/>
-        <graphic url="MS_HEB_b_13_31b.tif"/>
-        <graphic url="MS_HEB_b_13_32a.tif"/>
-        <graphic url="MS_HEB_b_13_32b.tif"/>
-        <graphic url="MS_HEB_b_13_33a.tif"/>
-        <graphic url="MS_HEB_b_13_33b.tif"/>
-        <graphic url="MS_HEB_b_13_34a.tif"/>
-        <graphic url="MS_HEB_b_13_34b.tif"/>
-        <graphic url="MS_HEB_b_13_35a.tif"/>
-        <graphic url="MS_HEB_b_13_35b.tif"/>
-        <graphic url="MS_HEB_b_13_36a.tif"/>
-        <graphic url="MS_HEB_b_13_36b.tif"/>
-        <graphic url="MS_HEB_b_13_37a.tif"/>
-        <graphic url="MS_HEB_b_13_37b.tif"/>
-        <graphic url="MS_HEB_b_13_38a.tif"/>
-        <graphic url="MS_HEB_b_13_38b.tif"/>
-        <graphic url="MS_HEB_b_13_39a.tif"/>
-        <graphic url="MS_HEB_b_13_39b.tif"/>
-        
-        <graphic url="MS_HEB_b_13_40a.tif"/>
-        <graphic url="MS_HEB_b_13_40b.tif"/>
-        <graphic url="MS_HEB_b_13_41a.tif"/>
-        <graphic url="MS_HEB_b_13_41b.tif"/>
-        <graphic url="MS_HEB_b_13_42a.tif"/>
-        <graphic url="MS_HEB_b_13_42b.tif"/>
-        <graphic url="MS_HEB_b_13_43a.tif"/>
-        <graphic url="MS_HEB_b_13_43b.tif"/>
-        <graphic url="MS_HEB_b_13_44a.tif"/>
-        <graphic url="MS_HEB_b_13_44b.tif"/>
-        <graphic url="MS_HEB_b_13_45a.tif"/>
-        <graphic url="MS_HEB_b_13_45b.tif"/>
-        <graphic url="MS_HEB_b_13_46a.tif"/>
-        <graphic url="MS_HEB_b_13_46b.tif"/>
-        <graphic url="MS_HEB_b_13_47a.tif"/>
-        <graphic url="MS_HEB_b_13_47b.tif"/>
-        <graphic url="MS_HEB_b_13_48a.tif"/>
-        <graphic url="MS_HEB_b_13_48b.tif"/>
-        <graphic url="MS_HEB_b_13_49a.tif"/>
-        <graphic url="MS_HEB_b_13_49b.tif"/>
-        
-        <graphic url="MS_HEB_b_13_50a.tif"/>
-        <graphic url="MS_HEB_b_13_50b.tif"/>
-        <graphic url="MS_HEB_b_13_51a.tif"/>
-        <graphic url="MS_HEB_b_13_51b.tif"/>
-        <graphic url="MS_HEB_b_13_52a.tif"/>
-        <graphic url="MS_HEB_b_13_52b.tif"/>
-        <graphic url="MS_HEB_b_13_53a.tif"/>
-        <graphic url="MS_HEB_b_13_53b.tif"/>
-        
-        <graphic url="MS_HEB_b_13_53(a)a.tif"/>
-        <graphic url="MS_HEB_b_13_53(a)b.tif"/>
-        <graphic url="MS_HEB_b_13_53(b)a.tif"/>
-        <graphic url="MS_HEB_b_13_53(b)b.tif"/>
-        
-        <graphic url="MS_HEB_b_13_54a.tif"/>
-        <graphic url="MS_HEB_b_13_54b.tif"/>
-        <graphic url="MS_HEB_b_13_55a.tif"/>
-        <graphic url="MS_HEB_b_13_55b.tif"/>
-        
-    </facsimile>
+         <change when="2011-06-14">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_b_13_1a.tif"/>
+      <graphic url="MS_HEB_b_13_1b.tif"/>
+      <graphic url="MS_HEB_b_13_2a.tif"/>
+      <graphic url="MS_HEB_b_13_2b.tif"/>
+      <graphic url="MS_HEB_b_13_3a.tif"/>
+      <graphic url="MS_HEB_b_13_3b.tif"/>
+      <graphic url="MS_HEB_b_13_4a.tif"/>
+      <graphic url="MS_HEB_b_13_4b.tif"/>
+      <graphic url="MS_HEB_b_13_5a.tif"/>
+      <graphic url="MS_HEB_b_13_5b.tif"/>
+      <graphic url="MS_HEB_b_13_6a.tif"/>
+      <graphic url="MS_HEB_b_13_6b.tif"/>
+      <graphic url="MS_HEB_b_13_7a.tif"/>
+      <graphic url="MS_HEB_b_13_7b.tif"/>
+      <graphic url="MS_HEB_b_13_8a.tif"/>
+      <graphic url="MS_HEB_b_13_8b.tif"/>
+      <graphic url="MS_HEB_b_13_9a.tif"/>
+      <graphic url="MS_HEB_b_13_9b.tif"/>
+      <graphic url="MS_HEB_b_13_10a.tif"/>
+      <graphic url="MS_HEB_b_13_10b.tif"/>
+      <graphic url="MS_HEB_b_13_11a.tif"/>
+      <graphic url="MS_HEB_b_13_11b.tif"/>
+      <graphic url="MS_HEB_b_13_12a.tif"/>
+      <graphic url="MS_HEB_b_13_12b.tif"/>
+      <graphic url="MS_HEB_b_13_13a.tif"/>
+      <graphic url="MS_HEB_b_13_13b.tif"/>
+      <graphic url="MS_HEB_b_13_14a.tif"/>
+      <graphic url="MS_HEB_b_13_14b.tif"/>
+      <graphic url="MS_HEB_b_13_15a.tif"/>
+      <graphic url="MS_HEB_b_13_15b.tif"/>
+      <graphic url="MS_HEB_b_13_16a.tif"/>
+      <graphic url="MS_HEB_b_13_16b.tif"/>
+      <graphic url="MS_HEB_b_13_17a.tif"/>
+      <graphic url="MS_HEB_b_13_17b.tif"/>
+      <graphic url="MS_HEB_b_13_18a.tif"/>
+      <graphic url="MS_HEB_b_13_18b.tif"/>
+      <graphic url="MS_HEB_b_13_19a.tif"/>
+      <graphic url="MS_HEB_b_13_19b.tif"/>
+      <graphic url="MS_HEB_b_13_20a.tif"/>
+      <graphic url="MS_HEB_b_13_20b.tif"/>
+      <graphic url="MS_HEB_b_13_21a.tif"/>
+      <graphic url="MS_HEB_b_13_21b.tif"/>
+      <graphic url="MS_HEB_b_13_22a.tif"/>
+      <graphic url="MS_HEB_b_13_22b.tif"/>
+      <graphic url="MS_HEB_b_13_23a.tif"/>
+      <graphic url="MS_HEB_b_13_23b.tif"/>
+      <graphic url="MS_HEB_b_13_24a.tif"/>
+      <graphic url="MS_HEB_b_13_24b.tif"/>
+      <graphic url="MS_HEB_b_13_25a.tif"/>
+      <graphic url="MS_HEB_b_13_25b.tif"/>
+      <graphic url="MS_HEB_b_13_26a.tif"/>
+      <graphic url="MS_HEB_b_13_26b.tif"/>
+      <graphic url="MS_HEB_b_13_27a.tif"/>
+      <graphic url="MS_HEB_b_13_27b.tif"/>
+      <graphic url="MS_HEB_b_13_28a.tif"/>
+      <graphic url="MS_HEB_b_13_28b.tif"/>
+      <graphic url="MS_HEB_b_13_29a.tif"/>
+      <graphic url="MS_HEB_b_13_29b.tif"/>
+      <graphic url="MS_HEB_b_13_30a.tif"/>
+      <graphic url="MS_HEB_b_13_30b.tif"/>
+      <graphic url="MS_HEB_b_13_31a.tif"/>
+      <graphic url="MS_HEB_b_13_31b.tif"/>
+      <graphic url="MS_HEB_b_13_32a.tif"/>
+      <graphic url="MS_HEB_b_13_32b.tif"/>
+      <graphic url="MS_HEB_b_13_33a.tif"/>
+      <graphic url="MS_HEB_b_13_33b.tif"/>
+      <graphic url="MS_HEB_b_13_34a.tif"/>
+      <graphic url="MS_HEB_b_13_34b.tif"/>
+      <graphic url="MS_HEB_b_13_35a.tif"/>
+      <graphic url="MS_HEB_b_13_35b.tif"/>
+      <graphic url="MS_HEB_b_13_36a.tif"/>
+      <graphic url="MS_HEB_b_13_36b.tif"/>
+      <graphic url="MS_HEB_b_13_37a.tif"/>
+      <graphic url="MS_HEB_b_13_37b.tif"/>
+      <graphic url="MS_HEB_b_13_38a.tif"/>
+      <graphic url="MS_HEB_b_13_38b.tif"/>
+      <graphic url="MS_HEB_b_13_39a.tif"/>
+      <graphic url="MS_HEB_b_13_39b.tif"/>
+      <graphic url="MS_HEB_b_13_40a.tif"/>
+      <graphic url="MS_HEB_b_13_40b.tif"/>
+      <graphic url="MS_HEB_b_13_41a.tif"/>
+      <graphic url="MS_HEB_b_13_41b.tif"/>
+      <graphic url="MS_HEB_b_13_42a.tif"/>
+      <graphic url="MS_HEB_b_13_42b.tif"/>
+      <graphic url="MS_HEB_b_13_43a.tif"/>
+      <graphic url="MS_HEB_b_13_43b.tif"/>
+      <graphic url="MS_HEB_b_13_44a.tif"/>
+      <graphic url="MS_HEB_b_13_44b.tif"/>
+      <graphic url="MS_HEB_b_13_45a.tif"/>
+      <graphic url="MS_HEB_b_13_45b.tif"/>
+      <graphic url="MS_HEB_b_13_46a.tif"/>
+      <graphic url="MS_HEB_b_13_46b.tif"/>
+      <graphic url="MS_HEB_b_13_47a.tif"/>
+      <graphic url="MS_HEB_b_13_47b.tif"/>
+      <graphic url="MS_HEB_b_13_48a.tif"/>
+      <graphic url="MS_HEB_b_13_48b.tif"/>
+      <graphic url="MS_HEB_b_13_49a.tif"/>
+      <graphic url="MS_HEB_b_13_49b.tif"/>
+      <graphic url="MS_HEB_b_13_50a.tif"/>
+      <graphic url="MS_HEB_b_13_50b.tif"/>
+      <graphic url="MS_HEB_b_13_51a.tif"/>
+      <graphic url="MS_HEB_b_13_51b.tif"/>
+      <graphic url="MS_HEB_b_13_52a.tif"/>
+      <graphic url="MS_HEB_b_13_52b.tif"/>
+      <graphic url="MS_HEB_b_13_53a.tif"/>
+      <graphic url="MS_HEB_b_13_53b.tif"/>
+      <graphic url="MS_HEB_b_13_53(a)a.tif"/>
+      <graphic url="MS_HEB_b_13_53(a)b.tif"/>
+      <graphic url="MS_HEB_b_13_53(b)a.tif"/>
+      <graphic url="MS_HEB_b_13_53(b)b.tif"/>
+      <graphic url="MS_HEB_b_13_54a.tif"/>
+      <graphic url="MS_HEB_b_13_54b.tif"/>
+      <graphic url="MS_HEB_b_13_55a.tif"/>
+      <graphic url="MS_HEB_b_13_55b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

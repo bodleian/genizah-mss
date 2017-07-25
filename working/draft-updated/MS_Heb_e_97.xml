@@ -2,1196 +2,986 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_161">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. e. 97</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_e_97</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. e. 97</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_e_97</idno>
             <idno type="msID">MS_Heb_e_97</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_e_97" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. e. 97</idno>
-                    </msIdentifier>
-                    <physDesc>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_e_97" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. e. 97</idno>
+               </msIdentifier>
+               <physDesc>
                   <p>Ff. 55.</p>
                </physDesc>
-                    <history>
-                        <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p048.jpg Catalogue-2_p049.jpg Catalogue-2_p050.jpg Catalogue-2_p051.jpg">fols. 48-51</ref>.</source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_e_97-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p048.jpg Catalogue-2_p049.jpg Catalogue-2_p050.jpg Catalogue-2_p051.jpg">fols. 48-51</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_e_97-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part1-item1">
-                                <locus from="1a" to="1b">Fol. 1</locus>
-                                <author/>
-                                <title>Gen. 13,8 - 14,1</title>
-                                <note>perhaps a learner's writing exercise.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>paper</material>, 7 5/8 x 5 in., 14 lines.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part2" n="2">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part1-item1">
+                        <locus from="1a" to="1b">Fol. 1</locus>
+                        <title>Gen. 13,8 - 14,1</title>
+                        <note>perhaps a learner's writing exercise.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>paper</material>, 7 5/8 x 5 in., 14 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part2-item1">
-                                <locus from="2a" to="2b">Fol. 2</locus>
-                                <author/>
-                                <title>Gen.14,7-9</title>
-                                <note>with vowel points and accents.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 7 x 5 1/4 in., 7 lines; obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part3" n="3">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part2-item1">
+                        <locus from="2a" to="2b">Fol. 2</locus>
+                        <title>Gen.14,7-9</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 7 x 5 1/4 in., 7 lines; obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part3" n="3">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/3</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/3</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part3-item1">
-                                <locus from="3a" to="4b">Fols. 3, 4</locus>
-                                <author/>
-                                <title>Gen.14,9-15; 17,1-4.</title>
-                                <note/>
-                                  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>paper</material>, 7 1/8 x 5 1/4 in., 14 lines, injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part4" n="4">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part3-item1">
+                        <locus from="3a" to="4b">Fols. 3, 4</locus>
+                        <title>Gen.14,9-15; 17,1-4.</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>paper</material>, 7 1/8 x 5 1/4 in., 14 lines, injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part4" n="4">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/4</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/4</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part4-item1">
-                                <locus from="5a" to="6b">Fols. 5, 6</locus>
-                                <author/>
-                                <title>Exod. 29,6-23; 30,11-30</title>
-                                <note>with vowel points and accents.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 7 1/2 x 5 3/8 in., 18 lines, injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part5" n="5">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part4-item1">
+                        <locus from="5a" to="6b">Fols. 5, 6</locus>
+                        <title>Exod. 29,6-23; 30,11-30</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 7 1/2 x 5 3/8 in., 18 lines, injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part5" n="5">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/5</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/5</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part5-item1">
-                                <locus from="7a" to="7b">Fol. 7</locus>
-                                <author/>
-                                <title>Parts of Num. 1,26-34.</title>
-                                <note/>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Small fragment only.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part6" n="6">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part5-item1">
+                        <locus from="7a" to="7b">Fol. 7</locus>
+                        <title>Parts of Num. 1,26-34.</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Small fragment only.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part6" n="6">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/6</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/6</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part6-item1">
-                                <locus from="8a" to="8b">Fol. 8</locus>
-                                <author/>
-                                <title>Num.1, 36-46</title>
-                                <note>with vowel points and accents.</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. squ. char.; <material>paper</material> (torn), 5 3/4 in. broad.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part7" n="7">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part6-item1">
+                        <locus from="8a" to="8b">Fol. 8</locus>
+                        <title>Num.1, 36-46</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. squ. char.;<material>paper</material>(torn), 5 3/4 in. broad.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part7" n="7">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/7</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/7</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part7-item1">
-                                <locus from="9a" to="10b">Fols. 9, 10</locus>
-                                <author/>
-                                <title> Deut. 11,13-19</title>
-                                <note>with vowel points and accents.</note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr (?) squ. char.; <material>paper</material>, 7 x 5 in., 10 lines, injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part8" n="8">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part7-item1">
+                        <locus from="9a" to="10b">Fols. 9, 10</locus>
+                        <title>Deut. 11,13-19</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr (?) squ. char.;<material>paper</material>, 7 x 5 in., 10 lines, injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part8" n="8">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/8</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/8</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part8-item1">
-                                <locus from="11a" to="12b">Fols. 11, 12</locus>
-                                <author/>
-                                <title>Jud. 1,24 - 2,3</title>
-                                <note/>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 7 1/4 x 5 1/8 in., 13 lines, injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part9" n="9">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part8-item1">
+                        <locus from="11a" to="12b">Fols. 11, 12</locus>
+                        <title>Jud. 1,24 - 2,3</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 7 1/4 x 5 1/8 in., 13 lines, injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part9" n="9">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/9</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/9</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part9-item1">
-                                <locus from="13a" to="13b">Fol. 13</locus>
-                                <author/>
-                                <title>Prov. 14,2-23</title>
-                                <note>with vowel points and accents.</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 7 1/8 x 5 3/8 in., 13 lines; injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part10" n="10">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part9-item1">
+                        <locus from="13a" to="13b">Fol. 13</locus>
+                        <title>Prov. 14,2-23</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 7 1/8 x 5 3/8 in., 13 lines; injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part10" n="10">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/10</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/10</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part10-item1">
-                                <locus from="14a" to="15b">Fols. 14, 15</locus>
-                                <author/>
-                                <title>Parts of Esther 8 and 9</title>
-                                <note>with vowel points and accents.
-                                    <p>Nearly all illegible.</p>
-                        </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 6 7/8 x 5 1/8 in., about 15 lines.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part11" n="11">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part10-item1">
+                        <locus from="14a" to="15b">Fols. 14, 15</locus>
+                        <title>Parts of Esther 8 and 9</title>
+                        <note>with vowel points and accents.<p>Nearly all illegible.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 6 7/8 x 5 1/8 in., about 15 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part11" n="11">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/11</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/11</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part11-item1">
-                                <locus from="16a" to="18b">Fols. 16-18</locus>
-                                <author/>
-                                <title>Esther 9,10 - 10,3, forming 3 columns of a scroll.</title>
-                                <note>With taggin. Verso blank.</note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, lower edge cut. The column of writing is 5 1/8 x 5 5/8 in. wide.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part12" n="12">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part11-item1">
+                        <locus from="16a" to="18b">Fols. 16-18</locus>
+                        <title>Esther 9,10 - 10,3, forming 3 columns of a scroll.</title>
+                        <note>With taggin. Verso blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, lower edge cut. The column of writing is 5 1/8 x 5 5/8 in. wide.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part12" n="12">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/12</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/12</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part12-item1">
-                                <locus from="19a" to="19b">Fol. 19</locus>
-                                <author/>
-                                <title>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part12-item1">
+                        <locus from="19a" to="19b">Fol. 19</locus>
+                        <title>
                            <persName>Saadia</persName>'s Arabic version of Gen. 5,13-30</title>
-                                <note/>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>paper</material>, 5 1/8 in. wide, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part13" n="13">
-                        <msIdentifier>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>paper</material>, 5 1/8 in. wide, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part13" n="13">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/13</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/13</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part13-item1">
-                                <locus from="20a" to="21b">Fols. 20, 21</locus>
-                                <author/>
-                                <title>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part13-item1">
+                        <locus from="20a" to="21b">Fols. 20, 21</locus>
+                        <title>
                            <persName>Saadia</persName>'s Arabic version of Gen. 6,10 - 7,12</title>
-                                <note/>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 7 x 5 1/8 in., 16 lines, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part14" n="14">
-                        <msIdentifier>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 x 5 1/8 in., 16 lines, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part14" n="14">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/14</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/14</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part14-item1">
-                                <locus from="22a" to="23b">Fols. 22, 23</locus>
-                                <author/>
-                                <title>Arabic version of Gen. 7,5-24, followed (<locus from="23a" to="23b">fol. 23</locus>) by an Arabic commentary of 7,9-15.</title>
-                                <note> Perhaps by <persName>Saadia</persName>, but the translation varies a good deal from the edition.</note>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>The leaves seem to be part of the same MS. as no. <ref target="MS_Heb_e_74_06">2862, 6</ref>.</p>
-                            <p>Syr. squ. Rabb. char.; <material>paper</material>, 7 1/2 x 5 5/8 in., 24 lines; much injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part15" n="15">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part14-item1">
+                        <locus from="22a" to="23b">Fols. 22, 23</locus>
+                        <title>Arabic version of Gen. 7,5-24, followed (<locus from="23a" to="23b">fol. 23</locus>) by an Arabic commentary of 7,9-15.</title>
+                        <note>Perhaps by<persName>Saadia</persName>, but the translation varies a good deal from the edition.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>The leaves seem to be part of the same MS. as no.<ref target="MS_Heb_e_74_06">2862, 6</ref>.</p>
+                     <p>Syr. squ. Rabb. char.;<material>paper</material>, 7 1/2 x 5 5/8 in., 24 lines; much injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part15" n="15">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/15</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/15</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part15-item1">
-                                <locus from="24a" to="25b">Fols. 24, 25</locus>
-                                <author/>
-                                <title>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part15-item1">
+                        <locus from="24a" to="25b">Fols. 24, 25</locus>
+                        <title>
                            <persName>Saadia</persName>'s Arabic version of Gen. 35,23 - 36,10; 37,1-13.</title>
-                                <note/>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>The beginning of פר' וישב is marked in red.</p>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 7 x 5 1/2 in., 16 lines; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part16" n="16">
-                        <msIdentifier>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>The beginning of פר' וישב is marked in red.</p>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 x 5 1/2 in., 16 lines; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part16" n="16">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/16</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/16</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part16-item1">
-                                <locus from="26a" to="27b">Fols. 26, 27</locus>
-                                <author/>
-                                <title>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part16-item1">
+                        <locus from="26a" to="27b">Fols. 26, 27</locus>
+                        <title>
                            <persName>Saadia</persName>'s Arabic version of Gen. 50,9 - Exodus 1,18.</title>
-                                <note/>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>paper</material>, 7 x 5 1/4 in., 15 lines; stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part17" n="17">
-                        <msIdentifier>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 7 x 5 1/4 in., 15 lines; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part17" n="17">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/17</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/17</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part17-item1">
-                                <locus from="28a" to="28b">Fol. 28</locus>
-                                <author/>
-                                <title>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part17-item1">
+                        <locus from="28a" to="28b">Fol. 28</locus>
+                        <title>
                            <persName>Saadia</persName>'s Arabic version of Exod. 40,29 - Lev. 1,9, with variants from the edition.</title>
-                                <note/>
-                                  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. squ. char.; <material>paper</material>, 8 x 5 5/8 in., 18 lines; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part18" n="18">
-                        <msIdentifier>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. squ. char.;<material>paper</material>, 8 x 5 5/8 in., 18 lines; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part18" n="18">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/18</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/18</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part18-item1">
-                                <locus from="29a" to="32b">Fols. 29-32</locus>
-                                <author/>
-                                <title>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part18-item1">
+                        <locus from="29a" to="32b">Fols. 29-32</locus>
+                        <title>
                            <persName>Saadia</persName>'s Arabic version of Lev. 9,19 - 13,4.</title>
-                                <note/>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>paper</material>, 6 3/8 x 5 3/8 in., 20 lines, much injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part19" n="19">
-                        <msIdentifier>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 6 3/8 x 5 3/8 in., 20 lines, much injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part19" n="19">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/19</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/19</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part19-item1">
-                                <locus from="33a" to="33b">Fol. 33</locus>
-                                <author/>
-                                <title>Num. 23, 20-27 with Onqelos and <persName>Saadia</persName> after each verse.</title>
-                                <note/>  
-                               
-                                <textLang mainLang="he" otherLangs="arc jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 7 x 5 7/8 in., 15 lines, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part20" n="20">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part19-item1">
+                        <locus from="33a" to="33b">Fol. 33</locus>
+                        <title>Num. 23, 20-27 with Onqelos and<persName>Saadia</persName>after each verse.</title>
+                        <textLang mainLang="he" otherLangs="arc jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 x 5 7/8 in., 15 lines, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part20" n="20">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/20</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/20</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part20-item1">
-                                <locus from="34a" to="35b">Fols. 34, 35</locus>
-                                <author/>
-                                <title>Parts of Targum Onqelos Deut. 5, 8-30</title>
-                                <note>with vowel points and raphe.</note>  
-                                
-                                <textLang mainLang="arc"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Yemen Rabb. char.; <material>paper</material>, 7 x 5 1/4 in., about 15 lines; fragments only.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part21" n="21">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part20-item1">
+                        <locus from="34a" to="35b">Fols. 34, 35</locus>
+                        <title>Parts of Targum Onqelos Deut. 5, 8-30</title>
+                        <note>with vowel points and raphe.</note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen Rabb. char.;<material>paper</material>, 7 x 5 1/4 in., about 15 lines; fragments only.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part21" n="21">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/21</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/21</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part21-item1">
-                                <locus from="36a" to="36b">Fol. 36 (half a leaf)</locus>
-                                <author/>
-                                <title>End of a midrashic commentary on Genesis</title>
-                                <note>ending <quote type="end">ור̇ז̇ל̇ אמרו נפשו של אדם מתאבלת עליו כל שבעה ועוד אמרו ש[בע]ת ימי האבל הנפש חוזרת מכוכו לביתו ומביתו לכוכו ואין לה רשות ללכת לפני השכינה עד ז̇ ימים. חסלת ויחי יעקב</quote>;
-                                    followed by the beg. of a commentary on Exodus, headed <quote type="head">פירוש ואלה שמות</quote>.
-                                    <p>The <locus from="36b" to="36b">verso</locus> beg. </p>
-                                    <p>
-                              <quote type="beg">וידע אלהים (Exod. 2,25) מ̇ל̇ה̇ד̇ למלך שהיה לו אשה נאה והעמ[יד ממנה] בנים וחבבן וגדלן ויצאו לתרבות רעה שנא̇ ושנא אמן. חזרה אמן עליהן [ואמ̇ ב]ניי מה אתם עושים כך שאביכם שונא אתכם ואותי עד שניחמו וחזרו ועשו רצון א[ביהם] ראה אביהם כך אהבם וזכר אותם (?) ה̇ה̇ד̇ וירא וידע וכתי̇ בקרב שנים תודיע
-                                    …(Hab.3,2)</quote>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part21-item1">
+                        <locus from="36a" to="36b">Fol. 36 (half a leaf)</locus>
+                        <title>End of a midrashic commentary on Genesis</title>
+                        <note>ending<quote type="end">ור̇ז̇ל̇ אמרו נפשו של אדם מתאבלת עליו כל שבעה ועוד אמרו ש[בע]ת ימי האבל הנפש חוזרת מכוכו לביתו ומביתו לכוכו ואין לה רשות ללכת לפני השכינה עד ז̇ ימים. חסלת ויחי יעקב</quote>; followed by the beg. of a commentary on Exodus, headed<quote type="head">פירוש ואלה שמות</quote>.<p>The<locus from="36b" to="36b">verso</locus>beg.</p>
+                           <p>
+                              <quote type="beg">וידע אלהים (Exod. 2,25) מ̇ל̇ה̇ד̇ למלך שהיה לו אשה נאה והעמ[יד ממנה] בנים וחבבן וגדלן ויצאו לתרבות רעה שנא̇ ושנא אמן. חזרה אמן עליהן [ואמ̇ ב]ניי מה אתם עושים כך שאביכם שונא אתכם ואותי עד שניחמו וחזרו ועשו רצון א[ביהם] ראה אביהם כך אהבם וזכר אותם (?) ה̇ה̇ד̇ וירא וידע וכתי̇ בקרב שנים תודיע …(Hab.3,2)</quote>
                            </p>
-                                    <p>The next paragraph beg. with Hab. 3,1 and a comment on it.</p>
-                        </note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Germ. Rabb. char.; <material>paper</material>, 5 3/4 in. wide; obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part22" n="22">
-                        <msIdentifier>
+                           <p>The next paragraph beg. with Hab. 3,1 and a comment on it.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Germ. Rabb. char.;<material>paper</material>, 5 3/4 in. wide; obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part22" n="22">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/22</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/22</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part22-item1">
-                                <locus from="37a" to="38b">Fols. 37, 38</locus>
-                                <author/>
-                                <title>Commentary in Arabic on Exod. 32,35 to 33,16</title>
-                                <note>ending
-                                    <p>
-                              <quote type="end">
-                                    וקו' ובמה יודע אפוא [33,16] פאנה יקול אנא לא נרצ̇א נסיר מרחלה ואחדה מע ואסטה הו אלמלאך פנכון פי תלך אלמרחלה משבה לסאיר אלאמם אלדין דבירהם בואסטה אלמלאיכה והדא כק̇ גבריאל למיכאל. ויאמר (Dn. 10,20) וקאל (Dn. 10,21) אלמשהור מן אן אלכאלק געל ל[כל] אמ[ה וא]מ[ה] מלאכא ישדד חאלהא מן אול אטהארה דולתהא אלי אכר דלך כי עמדי למחזיק (Dn. 11,1).
-                                    </quote>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part22-item1">
+                        <locus from="37a" to="38b">Fols. 37, 38</locus>
+                        <title>Commentary in Arabic on Exod. 32,35 to 33,16</title>
+                        <note>ending<p>
+                              <quote type="end">וקו' ובמה יודע אפוא [33,16] פאנה יקול אנא לא נרצ̇א נסיר מרחלה ואחדה מע ואסטה הו אלמלאך פנכון פי תלך אלמרחלה משבה לסאיר אלאמם אלדין דבירהם בואסטה אלמלאיכה והדא כק̇ גבריאל למיכאל. ויאמר (Dn. 10,20) וקאל (Dn. 10,21) אלמשהור מן אן אלכאלק געל ל[כל] אמ[ה וא]מ[ה] מלאכא ישדד חאלהא מן אול אטהארה דולתהא אלי אכר דלך כי עמדי למחזיק (Dn. 11,1).</quote>
                            </p>
-                        </note>  
-                             
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; <material>paper</material>, 7 3/8 x 5 3/4 in., 19 lines; injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part23" n="23">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.;<material>paper</material>, 7 3/8 x 5 3/4 in., 19 lines; injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part23" n="23">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/23</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/23</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part23-item1">
-                                <locus from="39a" to="39b">Fol. 39</locus>
-                                <author/>
-                                <title>Commentary in Arabic on Lev. 8,15-18; 8,22</title>
-                                <note>beg. <quote type="beg">באצבעה ד̇ מראת מא געלה עלי שרף אלמדבח אלארבע. ויחטא את המזבח. פיה קול אן אחדהמא הו אלמדכור פי אלתרגמה. ואלתאני אנה קרב הדה אלחטאת מן גהה אלמדבח ומן אגלה יעני אנה קרבהא מן גהתה ליצלח אן תקרב עליה אלקראבין בעד תקריב הדה אלחטאת ...</quote>
-                        </note>  
-                              
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; <material>paper</material>, 7 7/8 x 5 3/4 in., 26 lines; stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part24" n="24">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part23-item1">
+                        <locus from="39a" to="39b">Fol. 39</locus>
+                        <title>Commentary in Arabic on Lev. 8,15-18; 8,22</title>
+                        <note>beg.<quote type="beg">באצבעה ד̇ מראת מא געלה עלי שרף אלמדבח אלארבע. ויחטא את המזבח. פיה קול אן אחדהמא הו אלמדכור פי אלתרגמה. ואלתאני אנה קרב הדה אלחטאת מן גהה אלמדבח ומן אגלה יעני אנה קרבהא מן גהתה ליצלח אן תקרב עליה אלקראבין בעד תקריב הדה אלחטאת ...</quote>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.;<material>paper</material>, 7 7/8 x 5 3/4 in., 26 lines; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part24" n="24">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/24</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/24</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part24-item1">
-                                <locus from="40a" to="41b">Fols. 40, 41</locus>
-                                <author/>
-                                <title>Commentary in Arabic on Num. 6,7 - 7,1</title>
-                                <note>beg. <quote type="beg">וקולה וְלַאחתוֹ הו לפט̇ מצ̇אף. וקאל בעץ̇ אל[נאס] אן לא יגוז אן ינדר אלאנסאן נדר נזירות אלא והו ... שאב לקולה ואקים מבניכם לנביאים ומבח̇ לנז̇ ואיצ̇א לא יגוז אן יכון אלא והו עזב לאנה לם יקל פיה ולבנו ולבתו כק̇ לאביו ולאמו [וגו'] אעלם אן הדא אלקול הו דעוי בלא דליל. ודלך אן לו כאן קולה ומבחוריכם לנז̇ ימנע אן יכונו אלכהול ואלשיוך נזירים ...</quote>
-                                    
-                                </note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 7 7/8 x 5 7/8 in., 22 lines; stained and injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part25" n="25">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part24-item1">
+                        <locus from="40a" to="41b">Fols. 40, 41</locus>
+                        <title>Commentary in Arabic on Num. 6,7 - 7,1</title>
+                        <note>beg.<quote type="beg">וקולה וְלַאחתוֹ הו לפט̇ מצ̇אף. וקאל בעץ̇ אל[נאס] אן לא יגוז אן ינדר אלאנסאן נדר נזירות אלא והו ... שאב לקולה ואקים מבניכם לנביאים ומבח̇ לנז̇ ואיצ̇א לא יגוז אן יכון אלא והו עזב לאנה לם יקל פיה ולבנו ולבתו כק̇ לאביו ולאמו [וגו'] אעלם אן הדא אלקול הו דעוי בלא דליל. ודלך אן לו כאן קולה ומבחוריכם לנז̇ ימנע אן יכונו אלכהול ואלשיוך נזירים ...</quote>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 7 7/8 x 5 7/8 in., 22 lines; stained and injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part25" n="25">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/25</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/25</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part25-item1">
-                                <locus from="42a" to="42b">Fol. 42</locus>
-                                <author/>
-                                <title>Fragment of the text, Arabic translation (by <persName>Saadia</persName>?), and commentary on Numbers, beg. with the commentary on 28,25, and ending with that on 28,27.</title>
-                                <note>No continuous legible passage.</note>  
-                                
-                                <textLang mainLang="he" otherLangs="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 6 3/4 x 5 in., 13 lines; obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part26" n="26">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part25-item1">
+                        <locus from="42a" to="42b">Fol. 42</locus>
+                        <title>Fragment of the text, Arabic translation (by<persName>Saadia</persName>?), and commentary on Numbers, beg. with the commentary on 28,25, and ending with that on 28,27.</title>
+                        <note>No continuous legible passage.</note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 6 3/4 x 5 in., 13 lines; obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part26" n="26">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/26</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/26</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part26-item1">
-                                <locus from="43a" to="43b">Fol. 43</locus>
-                                <author/>
-                                <title>Fragment of a treatise on prophecy (or from a commentary ?) in Arabic</title>
-                                <note>beg. <quote type="beg">ברסאלה יגי א[ל י]רושלם גיא חזיון ויצחח קולה ענד אלקום אלדי געלהם אללה קדוה פינת שד אלכבר פי אל אמה ולא יגב פעל אלמעגז בחצ̇רה אלאמה כלה ולא ימכן איצ̇א ואנמא פעל הדא מע סיידנא משה על̇ אלסל̇ לאנה אצל ללשריעה ולכל נבי בעדה באן רתב אלקום פהמא עלמא ינט̇רו פי סאיר מעגזאת אלאנביא ויצחחוהא וישהדו להם והם צחחו הדה אלכ̇ד̇ כתאב פי בית שני מנהם עזרא ונחמיה [על̇] אלס̇ ואלקום אלדין הם קדוה יסמוהם אנשי כנסת הגדולה ...</quote>
-                                    <p>The <quote>הלכות פסוקות</quote> are mentioned.</p>
-                        </note>  
-                              
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; <material>paper</material>, 7 1/2 x 5 1/2 in., 22 lines; stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part27" n="27">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part26-item1">
+                        <locus from="43a" to="43b">Fol. 43</locus>
+                        <title>Fragment of a treatise on prophecy (or from a commentary ?) in Arabic</title>
+                        <note>beg.<quote type="beg">ברסאלה יגי א[ל י]רושלם גיא חזיון ויצחח קולה ענד אלקום אלדי געלהם אללה קדוה פינת שד אלכבר פי אל אמה ולא יגב פעל אלמעגז בחצ̇רה אלאמה כלה ולא ימכן איצ̇א ואנמא פעל הדא מע סיידנא משה על̇ אלסל̇ לאנה אצל ללשריעה ולכל נבי בעדה באן רתב אלקום פהמא עלמא ינט̇רו פי סאיר מעגזאת אלאנביא ויצחחוהא וישהדו להם והם צחחו הדה אלכ̇ד̇ כתאב פי בית שני מנהם עזרא ונחמיה [על̇] אלס̇ ואלקום אלדין הם קדוה יסמוהם אנשי כנסת הגדולה ...</quote>
+                           <p>The<quote>הלכות פסוקות</quote>are mentioned.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.;<material>paper</material>, 7 1/2 x 5 1/2 in., 22 lines; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part27" n="27">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/27</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/27</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part27-item1">
-                                <locus from="44a" to="45b">Fols. 44, 45</locus>
-                                <author/>
-                                <title>Fragment of the Midrash on Samuel</title>
-                                <note>as in ed. Buber, p. 81 line 3 to p. 83, line 2, and (fol. 45) p. 91, line 12 to p. 92, line 17.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 7 1/2 x 5 1/4 in., 20 lines; stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part28" n="28">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part27-item1">
+                        <locus from="44a" to="45b">Fols. 44, 45</locus>
+                        <title>Fragment of the Midrash on Samuel</title>
+                        <note>as in ed. Buber, p. 81 line 3 to p. 83, line 2, and (fol. 45) p. 91, line 12 to p. 92, line 17.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 1/2 x 5 1/4 in., 20 lines; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part28" n="28">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/28</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/28</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part28-item1">
-                                <locus from="46a" to="46b">Fol. 46</locus>
-                                <author/>
-                                <title>Fragment of a treatise on prophecy (?) or of a midrashic commentary on 1 Kings (?)</title>
-                                <note>It begins with an extract from Babylonian Talmud Berakhoth fol. 35b lines 1-10. Then on 1 Kings 13,20 a long extract from Babylonian Talmud Sanhedrin fol. 89, beg. <quote>תנו רבנן שלשה מיתתן בידי אדם ושלשה מיתתן בידי שמים</quote>.</note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>paper</material>, 6 1/2 x 5 1/2 in., about 20 lines; much injured and partly illegible.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part29" n="29">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part28-item1">
+                        <locus from="46a" to="46b">Fol. 46</locus>
+                        <title>Fragment of a treatise on prophecy (?) or of a midrashic commentary on 1 Kings (?)</title>
+                        <note>It begins with an extract from Babylonian Talmud Berakhoth fol. 35b lines 1-10. Then on 1 Kings 13,20 a long extract from Babylonian Talmud Sanhedrin fol. 89, beg.<quote>תנו רבנן שלשה מיתתן בידי אדם ושלשה מיתתן בידי שמים</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 6 1/2 x 5 1/2 in., about 20 lines; much injured and partly illegible.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part29" n="29">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/29</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/29</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part29-item1">
-                                <locus from="47a" to="48b">Fols. 47, 48</locus>
-                                <author/>
-                                <title>Fragments of a homily in Arabic</title>
-                                <note>headed <quote type="head">מקאלה [מן ת]ר[י] עשר</quote>; 
-                                    <p>beg. (illegible) <quote type="beg">כדלך אלאמה (Hos. 1,2)… לך קח לך.</quote>
-                           </p> 
-                                    <p>On <locus from="47b" to="47b">47v</locus>  a legible passage is</p>
-                                    <p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part29-item1">
+                        <locus from="47a" to="48b">Fols. 47, 48</locus>
+                        <title>Fragments of a homily in Arabic</title>
+                        <note>headed<quote type="head">מקאלה [מן ת]ר[י] עשר</quote>;<p>beg. (illegible)<quote type="beg">כדלך אלאמה (Hos. 1,2)… לך קח לך.</quote>
+                           </p>
+                           <p>On<locus from="47b" to="47b">47v</locus>a legible passage is</p>
+                           <p>
                               <quote>... יחזקאל בן אדם הודע את ירושלם את תועבותיה (Ezek. 16,2) פבדא מן לא כָרַת שָרֵּך אלי אן חצל אלי קול ואפרש כנפי עליך (16,8) ואלבישך רקמה (16,10) לאנה דאל עלי אללבאס. ומתלה ואתנה צמידים על ידיך (16,11) דאל עלי אלחלי וכדלך מלבושך ודבש (16,13) [עלי] אלטעאם ...</quote>
                            </p>
-                                    
-                                </note>  
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>paper</material>, 7 1/2 x 5 1/2 in., 13 lines; much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part30" n="30">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 7 1/2 x 5 1/2 in., 13 lines; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part30" n="30">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/30</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/30</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part30-item1">
-                                <locus from="49a" to="49b">Fol. 49</locus>
-                                <author/>
-                                <title>Fragment of an Arabic commentary on Psalms 2,7 to 3,2.</title>
-                                <note>No continuous passage is legible, but it seems not to be by <persName>Saadia</persName>.</note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>paper</material>, 6 1/2 x 5 1/4 in., 20 lines; much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part31" n="31">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part30-item1">
+                        <locus from="49a" to="49b">Fol. 49</locus>
+                        <title>Fragment of an Arabic commentary on Psalms 2,7 to 3,2.</title>
+                        <note>No continuous passage is legible, but it seems not to be by<persName>Saadia</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>paper</material>, 6 1/2 x 5 1/4 in., 20 lines; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part31" n="31">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/31</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/31</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part31-item1">
-                                <locus from="50a" to="51b">Fols. 50, 51</locus>
-                                <author/>
-                                <title>Fragment of an Arabic commentary on Ps. 8,2-6.</title>
-                                <note>On v. 5 it says (<locus from="50b" to="50b">fol. 50v</locus>)
-                                    <quote>פקולה מָה אנוש כי תזכרנו ובן אדם כי תפקדנו אסתעטאם להדה אלנעמה אלאצ̇אפה ללקאבל וקולה ותחסרהו מעט מאלהים אסתעט̇אם להא באעתבאר ק[ות]הא מן אלמנעם ג̇ל ועלא וקולה וכבוד והדר תעטרהו אסתעט̇אם באעתבאר גאיתהא לאן אלכבוד ואלהָדָר [הדא?] ליס הו בהא אלתורה</quote>. 
-                                    <p>
-                              <locus from="51a" to="51b">Fol. 51</locus> blank.</p>
-                        </note>  
-                               
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; <material>paper</material>, 5 3/8 in. wide; torn.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part32" n="32">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part31-item1">
+                        <locus from="50a" to="51b">Fols. 50, 51</locus>
+                        <title>Fragment of an Arabic commentary on Ps. 8,2-6.</title>
+                        <note>On v. 5 it says (<locus from="50b" to="50b">fol. 50v</locus>)<quote>פקולה מָה אנוש כי תזכרנו ובן אדם כי תפקדנו אסתעטאם להדה אלנעמה אלאצ̇אפה ללקאבל וקולה ותחסרהו מעט מאלהים אסתעט̇אם להא באעתבאר ק[ות]הא מן אלמנעם ג̇ל ועלא וקולה וכבוד והדר תעטרהו אסתעט̇אם באעתבאר גאיתהא לאן אלכבוד ואלהָדָר [הדא?] ליס הו בהא אלתורה</quote>.<p>
+                              <locus from="51a" to="51b">Fol. 51</locus>blank.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 5 3/8 in. wide; torn.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part32" n="32">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/32</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/32</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part32-item1">
-                                <locus from="52a" to="52b">Fol. 52</locus>
-                                <author/>
-                                <title>Fragment of an Arabic commentary on Ps. 102,14-18</title>
-                                <note>beg.
-                                   <quote type="beg"> וכאן שרח דלך אלתלת עשר אלדי כלהא פי אלגפראן וקבול אלתובה ויתעלק בדלך חצ̇ור אלאגל ועלי [אן] אלמדה לם תתם כמא תמם אלפסוק כי בא מו̇ ... כאן אנמא יעני בה תמאם אלאגל עלי אלחקירה</quote>.
-                                    
-                                </note>  
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. squ. char.; <material>vellum</material>, 7 3/8 x 5 5/8 in., 16 lines; stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part33" n="33">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part32-item1">
+                        <locus from="52a" to="52b">Fol. 52</locus>
+                        <title>Fragment of an Arabic commentary on Ps. 102,14-18</title>
+                        <note>beg.<quote type="beg">וכאן שרח דלך אלתלת עשר אלדי כלהא פי אלגפראן וקבול אלתובה ויתעלק בדלך חצ̇ור אלאגל ועלי [אן] אלמדה לם תתם כמא תמם אלפסוק כי בא מו̇ ... כאן אנמא יעני בה תמאם אלאגל עלי אלחקירה</quote>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. squ. char.;<material>vellum</material>, 7 3/8 x 5 5/8 in., 16 lines; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part33" n="33">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/33</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/33</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part33-item1">
-                                <locus from="53a" to="54b">Fols. 53, 54</locus>
-                                <author/>
-                                <title>Arabic commentary on Prov. 3,29-34.</title>
-                                <note>On 3,30, where legible, it has 
-                                    <p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part33-item1">
+                        <locus from="53a" to="54b">Fols. 53, 54</locus>
+                        <title>Arabic commentary on Prov. 3,29-34.</title>
+                        <note>On 3,30, where legible, it has<p>
                               <quote>ואמא אן כאן הו אבתדא באלקביח פגאיז אן כאפיה כמא תעלם מן...</quote>
-                           </p> 
-                                    <p>(one line broken)</p>
-                                    <p>
+                           </p>
+                           <p>(one line broken)</p>
+                           <p>
                               <quote>ודלך אן אלחכים קאל אל תאמר אשלמה רע כק̇ האהנא אל תריב עם אדם חנם פחסן אן יכון אל תאמר אשלמה עלי אל ..לי ואלאכר</quote>
                            </p>
-                        </note>  
-                              
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. squ. char.; <material>paper</material>, 7 1/2 x 5 1/2 in., 23 lines; much injured and mostly illegible.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_97-part34" n="34">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. squ. char.;<material>paper</material>, 7 1/2 x 5 1/2 in., 23 lines; much injured and mostly illegible.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_97-part34" n="34">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 97/34</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 97/34</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_97-part34-item1">
-                                <locus from="55a" to="55b">Fol. 55</locus>
-                                <author/>
-                                <title>Fragment of midrash חסר ויתר in a different arrangement from the editions.</title>
-                                <note>It beg. as in Wertheimer's בתי מדרשות i p. 36, line 8 (<quote type="beg">עובד̇ עב̇ זר̇</quote>) and ends (<quote type="end">שלא נגע בה</quote>) as in Berliner's פליטת סופרים p. 38 (on Jud. 4,18).</note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; <material>paper</material>, 7 7/8 x 5 5/8 in., 30 lines; stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>From the Genizah, bought through M. <persName>Joseph Offord</persName> on <date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="TYPED">
-                    <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
-                    </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                
-                <keywords scheme="Neubauer">
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_97-part34-item1">
+                        <locus from="55a" to="55b">Fol. 55</locus>
+                        <title>Fragment of midrash חסר ויתר in a different arrangement from the editions.</title>
+                        <note>It beg. as in Wertheimer's בתי מדרשות i p. 36, line 8 (<quote type="beg">עובד̇ עב̇ זר̇</quote>) and ends (<quote type="end">שלא נגע בה</quote>) as in Berliner's פליטת סופרים p. 38 (on Jud. 4,18).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 7/8 x 5 5/8 in., 30 lines; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah, bought through M.<persName>Joseph Offord</persName>on<date calendar="Gregorian" when="1906-01-11">January 11, 1906</date>.</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="TYPED">
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
                <term>Biblical fragments</term>
             </keywords>
-                <keywords scheme="#TYPED">
-                    <term>
+            <keywords scheme="#TYPED">
+               <term>
                   <ref target="#MS_Heb_e_97_12">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_97_13">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_97_14">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_97_15">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_97_16">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_97_17">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_97_18">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_97_19">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_97_25">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_97_30">
                      <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
                </term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2010-12-10">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS_HEB_e_97_1a.tif"/>
-        <graphic url="MS_HEB_e_97_1b.tif"/>
-        <graphic url="MS_HEB_e_97_2a.tif"/>
-        <graphic url="MS_HEB_e_97_2b.tif"/>
-        <graphic url="MS_HEB_e_97_3a.tif"/>
-        <graphic url="MS_HEB_e_97_3b.tif"/>
-        <graphic url="MS_HEB_e_97_4a.tif"/>
-        <graphic url="MS_HEB_e_97_4b.tif"/>
-        <graphic url="MS_HEB_e_97_5a.tif"/>
-        <graphic url="MS_HEB_e_97_5b.tif"/>
-        <graphic url="MS_HEB_e_97_6a.tif"/>
-        <graphic url="MS_HEB_e_97_6b.tif"/>
-        <graphic url="MS_HEB_e_97_7a.tif"/>
-        <graphic url="MS_HEB_e_97_7b.tif"/>
-        <graphic url="MS_HEB_e_97_8a.tif"/>
-        <graphic url="MS_HEB_e_97_8b.tif"/>
-        <graphic url="MS_HEB_e_97_9a.tif"/>
-        <graphic url="MS_HEB_e_97_9b.tif"/>
-        
-        <graphic url="MS_HEB_e_97_10a.tif"/>
-        <graphic url="MS_HEB_e_97_10b.tif"/>
-        <graphic url="MS_HEB_e_97_11a.tif"/>
-        <graphic url="MS_HEB_e_97_11b.tif"/>
-        <graphic url="MS_HEB_e_97_12a.tif"/>
-        <graphic url="MS_HEB_e_97_12b.tif"/>
-        <graphic url="MS_HEB_e_97_13a.tif"/>
-        <graphic url="MS_HEB_e_97_13b.tif"/>
-        <graphic url="MS_HEB_e_97_14a.tif"/>
-        <graphic url="MS_HEB_e_97_14b.tif"/>
-        <graphic url="MS_HEB_e_97_15a.tif"/>
-        <graphic url="MS_HEB_e_97_15b.tif"/>
-        <graphic url="MS_HEB_e_97_16a.tif"/>
-        <graphic url="MS_HEB_e_97_16b.tif"/>
-        <graphic url="MS_HEB_e_97_17a.tif"/>
-        <graphic url="MS_HEB_e_97_17b.tif"/>
-        <graphic url="MS_HEB_e_97_18a.tif"/>
-        <graphic url="MS_HEB_e_97_18b.tif"/>
-        <graphic url="MS_HEB_e_97_19a.tif"/>
-        <graphic url="MS_HEB_e_97_19b.tif"/>
-        
-        <graphic url="MS_HEB_e_97_20a.tif"/>
-        <graphic url="MS_HEB_e_97_20b.tif"/>
-        <graphic url="MS_HEB_e_97_21a.tif"/>
-        <graphic url="MS_HEB_e_97_21b.tif"/>
-        <graphic url="MS_HEB_e_97_22a.tif"/>
-        <graphic url="MS_HEB_e_97_22b.tif"/>
-        <graphic url="MS_HEB_e_97_23a.tif"/>
-        <graphic url="MS_HEB_e_97_23b.tif"/>
-        <graphic url="MS_HEB_e_97_24a.tif"/>
-        <graphic url="MS_HEB_e_97_24b.tif"/>
-        <graphic url="MS_HEB_e_97_25a.tif"/>
-        <graphic url="MS_HEB_e_97_25b.tif"/>
-        <graphic url="MS_HEB_e_97_26a.tif"/>
-        <graphic url="MS_HEB_e_97_26b.tif"/>
-        <graphic url="MS_HEB_e_97_27a.tif"/>
-        <graphic url="MS_HEB_e_97_27b.tif"/>
-        <graphic url="MS_HEB_e_97_28a.tif"/>
-        <graphic url="MS_HEB_e_97_28b.tif"/>
-        <graphic url="MS_HEB_e_97_29a.tif"/>
-        <graphic url="MS_HEB_e_97_29b.tif"/>
-        
-        <graphic url="MS_HEB_e_97_30a.tif"/>
-        <graphic url="MS_HEB_e_97_30b.tif"/>
-        <graphic url="MS_HEB_e_97_31a.tif"/>
-        <graphic url="MS_HEB_e_97_31b.tif"/>
-        <graphic url="MS_HEB_e_97_32a.tif"/>
-        <graphic url="MS_HEB_e_97_32b.tif"/>
-        <graphic url="MS_HEB_e_97_33a.tif"/>
-        <graphic url="MS_HEB_e_97_33b.tif"/>
-        <graphic url="MS_HEB_e_97_34a.tif"/>
-        <graphic url="MS_HEB_e_97_34b.tif"/>
-        <graphic url="MS_HEB_e_97_35a.tif"/>
-        <graphic url="MS_HEB_e_97_35b.tif"/>
-        <graphic url="MS_HEB_e_97_36a.tif"/>
-        <graphic url="MS_HEB_e_97_36b.tif"/>
-        <graphic url="MS_HEB_e_97_37a.tif"/>
-        <graphic url="MS_HEB_e_97_37b.tif"/>
-        <graphic url="MS_HEB_e_97_38a.tif"/>
-        <graphic url="MS_HEB_e_97_38b.tif"/>
-        <graphic url="MS_HEB_e_97_39a.tif"/>
-        <graphic url="MS_HEB_e_97_39b.tif"/>
-        
-        <graphic url="MS_HEB_e_97_40a.tif"/>
-        <graphic url="MS_HEB_e_97_40b.tif"/>
-        <graphic url="MS_HEB_e_97_41a.tif"/>
-        <graphic url="MS_HEB_e_97_41b.tif"/>
-        <graphic url="MS_HEB_e_97_42a.tif"/>
-        <graphic url="MS_HEB_e_97_42b.tif"/>
-        <graphic url="MS_HEB_e_97_43a.tif"/>
-        <graphic url="MS_HEB_e_97_43b.tif"/>
-        <graphic url="MS_HEB_e_97_44a.tif"/>
-        <graphic url="MS_HEB_e_97_44b.tif"/>
-        <graphic url="MS_HEB_e_97_45a.tif"/>
-        <graphic url="MS_HEB_e_97_45b.tif"/>
-        <graphic url="MS_HEB_e_97_46a.tif"/>
-        <graphic url="MS_HEB_e_97_46b.tif"/>
-        <graphic url="MS_HEB_e_97_47a.tif"/>
-        <graphic url="MS_HEB_e_97_47b.tif"/>
-        <graphic url="MS_HEB_e_97_48a.tif"/>
-        <graphic url="MS_HEB_e_97_48b.tif"/>
-        <graphic url="MS_HEB_e_97_49a.tif"/>
-        <graphic url="MS_HEB_e_97_49b.tif"/>
-        
-        <graphic url="MS_HEB_e_97_50a.tif"/>
-        <graphic url="MS_HEB_e_97_50b.tif"/>
-        <graphic url="MS_HEB_e_97_51a.tif"/>
-        <graphic url="MS_HEB_e_97_51b.tif"/>
-        <graphic url="MS_HEB_e_97_52a.tif"/>
-        <graphic url="MS_HEB_e_97_52b.tif"/>
-        <graphic url="MS_HEB_e_97_53a.tif"/>
-        <graphic url="MS_HEB_e_97_53b.tif"/>
-        <graphic url="MS_HEB_e_97_54a.tif"/>
-        <graphic url="MS_HEB_e_97_54b.tif"/>
-        <graphic url="MS_HEB_e_97_55a.tif"/>
-        <graphic url="MS_HEB_e_97_55b.tif"/>
-       
-    </facsimile>
+         <change when="2010-12-10">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_e_97_1a.tif"/>
+      <graphic url="MS_HEB_e_97_1b.tif"/>
+      <graphic url="MS_HEB_e_97_2a.tif"/>
+      <graphic url="MS_HEB_e_97_2b.tif"/>
+      <graphic url="MS_HEB_e_97_3a.tif"/>
+      <graphic url="MS_HEB_e_97_3b.tif"/>
+      <graphic url="MS_HEB_e_97_4a.tif"/>
+      <graphic url="MS_HEB_e_97_4b.tif"/>
+      <graphic url="MS_HEB_e_97_5a.tif"/>
+      <graphic url="MS_HEB_e_97_5b.tif"/>
+      <graphic url="MS_HEB_e_97_6a.tif"/>
+      <graphic url="MS_HEB_e_97_6b.tif"/>
+      <graphic url="MS_HEB_e_97_7a.tif"/>
+      <graphic url="MS_HEB_e_97_7b.tif"/>
+      <graphic url="MS_HEB_e_97_8a.tif"/>
+      <graphic url="MS_HEB_e_97_8b.tif"/>
+      <graphic url="MS_HEB_e_97_9a.tif"/>
+      <graphic url="MS_HEB_e_97_9b.tif"/>
+      <graphic url="MS_HEB_e_97_10a.tif"/>
+      <graphic url="MS_HEB_e_97_10b.tif"/>
+      <graphic url="MS_HEB_e_97_11a.tif"/>
+      <graphic url="MS_HEB_e_97_11b.tif"/>
+      <graphic url="MS_HEB_e_97_12a.tif"/>
+      <graphic url="MS_HEB_e_97_12b.tif"/>
+      <graphic url="MS_HEB_e_97_13a.tif"/>
+      <graphic url="MS_HEB_e_97_13b.tif"/>
+      <graphic url="MS_HEB_e_97_14a.tif"/>
+      <graphic url="MS_HEB_e_97_14b.tif"/>
+      <graphic url="MS_HEB_e_97_15a.tif"/>
+      <graphic url="MS_HEB_e_97_15b.tif"/>
+      <graphic url="MS_HEB_e_97_16a.tif"/>
+      <graphic url="MS_HEB_e_97_16b.tif"/>
+      <graphic url="MS_HEB_e_97_17a.tif"/>
+      <graphic url="MS_HEB_e_97_17b.tif"/>
+      <graphic url="MS_HEB_e_97_18a.tif"/>
+      <graphic url="MS_HEB_e_97_18b.tif"/>
+      <graphic url="MS_HEB_e_97_19a.tif"/>
+      <graphic url="MS_HEB_e_97_19b.tif"/>
+      <graphic url="MS_HEB_e_97_20a.tif"/>
+      <graphic url="MS_HEB_e_97_20b.tif"/>
+      <graphic url="MS_HEB_e_97_21a.tif"/>
+      <graphic url="MS_HEB_e_97_21b.tif"/>
+      <graphic url="MS_HEB_e_97_22a.tif"/>
+      <graphic url="MS_HEB_e_97_22b.tif"/>
+      <graphic url="MS_HEB_e_97_23a.tif"/>
+      <graphic url="MS_HEB_e_97_23b.tif"/>
+      <graphic url="MS_HEB_e_97_24a.tif"/>
+      <graphic url="MS_HEB_e_97_24b.tif"/>
+      <graphic url="MS_HEB_e_97_25a.tif"/>
+      <graphic url="MS_HEB_e_97_25b.tif"/>
+      <graphic url="MS_HEB_e_97_26a.tif"/>
+      <graphic url="MS_HEB_e_97_26b.tif"/>
+      <graphic url="MS_HEB_e_97_27a.tif"/>
+      <graphic url="MS_HEB_e_97_27b.tif"/>
+      <graphic url="MS_HEB_e_97_28a.tif"/>
+      <graphic url="MS_HEB_e_97_28b.tif"/>
+      <graphic url="MS_HEB_e_97_29a.tif"/>
+      <graphic url="MS_HEB_e_97_29b.tif"/>
+      <graphic url="MS_HEB_e_97_30a.tif"/>
+      <graphic url="MS_HEB_e_97_30b.tif"/>
+      <graphic url="MS_HEB_e_97_31a.tif"/>
+      <graphic url="MS_HEB_e_97_31b.tif"/>
+      <graphic url="MS_HEB_e_97_32a.tif"/>
+      <graphic url="MS_HEB_e_97_32b.tif"/>
+      <graphic url="MS_HEB_e_97_33a.tif"/>
+      <graphic url="MS_HEB_e_97_33b.tif"/>
+      <graphic url="MS_HEB_e_97_34a.tif"/>
+      <graphic url="MS_HEB_e_97_34b.tif"/>
+      <graphic url="MS_HEB_e_97_35a.tif"/>
+      <graphic url="MS_HEB_e_97_35b.tif"/>
+      <graphic url="MS_HEB_e_97_36a.tif"/>
+      <graphic url="MS_HEB_e_97_36b.tif"/>
+      <graphic url="MS_HEB_e_97_37a.tif"/>
+      <graphic url="MS_HEB_e_97_37b.tif"/>
+      <graphic url="MS_HEB_e_97_38a.tif"/>
+      <graphic url="MS_HEB_e_97_38b.tif"/>
+      <graphic url="MS_HEB_e_97_39a.tif"/>
+      <graphic url="MS_HEB_e_97_39b.tif"/>
+      <graphic url="MS_HEB_e_97_40a.tif"/>
+      <graphic url="MS_HEB_e_97_40b.tif"/>
+      <graphic url="MS_HEB_e_97_41a.tif"/>
+      <graphic url="MS_HEB_e_97_41b.tif"/>
+      <graphic url="MS_HEB_e_97_42a.tif"/>
+      <graphic url="MS_HEB_e_97_42b.tif"/>
+      <graphic url="MS_HEB_e_97_43a.tif"/>
+      <graphic url="MS_HEB_e_97_43b.tif"/>
+      <graphic url="MS_HEB_e_97_44a.tif"/>
+      <graphic url="MS_HEB_e_97_44b.tif"/>
+      <graphic url="MS_HEB_e_97_45a.tif"/>
+      <graphic url="MS_HEB_e_97_45b.tif"/>
+      <graphic url="MS_HEB_e_97_46a.tif"/>
+      <graphic url="MS_HEB_e_97_46b.tif"/>
+      <graphic url="MS_HEB_e_97_47a.tif"/>
+      <graphic url="MS_HEB_e_97_47b.tif"/>
+      <graphic url="MS_HEB_e_97_48a.tif"/>
+      <graphic url="MS_HEB_e_97_48b.tif"/>
+      <graphic url="MS_HEB_e_97_49a.tif"/>
+      <graphic url="MS_HEB_e_97_49b.tif"/>
+      <graphic url="MS_HEB_e_97_50a.tif"/>
+      <graphic url="MS_HEB_e_97_50b.tif"/>
+      <graphic url="MS_HEB_e_97_51a.tif"/>
+      <graphic url="MS_HEB_e_97_51b.tif"/>
+      <graphic url="MS_HEB_e_97_52a.tif"/>
+      <graphic url="MS_HEB_e_97_52b.tif"/>
+      <graphic url="MS_HEB_e_97_53a.tif"/>
+      <graphic url="MS_HEB_e_97_53b.tif"/>
+      <graphic url="MS_HEB_e_97_54a.tif"/>
+      <graphic url="MS_HEB_e_97_54b.tif"/>
+      <graphic url="MS_HEB_e_97_55a.tif"/>
+      <graphic url="MS_HEB_e_97_55b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

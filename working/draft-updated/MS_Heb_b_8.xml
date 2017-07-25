@@ -2,1425 +2,1227 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_19">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. b. 8</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_b_8</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. b. 8</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_b_8</idno>
             <idno type="msID">MS_Heb_b_8</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_b_8" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. b. 8</idno>
-                        <altIdentifier type="other">
-                            <idno type="cat_no">2816</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <msContents>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_b_8" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. b. 8</idno>
+               </msIdentifier>
+               <msContents>
                   <summary>Biblical fragments</summary>
                </msContents>
-                    <physDesc>
+               <physDesc>
                   <p>Ff. 53.</p>
                </physDesc>
-                    <history>
-                        <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>
-                                    Manuscript description based on <bibl>Catalogue
-                                        of the Hebrew Manuscripts in the Bodleian
-                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p066a.jpg Catalogue-1_p066b.jpg">No. 2816</ref>.
-                                </source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_b_8-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p066a.jpg Catalogue-1_p066b.jpg">No. 2816</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_b_8-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part1-item1">
-                                <locus from="1a" to="3b">Fol. 1</locus>
-                                <author/>
-                                <title>Joshua</title>
-                                <msItem xml:id="MS_Heb_b_8-part1-item1-item1" n="a">
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part1-item1">
+                        <locus from="1a" to="3b">Fol. 1</locus>
+                        <title>Joshua</title>
+                        <msItem xml:id="MS_Heb_b_8-part1-item1-item1" n="a">
                            <title>Joshua viii. 12 (ארב) to viii. 29 (הערב)</title>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_b_8-part1-item1-item2" n="b">
-                           <locus from="2a">(fol. 2)</locus> 
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_8-part1-item1-item2" n="b">
+                           <locus from="2a">(fol. 2)</locus>
                            <title>Joshua xi. 16 (ושפלתה) to xii. 8</title>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_b_8-part1-item1-item3" n="c">
-                           <locus from="3a">(fol. 3)</locus> 
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_8-part1-item1-item3" n="c">
+                           <locus from="3a">(fol. 3)</locus>
                            <title>Joshua xix. 51 (את הארץ) to xxi. 5 (הנותרים)</title>
                         </msItem>
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part2" n="2">
-                        <msIdentifier>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part2-item1">
-                                <locus from="4a" to="4b">Fol. 4</locus>
-                                <author/>
-                                <title>Judges iii. 15 (הימיני) to iv. 21 (ותתקע את)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part3" n="3">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part2-item1">
+                        <locus from="4a" to="4b">Fol. 4</locus>
+                        <title>Judges iii. 15 (הימיני) to iv. 21 (ותתקע את)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part3" n="3">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/3</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/3</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part3-item1">
-                                <locus from="5a" to="5b">Fol. 5</locus>
-                                <author/>
-                                <title>Judges xviii. 31 to xix. 25 (החוץ)</title>
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part4" n="4">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part3-item1">
+                        <locus from="5a" to="5b">Fol. 5</locus>
+                        <title>Judges xviii. 31 to xix. 25 (החוץ)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part4" n="4">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/4</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/4</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part4-item1">
-                                <locus from="6a" to="6b">Fol. 6</locus>
-                                <author/>
-                                <title>1 Samuel i. 12 (להתפלל) to ii. 21</title>
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part5" n="5">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part4-item1">
+                        <locus from="6a" to="6b">Fol. 6</locus>
+                        <title>1 Samuel i. 12 (להתפלל) to ii. 21</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part5" n="5">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/5</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/5</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part5-item1">
-                                <locus from="7a" to="7b">Fol. 7</locus>
-                                <author/>
-                                <title>1 Samuel xxix. 2 (ודוד) to xxx. 13 (מצרי)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>   
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part6" n="6">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part5-item1">
+                        <locus from="7a" to="7b">Fol. 7</locus>
+                        <title>1 Samuel xxix. 2 (ודוד) to xxx. 13 (מצרי)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part6" n="6">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/6</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/6</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part6-item1">
-                                <locus from="8a" to="8b">Fol. 8</locus>
-                                <author/>
-                                <title>2 Samuel iii. 27 (עשהאל) to v. 5 (ישראל)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part7" n="7">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part6-item1">
+                        <locus from="8a" to="8b">Fol. 8</locus>
+                        <title>2 Samuel iii. 27 (עשהאל) to v. 5 (ישראל)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part7" n="7">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/7</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/7</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part7-item1">
-                                <locus from="9a" to="9b">Fol. 9</locus>
-                                <author/>
-                                <title>2 Samuel xvi. 5 (ממשפחת) to xvi. 21 (בוא אל)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part8" n="8">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part7-item1">
+                        <locus from="9a" to="9b">Fol. 9</locus>
+                        <title>2 Samuel xvi. 5 (ממשפחת) to xvi. 21 (בוא אל)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part8" n="8">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/8</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/8</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part8-item1">
-                                <locus from="10a" to="12b"/>
-                                <author/>
-                                <title>2 Samuel; 1 Kings</title>
-                                <msItem xml:id="MS_Heb_b_8-part8-item1-item1" n="a">
-                           <locus from="10a">(fol. 10)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part8-item1">
+                        <locus from="10a" to="12b"/>
+                        <title>2 Samuel; 1 Kings</title>
+                        <msItem xml:id="MS_Heb_b_8-part8-item1-item1" n="a">
+                           <locus from="10a">(fol. 10)</locus>
                            <title>2 Samuel xx. 1 (בדוד) to xxii. 7 (קולי)</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_8-part8-item1-item2" n="b">
-                           <locus from="12a">(fol. 12)</locus> 
+                        <msItem xml:id="MS_Heb_b_8-part8-item1-item2" n="b">
+                           <locus from="12a">(fol. 12)</locus>
                            <title>1 Kings vii. 44 (שנים) to viii. 18 (אבי)</title>
                         </msItem>
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part9" n="9">
-                        <msIdentifier>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part9" n="9">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/9</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/9</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part9-item1">
-                                <locus from="13a" to="13b">Fol. 13</locus>
-                                <author/>
-                                <title>1 Kings viii. 39 (את לבבו) to viii. 65 (ההוא)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part10" n="10">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part9-item1">
+                        <locus from="13a" to="13b">Fol. 13</locus>
+                        <title>1 Kings viii. 39 (את לבבו) to viii. 65 (ההוא)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part10" n="10">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/10</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/10</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part10-item1">
-                                <locus from="14a" to="14b">Fol. 14</locus>
-                                <author/>
-                                <title>1 Kings xiii. 30 (אחי) to xiv. 17 (ותקם)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part11" n="11">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part10-item1">
+                        <locus from="14a" to="14b">Fol. 14</locus>
+                        <title>1 Kings xiii. 30 (אחי) to xiv. 17 (ותקם)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part11" n="11">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/11</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/11</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part11-item1">
-                                <locus from="15a" to="15b">Fol. 15</locus>
-                                <author/>
-                                <title>1 Kings xiv. 1 to xiv. 15 (לאבותיהם)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>   
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part12" n="12">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part11-item1">
+                        <locus from="15a" to="15b">Fol. 15</locus>
+                        <title>1 Kings xiv. 1 to xiv. 15 (לאבותיהם)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part12" n="12">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/12</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/12</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part12-item1">
-                                <locus from="16a" to="16b">Fol. 16</locus>
-                                <author/>
-                                <title>1 Kings xvii. 13 to xviii. 13 (את נביאי יהוה)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part13" n="13">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part12-item1">
+                        <locus from="16a" to="16b">Fol. 16</locus>
+                        <title>1 Kings xvii. 13 to xviii. 13 (את נביאי יהוה)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part13" n="13">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/13</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/13</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part13-item1">
-                                <locus from="17a" to="17b">Fol. 17</locus>
-                                <author/>
-                                <title>1 Kings xvii. 19 (הוא) to xviii. 13 (לאדני את)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>   
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part14" n="14">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part13-item1">
+                        <locus from="17a" to="17b">Fol. 17</locus>
+                        <title>1 Kings xvii. 19 (הוא) to xviii. 13 (לאדני את)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part14" n="14">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/14</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/14</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part14-item1">
-                                <locus from="18a" to="18b">Fol. 18</locus>
-                                <author/>
-                                <title>2 Kings viii. 4 (אלישע) to ix. 15 (חזאל)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part15" n="15">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part14-item1">
+                        <locus from="18a" to="18b">Fol. 18</locus>
+                        <title>2 Kings viii. 4 (אלישע) to ix. 15 (חזאל)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part15" n="15">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/15</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/15</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part15-item1">
-                                <locus from="19a" to="20b"/>
-                                <author/>
-                                <title>2 Kings</title>
-                                <msItem xml:id="MS_Heb_b_8-part15-item1-item1" n="a">
-                           <locus from="19a">(fol. 19)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part15-item1">
+                        <locus from="19a" to="20b"/>
+                        <title>2 Kings</title>
+                        <msItem xml:id="MS_Heb_b_8-part15-item1-item1" n="a">
+                           <locus from="19a">(fol. 19)</locus>
                            <title>2 Kings xiii. 12 (על ספר) to xiv. 10 (ושב)</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_8-part15-item1-item2" n="b">
-                           <locus from="20a">(fol. 20)</locus> 
+                        <msItem xml:id="MS_Heb_b_8-part15-item1-item2" n="b">
+                           <locus from="20a">(fol. 20)</locus>
                            <title>2 Kings xv. 29 (את עיון) to xvi. 14 (פני)</title>
-                        </msItem> 
-                                
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note>   
-                                <note>Some scribbling on the margins.</note>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part16" n="16">
-                        <msIdentifier>
+                        </msItem>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <note>Some scribbling on the margins.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part16" n="16">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/16</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/16</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part16-item1">
-                                <locus from="21a" to="22b"/>
-                                <author/>
-                                <title>Isaiah</title>
-                                <msItem xml:id="MS_Heb_b_8-part16-item1-item1" n="a">
-                           <locus from="21a">(fol. 21)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part16-item1">
+                        <locus from="21a" to="22b"/>
+                        <title>Isaiah</title>
+                        <msItem xml:id="MS_Heb_b_8-part16-item1-item1" n="a">
+                           <locus from="21a">(fol. 21)</locus>
                            <title>Isaiah ii. 7 to iv. 2 (הארץ)</title>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_b_8-part16-item1-item2" n="b">
-                           <locus from="22a">(fol. 22)</locus> 
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_8-part16-item1-item2" n="b">
+                           <locus from="22a">(fol. 22)</locus>
                            <title>Isaiah vii. 21 (יחיה) to ix. 6 (להכין)</title>
                         </msItem>
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note> 
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part17" n="17">
-                        <msIdentifier>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part17" n="17">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/17</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/17</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part17-item1">
-                                <locus from="23a" to="24b">Fol. 23</locus>
-                                <author/>
-                                <title>Isaiah xl. 13 (יודיענו) to xliii. 19 (דרך)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note> 
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part18" n="18">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part17-item1">
+                        <locus from="23a" to="24b">Fol. 23</locus>
+                        <title>Isaiah xl. 13 (יודיענו) to xliii. 19 (דרך)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part18" n="18">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/18</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/18</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part18-item1">
-                                <locus from="25a" to="25b">Fol. 25</locus>
-                                <author/>
-                                <title>Jeremiah xxxviii. 26 (אליהם) to xl. 5 (ארחה)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part19" n="19">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part18-item1">
+                        <locus from="25a" to="25b">Fol. 25</locus>
+                        <title>Jeremiah xxxviii. 26 (אליהם) to xl. 5 (ארחה)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part19" n="19">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/19</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/19</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part19-item1">
-                                <locus from="26a" to="26b">Fol.26</locus>
-                                <author/>
-                                <title>Ezekiel xxix. 16 (עון) to xxxi. 4 (שלחה אל)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part20" n="20">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part19-item1">
+                        <locus from="26a" to="26b">Fol.26</locus>
+                        <title>Ezekiel xxix. 16 (עון) to xxxi. 4 (שלחה אל)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part20" n="20">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/20</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/20</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part20-item1">
-                                <locus from="27a" to="27b">Fol. 27</locus>
-                                <author/>
-                                <title>Micah v. 3 (עתה) to vii. 4 (עתה)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part21" n="21">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part20-item1">
+                        <locus from="27a" to="27b">Fol. 27</locus>
+                        <title>Micah v. 3 (עתה) to vii. 4 (עתה)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part21" n="21">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/21</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/21</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part21-item1">
-                                <locus from="28a" to="28b">Fol. 28</locus>
-                                <author/>
-                                <title>Zechariah ii. 10 (כי כארבע) to v. 4 (וכלתו)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part22" n="22">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part21-item1">
+                        <locus from="28a" to="28b">Fol. 28</locus>
+                        <title>Zechariah ii. 10 (כי כארבע) to v. 4 (וכלתו)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part22" n="22">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/22</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/22</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part22-item1">
-                                <locus from="29a" to="29b">Fol. 29</locus>
-                                <author/>
-                                <title>Psalms lxxxvi. 3 to lxxxix. 15 (ומשפט)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part23" n="23">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part22-item1">
+                        <locus from="29a" to="29b">Fol. 29</locus>
+                        <title>Psalms lxxxvi. 3 to lxxxix. 15 (ומשפט)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part23" n="23">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/23</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/23</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part23-item1">
-                                <locus from="30a" to="31b"/>
-                                <author/>
-                                <title>Psalms</title>
-                                <msItem xml:id="MS_Heb_b_8-part23-item1-item1" n="a">
-                           <locus from="30a">(fol. 30)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part23-item1">
+                        <locus from="30a" to="31b"/>
+                        <title>Psalms</title>
+                        <msItem xml:id="MS_Heb_b_8-part23-item1-item1" n="a">
+                           <locus from="30a">(fol. 30)</locus>
                            <title>Psalms cxix. 128 to cxix. 160</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_8-part23-item1-item2" n="b">
-                           <locus from="31a">(fol. 31)</locus> 
+                        <msItem xml:id="MS_Heb_b_8-part23-item1-item2" n="b">
+                           <locus from="31a">(fol. 31)</locus>
                            <title>Psalms cxxviii (MS. cxxvii) 3 (סביב) to cxxxii (MS. cxxxi) 16</title>
                         </msItem>
-                               
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part24" n="24">
-                        <msIdentifier>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part24" n="24">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/24</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/24</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part24-item1">
-                                <locus from="32a" to="33b"/>
-                                <author/>
-                                <title>Psalms</title>
-                                <msItem xml:id="MS_Heb_b_8-part24-item1-item1" n="a">
-                           <locus from="32a">(fol. 32)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part24-item1">
+                        <locus from="32a" to="33b"/>
+                        <title>Psalms</title>
+                        <msItem xml:id="MS_Heb_b_8-part24-item1-item1" n="a">
+                           <locus from="32a">(fol. 32)</locus>
                            <title>Psalms cxxx. 1 to cxxxv. 20</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_8-part24-item1-item2" n="b">
-                           <locus from="33a">(fol. 33)</locus> 
+                        <msItem xml:id="MS_Heb_b_8-part24-item1-item2" n="b">
+                           <locus from="33a">(fol. 33)</locus>
                            <title>Psalms cxliii. 1 (יהוה) to cxlvi. 7</title>
                         </msItem>
-                              
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part25" n="25">
-                        <msIdentifier>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part25" n="25">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/25</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/25</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part25-item1">
-                                <locus from="34a" to="35b">Fol. 34</locus>
-                                <author/>
-                                <title>Psalms cxli. 8 (יהוה) to cxlix. 9</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>   
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part26" n="26">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part25-item1">
+                        <locus from="34a" to="35b">Fol. 34</locus>
+                        <title>Psalms cxli. 8 (יהוה) to cxlix. 9</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part26" n="26">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/26</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/26</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part26-item1">
-                                <locus from="36a" to="36b">Fol. 36</locus>
-                                <author/>
-                                <title>Job xix. 18 (אקומה) to xx. 21</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>   
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part27" n="27">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part26-item1">
+                        <locus from="36a" to="36b">Fol. 36</locus>
+                        <title>Job xix. 18 (אקומה) to xx. 21</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part27" n="27">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/27</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/27</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part27-item1">
-                                <locus from="37a" to="37b">Fol. 37</locus>
-                                <author/>
-                                <title>Job xxxviii. 35 to xl. 30 (חברים)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note> 
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part28" n="28">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part27-item1">
+                        <locus from="37a" to="37b">Fol. 37</locus>
+                        <title>Job xxxviii. 35 to xl. 30 (חברים)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part28" n="28">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/28</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/28</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part28-item1">
-                                <locus from="38a" to="39b"/>
-                                <author/>
-                                <title>Ecclesiastes</title>
-                                <msItem xml:id="MS_Heb_b_8-part28-item1-item1" n="a">
-                           <locus from="38a">(fol. 38)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part28-item1">
+                        <locus from="38a" to="39b"/>
+                        <title>Ecclesiastes</title>
+                        <msItem xml:id="MS_Heb_b_8-part28-item1-item1" n="a">
+                           <locus from="38a">(fol. 38)</locus>
                            <title>Ecclesiastes iii. 2 (עת לטעת) to iv. 11</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_8-part28-item1-item2" n="b">
-                           <locus from="39a">(fol. 39)</locus> 
+                        <msItem xml:id="MS_Heb_b_8-part28-item1-item2" n="b">
+                           <locus from="39a">(fol. 39)</locus>
                            <title>Ecclesiastes xi. 7 (לעינים) to the end of the book, followed by Canticles i. 1 to i. 15 (first word)</title>
                         </msItem>
-                               
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part29" n="29">
-                        <msIdentifier>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part29" n="29">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/29</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/29</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part29-item1">
-                                <locus from="40a" to="40b">Fol. 40</locus>
-                                <author/>
-                                <title>Esther v. 7 (ובקשתי) to vi. 12</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part30" n="30">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part29-item1">
+                        <locus from="40a" to="40b">Fol. 40</locus>
+                        <title>Esther v. 7 (ובקשתי) to vi. 12</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part30" n="30">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/30</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/30</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part30-item1">
-                                <locus from="41a" to="42b">Fol. 41</locus>
-                                <author/>
-                                <title>Daniel vi. 10 to viii. 8 (ארבע)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note> 
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part31" n="31">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part30-item1">
+                        <locus from="41a" to="42b">Fol. 41</locus>
+                        <title>Daniel vi. 10 to viii. 8 (ארבע)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part31" n="31">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/31</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/31</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part31-item1">
-                                <locus from="43a" to="44b"/>
-                                <author/>
-                                <title>Daniel; Ezra</title>
-                                <msItem xml:id="MS_Heb_b_8-part31-item1-item1" n="a">
-                           <locus from="43a">(fol. 43)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part31-item1">
+                        <locus from="43a" to="44b"/>
+                        <title>Daniel; Ezra</title>
+                        <msItem xml:id="MS_Heb_b_8-part31-item1-item1" n="a">
+                           <locus from="43a">(fol. 43)</locus>
                            <title>Daniel vii. 10 (ורבו) to viii. 13 (שמם)</title>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_8-part31-item1-item2" n="b">
-                           <locus from="44a">(fol. 44)</locus> 
+                        <msItem xml:id="MS_Heb_b_8-part31-item1-item2" n="b">
+                           <locus from="44a">(fol. 44)</locus>
                            <title>Ezra ii. 4 (מאות) to iii. 1 (בערים)</title>
                         </msItem>
-                               
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note>    
-
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part32" n="32">
-                        <msIdentifier>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part32" n="32">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/32</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/32</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part32-item1">
-                                <locus from="45a" to="45b">Fol. 45</locus>
-                                <author/>
-                                <title>Nehemiah ix. 24 (הארץ ותכנע) to x. 40 (הלשכות)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>  
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part33" n="33">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part32-item1">
+                        <locus from="45a" to="45b">Fol. 45</locus>
+                        <title>Nehemiah ix. 24 (הארץ ותכנע) to x. 40 (הלשכות)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part33" n="33">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/33</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/33</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part33-item1">
-                                <locus from="46a" to="46b">Fol. 46</locus>
-                                <author/>
-                                <title>1 Chronicles ix. 12 (מלכיה) to ix. 32 (הקהתי)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note> 
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part34" n="34">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part33-item1">
+                        <locus from="46a" to="46b">Fol. 46</locus>
+                        <title>1 Chronicles ix. 12 (מלכיה) to ix. 32 (הקהתי)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part34" n="34">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/34</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/34</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part34-item1">
-                                <locus from="47a" to="47b">Fol. 47</locus>
-                                <author/>
-                                <title>1 Chronicles xi. 46 to xii. 24 (אלפים)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note>   
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part35" n="35">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part34-item1">
+                        <locus from="47a" to="47b">Fol. 47</locus>
+                        <title>1 Chronicles xi. 46 to xii. 24 (אלפים)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part35" n="35">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/35</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/35</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part35-item1">
-                                <locus from="48a" to="49b"/>
-                                <author/>
-                                <title>2 Chronicles</title>
-                                <msItem xml:id="MS_Heb_b_8-part35-item1-item1" n="a">
-                           <locus from="48a">(fol. 48)</locus> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part35-item1">
+                        <locus from="48a" to="49b"/>
+                        <title>2 Chronicles</title>
+                        <msItem xml:id="MS_Heb_b_8-part35-item1-item1" n="a">
+                           <locus from="48a">(fol. 48)</locus>
                            <title>2 Chronicles viii. 4 (במדבר) to ix. 19 (המעלות)</title>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_b_8-part35-item1-item2" n="b">
-                           <locus from="49a">(fol. 49)</locus> 
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_8-part35-item1-item2" n="b">
+                           <locus from="49a">(fol. 49)</locus>
                            <title>2 Chronicles xiii. 8 (להתחזק) to xv. 8 (הערים אשר)</title>
                         </msItem>
-                                
-                                
-                                <note>With vowel points, accents, and both Masorahs.</note>   
-                                <note>Some scribbling on the margins of <locus from="48a" to="48b">fol. 48</locus>.</note>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part36" n="36">
-                        <msIdentifier>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <note>Some scribbling on the margins of<locus from="48a" to="48b">fol. 48</locus>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part36" n="36">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/36</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/36</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part36-item1">
-                                <locus from="50a" to="51b">Fol. 50</locus>
-                                <author/>
-                                <title>2 Chronicles xxvi. 4 (אמציהו) to xxix. 5 (עתה)</title>
-                                <note>With vowel points, accents, and both Masorahs.</note> 
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; 2 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part37" n="37">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part36-item1">
+                        <locus from="50a" to="51b">Fol. 50</locus>
+                        <title>2 Chronicles xxvi. 4 (אמציהו) to xxix. 5 (עתה)</title>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 2 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part37" n="37">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/37</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/37</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part37-item1">
-                                <locus from="52a" to="52b"/>
-                                <author/>
-                                <title>Masorah</title>
-                                <msItem xml:id="MS_Heb_b_8-part37-item1-item1" n="a">
-                           <locus from="52a">(fol. 52)</locus> 
-                           <title>A colophon</title> 
-                           <note>beg. <quote type="col">זה המחזור שלארבעה נביאים האחרנים מה שקנה [ר̇] מבשר בן [ר̇] מבורך בן מבשר בן סהל העני נ̇ע̇...</quote>; some scribbling in Arabic in the margin; </note>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part37-item1">
+                        <locus from="52a" to="52b"/>
+                        <title>Masorah</title>
+                        <msItem xml:id="MS_Heb_b_8-part37-item1-item1" n="a">
+                           <locus from="52a">(fol. 52)</locus>
+                           <title>A colophon</title>
+                           <note>beg.<quote type="col">זה המחזור שלארבעה נביאים האחרנים מה שקנה [ר̇] מבשר בן [ר̇] מבורך בן מבשר בן סהל העני נ̇ע̇...</quote>; some scribbling in Arabic in the margin;</note>
                         </msItem>
-                                <msItem xml:id="MS_Heb_b_8-part37-item1-item2" n="b">
-                           <locus from="52b">(fol. 52b)</locus> 
-                           <title>A Masoretic fragment, headed <quote type="head">אלין פסקתא דכוליה קריה. אוריתא צ̇ד̇. בראשית כ̇ט̇</quote>
-                           </title> 
-                           <note>ending with <quote type="end">אלה הדברים כ̇ב̇</quote>, incomplete.</note>
+                        <msItem xml:id="MS_Heb_b_8-part37-item1-item2" n="b">
+                           <locus from="52b">(fol. 52b)</locus>
+                           <title>A Masoretic fragment, headed<quote type="head">אלין פסקתא דכוליה קריה. אוריתא צ̇ד̇. בראשית כ̇ט̇</quote>
+                           </title>
+                           <note>ending with<quote type="end">אלה הדברים כ̇ב̇</quote>, incomplete.</note>
                         </msItem>
-                                
-                                <textLang mainLang="he" otherLangs="jrb"/>
-                            </msItem>
-                            
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; 3 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <provenance>Owner: <persName type="own">Mebhasser b. Mebhorakh b. Mebhasser</persName>.</provenance>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_b_8-part38" n="38">
-                        <msIdentifier>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 3 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <provenance>Owner:<persName type="own">Mebhasser b. Mebhorakh b. Mebhasser</persName>.</provenance>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_8-part38" n="38">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. b. 8/38</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. b. 8/38</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_b_8-part38-item1">
-                                <locus from="53a" to="53b">Fol. 53</locus>
-                                <author/>
-                                <title>A Masoretic fragment</title>
-                                <note>much injured and obliterated, containing alphabetical lists of words with the passages in which they occur, beg. with the words beg. with ומ, followed by those beg. withכְ  and לְ. The first legible line is <quote type="beg">ומראשית. כבד את יי̇ מהונך ומראשית</quote>. <locus from="53b" to="53b">Verso</locus> blank.</note>
-                                                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; 4 coll., fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="Gregorian" when="1896">1896</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="INDEX">
-                    <desc>General index of <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_8-part38-item1">
+                        <locus from="53a" to="53b">Fol. 53</locus>
+                        <title>A Masoretic fragment</title>
+                        <note>much injured and obliterated, containing alphabetical lists of words with the passages in which they occur, beg. with the words beg. with ומ, followed by those beg. withכְ and לְ. The first legible line is<quote type="beg">ומראשית. כבד את יי̇ מהונך ומראשית</quote>.<locus from="53b" to="53b">Verso</locus>blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 4 coll., fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="Neubauer">
-                    <term>Biblical fragments</term>
-                    <term>Later Acquisitions</term>
-                </keywords>
-                
-                <keywords scheme="#INDEX">
-                    <term>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Biblical fragments</term>
+               <term>Later Acquisitions</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
                   <ref target="#MS_Heb_b_8_01">Bible. Joshua.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_02">Bible. Judges.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_03">Bible. Judges.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_04">Bible. Samuel.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_05">Bible. Samuel.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_06">Bible. Samuel.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_07">Bible. Samuel.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_08">Bible. Samuel.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_08">Bible. Kings.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_09">Bible. Kings.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_10">Bible. Kings.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_11">Bible. Kings.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_12">Bible. Kings.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_13">Bible. Kings.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_14">Bible. Kings.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_15">Bible. Kings.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_16">Bible. Isaiah.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_17">Bible. Isaiah.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_18">Bible. Jeremiah.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_19">Bible. Ezekiel.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_20">Bible. Micah.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_21">Bible. Zechariah.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_22">Bible. Psalms.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_23">Bible. Psalms.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_24">Bible. Psalms.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_25">Bible. Psalms.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_26">Bible. Job.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_27">Bible. Job.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_28">Bible. Canticle.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_28">Bible. Ecclesiastes.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_29">Bible. Esther.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_30">Bible. Daniel.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_31">Bible. Daniel.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_31">Bible. Ezra.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_32">Bible. Nehemiah.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_33">Bible. Chronicles.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_34">Bible. Chronicles.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_35">Bible. Chronicles.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_36">Bible. Chronicles.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_37">Masorah, separate.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_37">
                      <persName type="own">Mebhasser b. Mebhorakh b. Mebhasser</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_37">
                      <persName type="ment">Mebhasser b. Sahl</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_37">
                      <persName type="ment">Mebhorakh b. Mebhasser b. Sahl</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_b_8_38">Masorah, separate.</ref>
                </term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2011-04-19">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS_HEB_b_8_1a.tif"/>
-        <graphic url="MS_HEB_b_8_1b.tif"/>
-        <graphic url="MS_HEB_b_8_2a.tif"/>
-        <graphic url="MS_HEB_b_8_2b.tif"/>
-        <graphic url="MS_HEB_b_8_3a.tif"/>
-        <graphic url="MS_HEB_b_8_3b.tif"/>
-        <graphic url="MS_HEB_b_8_4a.tif"/>
-        <graphic url="MS_HEB_b_8_4b.tif"/>
-        <graphic url="MS_HEB_b_8_5a.tif"/>
-        <graphic url="MS_HEB_b_8_5b.tif"/>
-        <graphic url="MS_HEB_b_8_6a.tif"/>
-        <graphic url="MS_HEB_b_8_6b.tif"/>
-        <graphic url="MS_HEB_b_8_7a.tif"/>
-        <graphic url="MS_HEB_b_8_7b.tif"/>
-        <graphic url="MS_HEB_b_8_8a.tif"/>
-        <graphic url="MS_HEB_b_8_8b.tif"/>
-        <graphic url="MS_HEB_b_8_9a.tif"/>
-        <graphic url="MS_HEB_b_8_9b.tif"/>
-        
-        <graphic url="MS_HEB_b_8_10a.tif"/>
-        <graphic url="MS_HEB_b_8_10b.tif"/>
-        <graphic url="MS_HEB_b_8_11a.tif"/>
-        <graphic url="MS_HEB_b_8_11b.tif"/>
-        <graphic url="MS_HEB_b_8_12a.tif"/>
-        <graphic url="MS_HEB_b_8_12b.tif"/>
-        <graphic url="MS_HEB_b_8_13a.tif"/>
-        <graphic url="MS_HEB_b_8_13b.tif"/>
-        <graphic url="MS_HEB_b_8_14a.tif"/>
-        <graphic url="MS_HEB_b_8_14b.tif"/>
-        <graphic url="MS_HEB_b_8_15a.tif"/>
-        <graphic url="MS_HEB_b_8_15b.tif"/>
-        <graphic url="MS_HEB_b_8_16a.tif"/>
-        <graphic url="MS_HEB_b_8_16b.tif"/>
-        <graphic url="MS_HEB_b_8_17a.tif"/>
-        <graphic url="MS_HEB_b_8_17b.tif"/>
-        <graphic url="MS_HEB_b_8_18a.tif"/>
-        <graphic url="MS_HEB_b_8_18b.tif"/>
-        <graphic url="MS_HEB_b_8_19a.tif"/>
-        <graphic url="MS_HEB_b_8_19b.tif"/>
-        
-        <graphic url="MS_HEB_b_8_20a.tif"/>
-        <graphic url="MS_HEB_b_8_20b.tif"/>
-        <graphic url="MS_HEB_b_8_21a.tif"/>
-        <graphic url="MS_HEB_b_8_21b.tif"/>
-        <graphic url="MS_HEB_b_8_22a.tif"/>
-        <graphic url="MS_HEB_b_8_22b.tif"/>
-        <graphic url="MS_HEB_b_8_23a.tif"/>
-        <graphic url="MS_HEB_b_8_23b.tif"/>
-        <graphic url="MS_HEB_b_8_24a.tif"/>
-        <graphic url="MS_HEB_b_8_24b.tif"/>
-        <graphic url="MS_HEB_b_8_25a.tif"/>
-        <graphic url="MS_HEB_b_8_25b.tif"/>
-        <graphic url="MS_HEB_b_8_26a.tif"/>
-        <graphic url="MS_HEB_b_8_26b.tif"/>
-        <graphic url="MS_HEB_b_8_27a.tif"/>
-        <graphic url="MS_HEB_b_8_27b.tif"/>
-        <graphic url="MS_HEB_b_8_28a.tif"/>
-        <graphic url="MS_HEB_b_8_28b.tif"/>
-        <graphic url="MS_HEB_b_8_29a.tif"/>
-        <graphic url="MS_HEB_b_8_29b.tif"/>
-        
-        <graphic url="MS_HEB_b_8_30a.tif"/>
-        <graphic url="MS_HEB_b_8_30b.tif"/>
-        <graphic url="MS_HEB_b_8_31a.tif"/>
-        <graphic url="MS_HEB_b_8_31b.tif"/>
-        <graphic url="MS_HEB_b_8_32a.tif"/>
-        <graphic url="MS_HEB_b_8_32b.tif"/>
-        <graphic url="MS_HEB_b_8_33a.tif"/>
-        <graphic url="MS_HEB_b_8_33b.tif"/>
-        <graphic url="MS_HEB_b_8_34a.tif"/>
-        <graphic url="MS_HEB_b_8_34b.tif"/>
-        <graphic url="MS_HEB_b_8_35a.tif"/>
-        <graphic url="MS_HEB_b_8_35b.tif"/>
-        <graphic url="MS_HEB_b_8_36a.tif"/>
-        <graphic url="MS_HEB_b_8_36b.tif"/>
-        <graphic url="MS_HEB_b_8_37a.tif"/>
-        <graphic url="MS_HEB_b_8_37b.tif"/>
-        <graphic url="MS_HEB_b_8_38a.tif"/>
-        <graphic url="MS_HEB_b_8_38b.tif"/>
-        <graphic url="MS_HEB_b_8_39a.tif"/>
-        <graphic url="MS_HEB_b_8_39b.tif"/>
-        
-        <graphic url="MS_HEB_b_8_40a.tif"/>
-        <graphic url="MS_HEB_b_8_40b.tif"/>
-        <graphic url="MS_HEB_b_8_41a.tif"/>
-        <graphic url="MS_HEB_b_8_41b.tif"/>
-        <graphic url="MS_HEB_b_8_42a.tif"/>
-        <graphic url="MS_HEB_b_8_42b.tif"/>
-        <graphic url="MS_HEB_b_8_43a.tif"/>
-        <graphic url="MS_HEB_b_8_43b.tif"/>
-        <graphic url="MS_HEB_b_8_44a.tif"/>
-        <graphic url="MS_HEB_b_8_44b.tif"/>
-        <graphic url="MS_HEB_b_8_45a.tif"/>
-        <graphic url="MS_HEB_b_8_45b.tif"/>
-        <graphic url="MS_HEB_b_8_46a.tif"/>
-        <graphic url="MS_HEB_b_8_46b.tif"/>
-        <graphic url="MS_HEB_b_8_47a.tif"/>
-        <graphic url="MS_HEB_b_8_47b.tif"/>
-        <graphic url="MS_HEB_b_8_48a.tif"/>
-        <graphic url="MS_HEB_b_8_48b.tif"/>
-        <graphic url="MS_HEB_b_8_49a.tif"/>
-        <graphic url="MS_HEB_b_8_49b.tif"/>
-        
-        <graphic url="MS_HEB_b_8_50a.tif"/>
-        <graphic url="MS_HEB_b_8_50b.tif"/>
-        <graphic url="MS_HEB_b_8_51a.tif"/>
-        <graphic url="MS_HEB_b_8_51b.tif"/>
-        <graphic url="MS_HEB_b_8_52a.tif"/>
-        <graphic url="MS_HEB_b_8_52b.tif"/>
-        <graphic url="MS_HEB_b_8_53a.tif"/>
-        <graphic url="MS_HEB_b_8_53b.tif"/>
-       
-    </facsimile>
+         <change when="2011-04-19">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_b_8_1a.tif"/>
+      <graphic url="MS_HEB_b_8_1b.tif"/>
+      <graphic url="MS_HEB_b_8_2a.tif"/>
+      <graphic url="MS_HEB_b_8_2b.tif"/>
+      <graphic url="MS_HEB_b_8_3a.tif"/>
+      <graphic url="MS_HEB_b_8_3b.tif"/>
+      <graphic url="MS_HEB_b_8_4a.tif"/>
+      <graphic url="MS_HEB_b_8_4b.tif"/>
+      <graphic url="MS_HEB_b_8_5a.tif"/>
+      <graphic url="MS_HEB_b_8_5b.tif"/>
+      <graphic url="MS_HEB_b_8_6a.tif"/>
+      <graphic url="MS_HEB_b_8_6b.tif"/>
+      <graphic url="MS_HEB_b_8_7a.tif"/>
+      <graphic url="MS_HEB_b_8_7b.tif"/>
+      <graphic url="MS_HEB_b_8_8a.tif"/>
+      <graphic url="MS_HEB_b_8_8b.tif"/>
+      <graphic url="MS_HEB_b_8_9a.tif"/>
+      <graphic url="MS_HEB_b_8_9b.tif"/>
+      <graphic url="MS_HEB_b_8_10a.tif"/>
+      <graphic url="MS_HEB_b_8_10b.tif"/>
+      <graphic url="MS_HEB_b_8_11a.tif"/>
+      <graphic url="MS_HEB_b_8_11b.tif"/>
+      <graphic url="MS_HEB_b_8_12a.tif"/>
+      <graphic url="MS_HEB_b_8_12b.tif"/>
+      <graphic url="MS_HEB_b_8_13a.tif"/>
+      <graphic url="MS_HEB_b_8_13b.tif"/>
+      <graphic url="MS_HEB_b_8_14a.tif"/>
+      <graphic url="MS_HEB_b_8_14b.tif"/>
+      <graphic url="MS_HEB_b_8_15a.tif"/>
+      <graphic url="MS_HEB_b_8_15b.tif"/>
+      <graphic url="MS_HEB_b_8_16a.tif"/>
+      <graphic url="MS_HEB_b_8_16b.tif"/>
+      <graphic url="MS_HEB_b_8_17a.tif"/>
+      <graphic url="MS_HEB_b_8_17b.tif"/>
+      <graphic url="MS_HEB_b_8_18a.tif"/>
+      <graphic url="MS_HEB_b_8_18b.tif"/>
+      <graphic url="MS_HEB_b_8_19a.tif"/>
+      <graphic url="MS_HEB_b_8_19b.tif"/>
+      <graphic url="MS_HEB_b_8_20a.tif"/>
+      <graphic url="MS_HEB_b_8_20b.tif"/>
+      <graphic url="MS_HEB_b_8_21a.tif"/>
+      <graphic url="MS_HEB_b_8_21b.tif"/>
+      <graphic url="MS_HEB_b_8_22a.tif"/>
+      <graphic url="MS_HEB_b_8_22b.tif"/>
+      <graphic url="MS_HEB_b_8_23a.tif"/>
+      <graphic url="MS_HEB_b_8_23b.tif"/>
+      <graphic url="MS_HEB_b_8_24a.tif"/>
+      <graphic url="MS_HEB_b_8_24b.tif"/>
+      <graphic url="MS_HEB_b_8_25a.tif"/>
+      <graphic url="MS_HEB_b_8_25b.tif"/>
+      <graphic url="MS_HEB_b_8_26a.tif"/>
+      <graphic url="MS_HEB_b_8_26b.tif"/>
+      <graphic url="MS_HEB_b_8_27a.tif"/>
+      <graphic url="MS_HEB_b_8_27b.tif"/>
+      <graphic url="MS_HEB_b_8_28a.tif"/>
+      <graphic url="MS_HEB_b_8_28b.tif"/>
+      <graphic url="MS_HEB_b_8_29a.tif"/>
+      <graphic url="MS_HEB_b_8_29b.tif"/>
+      <graphic url="MS_HEB_b_8_30a.tif"/>
+      <graphic url="MS_HEB_b_8_30b.tif"/>
+      <graphic url="MS_HEB_b_8_31a.tif"/>
+      <graphic url="MS_HEB_b_8_31b.tif"/>
+      <graphic url="MS_HEB_b_8_32a.tif"/>
+      <graphic url="MS_HEB_b_8_32b.tif"/>
+      <graphic url="MS_HEB_b_8_33a.tif"/>
+      <graphic url="MS_HEB_b_8_33b.tif"/>
+      <graphic url="MS_HEB_b_8_34a.tif"/>
+      <graphic url="MS_HEB_b_8_34b.tif"/>
+      <graphic url="MS_HEB_b_8_35a.tif"/>
+      <graphic url="MS_HEB_b_8_35b.tif"/>
+      <graphic url="MS_HEB_b_8_36a.tif"/>
+      <graphic url="MS_HEB_b_8_36b.tif"/>
+      <graphic url="MS_HEB_b_8_37a.tif"/>
+      <graphic url="MS_HEB_b_8_37b.tif"/>
+      <graphic url="MS_HEB_b_8_38a.tif"/>
+      <graphic url="MS_HEB_b_8_38b.tif"/>
+      <graphic url="MS_HEB_b_8_39a.tif"/>
+      <graphic url="MS_HEB_b_8_39b.tif"/>
+      <graphic url="MS_HEB_b_8_40a.tif"/>
+      <graphic url="MS_HEB_b_8_40b.tif"/>
+      <graphic url="MS_HEB_b_8_41a.tif"/>
+      <graphic url="MS_HEB_b_8_41b.tif"/>
+      <graphic url="MS_HEB_b_8_42a.tif"/>
+      <graphic url="MS_HEB_b_8_42b.tif"/>
+      <graphic url="MS_HEB_b_8_43a.tif"/>
+      <graphic url="MS_HEB_b_8_43b.tif"/>
+      <graphic url="MS_HEB_b_8_44a.tif"/>
+      <graphic url="MS_HEB_b_8_44b.tif"/>
+      <graphic url="MS_HEB_b_8_45a.tif"/>
+      <graphic url="MS_HEB_b_8_45b.tif"/>
+      <graphic url="MS_HEB_b_8_46a.tif"/>
+      <graphic url="MS_HEB_b_8_46b.tif"/>
+      <graphic url="MS_HEB_b_8_47a.tif"/>
+      <graphic url="MS_HEB_b_8_47b.tif"/>
+      <graphic url="MS_HEB_b_8_48a.tif"/>
+      <graphic url="MS_HEB_b_8_48b.tif"/>
+      <graphic url="MS_HEB_b_8_49a.tif"/>
+      <graphic url="MS_HEB_b_8_49b.tif"/>
+      <graphic url="MS_HEB_b_8_50a.tif"/>
+      <graphic url="MS_HEB_b_8_50b.tif"/>
+      <graphic url="MS_HEB_b_8_51a.tif"/>
+      <graphic url="MS_HEB_b_8_51b.tif"/>
+      <graphic url="MS_HEB_b_8_52a.tif"/>
+      <graphic url="MS_HEB_b_8_52b.tif"/>
+      <graphic url="MS_HEB_b_8_53a.tif"/>
+      <graphic url="MS_HEB_b_8_53b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

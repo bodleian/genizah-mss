@@ -2,717 +2,618 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_104">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. e. 103</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_e_103</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. e. 103</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_e_103</idno>
             <idno type="msID">MS_Heb_e_103</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_e_103" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. e. 103</idno>
-                    </msIdentifier>
-                    <msContents>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_e_103" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. e. 103</idno>
+               </msIdentifier>
+               <msContents>
                   <summary>Miscellaneous fragments.</summary>
                </msContents>
-                    <physDesc>
+               <physDesc>
                   <p>Ff. 69.</p>
                </physDesc>
-                    <history>
-                        <acquisition>Fragments from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p066.jpg Catalogue-2_p067.jpg Catalogue-2_p068.jpg">fols. 66-68</ref>.</source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_e_103-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>Fragments from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p066.jpg Catalogue-2_p067.jpg Catalogue-2_p068.jpg">fols. 66-68</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_e_103-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part1-item1">
-                                <locus from="1a" to="7b">Fols. 1-7</locus>
-                                <author/>
-                                <title>Commentary on Psalms 51,8 (end) to 55,24</title>
-                                <note>The fragment ends  <quote type="end">שלח. צעק על בגידת אחיתופל ששלח ידיו באיש שלומיו וחלל בריתו אשר כרת עמו וחברתו בתורה. חלקו. השלך. ואתה. כמה קשה הכנס' פסוק השלך בין חלקו ובין ואתה כי הפסוק</quote>
-                        </note> 
-                             
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. Rabb. char.; <material>paper</material>, 8 3/8 x 6 1/8 in., about 30 lines; stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part2" n="2">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part1-item1">
+                        <locus from="1a" to="7b">Fols. 1-7</locus>
+                        <title>Commentary on Psalms 51,8 (end) to 55,24</title>
+                        <note>The fragment ends<quote type="end">שלח. צעק על בגידת אחיתופל ששלח ידיו באיש שלומיו וחלל בריתו אשר כרת עמו וחברתו בתורה. חלקו. השלך. ואתה. כמה קשה הכנס' פסוק השלך בין חלקו ובין ואתה כי הפסוק</quote>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.;<material>paper</material>, 8 3/8 x 6 1/8 in., about 30 lines; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part2-item1">
-                                <locus from="8a" to="9b">Fols. 8, 9</locus>
-                                <author/>
-                                <title>Commentary on Eccles. 1,10 to 2,2</title>
-                                <note>On 1,12 the writer says   
-                                   <p> 
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part2-item1">
+                        <locus from="8a" to="9b">Fols. 8, 9</locus>
+                        <title>Commentary on Eccles. 1,10 to 2,2</title>
+                        <note>On 1,12 the writer says<p>
                               <quote>אני קהלת. לפי שהחכמה על לשון נקבה שכשם שהנקבה יולדת כך חכמת שלמה ע̇ה̇ הייתה מולדת חכמות רבות דבר מדבר לכך נאמ̇ אני קהלת הייתי מלך. הוא שאמרו ז̇ל̇ מלך [הד]יוט ומלך ס̇א̇ הייתי מלך פירושו בזמן שהייתי מלך ונתייאשתי מכל עסקיי ולא כותרו לפני עסקים להתעסק בהם התעסקתי בחכמה על ישראל העם שבחר בהם ה̇ק̇ב̇ה̇ וכל ישראל ויהודה היו תחת ממשלתי בירושלם העיר שבחר בה ה̇ק̇ב̇ה̇.</quote>
-                           </p> 
-                        </note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Or. curs. char.; <material>paper</material>, 8 1/4 x 5 1/2 in., 22 lines.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part3" n="3">
-                        <msIdentifier>
+                           </p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Or. curs. char.;<material>paper</material>, 8 1/4 x 5 1/2 in., 22 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part3" n="3">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/3</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/3</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part3-item1">
-                                <locus from="10a" to="13b">Fols. 10-13</locus>
-                                <author/>
-                                <title>Notes</title>
-                                <note/> 
-                              
-                                <msItem xml:id="MS_Heb_e_103-part3-item1-item1">
-                           <locus from="10a">Fol.10</locus> 
-                           <title>The end of a collection of midrashic notes</title> 
-                           <note>The last paragraph beg. <quote>חמשה קנינים קנה ה̇ב̇ה̇ בעולמו ואלו הן תורה קנין א̇ שמים וארץ קנין א̇ ... קנין א̇ ישראל קנין א̇ בית המקדש קנין א̇ ...</quote>
-                                At the end <quote>תם ונשלם הכל תהלה לאל עולם</quote>.</note>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part3-item1">
+                        <locus from="10a" to="13b">Fols. 10-13</locus>
+                        <title>Notes</title>
+                        <msItem xml:id="MS_Heb_e_103-part3-item1-item1">
+                           <locus from="10a">Fol.10</locus>
+                           <title>The end of a collection of midrashic notes</title>
+                           <note>The last paragraph beg.<quote>חמשה קנינים קנה ה̇ב̇ה̇ בעולמו ואלו הן תורה קנין א̇ שמים וארץ קנין א̇ ... קנין א̇ ישראל קנין א̇ בית המקדש קנין א̇ ...</quote>At the end<quote>תם ונשלם הכל תהלה לאל עולם</quote>.</note>
                         </msItem>
-                                <msItem xml:id="MS_Heb_e_103-part3-item1-item2">
-                           <locus from="10b" to="11a">Fol.10b and 11</locus> 
-                           <p>Similar extracts.</p> 
+                        <msItem xml:id="MS_Heb_e_103-part3-item1-item2">
+                           <locus from="10b" to="11a">Fol.10b and 11</locus>
+                           <p>Similar extracts.</p>
                         </msItem>
-                                
-                                
-                                <msItem xml:id="MS_Heb_e_103-part3-item1-item3">
-                           <locus from="11b" to="12a">Fols. 11b and 12</locus> 
-                           <title>A note</title> 
-                           <quote>beg. ... <quote type="beg">יש לשאול איך יתכן שבשביל השבוע והברית שקבלו עליהם אבותינו ועל זרעם נהיה אנחנו ... למלא ולשמור השבוע נהיה נענשי' כאלו קבלנוה אנחנו ...</quote> 
+                        <msItem xml:id="MS_Heb_e_103-part3-item1-item3">
+                           <locus from="11b" to="12a">Fols. 11b and 12</locus>
+                           <title>A note</title>
+                           <quote>beg. ...<quote type="beg">יש לשאול איך יתכן שבשביל השבוע והברית שקבלו עליהם אבותינו ועל זרעם נהיה אנחנו ... למלא ולשמור השבוע נהיה נענשי' כאלו קבלנוה אנחנו ...</quote>
                            </quote>
                         </msItem>
-                                
-                                <msItem xml:id="MS_Heb_e_103-part3-item1-item4">
-                           <locus from="12b">Fol. 12b</locus> 
-                           <title>A list of books</title> 
-                           <note>headed <quote type="head">אישטוש שון לוש ליברוש קי מרקו (?) אקי אין פאטרוס קון דייני אשאדוס (?)</quote> beg. <quote type="beg">און ב"ר נחמן און אגו"ר הבן עזרה</quote>
-                           </note> 
+                        <msItem xml:id="MS_Heb_e_103-part3-item1-item4">
+                           <locus from="12b">Fol. 12b</locus>
+                           <title>A list of books</title>
+                           <note>headed<quote type="head">אישטוש שון לוש ליברוש קי מרקו (?) אקי אין פאטרוס קון דייני אשאדוס (?)</quote>beg.<quote type="beg">און ב"ר נחמן און אגו"ר הבן עזרה</quote>
+                           </note>
                         </msItem>
-                                <msItem xml:id="MS_Heb_e_103-part3-item1-item5">
-                           <locus from="13a">Fol. 13</locus> 
+                        <msItem xml:id="MS_Heb_e_103-part3-item1-item5">
+                           <locus from="13a">Fol. 13</locus>
                            <p>Blank except for a scribbled name.</p>
                         </msItem>
-                                
-                                <msItem xml:id="MS_Heb_e_103-part3-item1-item6">
-                           <locus from="13b">Fol. 13b</locus> 
+                        <msItem xml:id="MS_Heb_e_103-part3-item1-item6">
+                           <locus from="13b">Fol. 13b</locus>
                            <p>Scribbling, notes on the calendar etc.</p>
                         </msItem>
-                                
-                                
-                                <textLang mainLang="he" otherLangs="lad"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. curs. char.; <material>paper</material>, 8 1/4 x 6 1/4 in., injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part4" n="4">
-                        <msIdentifier>
+                        <textLang mainLang="he" otherLangs="lad"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. curs. char.;<material>paper</material>, 8 1/4 x 6 1/4 in., injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part4" n="4">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/4</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/4</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part4-item1">
-                                <locus from="14a" to="20b">Fols. 14-20</locus>
-                                <author/>
-                                <title>Translation and Arabic commentary on Aboth iv,5 to iv,22, text (ending <quote>ודע שהכל בא</quote>)</title>
-                                <note>Not by Maimonides, nor R. Israel of Toledo. iv, 6 beg. <quote>ר̇ יוסי אומר ... כבוד תורה באט̇האר אל חרץ פי עמלהא ויכרם אל עלמא חמלת̈הא ואל אספאר אלת̈י כונת̈ פיהא וכד̇לך חלול תורה פי צ̇ד אלתלאתה</quote>
-                        </note>  
-                              
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. (Maghrebi) curs. char.; <material>paper</material>, 8 x 5 1/4 in., injured, 18 lines.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part5" n="5">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part4-item1">
+                        <locus from="14a" to="20b">Fols. 14-20</locus>
+                        <title>Translation and Arabic commentary on Aboth iv,5 to iv,22, text (ending<quote>ודע שהכל בא</quote>)</title>
+                        <note>Not by Maimonides, nor R. Israel of Toledo. iv, 6 beg.<quote>ר̇ יוסי אומר ... כבוד תורה באט̇האר אל חרץ פי עמלהא ויכרם אל עלמא חמלת̈הא ואל אספאר אלת̈י כונת̈ פיהא וכד̇לך חלול תורה פי צ̇ד אלתלאתה</quote>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. (Maghrebi) curs. char.;<material>paper</material>, 8 x 5 1/4 in., injured, 18 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part5" n="5">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/5</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/5</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part5-item1">
-                                <locus from="21a" to="28b">Fols. 21-28</locus>
-                                <author/>
-                                <title>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part5-item1">
+                        <locus from="21a" to="28b">Fols. 21-28</locus>
+                        <title>
                            <persName>Naḥmanides</persName>' commentary on Baba Bathra</title>
-                                <note/>  
-                              <msItem xml:id="MS_Heb_e_103-part5-item1-item1">
+                        <msItem xml:id="MS_Heb_e_103-part5-item1-item1">
                            <p>
-                              <locus from="21a" to="22b">fols. 21, 22</locus> – ed. Amsterdam 1715 Fol.13b line 14 to Fol.13b line 21;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_e_103-part5-item1-item2">
-                           <p>
-                              <locus from="23a" to="27b">fols. 23-27</locus> – ed. 7d line 3 from below to fol. 9a line 26;</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_e_103-part5-item1-item3">
-                           <p>
-                              <locus from="28a" to="28b">fol. 28</locus> – ed. fol. 10b line 18 to fol. 10c line 14.</p>
+                              <locus from="21a" to="22b">fols. 21, 22</locus>– ed. Amsterdam 1715 Fol.13b line 14 to Fol.13b line 21;</p>
                         </msItem>
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. Rabb. and curs. char., by two hands; fols. <locus from="21a" to="21b">21</locus>, <locus from="22a" to="22b">22</locus>, <locus from="24a" to="24b">24</locus>, <locus from="25a" to="25b">25</locus> 
-                        <material>vellum</material>, fols. <locus from="23a" to="23b">23</locus>, <locus from="26a" to="28b">26-28</locus> 
+                        <msItem xml:id="MS_Heb_e_103-part5-item1-item2">
+                           <p>
+                              <locus from="23a" to="27b">fols. 23-27</locus>– ed. 7d line 3 from below to fol. 9a line 26;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_e_103-part5-item1-item3">
+                           <p>
+                              <locus from="28a" to="28b">fol. 28</locus>– ed. fol. 10b line 18 to fol. 10c line 14.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. and curs. char., by two hands; fols.<locus from="21a" to="21b">21</locus>,<locus from="22a" to="22b">22</locus>,<locus from="24a" to="24b">24</locus>,<locus from="25a" to="25b">25</locus>
+                        <material>vellum</material>, fols.<locus from="23a" to="23b">23</locus>,<locus from="26a" to="28b">26-28</locus>
                         <material>paper</material>, about , 8 1/2 x 6 in., 24 lines; injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part6" n="6">
-                        <msIdentifier>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part6" n="6">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/6</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/6</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part6-item1">
-                                <locus from="29a" to="42b">Fols. 29-42</locus>
-                                <author/>
-                                <title>Halakhoth on matter contained in Baba Metzia</title>
-                                <note>The sections are numbered in the margin, 165 (<locus from="31a">fol. 31</locus>) to 182 (<locus from="42a">fol. 42</locus>). The author quotes Hai Gaon, Alfasi, Joseph ibn Megas, Maimonides, Naḥmanides, and others. 
-                                    <p>No. 160 beg. <quote>שומר אחד מאלו ארבעה שומרין שאמרנו למעלה שהשאיל בהמתו לחברו או שהשכירה למשוי ויצא המשאיל או המשכיר עמה לסייע לשואל או לשוכר ...</quote>.</p> 
-                                    <p>No. 182 beg. <quote>הנוטל כלי מן האומן על מנת לבקרו שרוֹ לומר לראותו אם הוא יפה או שלם אם לאו ונאנס בידו ...</quote>.</p>
-                        </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. Rabb. char.; <material>paper</material>, 8 1/2 x 5 3/4 in., 22 lines. Much injured. Of fols. <locus from="29a" to="31b">29-31</locus>, <locus from="34a" to="42b">34-42</locus> only half leaves remain.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part7" n="7">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part6-item1">
+                        <locus from="29a" to="42b">Fols. 29-42</locus>
+                        <title>Halakhoth on matter contained in Baba Metzia</title>
+                        <note>The sections are numbered in the margin, 165 (<locus from="31a">fol. 31</locus>) to 182 (<locus from="42a">fol. 42</locus>). The author quotes Hai Gaon, Alfasi, Joseph ibn Megas, Maimonides, Naḥmanides, and others.<p>No. 160 beg.<quote>שומר אחד מאלו ארבעה שומרין שאמרנו למעלה שהשאיל בהמתו לחברו או שהשכירה למשוי ויצא המשאיל או המשכיר עמה לסייע לשואל או לשוכר ...</quote>.</p>
+                           <p>No. 182 beg.<quote>הנוטל כלי מן האומן על מנת לבקרו שרוֹ לומר לראותו אם הוא יפה או שלם אם לאו ונאנס בידו ...</quote>.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.;<material>paper</material>, 8 1/2 x 5 3/4 in., 22 lines. Much injured. Of fols.<locus from="29a" to="31b">29-31</locus>,<locus from="34a" to="42b">34-42</locus>only half leaves remain.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part7" n="7">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/7</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/7</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part7-item1">
-                                <locus from="43a" to="53a">Fols. 43-53</locus>
-                                <author/>
-                                <title>Responsa of David b. Zimra (<quote>זמרא</quote>)</title>
-                                <note>numbered in the margin. <locus from="43a">Fol. 43</locus> begins in the middle of no. 101, then follows no. 102 (questions only) on <locus from="44b">fol. 44b</locus>, after which there is a lacuna of 6 leaves. <locus from="45a">Fol. 45</locus> begins with the latter part of no. 104 and the rest is continuous, ending with no. 107 incomplete. The leaves are numbered קס, קסא, קסח to קעו. The text is arranged as in Ms. Mich. 462 [Catal. no. 828] fols. 142-144 and 149b-158b. The edition does not correspond.</note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Or. Rabb. char.; <material>paper</material>, 8 1/4 x 5 3/4 in., mostly 22 lines. Stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part8" n="8">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part7-item1">
+                        <locus from="43a" to="53a">Fols. 43-53</locus>
+                        <title>Responsa of David b. Zimra (<quote>זמרא</quote>)</title>
+                        <note>numbered in the margin.<locus from="43a">Fol. 43</locus>begins in the middle of no. 101, then follows no. 102 (questions only) on<locus from="44b">fol. 44b</locus>, after which there is a lacuna of 6 leaves.<locus from="45a">Fol. 45</locus>begins with the latter part of no. 104 and the rest is continuous, ending with no. 107 incomplete. The leaves are numbered קס, קסא, קסח to קעו. The text is arranged as in Ms. Mich. 462 [Catal. no. 828] fols. 142-144 and 149b-158b. The edition does not correspond.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Or. Rabb. char.;<material>paper</material>, 8 1/4 x 5 3/4 in., mostly 22 lines. Stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part8" n="8">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/8</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/8</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part8-item1">
-                                <locus from="54a" to="54b">Fol. 54</locus>
-                                <author/>
-                                <title>Fragment of responsum ?</title>
-                                <note>Beg.  <quote>... אביו יוסף ... הוליך אחיו לאבל ... ותרבו (?) שם גם היתה תשלום שנת העשור (?) ... פ' ויגש [אליו] ותחי רוח ... העגלות אשר שלח יוסף לשאת א[ותו] ותחי רוח יעקב ... ותחי רוח ... מסכת ברכות אמרו ליה רבנן ...</quote>
-                                    <p>The <locus from="54b">verso</locus> is blank.</p>
-                        </note>  
-                              
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Or. curs. char.; <material>paper</material>, 7 3/4 x 5 3/4 in., 32 lines. Much injured and defaced.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part9" n="9">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part8-item1">
+                        <locus from="54a" to="54b">Fol. 54</locus>
+                        <title>Fragment of responsum ?</title>
+                        <note>Beg.<quote>... אביו יוסף ... הוליך אחיו לאבל ... ותרבו (?) שם גם היתה תשלום שנת העשור (?) ... פ' ויגש [אליו] ותחי רוח ... העגלות אשר שלח יוסף לשאת א[ותו] ותחי רוח יעקב ... ותחי רוח ... מסכת ברכות אמרו ליה רבנן ...</quote>
+                           <p>The<locus from="54b">verso</locus>is blank.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Or. curs. char.;<material>paper</material>, 7 3/4 x 5 3/4 in., 32 lines. Much injured and defaced.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part9" n="9">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/9</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/9</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part9-item1">
-                                <locus from="55a" to="63b">Fols. 55-63</locus>
-                                <author/>
-                                <title>Liturgical</title>
-                                <note/>  
-                               
-                                <msItem xml:id="MS_Heb_e_103-part9-item1-item1">
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part9-item1">
+                        <locus from="55a" to="63b">Fols. 55-63</locus>
+                        <title>Liturgical</title>
+                        <msItem xml:id="MS_Heb_e_103-part9-item1-item1">
                            <p>
-                              <locus from="55a">Fol. 55</locus> is headed <quote type="head">תקון הלילה במצות</quote>, beg. <quote type="beg">ב̇א̇י̇א̇מ̇ה̇ אשר קדשנו במצותיו וצונו על דברי תורה ...</quote>. Then follow Pss. 145, 137, 79, Lam. 5.</p>
+                              <locus from="55a">Fol. 55</locus>is headed<quote type="head">תקון הלילה במצות</quote>, beg.<quote type="beg">ב̇א̇י̇א̇מ̇ה̇ אשר קדשנו במצותיו וצונו על דברי תורה ...</quote>. Then follow Pss. 145, 137, 79, Lam. 5.</p>
                         </msItem>
-                                <msItem xml:id="MS_Heb_e_103-part9-item1-item2">
-                           <p>On <locus from="56b">fol. 56b</locus> 
-                              <quote type="head">קינה</quote> beg. <quote type="beg">על היכלי אבכה יומם ולילה ולתפארת ציון עיר ההוללה</quote>, with acr. <quote type="acr">עב[א]ס</quote>, but the third strophe is wanting. Zunz, p. 343, no. 3.</p>
+                        <msItem xml:id="MS_Heb_e_103-part9-item1-item2">
+                           <p>On<locus from="56b">fol. 56b</locus>
+                              <quote type="head">קינה</quote>beg.<quote type="beg">על היכלי אבכה יומם ולילה ולתפארת ציון עיר ההוללה</quote>, with acr.<quote type="acr">עב[א]ס</quote>, but the third strophe is wanting. Zunz, p. 343, no. 3.</p>
                         </msItem>
-                                <msItem xml:id="MS_Heb_e_103-part9-item1-item3">
+                        <msItem xml:id="MS_Heb_e_103-part9-item1-item3">
                            <p>
-                              <locus from="57a">Fol. 57</locus> headed <quote type="head">תקון הלילה במצות לשם כל ישראל ...</quote>; then follow Pss. 42-44, 19-21, 26-28, 34, 35, 40, 63, 67, 111, 112, 51, 72. </p>
+                              <locus from="57a">Fol. 57</locus>headed<quote type="head">תקון הלילה במצות לשם כל ישראל ...</quote>; then follow Pss. 42-44, 19-21, 26-28, 34, 35, 40, 63, 67, 111, 112, 51, 72.</p>
                         </msItem>
-                                <msItem xml:id="MS_Heb_e_103-part9-item1-item4">
+                        <msItem xml:id="MS_Heb_e_103-part9-item1-item4">
                            <p>
-                              <locus from="61b">Fol. 61b</locus> Gen. 22,1-19 headed <quote type="head">פרשת עקדת יצחק</quote>. On the margin is a suitable prayer beg. <quote type="beg">א̇ו̇א̇ זכרנו בזכרון טוב לפניך ופקדנו ...</quote>.</p>
+                              <locus from="61b">Fol. 61b</locus>Gen. 22,1-19 headed<quote type="head">פרשת עקדת יצחק</quote>. On the margin is a suitable prayer beg.<quote type="beg">א̇ו̇א̇ זכרנו בזכרון טוב לפניך ופקדנו ...</quote>.</p>
                         </msItem>
-                                <msItem xml:id="MS_Heb_e_103-part9-item1-item5">
+                        <msItem xml:id="MS_Heb_e_103-part9-item1-item5">
                            <p>
-                              <locus from="62a">Fol. 62</locus> Exod. 16, 4-36, headed <quote type="head">פ' עשרת הדברות</quote>. On the margin is a prayer beg. <quote type="beg">יֿרֿמֿיֿאֿוֿאֿ שיהיו מזונותי ומ' ביתי ומ' זרעי מסורין בידך ...</quote>.</p>
+                              <locus from="62a">Fol. 62</locus>Exod. 16, 4-36, headed<quote type="head">פ' עשרת הדברות</quote>. On the margin is a prayer beg.<quote type="beg">יֿרֿמֿיֿאֿוֿאֿ שיהיו מזונותי ומ' ביתי ומ' זרעי מסורין בידך ...</quote>.</p>
                         </msItem>
-                                <msItem xml:id="MS_Heb_e_103-part9-item1-item6">
+                        <msItem xml:id="MS_Heb_e_103-part9-item1-item6">
                            <p>
-                              <locus from="62a">Ibid.</locus> Deut. 10,12-21 headed <quote type="head">בפ' והיה עקב</quote>.</p>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_e_103-part9-item1-item7">
-                           <p>
-                              <locus from="63b">Fol.63b</locus> Deut. 30,1-9, incomplete, headed <quote type="head">בפ' נצבים</quote>.</p>
+                              <locus from="62a">Ibid.</locus>Deut. 10,12-21 headed<quote type="head">בפ' והיה עקב</quote>.</p>
                         </msItem>
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Ital. curs. char.; <material>paper</material>, 8 1/4 x 5 1/2 in., 28 lines.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part10" n="10">
-                        <msIdentifier>
+                        <msItem xml:id="MS_Heb_e_103-part9-item1-item7">
+                           <p>
+                              <locus from="63b">Fol.63b</locus>Deut. 30,1-9, incomplete, headed<quote type="head">בפ' נצבים</quote>.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Ital. curs. char.;<material>paper</material>, 8 1/4 x 5 1/2 in., 28 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part10" n="10">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/10</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/10</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part10-item1">
-                                <locus from="64a" to="64b">Fol. 64</locus>
-                                <author/>
-                                <title>Fragment of a homily on נצבים, in Arabic</title>
-                                <note>beg. <quote type="beg">... אמתלא אללה עליה גצ̇ב כ̇ק̇ ויתעבר י̇י בי למענכם תם פתאח פמו וקאל ויעבור י̇י על פניו ויקרא י̇י וגוֿ פי אלחין קאל אללה יא משה חלפת אמאנין אימאן אלואחד כאנת תמות ואלתאני אן כונת מא תמות ...</quote> 
-                                    <p>end <quote type="end">... ובקא יהושע קאעד וידרוש ומשה ואקף ואחנא קאמתו וחט ידו עלא פומו ויהושע משתהל ומא דאר באלו אן משה ואקף</quote>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part10-item1">
+                        <locus from="64a" to="64b">Fol. 64</locus>
+                        <title>Fragment of a homily on נצבים, in Arabic</title>
+                        <note>beg.<quote type="beg">... אמתלא אללה עליה גצ̇ב כ̇ק̇ ויתעבר י̇י בי למענכם תם פתאח פמו וקאל ויעבור י̇י על פניו ויקרא י̇י וגוֿ פי אלחין קאל אללה יא משה חלפת אמאנין אימאן אלואחד כאנת תמות ואלתאני אן כונת מא תמות ...</quote>
+                           <p>end<quote type="end">... ובקא יהושע קאעד וידרוש ומשה ואקף ואחנא קאמתו וחט ידו עלא פומו ויהושע משתהל ומא דאר באלו אן משה ואקף</quote>
                            </p>
-                        </note> 
-                            
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Or. curs. char.; <material>paper</material>, 8 x 6 in., 19 lines.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part11" n="11">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Or. curs. char.;<material>paper</material>, 8 x 6 in., 19 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part11" n="11">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/11</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/11</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part11-item1">
-                                <locus from="65a" to="66b">Fols. 65, 66</locus>
-                                <author/>
-                                <title>Fragments of homilies in Arabic</title>
-                                <note/>  
-                              
-                                <msItem xml:id="MS_Heb_e_103-part11-item1-item1" n="a">
-                           <title>Homily on קרח</title> 
-                           <note>beg. (<locus from="65a">fol. 65</locus>) <quote>... קרח רב פאנת תלמיד ליס יגי מנך מלך ולא כהן ואלדי יַחַלוק עלא אלסייד משה פהו יחלוק עלא אלשכינה לאנהו רסול רב אלעאלמין ...</quote>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part11-item1">
+                        <locus from="65a" to="66b">Fols. 65, 66</locus>
+                        <title>Fragments of homilies in Arabic</title>
+                        <msItem xml:id="MS_Heb_e_103-part11-item1-item1" n="a">
+                           <title>Homily on קרח</title>
+                           <note>beg. (<locus from="65a">fol. 65</locus>)<quote>... קרח רב פאנת תלמיד ליס יגי מנך מלך ולא כהן ואלדי יַחַלוק עלא אלסייד משה פהו יחלוק עלא אלשכינה לאנהו רסול רב אלעאלמין ...</quote>
                            </note>
-                        </msItem> 
-                                <msItem xml:id="MS_Heb_e_103-part11-item1-item2" n="b">
-                           <title>Homily on בלק</title> 
-                           <note>beg. <quote>...אב אן ואחד אולאד תרח אבי אברהם כאן כנתם מא תאכלו מן דבאייחנא</quote>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_e_103-part11-item1-item2" n="b">
+                           <title>Homily on בלק</title>
+                           <note>beg.<quote>...אב אן ואחד אולאד תרח אבי אברהם כאן כנתם מא תאכלו מן דבאייחנא</quote>
                            </note>
-                        </msItem>                                                              
-                                
-                                
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Or. Rabb. char. (like <locus from="43a" to="53b">fols. 43-53</locus>), <material>paper</material>, 8 3/8 x 5 7/8 in., 22-23 lines. Stained. There is a border of two red lines.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part12" n="12">
-                        <msIdentifier>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Or. Rabb. char. (like<locus from="43a" to="53b">fols. 43-53</locus>),<material>paper</material>, 8 3/8 x 5 7/8 in., 22-23 lines. Stained. There is a border of two red lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part12" n="12">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/12</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/12</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part12-item1">
-                                <locus from="67a" to="67b">Fol. 67</locus>
-                                <author/>
-                                <title>Fragment of an anti–Christian polemical work</title>
-                                <note>A partially legible section beg. (<locus from="67b">fol. 67b</locus>)
-                                    <p>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part12-item1">
+                        <locus from="67a" to="67b">Fol. 67</locus>
+                        <title>Fragment of an anti–Christian polemical work</title>
+                        <note>A partially legible section beg. (<locus from="67b">fol. 67b</locus>)<p>
                               <quote>ועוד שידוע שלא נתקנה התפלה מעומד כי אם בזמן שעלו מבבל לירושלם ותקנוה אנשי כנסת הגדולה כמו שמוכיח במס' ברכות ובמס' מגלה והם עזרא וב̇ד̇ ותקנו מלכות יוון (?) על מלכות בבל הרשעה שחרבה עירנו ושממה מקדשינו וגלתה יקרה (?) ואומתינו כי מלכות בבל נקראת זדון ...</quote>
                            </p>
-                                </note> 
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. curs. char.; <material>paper</material>, 7 3/4 x 5 1/4 in., 28 lines. Stained and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_e_103-part13" n="13">
-                        <msIdentifier>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. curs. char.;<material>paper</material>, 7 3/4 x 5 1/4 in., 28 lines. Stained and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_103-part13" n="13">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. e. 103/13</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. e. 103/13</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_e_103-part13-item1">
-                                <locus from="68a" to="69b">Fols. 68, 69</locus>
-                                <author/>
-                                <title>Poem in Arabic</title>
-                                <note>arranged in a framework of red lines, in compartments, each containing two lines. Apparently intended for geomantic purposes. At the right hand side of each compartment is one of the words תהמה, אצדקה, כ̇דמה, מריץ̇, שרכה, ביע, גִאיב, זואג̇, חג̇, אעדא, אסיר. 
-                                    <p>The pages are headed </p>
-                                    <p>(<locus from="68a">fol. 68</locus>) <quote type="head">אלקול עלא מלך כ̇וארזם ושרח אלצ̇מיר</quote>, </p>
-                                    <p>(<locus from="68b">fol. 68b</locus>) <quote type="head">אלקול עלא מלך אלעראק ושרח אלצ̇</quote>, </p>
-                                    <p>(<locus from="69a">fol. 69</locus>) <quote type="head">אלק' ע' מ' אלאכראד וש' אלצ̇'</quote>, </p>
-                                    <p>(<locus from="69b">fol. 69b</locus>) <quote type="head">אלק' ע' מ' אלר.. אן וש' אלצ̇'</quote>. </p>
-                                    <p>Beg. <quote type="beg">לא תתהם אלקום אלסן תהמתהום ...</quote>.</p>
-                        </note> 
-                              
-                                <textLang mainLang="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. curs. char.; <material>paper</material>, 8 1/4 x 5 3/4 in., 19 lines. Stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Fragment from the Genizah, acquired by exchange from Dr. <persName>C.D. Ginsburg</persName>, in <date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="TYPED">
-                    <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
-                    </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                
-                
-                <keywords scheme="#TYPED">
-                    <term>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_103-part13-item1">
+                        <locus from="68a" to="69b">Fols. 68, 69</locus>
+                        <title>Poem in Arabic</title>
+                        <note>arranged in a framework of red lines, in compartments, each containing two lines. Apparently intended for geomantic purposes. At the right hand side of each compartment is one of the words תהמה, אצדקה, כ̇דמה, מריץ̇, שרכה, ביע, גִאיב, זואג̇, חג̇, אעדא, אסיר.<p>The pages are headed</p>
+                           <p>(<locus from="68a">fol. 68</locus>)<quote type="head">אלקול עלא מלך כ̇וארזם ושרח אלצ̇מיר</quote>,</p>
+                           <p>(<locus from="68b">fol. 68b</locus>)<quote type="head">אלקול עלא מלך אלעראק ושרח אלצ̇</quote>,</p>
+                           <p>(<locus from="69a">fol. 69</locus>)<quote type="head">אלק' ע' מ' אלאכראד וש' אלצ̇'</quote>,</p>
+                           <p>(<locus from="69b">fol. 69b</locus>)<quote type="head">אלק' ע' מ' אלר.. אן וש' אלצ̇'</quote>.</p>
+                           <p>Beg.<quote type="beg">לא תתהם אלקום אלסן תהמתהום ...</quote>.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. curs. char.;<material>paper</material>, 8 1/4 x 5 3/4 in., 19 lines. Stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Fragment from the Genizah, acquired by exchange from Dr.<persName>C.D. Ginsburg</persName>, in<date calendar="Gregorian" notBefore="1900" notAfter="1931">19xx</date>.</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="TYPED">
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#TYPED">
+               <term>
                   <ref target="#MS_Heb_e_103_05">
                      <persName type="aut">Moses b. Naḥman</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_103_07">
                      <persName type="aut">David b. Zimra</persName>.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_e_103_09">
                      <persName type="aut">ʿAbbas</persName>.</ref>
                </term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2011-06-24">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS_HEB_e_103_1a.tif"/>
-        <graphic url="MS_HEB_e_103_1b.tif"/>
-        <graphic url="MS_HEB_e_103_2a.tif"/>
-        <graphic url="MS_HEB_e_103_2b.tif"/>
-        <graphic url="MS_HEB_e_103_3a.tif"/>
-        <graphic url="MS_HEB_e_103_3b.tif"/>
-        <graphic url="MS_HEB_e_103_4a.tif"/>
-        <graphic url="MS_HEB_e_103_4b.tif"/>
-        <graphic url="MS_HEB_e_103_5a.tif"/>
-        <graphic url="MS_HEB_e_103_5b.tif"/>
-        <graphic url="MS_HEB_e_103_6a.tif"/>
-        <graphic url="MS_HEB_e_103_6b.tif"/>
-        <graphic url="MS_HEB_e_103_7a.tif"/>
-        <graphic url="MS_HEB_e_103_7b.tif"/>
-        <graphic url="MS_HEB_e_103_8a.tif"/>
-        <graphic url="MS_HEB_e_103_8b.tif"/>
-        <graphic url="MS_HEB_e_103_9a.tif"/>
-        <graphic url="MS_HEB_e_103_9b.tif"/>
-        
-        <graphic url="MS_HEB_e_103_10a.tif"/>
-        <graphic url="MS_HEB_e_103_10b.tif"/>
-        <graphic url="MS_HEB_e_103_11a.tif"/>
-        <graphic url="MS_HEB_e_103_11b.tif"/>
-        <graphic url="MS_HEB_e_103_12a.tif"/>
-        <graphic url="MS_HEB_e_103_12b.tif"/>
-        <graphic url="MS_HEB_e_103_13a.tif"/>
-        <graphic url="MS_HEB_e_103_13b.tif"/>
-        <graphic url="MS_HEB_e_103_14a.tif"/>
-        <graphic url="MS_HEB_e_103_14b.tif"/>
-        <graphic url="MS_HEB_e_103_15a.tif"/>
-        <graphic url="MS_HEB_e_103_15b.tif"/>
-        <graphic url="MS_HEB_e_103_16a.tif"/>
-        <graphic url="MS_HEB_e_103_16b.tif"/>
-        <graphic url="MS_HEB_e_103_17a.tif"/>
-        <graphic url="MS_HEB_e_103_17b.tif"/>
-        <graphic url="MS_HEB_e_103_18a.tif"/>
-        <graphic url="MS_HEB_e_103_18b.tif"/>
-        <graphic url="MS_HEB_e_103_19a.tif"/>
-        <graphic url="MS_HEB_e_103_19b.tif"/>
-        
-        <graphic url="MS_HEB_e_103_20a.tif"/>
-        <graphic url="MS_HEB_e_103_20b.tif"/>
-        <graphic url="MS_HEB_e_103_21a.tif"/>
-        <graphic url="MS_HEB_e_103_21b.tif"/>
-        <graphic url="MS_HEB_e_103_22a.tif"/>
-        <graphic url="MS_HEB_e_103_22b.tif"/>
-        <graphic url="MS_HEB_e_103_23a.tif"/>
-        <graphic url="MS_HEB_e_103_23b.tif"/>
-        <graphic url="MS_HEB_e_103_24a.tif"/>
-        <graphic url="MS_HEB_e_103_24b.tif"/>
-        <graphic url="MS_HEB_e_103_25a.tif"/>
-        <graphic url="MS_HEB_e_103_25b.tif"/>
-        <graphic url="MS_HEB_e_103_26a.tif"/>
-        <graphic url="MS_HEB_e_103_26b.tif"/>
-        <graphic url="MS_HEB_e_103_27a.tif"/>
-        <graphic url="MS_HEB_e_103_27b.tif"/>
-        <graphic url="MS_HEB_e_103_28a.tif"/>
-        <graphic url="MS_HEB_e_103_28b.tif"/>
-        <graphic url="MS_HEB_e_103_29a.tif"/>
-        <graphic url="MS_HEB_e_103_29b.tif"/>
-        
-        <graphic url="MS_HEB_e_103_30a.tif"/>
-        <graphic url="MS_HEB_e_103_30b.tif"/>
-        <graphic url="MS_HEB_e_103_31a.tif"/>
-        <graphic url="MS_HEB_e_103_31b.tif"/>
-        <graphic url="MS_HEB_e_103_32a.tif"/>
-        <graphic url="MS_HEB_e_103_32b.tif"/>
-        <graphic url="MS_HEB_e_103_33a.tif"/>
-        <graphic url="MS_HEB_e_103_33b.tif"/>
-        <graphic url="MS_HEB_e_103_34a.tif"/>
-        <graphic url="MS_HEB_e_103_34b.tif"/>
-        <graphic url="MS_HEB_e_103_35a.tif"/>
-        <graphic url="MS_HEB_e_103_35b.tif"/>
-        <graphic url="MS_HEB_e_103_36a.tif"/>
-        <graphic url="MS_HEB_e_103_36b.tif"/>
-        <graphic url="MS_HEB_e_103_37a.tif"/>
-        <graphic url="MS_HEB_e_103_37b.tif"/>
-        <graphic url="MS_HEB_e_103_38a.tif"/>
-        <graphic url="MS_HEB_e_103_38b.tif"/>
-        <graphic url="MS_HEB_e_103_39a.tif"/>
-        <graphic url="MS_HEB_e_103_39b.tif"/>
-        
-        <graphic url="MS_HEB_e_103_40a.tif"/>
-        <graphic url="MS_HEB_e_103_40b.tif"/>
-        <graphic url="MS_HEB_e_103_41a.tif"/>
-        <graphic url="MS_HEB_e_103_41b.tif"/>
-        <graphic url="MS_HEB_e_103_42a.tif"/>
-        <graphic url="MS_HEB_e_103_42b.tif"/>
-        <graphic url="MS_HEB_e_103_43a.tif"/>
-        <graphic url="MS_HEB_e_103_43b.tif"/>
-        <graphic url="MS_HEB_e_103_44a.tif"/>
-        <graphic url="MS_HEB_e_103_44b.tif"/>
-        <graphic url="MS_HEB_e_103_45a.tif"/>
-        <graphic url="MS_HEB_e_103_45b.tif"/>
-        <graphic url="MS_HEB_e_103_46a.tif"/>
-        <graphic url="MS_HEB_e_103_46b.tif"/>
-        <graphic url="MS_HEB_e_103_47a.tif"/>
-        <graphic url="MS_HEB_e_103_47b.tif"/>
-        <graphic url="MS_HEB_e_103_48a.tif"/>
-        <graphic url="MS_HEB_e_103_48b.tif"/>
-        <graphic url="MS_HEB_e_103_49a.tif"/>
-        <graphic url="MS_HEB_e_103_49b.tif"/>
-        
-        <graphic url="MS_HEB_e_103_50a.tif"/>
-        <graphic url="MS_HEB_e_103_50b.tif"/>
-        <graphic url="MS_HEB_e_103_51a.tif"/>
-        <graphic url="MS_HEB_e_103_51b.tif"/>
-        <graphic url="MS_HEB_e_103_52a.tif"/>
-        <graphic url="MS_HEB_e_103_52b.tif"/>
-        <graphic url="MS_HEB_e_103_53a.tif"/>
-        <graphic url="MS_HEB_e_103_53b.tif"/>
-        <graphic url="MS_HEB_e_103_54a.tif"/>
-        <graphic url="MS_HEB_e_103_54b.tif"/>
-        <graphic url="MS_HEB_e_103_55a.tif"/>
-        <graphic url="MS_HEB_e_103_55b.tif"/>
-        <graphic url="MS_HEB_e_103_56a.tif"/>
-        <graphic url="MS_HEB_e_103_56b.tif"/>
-        <graphic url="MS_HEB_e_103_57a.tif"/>
-        <graphic url="MS_HEB_e_103_57b.tif"/>
-        <graphic url="MS_HEB_e_103_58a.tif"/>
-        <graphic url="MS_HEB_e_103_58b.tif"/>
-        <graphic url="MS_HEB_e_103_59a.tif"/>
-        <graphic url="MS_HEB_e_103_59b.tif"/>
-        
-        <graphic url="MS_HEB_e_103_60a.tif"/>
-        <graphic url="MS_HEB_e_103_60b.tif"/>
-        <graphic url="MS_HEB_e_103_61a.tif"/>
-        <graphic url="MS_HEB_e_103_61b.tif"/>
-        <graphic url="MS_HEB_e_103_62a.tif"/>
-        <graphic url="MS_HEB_e_103_62b.tif"/>
-        <graphic url="MS_HEB_e_103_63a.tif"/>
-        <graphic url="MS_HEB_e_103_63b.tif"/>
-        <graphic url="MS_HEB_e_103_64a.tif"/>
-        <graphic url="MS_HEB_e_103_64b.tif"/>
-        <graphic url="MS_HEB_e_103_65a.tif"/>
-        <graphic url="MS_HEB_e_103_65b.tif"/>
-        <graphic url="MS_HEB_e_103_66a.tif"/>
-        <graphic url="MS_HEB_e_103_66b.tif"/>
-        <graphic url="MS_HEB_e_103_67a.tif"/>
-        <graphic url="MS_HEB_e_103_67b.tif"/>
-        <graphic url="MS_HEB_e_103_68a.tif"/>
-        <graphic url="MS_HEB_e_103_68b.tif"/>
-        <graphic url="MS_HEB_e_103_69a.tif"/>
-        <graphic url="MS_HEB_e_103_69b.tif"/>
-        
-        
-    </facsimile>
+         <change when="2011-06-24">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_e_103_1a.tif"/>
+      <graphic url="MS_HEB_e_103_1b.tif"/>
+      <graphic url="MS_HEB_e_103_2a.tif"/>
+      <graphic url="MS_HEB_e_103_2b.tif"/>
+      <graphic url="MS_HEB_e_103_3a.tif"/>
+      <graphic url="MS_HEB_e_103_3b.tif"/>
+      <graphic url="MS_HEB_e_103_4a.tif"/>
+      <graphic url="MS_HEB_e_103_4b.tif"/>
+      <graphic url="MS_HEB_e_103_5a.tif"/>
+      <graphic url="MS_HEB_e_103_5b.tif"/>
+      <graphic url="MS_HEB_e_103_6a.tif"/>
+      <graphic url="MS_HEB_e_103_6b.tif"/>
+      <graphic url="MS_HEB_e_103_7a.tif"/>
+      <graphic url="MS_HEB_e_103_7b.tif"/>
+      <graphic url="MS_HEB_e_103_8a.tif"/>
+      <graphic url="MS_HEB_e_103_8b.tif"/>
+      <graphic url="MS_HEB_e_103_9a.tif"/>
+      <graphic url="MS_HEB_e_103_9b.tif"/>
+      <graphic url="MS_HEB_e_103_10a.tif"/>
+      <graphic url="MS_HEB_e_103_10b.tif"/>
+      <graphic url="MS_HEB_e_103_11a.tif"/>
+      <graphic url="MS_HEB_e_103_11b.tif"/>
+      <graphic url="MS_HEB_e_103_12a.tif"/>
+      <graphic url="MS_HEB_e_103_12b.tif"/>
+      <graphic url="MS_HEB_e_103_13a.tif"/>
+      <graphic url="MS_HEB_e_103_13b.tif"/>
+      <graphic url="MS_HEB_e_103_14a.tif"/>
+      <graphic url="MS_HEB_e_103_14b.tif"/>
+      <graphic url="MS_HEB_e_103_15a.tif"/>
+      <graphic url="MS_HEB_e_103_15b.tif"/>
+      <graphic url="MS_HEB_e_103_16a.tif"/>
+      <graphic url="MS_HEB_e_103_16b.tif"/>
+      <graphic url="MS_HEB_e_103_17a.tif"/>
+      <graphic url="MS_HEB_e_103_17b.tif"/>
+      <graphic url="MS_HEB_e_103_18a.tif"/>
+      <graphic url="MS_HEB_e_103_18b.tif"/>
+      <graphic url="MS_HEB_e_103_19a.tif"/>
+      <graphic url="MS_HEB_e_103_19b.tif"/>
+      <graphic url="MS_HEB_e_103_20a.tif"/>
+      <graphic url="MS_HEB_e_103_20b.tif"/>
+      <graphic url="MS_HEB_e_103_21a.tif"/>
+      <graphic url="MS_HEB_e_103_21b.tif"/>
+      <graphic url="MS_HEB_e_103_22a.tif"/>
+      <graphic url="MS_HEB_e_103_22b.tif"/>
+      <graphic url="MS_HEB_e_103_23a.tif"/>
+      <graphic url="MS_HEB_e_103_23b.tif"/>
+      <graphic url="MS_HEB_e_103_24a.tif"/>
+      <graphic url="MS_HEB_e_103_24b.tif"/>
+      <graphic url="MS_HEB_e_103_25a.tif"/>
+      <graphic url="MS_HEB_e_103_25b.tif"/>
+      <graphic url="MS_HEB_e_103_26a.tif"/>
+      <graphic url="MS_HEB_e_103_26b.tif"/>
+      <graphic url="MS_HEB_e_103_27a.tif"/>
+      <graphic url="MS_HEB_e_103_27b.tif"/>
+      <graphic url="MS_HEB_e_103_28a.tif"/>
+      <graphic url="MS_HEB_e_103_28b.tif"/>
+      <graphic url="MS_HEB_e_103_29a.tif"/>
+      <graphic url="MS_HEB_e_103_29b.tif"/>
+      <graphic url="MS_HEB_e_103_30a.tif"/>
+      <graphic url="MS_HEB_e_103_30b.tif"/>
+      <graphic url="MS_HEB_e_103_31a.tif"/>
+      <graphic url="MS_HEB_e_103_31b.tif"/>
+      <graphic url="MS_HEB_e_103_32a.tif"/>
+      <graphic url="MS_HEB_e_103_32b.tif"/>
+      <graphic url="MS_HEB_e_103_33a.tif"/>
+      <graphic url="MS_HEB_e_103_33b.tif"/>
+      <graphic url="MS_HEB_e_103_34a.tif"/>
+      <graphic url="MS_HEB_e_103_34b.tif"/>
+      <graphic url="MS_HEB_e_103_35a.tif"/>
+      <graphic url="MS_HEB_e_103_35b.tif"/>
+      <graphic url="MS_HEB_e_103_36a.tif"/>
+      <graphic url="MS_HEB_e_103_36b.tif"/>
+      <graphic url="MS_HEB_e_103_37a.tif"/>
+      <graphic url="MS_HEB_e_103_37b.tif"/>
+      <graphic url="MS_HEB_e_103_38a.tif"/>
+      <graphic url="MS_HEB_e_103_38b.tif"/>
+      <graphic url="MS_HEB_e_103_39a.tif"/>
+      <graphic url="MS_HEB_e_103_39b.tif"/>
+      <graphic url="MS_HEB_e_103_40a.tif"/>
+      <graphic url="MS_HEB_e_103_40b.tif"/>
+      <graphic url="MS_HEB_e_103_41a.tif"/>
+      <graphic url="MS_HEB_e_103_41b.tif"/>
+      <graphic url="MS_HEB_e_103_42a.tif"/>
+      <graphic url="MS_HEB_e_103_42b.tif"/>
+      <graphic url="MS_HEB_e_103_43a.tif"/>
+      <graphic url="MS_HEB_e_103_43b.tif"/>
+      <graphic url="MS_HEB_e_103_44a.tif"/>
+      <graphic url="MS_HEB_e_103_44b.tif"/>
+      <graphic url="MS_HEB_e_103_45a.tif"/>
+      <graphic url="MS_HEB_e_103_45b.tif"/>
+      <graphic url="MS_HEB_e_103_46a.tif"/>
+      <graphic url="MS_HEB_e_103_46b.tif"/>
+      <graphic url="MS_HEB_e_103_47a.tif"/>
+      <graphic url="MS_HEB_e_103_47b.tif"/>
+      <graphic url="MS_HEB_e_103_48a.tif"/>
+      <graphic url="MS_HEB_e_103_48b.tif"/>
+      <graphic url="MS_HEB_e_103_49a.tif"/>
+      <graphic url="MS_HEB_e_103_49b.tif"/>
+      <graphic url="MS_HEB_e_103_50a.tif"/>
+      <graphic url="MS_HEB_e_103_50b.tif"/>
+      <graphic url="MS_HEB_e_103_51a.tif"/>
+      <graphic url="MS_HEB_e_103_51b.tif"/>
+      <graphic url="MS_HEB_e_103_52a.tif"/>
+      <graphic url="MS_HEB_e_103_52b.tif"/>
+      <graphic url="MS_HEB_e_103_53a.tif"/>
+      <graphic url="MS_HEB_e_103_53b.tif"/>
+      <graphic url="MS_HEB_e_103_54a.tif"/>
+      <graphic url="MS_HEB_e_103_54b.tif"/>
+      <graphic url="MS_HEB_e_103_55a.tif"/>
+      <graphic url="MS_HEB_e_103_55b.tif"/>
+      <graphic url="MS_HEB_e_103_56a.tif"/>
+      <graphic url="MS_HEB_e_103_56b.tif"/>
+      <graphic url="MS_HEB_e_103_57a.tif"/>
+      <graphic url="MS_HEB_e_103_57b.tif"/>
+      <graphic url="MS_HEB_e_103_58a.tif"/>
+      <graphic url="MS_HEB_e_103_58b.tif"/>
+      <graphic url="MS_HEB_e_103_59a.tif"/>
+      <graphic url="MS_HEB_e_103_59b.tif"/>
+      <graphic url="MS_HEB_e_103_60a.tif"/>
+      <graphic url="MS_HEB_e_103_60b.tif"/>
+      <graphic url="MS_HEB_e_103_61a.tif"/>
+      <graphic url="MS_HEB_e_103_61b.tif"/>
+      <graphic url="MS_HEB_e_103_62a.tif"/>
+      <graphic url="MS_HEB_e_103_62b.tif"/>
+      <graphic url="MS_HEB_e_103_63a.tif"/>
+      <graphic url="MS_HEB_e_103_63b.tif"/>
+      <graphic url="MS_HEB_e_103_64a.tif"/>
+      <graphic url="MS_HEB_e_103_64b.tif"/>
+      <graphic url="MS_HEB_e_103_65a.tif"/>
+      <graphic url="MS_HEB_e_103_65b.tif"/>
+      <graphic url="MS_HEB_e_103_66a.tif"/>
+      <graphic url="MS_HEB_e_103_66b.tif"/>
+      <graphic url="MS_HEB_e_103_67a.tif"/>
+      <graphic url="MS_HEB_e_103_67b.tif"/>
+      <graphic url="MS_HEB_e_103_68a.tif"/>
+      <graphic url="MS_HEB_e_103_68b.tif"/>
+      <graphic url="MS_HEB_e_103_69a.tif"/>
+      <graphic url="MS_HEB_e_103_69b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

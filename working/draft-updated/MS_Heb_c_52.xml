@@ -2,850 +2,703 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_39">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. c. 52</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_c_52</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. c. 52</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_c_52</idno>
             <idno type="msID">MS_Heb_c_52</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_c_52" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. c. 52</idno>
-                    </msIdentifier>
-                    <msContents>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_c_52" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. c. 52</idno>
+               </msIdentifier>
+               <msContents>
                   <summary>Biblical fragments</summary>
                </msContents>
-                    <physDesc>
+               <physDesc>
                   <p>Ff. 35.</p>
                </physDesc>
-                    <history>
-                        <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p007.jpg Catalogue-2_p008.jpg Catalogue-2_p009.jpg">fols. 7-9</ref>.</source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_c_52-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p007.jpg Catalogue-2_p008.jpg Catalogue-2_p009.jpg">fols. 7-9</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_c_52-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part1-item1">
-                                <locus from="1a" to="2b">Fols. 1, 2</locus>
-                                <author/>
-                                <title>Genesis</title>
-                                <note/>  
-                                <msItem xml:id="MS_Heb_c_52-part1-item1-item1">
-                                    <locus from="1a" to="1b">Fol. 1</locus>
-                                    <title>Part of Gen. 6,17 to 7,11</title>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_c_52-part1-item1-item2">
-                                    <locus from="2a" to="2b">Fol. 2</locus>
-                                    <title>Gen. 9,4-22</title>
-                                </msItem>
-                                <note>With Targum after each verse.</note>
-                                <textLang mainLang="he" otherLangs="arc"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>vellum</material>, originally about 7 1/2 in. wide, 2 columns.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part2" n="2">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part1-item1">
+                        <locus from="1a" to="2b">Fols. 1, 2</locus>
+                        <title>Genesis</title>
+                        <msItem xml:id="MS_Heb_c_52-part1-item1-item1">
+                           <locus from="1a" to="1b">Fol. 1</locus>
+                           <title>Part of Gen. 6,17 to 7,11</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_52-part1-item1-item2">
+                           <locus from="2a" to="2b">Fol. 2</locus>
+                           <title>Gen. 9,4-22</title>
+                        </msItem>
+                        <note>With Targum after each verse.</note>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>vellum</material>, originally about 7 1/2 in. wide, 2 columns.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part2-item1">
-                                <locus from="3a" to="3b">Fol. 3</locus>
-                                <author/>
-                                <title>Part of Gen. 35,20 to 36,1</title>
-                                <note/>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 7 1/4 in. wide.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part3" n="3">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part2-item1">
+                        <locus from="3a" to="3b">Fol. 3</locus>
+                        <title>Part of Gen. 35,20 to 36,1</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 7 1/4 in. wide.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part3" n="3">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/3</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/3</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part3-item1">
-                                <locus from="4a" to="4b">Fol. 4</locus>
-                                <author/>
-                                <title>Gen. 41,30-36</title>
-                                <note/>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 7 3/4 x 5 1/2 in., 10 lines, injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part4" n="4">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part3-item1">
+                        <locus from="4a" to="4b">Fol. 4</locus>
+                        <title>Gen. 41,30-36</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 7 3/4 x 5 1/2 in., 10 lines, injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part4" n="4">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/4</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/4</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part4-item1">
-                                <locus from="5a" to="6b">Fols. 5, 6</locus>
-                                <author/>
-                                <title>Exod. 9,22 to 13,17</title>
-                                <note>with vowel points, accents and Masorah.
-                                    <p>The name of the parasha (<quote type="head">בא</quote>) is written at the top, and the leaves are numbered כח, כט but not in the original hand.</p>  
-                                </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 10 5/8 x 7 7/8 in., 3 columns, 33 lines, stained and injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part5" n="5">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part4-item1">
+                        <locus from="5a" to="6b">Fols. 5, 6</locus>
+                        <title>Exod. 9,22 to 13,17</title>
+                        <note>with vowel points, accents and Masorah.<p>The name of the parasha (<quote type="head">בא</quote>) is written at the top, and the leaves are numbered כח, כט but not in the original hand.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 10 5/8 x 7 7/8 in., 3 columns, 33 lines, stained and injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part5" n="5">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/5</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/5</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part5-item1">
-                                <locus from="7a" to="8b">Fols. 7, 8</locus>
-                                <author/>
-                                <title>Part of Exod. 33,1 to 36,15</title>
-                                <note/>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Yemen (?) squ. char.; <material>vellum</material>, 10 1/2 in. wide, 3 columns, much injured and stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part6" n="6">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part5-item1">
+                        <locus from="7a" to="8b">Fols. 7, 8</locus>
+                        <title>Part of Exod. 33,1 to 36,15</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen (?) squ. char.;<material>vellum</material>, 10 1/2 in. wide, 3 columns, much injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part6" n="6">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/6</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/6</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part6-item1">
-                                <locus from="9a" to="10b">Fols. 9, 10</locus>
-                                <author/>
-                                <title>Leviticus</title>
-                                <note/>  
-                                <msItem xml:id="MS_Heb_c_52-part6-item1-item1">
-                                    <locus from="9a" to="9b">Fol. 9</locus>
-                                    <title>Part of Lev. 6,3-19</title>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_c_52-part6-item1-item2">
-                                    <locus from="10a" to="10b">Fol. 10</locus>
-                                    <title>Lev. 9,19 to 10,9</title>
-                                </msItem>
-                                <note>With vowel points and accents.</note>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 6 3/4 x 7 in. 2 columns, 13 lines, much injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part7" n="7">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part6-item1">
+                        <locus from="9a" to="10b">Fols. 9, 10</locus>
+                        <title>Leviticus</title>
+                        <msItem xml:id="MS_Heb_c_52-part6-item1-item1">
+                           <locus from="9a" to="9b">Fol. 9</locus>
+                           <title>Part of Lev. 6,3-19</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_52-part6-item1-item2">
+                           <locus from="10a" to="10b">Fol. 10</locus>
+                           <title>Lev. 9,19 to 10,9</title>
+                        </msItem>
+                        <note>With vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 6 3/4 x 7 in. 2 columns, 13 lines, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part7" n="7">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/7</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/7</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part7-item1">
-                                <locus from="11a" to="11b">Fol. 11</locus>
-                                <author/>
-                                <title>Part of Lev. 20,17 to 21,4</title>
-                                <note>with some vowel points.</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>vellum</material>, a small fragment, 4 1/4 in. wide.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part8" n="8">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part7-item1">
+                        <locus from="11a" to="11b">Fol. 11</locus>
+                        <title>Part of Lev. 20,17 to 21,4</title>
+                        <note>with some vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>vellum</material>, a small fragment, 4 1/4 in. wide.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part8" n="8">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/8</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/8</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part8-item1">
-                                <locus from="12a" to="13b">Fols. 12, 13</locus>
-                                <author/>
-                                <title>Deuteronomy</title>
-                                <note/>  
-                                <msItem xml:id="MS_Heb_c_52-part8-item1-item1">
-                                    <locus from="12a" to="12b">Fol. 12</locus>
-                                    <title>Part of Deut. 20,19 to 21,21</title>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_c_52-part8-item1-item2">
-                                    <locus from="13a" to="13b">Fol. 13</locus>
-                                    <title>Deut. 23,16 to 24,13</title>
-                                </msItem>
-                                <note>With the vowel points, accents and Masorah.</note>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 7 x 5 1/2 in., 2 columns, 22 lines, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part9" n="9">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part8-item1">
+                        <locus from="12a" to="13b">Fols. 12, 13</locus>
+                        <title>Deuteronomy</title>
+                        <msItem xml:id="MS_Heb_c_52-part8-item1-item1">
+                           <locus from="12a" to="12b">Fol. 12</locus>
+                           <title>Part of Deut. 20,19 to 21,21</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_52-part8-item1-item2">
+                           <locus from="13a" to="13b">Fol. 13</locus>
+                           <title>Deut. 23,16 to 24,13</title>
+                        </msItem>
+                        <note>With the vowel points, accents and Masorah.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 7 x 5 1/2 in., 2 columns, 22 lines, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part9" n="9">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/9</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/9</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part9-item1">
-                                <locus from="14a" to="14b">Fol. 14</locus>
-                                <author/>
-                                <title>1 Kings 8,12-16, 20-23</title>
-                                <note>with vowel points, accents and Masorah.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>vellum</material>, top left-hand corner of a leaf, in columns.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part10" n="10">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part9-item1">
+                        <locus from="14a" to="14b">Fol. 14</locus>
+                        <title>1 Kings 8,12-16, 20-23</title>
+                        <note>with vowel points, accents and Masorah.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>vellum</material>, top left-hand corner of a leaf, in columns.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part10" n="10">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/10</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/10</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part10-item1">
-                                <locus from="15a" to="16b">Fols. 15, 16</locus>
-                                <author/>
-                                <title>1 Kings</title>
-                                <note/>  
-                                <msItem xml:id="MS_Heb_c_52-part10-item1-item1">
-                                    <locus from="15a" to="15b">Fol. 15</locus>
-                                    <note>Inside margin only.</note>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_c_52-part10-item1-item2">
-                                    <locus from="16a" to="16b">Fol. 16</locus>
-                                    <title>1 Kgs. 1,16-27</title>
-                                </msItem>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 7 3/4 x 6 in., 14 lines, obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part11" n="11">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part10-item1">
+                        <locus from="15a" to="16b">Fols. 15, 16</locus>
+                        <title>1 Kings</title>
+                        <msItem xml:id="MS_Heb_c_52-part10-item1-item1">
+                           <locus from="15a" to="15b">Fol. 15</locus>
+                           <note>Inside margin only.</note>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_52-part10-item1-item2">
+                           <locus from="16a" to="16b">Fol. 16</locus>
+                           <title>1 Kgs. 1,16-27</title>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 7 3/4 x 6 in., 14 lines, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part11" n="11">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/11</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/11</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part11-item1">
-                                <locus from="17a" to="17b">Fol. 17</locus>
-                                <author/>
-                                <title>Part of 2 leaves, containing 1 Kings 8,5, 8,6, 8,26, and part of 8,32-54</title>
-                                <note>with vowel points, accents and Masorah.</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>vellum</material>, 7 in. wide, 2 columns, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part12" n="12">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part11-item1">
+                        <locus from="17a" to="17b">Fol. 17</locus>
+                        <title>Part of 2 leaves, containing 1 Kings 8,5, 8,6, 8,26, and part of 8,32-54</title>
+                        <note>with vowel points, accents and Masorah.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>vellum</material>, 7 in. wide, 2 columns, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part12" n="12">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/12</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/12</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part12-item1">
-                                <locus from="18a" to="18b">Fol. 18</locus>
-                                <author/>
-                                <title>Is. 60,19-22, 63,2-5</title>
-                                <note>with vowel points and accents.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, part of one column, obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part13" n="13">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part12-item1">
+                        <locus from="18a" to="18b">Fol. 18</locus>
+                        <title>Is. 60,19-22, 63,2-5</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, part of one column, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part13" n="13">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/13</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/13</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part13-item1">
-                                <locus from="19a" to="20b">Fols. 19, 20</locus>
-                                <author/>
-                                <title>Psalms</title>
-                                <note/>  
-                                <msItem xml:id="MS_Heb_c_52-part13-item1-item1">
-                                    <locus from="19a" to="19b">Fol. 19</locus>
-                                    <title>Pss. 23,3 to 24,5</title>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_c_52-part13-item1-item2">
-                                    <locus from="20a" to="20b">Fol. 20</locus>
-                                    
-                                    <title>Ps.27,3-11</title>
-                                </msItem>
-                                <note>With vowel points.</note>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>vellum</material>, 6 x 5 in., 11 lines, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part14" n="14">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part13-item1">
+                        <locus from="19a" to="20b">Fols. 19, 20</locus>
+                        <title>Psalms</title>
+                        <msItem xml:id="MS_Heb_c_52-part13-item1-item1">
+                           <locus from="19a" to="19b">Fol. 19</locus>
+                           <title>Pss. 23,3 to 24,5</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_52-part13-item1-item2">
+                           <locus from="20a" to="20b">Fol. 20</locus>
+                           <title>Ps.27,3-11</title>
+                        </msItem>
+                        <note>With vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>vellum</material>, 6 x 5 in., 11 lines, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part14" n="14">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/14</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/14</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part14-item1">
-                                <locus from="21a" to="21b">Fol. 21</locus>
-                                <author/>
-                                <title>Pss. 25,9 to 26,3</title>
-                                <note>with vowel points and accents.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 5 x 4 1/2 (about) in., 9 lines, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part15" n="15">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part14-item1">
+                        <locus from="21a" to="21b">Fol. 21</locus>
+                        <title>Pss. 25,9 to 26,3</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 5 x 4 1/2 (about) in., 9 lines, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part15" n="15">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/15</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/15</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part15-item1">
-                                <locus from="22a" to="22b">Fol. 22</locus>
-                                <author/>
-                                <title>Part of Ps. 89,3-15</title>
-                                <note>with vowel points and accents.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>vellum</material>, fragment 5 1/4 in. high, 11 lines.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part16" n="16">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part15-item1">
+                        <locus from="22a" to="22b">Fol. 22</locus>
+                        <title>Part of Ps. 89,3-15</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>vellum</material>, fragment 5 1/4 in. high, 11 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part16" n="16">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/16</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/16</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part16-item1">
-                                <locus from="23a" to="24b">Fols. 23, 24</locus>
-                                <author/>
-                                <title>Ps. 119, 23-36, 87-99</title>
-                                <note>with vowel points and raphe. Each section begins on a new line. Between §כ and §ל are some marks of division.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. (?) squ. char.; <material>paper</material>, outer margin cut off. 6 in. high, 11 lines, stained.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part17" n="17">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part16-item1">
+                        <locus from="23a" to="24b">Fols. 23, 24</locus>
+                        <title>Ps. 119, 23-36, 87-99</title>
+                        <note>with vowel points and raphe. Each section begins on a new line. Between §כ and §ל are some marks of division.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. (?) squ. char.;<material>paper</material>, outer margin cut off. 6 in. high, 11 lines, stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part17" n="17">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/17</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/17</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part17-item1">
-                                <locus from="25a" to="26b">Fols. 25, 26</locus>
-                                <author/>
-                                <title>Prov. 3,1 to 5,25</title>
-                                <note>with vowel points, accents and Masorah.
-                                    Written in hemistichs.</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 13 3/4 x 12 1/4 in., 20 lines.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part18" n="18">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part17-item1">
+                        <locus from="25a" to="26b">Fols. 25, 26</locus>
+                        <title>Prov. 3,1 to 5,25</title>
+                        <note>with vowel points, accents and Masorah. Written in hemistichs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 13 3/4 x 12 1/4 in., 20 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part18" n="18">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/18</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/18</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part18-item1">
-                                <locus from="27a" to="27b">Fol. 27</locus>
-                                <author/>
-                                <title>Small fragment of Job 21,28-34</title>
-                                <note>with vowel points and Masorah.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 4 3/4 in. wide.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part19" n="19">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part18-item1">
+                        <locus from="27a" to="27b">Fol. 27</locus>
+                        <title>Small fragment of Job 21,28-34</title>
+                        <note>with vowel points and Masorah.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 4 3/4 in. wide.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part19" n="19">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/19</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/19</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part19-item1">
-                                <locus from="28a" to="28b">Fol. 28</locus>
-                                <author/>
-                                <title>Ruth 1,12 to 2,2</title>
-                                <note>with vowel points, accents and Masorah.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>vellum</material>, 5 x 5 1/4 in., 12 lines, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part20" n="20">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part19-item1">
+                        <locus from="28a" to="28b">Fol. 28</locus>
+                        <title>Ruth 1,12 to 2,2</title>
+                        <note>with vowel points, accents and Masorah.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>vellum</material>, 5 x 5 1/4 in., 12 lines, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part20" n="20">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/20</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/20</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part20-item1">
-                                <locus from="29a" to="30b">Fols. 29, 30</locus>
-                                <author/>
-                                <title>Part of Lam. 2,19 to 4,12</title>
-                                <note/>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>vellum</material>, 2 columns, fragment only.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part21" n="21">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part20-item1">
+                        <locus from="29a" to="30b">Fols. 29, 30</locus>
+                        <title>Part of Lam. 2,19 to 4,12</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>vellum</material>, 2 columns, fragment only.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part21" n="21">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/21</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/21</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part21-item1">
-                                <locus from="31a" to="31b">Fol. 31</locus>
-                                <author/>
-                                <title>Esther 1,20 to 2,8</title>
-                                <note>
-                           <locus from="31b" to="31b">verso</locus> blank. 
-                                </note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>1 column of a scroll.</p>
-                            <p>Span. squ. char. with taggin; <material>leather</material>, 7 1/4 x 6 3/4 in. injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part22" n="22">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part21-item1">
+                        <locus from="31a" to="31b">Fol. 31</locus>
+                        <title>Esther 1,20 to 2,8</title>
+                        <note>
+                           <locus from="31b" to="31b">verso</locus>blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>1 column of a scroll.</p>
+                     <p>Span. squ. char. with taggin;<material>leather</material>, 7 1/4 x 6 3/4 in. injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part22" n="22">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/22</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/22</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part22-item1">
-                                <locus from="32a" to="33b">Fols. 32, 33</locus>
-                                <author/>
-                                <title>Est. 3,9 to 5,6</title>
-                                <note>verso blank.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>3 columns of a scroll.</p>
-                            <p>Span. squ. char.; <material>vellum</material>, each column (with margins) about 5 1/4 x 4 1/2 in., injured and obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part23" n="23">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part22-item1">
+                        <locus from="32a" to="33b">Fols. 32, 33</locus>
+                        <title>Est. 3,9 to 5,6</title>
+                        <note>verso blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>3 columns of a scroll.</p>
+                     <p>Span. squ. char.;<material>vellum</material>, each column (with margins) about 5 1/4 x 4 1/2 in., injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part23" n="23">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/23</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/23</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part23-item1">
-                                <locus from="34a" to="34b">Fol. 34</locus>
-                                <author/>
-                                <title>Small fragment of Est. 9,1-19</title>
-                                <note>with vowel points, accents and Masorah.</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. squ. char.; <material>vellum</material>, 2 columns.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_c_52-part24" n="24">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part23-item1">
+                        <locus from="34a" to="34b">Fol. 34</locus>
+                        <title>Small fragment of Est. 9,1-19</title>
+                        <note>with vowel points, accents and Masorah.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 2 columns.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_52-part24" n="24">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. c. 52/24</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. c. 52/24</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_c_52-part24-item1">
-                                <locus from="35a" to="35b">Fol. 35</locus>
-                                <author/>
-                                <title>Est. 9,9-12</title>
-                                <note>with vowel points and accents.</note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; <material>vellum</material>, part of a leaf 3 1/4 in. wide, obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>, ultimately from the Genizah.
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="TYPED">
-                    <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
-                    </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                
-              
-                <keywords scheme="#TYPED">
-                    <term/>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_52-part24-item1">
+                        <locus from="35a" to="35b">Fol. 35</locus>
+                        <title>Est. 9,9-12</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.;<material>vellum</material>, part of a leaf 3 1/4 in. wide, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>, ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="TYPED">
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2010-10-26">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS_HEB_c_52_1a.tif"/>
-        <graphic url="MS_HEB_c_52_1b.tif"/>
-        <graphic url="MS_HEB_c_52_2a.tif"/>
-        <graphic url="MS_HEB_c_52_2b.tif"/>
-        <graphic url="MS_HEB_c_52_3a.tif"/>
-        <graphic url="MS_HEB_c_52_3b.tif"/>
-        <graphic url="MS_HEB_c_52_4a.tif"/>
-        <graphic url="MS_HEB_c_52_4b.tif"/>
-        <graphic url="MS_HEB_c_52_5a.tif"/>
-        <graphic url="MS_HEB_c_52_5b.tif"/>
-        <graphic url="MS_HEB_c_52_6a.tif"/>
-        <graphic url="MS_HEB_c_52_6b.tif"/>
-        <graphic url="MS_HEB_c_52_7a.tif"/>
-        <graphic url="MS_HEB_c_52_7b.tif"/>
-        <graphic url="MS_HEB_c_52_8a.tif"/>
-        <graphic url="MS_HEB_c_52_8b.tif"/>
-        <graphic url="MS_HEB_c_52_9a.tif"/>
-        <graphic url="MS_HEB_c_52_9b.tif"/>
-        
-        <graphic url="MS_HEB_c_52_10a.tif"/>
-        <graphic url="MS_HEB_c_52_10b.tif"/>
-        <graphic url="MS_HEB_c_52_11a.tif"/>
-        <graphic url="MS_HEB_c_52_11b.tif"/>
-        <graphic url="MS_HEB_c_52_12a.tif"/>
-        <graphic url="MS_HEB_c_52_12b.tif"/>
-        <graphic url="MS_HEB_c_52_13a.tif"/>
-        <graphic url="MS_HEB_c_52_13b.tif"/>
-        <graphic url="MS_HEB_c_52_14a.tif"/>
-        <graphic url="MS_HEB_c_52_14b.tif"/>
-        <graphic url="MS_HEB_c_52_15a.tif"/>
-        <graphic url="MS_HEB_c_52_15b.tif"/>
-        <graphic url="MS_HEB_c_52_16a.tif"/>
-        <graphic url="MS_HEB_c_52_16b.tif"/>
-        <graphic url="MS_HEB_c_52_17a.tif"/>
-        <graphic url="MS_HEB_c_52_17b.tif"/>
-        <graphic url="MS_HEB_c_52_18a.tif"/>
-        <graphic url="MS_HEB_c_52_18b.tif"/>
-        <graphic url="MS_HEB_c_52_19a.tif"/>
-        <graphic url="MS_HEB_c_52_19b.tif"/>
-        
-        <graphic url="MS_HEB_c_52_20a.tif"/>
-        <graphic url="MS_HEB_c_52_20b.tif"/>
-        <graphic url="MS_HEB_c_52_21a.tif"/>
-        <graphic url="MS_HEB_c_52_21b.tif"/>
-        <graphic url="MS_HEB_c_52_22a.tif"/>
-        <graphic url="MS_HEB_c_52_22b.tif"/>
-        <graphic url="MS_HEB_c_52_23a.tif"/>
-        <graphic url="MS_HEB_c_52_23b.tif"/>
-        <graphic url="MS_HEB_c_52_24a.tif"/>
-        <graphic url="MS_HEB_c_52_24b.tif"/>
-        <graphic url="MS_HEB_c_52_25a.tif"/>
-        <graphic url="MS_HEB_c_52_25b.tif"/>
-        <graphic url="MS_HEB_c_52_26a.tif"/>
-        <graphic url="MS_HEB_c_52_26b.tif"/>
-        <graphic url="MS_HEB_c_52_27a.tif"/>
-        <graphic url="MS_HEB_c_52_27b.tif"/>
-        <graphic url="MS_HEB_c_52_28a.tif"/>
-        <graphic url="MS_HEB_c_52_28b.tif"/>
-        <graphic url="MS_HEB_c_52_29a.tif"/>
-        <graphic url="MS_HEB_c_52_29b.tif"/>
-        
-        <graphic url="MS_HEB_c_52_30a.tif"/>
-        <graphic url="MS_HEB_c_52_30b.tif"/>
-        <graphic url="MS_HEB_c_52_31a.tif"/>
-        <graphic url="MS_HEB_c_52_31b.tif"/>
-        <graphic url="MS_HEB_c_52_32a.tif"/>
-        <graphic url="MS_HEB_c_52_32b.tif"/>
-        <graphic url="MS_HEB_c_52_33a.tif"/>
-        <graphic url="MS_HEB_c_52_33b.tif"/>
-        <graphic url="MS_HEB_c_52_34a.tif"/>
-        <graphic url="MS_HEB_c_52_34b.tif"/>
-        <graphic url="MS_HEB_c_52_35a.tif"/>
-        <graphic url="MS_HEB_c_52_35b.tif"/>
-        
-    </facsimile>
+         <change when="2010-10-26">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_c_52_1a.tif"/>
+      <graphic url="MS_HEB_c_52_1b.tif"/>
+      <graphic url="MS_HEB_c_52_2a.tif"/>
+      <graphic url="MS_HEB_c_52_2b.tif"/>
+      <graphic url="MS_HEB_c_52_3a.tif"/>
+      <graphic url="MS_HEB_c_52_3b.tif"/>
+      <graphic url="MS_HEB_c_52_4a.tif"/>
+      <graphic url="MS_HEB_c_52_4b.tif"/>
+      <graphic url="MS_HEB_c_52_5a.tif"/>
+      <graphic url="MS_HEB_c_52_5b.tif"/>
+      <graphic url="MS_HEB_c_52_6a.tif"/>
+      <graphic url="MS_HEB_c_52_6b.tif"/>
+      <graphic url="MS_HEB_c_52_7a.tif"/>
+      <graphic url="MS_HEB_c_52_7b.tif"/>
+      <graphic url="MS_HEB_c_52_8a.tif"/>
+      <graphic url="MS_HEB_c_52_8b.tif"/>
+      <graphic url="MS_HEB_c_52_9a.tif"/>
+      <graphic url="MS_HEB_c_52_9b.tif"/>
+      <graphic url="MS_HEB_c_52_10a.tif"/>
+      <graphic url="MS_HEB_c_52_10b.tif"/>
+      <graphic url="MS_HEB_c_52_11a.tif"/>
+      <graphic url="MS_HEB_c_52_11b.tif"/>
+      <graphic url="MS_HEB_c_52_12a.tif"/>
+      <graphic url="MS_HEB_c_52_12b.tif"/>
+      <graphic url="MS_HEB_c_52_13a.tif"/>
+      <graphic url="MS_HEB_c_52_13b.tif"/>
+      <graphic url="MS_HEB_c_52_14a.tif"/>
+      <graphic url="MS_HEB_c_52_14b.tif"/>
+      <graphic url="MS_HEB_c_52_15a.tif"/>
+      <graphic url="MS_HEB_c_52_15b.tif"/>
+      <graphic url="MS_HEB_c_52_16a.tif"/>
+      <graphic url="MS_HEB_c_52_16b.tif"/>
+      <graphic url="MS_HEB_c_52_17a.tif"/>
+      <graphic url="MS_HEB_c_52_17b.tif"/>
+      <graphic url="MS_HEB_c_52_18a.tif"/>
+      <graphic url="MS_HEB_c_52_18b.tif"/>
+      <graphic url="MS_HEB_c_52_19a.tif"/>
+      <graphic url="MS_HEB_c_52_19b.tif"/>
+      <graphic url="MS_HEB_c_52_20a.tif"/>
+      <graphic url="MS_HEB_c_52_20b.tif"/>
+      <graphic url="MS_HEB_c_52_21a.tif"/>
+      <graphic url="MS_HEB_c_52_21b.tif"/>
+      <graphic url="MS_HEB_c_52_22a.tif"/>
+      <graphic url="MS_HEB_c_52_22b.tif"/>
+      <graphic url="MS_HEB_c_52_23a.tif"/>
+      <graphic url="MS_HEB_c_52_23b.tif"/>
+      <graphic url="MS_HEB_c_52_24a.tif"/>
+      <graphic url="MS_HEB_c_52_24b.tif"/>
+      <graphic url="MS_HEB_c_52_25a.tif"/>
+      <graphic url="MS_HEB_c_52_25b.tif"/>
+      <graphic url="MS_HEB_c_52_26a.tif"/>
+      <graphic url="MS_HEB_c_52_26b.tif"/>
+      <graphic url="MS_HEB_c_52_27a.tif"/>
+      <graphic url="MS_HEB_c_52_27b.tif"/>
+      <graphic url="MS_HEB_c_52_28a.tif"/>
+      <graphic url="MS_HEB_c_52_28b.tif"/>
+      <graphic url="MS_HEB_c_52_29a.tif"/>
+      <graphic url="MS_HEB_c_52_29b.tif"/>
+      <graphic url="MS_HEB_c_52_30a.tif"/>
+      <graphic url="MS_HEB_c_52_30b.tif"/>
+      <graphic url="MS_HEB_c_52_31a.tif"/>
+      <graphic url="MS_HEB_c_52_31b.tif"/>
+      <graphic url="MS_HEB_c_52_32a.tif"/>
+      <graphic url="MS_HEB_c_52_32b.tif"/>
+      <graphic url="MS_HEB_c_52_33a.tif"/>
+      <graphic url="MS_HEB_c_52_33b.tif"/>
+      <graphic url="MS_HEB_c_52_34a.tif"/>
+      <graphic url="MS_HEB_c_52_34b.tif"/>
+      <graphic url="MS_HEB_c_52_35a.tif"/>
+      <graphic url="MS_HEB_c_52_35b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

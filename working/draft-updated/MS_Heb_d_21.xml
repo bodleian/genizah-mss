@@ -2,325 +2,272 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_48">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. d. 21</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_d_21</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. d. 21</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_d_21</idno>
             <idno type="msID">MS_Heb_d_21</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_d_21" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. d. 21</idno>
-                        <altIdentifier type="other">
-                            <idno type="cat_no">2676</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <physDesc>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_d_21" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. d. 21</idno>
+               </msIdentifier>
+               <physDesc>
                   <p>Ff. 12.</p>
                </physDesc>
-                    <history>
-                        <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1890</date> (from the Genizah).
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>
-                                    Manuscript description based on <bibl>Catalogue
-                                        of the Hebrew Manuscripts in the Bodleian
-                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p028a.jpg">No. 2676</ref>.
-                                </source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_d_21-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p028a.jpg">No. 2676</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_d_21-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 21/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 21/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_21-part1-item1">
-                                <locus from="1a" to="2b"/>
-                                <author/>
-                                <title>Babylonian Talmud סוכה</title>
-                                <note/>
-                                  
-                                <msItem xml:id="MS_Heb_d_21-part1-item1-item1" n="a">
-                                    <p>(<locus from="1b" to="1b">fol. 1b</locus>) chap. i of Mishnah and first word of Gem.;</p>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_d_21-part1-item1-item2" n="b">
-                                    <p>(<locus from="2a" to="2b">fol. 2</locus>) from נקיבות פסולה (fol. 12b, l. 7) to סבירא להו האי (fol. 14, l. 11).</p>
-                                </msItem>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. Rabb. char.; small fol., <material>vellum</material>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1890</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_21-part2" n="2">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_21-part1-item1">
+                        <locus from="1a" to="2b"/>
+                        <title>Babylonian Talmud סוכה</title>
+                        <msItem xml:id="MS_Heb_d_21-part1-item1-item1" n="a">
+                           <p>(<locus from="1b" to="1b">fol. 1b</locus>) chap. i of Mishnah and first word of Gem.;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_21-part1-item1-item2" n="b">
+                           <p>(<locus from="2a" to="2b">fol. 2</locus>) from נקיבות פסולה (fol. 12b, l. 7) to סבירא להו האי (fol. 14, l. 11).</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; small fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_21-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 21/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 21/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_21-part2-item1">
-                                <locus from="3a" to="3b">Fol. 3</locus>
-                                <author/>
-                                <title>הלכות גדולות</title>
-                                <note>tractate בבא קמא, from מן ההקדש (ed. Venice, fol. 87b, l. 10; ed. Hild. shortened) to איכא בניהו (ed. Venice, fol. 87c, l. 23 from below). 
-                                    <p>Some vowel points; marginal notes in Arabic.</p>
-                                    
-                                </note>  
-                               
-                                <textLang mainLang="he" otherLangs="jrb"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; fol., <material>vellum</material>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1890</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_21-part3" n="3">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_21-part2-item1">
+                        <locus from="3a" to="3b">Fol. 3</locus>
+                        <title>הלכות גדולות</title>
+                        <note>tractate בבא קמא, from מן ההקדש (ed. Venice, fol. 87b, l. 10; ed. Hild. shortened) to איכא בניהו (ed. Venice, fol. 87c, l. 23 from below).<p>Some vowel points; marginal notes in Arabic.</p>
+                        </note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_21-part3" n="3">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 21/3</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 21/3</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_21-part3-item1">
-                                <locus from="4a" to="5b"/>
-                                <author/>
-                                <title>Babylonian Talmud שבת</title>
-                                <note/>
-                                  
-                                <msItem xml:id="MS_Heb_d_21-part3-item1-item1" n="a">
-                                    <p>(<locus from="4a" to="4b">fol. 4</locus>) from מחשיכי (fol. 150, l. 7) to וזכור את (fol. 151b, l. 15 from below);</p>
-                                </msItem>
-                                <msItem xml:id="MS_Heb_d_21-part3-item1-item2" n="b">
-                                    <p>(<locus from="5a" to="5b">fol. 5</locus>) from לא לפספס (fol. 155, l. 26) to שקלתיה (fol. 156b, l. 18 from below).</p>
-                                </msItem>
-                                <note>Some vowel points.</note>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; fol., <material>vellum</material>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1890</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_21-part4" n="4">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_21-part3-item1">
+                        <locus from="4a" to="5b"/>
+                        <title>Babylonian Talmud שבת</title>
+                        <msItem xml:id="MS_Heb_d_21-part3-item1-item1" n="a">
+                           <p>(<locus from="4a" to="4b">fol. 4</locus>) from מחשיכי (fol. 150, l. 7) to וזכור את (fol. 151b, l. 15 from below);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_21-part3-item1-item2" n="b">
+                           <p>(<locus from="5a" to="5b">fol. 5</locus>) from לא לפספס (fol. 155, l. 26) to שקלתיה (fol. 156b, l. 18 from below).</p>
+                        </msItem>
+                        <note>Some vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_21-part4" n="4">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 21/4</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 21/4</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_21-part4-item1">
-                                <locus from="6a" to="9b">Fol. 6</locus>
-                                <author/>
-                                <title>Babylonian Talmud עירובין from ואמרו ליה (fol. 54b, l. 9 from below) to סבר זימנין (fol. 62, l. 14)</title>
-                                <note/>
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; fol., <material>vellum</material>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1890</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_21-part5" n="5">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_21-part4-item1">
+                        <locus from="6a" to="9b">Fol. 6</locus>
+                        <title>Babylonian Talmud עירובין from ואמרו ליה (fol. 54b, l. 9 from below) to סבר זימנין (fol. 62, l. 14)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_21-part5" n="5">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 21/5</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 21/5</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_21-part5-item1">
-                                <locus from="10a" to="10b">Fol. 10</locus>
-                                <author/>
-                                <title>Babylonian Talmud תמיד from לא מעיקרא (fol. 32, l. 17) to the end of the chapter</title>
-                                <note/>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. Rabb. char.; fol., <material>paper</material>, obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1890</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_21-part6" n="6">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_21-part5-item1">
+                        <locus from="10a" to="10b">Fol. 10</locus>
+                        <title>Babylonian Talmud תמיד from לא מעיקרא (fol. 32, l. 17) to the end of the chapter</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>paper</material>, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_21-part6" n="6">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 21/6</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 21/6</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_21-part6-item1">
-                                <locus from="11a" to="12b">Fol. 11</locus>
-                                <author/>
-                                <title>Rashi's commentary on Babylonian Talmud עבודה זרה</title>
-                                <note>(fol. 11).</note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Span. Rabb. char.; fol., <material>vellum</material>, injured.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1890</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="INDEX">
-                    <desc>General index of <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_21-part6-item1">
+                        <locus from="11a" to="12b">Fol. 11</locus>
+                        <title>Rashi's commentary on Babylonian Talmud עבודה זרה</title>
+                        <note>(fol. 11).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.; fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="Neubauer">
-                    <term>Talmud and commentaries</term>
-                </keywords>
-                
-                <keywords scheme="#INDEX">
-                    <term>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Talmud and commentaries</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
                   <ref target="#MS_Heb_d_21_01">Talmud, Babli. סוכה.</ref>
                </term>
-                    
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_21_03">Talmud, Babli. שבת.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_21_04">Talmud, Babli. עירובין.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_21_05">Talmud, Babli. תמיד.</ref>
-               </term>                    
-                    <term>
+               </term>
+               <term>
                   <ref target="#MS_Heb_d_21_06">
                      <persName type="aut">Solomon b. Isaac (Rashi)</persName>. Commentaries: Talmud. (עבודה זרה).</ref>
                </term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2010-08-02">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS_HEB_d_21_1a.tif"/>
-        <graphic url="MS_HEB_d_21_1b.tif"/>
-        <graphic url="MS_HEB_d_21_2a.tif"/>
-        <graphic url="MS_HEB_d_21_2b.tif"/>
-        <graphic url="MS_HEB_d_21_3a.tif"/>
-        <graphic url="MS_HEB_d_21_3b.tif"/>
-        <graphic url="MS_HEB_d_21_4a.tif"/>
-        <graphic url="MS_HEB_d_21_4b.tif"/>
-        <graphic url="MS_HEB_d_21_5a.tif"/>
-        <graphic url="MS_HEB_d_21_5b.tif"/>
-        <graphic url="MS_HEB_d_21_6a.tif"/>
-        <graphic url="MS_HEB_d_21_6b.tif"/>
-        <graphic url="MS_HEB_d_21_7a.tif"/>
-        <graphic url="MS_HEB_d_21_7b.tif"/>
-        <graphic url="MS_HEB_d_21_8a.tif"/>
-        <graphic url="MS_HEB_d_21_8b.tif"/>
-        <graphic url="MS_HEB_d_21_9a.tif"/>
-        <graphic url="MS_HEB_d_21_9b.tif"/>
-        
-        <graphic url="MS_HEB_d_21_10a.tif"/>
-        <graphic url="MS_HEB_d_21_10b.tif"/>
-        <graphic url="MS_HEB_d_21_11a.tif"/>
-        <graphic url="MS_HEB_d_21_11b.tif"/>
-        <graphic url="MS_HEB_d_21_12a.tif"/>
-        <graphic url="MS_HEB_d_21_12b.tif"/>
-      
-    </facsimile>
+         <change when="2010-08-02">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_d_21_1a.tif"/>
+      <graphic url="MS_HEB_d_21_1b.tif"/>
+      <graphic url="MS_HEB_d_21_2a.tif"/>
+      <graphic url="MS_HEB_d_21_2b.tif"/>
+      <graphic url="MS_HEB_d_21_3a.tif"/>
+      <graphic url="MS_HEB_d_21_3b.tif"/>
+      <graphic url="MS_HEB_d_21_4a.tif"/>
+      <graphic url="MS_HEB_d_21_4b.tif"/>
+      <graphic url="MS_HEB_d_21_5a.tif"/>
+      <graphic url="MS_HEB_d_21_5b.tif"/>
+      <graphic url="MS_HEB_d_21_6a.tif"/>
+      <graphic url="MS_HEB_d_21_6b.tif"/>
+      <graphic url="MS_HEB_d_21_7a.tif"/>
+      <graphic url="MS_HEB_d_21_7b.tif"/>
+      <graphic url="MS_HEB_d_21_8a.tif"/>
+      <graphic url="MS_HEB_d_21_8b.tif"/>
+      <graphic url="MS_HEB_d_21_9a.tif"/>
+      <graphic url="MS_HEB_d_21_9b.tif"/>
+      <graphic url="MS_HEB_d_21_10a.tif"/>
+      <graphic url="MS_HEB_d_21_10b.tif"/>
+      <graphic url="MS_HEB_d_21_11a.tif"/>
+      <graphic url="MS_HEB_d_21_11b.tif"/>
+      <graphic url="MS_HEB_d_21_12a.tif"/>
+      <graphic url="MS_HEB_d_21_12b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

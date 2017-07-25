@@ -2,251 +2,205 @@
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_49">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Digital description of MS. Heb. d. 22</title>
-                <respStmt>
-                    <resp>Cataloguer</resp>
-                    <persName>[Name of cataloguer]</persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
-                    <address>
-                    <addrLine>Department of Special Collections</addrLine>
-                    <addrLine>Bodleian Library</addrLine>
-                    <street>Broad Street</street>
-                    <settlement>Oxford</settlement>
-                    <postCode>OX1 3BG</postCode>
-                    <addrLine>
-                        <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
-                    </addrLine>
-                    <addrLine>
-                        <email>oriental@bodleian.ox.ac.uk</email>
-                    </addrLine>
-                    </address>
-                </pubPlace>
-                <idno>MS_Heb_d_22</idno>
-             
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. d. 22</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_d_22</idno>
             <idno type="msID">MS_Heb_d_22</idno>
             <idno type="catalogue">Genizah</idno>
          </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="MS_Heb_d_22" xml:lang="en">
-                    <msIdentifier>
-                        <country>United Kingdom</country>
-                        <region type="county">Oxfordshire</region>
-                        <settlement>Oxford</settlement>
-                        <institution>Oxford University</institution>
-                        <repository>Bodleian Library</repository>
-                        <idno>MS. Heb. d. 22</idno>
-                        <altIdentifier type="other">
-                            <idno type="cat_no">2657</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <physDesc>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_d_22" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. d. 22</idno>
+               </msIdentifier>
+               <physDesc>
                   <p>Ff. 9.</p>
                </physDesc>
-                    <history>
-                        <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1889</date> (from the Genizah).
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>
-                                    Manuscript description based on <bibl>Catalogue
-                                        of the Hebrew Manuscripts in the Bodleian
-                                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                                        Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p020a.jpg Catalogue-1_p020b.jpg">No. 2657</ref>.
-                                </source>
-                            </recordHist>
-                            <availability status="restricted">
-                                <p>Entry to read in the Library is permitted only on
-                                    presentation of a valid reader's card (for admissions
-                                    procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact
-                                    <email>oriental@bodleian.ox.ac.uk</email> for further
-                                    information on the availability of this manuscript</p>
-                            </availability>
-                        </adminInfo>
-                    </additional>
-                    <msPart xml:id="MS_Heb_d_22-part1" n="1">
-                        <msIdentifier>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1889</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p020a.jpg Catalogue-1_p020b.jpg">No. 2657</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_d_22-part1" n="1">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 22/1</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 22/1</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_22-part1-item1">
-                                <locus from="1a" to="4b"/>
-                                <author/>
-                                <title>ספרא</title>
-                                <note>from xii. (section אחרי מות) 4 (ed. Weiss, iii. 4, p. 81b) to 7 (ed. vii. p. 83a), end missing. Different divisions from the edition.
-                                    
-                                </note>  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 4to, <material>vellum</material>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1889</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_22-part2" n="2">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_22-part1-item1">
+                        <locus from="1a" to="4b"/>
+                        <title>ספרא</title>
+                        <note>from xii. (section אחרי מות) 4 (ed. Weiss, iii. 4, p. 81b) to 7 (ed. vii. p. 83a), end missing. Different divisions from the edition.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1889</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_22-part2" n="2">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 22/2</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 22/2</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_22-part2-item1">
-                                <locus from="5a" to="6b">Fol. 5</locus>
-                                <author/>
-                                <title>מכילתא</title>
-                                <note>beg. <quote type="beg">לחם כפול</quote> (ed. Friedmann, p. 47b) to v. 2, headed <quote type="head">פרשת̇ ה̇ הלכתה י̇ז̇</quote> (ed. p. 50a), incomplete.
-                                    
-                                </note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. curs. char.; 4to, <material>vellum</material>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1889</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_22-part3" n="3">
-                        <msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_22-part2-item1">
+                        <locus from="5a" to="6b">Fol. 5</locus>
+                        <title>מכילתא</title>
+                        <note>beg.<quote type="beg">לחם כפול</quote>(ed. Friedmann, p. 47b) to v. 2, headed<quote type="head">פרשת̇ ה̇ הלכתה י̇ז̇</quote>(ed. p. 50a), incomplete.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1889</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_22-part3" n="3">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 22/3</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 22/3</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_22-part3-item1">
-                                <locus from="7a" to="7b">Fol. 7</locus>
-                                <author/>
-                                <title>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_22-part3-item1">
+                        <locus from="7a" to="7b">Fol. 7</locus>
+                        <title>
                            <persName type="aut">Maimonides</persName>' משנה תורה</title>
-                                <note>section ה̇ שחיטה, ix. 10 (מגררת רגליה) to 19 (ולא עמדה אסור).
-                                    
-                                </note>  
-                                
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Syr. squ. char.; 8vo, <material>paper</material>.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1889</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    <msPart xml:id="MS_Heb_d_22-part4" n="4">
-                        <msIdentifier>
+                        <note>section ה̇ שחיטה, ix. 10 (מגררת רגליה) to 19 (ולא עמדה אסור).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1889</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_22-part4" n="4">
+                  <msIdentifier>
                      <altIdentifier type="partial">
-                            <idno>MS. Heb. d. 22/4</idno>
-                        </altIdentifier>
+                        <idno>MS. Heb. d. 22/4</idno>
+                     </altIdentifier>
                   </msIdentifier>
-                        <msContents>                            
-                            <msItem xml:id="MS_Heb_d_22-part4-item1">
-                                <locus from="8a" to="9b">Fol. 8</locus>
-                                <author/>
-                                <title>A fragment of a casuistical treatise</title>
-                                <note/>
-                                    
-                                   
-                                  
-                               
-                                <textLang mainLang="he"/>
-                            </msItem>
-                             
-                        </msContents>
-                        <physDesc>
-                            <p>Ital. Rabb. char.; 4to, <material>paper</material>, obliterated.</p>
-                        </physDesc>
-                        <history>
-                            <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="Gregorian" when="1890">1889</date> (from the Genizah).
-                            </acquisition>
-                        </history>
-                        
-                    </msPart>
-                    
-                     
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="INDEX">
-                    <desc>General index of <bibl>Catalogue
-                        of the Hebrew Manuscripts in the Bodleian
-                        Library, vol. ii, by Adolf Neubauer and Arthur Ernest
-                        Cowley, Oxford 1906</bibl>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_22-part4-item1">
+                        <locus from="8a" to="9b">Fol. 8</locus>
+                        <title>A fragment of a casuistical treatise</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Ital. Rabb. char.; 4to,<material>paper</material>, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="Gregorian" when="1890">1889</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="Neubauer">
-                    <term>Talmud and commentaries</term>
-                </keywords>
-                <keywords scheme="#INDEX">
-                    <term>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Talmud and commentaries</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
                   <ref target="#MS_Heb_d_22_03">
                      <persName type="aut">Moses b. Maimon</persName>. משנה תורה.</ref>
                </term>
-                    <term>
+               <term>
                   <ref target="#MS_Heb_d_22_04">Casuistical treatises and notes.</ref>
                </term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
-            <change when="2010-07-22">
-                <persName>Sabine Arndt</persName> created this file</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS_HEB_d_22_1a.tif"/>
-        <graphic url="MS_HEB_d_22_1b.tif"/>
-        <graphic url="MS_HEB_d_22_2a.tif"/>
-        <graphic url="MS_HEB_d_22_2b.tif"/>
-        <graphic url="MS_HEB_d_22_3a.tif"/>
-        <graphic url="MS_HEB_d_22_3b.tif"/>
-        <graphic url="MS_HEB_d_22_4a.tif"/>
-        <graphic url="MS_HEB_d_22_4b.tif"/>
-        <graphic url="MS_HEB_d_22_5a.tif"/>
-        <graphic url="MS_HEB_d_22_5b.tif"/>
-        <graphic url="MS_HEB_d_22_6a.tif"/>
-        <graphic url="MS_HEB_d_22_6b.tif"/>
-        <graphic url="MS_HEB_d_22_7a.tif"/>
-        <graphic url="MS_HEB_d_22_7b.tif"/>
-        <graphic url="MS_HEB_d_22_8a.tif"/>
-        <graphic url="MS_HEB_d_22_8b.tif"/>
-        <graphic url="MS_HEB_d_22_9a.tif"/>
-        <graphic url="MS_HEB_d_22_9b.tif"/>
-        
-       
-    </facsimile>
+         <change when="2010-07-22">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_d_22_1a.tif"/>
+      <graphic url="MS_HEB_d_22_1b.tif"/>
+      <graphic url="MS_HEB_d_22_2a.tif"/>
+      <graphic url="MS_HEB_d_22_2b.tif"/>
+      <graphic url="MS_HEB_d_22_3a.tif"/>
+      <graphic url="MS_HEB_d_22_3b.tif"/>
+      <graphic url="MS_HEB_d_22_4a.tif"/>
+      <graphic url="MS_HEB_d_22_4b.tif"/>
+      <graphic url="MS_HEB_d_22_5a.tif"/>
+      <graphic url="MS_HEB_d_22_5b.tif"/>
+      <graphic url="MS_HEB_d_22_6a.tif"/>
+      <graphic url="MS_HEB_d_22_6b.tif"/>
+      <graphic url="MS_HEB_d_22_7a.tif"/>
+      <graphic url="MS_HEB_d_22_7b.tif"/>
+      <graphic url="MS_HEB_d_22_8a.tif"/>
+      <graphic url="MS_HEB_d_22_8b.tif"/>
+      <graphic url="MS_HEB_d_22_9a.tif"/>
+      <graphic url="MS_HEB_d_22_9b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>
