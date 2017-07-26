@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_79">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. d. 56</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_d_56</idno>
+            <idno type="msID">MS_Heb_d_56</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_d_56" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. d. 56</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 45.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p015a.jpg Catalogue-1_p015b.jpg">No. 2629</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_d_56-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part1-item1">
+                        <locus from="1a" to="4b"/>
+                        <title>
+                           <persName type="aut">Seadiah</persName>'s Arabic translation of Pentateuch</title>
+                        <msItem xml:id="MS_Heb_d_56-part1-item1-item1" n="a">
+                           <p>(<locus from="1a" to="1b">fol. 1</locus>)<title>Genesis</title>. xxxvii. 20 (אכלה) to Gen. xxxviii. 17 (רהנא אלי)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_56-part1-item1-item2" n="b">
+                           <p>(<locus from="2a" to="2b">fol. 2</locus>)<title>Genesis</title>xlviii. 7 (אלמסאפח) to Gen. xlix. 20 (מן אשר)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_56-part1-item1-item3" n="c">
+                           <p>(<locus from="3a" to="4b">fol. 3</locus>)<title>Exodus</title>xxxii. 2 (נעלם) to end of Exodus xxxiv. 1</p>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. squ. char.; small 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part2-item1">
+                        <locus from="5a" to="8b">Fol. 5</locus>
+                        <title>Numbers xxxiii. 15 (ורחלו) to Deuteronomy i. 44 (פי דלך אל) by<persName type="aut">Seadiah</persName>
+                        </title>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Large Syr. squ. Rabb. char.; small 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part3-item1">
+                        <locus from="9a" to="10b">Fol. 9</locus>
+                        <title>An Arabic translation and commentary on Genesis</title>
+                        <note>(see No.<ref target="MS_Heb_c_19_17">2628, 17</ref>), end of iv. 2 to verse 7 (incomplete).</note>
+                        <note>The translation of verse 7 is similar to that of<persName>Seadiah</persName>, with some difference, פאלי אלבאב for פאנמא אתגהת, and the word באלאכ̇תיאר at end is omitted. The author refers to his commentaries on the Prophets (<quote>וסנשרח פי מואצע מן כתב אלאנביא</quote>,<locus from="10b" to="10b">fol. 10b</locus>), and to his book<quote>כתאב אלתגה</quote>(<locus from="9b" to="9b">fol. 9b</locus>). He does not know Hayuj's system of triliteral roots, or at least he does not accept it when he explains וישע (verse 4) from the root שע (<locus from="9b" to="9b">fol. 9b</locus>).</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part4-item1">
+                        <locus from="11a" to="15b">Fol. 11</locus>
+                        <title>Arabic translation and commentary Exodus xix. 13</title>
+                        <note>(beg. missing), verse 13,<quote type="beg">וירד. פנזל מוסי מן אלגבל אלי אלקום פקאל להם וגסלו תיאבהם. (14) ויאמר. וקאל להם כונו מעדין לג̇ איאם לא תדנו אלי אמראה: מעני קו̇ לשלשת ימ̇ עלי מא תקדם מן שרחנא (?)</quote>;<p>
+                              <locus from="12a" to="12a">fol. 12</locus>,<quote>מוצ̇ע תבליגה ללקום כמא שרחנא פי קצה שבתון יי קדש ממא פי ספר משנה תורה מן אלמצות אלתי לא ידכרהא אלא פי חאל חבאיתה</quote>.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 8vo,<material>vellum</material>, injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part5-item1">
+                        <locus from="16a" to="17b"/>
+                        <title>Arabic translation of and commentary on Jeremiah</title>
+                        <msItem xml:id="MS_Heb_d_56-part5-item1-item1" n="a">
+                           <p>(<locus from="16a" to="16b">fol. 16</locus>) ii. 30 (beg. missing) to end (incomplete)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_56-part5-item1-item2" n="b">
+                           <p>(<locus from="17a" to="17b">fol. 17</locus>) iii. 1 (beg. missing) to 9 (incomplete)</p>
+                        </msItem>
+                        <note>
+                           <p>Beg.<quote type="beg">וקיל כאן ללגזאף קתלת אולאדכם אלדין לם יחארבו יריד יאמן יריבו אלי אנא קתלת אולאדכם לאנבכם פלם תנתבהו פצאר פעלי דלך כאנה שוא</quote>.</p>
+                           <p>End,<quote type="end">ריאם בשקר אי לם יכן כט̇אהרהם</quote>.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Kar. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part6-item1">
+                        <locus from="18a" to="19b"/>
+                        <title>Fragment of an Arabic glossary</title>
+                        <msItem xml:id="MS_Heb_d_56-part6-item1-item1" n="a">
+                           <p>(<locus from="18a" to="18b">fol. 18</locus>) on<title>Jeremiah</title>l. 36, beg.<quote type="beg">וערפין אותת בדים</quote>to lii. 16, ending<quote type="end">כמא קאל ועביו ארבע אצבעות נבוב</quote>
+                           </p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_56-part6-item1-item2" n="b">
+                           <p>(<locus from="19a" to="19b">fol. 19</locus>) on<title>Ezekiel</title>v. 5, beg.<quote type="beg">ישר̇. לדלך מנהום תכרוג אלנאר</quote>to vii. 14, ending<quote type="end">ולא תקרא נפסהום</quote>
+                           </p>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; oblong 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part7" n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part7-item1">
+                        <locus from="20a" to="23b">Fol. 20</locus>
+                        <title>Arabic translation and commentary on end of Hosea and Joel i to 18</title>
+                        <note>(incomplete), beg.<quote type="beg">כטאב אלרב אלדי כאן אלי<persName>יואל בן פתואל</persName>. קד תקדם מן דכרנא אלענואנאת אלנבואת סננהא בחזון ב̇ ומנהא במשא ומנהם בדבר ובדברי</quote>.<p>The commentator was a Rabbanite, which appears from the following passage (<locus from="23a" to="23a">fol. 23</locus>):<quote>תם אקול אן ללג̇ראד פי אללגה י̇ו̇ אסם ח̇ מקראויה וח̇ מן קול רבותי</quote>;</p>
+                           <p>
+                              <persName>Seadiah</persName>is quoted as follows:<quote>ואמא<persName>גאון פיומי</persName>ז̇ל̇ פופק בי כהמא וקאל אנה לם יריד בקול̇ ואם בימי אבותיכם אלאבאעד בל אלא קארב אלדי לם יכון פי עצרהם כדאך</quote>, ends with iv. 18.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part8-item1">
+                        <locus from="24a" to="30b">Fol. 24</locus>
+                        <title>Arabic translation and commentary on Psalms</title>
+                        <note>xxvii. 6 (incomplete) to xxix. 1 (incomplete).<p>Specimen for identification, xxvii. 9 (<locus from="25a" to="25a">fol. 25</locus>):<quote>פלא תסתר רחמתך ממני ולא תמיל באלגצ̇ב עלי עבדך מעונתי כנת פלא תתרכני ולא תדעני יא אלאה גותי . . . וקלת פי אל תט לא תמיל אלגצ̇ב עלי עבדך עלי מעני אן לא ימיל ולא יורד עליה גצ̇בה לאן סביל אלעבראני פיאלאלפאט̇ אלתי אסהא חרף ואחד אן תקאל ענד אלאשארה אלי נפסה אד̇א כאנת באלהא פי אואכרהא בכפץ̇ אלחרף אלאול מתל אם תטה אשרי. ולא יטה לארץ מנלם. ומתל ואשר יזה מדמה. על הבגד אשר יזה עליה</quote>.</p>
+                           <p>On xxvii. 11 (<locus from="25b" to="25b">fol. 25b</locus>) the author says as follows:<quote>לאן אבי ואמי תרכוני ורב אלעאלמין יצ̇מני. קוה הדא פעלי אלנשד אלדי וצפנא פי צדר אלכתאב אלדי יכלו ען אלמדאהב אלאולי אלתי אשגלוהם בהא אבאיהם טול הדח אלמדה וחירוהם ען טלב אלכתאב ומערפה חקאיק מעאניה באסתחקארהם לה פי אעינהם אד סמוהא מדה שאינה מדה פאלמקרא אלדי גאת אלאנביא מפי יי לא מקדאר להא ענדהם. ואלמשנה לאגל אשתראכהא מעהא והי [ת]סירהא בזעמהם צארת בינונית. ואל תלמוד [?] שמוה עלי מואטאתהם הי אלדרגה אלעליא</quote>.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part9-item1">
+                        <locus from="31a" to="32b"/>
+                        <title>
+                           <persName type="aut">Seadiah</persName>'s translation and commentary on Job</title>
+                        <msItem xml:id="MS_Heb_d_56-part9-item1-item1" n="a">
+                           <p>(<locus from="31a" to="31b">fol. 31</locus>) commentary on xv. 24, beg.<quote type="beg">אל ארץ רחבת יד̇</quote>(ed. p. 44) to the translation of xvi. 15</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_56-part9-item1-item2" n="b">
+                           <p>(<locus from="32a" to="32b">fol. 32</locus>) the translation of xxvii. 5 (end) to xxviii. 19</p>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part10-item1">
+                        <locus from="33a" to="34b">Fol. 33</locus>
+                        <title>
+                           <persName type="aut">Seadiah</persName>'s commentary on Job</title>
+                        <note>end of xxvi followed by the translation of xxvii, and by a part of the commentary; next comes (<locus from="34a" to="34b">fol. 34</locus>) the commentary on chap. xxxiv. 1 to 26 (incomplete).</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part11" n="11">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part11-item1">
+                        <locus from="35a" to="36b"/>
+                        <title>Anonymous Arabic translation</title>
+                        <msItem xml:id="MS_Heb_d_56-part11-item1-item1" n="a">
+                           <p>(<locus from="35a" to="35b">fol. 35</locus>) of<title>Lamentations</title>i. 9 to ii. 5, followed (<locus from="36a" to="36a">fol. 36a</locus>) by that of v. 8 to end, ii. 1<quote>אלא כיף יכפי אללה באלסכט ואלגצב מעאשר ציון אלאגלא ואלנגר̇</quote>
+                           </p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_56-part11-item1-item2" n="b">
+                           <p>(<locus from="36b" to="36b">fol. 36b</locus>) of<title>Canticles</title>(headed<quote type="head">תפסיר שיר השירים</quote>), beg.<quote type="beg">לאכר נשידנכאא ווצפנא לקול סולימן אלדי קולה עבר יקבלנא מן פיה תקביל נאמק</quote>
+                           </p>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part12" n="12">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part12-item1">
+                        <locus from="37a" to="41b">Fol. 37</locus>
+                        <title>Fragments of<persName type="aut">Seadiah</persName>'s commentary on Daniel</title>
+                        <note>A part of the preface (beg. missing), and the beginning of the first part.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part13" n="13">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part13-item1">
+                        <locus from="42a" to="43b"/>
+                        <title>Fragments of<persName type="aut">Seadiah</persName>'s commentary on Daniel</title>
+                        <msItem xml:id="MS_Heb_d_56-part13-item1-item1" n="a">
+                           <p>(<locus from="42a" to="42b">fol. 42</locus>) a part of chapter ii</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_56-part13-item1-item2" n="b">
+                           <p>(<locus from="43a" to="43b">fol. 43</locus>) a part of the conclusion</p>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 4to,<material>vellum</material>, much stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_56-part14" n="14">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 56/14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_56-part14-item1">
+                        <locus from="44a" to="45b">Fol. 44</locus>
+                        <title>Fragments of<persName type="aut">Seadiah</persName>'s commentary on Daniel</title>
+                        <note>A part of chapter x.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Translations</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_d_56_01">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Versions, Arabic: Genesis.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_01">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Versions, Arabic: Exodus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_02">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Versions, Arabic: Numbers.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_02">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Versions, Arabic: Deuteronomy.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_03">Bible. Versions. Anonymous. Arabic: Genesis.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_03">Bible. Commentaries. Anonymous. Arabic: Genesis.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_04">Bible. Versions. Anonymous. Arabic: Exodus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_04">Bible. Commentaries. Anonymous. Arabic: Exodus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_05">Bible. Versions. Anonymous. Arabic: Jeremiah.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_05">Bible. Commentaries. Anonymous. Arabic: Jeremiah.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_06">Bible. Commentaries. Anonymous. Arabic: Jeremiah.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_06">Bible. Commentaries. Anonymous. Arabic: Ezekiel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_06">Vocabularies. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_07">Bible. Versions. Anonymous. Arabic: Hosea.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_07">Bible. Versions. Anonymous. Arabic: Joel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_07">Bible. Commentaries. Anonymous. Arabic: Hosea.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_07">Bible. Commentaries. Anonymous. Arabic: Joel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_07">
+                     <persName type="ment">Seadiah b. Joseph al-fayyumi, Gaon</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_08">Bible. Versions. Anonymous. Arabic: Psalms.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_08">Bible. Commentaries. Anonymous. Arabic: Psalms.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_09">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Versions, Arabic: Job.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_09">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Commentaries, Arabic: Job. כתאב אלתעדיל</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_10">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Versions, Arabic: Job.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_10">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Commentaries, Arabic: Job. כתאב אלתעדיל</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_11">Bible. Versions. Anonymous. Arabic: Canticle.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_11">Bible. Versions. Anonymous. Arabic: Lamentations.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_12">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Commentaries, Arabic: Daniel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_13">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Commentaries, Arabic: Daniel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_56_14">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Commentaries, Arabic: Daniel.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2010-07-13">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_d_56_1a.tif"/>
+      <graphic url="MS_HEB_d_56_1b.tif"/>
+      <graphic url="MS_HEB_d_56_2a.tif"/>
+      <graphic url="MS_HEB_d_56_2b.tif"/>
+      <graphic url="MS_HEB_d_56_3a.tif"/>
+      <graphic url="MS_HEB_d_56_3b.tif"/>
+      <graphic url="MS_HEB_d_56_4a.tif"/>
+      <graphic url="MS_HEB_d_56_4b.tif"/>
+      <graphic url="MS_HEB_d_56_5a.tif"/>
+      <graphic url="MS_HEB_d_56_5b.tif"/>
+      <graphic url="MS_HEB_d_56_6a.tif"/>
+      <graphic url="MS_HEB_d_56_6b.tif"/>
+      <graphic url="MS_HEB_d_56_7a.tif"/>
+      <graphic url="MS_HEB_d_56_7b.tif"/>
+      <graphic url="MS_HEB_d_56_8a.tif"/>
+      <graphic url="MS_HEB_d_56_8b.tif"/>
+      <graphic url="MS_HEB_d_56_9a.tif"/>
+      <graphic url="MS_HEB_d_56_9b.tif"/>
+      <graphic url="MS_HEB_d_56_10a.tif"/>
+      <graphic url="MS_HEB_d_56_10b.tif"/>
+      <graphic url="MS_HEB_d_56_11a.tif"/>
+      <graphic url="MS_HEB_d_56_11b.tif"/>
+      <graphic url="MS_HEB_d_56_12a.tif"/>
+      <graphic url="MS_HEB_d_56_12b.tif"/>
+      <graphic url="MS_HEB_d_56_13a.tif"/>
+      <graphic url="MS_HEB_d_56_13b.tif"/>
+      <graphic url="MS_HEB_d_56_14a.tif"/>
+      <graphic url="MS_HEB_d_56_14b.tif"/>
+      <graphic url="MS_HEB_d_56_15a.tif"/>
+      <graphic url="MS_HEB_d_56_15b.tif"/>
+      <graphic url="MS_HEB_d_56_16a.tif"/>
+      <graphic url="MS_HEB_d_56_16b.tif"/>
+      <graphic url="MS_HEB_d_56_17a.tif"/>
+      <graphic url="MS_HEB_d_56_17b.tif"/>
+      <graphic url="MS_HEB_d_56_18a.tif"/>
+      <graphic url="MS_HEB_d_56_18b.tif"/>
+      <graphic url="MS_HEB_d_56_19a.tif"/>
+      <graphic url="MS_HEB_d_56_19b.tif"/>
+      <graphic url="MS_HEB_d_56_20a.tif"/>
+      <graphic url="MS_HEB_d_56_20b.tif"/>
+      <graphic url="MS_HEB_d_56_21a.tif"/>
+      <graphic url="MS_HEB_d_56_21b.tif"/>
+      <graphic url="MS_HEB_d_56_22a.tif"/>
+      <graphic url="MS_HEB_d_56_22b.tif"/>
+      <graphic url="MS_HEB_d_56_23a.tif"/>
+      <graphic url="MS_HEB_d_56_23b.tif"/>
+      <graphic url="MS_HEB_d_56_24a.tif"/>
+      <graphic url="MS_HEB_d_56_24b.tif"/>
+      <graphic url="MS_HEB_d_56_25a.tif"/>
+      <graphic url="MS_HEB_d_56_25b.tif"/>
+      <graphic url="MS_HEB_d_56_26a.tif"/>
+      <graphic url="MS_HEB_d_56_26b.tif"/>
+      <graphic url="MS_HEB_d_56_27a.tif"/>
+      <graphic url="MS_HEB_d_56_27b.tif"/>
+      <graphic url="MS_HEB_d_56_28a.tif"/>
+      <graphic url="MS_HEB_d_56_28b.tif"/>
+      <graphic url="MS_HEB_d_56_29a.tif"/>
+      <graphic url="MS_HEB_d_56_29b.tif"/>
+      <graphic url="MS_HEB_d_56_30a.tif"/>
+      <graphic url="MS_HEB_d_56_30b.tif"/>
+      <graphic url="MS_HEB_d_56_31a.tif"/>
+      <graphic url="MS_HEB_d_56_31b.tif"/>
+      <graphic url="MS_HEB_d_56_32a.tif"/>
+      <graphic url="MS_HEB_d_56_32b.tif"/>
+      <graphic url="MS_HEB_d_56_33a.tif"/>
+      <graphic url="MS_HEB_d_56_33b.tif"/>
+      <graphic url="MS_HEB_d_56_34a.tif"/>
+      <graphic url="MS_HEB_d_56_34b.tif"/>
+      <graphic url="MS_HEB_d_56_35a.tif"/>
+      <graphic url="MS_HEB_d_56_35b.tif"/>
+      <graphic url="MS_HEB_d_56_36a.tif"/>
+      <graphic url="MS_HEB_d_56_36b.tif"/>
+      <graphic url="MS_HEB_d_56_37a.tif"/>
+      <graphic url="MS_HEB_d_56_37b.tif"/>
+      <graphic url="MS_HEB_d_56_38a.tif"/>
+      <graphic url="MS_HEB_d_56_38b.tif"/>
+      <graphic url="MS_HEB_d_56_39a.tif"/>
+      <graphic url="MS_HEB_d_56_39b.tif"/>
+      <graphic url="MS_HEB_d_56_40a.tif"/>
+      <graphic url="MS_HEB_d_56_40b.tif"/>
+      <graphic url="MS_HEB_d_56_41a.tif"/>
+      <graphic url="MS_HEB_d_56_41b.tif"/>
+      <graphic url="MS_HEB_d_56_42a.tif"/>
+      <graphic url="MS_HEB_d_56_42b.tif"/>
+      <graphic url="MS_HEB_d_56_43a.tif"/>
+      <graphic url="MS_HEB_d_56_43b.tif"/>
+      <graphic url="MS_HEB_d_56_44a.tif"/>
+      <graphic url="MS_HEB_d_56_44b.tif"/>
+      <graphic url="MS_HEB_d_56_45a.tif"/>
+      <graphic url="MS_HEB_d_56_45b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_44">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. c. 8</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_c_8</idno>
+            <idno type="msID">MS_Heb_c_8</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_c_8" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. c. 8</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 7.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p023b.jpg">No. 2665</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_c_8-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 8/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_8-part1-item1">
+                        <locus from="1a" to="2b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_8-part1-item1-item1" n="a">
+                           <p>(<locus from="1a" to="1b">fol. 1</locus>)<title>מעשר שני</title>v. 1 (ושופך) to end</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_8-part1-item1-item2" n="b">
+                           <p>(<locus from="2a" to="2b">fol. 2</locus>)<title>ערלה</title>iii. 9 (ישראל אסור) to end; followed by<title>בכורים</title>i. 1 to ii. 5 (דרכים)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; small fol., 2 coll.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_8-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 8/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_8-part2-item1">
+                        <locus from="3a" to="4b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_8-part2-item1-item1" n="a">
+                           <p>(<locus from="3a" to="4a">fol. 3</locus>)<title>יבמות</title>xiv. 1 (שנשא חרשת) to end</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_8-part2-item1-item2" n="b">
+                           <p>(<locus from="4b" to="4b">fol. 4b</locus>)<title>כתובות</title>i. 1 to 8 (ראוה מדברת)</p>
+                        </msItem>
+                        <note>With some accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; small fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_8-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 8/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_8-part3-item1">
+                        <locus from="5a" to="7b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_8-part3-item1-item1" n="a">
+                           <p>(<locus from="5a" to="5b">fol. 5</locus>)<title>כלים</title>xxviii. 3 (בין בבגד) to end</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_8-part3-item1-item2" n="b">
+                           <p>(<locus from="6a" to="7b">fol. 6</locus>)<title>אהילות</title>i. 1 to v. 6</p>
+                        </msItem>
+                        <note>Some words have vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 2 coll., small fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Talmud and commentaries</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_c_8_01">Mishnah. מעשר שני.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_8_01">Mishnah. ערלה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_8_01">Mishnah. בכורים.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_8_02">Mishnah. יבמות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_8_02">Mishnah. כתובות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_8_03">Mishnah. כלים.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_8_03">Mishnah. אהילות.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2010-07-26">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_c_8_1a.tif"/>
+      <graphic url="MS_HEB_c_8_1b.tif"/>
+      <graphic url="MS_HEB_c_8_2a.tif"/>
+      <graphic url="MS_HEB_c_8_2b.tif"/>
+      <graphic url="MS_HEB_c_8_3a.tif"/>
+      <graphic url="MS_HEB_c_8_3b.tif"/>
+      <graphic url="MS_HEB_c_8_4a.tif"/>
+      <graphic url="MS_HEB_c_8_4b.tif"/>
+      <graphic url="MS_HEB_c_8_5a.tif"/>
+      <graphic url="MS_HEB_c_8_5b.tif"/>
+      <graphic url="MS_HEB_c_8_6a.tif"/>
+      <graphic url="MS_HEB_c_8_6b.tif"/>
+      <graphic url="MS_HEB_c_8_7a.tif"/>
+      <graphic url="MS_HEB_c_8_7b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

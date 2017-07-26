@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_183">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. f. 26</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_f_26</idno>
+            <idno type="msID">MS_Heb_f_26</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_f_26" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. f. 26</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="MS_Heb_f_26-item1">
+                     <locus from="1a" to="6b"/>
+                     <title>The end of a letter</title>
+                     <note>dated the<date calendar="#Hebrew-Seleucid" when="1233">5th of Tebeth, 1233 Sel.</date>=<date calendar="#Gregorian" when="0922">922</date>, and the reply by<persName>בן מאיר</persName>, who writes from<placeName>Palestine</placeName>to<placeName>Baghdad</placeName>(see Harkavy, Studien V, 1, p. 212 sqq.).</note>
+                     <textLang mainLang="he"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Syr. Rabb. char.; small oblong 24mo,<material>vellum</material>, much injured.</p>
+                  <p>Ff. 6.</p>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Palestine</origPlace>
+                     <origPlace>Baghdad</origPlace>
+                     <origDate when="0922">922</origDate>
+                  </origin>
+                  <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p065a.jpg">No. 2810</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>History</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_f_26">
+                     <persName type="aut">Ben Meir</persName>. Letter.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_26">Letters. (Ben Meir).</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2011-04-12">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_f_26_1a.tif"/>
+      <graphic url="MS_HEB_f_26_1b.tif"/>
+      <graphic url="MS_HEB_f_26_2a.tif"/>
+      <graphic url="MS_HEB_f_26_2b.tif"/>
+      <graphic url="MS_HEB_f_26_3a.tif"/>
+      <graphic url="MS_HEB_f_26_3b.tif"/>
+      <graphic url="MS_HEB_f_26_4a.tif"/>
+      <graphic url="MS_HEB_f_26_4b.tif"/>
+      <graphic url="MS_HEB_f_26_5a.tif"/>
+      <graphic url="MS_HEB_f_26_5b.tif"/>
+      <graphic url="MS_HEB_f_26_6a.tif"/>
+      <graphic url="MS_HEB_f_26_6b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. b. 10</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_b_10</idno>
+            <idno type="msID">MS_Heb_b_10</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_b_10" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. b. 10</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 86.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p074b.jpg Catalogue-1_p075a.jpg Catalogue-1_p075b.jpg">No. 2833</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_b_10-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part1-item1">
+                        <locus from="1a" to="2b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_b_10-part1-item1-item1" n="a">
+                           <locus from="1a">(fol. 1)</locus>
+                           <title>Mishnah פאה vii. 2 (ר̇ מאיר) to the end of the tractate</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part1-item1-item2" n="b">
+                           <locus from="1a">(ibid.)</locus>
+                           <title>Mishnah דמאי i. 1 to vii. 8 (לוכסן)</title>
+                        </msItem>
+                        <note>With some vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part2-item1">
+                        <locus from="3a" to="4b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_b_10-part2-item1-item1" n="a">
+                           <locus from="3a">(fol. 3)</locus>
+                           <title>Mishnah סוכה v. 8 (כל ימות השנה) to the end of the tractate</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part2-item1-item2" n="b">
+                           <locus from="3a">(ibid.)</locus>
+                           <title>Mishnah ביצה i. 1 to ii. 6 (MS. 5, כדברי בית)</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part2-item1-item3" n="c">
+                           <locus from="4a">(fol. 4)</locus>
+                           <title>Mishnah ראש השנה i. 7 (MS. 6, אומר אב ובנו) to ii. 9 (אחר כל בית)</title>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 2 coll., large 4to.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part3-item1">
+                        <locus from="5a" to="5b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_b_10-part3-item1-item1" n="a">
+                           <locus from="5a">(fol. 5)</locus>
+                           <title>Mishnah קדושין iv. 2 (ואינו מכיר את אביו) ending with iv. 14 (אומנות ליסטים)</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part3-item1-item2" n="b">
+                           <locus from="5b">(fol. 5b)</locus>
+                           <title>Mishnah בבא קמא i. 1 to ii. 5 (עליהם ברשות)</title>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char., 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part4-item1">
+                        <locus from="6a" to="7b"/>
+                        <title>Babylonian Talmud ברכות</title>
+                        <msItem xml:id="MS_Heb_b_10-part4-item1-item1" n="a">
+                           <locus from="6a">(fol. 6)</locus>
+                           <title>Babylonian Talmud ברכות fol. 3, end (obliterated) to fol. 4b, line 27 (קימה קרית)</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part4-item1-item2" n="b">
+                           <locus from="7a">(fol. 7)</locus>
+                           <title>Babylonian Talmud ברכות fol. 9, line 6 (יצחק בר יוסף) to fol. 10, line 12 (עקרה ולא)</title>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; large 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part5-item1">
+                        <locus from="8a" to="8b">Fol. 8</locus>
+                        <title>Babylonian Talmud שבת, fol. 81b (obliterated) to fol. 82b, line 14 (למאי)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char., 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part6-item1">
+                        <locus from="9a" to="11b"/>
+                        <title>Babylonian Talmud עירובין</title>
+                        <msItem xml:id="MS_Heb_b_10-part6-item1-item1" n="a">
+                           <locus from="9a">(fol. 9, fragment only)</locus>
+                           <title>Babylonian Talmud עירובין fol. 54, line 34 (לעולם) to line 44 (מפרשת), and fol. 54b, line 9 (ירווך) to line 25 (חבילות)</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part6-item1-item2" n="b">
+                           <locus from="10a">(fol. 10)</locus>
+                           <title>Babylonian Talmud עירובין fol. 57, line 4 (רביע דל) to fol. 59b, line 13 (חצירות)</title>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char., 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part7" n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part7-item1">
+                        <locus from="12a" to="12b">Fol. 12</locus>
+                        <title>Babylonian Talmud עירובין, fol. 54b, line 38 (לכולהו) to fol. 55, line 21 (והגשר)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part8-item1">
+                        <locus from="13a" to="14b"/>
+                        <title>Babylonian Talmud סוכה</title>
+                        <msItem xml:id="MS_Heb_b_10-part8-item1-item1" n="a">
+                           <locus from="13a">(fol. 13)</locus>
+                           <title>Babylonian Talmud סוכה fol. 2b, line 21 (ורובו) to fol. 4, line 6 (בטלו לא)</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part8-item1-item2" n="b">
+                           <locus from="14a">(fol. 14)</locus>
+                           <title>Babylonian Talmud סוכה fol. 10, line 17 (בעשרה תנן) to fol. 11, line 31 (שקצצן)</title>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part9-item1">
+                        <locus from="15a" to="15b">Fol. 15</locus>
+                        <title>Babylonian Talmud ראש השנה, fol. 33, line 12 (מתעסקין) to fol. 34b, line 30 (המברכין)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part10-item1">
+                        <locus from="16a" to="16b">Fol. 16</locus>
+                        <title>Babylonian Talmud גיטין, fol. 86b, line 29 (בו נימא) to fol. 89, line 46 (רב חמא)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part11" n="11">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part11-item1">
+                        <locus from="17a" to="17b">Fol. 17</locus>
+                        <title>Babylonian Talmud סוטה, fol. 9b, line 35 (בעזה הוה) to line 47 (לפיכך), and fol. 10, line 18 (אמה) to line 35 (אמ̇ רב)</title>
+                        <note>(fragment only).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part12" n="12">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part12-item1">
+                        <locus from="18a" to="19b">Fol. 18</locus>
+                        <title>Fragment of Babylonian Talmud סוטה</title>
+                        <note>the Mishnah (beg. at ix. 8, ראיתי את) is written first; at the end<quote>סליק פירקא</quote>: then follows the Gemara, from the beg. of chap. ix to fol. 45b, line 39 (נפיל).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part13" n="13">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part13-item1">
+                        <locus from="20a" to="21b">Fol. 20</locus>
+                        <title>Babylonian Talmud סוטה, fol. 48b, line 17 (מאן נביאים) to the end of the tractate</title>
+                        <note>At the end<quote>סליק מסכתא דשוטה והדא מסורתא קני איתי ונטל ארס כשמא דקני לה אילין דמשחוה לעגלתא. ברוך נותן ליעף כוח</quote>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part14" n="14">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part14-item1">
+                        <locus from="22a" to="22b">Fol. 22</locus>
+                        <title>Babylonian Talmud קידושין, fol. 5, line 32 (מרובה) to fol. 7, line 6 (א̇ע̇ג̇ דלא)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part15" n="15">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/15</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part15-item1">
+                        <locus from="23a" to="23b">Fol. 23</locus>
+                        <title>Babylonian Talmud קידושין, fol. 11, line 17 (לא קאמינא) to fol. 12 end (obliterated)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; large 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part16" n="16">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/16</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part16-item1">
+                        <locus from="24a" to="24b">Fol. 24</locus>
+                        <title>Babylonian Talmud קידושין, fol. 16b, line 46 (בגירעון כסף אין) to fol. 17b, line 38 (אדוניו את)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; large 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part17" n="17">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part17-item1">
+                        <locus from="25a" to="26b">Fol. 25</locus>
+                        <title>Babylonian Talmud קידושין, fol. 75, line 35 (אמ̇ הולד) to fol. 77, line 30 (כשר)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part18" n="18">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/18</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part18-item1">
+                        <locus from="27a" to="28b"/>
+                        <title>Babylonian Talmud בבא קמא (fragments only)</title>
+                        <msItem xml:id="MS_Heb_b_10-part18-item1-item1" n="a">
+                           <p>(<locus from="27a">fol. 27</locus>) fol. 56b, line 49 (דאית לה) to fol. 57, line 21 (אלא פשיטא), and fol. 57b, line 14 (מזויין) to fol. 58, line 21 (וסופו);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part18-item1-item2" n="b">
+                           <p>(<locus from="28a">fol. 28</locus>) fol. 58b, line 27 (קשבא) to fol. 59, line 33 (הינו), and fol. 59b, line 12 (אימא לן) to fol. 60, line 17 (פטור).</p>
+                        </msItem>
+                        <note>Some vowel points, corrections in the margins and between the lines, by a later hand.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part19" n="19">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/19</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part19-item1">
+                        <locus from="29a" to="36b"/>
+                        <title>Babylonian Talmud בבא קמא</title>
+                        <msItem xml:id="MS_Heb_b_10-part19-item1-item1" n="a">
+                           <p>(<locus from="29a">fol. 29</locus>) fol. 97, line 43 (ונפסל) to fol. 103, line 27 (לטעמיה);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part19-item1-item2" n="b">
+                           <p>(<locus from="36a">fol. 36</locus>) fol. 110b, line 6 (מהו) to fol. 111, line 29 (Mishnah).</p>
+                        </msItem>
+                        <note>Some corrections and additions in the margins and between the lines, by a later hand.<locus from="35a" to="35b">Fol. 35</locus>(fragment only) is marked י̇ו̇.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. Rabb. char.; large 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part20" n="20">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/20</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part20-item1">
+                        <locus from="37a" to="37b">Fol. 37</locus>
+                        <title>Babylonian Talmud בבא מציעא, fol. 31b, line 4 (במיתה) to fol. 32b, line 12 (אם היה)</title>
+                        <note>Comments in Arabic added by a later hand in the margins.</note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part21" n="21">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/21</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part21-item1">
+                        <locus from="38a" to="38b">Fol. 38</locus>
+                        <title>Babylonian Talmud בבא מציעא, fol. 92b, line 20 (הוה) to fol. 93b, line 5 (ששומר)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part22" n="22">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/22</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part22-item1">
+                        <locus from="39a" to="42b"/>
+                        <title>Babylonian Talmud בבא מציעא</title>
+                        <msItem xml:id="MS_Heb_b_10-part22-item1-item1" n="a">
+                           <p>(<locus from="39a">fol. 39</locus>) fol. 86b, line 50 (וגבריאל) to fol. 89, line 26 (ונגמרה);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part22-item1-item2" n="b">
+                           <p>(<locus from="41a">fol. 41</locus>) fol. 93b, line 6 (בהן כגון) to fol. 95, line 34 (לא כתיב).</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part23" n="23">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/23</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part23-item1">
+                        <locus from="43a" to="45b">Fol. 43</locus>
+                        <title>Babylonian Talmud בבא בתרא, fol. 10b, line 11 (קא אמרינן) to fol. 12b, line 26 (וישתה)</title>
+                        <note>
+                           <locus from="44a" to="44b">Fol. 44</locus>is a fragment only.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part24" n="24">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/24</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part24-item1">
+                        <locus from="45a" to="48b"/>
+                        <title>Babylonian Talmud בבא בתרא</title>
+                        <msItem xml:id="MS_Heb_b_10-part24-item1-item1" n="a">
+                           <locus from="45a">(fol. 45)</locus>
+                           <title>Babylonian Talmud בבא בתרא fol. 97, line 34 (הביא כשר אנן) to fol. 101b, line 14 (בעית)</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part24-item1-item2" n="b">
+                           <locus from="46a">(fol. 46)</locus>
+                           <title>Babylonian Talmud בבא בתרא fol. 107b, line 16 (הילכתא) to fol. 116, line 20 (דרביה)</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part24-item1-item3" n="c">
+                           <locus from="48a">(fol. 48)</locus>
+                           <title>Babylonian Talmud בבא בתרא fol. 121, line 12 (לא נאמר) to fol. 123b, line 21 (רבה בר)</title>
+                        </msItem>
+                        <note>Half-leaves only remaining.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part25" n="25">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/25</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part25-item1">
+                        <locus from="49a" to="50b">Fol. 49</locus>
+                        <title>Halakhoth on סנהדרין, chap. ix</title>
+                        <note>obliterated. Ff.<locus from="49b">49b</locus>and<locus from="50a">50</locus>are blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 2 coll., oblong 8vo,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part26" n="26">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/26</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part26-item1">
+                        <locus from="51a" to="51b">Fol. 51</locus>
+                        <title>Babylonian Talmud עבודה זרה, fol. 17b, line 8 (תשמר) to fol. 18, line 37 (אמ̇ להן)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part27" n="27">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/27</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part27-item1">
+                        <locus from="52a" to="53b">Fol. 52</locus>
+                        <title>Babylonian Talmud עבודה זרה, the end of the Mishnah, chap. 5, followed by the Gemara, ff. 62 to 67, line 15 (וקורין)</title>
+                        <note>With some marginal notes.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>French squ. char.; 2 coll., 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part28" n="28">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/28</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part28-item1">
+                        <locus from="54a" to="57b">Fol. 54</locus>
+                        <title>Babylonian Talmud חולין, fol. 23, line 11 (בבהמה) to fol. 27b, line 29 (כעתה גבי)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part29" n="29">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/29</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part29-item1">
+                        <locus from="58a" to="58b">Fol. 58</locus>
+                        <title>Babylonian Talmud חולין, fol. 79, line 15 (לזרע) to fol. 80, l. 40 (נינהו)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part30" n="30">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/30</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part30-item1">
+                        <locus from="59a" to="60b"/>
+                        <title>Babylonian Talmud כריתות</title>
+                        <msItem xml:id="MS_Heb_b_10-part30-item1-item1" n="a">
+                           <locus from="59a">(fol. 59)</locus>
+                           <title>Babylonian Talmud כריתות fol. 20, line 14 (במשום) to fol. 21b, line 10 (בוקעת)</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part30-item1-item2" n="b">
+                           <locus from="60a">(fol. 60)</locus>
+                           <title>Babylonian Talmud כריתות fol. 28, line 33 (ומביא) to the end of the tractate</title>
+                        </msItem>
+                        <note>Some corrections on the margins. Fol. 60b is blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part31" n="31">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/31</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part31-item1">
+                        <locus from="61a" to="62b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_b_10-part31-item1-item1" n="a">
+                           <locus from="61a">(fol. 61)</locus>
+                           <title>Mishnah תמיד v. 5 (MS. 4, מושך) to the end of the tractate</title>
+                           <note>with the following addition:<quote>ביום הראשון ברא הק̇ב̇ה̇ את עולמו בשני מקלסין לכבודו בשלישי ישב עליהן בדין ברביעי היפרע מן הרשעים בחמישי נתן שכר טוב לצדיקים בששי מלך על כל עולמו בשביעי הכל מקלסין לכבודו ואומ̇ מזמור שיר ליום השבת טוב להודות ליֿיֿ ולזמר לשמך עליון להגיד בבקר חסדך ואמונתך בלילות.</quote>;</note>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part31-item1-item2" n="b">
+                           <locus from="61b">(fol. 61b)</locus>
+                           <title>Mishnah מסכתא דקנים to iii. 4 (למעלן מחצה כשר)</title>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 2 coll., 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part32" n="32">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/32</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part32-item1">
+                        <locus from="63a" to="64b">Fol. 63</locus>
+                        <title>Halakhot on ברכות, followed (<locus from="63b">fol. 63b</locus>) by Jerusalem Talmud ברכות, fol. 11b, line 13 (מזמנין) to fol. 11c, line 19 (ביר̇ בון)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; narrow fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part33" n="33">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/33</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part33-item1">
+                        <locus from="65a" to="65b">Fol. 65</locus>
+                        <title>Commentary on Babylonian Talmud יבמות, fol. 54</title>
+                        <note>much injured.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, cut.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part34" n="34">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/34</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part34-item1">
+                        <locus from="66a" to="66b">Fol. 66</locus>
+                        <title>דרך ארץ רבה</title>
+                        <note>paragraph 8 (לא ישלח אדם) to the end of the section, followed by paragraph 10, headed<quote type="head">פרק ח̇</quote>, to ערומים רובן.<locus from="66b">Fol. 66b</locus>is blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>vellum</material>, a strip only.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part35" n="35">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/35</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part35-item1">
+                        <locus from="67a" to="67b">Fol. 67</locus>
+                        <title>Halakhoth on סוכה</title>
+                        <note>obliterated.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part36" n="36">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/36</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part36-item1">
+                        <locus from="68a" to="69b">Fol. 68</locus>
+                        <title>הלכות גדולות on פסח, ed. Hildesheimer, p. 135, line 9 (עובר) to p. 136, line 8 (בגבולין)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; narrow fol.,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part37" n="37">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/37</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part37-item1">
+                        <locus from="69a" to="72b">Fol. 69</locus>
+                        <title>
+                           <persName>Rashi</persName>’s commentary on Genesis xvii. 12 to xix. 24</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 2 coll., 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part38" n="38">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/38</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part38-item1">
+                        <locus from="73a" to="73b">Fol. 73</locus>
+                        <title>
+                           <persName>Seadiah</persName>’s Arabic translation of Exodus xxxix. 43 to the end of the book</title>
+                        <note>Colophon<quote type="col">זכינו להשלים ספר פתרון ואלה שמות נזכה להתחיל ולגמור פתרון ספר ויקרא</quote>.<p>The leaf is marked ט̇.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., large 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part39" n="39">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/39</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part39-item1">
+                        <locus from="74a" to="74b">Fol. 74</locus>
+                        <title>Jerusalem Talmud קידושין fol. 61c, hal. ix, to fol. 61d, line 5 from below.</title>
+                        <note>a section beg.<quote>הל̇ כל̇ מצוה כול̇ כת̇ אלה החקים והמשפטים. ... אתם חייבין לעשות. ואינכם חייבין לעשות חוץ לארץ. אדיין אני או̇ מצוות התלויות בארץ אינן נהגות אא̇ בארץ יכול אפילו שאינן תלויות בארץ לא יהו נוהגות אא̇ בארץ. תל̇ השמרו לכ̇ פן יפ̇ לבבכם וגו̇ וחרה אף יי וגו̇</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; large 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part40" n="40">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/40</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part40-item1">
+                        <locus from="75a" to="75b">Fol. 75</locus>
+                        <title>הלכות גדולות on רביעית של תורה, ed. Hildesheimer, p. 624, line 1 (שש ביצים) to the end of the section, followed by היל̇ סופרים, ibid. p. 504 to p. 506, line 1 (והכי קא)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; large 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part41" n="41">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/41</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part41-item1">
+                        <locus from="76a" to="77b">Fol. 76</locus>
+                        <title>Arabic commentary on Leviticus xiii. 42 to 46</title>
+                        <note>beg.<quote type="beg">ואלנץ איצ̇א פקד נצח ברדהא אלי אחכאמה אד קאל כמראה צרעת עור בשר צארת אלאן תלתה צרוב אמא שחין ומכוה פי נגסאן בעלאמה שער לבן לא במחיה ואמא קרחת וגבחת פי נגסאן בעלאמה מחיה לא בשער לבן ...</quote>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part42" n="42">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/42</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part42-item1">
+                        <locus from="78a" to="78b">Fol. 78</locus>
+                        <title>Commentary on 1 Samuel xxv. 1 to xxviii. 20.</title>
+                        <note>On xxv. 2 sq. a boraita:<quote>ואיש במעון ומעשהו וג̇ אמ̇ ר̇ אייבו כל מקום [שנאמר] בו גזיזה עושר.. ושם האיש נבל ושם אשתו אביגיל וג̇ מה הוא והוא כלבי משבטו שלכלב ... מה הוא וינוחו נעשים מחנה תמן תנינן דברים פטרו במחנה מביאים עצים מכל מקום ופטורין מרחיצת ידים ומידמיי ולמערב. ר̇ יהודה ביר̇ אלעיי אמר שנים עשר אלף כמחנה מדין ר̇ חנינה אמ̇ מאה איש כמחנה גדעזן ומאה איש אשר אתו וג̇ אמ̇ ר̇ יוסטא בר שונם ...</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part43" n="43">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/43</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part43-item1">
+                        <locus from="79a" to="82b">Fol. 79</locus>
+                        <title>Responsa</title>
+                        <note>
+                           <p>the legible beginnings are</p>
+                           <p>
+                              <quote>וששאלתם מרחץ שלגוי ...</quote>,</p>
+                           <p>
+                              <quote>ושש̇ גרתקין ...</quote>,</p>
+                           <p>
+                              <quote>ושש̇ טבעת שיש עליה חותם ...</quote>;</p>
+                           <p>
+                              <locus from="80a">fol. 80</locus>,<quote>ושש̇ כל ששהה שלושים יום ...</quote>;</p>
+                           <p>
+                              <locus from="80b">fol. 80b</locus>,<quote>ושש̇ עיגלא תלתא ...</quote>,</p>
+                           <p>
+                              <quote>ושש̇ הא דאמ̇ רבי יהודה טלית שאחזה בה באור ...</quote>,</p>
+                           <p>
+                              <quote>ושש̇ הא דאמ̇ ר̇ שמעון בן לוי כל מיני מזיקין ניהרגין ...</quote>;</p>
+                           <p>
+                              <locus from="81a">fol. 81</locus>,<quote>ושש̇ לפרש לכם פירושא דגוד ומשמרת בילה</quote>;</p>
+                           <p>
+                              <locus from="81b">fol. 81b</locus>,<quote>ושש̇ מנעול שעל [אמו]ם מותר ...</quote>.</p>
+                           <p>
+                              <locus from="80a">On fol. 80</locus>marg.<quote>ושש̇ מה פירוש שבועת הסת</quote>.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; oblong 8vo,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part44" n="44">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/44</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part44-item1">
+                        <locus from="84a" to="84b">Fol. 84</locus>
+                        <title>דרך ארץ זוטא</title>
+                        <note>ix (שלא יחסרו) to the end of the chapter, with the colophon<quote>סליק דרך ארץ רבה.</quote>, followed by chapters v to viii (אחת כמה), headed<quote type="head">[ארץ זוטא] דרך</quote>.</note>
+                        <note>
+                           <locus from="83a" to="83b">Fol. 83</locus>obliterated.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_10-part45" n="45">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 10/45</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_10-part45-item1">
+                        <locus from="85a" to="86b"/>
+                        <title>Hymns; Leviticus</title>
+                        <msItem xml:id="MS_Heb_b_10-part45-item1-item1">
+                           <locus from="85a">Fol. 85</locus>
+                           <title>Two hymns</title>
+                           <note>very carelessly written</note>
+                           <msItem xml:id="MS_Heb_b_10-part45-item1-item1-item1" n="a">
+                              <p>beg.<quote type="beg">לאלי משה ואהרן</quote>;</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_b_10-part45-item1-item1-item2" n="b">
+                              <p>headed<quote type="head">לעמרם בר משה ת̇נ̇צ̇ב̇ה̇</quote>, beg.<quote type="beg">אלהים אלהים ... בוראי ומושיעי חיש נא ישעי</quote>.</p>
+                           </msItem>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part45-item1-item2">
+                           <locus from="85b">Fol. 85b</locus>
+                           <title>Leviticus i. 1 to 12 (ונתח אתו)</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_10-part45-item1-item3">
+                           <locus from="86a" to="86b">Fol. 86</locus>
+                           <title>Leviticus iv. 2 to 10 (יורם)</title>
+                           <note>At the end is the note<quote>קדש ליי̇ אלהי ישראל למערה (?) לכניסת הרבנים יודע סוד העיבור ושלום על יש̇</quote>. On<locus from="86b">fol. 86b</locus>some scribbling.</note>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. and squ. Rabb. char.; 2 coll., 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Talmud</term>
+               <term>Later Acquisitions</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_b_10_01">Mishnah. פיאה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_01">Mishnah. דמאי.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_02">Mishnah. סוכה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_02">Mishnah. ביצה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_02">Mishnah. ראש השנה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_03">Mishnah. קידושין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_03">Mishnah. בבא קמא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_04">Talmud, Babli. ברכות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_05">Talmud, Babli. שבת.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_06">Talmud, Babli. עירובין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_07">Talmud, Babli. עירובין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_08">Talmud, Babli. סוכה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_09">Talmud, Babli. ראש השנה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_10">Talmud, Babli. גיטין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_11">Talmud, Babli. סוטה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_12">Mishnah. סוטה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_12">Talmud, Babli. סוטה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_13">Talmud, Babli. סוטה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_14">Talmud, Babli. קידושין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_15">Talmud, Babli. קידושין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_16">Talmud, Babli. קידושין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_17">Talmud, Babli. קידושין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_18">Talmud, Babli. בבא קמא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_19">Talmud, Babli. בבא קמא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_20">Talmud, Babli. בבא מציעא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_20">Talmud, Babli. Commentaries. בבא מציעא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_21">Talmud, Babli. בבא מציעא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_22">Talmud, Babli. בבא מציעא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_23">Talmud, Babli. בבא בתרא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_24">Talmud, Babli. בבא בתרא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_26">Talmud, Babli. עבודה זרה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_27">Talmud, Babli. עבודה זרה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_28">Talmud, Babli. חולין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_29">Talmud, Babli. חולין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_30">Talmud, Babli. כריתות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_31">Mishnah. תמיד.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_31">Mishnah. קנים.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_32">Talmud, Yerushalmi. ברכות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_33">Talmud, Babli. Commentaries. יבמות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_34">Mishnah. דרך ארץ רבה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_37">
+                     <persName type="aut">Solomon b. Isaac (Rashi)</persName>. Commentaries: Genesis.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_38">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Versions, Arabic: Exodus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_39">Talmud, Yerushalmi. קידושין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_41">Bible. Commentaries. Anonymous. Arabic: Leviticus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_42">Bible. Commentaries. Anonymous. Hebrew: Samuel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_44">Mishnah. דרך ארץ רבה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_44">Mishnah. דרך ארץ זוטא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_45">
+                     <persName type="aut">Amram b. Moses</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_45">Bible. Leviticus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_10_45">Liturgy. פיוטים for various occasions.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2011-06-14">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_b_10_1a.tif"/>
+      <graphic url="MS_HEB_b_10_1b.tif"/>
+      <graphic url="MS_HEB_b_10_2a.tif"/>
+      <graphic url="MS_HEB_b_10_2b.tif"/>
+      <graphic url="MS_HEB_b_10_3a.tif"/>
+      <graphic url="MS_HEB_b_10_3b.tif"/>
+      <graphic url="MS_HEB_b_10_4a.tif"/>
+      <graphic url="MS_HEB_b_10_4b.tif"/>
+      <graphic url="MS_HEB_b_10_5a.tif"/>
+      <graphic url="MS_HEB_b_10_5b.tif"/>
+      <graphic url="MS_HEB_b_10_6a.tif"/>
+      <graphic url="MS_HEB_b_10_6b.tif"/>
+      <graphic url="MS_HEB_b_10_7a.tif"/>
+      <graphic url="MS_HEB_b_10_7b.tif"/>
+      <graphic url="MS_HEB_b_10_8a.tif"/>
+      <graphic url="MS_HEB_b_10_8b.tif"/>
+      <graphic url="MS_HEB_b_10_9a.tif"/>
+      <graphic url="MS_HEB_b_10_9b.tif"/>
+      <graphic url="MS_HEB_b_10_10a.tif"/>
+      <graphic url="MS_HEB_b_10_10b.tif"/>
+      <graphic url="MS_HEB_b_10_11a.tif"/>
+      <graphic url="MS_HEB_b_10_11b.tif"/>
+      <graphic url="MS_HEB_b_10_12a.tif"/>
+      <graphic url="MS_HEB_b_10_12b.tif"/>
+      <graphic url="MS_HEB_b_10_13a.tif"/>
+      <graphic url="MS_HEB_b_10_13b.tif"/>
+      <graphic url="MS_HEB_b_10_14a.tif"/>
+      <graphic url="MS_HEB_b_10_14b.tif"/>
+      <graphic url="MS_HEB_b_10_15a.tif"/>
+      <graphic url="MS_HEB_b_10_15b.tif"/>
+      <graphic url="MS_HEB_b_10_16a.tif"/>
+      <graphic url="MS_HEB_b_10_16b.tif"/>
+      <graphic url="MS_HEB_b_10_17a.tif"/>
+      <graphic url="MS_HEB_b_10_17b.tif"/>
+      <graphic url="MS_HEB_b_10_18a.tif"/>
+      <graphic url="MS_HEB_b_10_18b.tif"/>
+      <graphic url="MS_HEB_b_10_19a.tif"/>
+      <graphic url="MS_HEB_b_10_19b.tif"/>
+      <graphic url="MS_HEB_b_10_20a.tif"/>
+      <graphic url="MS_HEB_b_10_20b.tif"/>
+      <graphic url="MS_HEB_b_10_21a.tif"/>
+      <graphic url="MS_HEB_b_10_21b.tif"/>
+      <graphic url="MS_HEB_b_10_22a.tif"/>
+      <graphic url="MS_HEB_b_10_22b.tif"/>
+      <graphic url="MS_HEB_b_10_23a.tif"/>
+      <graphic url="MS_HEB_b_10_23b.tif"/>
+      <graphic url="MS_HEB_b_10_24a.tif"/>
+      <graphic url="MS_HEB_b_10_24b.tif"/>
+      <graphic url="MS_HEB_b_10_25a.tif"/>
+      <graphic url="MS_HEB_b_10_25b.tif"/>
+      <graphic url="MS_HEB_b_10_26a.tif"/>
+      <graphic url="MS_HEB_b_10_26b.tif"/>
+      <graphic url="MS_HEB_b_10_27a.tif"/>
+      <graphic url="MS_HEB_b_10_27b.tif"/>
+      <graphic url="MS_HEB_b_10_28a.tif"/>
+      <graphic url="MS_HEB_b_10_28b.tif"/>
+      <graphic url="MS_HEB_b_10_29a.tif"/>
+      <graphic url="MS_HEB_b_10_29b.tif"/>
+      <graphic url="MS_HEB_b_10_30a.tif"/>
+      <graphic url="MS_HEB_b_10_30b.tif"/>
+      <graphic url="MS_HEB_b_10_31a.tif"/>
+      <graphic url="MS_HEB_b_10_31b.tif"/>
+      <graphic url="MS_HEB_b_10_32a.tif"/>
+      <graphic url="MS_HEB_b_10_32b.tif"/>
+      <graphic url="MS_HEB_b_10_33a.tif"/>
+      <graphic url="MS_HEB_b_10_33b.tif"/>
+      <graphic url="MS_HEB_b_10_34a.tif"/>
+      <graphic url="MS_HEB_b_10_34b.tif"/>
+      <graphic url="MS_HEB_b_10_35a.tif"/>
+      <graphic url="MS_HEB_b_10_35b.tif"/>
+      <graphic url="MS_HEB_b_10_36a.tif"/>
+      <graphic url="MS_HEB_b_10_36b.tif"/>
+      <graphic url="MS_HEB_b_10_37a.tif"/>
+      <graphic url="MS_HEB_b_10_37b.tif"/>
+      <graphic url="MS_HEB_b_10_38a.tif"/>
+      <graphic url="MS_HEB_b_10_38b.tif"/>
+      <graphic url="MS_HEB_b_10_39a.tif"/>
+      <graphic url="MS_HEB_b_10_39b.tif"/>
+      <graphic url="MS_HEB_b_10_40a.tif"/>
+      <graphic url="MS_HEB_b_10_40b.tif"/>
+      <graphic url="MS_HEB_b_10_41a.tif"/>
+      <graphic url="MS_HEB_b_10_41b.tif"/>
+      <graphic url="MS_HEB_b_10_42a.tif"/>
+      <graphic url="MS_HEB_b_10_42b.tif"/>
+      <graphic url="MS_HEB_b_10_43a.tif"/>
+      <graphic url="MS_HEB_b_10_43b.tif"/>
+      <graphic url="MS_HEB_b_10_44a.tif"/>
+      <graphic url="MS_HEB_b_10_44b.tif"/>
+      <graphic url="MS_HEB_b_10_45a.tif"/>
+      <graphic url="MS_HEB_b_10_45b.tif"/>
+      <graphic url="MS_HEB_b_10_46a.tif"/>
+      <graphic url="MS_HEB_b_10_46b.tif"/>
+      <graphic url="MS_HEB_b_10_47a.tif"/>
+      <graphic url="MS_HEB_b_10_47b.tif"/>
+      <graphic url="MS_HEB_b_10_48a.tif"/>
+      <graphic url="MS_HEB_b_10_48b.tif"/>
+      <graphic url="MS_HEB_b_10_49a.tif"/>
+      <graphic url="MS_HEB_b_10_49b.tif"/>
+      <graphic url="MS_HEB_b_10_50a.tif"/>
+      <graphic url="MS_HEB_b_10_50b.tif"/>
+      <graphic url="MS_HEB_b_10_51a.tif"/>
+      <graphic url="MS_HEB_b_10_51b.tif"/>
+      <graphic url="MS_HEB_b_10_52a.tif"/>
+      <graphic url="MS_HEB_b_10_52b.tif"/>
+      <graphic url="MS_HEB_b_10_53a.tif"/>
+      <graphic url="MS_HEB_b_10_53b.tif"/>
+      <graphic url="MS_HEB_b_10_54a.tif"/>
+      <graphic url="MS_HEB_b_10_54b.tif"/>
+      <graphic url="MS_HEB_b_10_55a.tif"/>
+      <graphic url="MS_HEB_b_10_55b.tif"/>
+      <graphic url="MS_HEB_b_10_56a.tif"/>
+      <graphic url="MS_HEB_b_10_56b.tif"/>
+      <graphic url="MS_HEB_b_10_57a.tif"/>
+      <graphic url="MS_HEB_b_10_57b.tif"/>
+      <graphic url="MS_HEB_b_10_58a.tif"/>
+      <graphic url="MS_HEB_b_10_58b.tif"/>
+      <graphic url="MS_HEB_b_10_59a.tif"/>
+      <graphic url="MS_HEB_b_10_59b.tif"/>
+      <graphic url="MS_HEB_b_10_60a.tif"/>
+      <graphic url="MS_HEB_b_10_60b.tif"/>
+      <graphic url="MS_HEB_b_10_61a.tif"/>
+      <graphic url="MS_HEB_b_10_61b.tif"/>
+      <graphic url="MS_HEB_b_10_62a.tif"/>
+      <graphic url="MS_HEB_b_10_62b.tif"/>
+      <graphic url="MS_HEB_b_10_63a.tif"/>
+      <graphic url="MS_HEB_b_10_63b.tif"/>
+      <graphic url="MS_HEB_b_10_64a.tif"/>
+      <graphic url="MS_HEB_b_10_64b.tif"/>
+      <graphic url="MS_HEB_b_10_65a.tif"/>
+      <graphic url="MS_HEB_b_10_65b.tif"/>
+      <graphic url="MS_HEB_b_10_66a.tif"/>
+      <graphic url="MS_HEB_b_10_66b.tif"/>
+      <graphic url="MS_HEB_b_10_67a.tif"/>
+      <graphic url="MS_HEB_b_10_67b.tif"/>
+      <graphic url="MS_HEB_b_10_68a.tif"/>
+      <graphic url="MS_HEB_b_10_68b.tif"/>
+      <graphic url="MS_HEB_b_10_69a.tif"/>
+      <graphic url="MS_HEB_b_10_69b.tif"/>
+      <graphic url="MS_HEB_b_10_70a.tif"/>
+      <graphic url="MS_HEB_b_10_70b.tif"/>
+      <graphic url="MS_HEB_b_10_71a.tif"/>
+      <graphic url="MS_HEB_b_10_71b.tif"/>
+      <graphic url="MS_HEB_b_10_72a.tif"/>
+      <graphic url="MS_HEB_b_10_72b.tif"/>
+      <graphic url="MS_HEB_b_10_73a.tif"/>
+      <graphic url="MS_HEB_b_10_73b.tif"/>
+      <graphic url="MS_HEB_b_10_74a.tif"/>
+      <graphic url="MS_HEB_b_10_74b.tif"/>
+      <graphic url="MS_HEB_b_10_75a.tif"/>
+      <graphic url="MS_HEB_b_10_75b.tif"/>
+      <graphic url="MS_HEB_b_10_76a.tif"/>
+      <graphic url="MS_HEB_b_10_76b.tif"/>
+      <graphic url="MS_HEB_b_10_77a.tif"/>
+      <graphic url="MS_HEB_b_10_77b.tif"/>
+      <graphic url="MS_HEB_b_10_78a.tif"/>
+      <graphic url="MS_HEB_b_10_78b.tif"/>
+      <graphic url="MS_HEB_b_10_79a.tif"/>
+      <graphic url="MS_HEB_b_10_79b.tif"/>
+      <graphic url="MS_HEB_b_10_80a.tif"/>
+      <graphic url="MS_HEB_b_10_80b.tif"/>
+      <graphic url="MS_HEB_b_10_81a.tif"/>
+      <graphic url="MS_HEB_b_10_81b.tif"/>
+      <graphic url="MS_HEB_b_10_82a.tif"/>
+      <graphic url="MS_HEB_b_10_82b.tif"/>
+      <graphic url="MS_HEB_b_10_83a.tif"/>
+      <graphic url="MS_HEB_b_10_83b.tif"/>
+      <graphic url="MS_HEB_b_10_84a.tif"/>
+      <graphic url="MS_HEB_b_10_84b.tif"/>
+      <graphic url="MS_HEB_b_10_85a.tif"/>
+      <graphic url="MS_HEB_b_10_85b.tif"/>
+      <graphic url="MS_HEB_b_10_86a.tif"/>
+      <graphic url="MS_HEB_b_10_86b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

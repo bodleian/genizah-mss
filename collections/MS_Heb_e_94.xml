@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_158">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. e. 94</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_e_94</idno>
+            <idno type="msID">MS_Heb_e_94</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_e_94" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. e. 94</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Miscellaneous fragments.</summary>
+               </msContents>
+               <physDesc>
+                  <p>Ff. 30.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p041.jpg Catalogue-2_p042.jpg Catalogue-2_p043.jpg">fols. 41-43</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_e_94-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part1-item1">
+                        <locus from="1a" to="1b">Fol. 1</locus>
+                        <title>Num. 7,73-79.</title>
+                        <note>On the margins and<locus from="1b" to="1b">verso</locus>, scribbling.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 6 1/4 x 4 in., 13 lines; injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part2-item1">
+                        <locus from="2a" to="2b">Fol. 2</locus>
+                        <title>Isaiah 20,3 - 22,18</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, 7 1/4 x 3 3/4 in., 20 lines; stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part3-item1">
+                        <locus from="3a" to="3b">Fol. 3</locus>
+                        <title>Psalm 30.</title>
+                        <note>At the end<quote type="end">ברוך יי לעולם</quote>. Probably from a prayer book.<p>
+                              <locus from="3b" to="3b">Verso</locus>, scribbling.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 7 3/4 x 3 3/4 in., 19 lines, stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part4-item1">
+                        <locus from="4a" to="5b">Fols. 4, 5</locus>
+                        <title>Headed<quote type="head">תורת כהנים</quote>. Fragments of a commentary on Lev. 20,5+</title>
+                        <note>The leaves are torn and only half lines remain. Beg. with a short extract from Rashi.<p>On<locus from="5a" to="5a">fol. 5</locus>top is an extract from ספרא (ed. Weiss, p. 91a lines 22 to 27) after which is the following</p>
+                           <p>
+                              <quote>בארץ מצרים. לא ... הארץ במשקל זה ... הגדול ויש או̇ זו קו̇ ... והבאתי עליכם חר... כברית ונקם שאין ... שאין כברית כגון ... עיני צדקיהו מלך יה[ודה] ...</quote>
+                           </p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, partly illegible.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part5-item1">
+                        <locus from="6a" to="6b">Fol. 6</locus>
+                        <title>
+                           <persName>Maimonides</persName>, Mishneh Torah<quote>הלכות מכירה</quote>17,2-4.</title>
+                        <note>Quire mark ב̇(?).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.;<material>paper</material>, 7 x 3 1/2 in., 11 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part6-item1">
+                        <locus from="7a" to="8b">Fols. 7, 8</locus>
+                        <title>From a ס' שטרות.</title>
+                        <note>On<locus from="7b" to="7b">fol. 7v</locus>is one numbered י̇ב̇, headed<quote type="head">שטר פקדתא</quote>;<p>on<locus from="8b" to="8b">fol. 8v</locus>no. י י̇ו̇ (?) headed<quote type="head">שטר פילגאתא (?) דבת ...</quote>.</p>
+                           <p>Half leaves only.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 3 5/8 in. wide, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part7" n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part7-item1">
+                        <locus from="9a" to="14b">Fols. 9-14</locus>
+                        <title>Fragments of a philosophical legal treatise, based on biblical authority.</title>
+                        <note>The first continuous passage is<p>
+                              <quote>אלגואב נקול אן פי זיאדה חנם (Ex. 21,2) ג̇ אקואל אלא̇ ערפנא אנה לא יחתאג אלי כתאב עתק בל יכרג חנם בלא כתאב אלב̇ ערפנא אן עב̇ עב̇ לא ילזמה אן יופי מולאה ...</quote>
+                           </p>
+                           <p>The order of the leaves is uncertain.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 7 1/2 x 2 3/4 in., about 25 lines, much injured.</p>
+                     <p>In the same hand as<ref target="MS_Heb_e_105_13">MS. Heb. e. 105 fols. 45, 46</ref>and<ref target="MS_Heb_e_108_12">MS. Heb. e. 108 fol. 34</ref>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part8-item1">
+                        <locus from="15a" to="15b">Fol. 15</locus>
+                        <title>Elegy of 3 stanzas</title>
+                        <note>beg.<quote type="beg">ביום זה אחזוני צירים וחבלים. על קהלותי אשר מילדיהם ואהוביהם שכולים ...</quote>.<p>Stanza 2 mentions<quote>בני מר̇ יוסף הכהן</quote>.</p>
+                           <p>Lower half of the page blank.</p>
+                           <p>
+                              <locus from="15b" to="15b">Verso</locus>the end of a deed consisting only of formal phrases. Some words from it are scribbled below.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 8 x 4 in., injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part9-item1">
+                        <locus from="16a" to="16b">Fol. 16</locus>
+                        <title>Accounts</title>
+                        <note>beg.<quote type="beg">הדה מא כרגת מן ידי ...</quote>.<p>
+                              <locus from="16b" to="16b">Verso</locus>, scribbling.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Maghrebi Rabb. char.;<material>paper</material>, 6 1/4 x 3 1/2 in., injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part10-item1">
+                        <locus from="17a" to="17b">Fol. 17</locus>
+                        <title>Amulet or magical prayer, with names of angels.</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 3 1/4 in., 16 lines; injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part11" n="11">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part11-item1">
+                        <locus from="18a" to="18b">Fol. 18</locus>
+                        <title>Fragment of a deed.</title>
+                        <note>Parties<persName type="heb">יהודה בר שלמה הסופר נ̇ע̇</persName>and<persName type="heb">מנצור בן מוסי</persName>.<p>Witness<persName type="heb">חייא בר̇ יצח[ק]</persName>. Written in Egypt.</p>
+                           <p>Below (upside down)<quote type="head">[כת]ובה לאלעזר בר̇ מבורך [... סת] אלבנאת בר[ת] דוד ...</quote>.</p>
+                           <p>Verso scribbling and the name<persName type="heb">סאלם בן עבד אללה</persName>.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>(torn) 7 5/8 in. long; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Egypt</origPlace>
+                     </origin>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part12" n="12">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part12-item1">
+                        <locus from="19a" to="19b">Fol. 19</locus>
+                        <title>Deed</title>
+                        <note>relating to a sum of 50 dinars which<persName type="heb">אלג̇ידה בת מר̇ור̇ אב[רהם] הזקן נ̇ע̇</persName>, wife of<persName type="heb">אבו אלסרור אלעצאר מר̇ור̇ פרחיה הזקן התלמיד י̇ש̇צ̇ו̇</persName>had borrowed from her brother<persName type="heb">דויד ... אלצבאג</persName>on the security of one third of a house in<placeName type="heb">קצר אלשמע</placeName>Fustat, called<placeName type="heb">דאר בן לפאחה</placeName>. The signatures (if ever added) have been torn off.<locus from="19b" to="19b">Verso</locus>blank.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 6 3/4 x 4 in., 8 lines (written lengthwise); much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part13" n="13">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part13-item1">
+                        <locus from="20a" to="21b">Fols. 20, 21</locus>
+                        <title>Accounts</title>
+                        <note>beg.<quote type="beg">אלשיך אבואלרצ̇א בן אבו אלדם דינאר</quote>.<p>
+                              <locus from="20a" to="20a">Fol. 20r</locus>scribbling only.</p>
+                        </note>
+                        <textLang mainLang="jrb" otherLangs="ar"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, about 6 1/2 x 3 1/2 in., about 15 lines; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part14" n="14">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part14-item1">
+                        <locus from="22a" to="22b">Fol. 22</locus>
+                        <title>Accounts</title>
+                        <note>beg.<quote type="beg">בן צדקה אל עמאר בן (?) אבו נצר אלעמאר</quote>.<p>
+                              <locus from="22b" to="22b">Verso</locus>a few words only.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>(torn) 3 3/8 in. wide; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part15" n="15">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/15</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part15-item1">
+                        <locus from="23a" to="23b">Fol. 23</locus>
+                        <title>Accounts</title>
+                        <note>
+                           <locus from="23b" to="23b">Verso</locus>, half blank, and 3 lines in cipher.</note>
+                        <textLang mainLang="jrb" otherLangs="und"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 7 1/4 x 4 in., 2 cols. injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part16" n="16">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/16</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part16-item1">
+                        <locus from="24a" to="24b">Fol. 24</locus>
+                        <title>Accounts</title>
+                        <note>beg.<quote type="beg">אלדי אכדת מן מולאי ...</quote>.<p>
+                              <locus from="24b" to="24b">Verso</locus>blank.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 7 1/4 x 3 3/4 in., 2 columns; much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part17" n="17">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part17-item1">
+                        <locus from="25a" to="25b">Fol. 25</locus>
+                        <title>Small fragment of a business letter in Arabic</title>
+                        <note>The only name mentioned is<persName type="heb">דאוד</persName>.<locus from="25b" to="25b">Verso</locus>blank.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 6 3/4 x 3 in.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part18" n="18">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/18</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part18-item1">
+                        <locus from="26a" to="26b">Fol. 26</locus>
+                        <title>Arabic letter to<persName type="heb">מסאפר</persName>from his brother in<placeName>Fustat</placeName>.</title>
+                        <note>Greetings from<persName type="heb">צדקה בן אלטאקי</persName>and<persName type="heb">אבו נצר</persName>.<locus from="26b" to="26b">Verso</locus>address only.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 3 5/8 in., 20 lines, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Fustat</origPlace>
+                     </origin>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part19" n="19">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/19</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part19-item1">
+                        <locus from="27a" to="27b">Fol. 27</locus>
+                        <title>Begging letter in Arabic from<persName type="heb">ממלוכה י... הכהן</persName>.</title>
+                        <note>Mentions<persName type="heb">ר̇ אליה הדיין</persName>.<p>
+                              <locus from="27b" to="27b">Verso</locus>, 2 lines of accounts in naskhi.</p>
+                        </note>
+                        <textLang mainLang="jrb" otherLangs="ar"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char. (<locus from="27b" to="27b">verso</locus>, naskhi);<material>paper</material>, 6 x 3 3/8 in., 14 lines, stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part20" n="20">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/20</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part20-item1">
+                        <locus from="28a" to="28b">Fol. 28</locus>
+                        <title>Arabic letter</title>
+                        <note>mentioning<persName type="heb">? אבו סעיד בן קטוס</persName>and proceedings before the בית דין.</note>
+                        <note>
+                           <locus from="28b" to="28b">Verso</locus>, only remains of the address (?) in naskhi.</note>
+                        <textLang mainLang="jrb" otherLangs="ar"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char. (<locus from="28b" to="28b">verso</locus>, naskhi);<material>paper</material>, 6 5/8 x 3 1/4 in., 10 lines.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part21" n="21">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/21</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part21-item1">
+                        <locus from="29a" to="29b">Fol. 29</locus>
+                        <title>Letter to<persName type="heb">אחי ... משה פריך ... למצרים</persName>.</title>
+                        <note>
+                           <locus from="29b" to="29b">Verso</locus>address only.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. curs. char.;<material>paper</material>, 7 1/2 x 3 7/8 in., 26 lines; faded.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_e_94-part22" n="22">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. e. 94/22</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_e_94-part22-item1">
+                        <locus from="30a" to="30b">Fol. 30</locus>
+                        <title>Business letter in Arabic to<persName>Abu Saʿid</persName>from his brother<persName type="heb">יחזקיאל בר אבא מרו̇ נתנאל ... אלדמאטי נ̇ע̇</persName>.</title>
+                        <note>
+                           <locus from="30b" to="30b">Verso</locus>address only.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.;<material>paper</material>, 7 3/4 x 4 (about) in., 17 lines, torn and injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="TYPED">
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Miscellaneous</term>
+               <term>
+                  <ref target="#MS_Heb_e_94_01 #MS_Heb_e_94_02 #MS_Heb_e_94_03">Biblical fragments</ref>
+               </term>
+            </keywords>
+            <keywords scheme="#TYPED">
+               <term>
+                  <ref target="#MS_Heb_e_94_05">
+                     <persName type="aut">Moses b. Maimon</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_08">
+                     <persName type="ment">Joseph, kohen</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_11">
+                     <persName type="par">Judah b. Solomon, sopher</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_11">
+                     <persName type="par">Manṣur b. Musa</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_11">
+                     <persName type="wit">Ḥiyya b. Isaac</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_11">
+                     <persName type="ment">Eleazar b. Mebhorakh</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_11">
+                     <persName type="ment">Salim b. ʿAbdallah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_12">
+                     <persName type="par">Al-jayidah dtr of Abraham (הזקן)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_12">
+                     <persName type="ment">Abu 'l-surur al-ʿAṣar Peraḥiah (הזקן)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_12">
+                     <persName type="par">David ... אלצבאג</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_13">
+                     <persName type="ment">Abu 'l-ridha</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_14">
+                     <persName type="ment">b. Ẓedaqah al-ʿAmmar b. Abi Naṣr al-ʿAmmar</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_17">
+                     <persName type="ment">Daud</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_18">
+                     <persName type="ment">Musafir</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_18">
+                     <persName type="ment">Ẓedaqah b. al-ṭaqi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_18">
+                     <persName type="ment">Abu Nasr</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_19">
+                     <persName type="aut">J... kohen</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_19">
+                     <persName type="ment">Elijah, dayan</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_20">
+                     <persName type="ment">Abu Saʿid b. ?קטוס</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_21">
+                     <persName type="heb">Moses פריך</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_22">
+                     <persName type="ment">Abu Saʿid</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_e_94_22">
+                     <persName type="aut">Ezekiel b. Nethaneel ... al-damaṭi</persName>.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2010-12-07">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_e_94_1a.tif"/>
+      <graphic url="MS_HEB_e_94_1b.tif"/>
+      <graphic url="MS_HEB_e_94_2a.tif"/>
+      <graphic url="MS_HEB_e_94_2b.tif"/>
+      <graphic url="MS_HEB_e_94_3a.tif"/>
+      <graphic url="MS_HEB_e_94_3b.tif"/>
+      <graphic url="MS_HEB_e_94_4a.tif"/>
+      <graphic url="MS_HEB_e_94_4b.tif"/>
+      <graphic url="MS_HEB_e_94_5a.tif"/>
+      <graphic url="MS_HEB_e_94_5b.tif"/>
+      <graphic url="MS_HEB_e_94_6a.tif"/>
+      <graphic url="MS_HEB_e_94_6b.tif"/>
+      <graphic url="MS_HEB_e_94_7a.tif"/>
+      <graphic url="MS_HEB_e_94_7b.tif"/>
+      <graphic url="MS_HEB_e_94_8a.tif"/>
+      <graphic url="MS_HEB_e_94_8b.tif"/>
+      <graphic url="MS_HEB_e_94_9a.tif"/>
+      <graphic url="MS_HEB_e_94_9b.tif"/>
+      <graphic url="MS_HEB_e_94_10a.tif"/>
+      <graphic url="MS_HEB_e_94_10b.tif"/>
+      <graphic url="MS_HEB_e_94_11a.tif"/>
+      <graphic url="MS_HEB_e_94_11b.tif"/>
+      <graphic url="MS_HEB_e_94_12a.tif"/>
+      <graphic url="MS_HEB_e_94_12b.tif"/>
+      <graphic url="MS_HEB_e_94_13a.tif"/>
+      <graphic url="MS_HEB_e_94_13b.tif"/>
+      <graphic url="MS_HEB_e_94_14a.tif"/>
+      <graphic url="MS_HEB_e_94_14b.tif"/>
+      <graphic url="MS_HEB_e_94_15a.tif"/>
+      <graphic url="MS_HEB_e_94_15b.tif"/>
+      <graphic url="MS_HEB_e_94_16a.tif"/>
+      <graphic url="MS_HEB_e_94_16b.tif"/>
+      <graphic url="MS_HEB_e_94_17a.tif"/>
+      <graphic url="MS_HEB_e_94_17b.tif"/>
+      <graphic url="MS_HEB_e_94_18a.tif"/>
+      <graphic url="MS_HEB_e_94_18b.tif"/>
+      <graphic url="MS_HEB_e_94_19a.tif"/>
+      <graphic url="MS_HEB_e_94_19b.tif"/>
+      <graphic url="MS_HEB_e_94_20a.tif"/>
+      <graphic url="MS_HEB_e_94_20b.tif"/>
+      <graphic url="MS_HEB_e_94_21a.tif"/>
+      <graphic url="MS_HEB_e_94_21b.tif"/>
+      <graphic url="MS_HEB_e_94_22a.tif"/>
+      <graphic url="MS_HEB_e_94_22b.tif"/>
+      <graphic url="MS_HEB_e_94_23a.tif"/>
+      <graphic url="MS_HEB_e_94_23b.tif"/>
+      <graphic url="MS_HEB_e_94_24a.tif"/>
+      <graphic url="MS_HEB_e_94_24b.tif"/>
+      <graphic url="MS_HEB_e_94_25a.tif"/>
+      <graphic url="MS_HEB_e_94_25b.tif"/>
+      <graphic url="MS_HEB_e_94_26a.tif"/>
+      <graphic url="MS_HEB_e_94_26b.tif"/>
+      <graphic url="MS_HEB_e_94_27a.tif"/>
+      <graphic url="MS_HEB_e_94_27b.tif"/>
+      <graphic url="MS_HEB_e_94_28a.tif"/>
+      <graphic url="MS_HEB_e_94_28b.tif"/>
+      <graphic url="MS_HEB_e_94_29a.tif"/>
+      <graphic url="MS_HEB_e_94_29b.tif"/>
+      <graphic url="MS_HEB_e_94_30a.tif"/>
+      <graphic url="MS_HEB_e_94_30b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

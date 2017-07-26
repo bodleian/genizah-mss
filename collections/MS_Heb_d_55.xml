@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_78">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. d. 55</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_d_55</idno>
+            <idno type="msID">MS_Heb_d_55</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_d_55" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. d. 55</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 46.</p>
+               </physDesc>
+               <history>
+                  <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p048b.jpg Catalogue-1_p049a.jpg">No. 2741</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_d_55-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part1-item1">
+                        <locus from="1a" to="14b"/>
+                        <title>Liturgical</title>
+                        <msItem xml:id="MS_Heb_d_55-part1-item1-item1" n="a">
+                           <p>א̇ב̇ and ת̇ש̇ר̇ק̇, beg. missing, based upon Exodus xv, beg.<quote type="beg">רֿחום וחנון יה. שֿבע עוונות לא זכר יה. תֿקיף ענני במרחב יה. יה אשרי אשר תיסרנו יה. מן המיצר קראתי יה. עזי וזמרת יה</quote>, end<quote type="end">תֿתן שֿבחך בעולם. רֿם קֿומם מקום אולם ... ימלך ייי לע̇</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part1-item1-item2" n="b">
+                           <p>(<locus from="2b">fol. 2b</locus>) headed<quote type="head">מוסף ויושע</quote>, beg.<quote type="beg">וביום אורה וגילה</quote>, incomplete;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part1-item1-item3" n="c">
+                           <locus from="3a">(fol. 3)</locus>
+                           <title>headed<quote type="head">ז̇ לעצרתה</quote>
+                           </title>
+                           <note>beg.</note>
+                           <msItem xml:id="MS_Heb_d_55-part1-item1-item3-item1" n="α">
+                              <p>
+                                 <quote type="beg">ארץ יראה באין מתום. איום בהיגלות ליוצאי פידיום</quote>, end<quote type="end">תאיבים עוד למשמיע</quote>, (three א̇ב̇);</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_d_55-part1-item1-item3-item2" n="β">
+                              <p>(<locus from="3a">ibid.</locus>) headed<quote type="head">קדושתה</quote>, beg.<quote type="beg">אֿמנה פילשתה. בֿחודש אשר שילשתה</quote>, (א̇ב̇);</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_d_55-part1-item1-item3-item3" n="γ">
+                              <p>(<locus from="3b">fol. 3b</locus>) headed<quote type="head">אל נא ק̇ לעולם</quote>, beg.<quote type="beg">אמנה בידו והחזיקה ידו</quote>, (א̇ב̇), based upon the Ten Commandments;</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_d_55-part1-item1-item3-item4" n="δ">
+                              <p>(<locus from="4a">fol. 4</locus>)<quote type="head">וכל העם רואים</quote>, beg.<quote type="beg">אימת אמיצת אור סיני</quote>, (א̇ב̇);</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_d_55-part1-item1-item3-item5" n="ε">
+                              <p>(<locus from="4a">ibid.</locus>)<quote type="head">ובכן</quote>, beg.<quote type="beg">כי כל ההרים פסלתה</quote>;</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_d_55-part1-item1-item3-item6" n="ζ">
+                              <p>(<locus from="4a">ibid.</locus>) headed<quote type="head">אתה בחרת למוסף ויושע</quote>, beg.<quote type="beg">אז שרר עם</quote>, (א̇ב̇);</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_d_55-part1-item1-item3-item7" n="η">
+                              <p>(<locus from="4b">fol. 4b</locus>) headed<quote type="head">ז̇ דברי</quote>, beg.<quote type="beg">דברי איש נביא</quote>;</p>
+                              <p>
+                                 <locus from="4b">ibid.</locus>, headed<quote type="head">קדושתא דברי</quote>, beg.<quote type="beg">אדדה באנח מר</quote>, (א̇ב̇);</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_d_55-part1-item1-item3-item8" n="θ">
+                              <p>(<locus from="6a">fol. 6</locus>) headed<quote type="head">שבעה שמעו</quote>, beg.<quote type="beg">שמע תוכחת מגולה</quote>;</p>
+                              <p>
+                                 <locus from="6b">fol. 6b</locus>, headed<quote type="head">קדושתא שמעו</quote>, beg.<quote type="beg">אומרי בסיני נישמע</quote>, (א̇ב̇);</p>
+                              <p>
+                                 <locus from="7a">ff. 7 seqq.</locus>injured;</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_d_55-part1-item1-item3-item9" n="ι">
+                              <p>(<locus from="8a">fol. 8</locus>) headed<quote type="head">קדושתא א[יכה]</quote>, beg.<quote type="beg">איכה אום עליזה</quote>, (א̇ב̇). Lacuna;</p>
+                           </msItem>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part1-item1-item4" n="d">
+                           <p>(<locus from="9a">fol. 9</locus>)<title>liturgy for יום כפור (?)</title>, א̇ב̇ beg. with ז̇ thus,<quote type="beg">זוהרך עליון בשכן חביון</quote>;</p>
+                           <p>
+                              <locus from="9a">ibid.</locus>, headed<quote type="head">סדר צום מסוד חכמים ומלמד חבירים אפתח פי אהלל צורי</quote>, beg.<quote type="head">ארץ בזמר סילסלה</quote>, (א̇ב̇);</p>
+                           <p>
+                              <locus from="9b">fol. 9b</locus>,<quote type="beg">היום תיפן בהר</quote>, (א̇ב̇);</p>
+                           <p>
+                              <locus from="10a">fol. 10</locus>,<quote type="beg">מיגלומי גוש</quote>;</p>
+                           <p>
+                              <locus from="11a">fol. 11</locus>,<quote type="beg">האוחז</quote>, (א̇ב̇);</p>
+                           <p>
+                              <locus from="12b">fol. 12b</locus>,<quote type="beg">אזכיר גבורות</quote>, (א̇ב̇ to ס).</p>
+                        </msItem>
+                        <note>
+                           <locus from="4a" to="14b">Ff. 4 to 14</locus>have superlinear vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. squ. char.; 4to,<material>vellum</material>, obliterated, injured, and some margins cut.</p>
+                     <p>With the third system of vowel points. Part of the same MS. as Nos.<ref target="MS_Heb_d_41_05">2714 5</ref>;<ref target="MS_Heb_d_63_42 MS_Heb_d_63_49">2826 42, 49</ref>;<ref target="MS_Heb_e_73_12">2827 12</ref>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part2-item1">
+                        <locus from="15a" to="15b">Fol. 15</locus>
+                        <title>A fragment of a prayer-book with Arabic rules</title>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part3-item1">
+                        <locus from="16a" to="16b">Fol. 16</locus>
+                        <title>Fragment of שמונה עשרה</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part4-item1">
+                        <locus from="17a" to="20b"/>
+                        <title>Liturgical fragments</title>
+                        <msItem xml:id="MS_Heb_d_55-part4-item1-item1" n="a">
+                           <p>(<locus from="17b">fol. 17b</locus>) headed<quote type="head">[פזמ]ון למנחה</quote>, beg.<quote type="beg">..ם שלשה חיננו עדיך</quote>, (א̇ב̇ to ח), acr.<quote type="acr">יוסי</quote>(?);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part4-item1-item2" n="b">
+                           <p>(<locus from="18a">fol. 18</locus>) based upon<quote>ויאמרו אל אלהים</quote>, beg.<quote type="beg">הוא היחיד יוצר נגוהים</quote>, acr.<quote type="acr">יוסף מארדי</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part4-item1-item3" n="c">
+                           <p>(<locus from="18b">fol. 18b</locus>)<quote type="beg">את אומץ אמונתך אשוחחה</quote>, (א̇ב̇), only two lines left;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part4-item1-item4" n="d">
+                           <p>(<locus from="19a">fol. 19</locus>)<quote type="head">ודוי</quote>, beg. missing, beg.<quote type="beg">סררנו לפניך כפרה ס[וררה] ועברנו על ספר ויקרא</quote>, acr.<quote type="acr">[יו]סף הקטן ח... וחזק</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part4-item1-item5" n="e">
+                           <p>(<locus from="20b">fol. 20b</locus>) beg.<quote type="beg">ארוממך מלך המרבה סליחה</quote>.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Greek curs. char.; 8vo,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part5-item1">
+                        <locus from="21a" to="25b"/>
+                        <title>Liturgical</title>
+                        <msItem xml:id="MS_Heb_d_55-part5-item1-item1" n="a">
+                           <p>(<locus from="21b">fol. 21b</locus>) headed<quote type="head">..גזם חמיש לאלדובר. עשר שבטין נגאלו בבוא דיבר. שומרו וכ̇</quote>, beg.<quote type="beg">אמנם כמעש נבחר מעשרה</quote>, (א̇ב̇);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part5-item1-item2" n="b">
+                           <p>(<locus from="22b">fol. 22b</locus>) headed<quote type="head">ובכן עשר תעשר</quote>, beg.<quote type="beg">אבות מאן קיימו עשר תעשר</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part5-item1-item3" n="c">
+                           <p>(<locus from="23a">fol. 23</locus>) headed<quote type="head">מעריב כי תשא</quote>, beg.<quote type="beg">כי תשא את ראש אמונים בשקליה</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part5-item1-item4" n="d">
+                           <p>(<locus from="23b">fol. 23b</locus>) headed<quote type="head">יוצר לזכור</quote>, beg.<quote type="beg">זכור אתיית עמלק בהמצאות בכעס</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part5-item1-item5" n="e">
+                           <p>(<locus from="24a">fol. 24</locus>) headed<quote type="head">יוצר לפרה</quote>, beg.<quote type="beg">ארבעה דברים בסתם</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part5-item1-item6" n="f">
+                           <p>(<locus from="24b">fol. 24b</locus>) headed<quote type="head">(so) שמונה עשרה לפורה</quote>, beg.<quote type="beg">איש יהודי אֿמיץ בצורו</quote>, (א̇ב̇);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part5-item1-item7" n="g">
+                           <p>(<locus from="25b">fol. 25b</locus>) headed<quote type="head">אחרת</quote>, beg.<quote type="beg">אבד אלופי אדום</quote>, (א̇ב̇).</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part6-item1">
+                        <locus from="26a" to="26b">Fol. 26</locus>
+                        <title>Liturgical</title>
+                        <msItem xml:id="MS_Heb_d_55-part6-item1-item1" n="a">
+                           <p>liturgy, א̇ב̇ ends<quote type="end">לאבדינו נֿורא עלילה מסרו בחיינו ו̇ה̇י̇פ̇ל̇נ̇ו̇</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part6-item1-item2" n="b">
+                           <p>headed<quote type="head">חורן</quote>, beg. (injured)<quote type="beg">איש חמודות</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part6-item1-item3" n="c">
+                           <p>(<locus from="26b">fol. 26b</locus>) headed<quote type="head">חורן</quote>, beg.<quote type="beg">אתה איבדתה חדוהי</quote>.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>vellum</material>, injured and stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part7" n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part7-item1">
+                        <locus from="27a" to="30b"/>
+                        <title>Liturgical</title>
+                        <msItem xml:id="MS_Heb_d_55-part7-item1-item1" n="a">
+                           <p>(<locus from="27a">fol. 27</locus>) end of a liturgy concerning the ten martyrs, ends<quote type="end">תופיע ברחמים על עם נברא</quote>, (א̇ב̇);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part7-item1-item2" n="b">
+                           <p>(<locus from="27a">ibid.</locus>) beg.<quote>אביע כתם</quote>, (א̇ב̇), Zunz, p. 221;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part7-item1-item3" n="c">
+                           <p>(<locus from="28b">fol. 28b</locus>) beg.<quote type="beg">אחזה רעדה</quote>, (א̇ב̇);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part7-item1-item4" n="d">
+                           <p>(<locus from="30a">fol. 30</locus>)<quote type="beg">אנשי אמונה כבודם נדד</quote>, (א̇ב̇);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part7-item1-item5" n="e">
+                           <p>
+                              <quote type="beg">איכה אבלה קרויה בשם</quote>, (א̇ב̇).</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part8-item1">
+                        <locus from="31a" to="32b">Fol. 31</locus>
+                        <title>Fragment of a prayer-book with Arabic rules</title>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part9-item1">
+                        <locus from="33a" to="34b">Fol. 33</locus>
+                        <title>Fragment of prayers, mostly ש̇ע̇</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part10-item1">
+                        <locus from="35a" to="35(b)b">Fol. 35</locus>
+                        <title>Fragment of Seadiah's Siddur</title>
+                        <note>mostly הבדלה</note>
+                        <note>as in No. 1096 ff. 90b sqq.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 8vo,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part11" n="11">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part11-item1">
+                        <locus from="36a" to="36b">Fol. 36</locus>
+                        <title>End of a prayer</title>
+                        <note>(א̇ב̇), followed by another beg.<quote type="beg">אֿשפך לפניך שיחי ופלולי</quote>, headed<quote type="head">שבח עלי אלשיר כלה שיר המעלות</quote>. With vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen Rabb. char.; 4to,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part12" n="12">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part12-item1">
+                        <locus from="37a" to="37b">Fol. 37</locus>
+                        <title>Prayers</title>
+                        <msItem xml:id="MS_Heb_d_55-part12-item1-item1">
+                           <title>End of a prayer, and some scribbling</title>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part12-item1-item2">
+                           <locus from="37b">fol. 37b</locus>
+                           <title>prayer</title>
+                           <note>beg.<quote type="beg">יד וימין פושחתי פוצמתי</quote>, acr.<quote type="acr">יהוסף ברבי יצחק</quote>, incomplete.</note>
+                        </msItem>
+                        <note>With vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part13" n="13">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part13-item1">
+                        <locus from="38a" to="38b">Fol. 38</locus>
+                        <title>Fragment of a prayer</title>
+                        <note>consisting mostly of sentences beginning with<quote>ברוך אתה</quote>. beg.<quote type="beg">ברוך אתה אלהי האלהים</quote>, end<quote type="end">וברוך אתה בכל הברכות העתידות להֵיאָמֵר</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part14" n="14">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part14-item1">
+                        <locus from="39a" to="40b">Fol. 39</locus>
+                        <title>Fragment of an Arabic prayer</title>
+                        <note>followed by<quote>ובארך דאוד ללה בחצ̇רה אלגוק וקאל</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part15" n="15">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/15</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part15-item1">
+                        <locus from="41a" to="42b">Fol. 41</locus>
+                        <title>Fragment for intercalation in the prayer ש̇ע̇ for נעילה</title>
+                        <note>Specimen:<quote>ישע למסבריך כנוגה יועד. וינצחוך משוררים ושוערים משער לשער. וחתום לחיים כל בני בריתך</quote>.</note>
+                        <note>Colophon:<quote type="col">וכתב זכאי ביר̇ משה נ̇ע̇ למ̇ ור̇ מרדכי ביר̇ שבתי נ̇ע̇ יזכה לקרות בו הוא וזרעו אמן</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <origin>Colophon:<quote type="col">וכתב זכאי ביר̇ משה נ̇ע̇ למ̇ ור̇ מרדכי ביר̇ שבתי נ̇ע̇ יזכה לקרות בו הוא וזרעו אמן</quote>.</origin>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part16" n="16">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/16</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part16-item1">
+                        <locus from="43a" to="44b"/>
+                        <title>Fragment of liturgy for ר̇ה̇</title>
+                        <msItem xml:id="MS_Heb_d_55-part16-item1-item1" n="a">
+                           <p>(<locus from="43a">fol. 43</locus>) headed<quote type="head">יוצר</quote>, beg.<quote type="beg">מלך אֿחלך ואהללך. ביום זכרון אספר גדלך</quote>(א̇ב̇ to ו);</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part16-item1-item2" n="b">
+                           <p>(<locus from="43b">fol. 43b</locus>) headed<quote type="head">פז̇ שבח תשע</quote>, beg.<quote type="beg">שופר זכרון ותקע</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part16-item1-item3" n="c">
+                           <p>(<locus from="44a">fol. 44</locus>) beg.<quote type="beg">ביום שלישי. קדוש</quote>, based on Genesis xxii.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 12mo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_d_55-part17" n="17">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. d. 55/17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_d_55-part17-item1">
+                        <locus from="45a" to="46b"/>
+                        <title>Liturgies for the sections of the Pentateuch</title>
+                        <msItem xml:id="MS_Heb_d_55-part17-item1-item1" n="a">
+                           <p>(<locus from="45a">fol. 45</locus>) for נח, beg. missing, end<quote type="end">ב̇ הטוב. וזה אשר אותה קראתיך אני אל. רחבה וארכה בבינה להפעל</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part17-item1-item2" n="b">
+                           <p>(<locus from="45b">fol. 45b</locus>) for לך לך (MS.<quote type="head">ויאמר יי אל אברם</quote>), beg.<quote type="beg">אומר למיחליו. ברח ממקומך וקשב מילוליו</quote>, ends with beg. of מחיה;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part17-item1-item3" n="c">
+                           <p>(<locus from="46a">fol. 46</locus>) for<quote>חיי שרה</quote>, beg. missing, end<quote type="end">ב̇ הטוב. ויקח אברהם קורא לאלה שלום</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_d_55-part17-item1-item4" n="d">
+                           <p>(<locus from="46b">fol. 46b</locus>) for<quote type="head">ואלה תולדות יצחק</quote>, beg.<quote type="beg">ואלה תולדות איש אשר בכו עליו אראלי מעונים</quote>, ends with<quote type="end">ב̇ האל הקדוש</quote>, incomplete.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>From the Genizah,<date calendar="#Gregorian" when="1892">1892</date>.</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Liturgical fragments</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_d_55_01">Liturgy. פיוטים for various occasions.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_01">Vowel points. Third system (superlinear).</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_02">Liturgy. Various fragments.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_02">Ritual treatises, and notes. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_03">Liturgy. שמנה עשרה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_04">
+                     <persName type="aut">Joseph</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_04">
+                     <persName type="aut">Joseph מארדי</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_04">
+                     <persName type="aut">Yoseh</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_04">Liturgy. פיוטים for various occasions.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_05">Liturgy. שמנה עשרה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_05">Liturgy. יוצרות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_05">Liturgy. פיוטים for various occasions.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_06">Liturgy. פיוטים for various occasions.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_07">Liturgy. פיוטים for various occasions.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_07">Martyrs (the ten), פיוט on.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_08">Liturgy. Various fragments.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_08">Ritual treatises, and notes. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_09">Liturgy. שמנה עשרה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_10">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. Siddur.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_12">
+                     <persName type="aut">Joseph b. Isaac</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_12">Liturgy. Various fragments.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_13">Liturgy. Various fragments.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_14">Liturgy. Various fragments.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_15">Liturgy. שמנה עשרה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_15">
+                     <persName type="own">Mordecai b. Shabbetai</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_15">
+                     <persName type="scribe">Zakkai b. Moses</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_16">Liturgy. ראש השנה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_d_55_17">Liturgy. יוצרות.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2011-03-07">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_d_55_1a.tif"/>
+      <graphic url="MS_HEB_d_55_1b.tif"/>
+      <graphic url="MS_HEB_d_55_2a.tif"/>
+      <graphic url="MS_HEB_d_55_2b.tif"/>
+      <graphic url="MS_HEB_d_55_3a.tif"/>
+      <graphic url="MS_HEB_d_55_3b.tif"/>
+      <graphic url="MS_HEB_d_55_4a.tif"/>
+      <graphic url="MS_HEB_d_55_4b.tif"/>
+      <graphic url="MS_HEB_d_55_5a.tif"/>
+      <graphic url="MS_HEB_d_55_5b.tif"/>
+      <graphic url="MS_HEB_d_55_6a.tif"/>
+      <graphic url="MS_HEB_d_55_6b.tif"/>
+      <graphic url="MS_HEB_d_55_7a.tif"/>
+      <graphic url="MS_HEB_d_55_7b.tif"/>
+      <graphic url="MS_HEB_d_55_8a.tif"/>
+      <graphic url="MS_HEB_d_55_8b.tif"/>
+      <graphic url="MS_HEB_d_55_9a.tif"/>
+      <graphic url="MS_HEB_d_55_9b.tif"/>
+      <graphic url="MS_HEB_d_55_10a.tif"/>
+      <graphic url="MS_HEB_d_55_10b.tif"/>
+      <graphic url="MS_HEB_d_55_11a.tif"/>
+      <graphic url="MS_HEB_d_55_11b.tif"/>
+      <graphic url="MS_HEB_d_55_12a.tif"/>
+      <graphic url="MS_HEB_d_55_12b.tif"/>
+      <graphic url="MS_HEB_d_55_13a.tif"/>
+      <graphic url="MS_HEB_d_55_13b.tif"/>
+      <graphic url="MS_HEB_d_55_14a.tif"/>
+      <graphic url="MS_HEB_d_55_14b.tif"/>
+      <graphic url="MS_HEB_d_55_15a.tif"/>
+      <graphic url="MS_HEB_d_55_15b.tif"/>
+      <graphic url="MS_HEB_d_55_16a.tif"/>
+      <graphic url="MS_HEB_d_55_16b.tif"/>
+      <graphic url="MS_HEB_d_55_17a.tif"/>
+      <graphic url="MS_HEB_d_55_17b.tif"/>
+      <graphic url="MS_HEB_d_55_18a.tif"/>
+      <graphic url="MS_HEB_d_55_18b.tif"/>
+      <graphic url="MS_HEB_d_55_19a.tif"/>
+      <graphic url="MS_HEB_d_55_19b.tif"/>
+      <graphic url="MS_HEB_d_55_20a.tif"/>
+      <graphic url="MS_HEB_d_55_20b.tif"/>
+      <graphic url="MS_HEB_d_55_21a.tif"/>
+      <graphic url="MS_HEB_d_55_21b.tif"/>
+      <graphic url="MS_HEB_d_55_22a.tif"/>
+      <graphic url="MS_HEB_d_55_22b.tif"/>
+      <graphic url="MS_HEB_d_55_23a.tif"/>
+      <graphic url="MS_HEB_d_55_23b.tif"/>
+      <graphic url="MS_HEB_d_55_24a.tif"/>
+      <graphic url="MS_HEB_d_55_24b.tif"/>
+      <graphic url="MS_HEB_d_55_25a.tif"/>
+      <graphic url="MS_HEB_d_55_25b.tif"/>
+      <graphic url="MS_HEB_d_55_26a.tif"/>
+      <graphic url="MS_HEB_d_55_26b.tif"/>
+      <graphic url="MS_HEB_d_55_27a.tif"/>
+      <graphic url="MS_HEB_d_55_27b.tif"/>
+      <graphic url="MS_HEB_d_55_28a.tif"/>
+      <graphic url="MS_HEB_d_55_28b.tif"/>
+      <graphic url="MS_HEB_d_55_29a.tif"/>
+      <graphic url="MS_HEB_d_55_29b.tif"/>
+      <graphic url="MS_HEB_d_55_30a.tif"/>
+      <graphic url="MS_HEB_d_55_30b.tif"/>
+      <graphic url="MS_HEB_d_55_31a.tif"/>
+      <graphic url="MS_HEB_d_55_31b.tif"/>
+      <graphic url="MS_HEB_d_55_32a.tif"/>
+      <graphic url="MS_HEB_d_55_32b.tif"/>
+      <graphic url="MS_HEB_d_55_33a.tif"/>
+      <graphic url="MS_HEB_d_55_33b.tif"/>
+      <graphic url="MS_HEB_d_55_34a.tif"/>
+      <graphic url="MS_HEB_d_55_34b.tif"/>
+      <graphic url="MS_HEB_d_55_35a.tif"/>
+      <graphic url="MS_HEB_d_55_35b.tif"/>
+      <graphic url="MS_HEB_d_55_35(b)a.tif"/>
+      <graphic url="MS_HEB_d_55_35(b)b.tif"/>
+      <graphic url="MS_HEB_d_55_36a.tif"/>
+      <graphic url="MS_HEB_d_55_36b.tif"/>
+      <graphic url="MS_HEB_d_55_37a.tif"/>
+      <graphic url="MS_HEB_d_55_37b.tif"/>
+      <graphic url="MS_HEB_d_55_38a.tif"/>
+      <graphic url="MS_HEB_d_55_38b.tif"/>
+      <graphic url="MS_HEB_d_55_39a.tif"/>
+      <graphic url="MS_HEB_d_55_39b.tif"/>
+      <graphic url="MS_HEB_d_55_40a.tif"/>
+      <graphic url="MS_HEB_d_55_40b.tif"/>
+      <graphic url="MS_HEB_d_55_41a.tif"/>
+      <graphic url="MS_HEB_d_55_41b.tif"/>
+      <graphic url="MS_HEB_d_55_42a.tif"/>
+      <graphic url="MS_HEB_d_55_42b.tif"/>
+      <graphic url="MS_HEB_d_55_43a.tif"/>
+      <graphic url="MS_HEB_d_55_43b.tif"/>
+      <graphic url="MS_HEB_d_55_44a.tif"/>
+      <graphic url="MS_HEB_d_55_44b.tif"/>
+      <graphic url="MS_HEB_d_55_45a.tif"/>
+      <graphic url="MS_HEB_d_55_45b.tif"/>
+      <graphic url="MS_HEB_d_55_46a.tif"/>
+      <graphic url="MS_HEB_d_55_46b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

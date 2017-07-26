@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. b. 3</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_b_3</idno>
+            <idno type="msID">MS_Heb_b_3</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_b_3" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. b. 3</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 36.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p063b.jpg Catalogue-1_p064a.jpg Catalogue-1_p064b.jpg">No. 2806</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_b_3-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part1-item1">
+                        <locus from="1a" to="1b">Fol. 1</locus>
+                        <title>Document in Arabic</title>
+                        <note>relating to property ceded by R.<persName>David bar ʿAmar ben עזרון</persName>to<persName>Mar Abraham ben R. Moses</persName>, witnessed by<persName>Ḥayyim ben R. ʿAmar</persName>, dated<placeName>Fostat</placeName>,<date calendar="#AM" when="4812">Sunday the 25th of Nisan, 4812 A.M.</date>=<date calendar="#Gregorian" when="1052">1052 A.D.</date>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1052">1052</origDate>
+                        <origPlace>Fostat</origPlace>
+                     </origin>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part2-item1">
+                        <locus from="2a" to="2b">Fol. 2</locus>
+                        <title>Document</title>
+                        <msItem xml:id="MS_Heb_b_3-part2-item1-item1" n="a">
+                           <title>Document in Arabic</title>
+                           <note>the parties are<persName>Sason bar Nathan</persName>and<persName>Ḥesed ben Shelah</persName>, dated<placeName>Fostat</placeName>,<date calendar="#Hebrew-Seleucid" when="1392">Thursday the 10th of Tebeth, 1392</date>=<date calendar="#Gregorian" when="1081">1081 A.D.</date>, witnessed by<persName>Abraham ben Isaac</persName>,<persName>Judah ben Manasseh</persName>,<persName>Joseph ben R. Samuel</persName>.</note>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_3-part2-item1-item2" n="b">
+                           <title>Confirmation of the above</title>
+                           <note>dated<date calendar="#Hebrew-Seleucid" when="1392">Monday the 21st of Tebeth, of the same year</date>(much injured), witnessed by<persName>Abraham bar Isaac</persName>and<persName>Ẓedaqah ben R. Mubḥar</persName>(?).</note>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1081">1081</origDate>
+                        <origPlace>Fostat</origPlace>
+                     </origin>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part3-item1">
+                        <locus from="3a" to="3b">Fol. 3</locus>
+                        <title>A fragment of a marriage contract</title>
+                        <note>dated<placeName>Fostat</placeName>,<date calendar="#Hebrew-Seleucid" when="1430">Wednesday the 2.? of Adar, 1430 Sel.</date>=<date calendar="#Gregorian" when="1119">1119 A.D.</date>; the parties are<persName>Nathan bar מֿרֿוֿרֿ Peraḥiah הזקן</persName>and<persName>מלוחה daughter of מֿרֿוֿרֿ Japheth הזקן</persName>.</note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Fostat</origPlace>
+                        <origDate when="1119">1119</origDate>
+                     </origin>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part4-item1">
+                        <locus from="4a" to="4b">Fol. 4</locus>
+                        <title>An Arabic document</title>
+                        <note>relating to a transaction between<persName>אלשיך סאלם אלחלבי אלצנאג בן יוסף הלוי</persName>and a<persName>daughter of Japheth al-Levi</persName>, dated<placeName>Fostat</placeName>, in<date calendar="#Hebrew-Seleucid" when="1464">the month of Adar the first, 1464 Sel.</date>=<date calendar="#Gregorian" when="1153">1153 A.D.</date>, under the authority of<persName>the Nagid Samuel</persName>; witnessed by<persName>Ezekiel bar Nathan</persName>,<persName>Judah (?) bar Solomon has-Sofer</persName>,<persName>Jacob bar Abraham</persName>,<persName>Ephraim ben R. Meshullam</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Fostat</origPlace>
+                        <origDate when="1153">1153</origDate>
+                     </origin>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part5-item1">
+                        <locus from="5a" to="5b">Fol. 5</locus>
+                        <title>An Arabic document</title>
+                        <note>concerning a certain<persName>Joseph אלרומי</persName>, who arrived at<placeName>Damietta</placeName>in a ship on a Friday evening, which was also the eve of the feast of Tabernacles, in the year<date calendar="#Hebrew-Seleucid" when="1469">1469 Sel.</date>=<date calendar="#Gregorian" when="1157">1157 A.D.</date>, bearing a letter from the Nagid.<p>Mention is also made of a letter coming from<placeName>אי כפתור at the mouth of the Nile</placeName>, on the 20th of Tishri of the same year, by the authority of the Nagid Samuel. Signed by<persName>Japheth bar Samuel</persName>,<persName>Samuel hak-Kohen bar Mebhasser hak-Kohen</persName>.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1157">1157</origDate>
+                     </origin>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part6-item1">
+                        <locus from="6a" to="6b">Fol. 6</locus>
+                        <title>Documents</title>
+                        <msItem xml:id="MS_Heb_b_3-part6-item1-item1">
+                           <locus from="6a">Fol. 6a</locus>
+                           <title>Arabic document of a conveyance of property</title>
+                           <note>between<persName>Abraham son of Maimonides</persName>and<persName>אלשיך אבו אסחק אלאבזארי בן אלשיך סיד אלאהל נ̇ע̇ כבוד מר̇ אברהם בר הלל נ̇ע̇</persName>, dated<placeName>Fostat</placeName>(under the authority of the above-named Abraham),<date calendar="#AM" when="4974">the (blank) day of the month of Tebeth, 4974 A.M.</date>, and<date calendar="#Hebrew-Seleucid" when="1525">1525 Sel.</date>=<date calendar="#Gregorian" when="1214">1214 A.D.</date>, signatures missing.</note>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_3-part6-item1-item2">
+                           <locus from="6b">Verso</locus>
+                           <title>Document in Arabic, of a similar transaction</title>
+                           <note>beg.<quote type="beg">וחצ̇ר אלינא אלשיך אבו עמראן אלכהן בן אלשיך אבו אלבקא אלתאגר בן אלשיך אבו אלחסן אלדלאתי אלנחאלי נ̇ע̇ וכבוד מ̇ משה הכהן בן כבוד גדולת קדושת מר̇ ורב̇ שארית הכהן הזקן ה[נכב]ד ס̇ט̇ בן כבוד גדולת קדושת מ̇ו̇ר̇ יפת הכהן הזקן הנכבד נ̇ע̇</quote>.</note>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Fostat</origPlace>
+                        <origDate when="1214">1214</origDate>
+                     </origin>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part7" n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part7-item1">
+                        <locus from="7a" to="8b">Ff. 7 and 8</locus>
+                        <title>A conveyance of property</title>
+                        <note>at<placeName>בלביס</placeName>, dated<date calendar="#Hebrew-Seleucid" when="1543">Tuesday the 29th of Nisan, 1543 Sel.</date>=<date calendar="#Gregorian" when="1232">1232 A.D.</date>, between the children of the widow<persName>תגאר daughter of Manṣur אלבלביסי</persName>,<persName>Abu 'l- ʿAla Musa ben Galib al-Bilbisi</persName>, and<persName>Abu 'l-ʿAla al-Cohen ibn Joseph al-Cohen al-Bilbisi</persName>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental cursive char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>בלביס (Bilbis)</origPlace>
+                        <origDate when="1232">1232</origDate>
+                     </origin>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part8-item1">
+                        <locus from="9a" to="9b">Fol. 9</locus>
+                        <title>An Arabic document</title>
+                        <note>stating that<persName>עדב daughter of Abd-Allah</persName>obtained a deed of divorce from her husband<persName>Naṣir ibn Harun</persName>, dated the<date calendar="#Hebrew-Seleucid" when="1640">7th of Marḥeshwan, 1640 Sel.</date>=<date calendar="#Gregorian" when="1329">1329 A.D.</date>
+                           <p>On the<locus from="9b">verso</locus>it is stated that<persName>Musa</persName>married on the<date calendar="#Hebrew-Seleucid" when="1643">7th of Marḥeshwan, 1643 Sel.</date>=<date calendar="#Gregorian" when="1332">1332 A.D.</date>
+                           </p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental squ. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1329">1329</origDate>
+                        <origDate when="1332">1332</origDate>
+                     </origin>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part9-item1">
+                        <locus from="10a" to="10b">Fol. 10</locus>
+                        <title>Document; liturgical</title>
+                        <msItem xml:id="MS_Heb_b_3-part9-item1-item1">
+                           <title>Arabic document</title>
+                           <note>relating to a transaction between<persName>אלשיך זין בן א.., אלשיך אבו אלברכאת הבה אללה בן אלשיך אב[רהם]</persName>, and<persName>אלשיך אבו עמראן בן יוסף</persName>; there are other names, but injured; dated<placeName>Fostat</placeName>,<date calendar="#Hebrew-Seleucid" notBefore="1061" notAfter="1961">[1.]61 Sel.</date>
+                           </note>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_3-part9-item1-item2">
+                           <locus from="10b">Verso</locus>
+                           <title>
+                              <quote>מעריב וידבר וויושע ומעמד לברכות בר̇ יפת מ̇כ̇ת̇ם̇ בע̇ יזכה</quote>
+                           </title>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part10-item1">
+                        <locus from="11a" to="11b">Fol. 11</locus>
+                        <title>Fragment of a marriage contract</title>
+                        <note>the man’s name is<persName>Abraham bar Japhet</persName>; dated<date calendar="#unknown">Thursday, 10th of (injured), year ...5</date>, signed<persName>Maẓliaḥ ben R. Samuel</persName>,<persName>Eliezer החבר ה̇ב̇ג̇ ben R. Abraham</persName>,<persName>Joseph bar Samuel Levi</persName>.</note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part11" n="11">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part11-item1">
+                        <locus from="12a" to="12b">Fol. 12</locus>
+                        <title>Fragment of a marriage contract</title>
+                        <note>much injured; the woman's name is<persName>[דו]לצה daughter of Isaac</persName>, dated<placeName>Fostat</placeName>,<date calendar="#unknown">11th of Tishri, 1...</date>
+                           <p>
+                              <locus from="12b">Verso</locus>illegible.</p>
+                        </note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part12" n="12">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part12-item1">
+                        <locus from="13a" to="13b">Fol. 13</locus>
+                        <title>An Arabic document concerning the cession of property</title>
+                        <note>by<persName>פכר daughter of אלמולא אללוי אלשיך עלם נ̇ע̇ אבן אללוי אלשיך פתוח</persName>, the wife of<persName>Sheikh Imran</persName>(there are other names), to<persName>Sheikh Serid</persName>, dated<placeName>Kahira near Fostat</placeName>,<date calendar="#Hebrew-Seleucid" notBefore="1088" notAfter="1988">Friday the 9th of Nisan, אלפא ... [ותמ]נין ותמן שנין Sel.</date>, under the authority of<persName>Amram הנגיד</persName>(full titles, but much obliterated).<p>Witness<quote>אלשיך סריד ס̇ט̇ אבן אלמולא אלאג̇ל כ̇ג̇ק̇ מרנ̇ ורבנ̇ סעדיה ... ידוע באבן אלג̇נובה</quote>, signed<persName>Ẓedaqah hak-Kohen bar Abraham hak-Kohen ס̇ט̇</persName>and<persName>Joseph bar Moses נ̇ע̇</persName>.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part13" n="13">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part13-item1">
+                        <locus from="14a" to="14b">Fol. 14</locus>
+                        <title>Fragment of a marriage contract</title>
+                        <note>much injured; the legible names are<persName>... daughter of Peraḥiah</persName>, signed<persName>... Isaac ben ...</persName>
+                        </note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part14" n="14">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part14-item1">
+                        <locus from="15a" to="15b">Fol. 15</locus>
+                        <title>A fragment of four lines in rhymed prose</title>
+                        <note>beg.<quote type="beg">ולכף זכות הודן. יען התבונן מהמורות זמן וסודן</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part15" n="15">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/15</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part15-item1">
+                        <locus from="16a" to="16b">Fol. 16</locus>
+                        <title>An Arabic letter</title>
+                        <note>addressed to<persName>אלשיך אבי זכרי יהודה בן משה בן סגמאר</persName>, concerning some captive Jews;<persName>Joseph אלאחול אלפרנס</persName>and<persName>Ibrahim al-Ẓiqli</persName>are mentioned with other names.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part16" n="16">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/16</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part16-item1">
+                        <locus from="17a" to="17b">Fol. 17</locus>
+                        <title>An Arabic letter</title>
+                        <note>addressed by<persName>Jeshuah ben Ismaʿil</persName>to<quote>מולאי אלחבר הגדול גדול הישיבה רבנ̇ נהראי ביר̇ נסים ז̇ל̇</quote>, sent from<placeName>Alexandria</placeName>after his arrival. Names mentioned are R.<persName>Nisim</persName>, and<persName>Sheikh Abu 'l-Ḥasn</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Alexandria</origPlace>
+                     </origin>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part17" n="17">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part17-item1">
+                        <locus from="18a" to="18b">Fol. 18</locus>
+                        <title>Document</title>
+                        <msItem xml:id="MS_Heb_b_3-part17-item1-item1">
+                           <title>Fragment of seven lines</title>
+                           <note>beg.<quote type="beg">פקאל אלרגל והו אברהם הלוי בירבי אהרן אלמע...... תקעדו בי</quote>.</note>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_b_3-part17-item1-item2">
+                           <locus from="18b">Verso</locus>
+                           <note>scribbling.</note>
+                        </msItem>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part18" n="18">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/18</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part18-item1">
+                        <locus from="19a" to="20b">Ff. 19 and 20</locus>
+                        <title>A business letter in Arabic</title>
+                        <note>beg. much injured, addressed (?) to<persName>נהראי בן נסים</persName>; the name chiefly mentioned is<persName>Abu Naṣr</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part19" n="19">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/19</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part19-item1">
+                        <locus from="21a" to="21b">Fol. 21</locus>
+                        <title>A letter in Arabic</title>
+                        <note>to<persName>אבי אברהים אסמעיל בן פרח נ̇ע̇</persName>from<persName>ולדה פרח בן אסמעיל בן פרח</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part20" n="20">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/20</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part20-item1">
+                        <locus from="22a" to="22b">Fol. 22</locus>
+                        <title>Arabic letter</title>
+                        <note>to<persName>יצחק בן צלח</persName>from<persName>מרדוך בן מוסי</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part21" n="21">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/21</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part21-item1">
+                        <locus from="23a" to="23b">Fol. 23</locus>
+                        <title>Arabic letter</title>
+                        <note>addressed to R.<persName>Nahrai ben Nisim</persName>, by<persName>Joseph ben כלפה of Fostat</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part22" n="22">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/22</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part22-item1">
+                        <locus from="24a" to="24b">Fol. 24</locus>
+                        <title>Arabic letter</title>
+                        <note>from<persName>Ibrahim b. ʿImran of Fostat</persName>to<persName>Abu Yaḥya Nahrai b. Nissim</persName>and<persName>Barhon b. Ṣaliḥ of Tihert</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part23" n="23">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/23</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part23-item1">
+                        <locus from="25a" to="25b">Fol. 25</locus>
+                        <title>Fragment of an Arabic letter</title>
+                        <note>the preamble beg.<quote type="beg">וכל רכבותיו וחיילותיו לך יובל חיל כל פתרוסה. ומבשר טוב יצא מולך אל אי כפתור אם חוסה</quote>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part24" n="24">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/24</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part24-item1">
+                        <locus from="26a" to="26b">Fol. 26</locus>
+                        <title>An Arabic letter</title>
+                        <note>beg. missing, margins injured and the text obliterated in many places; seems to relate to a commercial transaction; the names mentioned are<persName>Joseph al-Kohen al-Nafusi</persName>,<persName>Joseph ben Benjamin Sefaradi</persName>,<persName>Joseph ben Azriel Sefaradi</persName>,<persName>Abu 'l-Ḥasn ben Masʿud al-?</persName>,<persName>Ẓedaqah hak-Kohen ben David אלמתרגם</persName>, the last has to interpret the passage of the Pentateuch (ס̇ת̇) upon which an oath is taken.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part25" n="25">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/25</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part25-item1">
+                        <locus from="27a" to="27b">Fol. 27</locus>
+                        <title>The end of a legal document in Hebrew (much injured)</title>
+                        <note>signed<persName>Abraham ben בשאת</persName>,<persName>Aaron halevi ben [Isaac]</persName>. Confirmation by the tribunal, signed<quote>רוח בן משה נ̇נ̇ עלי נסכתין עובדיה בן זוריק ... אהרן הלוי בן יצחק בן הלל</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part26" n="26">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/26</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part26-item1">
+                        <locus from="28a" to="28b">Fol. 28</locus>
+                        <title>Fragment of a marriage contract</title>
+                        <note>obliterated and injured, the name of the bridegroom is<persName>מבשר</persName>.</note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Squ. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part27" n="27">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/27</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part27-item1">
+                        <locus from="29a" to="29b">Fol. 29</locus>
+                        <title>A sermon ? in Arabic, on פקדון during a conflagration</title>
+                        <note>injured.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part28" n="28">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/28</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part28-item1">
+                        <locus from="30a" to="30b">Fol. 30</locus>
+                        <title>An Arabic letter of an erotic kind</title>
+                        <note>intermixed with words in Arabic characters without diacritical points; much injured and obliterated.</note>
+                        <textLang mainLang="jrb" otherLangs="ar"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part29" n="29">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/29</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part29-item1">
+                        <locus from="31a" to="31b">Fol. 31</locus>
+                        <title>An Arabic letter relating to the calendar (עבור)</title>
+                        <note>the writer sends greetings to R.<persName>Judah</persName>and R.<persName>Eleazar הסופר</persName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part30" n="30">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/30</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part30-item1">
+                        <locus from="32a" to="32b">Fol. 32</locus>
+                        <title>An Arabic document relating to the transfer of property</title>
+                        <note>much injured. Some of the boundaries are<placeName>בזוילה אלמהדיה</placeName>,<placeName>תם בית אלוסט</placeName>.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part31" n="31">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/31</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part31-item1">
+                        <locus from="33a" to="33b">Fol. 33</locus>
+                        <title>A fragment an Arabic document relating to the transfer of property</title>
+                        <note>the following passage can be read distinctly:<p>
+                              <quote>ובהגיע פטירת אברהם זה צוה לאפיט[רופוס ר̇ א]דניה בן דויד ונתקימה צואתו להם לפני הרב נ̇ר̇ו̇ ע... [ש]מואל הלוי בר אברהם זה כל אלה הכספים הנזכרים ... נשאר לי על ר̇ אדניה ולא על ר̇ עלוש</quote>.</p>
+                        </note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part32" n="32">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/32</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part32-item1">
+                        <locus from="34a" to="34b">Fol. 34</locus>
+                        <title>A fragment of a marriage contract</title>
+                        <note>much injured.</note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental Rabb. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part33" n="33">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/33</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part33-item1">
+                        <locus from="35a" to="35b">Fol. 35</locus>
+                        <title>A list of books, perhaps pawned</title>
+                        <note>headed<quote type="head">ענד סלמה</quote>; there are other names, some in Arabic characters.</note>
+                        <textLang mainLang="jrb" otherLangs="ar"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental curs. char.;<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_b_3-part34" n="34">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. b. 3/34</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_b_3-part34-item1">
+                        <locus from="36a" to="36b">Fol. 36</locus>
+                        <title>A fragment of a Hebrew document</title>
+                        <note>(much injured), concerning a transfer of property in the town or province of<placeName>רמלה</placeName>(with the addition<quote>הסמוכה לל...</quote>) by the wife of<persName>Mebhasser son of סהלאן</persName>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Oriental squ. char.;<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>History</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_b_3_01">
+                     <persName type="par">Abraham b. Moses</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_01">
+                     <persName type="ment">ʿAmmar b. עזרון</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_01">
+                     <persName type="par">David b. ʿAmmar b. עזרון</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_01">Deeds. Conveyances.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_01">
+                     <persName type="wit">Ḥayyim b. ʿAmmar</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_02">
+                     <persName type="wit">Abraham b. Isaac</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_02">Deeds. Conveyances.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_02">
+                     <persName type="par">Ḥesed b. Shelah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_02">
+                     <persName type="wit">Joseph b. Samuel</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_02">
+                     <persName type="wit">Judah b. Manasseh</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_02">
+                     <persName type="par">Sason b. Nathan</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_02">
+                     <persName type="wit">Ẓedaqah b. Mubhhar</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_03">Deeds. Marriage.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_03">
+                     <persName type="par">Meluḥah dtr of Japhet</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_03">
+                     <persName type="par">Nathan b. Peraḥiah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_04">Deeds. Various. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_04">
+                     <persName type="wit">Ephraim b. Meshullam</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_04">
+                     <persName type="wit">Ezekiel b. Nathan</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_04">
+                     <persName type="wit">Jacob b. Abraham</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_04">
+                     <persName type="par">... dtr of Japhet hal-levi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_04">
+                     <persName type="wit">Judah (?) b. Solomon</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_04">
+                     <persName type="par">Salim b. Joseph hal-levi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_04">
+                     <persName type="ment">Samuel the Nagid (b. Joseph)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_05">Deeds. Various. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_05">
+                     <persName type="wit">Japhet b. Samuel</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_05">
+                     <persName type="ment">Joseph al-rumi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_05">
+                     <persName type="wit">Samuel (kohen) b. Mebhasser</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_05">
+                     <persName type="ment">Samuel the Nagid (b. Joseph)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_06">
+                     <persName type="par">Abraham b. Hillel</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_06">
+                     <persName type="par">Abraham b. Moses b. Maimon</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_06">
+                     <persName type="ment">Abu 'l-baqa b. Abi 'l-ḥasan</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_06">
+                     <persName type="par">Abu ʿImran (kohen) b. Abi 'l-baqa b. Abi 'l-ḥasan</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_06">
+                     <persName type="par">Abu Isḥaq b. Sayyid al-ahl</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_06">Deeds. Conveyances.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_06">
+                     <persName type="par">Moses (kohen) b. שארית b. Japhet</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_07">
+                     <persName type="par">Abu 'l-ʿala (kohen) b. Joseph al-bilbaisi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_07">
+                     <persName type="par">Abu 'l-ʿala Musa b. Ghalib al-bilbaisi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_07">Deeds. Conveyances.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_07">
+                     <persName type="ment">Manṣur al-bilbaisi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_07">
+                     <persName type="ment">Musa b. Ghalib al-bilbaisi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_08">Deeds. Various. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_08">
+                     <persName type="ment">Musa</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_08">
+                     <persName type="ment">Naṣir b. Harun</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_09">
+                     <persName type="par">Abu 'l-barakat Hibat-allah b. Abraham</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_09">
+                     <persName type="par">Abu ʿImran b. Joseph</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_09">
+                     <persName type="aut">Berakhoth b. Japhet</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_09">Deeds. Various. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_09">
+                     <persName type="par">Hibat-allah b. Abraham</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_09">Liturgy. Various fragments.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_09">
+                     <persName type="par">Zain b. ...</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_10">
+                     <persName type="par">Abraham b. Japhet</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_10">Deeds. Marriage.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_10">
+                     <persName type="wit">Eliezer b. Abraham</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_10">
+                     <persName type="wit">Joseph (levi) b. Samuel</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_10">
+                     <persName type="wit">Maẓliaḥ b. Samuel</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_11">Deeds. Marriage.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_11">
+                     <persName type="par">Dolce dtr of Isaac</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_12">
+                     <persName type="ment">Amram han-Nagid</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_12">Deeds. Conveyances.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_12">
+                     <persName type="ment">ʿImran</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_12">
+                     <persName type="wit">Joseph b. Moses</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_12">
+                     <persName type="par">Serid</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_12">
+                     <persName type="wit">Serid b. Seadiah (=אבן אלגנובה)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_12">
+                     <persName type="wit">Ẓedaqah (kohen) b. Abraham</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_13">Deeds. Marriage.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_13">
+                     <persName type="par">Isaac</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_13">
+                     <persName type="par">... dtr of Peraḥiah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_14">Letters, in rhyme, or poems.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_14">Rhymes.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_15">
+                     <persName type="ment">Abu Zakari Judah b. Moses (called) b. Sigmar</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_15">
+                     <persName type="ment">Ibrahim al-Ziqli</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_15">
+                     <persName type="ment">Joseph אלפרנס</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_15">
+                     <persName type="ment">Judah b. Moses b. Sigmar</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_15">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_15">
+                     <persName type="ment">Moses b. Sigmar</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_16">
+                     <persName type="ment">Abu 'l-ḥasan</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_16">
+                     <persName type="aut">Jeshua b. Ismaʿil</persName>. Letter.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_16">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_16">
+                     <persName type="ment">Nahrai b. Nissim (Abu Yaḥya)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_16">
+                     <persName type="ment">Nissim</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_17">
+                     <persName type="ment">Abraham (levi) b. Aaron</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_17">Deeds. Various. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_17">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_18">
+                     <persName type="ment">Abu Naṣr</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_18">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_18">
+                     <persName type="ment">Nahrai b. Nissim (Abu Yaḥya)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_19">
+                     <persName type="ment">Abu Ibrahim Ismaʿil b. Peraḥ</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_19">
+                     <persName type="ment">Ismaʿil b. Peraḥ</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_19">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_19">
+                     <persName type="aut">Peraḥ b. Ismaʿil b. Peraḥ</persName>. Letter.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_20">
+                     <persName type="ment">Isaac b. צלח</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_20">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_21">
+                     <persName type="aut">Joseph b. כלפה</persName>. Letter.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_21">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_21">
+                     <persName type="ment">Nahrai b. Nissim (Abu Yaḥya)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_22">
+                     <persName type="ment">Abu Yaḥya Nahrai b. Nissim</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_22">
+                     <persName type="ment">Barhon b. שלח, of Tihert</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_22">
+                     <persName type="aut">Ibrahim b. ʿImran</persName>. Letter.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_22">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_22">
+                     <persName type="ment">Nahrai b. Nissim (Abu Yaḥya)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_23">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_24">
+                     <persName type="ment">Abu 'l-ḥasan b. Masʿud</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_24">
+                     <persName type="ment">Joseph b. Azriel, sephardi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_24">
+                     <persName type="ment">Joseph b. Benjamin, sephardi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_24">
+                     <persName type="ment">Joseph (kohen) al-Nafusi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_24">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_24">
+                     <persName type="ment">Ẓedaqah (kohen) b. David</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_25">
+                     <persName type="wit">Aaron (levi) ben Isaac</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_25">
+                     <persName type="wit">Aaron (levi) b. Isaac b. Hillel</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_25">
+                     <persName type="wit">Abraham b. בשאת</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_25">Deeds. Various.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_25">
+                     <persName type="ment">Isaac b. Hillel</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_25">
+                     <persName type="wit">Obadiah b. Zuraiq</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_26">Deeds. Marriage.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_26">
+                     <persName type="par">Mebhasser</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_27">Homilies. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_28">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_29">Calendars, and treatises on them.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_29">
+                     <persName type="ment">Eleazar</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_29">
+                     <persName type="ment">Judah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_29">Letters. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_30">Deeds. Conveyances.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_31">
+                     <persName type="ment">Abraham</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_31">
+                     <persName type="ment">Adonijah b. David</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_31">Deeds. Conveyances.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_31">
+                     <persName type="ment">Samuel (levi) b. Abraham</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_32">Deeds. Marriage.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_33">Lists of books.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_33">
+                     <persName type="ment">Salamah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_34">Deeds. Conveyances.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_b_3_34">
+                     <persName type="ment">Mebhasser b. Sahlan</persName>.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2011-04-04">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_b_3_1a.tif"/>
+      <graphic url="MS_HEB_b_3_1b.tif"/>
+      <graphic url="MS_HEB_b_3_2a.tif"/>
+      <graphic url="MS_HEB_b_3_2b.tif"/>
+      <graphic url="MS_HEB_b_3_3a.tif"/>
+      <graphic url="MS_HEB_b_3_3b.tif"/>
+      <graphic url="MS_HEB_b_3_4a.tif"/>
+      <graphic url="MS_HEB_b_3_4b.tif"/>
+      <graphic url="MS_HEB_b_3_5a.tif"/>
+      <graphic url="MS_HEB_b_3_5b.tif"/>
+      <graphic url="MS_HEB_b_3_6a.tif"/>
+      <graphic url="MS_HEB_b_3_6b.tif"/>
+      <graphic url="MS_HEB_b_3_7a.tif"/>
+      <graphic url="MS_HEB_b_3_7b.tif"/>
+      <graphic url="MS_HEB_b_3_8a.tif"/>
+      <graphic url="MS_HEB_b_3_8b.tif"/>
+      <graphic url="MS_HEB_b_3_9a.tif"/>
+      <graphic url="MS_HEB_b_3_9b.tif"/>
+      <graphic url="MS_HEB_b_3_10a.tif"/>
+      <graphic url="MS_HEB_b_3_10b.tif"/>
+      <graphic url="MS_HEB_b_3_11a.tif"/>
+      <graphic url="MS_HEB_b_3_11b.tif"/>
+      <graphic url="MS_HEB_b_3_12a.tif"/>
+      <graphic url="MS_HEB_b_3_12b.tif"/>
+      <graphic url="MS_HEB_b_3_13a.tif"/>
+      <graphic url="MS_HEB_b_3_13b.tif"/>
+      <graphic url="MS_HEB_b_3_14a.tif"/>
+      <graphic url="MS_HEB_b_3_14b.tif"/>
+      <graphic url="MS_HEB_b_3_15a.tif"/>
+      <graphic url="MS_HEB_b_3_15b.tif"/>
+      <graphic url="MS_HEB_b_3_16a.tif"/>
+      <graphic url="MS_HEB_b_3_16b.tif"/>
+      <graphic url="MS_HEB_b_3_17a.tif"/>
+      <graphic url="MS_HEB_b_3_17b.tif"/>
+      <graphic url="MS_HEB_b_3_18a.tif"/>
+      <graphic url="MS_HEB_b_3_18b.tif"/>
+      <graphic url="MS_HEB_b_3_19a.tif"/>
+      <graphic url="MS_HEB_b_3_19b.tif"/>
+      <graphic url="MS_HEB_b_3_20a.tif"/>
+      <graphic url="MS_HEB_b_3_20b.tif"/>
+      <graphic url="MS_HEB_b_3_21a.tif"/>
+      <graphic url="MS_HEB_b_3_21b.tif"/>
+      <graphic url="MS_HEB_b_3_22a.tif"/>
+      <graphic url="MS_HEB_b_3_22b.tif"/>
+      <graphic url="MS_HEB_b_3_23a.tif"/>
+      <graphic url="MS_HEB_b_3_23b.tif"/>
+      <graphic url="MS_HEB_b_3_24a.tif"/>
+      <graphic url="MS_HEB_b_3_24b.tif"/>
+      <graphic url="MS_HEB_b_3_25a.tif"/>
+      <graphic url="MS_HEB_b_3_25b.tif"/>
+      <graphic url="MS_HEB_b_3_26a.tif"/>
+      <graphic url="MS_HEB_b_3_26b.tif"/>
+      <graphic url="MS_HEB_b_3_27a.tif"/>
+      <graphic url="MS_HEB_b_3_27b.tif"/>
+      <graphic url="MS_HEB_b_3_28a.tif"/>
+      <graphic url="MS_HEB_b_3_28b.tif"/>
+      <graphic url="MS_HEB_b_3_29a.tif"/>
+      <graphic url="MS_HEB_b_3_29b.tif"/>
+      <graphic url="MS_HEB_b_3_30a.tif"/>
+      <graphic url="MS_HEB_b_3_30b.tif"/>
+      <graphic url="MS_HEB_b_3_31a.tif"/>
+      <graphic url="MS_HEB_b_3_31b.tif"/>
+      <graphic url="MS_HEB_b_3_32a.tif"/>
+      <graphic url="MS_HEB_b_3_32b.tif"/>
+      <graphic url="MS_HEB_b_3_33a.tif"/>
+      <graphic url="MS_HEB_b_3_33b.tif"/>
+      <graphic url="MS_HEB_b_3_34a.tif"/>
+      <graphic url="MS_HEB_b_3_34b.tif"/>
+      <graphic url="MS_HEB_b_3_35a.tif"/>
+      <graphic url="MS_HEB_b_3_35b.tif"/>
+      <graphic url="MS_HEB_b_3_36a.tif"/>
+      <graphic url="MS_HEB_b_3_36b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

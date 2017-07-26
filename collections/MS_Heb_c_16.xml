@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_27">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. c. 16</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_c_16</idno>
+            <idno type="msID">MS_Heb_c_16</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_c_16" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. c. 16</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 51.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p022a.jpg Catalogue-1_p022b.jpg">No. 2660</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_c_16-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part1-item1">
+                        <locus from="1a" to="1b">Fol. 1</locus>
+                        <title>תוספתא</title>
+                        <note>מעשר שני iii. 17 (לצפונו) to iv. 11 (נוטל).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part2-item1">
+                        <locus from="2a" to="2b">Fol. 2</locus>
+                        <title>Mishnah אבות</title>
+                        <note>vi. 6 (לעצמו אהב) to 10 (קונה שמים).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part3-item1">
+                        <locus from="3a" to="4b">Fol. 3</locus>
+                        <title>Babylonian Talmud: ברכות</title>
+                        <note>from fol. 45b, l. 9 (תסתיים דרב) to fol. 46a, l. 2 from below (מברכת הפירות).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 4to,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part4-item1">
+                        <locus from="5a" to="6b"/>
+                        <title>Babylonian Talmud ביצה</title>
+                        <msItem xml:id="MS_Heb_c_16-part4-item1-item1" n="a">
+                           <p>(<locus from="5a" to="5b">fol. 5</locus>) from fol. 22, l. 4 from below (כל דבר שאין) to fol. 22b, l.16 from below (דברים להקל)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_16-part4-item1-item2" n="b">
+                           <p>(<locus from="6a" to="6b">fol. 6</locus>) from fol. 26b, l.13 (בידיה) to (obliterated)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>, injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part5-item1">
+                        <locus from="7a" to="8b"/>
+                        <title>Babylonian Talmud יבמות</title>
+                        <msItem xml:id="MS_Heb_c_16-part5-item1-item1" n="a">
+                           <p>(<locus from="7a" to="7b">fol. 7</locus>) from fol. 73, l. 11 (ואם איתה ניתני) to fol. 74, l. 20 (תנא ר̇ עקיבא)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_16-part5-item1-item2" n="b">
+                           <p>(<locus from="8a" to="8b">fol. 8</locus>) from fol. 79b, l. 7 from below (תמתין עד) to fol. 80b, l. 6 (הוא באשה)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part6-item1">
+                        <locus from="9a" to="9b">Fol. 9</locus>
+                        <title>Commentary on Babylonian Talmud בבא מציעא, fol. 83</title>
+                        <note>beg.<quote type="beg">חביתא דחמרא בריסתקא דמדוזא</quote>, ending<quote type="end">אזל שבו שמטות מיניה</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; fol.,<material>vellum</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part7" n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part7-item1">
+                        <locus from="10a" to="11b"/>
+                        <title>הלכות גדולות, by Simeon Qayara</title>
+                        <msItem xml:id="MS_Heb_c_16-part7-item1-item1" n="a">
+                           <p>(<locus from="10a" to="10b">fol. 10</locus>) from<quote type="beg">אפסי ארץ</quote>(ed. Venice, fol. 6a, l. 11) to<quote type="end">לפני תיבה ביום</quote>(ibid. fol. 6b, l. 30)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_16-part7-item1-item2" n="b">
+                           <p>(<locus from="11a" to="11b">fol. 11</locus>) beg.<quote type="beg">ברוך ... על המחיה</quote>(ed. Ven. fol. 7a and Hild. fol. 54, but different from both), ending<quote type="end">וכמבושל שלא נימא דב̇ רב̇י</quote>.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>paper</material>, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part8-item1">
+                        <locus from="12a" to="12b">Fol. 12</locus>
+                        <title>שאלתות of R. Aḥai</title>
+                        <note>from<quote type="beg">ומה דברים</quote>(ed. Venice, col. 11, l. 10 from below) to<quote type="end">בזקנותו שנאמר</quote>(ed. col. 13, l. 31).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part9-item1">
+                        <locus from="13a" to="14b">Fol. 13</locus>
+                        <title>A fragment of ה̇ חליצה</title>
+                        <note>
+                           <locus from="14a" to="14a">fol. 14</locus>is headed<quote type="head">שיטת חליצה</quote>, beg.<quote type="beg">מלמד לאישה ג̇ פסוקין ... לענות אותם אחר הדינים</quote>; the end of<locus from="14b" to="14b">fol. 14b</locus>is headed<quote type="head">שיטת מיאון</quote>, beg. injured.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, very much obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part10-item1">
+                        <locus from="14(bis)a" to="15b"/>
+                        <title>Babylonian Talmud ברכות</title>
+                        <msItem xml:id="MS_Heb_c_16-part10-item1-item1" n="a">
+                           <p>(<locus from="14(bis)a" to="14(bis)b">fol. 14 bis</locus>) from תא שמע (fol. 26, l. 5 from below) to היה קרב והולך (fol. 26b, l. 17 from below)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_16-part10-item1-item2" n="b">
+                           <p>(<locus from="15a" to="15b">fol. 15</locus>) from לא תלתה (fol. 30, l. 13) to תל (fol. 30, l. 16 from below)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part11" n="11">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part11-item1">
+                        <locus from="16a" to="16b">Fol. 16</locus>
+                        <title>Alfasi on בבא בתרא</title>
+                        <note>i. 4 from<quote type="beg">ר̇ פפא רמא</quote>to<quote type="end">שלצדקה נגבית בשנים</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part12" n="12">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part12-item1">
+                        <locus from="17a" to="17b">Fol. 17</locus>
+                        <title>Rashi's commentary on יבמות</title>
+                        <note>from רשות ישראל (fol. 56b, l. 4 from below) to ובימי רבן יוח̇ בן זכאי (fol. 59b, l. 13 from below).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Germ. Rabb. char.; fol.,<material>vellum</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part13" n="13">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part13-item1">
+                        <locus from="18a" to="19b">Fol. 18</locus>
+                        <title>Maimonides' משנה תורה</title>
+                        <note>v. 1 (הראוי) to 5 (ההולכים) of ה̇ דעות.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part14" n="14">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part14-item1">
+                        <locus from="20a" to="21b">Fol. 20</locus>
+                        <title>Maimonides' משנה תורה</title>
+                        <note>viii. 9 (מואב) to ix. 11 (הספר).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; large 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part15" n="15">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/15</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part15-item1">
+                        <locus from="22a" to="23b">Fol. 22</locus>
+                        <title>Maimonides' משנה תורה</title>
+                        <note>v. 2 (the first legible words) to 9 (לקבוע על החשבון).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.; large 8vo,<material>paper</material>, injured and much obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part16" n="16">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/16</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part16-item1">
+                        <locus from="24a" to="24b">Fol. 24</locus>
+                        <title>[סדר תנאים ואמוראים]</title>
+                        <note>beg.<quote type="beg">כל היכא דאיכא איתמר</quote>, ending<quote type="end">רב חגא ורב סמנונא סבוראין</quote>.</note>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part17" n="17">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part17-item1">
+                        <locus from="25a" to="28b">Fol. 25</locus>
+                        <title>Responsa of early Geonim</title>
+                        <note>much injured and obliterated, headed<quote type="head">הלכות מר̇ רב̇ שמעון</quote>and<quote type="head">רבנו שרירא</quote>;<p>the latter also on<locus from="25b" to="25b">fol. 25b</locus>and<quote type="head">רב פל[טוי]</quote>;</p>
+                           <p>
+                              <locus from="27b" to="27b">fol. 27b</locus>
+                              <quote type="head">הלכות מר̇ רב̇ שמעון</quote>;</p>
+                           <p>
+                              <locus from="28a" to="28a">fol. 28</locus>
+                              <quote type="head">מקמי מר האיי</quote>;<locus from="28b" to="28b">fol. 28b</locus>
+                              <quote type="head">רב שרירא</quote>, where the following passage occurs:<quote>ואמרו כי (injured) אברהם גאון ז̇ל̇ שהיה שנת אלף ק̇מ̇ לשטרות היה מכיר בשיחת דקלים</quote>;</p>
+                           <p>next comes<quote type="head">רב̇ צמח בר פלטוי ז̇ל̇</quote>.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part18" n="18">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/18</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part18-item1">
+                        <locus from="29a" to="30b">Fol. 29</locus>
+                        <title>R. Nathan's Arukh</title>
+                        <note>from מל to מן, divided into chapters.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; fol.,<material>vellum</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part19" n="19">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/19</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part19-item1">
+                        <locus from="31a" to="32b"/>
+                        <title>מדרש לקח טוב of Tobiah ben Eliezer; Deuteronomy</title>
+                        <msItem xml:id="MS_Heb_c_16-part19-item1-item1" n="a">
+                           <p>(<locus from="31a" to="31b">fol. 31</locus>) xvii. 12 (על המעשה, ed. Buber, p. 57) to חידתי וכתיב) 17, ed. p. 58)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_16-part19-item1-item2" n="b">
+                           <p>(<locus from="32a" to="32b">fol.32</locus>) xviii. 14 (האמורה בעניין) to xix. 3 (אשר ינחילך, ed. p. 62)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Greek Rabb. char.; large 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part20" n="20">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/20</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part20-item1">
+                        <locus from="33a" to="33b">Fol. 33</locus>
+                        <title>מדרש לקח טוב of Tobiah ben Eliezer; Deuteronomy</title>
+                        <note>xxiii. 25, beg. injured (ed. p. 82) to xxiv. 1 end missing (ed. somewhat different).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Old Ital. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part21" n="21">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/21</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part21-item1">
+                        <locus from="34a" to="37b"/>
+                        <title>Fragments</title>
+                        <msItem xml:id="MS_Heb_c_16-part21-item1-item1" n="a">
+                           <p>(<locus from="34a" to="34a">fol. 34</locus>) much injured, ends<quote type="end">אמ̇ ר̇ נתן אל ..... בכוס אהר אמר .... כשט וברותי .... אמ̇ ר̇ לוי אילו בני...</quote>
+                           </p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_16-part21-item1-item2" n="b">
+                           <p>(<locus from="34b" to="37b">fol. 34b</locus>) of<title>מסכת תמורה</title>, agreeing with the Wilna edition, ends ואין אתה יכול (ed. p. 63b). This is the beg. of the fifth chapter in the MS. After the words at the beg. שדי יענני (<locus from="35a" to="35a">fol. 35</locus>) follows in the MS. a note beg.<quote type="beg">פירש הר̇ר̇ ישעיה הן תוי שדי יענני לשון סימן...</quote>
+                           </p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part22" n="22">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/22</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part22-item1">
+                        <locus from="38a" to="43b">Fol. 38</locus>
+                        <title>Fragment of Midrash Thanḥuma (?)</title>
+                        <note>composed of sections beg. ד̇א̇, on אחרי מות ; the passage in Midrash Thanḥuma (ed. Buber, Lev. p. 65) occurs, followed by (<locus from="38b" to="38b">fol. 38b</locus>)<quote>ד̇א̇ בק̇ לפני ייי ז̇ה̇ש̇ה̇ מי יודע עוז ... אמ̇ ר̇ תנחומ̇ אפילו הצדיקים אינן ממתינין בשמחתן בע̇ה̇</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. Rabb. char.; 8vo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part23" n="23">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/23</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part23-item1">
+                        <locus from="44a" to="45b">Fol. 44</locus>
+                        <title>Halakhic fragment</title>
+                        <note>much obliterated, on Lev. xii. 1 to 8. No striking passage for identification.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part24" n="24">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/24</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part24-item1">
+                        <locus from="46a" to="47b">Fol. 46</locus>
+                        <title>Fragment of theological treatise on Messianic matter (?)</title>
+                        <note>The following passage occurs (<locus from="47a" to="47a">fol. 47</locus>) concerning Isaiah xi:<quote>כמו שכתו̇ בפי̇ ה̇ר̇ם̇ ב̇ן̇ ז̇ל̇ וכן נראה ממשמעות הכתובים שיהיו בעולם דכתי̇ זאב באותה ההבטחה זאב וטלה ירעו כאחד. וה̇ר̇ם̇ ב̇מ̇ ז̇ל̇ מפרש כר̇ יהודה שעולם כמנהגו הולך נוהג</quote>;<p>farther on it is said on Ps. xcviii. 8<quote>כי זה הענין ג̇כ̇ משל כמו שאמרנו וכן פירשו אלו הפסוקים בן גיקטילא ובן בלעם</quote>.</p>
+                        </note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part25" n="25">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/25</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part25-item1">
+                        <locus from="48a" to="48b"/>
+                        <title>Masoretic fragment</title>
+                        <msItem xml:id="MS_Heb_c_16-part25-item1-item1" n="a">
+                           <p>(<locus from="48a" to="48b">fol. 48</locus>) Masorah finalis enumerating the cases in which words are connected with על, beg. בדמות בני, followed by כל לשון נחלה .</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 4to,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part26" n="26">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/26</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part26-item1">
+                        <locus from="49a" to="49b">Fol. 49</locus>
+                        <title>Masoretic fragment</title>
+                        <note>enumerating the instances of עושֶה , מעשֶה , קרי ולא כתיב , כתיב ולא קרי.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; large 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part27" n="27">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/27</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part27-item1">
+                        <locus from="50a" to="50b">Fol. 50</locus>
+                        <title>Fragment of Seadiah Gaon's ס̇ המועדים ?</title>
+                        <note>(see Harkavy's Studien und Mittheilungen, v. p. 220), with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; (margin cut),<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_16-part28" n="28">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 16/28</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_16-part28-item1">
+                        <locus from="51a" to="51b">Fol. 51</locus>
+                        <title>The Arabic introduction to Moses ben Ezra's ענק</title>
+                        <note>(see<ref>No. 1973</ref>).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; fol.,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Talmud and commentaries</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_c_16_09">הלכות. (חליצה and מיאון)</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_07">הלכות גדולות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_01">תוספתא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_17">תשובות גאונים.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_02">Mishnah. אבות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_03">Talmud, Babli. ברכות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_04">Talmud, Babli. ביצה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_05">Talmud, Babli. יבמות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_06">Talmud, Babli. Commentaries. בבא מציעא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_08">
+                     <persName type="aut">Aḥai</persName>. Responsa.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_10">Talmud, Babli. ברכות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_11">
+                     <persName type="aut">Alfasi (Isaac b. Jacob)</persName>. בבא בתרא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_12">
+                     <persName type="aut">Solomon b. Isaac (Rashi)</persName>. Commentaries: Talmud. (יבמות).</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_13">
+                     <persName type="aut">Moses b. Maimon</persName>. משנה תורה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_14">
+                     <persName type="aut">Moses b. Maimon</persName>. משנה תורה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_15">
+                     <persName type="aut">Moses b. Maimon</persName>. משנה תורה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_17">
+                     <persName type="ment">Abraham Gaon</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_17">
+                     <persName type="aut">Hai Gaon</persName>. Responsa.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_17">
+                     <persName type="aut">Palṭoi</persName>. Responsa.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_17">
+                     <persName type="aut">Sherira Gaon</persName>. Responsa.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_17">
+                     <persName type="aut">Simeon Qayara</persName>. Responsa.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_17">
+                     <persName type="aut">Ẓemaḥ b. Palṭoi</persName>. Responsum.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_18">
+                     <persName type="aut">Nathan b. Jehiel</persName>. ערוך.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_19">
+                     <persName type="aut">Tobiah b. Eliezer</persName>. לקח טוב.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_20">
+                     <persName type="aut">Tobiah b. Eliezer</persName>. לקח טוב.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_21">
+                     <persName type="aut">Isaiah</persName>. Commentary on Job (?).</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_21">Talmud, Babli. תמורה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_22">Midrash. תנחומא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_24">
+                     <persName type="ment">Judah (b. Samuel) b. Balaam, sephardi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_24">
+                     <persName type="ment">Moses Jiqatilia</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_24">
+                     <persName type="ment">Moses b. Maimon</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_24">
+                     <persName type="ment">Moses b. Naḥman</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_24">Theological treatises.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_25">Masorah, separate.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_26">Masorah, separate.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_27">
+                     <persName type="aut">Seadiah b. Joseph al-fayyumi, Gaon</persName>. ספר המועדים (?).</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_16_28">
+                     <persName type="aut">Moses (b. Jacob) b. Ezra</persName>. ענק. (Arabic introduction).</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2010-07-23">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_c_16_1a.tif"/>
+      <graphic url="MS_HEB_c_16_1b.tif"/>
+      <graphic url="MS_HEB_c_16_2a.tif"/>
+      <graphic url="MS_HEB_c_16_2b.tif"/>
+      <graphic url="MS_HEB_c_16_3a.tif"/>
+      <graphic url="MS_HEB_c_16_3b.tif"/>
+      <graphic url="MS_HEB_c_16_4a.tif"/>
+      <graphic url="MS_HEB_c_16_4b.tif"/>
+      <graphic url="MS_HEB_c_16_5a.tif"/>
+      <graphic url="MS_HEB_c_16_5b.tif"/>
+      <graphic url="MS_HEB_c_16_6a.tif"/>
+      <graphic url="MS_HEB_c_16_6b.tif"/>
+      <graphic url="MS_HEB_c_16_7a.tif"/>
+      <graphic url="MS_HEB_c_16_7b.tif"/>
+      <graphic url="MS_HEB_c_16_8a.tif"/>
+      <graphic url="MS_HEB_c_16_8b.tif"/>
+      <graphic url="MS_HEB_c_16_9a.tif"/>
+      <graphic url="MS_HEB_c_16_9b.tif"/>
+      <graphic url="MS_HEB_c_16_10a.tif"/>
+      <graphic url="MS_HEB_c_16_10b.tif"/>
+      <graphic url="MS_HEB_c_16_11a.tif"/>
+      <graphic url="MS_HEB_c_16_11b.tif"/>
+      <graphic url="MS_HEB_c_16_12a.tif"/>
+      <graphic url="MS_HEB_c_16_12b.tif"/>
+      <graphic url="MS_HEB_c_16_13a.tif"/>
+      <graphic url="MS_HEB_c_16_13b.tif"/>
+      <graphic url="MS_HEB_c_16_14a.tif"/>
+      <graphic url="MS_HEB_c_16_14b.tif"/>
+      <graphic url="MS_HEB_c_16_14(bis)a.tif"/>
+      <graphic url="MS_HEB_c_16_14(bis)b.tif"/>
+      <graphic url="MS_HEB_c_16_15a.tif"/>
+      <graphic url="MS_HEB_c_16_15b.tif"/>
+      <graphic url="MS_HEB_c_16_16a.tif"/>
+      <graphic url="MS_HEB_c_16_16b.tif"/>
+      <graphic url="MS_HEB_c_16_17a.tif"/>
+      <graphic url="MS_HEB_c_16_17b.tif"/>
+      <graphic url="MS_HEB_c_16_18a.tif"/>
+      <graphic url="MS_HEB_c_16_18b.tif"/>
+      <graphic url="MS_HEB_c_16_19a.tif"/>
+      <graphic url="MS_HEB_c_16_19b.tif"/>
+      <graphic url="MS_HEB_c_16_20a.tif"/>
+      <graphic url="MS_HEB_c_16_20b.tif"/>
+      <graphic url="MS_HEB_c_16_21a.tif"/>
+      <graphic url="MS_HEB_c_16_21b.tif"/>
+      <graphic url="MS_HEB_c_16_22a.tif"/>
+      <graphic url="MS_HEB_c_16_22b.tif"/>
+      <graphic url="MS_HEB_c_16_23a.tif"/>
+      <graphic url="MS_HEB_c_16_23b.tif"/>
+      <graphic url="MS_HEB_c_16_24a.tif"/>
+      <graphic url="MS_HEB_c_16_24b.tif"/>
+      <graphic url="MS_HEB_c_16_25a.tif"/>
+      <graphic url="MS_HEB_c_16_25b.tif"/>
+      <graphic url="MS_HEB_c_16_26a.tif"/>
+      <graphic url="MS_HEB_c_16_26b.tif"/>
+      <graphic url="MS_HEB_c_16_27a.tif"/>
+      <graphic url="MS_HEB_c_16_27b.tif"/>
+      <graphic url="MS_HEB_c_16_28a.tif"/>
+      <graphic url="MS_HEB_c_16_28b.tif"/>
+      <graphic url="MS_HEB_c_16_29a.tif"/>
+      <graphic url="MS_HEB_c_16_29b.tif"/>
+      <graphic url="MS_HEB_c_16_30a.tif"/>
+      <graphic url="MS_HEB_c_16_30b.tif"/>
+      <graphic url="MS_HEB_c_16_31a.tif"/>
+      <graphic url="MS_HEB_c_16_31b.tif"/>
+      <graphic url="MS_HEB_c_16_32a.tif"/>
+      <graphic url="MS_HEB_c_16_32b.tif"/>
+      <graphic url="MS_HEB_c_16_33a.tif"/>
+      <graphic url="MS_HEB_c_16_33b.tif"/>
+      <graphic url="MS_HEB_c_16_34a.tif"/>
+      <graphic url="MS_HEB_c_16_34b.tif"/>
+      <graphic url="MS_HEB_c_16_35a.tif"/>
+      <graphic url="MS_HEB_c_16_35b.tif"/>
+      <graphic url="MS_HEB_c_16_36a.tif"/>
+      <graphic url="MS_HEB_c_16_36b.tif"/>
+      <graphic url="MS_HEB_c_16_37a.tif"/>
+      <graphic url="MS_HEB_c_16_37b.tif"/>
+      <graphic url="MS_HEB_c_16_38a.tif"/>
+      <graphic url="MS_HEB_c_16_38b.tif"/>
+      <graphic url="MS_HEB_c_16_39a.tif"/>
+      <graphic url="MS_HEB_c_16_39b.tif"/>
+      <graphic url="MS_HEB_c_16_40a.tif"/>
+      <graphic url="MS_HEB_c_16_40b.tif"/>
+      <graphic url="MS_HEB_c_16_41a.tif"/>
+      <graphic url="MS_HEB_c_16_41b.tif"/>
+      <graphic url="MS_HEB_c_16_42a.tif"/>
+      <graphic url="MS_HEB_c_16_42b.tif"/>
+      <graphic url="MS_HEB_c_16_43a.tif"/>
+      <graphic url="MS_HEB_c_16_43b.tif"/>
+      <graphic url="MS_HEB_c_16_44a.tif"/>
+      <graphic url="MS_HEB_c_16_44b.tif"/>
+      <graphic url="MS_HEB_c_16_45a.tif"/>
+      <graphic url="MS_HEB_c_16_45b.tif"/>
+      <graphic url="MS_HEB_c_16_46a.tif"/>
+      <graphic url="MS_HEB_c_16_46b.tif"/>
+      <graphic url="MS_HEB_c_16_47a.tif"/>
+      <graphic url="MS_HEB_c_16_47b.tif"/>
+      <graphic url="MS_HEB_c_16_48a.tif"/>
+      <graphic url="MS_HEB_c_16_48b.tif"/>
+      <graphic url="MS_HEB_c_16_49a.tif"/>
+      <graphic url="MS_HEB_c_16_49b.tif"/>
+      <graphic url="MS_HEB_c_16_50a.tif"/>
+      <graphic url="MS_HEB_c_16_50b.tif"/>
+      <graphic url="MS_HEB_c_16_51a.tif"/>
+      <graphic url="MS_HEB_c_16_51b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

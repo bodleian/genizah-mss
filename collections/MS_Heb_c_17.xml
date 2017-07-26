@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_28">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. c. 17</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_c_17</idno>
+            <idno type="msID">MS_Heb_c_17</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_c_17" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. c. 17</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 104.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p022b.jpg Catalogue-1_p023a.jpg">No. 2661</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_c_17-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part1-item1">
+                        <locus from="1a" to="4b">Fol. 1</locus>
+                        <title>Mishnah: אבות i. 11 (אחריכם) to iii. 14 (נתתי לכם).</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part2-item1">
+                        <locus from="5a" to="6b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_17-part2-item1-item1" n="a">
+                           <p>(<locus from="5a" to="5b">fol. 5</locus>)<title>אבות</title>iii. 17 (עוקרתו) to iv. 21 (מוציאין)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part2-item1-item2" n="b">
+                           <p>(<locus from="6a" to="6a">fol. 6</locus>)<title>אבות</title>vi. 5 (אהוב) to end, postscript<quote>סליק אבות וקנין תורה</quote>
+                           </p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part2-item1-item3" n="c">
+                           <p>(<locus from="6b" to="6b">fol. 6b</locus>)<title>דרך ארץ זוטא</title>i, ends ותפייס</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; large 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part3-item1">
+                        <locus from="7a" to="8b"/>
+                        <title>Mishnah: אבות</title>
+                        <msItem xml:id="MS_Heb_c_17-part3-item1-item1" n="a">
+                           <p>(<locus from="7a" to="7b">fol. 7</locus>) iv. 7 (יוסה אומר החושך) to 20 (הזקנים למה דומה)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part3-item1-item2" n="b">
+                           <p>(<locus from="8a" to="8b">fol. 8</locus>) v. 14 (לבית המדרש הולך) to 20 (יהי רצון)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part4-item1">
+                        <locus from="9a" to="10b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_17-part4-item1-item1" n="a">
+                           <p>(<locus from="9a" to="9b">fol. 9</locus>)<title>אבות</title>iii. 9 (חטאו קודמת) to iv. 1 (כי תאכל)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part4-item1-item2" n="b">
+                           <p>(<locus from="10a" to="10b">fol. 10</locus>)<title>דרך ארץ זוטא</title>ii (ואינו שלך) to iii (על מנת לשלם ואם)</p>
+                        </msItem>
+                        <note>No sections for אבות or דרך ארץ.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Large Syr. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part5-item1">
+                        <locus from="11a" to="11b">Fol. 11</locus>
+                        <title>Mishnah: פיאה ii.4 (ולחרובין) to iii. 6</title>
+                        <note>with some vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part6-item1">
+                        <locus from="12a" to="19b">Fol. 12</locus>
+                        <title>Mishnah: ערובין iii. 3 (מי שישב, ed. iv. 4) to iv. 6 (ממקום, ed. v. 9)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; small 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part7" n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part7-item1">
+                        <locus from="20a" to="21b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_17-part7-item1-item1" n="a">
+                           <p>(<locus from="20a" to="20b">fol. 20</locus>)<title>יומא</title>v. 1 (הגדול) to vi. 2 (ביום הזה)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part7-item1-item2" n="b">
+                           <p>(<locus from="21a" to="21b">fol. 21</locus>)<title>סוכה</title>ii. 2 (המיטה) to iii. 5</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part8-item1">
+                        <locus from="22a" to="23b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_17-part8-item1-item1" n="a">
+                           <p>(<locus from="22a" to="22b">fol. 22</locus>)<title>תענית</title>ii. 6 (שלוש תעניות) to iii. 8 (בניך)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part8-item1-item2" n="b">
+                           <p>(<locus from="23a" to="23a">fol. 23</locus>)<title>סוכה</title>v. 5 (של שחר) to end</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part8-item1-item3" n="c">
+                           <p>(<locus from="23a" to="23b">fol. 23</locus>)<title>ביצה</title>i. 1-6 (לכהן)</p>
+                        </msItem>
+                        <note>With vowel points and some accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part9-item1">
+                        <locus from="24a" to="25b"/>
+                        <title>Mishnah: יבמות</title>
+                        <msItem xml:id="MS_Heb_c_17-part9-item1-item1" n="a">
+                           <p>(<locus from="24a" to="24b">fol. 24</locus>) iii. 7 (הרי זה אסורה) to iv. 8 (אשתו ונשא אחיו)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part9-item1-item2" n="b">
+                           <p>(<locus from="25a" to="25b">fol. 25</locus>) x. 2 (שפטרוה) to 9 (או מתיבמת)</p>
+                        </msItem>
+                        <note>With some vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part10-item1">
+                        <locus from="26a" to="27b"/>
+                        <title>Mishnah: יבמות</title>
+                        <msItem xml:id="MS_Heb_c_17-part10-item1-item1" n="a">
+                           <p>(<locus from="26a" to="26b">fol. 26</locus>) ii. 3 (כל שאיסורה) to iii. 7 (שנ̇ מהן)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part10-item1-item2" n="b">
+                           <p>(<locus from="27a" to="27b">fol. 27</locus>) xiii. 4 (מן הכהונה) to xiv. 5 (חרשת)</p>
+                        </msItem>
+                        <note>With some vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 2 coll., 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part11" n="11">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part11-item1">
+                        <locus from="28a" to="28b">Fol. 28</locus>
+                        <title>Mishnah: נזיר</title>
+                        <note>vii.1 (בדרך) to viii. 1 (אם אני), with some accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part12" n="12">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part12-item1">
+                        <locus from="29a" to="30b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_17-part12-item1-item1" n="a">
+                           <p>(<locus from="29a" to="29b">fol. 29</locus>)<title>מדות</title>ii. 3 (אולם) to 6 (היו שם)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part12-item1-item2" n="b">
+                           <p>(<locus from="30a" to="30a">fol. 30</locus>)<title>תמיד</title>vi. 3 (והיה נוטל) to vii. 4 (הלוים)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part12-item1-item3" n="c">
+                           <p>(<locus from="30b" to="30b">fol. 30b</locus>)<title>קנים</title>i. 1 (to סדר)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part13" n="13">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part13-item1">
+                        <locus from="31a" to="32b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_17-part13-item1-item1" n="a">
+                           <p>(<locus from="31a" to="31b">fol. 31</locus>)<title>ערכין</title>vi. 3 (שני) to viii. 5 (ועבדו)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part13-item1-item2" n="b">
+                           <p>(<locus from="32a" to="32b">fol. 32</locus>)<title>כריתות</title>iii. 8 (מוכי) to v. 1 (בבהמה)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; large 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part14" n="14">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part14-item1">
+                        <locus from="33a" to="34b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_17-part14-item1-item1" n="a">
+                           <p>(<locus from="33a" to="33b">fol. 33</locus>)<title>בכורות</title>ii fin. (דופן) to iv. 6 (מתרומתו)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part14-item1-item2" n="b">
+                           <p>(<locus from="34a" to="34b">fol. 34</locus>)<title>ערכין</title>iv. 4 (שהעריך) to vi. 3 (נותנין לו)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part15" n="15">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/15</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part15-item1">
+                        <locus from="35a" to="43b"/>
+                        <title>Mishnah</title>
+                        <msItem xml:id="MS_Heb_c_17-part15-item1-item1" n="a">
+                           <p>(<locus from="35a" to="35a">fol. 35</locus>)<title>נדה</title>ix. 5 (והפנימית) to end</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part15-item1-item2" n="b">
+                           <p>(<locus from="35b" to="37b">fol. 35b</locus>)<title>משקים</title>(מכשירין) i. 1 to vi end</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part15-item1-item3" n="c">
+                           <p>(<locus from="38a" to="39b">fol. 38</locus>)<title>זבים</title>i. 1 to end</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part15-item1-item4" n="d">
+                           <p>(<locus from="40a" to="40b">fol. 40</locus>)<title>טבול יום</title>i. 1 to end</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part15-item1-item5" n="e">
+                           <p>(<locus from="41a" to="42b">fol. 41</locus>)<title>ידים</title>i. 1 to end</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part15-item1-item6" n="f">
+                           <p>(<locus from="43a" to="43b">fol. 43</locus>)<title>עוקצין</title>i. 1 to iii. 4 (מטמא)</p>
+                        </msItem>
+                        <note>The Mishnahs are here called הילכתא, heading and colophon in Aramaic. Divisions פרקא, הילכתא, הנא; with superlinear vowel points.</note>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen Rabb. char.; fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part16" n="16">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/16</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part16-item1">
+                        <locus from="44a" to="45b"/>
+                        <title>Mishnah: אהילות</title>
+                        <msItem xml:id="MS_Heb_c_17-part16-item1-item1" n="a">
+                           <p>(<locus from="44a" to="44b">fol. 44</locus>) iii. 7 (הטומאה וחוצץ) to vi. 3 (מחציו)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part16-item1-item2" n="b">
+                           <p>(<locus from="45a" to="45b">fol. 45</locus>) xii. 2 (כנגד) to xiv. 2 (זיז שעל)</p>
+                        </msItem>
+                        <note>Some lines with accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen squ. char.; 2 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part17" n="17">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part17-item1">
+                        <locus from="46a" to="53b">Fol. 46</locus>
+                        <title>Babylonian Talmud שבת from fol. 6b, l. 4 from below (היחיד לשבת) to fol. 10, l. 6 from below (שלום)</title>
+                        <note>passages are headed פיס̇ ; some words with vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part18" n="18">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/18</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part18-item1">
+                        <locus from="54a" to="54b">Fol. 54</locus>
+                        <title>Babylonian Talmud ראש השנה from fol. 25b, l. 6 (כאביר) to fol. 26b, l. 9 from below (בפשוטין)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part19" n="19">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/19</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part19-item1">
+                        <locus from="55a" to="56b"/>
+                        <title>Babylonian Talmud: פסחים</title>
+                        <msItem xml:id="MS_Heb_c_17-part19-item1-item1" n="a">
+                           <p>(<locus from="55a" to="55b">fol. 55</locus>) from fol. 72, l. 27 (להן קיצבה) to fol. 73b, l. 8 from below (אמר רב דאמר כי האי תנא)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part19-item1-item2" n="b">
+                           <p>(<locus from="56a" to="56b">fol. 56</locus>) from fol. 80, l. 23 (אמר משלחין) to fol. 81b to the Mishnah.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part20" n="20">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/20</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part20-item1">
+                        <locus from="57a" to="58b"/>
+                        <title>Babylonian Talmud</title>
+                        <msItem xml:id="MS_Heb_c_17-part20-item1-item1" n="a">
+                           <p>(<locus from="57a" to="57b">fol. 57</locus>)<title>ביצה</title>from fol. 31b, l. 5 (יום טוב מבקעין) to fol. 34 illegible</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part20-item1-item2" n="b">
+                           <p>(<locus from="58a" to="58b">fol. 58</locus>)<title>עבודה זרה</title>from fol. 68b, l. 11 from below (אסריה רחמנא) to fol. 72 Mishnah</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Small Syr. Rabb. char.; fol.,<material>vellum</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part21" n="21">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/21</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part21-item1">
+                        <locus from="59a" to="59b">Fol. 59</locus>
+                        <title>Babylonian Talmud סוכה from fol. 29b (Mishnah) to fol. 31, l. 12 from below (לאו משום)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part22" n="22">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/22</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part22-item1">
+                        <locus from="60a" to="60b">Fol. 60</locus>
+                        <title>Babylonian Talmud סנהדרין from fol. 11, l. 6 (למעשה) to fol. 12, l. 25 (לכלכל)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; small folio,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part23" n="23">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/23</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part23-item1">
+                        <locus from="61a" to="62b">Fol. 61</locus>
+                        <title>Babylonian Talmud סנהדרין from fol. 60, l. 3 from below (והשני) to fol. 61b, l. 3 (וטאעי)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; small 4to,<material>vellum</material>, slightly injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part24" n="24">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/24</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part24-item1">
+                        <locus from="63a" to="64b"/>
+                        <title>Babylonian Talmud</title>
+                        <msItem xml:id="MS_Heb_c_17-part24-item1-item1" n="a">
+                           <p>(<locus from="63a" to="63b">fol. 63</locus>)<title>סנהדרין</title>from fol. 108b, l. 13 from below (טרף) to fol. 109, l. 23 from below (אשכחו אמר רב)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part24-item1-item2" n="b">
+                           <p>(<locus from="64a" to="64b">fol. 64</locus>)<title>מגלה</title>from fol. 3b, l. 14 (בית רבי) to fol. 4b, l.15 (הכניסה כדי)</p>
+                        </msItem>
+                        <note>Many variations.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; oblong,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part25" n="25">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/25</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part25-item1">
+                        <locus from="65a" to="66b"/>
+                        <title>Babylonian Talmud סנהדרין</title>
+                        <msItem xml:id="MS_Heb_c_17-part25-item1-item1" n="a">
+                           <p>(<locus from="65a" to="65b">fol. 65</locus>) from fol. 31b, l.16 (במשנתינו) to fol. 32, l. 4 from below (כשרים מכל)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part25-item1-item2" n="b">
+                           <p>(<locus from="66a" to="66b">fol. 66</locus>) from fol. 37, l. 3 (הראשונה) to fol. 37b, l.12 from below (וקיבלתו)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part26" n="26">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/26</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part26-item1">
+                        <locus from="67a" to="68b"/>
+                        <title>Babylonian Talmud בבא קמא</title>
+                        <msItem xml:id="MS_Heb_c_17-part26-item1-item1" n="a">
+                           <p>(<locus from="67a" to="67b">fol. 67</locus>) from fol. 81, l. 9 (דרכים מפני) to fol. 81b, l. 16 from below (מוצא מת מוטל)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part26-item1-item2" n="b">
+                           <p>(<locus from="68a" to="68b">fol. 68</locus>) from fol. 83b, l. 1 to fol. 83b, l. 30 (כי יתן מום)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Large Syr. char.; broad fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part27" n="27">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/27</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part27-item1">
+                        <locus from="69a" to="78b">Fol. 69</locus>
+                        <title>Babylonian Talmud בבא מציעא from fol. 78b, l. 13 (לפורים ואין מדקדקין) to fol. 85b, l. 22 (מישתכח)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; small 4to,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part28" n="28">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/28</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part28-item1">
+                        <locus from="79a" to="80b">Fol. 79</locus>
+                        <title>Babylonian Talmud כתובות from fol. 77b, l. 15 (ודיבן ; ed. ודייבי) to fol. 79b, l. 8 (למיתה אפילו)</title>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part29" n="29">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/29</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part29-item1">
+                        <locus from="81a" to="81b">Fol. 81</locus>
+                        <title>Babylonian Talmud: כתובות from fol. 106b, l. 5 from below (ר̇ עקיבא אין משתכרין) to fol. 108, l. 8 (אפילו תימא)</title>
+                        <note>with Arabic glosses; some accents.</note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; small fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part30" n="30">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/30</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part30-item1">
+                        <locus from="82a" to="83b"/>
+                        <title>Babylonian Talmud נדה</title>
+                        <msItem xml:id="MS_Heb_c_17-part30-item1-item1" n="a">
+                           <p>(<locus from="82a" to="82b">fol. 82</locus>) from fol. 10b, l. 15 from below (אחת ומחצה) to fol. 11b, l. 23 from below (אמר רב יהודה)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part30-item1-item2" n="b">
+                           <p>(<locus from="83a" to="83b">fol. 83</locus>) from fol. 67, l. 8 (מר עוקבא) to fol. 68b, l. 4 (ומפקידה לפקידה)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 4to,<material>vellum</material>, margins slightly injured,<locus from="82b" to="83a">ff. 82b and 83a</locus>obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part31" n="31">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/31</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part31-item1">
+                        <locus from="84a" to="85b"/>
+                        <title>Babylonian Talmud מנחות</title>
+                        <msItem xml:id="MS_Heb_c_17-part31-item1-item1" n="a">
+                           <p>(<locus from="84a" to="84b">fol. 84</locus>) from fol. 29, l. 18 from below (האכא טהורה) to fol. 29b, l. 14 from below (אם העולם הזה)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part31-item1-item2" n="b">
+                           <p>(<locus from="85a" to="85b">fol. 85</locus>) from fol. 30b, l. 19 (ששנא ר̇ שמעון) to fol. 31b, l. 7 from below (דאמר בסוף שיטה)</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part32" n="32">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/32</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part32-item1">
+                        <locus from="86a" to="103b"/>
+                        <title>Babylonian Talmud</title>
+                        <msItem xml:id="MS_Heb_c_17-part32-item1-item1" n="α">
+                           <p>
+                              <locus from="86a" to="101b">Fol. 86</locus>.<title>בכורות</title>from fol. 42, l. 9 (ת̇ש̇ הנרבע) to fol. 59b, l. 17 (להו במנין)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_17-part32-item1-item2" n="β">
+                           <title>ערכין</title>
+                           <msItem xml:id="MS_Heb_c_17-part32-item1-item2-item1" n="a">
+                              <p>(<locus from="102a" to="102b">fol. 102</locus>) from fol. 18, l. 18 (איכא שכרה) to fol. 19, l. 7 (מעשה)</p>
+                           </msItem>
+                           <msItem xml:id="MS_Heb_c_17-part32-item1-item2-item2" n="b">
+                              <p>(<locus from="103a" to="103b">fol. 103</locus>) from fol. 21, l. 22 (אמר ר̇ פפא) to fol. 21b, l. 4 from below (שומא כל)</p>
+                           </msItem>
+                           <note>The Mishnah is given before the פרק.</note>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Large Syr. squ. char.; broad fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_17-part33" n="33">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 17/33</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_17-part33-item1">
+                        <locus from="104a" to="104b">Fol. 104</locus>
+                        <title>Babylonian Talmud: בבא קמא, Alfasi</title>
+                        <note>from<quote type="beg">צריכא דאיתנהו לזוזי רב אמר הרי זה מקח טעות</quote>to<quote type="end">ההוא תורא דנפל לאריתא</quote>, last words somewhat different from the edition.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Talmud and commentaries</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_c_17_01">Mishnah. אבות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_02">Mishnah. אבות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_02">Mishnah. דרך ארץ זוטא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_03">Mishnah. אבות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_04">Mishnah. אבות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_04">Mishnah. דרך ארץ זוטא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_05">Mishnah. פיאה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_06">Mishnah. ערובין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_07">Mishnah. יומא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_07_b">Mishnah. סוכה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_08">Mishnah. תענית.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_08_b">Mishnah. סוכה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_08_c">Mishnah. ביצה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_09">Mishnah. יבמות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_10">Mishnah. יבמות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_11">Mishnah. נזיר.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_12">Mishnah. תמיד.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_12">Mishnah. מדות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_12">Mishnah. קנים.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_13">Mishnah. ערכין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_13">Mishnah. כריתות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_14">Mishnah. בכורות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_14">Mishnah. ערכין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_15_a">Mishnah. נדה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_15_b">Mishnah. משקים. (or מועד קטן).</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_15_c">Mishnah. זבים.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_15_d">Mishnah. טבול יום.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_15_e">Mishnah. ידים.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_15_f">Mishnah. עוקצין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_16">Mishnah. אהילות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_17">Talmud, Babli. שבת.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_18">Talmud, Babli. ראש השנה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_19">Talmud, Babli. פסחים.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_20">Talmud, Babli. ביצה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_20">Talmud, Babli. עבודה זרה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_21">Talmud, Babli. סוכה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_22">Talmud, Babli. סנהדרין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_23">Talmud, Babli. סנהדרין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_24">Talmud, Babli. מגילה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_24">Talmud, Babli. סנהדרין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_25">Talmud, Babli. סנהדרין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_26">Talmud, Babli. בבא קמא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_27">Talmud, Babli. בבא מציעא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_28">Talmud, Babli. כתובות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_29">Talmud, Babli. כתובות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_29">Talmud, Babli. Commentaries. כתובות. (Arabic glosses).</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_30">Talmud, Babli. נדה.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_31">Talmud, Babli. מנחות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_32">Talmud, Babli. בכורות.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_32">Talmud, Babli. ערכין.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_17_33">
+                     <persName type="aut">Alfasi (Isaac b. Jacob)</persName>. בבא קמא.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2010-07-26">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_c_17_1a.tif"/>
+      <graphic url="MS_HEB_c_17_1b.tif"/>
+      <graphic url="MS_HEB_c_17_2a.tif"/>
+      <graphic url="MS_HEB_c_17_2b.tif"/>
+      <graphic url="MS_HEB_c_17_3a.tif"/>
+      <graphic url="MS_HEB_c_17_3b.tif"/>
+      <graphic url="MS_HEB_c_17_4a.tif"/>
+      <graphic url="MS_HEB_c_17_4b.tif"/>
+      <graphic url="MS_HEB_c_17_5a.tif"/>
+      <graphic url="MS_HEB_c_17_5b.tif"/>
+      <graphic url="MS_HEB_c_17_6a.tif"/>
+      <graphic url="MS_HEB_c_17_6b.tif"/>
+      <graphic url="MS_HEB_c_17_7a.tif"/>
+      <graphic url="MS_HEB_c_17_7b.tif"/>
+      <graphic url="MS_HEB_c_17_8a.tif"/>
+      <graphic url="MS_HEB_c_17_8b.tif"/>
+      <graphic url="MS_HEB_c_17_9a.tif"/>
+      <graphic url="MS_HEB_c_17_9b.tif"/>
+      <graphic url="MS_HEB_c_17_10a.tif"/>
+      <graphic url="MS_HEB_c_17_10b.tif"/>
+      <graphic url="MS_HEB_c_17_11a.tif"/>
+      <graphic url="MS_HEB_c_17_11b.tif"/>
+      <graphic url="MS_HEB_c_17_12a.tif"/>
+      <graphic url="MS_HEB_c_17_12b.tif"/>
+      <graphic url="MS_HEB_c_17_13a.tif"/>
+      <graphic url="MS_HEB_c_17_13b.tif"/>
+      <graphic url="MS_HEB_c_17_14a.tif"/>
+      <graphic url="MS_HEB_c_17_14b.tif"/>
+      <graphic url="MS_HEB_c_17_15a.tif"/>
+      <graphic url="MS_HEB_c_17_15b.tif"/>
+      <graphic url="MS_HEB_c_17_16a.tif"/>
+      <graphic url="MS_HEB_c_17_16b.tif"/>
+      <graphic url="MS_HEB_c_17_17a.tif"/>
+      <graphic url="MS_HEB_c_17_17b.tif"/>
+      <graphic url="MS_HEB_c_17_18a.tif"/>
+      <graphic url="MS_HEB_c_17_18b.tif"/>
+      <graphic url="MS_HEB_c_17_19a.tif"/>
+      <graphic url="MS_HEB_c_17_19b.tif"/>
+      <graphic url="MS_HEB_c_17_20a.tif"/>
+      <graphic url="MS_HEB_c_17_20b.tif"/>
+      <graphic url="MS_HEB_c_17_21a.tif"/>
+      <graphic url="MS_HEB_c_17_21b.tif"/>
+      <graphic url="MS_HEB_c_17_22a.tif"/>
+      <graphic url="MS_HEB_c_17_22b.tif"/>
+      <graphic url="MS_HEB_c_17_23a.tif"/>
+      <graphic url="MS_HEB_c_17_23b.tif"/>
+      <graphic url="MS_HEB_c_17_24a.tif"/>
+      <graphic url="MS_HEB_c_17_24b.tif"/>
+      <graphic url="MS_HEB_c_17_25a.tif"/>
+      <graphic url="MS_HEB_c_17_25b.tif"/>
+      <graphic url="MS_HEB_c_17_26a.tif"/>
+      <graphic url="MS_HEB_c_17_26b.tif"/>
+      <graphic url="MS_HEB_c_17_27a.tif"/>
+      <graphic url="MS_HEB_c_17_27b.tif"/>
+      <graphic url="MS_HEB_c_17_28a.tif"/>
+      <graphic url="MS_HEB_c_17_28b.tif"/>
+      <graphic url="MS_HEB_c_17_29a.tif"/>
+      <graphic url="MS_HEB_c_17_29b.tif"/>
+      <graphic url="MS_HEB_c_17_30a.tif"/>
+      <graphic url="MS_HEB_c_17_30b.tif"/>
+      <graphic url="MS_HEB_c_17_31a.tif"/>
+      <graphic url="MS_HEB_c_17_31b.tif"/>
+      <graphic url="MS_HEB_c_17_32a.tif"/>
+      <graphic url="MS_HEB_c_17_32b.tif"/>
+      <graphic url="MS_HEB_c_17_33a.tif"/>
+      <graphic url="MS_HEB_c_17_33b.tif"/>
+      <graphic url="MS_HEB_c_17_34a.tif"/>
+      <graphic url="MS_HEB_c_17_34b.tif"/>
+      <graphic url="MS_HEB_c_17_35a.tif"/>
+      <graphic url="MS_HEB_c_17_35b.tif"/>
+      <graphic url="MS_HEB_c_17_36a.tif"/>
+      <graphic url="MS_HEB_c_17_36b.tif"/>
+      <graphic url="MS_HEB_c_17_37a.tif"/>
+      <graphic url="MS_HEB_c_17_37b.tif"/>
+      <graphic url="MS_HEB_c_17_38a.tif"/>
+      <graphic url="MS_HEB_c_17_38b.tif"/>
+      <graphic url="MS_HEB_c_17_39a.tif"/>
+      <graphic url="MS_HEB_c_17_39b.tif"/>
+      <graphic url="MS_HEB_c_17_40a.tif"/>
+      <graphic url="MS_HEB_c_17_40b.tif"/>
+      <graphic url="MS_HEB_c_17_41a.tif"/>
+      <graphic url="MS_HEB_c_17_41b.tif"/>
+      <graphic url="MS_HEB_c_17_42a.tif"/>
+      <graphic url="MS_HEB_c_17_42b.tif"/>
+      <graphic url="MS_HEB_c_17_43a.tif"/>
+      <graphic url="MS_HEB_c_17_43b.tif"/>
+      <graphic url="MS_HEB_c_17_44a.tif"/>
+      <graphic url="MS_HEB_c_17_44b.tif"/>
+      <graphic url="MS_HEB_c_17_45a.tif"/>
+      <graphic url="MS_HEB_c_17_45b.tif"/>
+      <graphic url="MS_HEB_c_17_46a.tif"/>
+      <graphic url="MS_HEB_c_17_46b.tif"/>
+      <graphic url="MS_HEB_c_17_47a.tif"/>
+      <graphic url="MS_HEB_c_17_47b.tif"/>
+      <graphic url="MS_HEB_c_17_48a.tif"/>
+      <graphic url="MS_HEB_c_17_48b.tif"/>
+      <graphic url="MS_HEB_c_17_49a.tif"/>
+      <graphic url="MS_HEB_c_17_49b.tif"/>
+      <graphic url="MS_HEB_c_17_50a.tif"/>
+      <graphic url="MS_HEB_c_17_50b.tif"/>
+      <graphic url="MS_HEB_c_17_51a.tif"/>
+      <graphic url="MS_HEB_c_17_51b.tif"/>
+      <graphic url="MS_HEB_c_17_52a.tif"/>
+      <graphic url="MS_HEB_c_17_52b.tif"/>
+      <graphic url="MS_HEB_c_17_53a.tif"/>
+      <graphic url="MS_HEB_c_17_53b.tif"/>
+      <graphic url="MS_HEB_c_17_54a.tif"/>
+      <graphic url="MS_HEB_c_17_54b.tif"/>
+      <graphic url="MS_HEB_c_17_55a.tif"/>
+      <graphic url="MS_HEB_c_17_55b.tif"/>
+      <graphic url="MS_HEB_c_17_56a.tif"/>
+      <graphic url="MS_HEB_c_17_56b.tif"/>
+      <graphic url="MS_HEB_c_17_57a.tif"/>
+      <graphic url="MS_HEB_c_17_57b.tif"/>
+      <graphic url="MS_HEB_c_17_58a.tif"/>
+      <graphic url="MS_HEB_c_17_58b.tif"/>
+      <graphic url="MS_HEB_c_17_59a.tif"/>
+      <graphic url="MS_HEB_c_17_59b.tif"/>
+      <graphic url="MS_HEB_c_17_60a.tif"/>
+      <graphic url="MS_HEB_c_17_60b.tif"/>
+      <graphic url="MS_HEB_c_17_61a.tif"/>
+      <graphic url="MS_HEB_c_17_61b.tif"/>
+      <graphic url="MS_HEB_c_17_62a.tif"/>
+      <graphic url="MS_HEB_c_17_62b.tif"/>
+      <graphic url="MS_HEB_c_17_63a.tif"/>
+      <graphic url="MS_HEB_c_17_63b.tif"/>
+      <graphic url="MS_HEB_c_17_64a.tif"/>
+      <graphic url="MS_HEB_c_17_64b.tif"/>
+      <graphic url="MS_HEB_c_17_65a.tif"/>
+      <graphic url="MS_HEB_c_17_65b.tif"/>
+      <graphic url="MS_HEB_c_17_66a.tif"/>
+      <graphic url="MS_HEB_c_17_66b.tif"/>
+      <graphic url="MS_HEB_c_17_67a.tif"/>
+      <graphic url="MS_HEB_c_17_67b.tif"/>
+      <graphic url="MS_HEB_c_17_68a.tif"/>
+      <graphic url="MS_HEB_c_17_68b.tif"/>
+      <graphic url="MS_HEB_c_17_69a.tif"/>
+      <graphic url="MS_HEB_c_17_69b.tif"/>
+      <graphic url="MS_HEB_c_17_70a.tif"/>
+      <graphic url="MS_HEB_c_17_70b.tif"/>
+      <graphic url="MS_HEB_c_17_71a.tif"/>
+      <graphic url="MS_HEB_c_17_71b.tif"/>
+      <graphic url="MS_HEB_c_17_72a.tif"/>
+      <graphic url="MS_HEB_c_17_72b.tif"/>
+      <graphic url="MS_HEB_c_17_73a.tif"/>
+      <graphic url="MS_HEB_c_17_73b.tif"/>
+      <graphic url="MS_HEB_c_17_74a.tif"/>
+      <graphic url="MS_HEB_c_17_74b.tif"/>
+      <graphic url="MS_HEB_c_17_75a.tif"/>
+      <graphic url="MS_HEB_c_17_75b.tif"/>
+      <graphic url="MS_HEB_c_17_76a.tif"/>
+      <graphic url="MS_HEB_c_17_76b.tif"/>
+      <graphic url="MS_HEB_c_17_77a.tif"/>
+      <graphic url="MS_HEB_c_17_77b.tif"/>
+      <graphic url="MS_HEB_c_17_78a.tif"/>
+      <graphic url="MS_HEB_c_17_78b.tif"/>
+      <graphic url="MS_HEB_c_17_79a.tif"/>
+      <graphic url="MS_HEB_c_17_79b.tif"/>
+      <graphic url="MS_HEB_c_17_80a.tif"/>
+      <graphic url="MS_HEB_c_17_80b.tif"/>
+      <graphic url="MS_HEB_c_17_81a.tif"/>
+      <graphic url="MS_HEB_c_17_81b.tif"/>
+      <graphic url="MS_HEB_c_17_82a.tif"/>
+      <graphic url="MS_HEB_c_17_82b.tif"/>
+      <graphic url="MS_HEB_c_17_83a.tif"/>
+      <graphic url="MS_HEB_c_17_83b.tif"/>
+      <graphic url="MS_HEB_c_17_84a.tif"/>
+      <graphic url="MS_HEB_c_17_84b.tif"/>
+      <graphic url="MS_HEB_c_17_85a.tif"/>
+      <graphic url="MS_HEB_c_17_85b.tif"/>
+      <graphic url="MS_HEB_c_17_86a.tif"/>
+      <graphic url="MS_HEB_c_17_86b.tif"/>
+      <graphic url="MS_HEB_c_17_87a.tif"/>
+      <graphic url="MS_HEB_c_17_87b.tif"/>
+      <graphic url="MS_HEB_c_17_88a.tif"/>
+      <graphic url="MS_HEB_c_17_88b.tif"/>
+      <graphic url="MS_HEB_c_17_89a.tif"/>
+      <graphic url="MS_HEB_c_17_89b.tif"/>
+      <graphic url="MS_HEB_c_17_90a.tif"/>
+      <graphic url="MS_HEB_c_17_90b.tif"/>
+      <graphic url="MS_HEB_c_17_91a.tif"/>
+      <graphic url="MS_HEB_c_17_91b.tif"/>
+      <graphic url="MS_HEB_c_17_92a.tif"/>
+      <graphic url="MS_HEB_c_17_92b.tif"/>
+      <graphic url="MS_HEB_c_17_93a.tif"/>
+      <graphic url="MS_HEB_c_17_93b.tif"/>
+      <graphic url="MS_HEB_c_17_94a.tif"/>
+      <graphic url="MS_HEB_c_17_94b.tif"/>
+      <graphic url="MS_HEB_c_17_95a.tif"/>
+      <graphic url="MS_HEB_c_17_95b.tif"/>
+      <graphic url="MS_HEB_c_17_96a.tif"/>
+      <graphic url="MS_HEB_c_17_96b.tif"/>
+      <graphic url="MS_HEB_c_17_97a.tif"/>
+      <graphic url="MS_HEB_c_17_97b.tif"/>
+      <graphic url="MS_HEB_c_17_98a.tif"/>
+      <graphic url="MS_HEB_c_17_98b.tif"/>
+      <graphic url="MS_HEB_c_17_99a.tif"/>
+      <graphic url="MS_HEB_c_17_99b.tif"/>
+      <graphic url="MS_HEB_c_17_100a.tif"/>
+      <graphic url="MS_HEB_c_17_100b.tif"/>
+      <graphic url="MS_HEB_c_17_101a.tif"/>
+      <graphic url="MS_HEB_c_17_101b.tif"/>
+      <graphic url="MS_HEB_c_17_102a.tif"/>
+      <graphic url="MS_HEB_c_17_102b.tif"/>
+      <graphic url="MS_HEB_c_17_103a.tif"/>
+      <graphic url="MS_HEB_c_17_103b.tif"/>
+      <graphic url="MS_HEB_c_17_104a.tif"/>
+      <graphic url="MS_HEB_c_17_104b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

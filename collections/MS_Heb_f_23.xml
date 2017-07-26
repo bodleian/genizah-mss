@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_180">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. f. 23</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_f_23</idno>
+            <idno type="msID">MS_Heb_f_23</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_f_23" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. f. 23</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 57.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p011a.jpg">No. 2609</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_f_23-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 23/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_23-part1-item1">
+                        <locus from="1a" to="17b"/>
+                        <title>Genesis xxx. 26 (אתה) to xxxii. 3</title>
+                        <note>at end נשלמה, followed by the Haftarah (Hosea xi. 8 to xii. 14), and Psalms xix to xxi, incomplete, with vowel points (not always correct, dagesh always omitted).</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_23-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 23/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_23-part2-item1">
+                        <locus from="18a" to="33b">Fol. 18</locus>
+                        <title>Exodus i. 20 (אלהים) to viii. 11 (והכבד)</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_23-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 23/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_23-part3-item1">
+                        <locus from="34a" to="43b">Fol. 34</locus>
+                        <title>Exodus viii. 27 (מפרעה) to ix. 25 (ויך)</title>
+                        <note>with vowel points (dagesh sometimes omitted, pathah for segol), accents, and the two Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; small 8vo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_23-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 23/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_23-part4-item1">
+                        <locus from="44a" to="49b">Fol. 44</locus>
+                        <title>Deuteronomy i. 18 (בעת) to iii. 12 (הזאת)</title>
+                        <note>with vowel points (pathah for segol), accents, and קרי.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_23-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 23/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_23-part5-item1">
+                        <locus from="50a" to="55b">Fol. 50</locus>
+                        <title>Psalms</title>
+                        <note>cvii. 18 to cviii. 5; cx. 2 to cxiii. 1 ; cxvi. 13 to cxviii. 27 of the usual texts; cviii is in the MS. xcix, cxi is cii, without vowel points.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. small squ. char.; oblong 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_23-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 23/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_23-part6-item1">
+                        <locus from="56a" to="57b">Fol. 56</locus>
+                        <title>Ecclesiastes ii. 1 (גם) to 23 (מכאבים)</title>
+                        <note>with vowel points and accents.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 8vo,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Biblical fragments</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_f_23_01">Bible. Genesis.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_23_01">Bible. Psalms.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_23_01">Bible. Haftaroth.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_23_02">Bible. Exodus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_23_03">Bible. Exodus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_23_04">Bible. Deuteronomy.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_23_05">Bible. Psalms.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_23_06">Bible. Ecclesiastes.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2010-07-08">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_f_23_1a.tif"/>
+      <graphic url="MS_HEB_f_23_1b.tif"/>
+      <graphic url="MS_HEB_f_23_2a.tif"/>
+      <graphic url="MS_HEB_f_23_2b.tif"/>
+      <graphic url="MS_HEB_f_23_3a.tif"/>
+      <graphic url="MS_HEB_f_23_3b.tif"/>
+      <graphic url="MS_HEB_f_23_4a.tif"/>
+      <graphic url="MS_HEB_f_23_4b.tif"/>
+      <graphic url="MS_HEB_f_23_5a.tif"/>
+      <graphic url="MS_HEB_f_23_5b.tif"/>
+      <graphic url="MS_HEB_f_23_6a.tif"/>
+      <graphic url="MS_HEB_f_23_6b.tif"/>
+      <graphic url="MS_HEB_f_23_7a.tif"/>
+      <graphic url="MS_HEB_f_23_7b.tif"/>
+      <graphic url="MS_HEB_f_23_8a.tif"/>
+      <graphic url="MS_HEB_f_23_8b.tif"/>
+      <graphic url="MS_HEB_f_23_9a.tif"/>
+      <graphic url="MS_HEB_f_23_9b.tif"/>
+      <graphic url="MS_HEB_f_23_10a.tif"/>
+      <graphic url="MS_HEB_f_23_10b.tif"/>
+      <graphic url="MS_HEB_f_23_11a.tif"/>
+      <graphic url="MS_HEB_f_23_11b.tif"/>
+      <graphic url="MS_HEB_f_23_12a.tif"/>
+      <graphic url="MS_HEB_f_23_12b.tif"/>
+      <graphic url="MS_HEB_f_23_13a.tif"/>
+      <graphic url="MS_HEB_f_23_13b.tif"/>
+      <graphic url="MS_HEB_f_23_14a.tif"/>
+      <graphic url="MS_HEB_f_23_14b.tif"/>
+      <graphic url="MS_HEB_f_23_15a.tif"/>
+      <graphic url="MS_HEB_f_23_15b.tif"/>
+      <graphic url="MS_HEB_f_23_16a.tif"/>
+      <graphic url="MS_HEB_f_23_16b.tif"/>
+      <graphic url="MS_HEB_f_23_17a.tif"/>
+      <graphic url="MS_HEB_f_23_17b.tif"/>
+      <graphic url="MS_HEB_f_23_18a.tif"/>
+      <graphic url="MS_HEB_f_23_18b.tif"/>
+      <graphic url="MS_HEB_f_23_19a.tif"/>
+      <graphic url="MS_HEB_f_23_19b.tif"/>
+      <graphic url="MS_HEB_f_23_20a.tif"/>
+      <graphic url="MS_HEB_f_23_20b.tif"/>
+      <graphic url="MS_HEB_f_23_21a.tif"/>
+      <graphic url="MS_HEB_f_23_21b.tif"/>
+      <graphic url="MS_HEB_f_23_22a.tif"/>
+      <graphic url="MS_HEB_f_23_22b.tif"/>
+      <graphic url="MS_HEB_f_23_23a.tif"/>
+      <graphic url="MS_HEB_f_23_23b.tif"/>
+      <graphic url="MS_HEB_f_23_24a.tif"/>
+      <graphic url="MS_HEB_f_23_24b.tif"/>
+      <graphic url="MS_HEB_f_23_25a.tif"/>
+      <graphic url="MS_HEB_f_23_25b.tif"/>
+      <graphic url="MS_HEB_f_23_26a.tif"/>
+      <graphic url="MS_HEB_f_23_26b.tif"/>
+      <graphic url="MS_HEB_f_23_27a.tif"/>
+      <graphic url="MS_HEB_f_23_27b.tif"/>
+      <graphic url="MS_HEB_f_23_28a.tif"/>
+      <graphic url="MS_HEB_f_23_28b.tif"/>
+      <graphic url="MS_HEB_f_23_29a.tif"/>
+      <graphic url="MS_HEB_f_23_29b.tif"/>
+      <graphic url="MS_HEB_f_23_30a.tif"/>
+      <graphic url="MS_HEB_f_23_30b.tif"/>
+      <graphic url="MS_HEB_f_23_31a.tif"/>
+      <graphic url="MS_HEB_f_23_31b.tif"/>
+      <graphic url="MS_HEB_f_23_32a.tif"/>
+      <graphic url="MS_HEB_f_23_32b.tif"/>
+      <graphic url="MS_HEB_f_23_33a.tif"/>
+      <graphic url="MS_HEB_f_23_33b.tif"/>
+      <graphic url="MS_HEB_f_23_34a.tif"/>
+      <graphic url="MS_HEB_f_23_34b.tif"/>
+      <graphic url="MS_HEB_f_23_35a.tif"/>
+      <graphic url="MS_HEB_f_23_35b.tif"/>
+      <graphic url="MS_HEB_f_23_36a.tif"/>
+      <graphic url="MS_HEB_f_23_36b.tif"/>
+      <graphic url="MS_HEB_f_23_37a.tif"/>
+      <graphic url="MS_HEB_f_23_37b.tif"/>
+      <graphic url="MS_HEB_f_23_38a.tif"/>
+      <graphic url="MS_HEB_f_23_38b.tif"/>
+      <graphic url="MS_HEB_f_23_39a.tif"/>
+      <graphic url="MS_HEB_f_23_39b.tif"/>
+      <graphic url="MS_HEB_f_23_40a.tif"/>
+      <graphic url="MS_HEB_f_23_40b.tif"/>
+      <graphic url="MS_HEB_f_23_41a.tif"/>
+      <graphic url="MS_HEB_f_23_41b.tif"/>
+      <graphic url="MS_HEB_f_23_42a.tif"/>
+      <graphic url="MS_HEB_f_23_42b.tif"/>
+      <graphic url="MS_HEB_f_23_43a.tif"/>
+      <graphic url="MS_HEB_f_23_43b.tif"/>
+      <graphic url="MS_HEB_f_23_44a.tif"/>
+      <graphic url="MS_HEB_f_23_44b.tif"/>
+      <graphic url="MS_HEB_f_23_45a.tif"/>
+      <graphic url="MS_HEB_f_23_45b.tif"/>
+      <graphic url="MS_HEB_f_23_46a.tif"/>
+      <graphic url="MS_HEB_f_23_46b.tif"/>
+      <graphic url="MS_HEB_f_23_47a.tif"/>
+      <graphic url="MS_HEB_f_23_47b.tif"/>
+      <graphic url="MS_HEB_f_23_48a.tif"/>
+      <graphic url="MS_HEB_f_23_48b.tif"/>
+      <graphic url="MS_HEB_f_23_49a.tif"/>
+      <graphic url="MS_HEB_f_23_49b.tif"/>
+      <graphic url="MS_HEB_f_23_50a.tif"/>
+      <graphic url="MS_HEB_f_23_50b.tif"/>
+      <graphic url="MS_HEB_f_23_51a.tif"/>
+      <graphic url="MS_HEB_f_23_51b.tif"/>
+      <graphic url="MS_HEB_f_23_52a.tif"/>
+      <graphic url="MS_HEB_f_23_52b.tif"/>
+      <graphic url="MS_HEB_f_23_53a.tif"/>
+      <graphic url="MS_HEB_f_23_53b.tif"/>
+      <graphic url="MS_HEB_f_23_54a.tif"/>
+      <graphic url="MS_HEB_f_23_54b.tif"/>
+      <graphic url="MS_HEB_f_23_55a.tif"/>
+      <graphic url="MS_HEB_f_23_55b.tif"/>
+      <graphic url="MS_HEB_f_23_56a.tif"/>
+      <graphic url="MS_HEB_f_23_56b.tif"/>
+      <graphic url="MS_HEB_f_23_57a.tif"/>
+      <graphic url="MS_HEB_f_23_57b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

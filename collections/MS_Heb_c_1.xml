@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_21">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. c. 1</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_c_1</idno>
+            <idno type="msID">MS_Heb_c_1</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_c_1" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. c. 1</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 34.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p009b.jpg Catalogue-1_p010a.jpg">No. 2605</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_c_1-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part1-item1">
+                        <locus from="1a" to="2b"/>
+                        <title>Genesis with Targum</title>
+                        <msItem xml:id="MS_Heb_c_1-part1-item1-item1" n="a">
+                           <p>(<locus from="1a" to="1b">fol. 1</locus>) Genesis i. 26 (ובעוף) to ii. 16</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_1-part1-item1-item2" n="b">
+                           <p>(<locus from="2a" to="2b">fol. 2</locus>) Genesis iv. 9 (יהוה) to v. 2 (את)</p>
+                        </msItem>
+                        <note>Without vowel points, each verse is followed by the Targum.</note>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 2 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part2-item1">
+                        <locus from="3a" to="3b">Fol. 3</locus>
+                        <title>Genesis</title>
+                        <note>xxiv. 37 (אנכי) to xxvi, 4 (הארצות), with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Greek squ. char.; 2 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part3-item1">
+                        <locus from="4a" to="4b">Fol. 4</locus>
+                        <title>Genesis</title>
+                        <note>xxxi. 37 (את) to xxxii. 9, with vowel points, accents, and Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Large Span. squ. char.; 3 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part4-item1">
+                        <locus from="5a" to="5b">Fol. 5</locus>
+                        <title>Exodus</title>
+                        <note>ii. 2 (האשה) to iii. 4 (אליו), with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 2 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part5-item1">
+                        <locus from="6a" to="6b">Fol. 6</locus>
+                        <title>Exodus</title>
+                        <note>xv. 19 to xviii. 6 (אליך), with vowel points, accents, and some Masoretic notes.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part6-item1">
+                        <locus from="7a" to="7b">Fol. 7</locus>
+                        <title>Deuteronomy with Targum</title>
+                        <note>Deuteronomy v. 21 (ידבר) to vi. 14 (אחרי), each verse is followed by the Targum, without vowel points.</note>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; small fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part7" n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part7-item1">
+                        <locus from="8a" to="9b">Fol. 8</locus>
+                        <title>Deuteronomy with Targum</title>
+                        <note>Deuteronomy xxxiii. 20 (זרוע) to the end of the book, each verse is followed by the Targum, without vowel points.</note>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 2 coll., small fol.,<material>vellum</material>, slightly injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part8-item1">
+                        <locus from="10a" to="11b">Fol. 10</locus>
+                        <title>1 Samuel</title>
+                        <note>xxv. 17 (אליו) to xxvi. 23 (אמנתו), with vowel points, accents, and the lesser Masorah.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 4to,<material>vellum</material>, slightly injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part9-item1">
+                        <locus from="12a" to="15b">Fol. 12</locus>
+                        <title>2 Samuel</title>
+                        <note>ix. 11 (כאחד) to xiii. 25 (ויפרץ), with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; 3 coll., fol.,<material>vellum</material>,<locus from="14a" to="14b">fol. 14</locus>injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part10-item1">
+                        <locus from="16a" to="16b">Fol. 16</locus>
+                        <title>1 Kings</title>
+                        <note>xvi. 32 (בשמרון) to xvii. 14, with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Large Syr. squ. char.; 3 coll., large fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part11" n="11">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part11-item1">
+                        <locus from="17a" to="17b">Fol. 17</locus>
+                        <title>Isaiah</title>
+                        <note>vii. 21 to x. 13 (כי אמר), with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Greek squ. char.; 3 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part12" n="12">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part12-item1">
+                        <locus from="18a" to="18b">Fol. 18</locus>
+                        <title>Isaiah</title>
+                        <note>xxxiv. 6 (כרים) to xxxvi. 12 (הישבים), with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 3 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part13" n="13">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part13-item1">
+                        <locus from="19a" to="26b"/>
+                        <title>Biblical text and Targum</title>
+                        <note>Each verse followed by the Targum</note>
+                        <msItem xml:id="MS_Heb_c_1-part13-item1-item1" n="a">
+                           <p>(<locus from="19a" to="24b">fol. 19</locus>)<title>Jeremiah xx. 15 (שמח) to xxvi. 7 (והנביאים)</title>
+                           </p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_1-part13-item1-item2" n="b">
+                           <p>(<locus from="25a" to="25b">fol. 25</locus>)<title>Ezekiel: Targum of xxxi. 8 to xxxii. 14 (אוליך)</title>
+                           </p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_1-part13-item1-item3" n="c">
+                           <p>(<locus from="26a" to="26b">fol. 26</locus>)<title>Ezekiel xl. 48 (וחמש אמות מפה) to Targum of xlii. 1</title>
+                           </p>
+                        </msItem>
+                        <note>With superlinear punctuation. See<ref target="MS_Heb_b_4_12">No. 12 of b. 4</ref>.</note>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Yemen Rabb. char.; small fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part14" n="14">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part14-item1">
+                        <locus from="27a" to="27b">Fol. 27</locus>
+                        <title>Jeremiah</title>
+                        <note>xxiv. 1 (ויביאם) to xxv. 10 (קול שמחה), with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>, slightly obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part15" n="15">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/15</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part15-item1">
+                        <locus from="28a" to="29b">Fol. 28</locus>
+                        <title>Proverbs</title>
+                        <note>ix. 14 (על כסא) to xiv. 19, with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Span. squ. char.; fol.,<material>vellum</material>, obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part16" n="16">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/16</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part16-item1">
+                        <locus from="30a" to="30b">Fol. 30</locus>
+                        <title>Job</title>
+                        <note>xxxvi. 26 (ולא חקר) to xxxviii. 34, with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Greek squ. char.; 2 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part17" n="17">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part17-item1">
+                        <locus from="31a" to="32b"/>
+                        <title>2 Chronicles</title>
+                        <msItem xml:id="MS_Heb_c_1-part17-item1-item1" n="a">
+                           <p>(<locus from="31a" to="31b">fol. 31</locus>) xxiv. 7 to 22 (וכמותו)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_1-part17-item1-item2" n="b">
+                           <p>(<locus from="32a" to="32b">fol. 32</locus>) xxv. 24 (בית) to xxvi. 14 (וכובעים)</p>
+                        </msItem>
+                        <note>With vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. squ. char.; 2 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_c_1-part18" n="18">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. c. 1/18</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_c_1-part18-item1">
+                        <locus from="33a" to="34b"/>
+                        <title>2 Chronicles</title>
+                        <msItem xml:id="MS_Heb_c_1-part18-item1-item1" n="a">
+                           <p>(<locus from="33a" to="33b">fol. 33</locus>) xxix. 21 (שבעה וצפירי) to xxx. 11 (נכנעו)</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_c_1-part18-item1-item2" n="b">
+                           <p>(<locus from="34a" to="34b">fol. 34</locus>) xxxii. 16 (עבדו) to xxxiii. 11 (למלך)</p>
+                        </msItem>
+                        <note>Each page bears the words<quote>קדש ליהוה</quote>, with vowel points, accents, and both Masorahs.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Squ. char.; 3 coll., fol.,<material>vellum</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Biblical fragments</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_c_1_01">Bible. Genesis.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_01">Targum. Onqelos: Genesis.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_02">Bible. Genesis.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_03">Bible. Genesis.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_04">Bible. Exodus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_05">Bible. Exodus.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_06">Bible. Deuteronomy.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_06">Targum. Onqelos: Deuteronomy.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_07">Bible. Deuteronomy.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_07">Targum. Onqelos: Deuteronomy.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_08">Bible. Samuel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_09">Bible. Samuel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_10">Bible. Kings.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_11">Bible. Isaiah.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_12">Bible. Isaiah.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_13">Bible. Jeremiah.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_13">Bible. Ezekiel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_13">Targum. Jeremiah.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_13">Targum. Ezekiel.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_14">Bible. Jeremiah.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_15">Bible. Proverbs.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_16">Bible. Job.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_17">Bible. Chronicles.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_c_1_18">Bible. Chronicles.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2010-02-19">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_c_1_1a.tif"/>
+      <graphic url="MS_HEB_c_1_1b.tif"/>
+      <graphic url="MS_HEB_c_1_2a.tif"/>
+      <graphic url="MS_HEB_c_1_2b.tif"/>
+      <graphic url="MS_HEB_c_1_3a.tif"/>
+      <graphic url="MS_HEB_c_1_3b.tif"/>
+      <graphic url="MS_HEB_c_1_4a.tif"/>
+      <graphic url="MS_HEB_c_1_4b.tif"/>
+      <graphic url="MS_HEB_c_1_5a.tif"/>
+      <graphic url="MS_HEB_c_1_5b.tif"/>
+      <graphic url="MS_HEB_c_1_6a.tif"/>
+      <graphic url="MS_HEB_c_1_6b.tif"/>
+      <graphic url="MS_HEB_c_1_7a.tif"/>
+      <graphic url="MS_HEB_c_1_7b.tif"/>
+      <graphic url="MS_HEB_c_1_8a.tif"/>
+      <graphic url="MS_HEB_c_1_8b.tif"/>
+      <graphic url="MS_HEB_c_1_9a.tif"/>
+      <graphic url="MS_HEB_c_1_9b.tif"/>
+      <graphic url="MS_HEB_c_1_10a.tif"/>
+      <graphic url="MS_HEB_c_1_10b.tif"/>
+      <graphic url="MS_HEB_c_1_11a.tif"/>
+      <graphic url="MS_HEB_c_1_11b.tif"/>
+      <graphic url="MS_HEB_c_1_12a.tif"/>
+      <graphic url="MS_HEB_c_1_12b.tif"/>
+      <graphic url="MS_HEB_c_1_13a.tif"/>
+      <graphic url="MS_HEB_c_1_13b.tif"/>
+      <graphic url="MS_HEB_c_1_14a.tif"/>
+      <graphic url="MS_HEB_c_1_14b.tif"/>
+      <graphic url="MS_HEB_c_1_15a.tif"/>
+      <graphic url="MS_HEB_c_1_15b.tif"/>
+      <graphic url="MS_HEB_c_1_16a.tif"/>
+      <graphic url="MS_HEB_c_1_16b.tif"/>
+      <graphic url="MS_HEB_c_1_17a.tif"/>
+      <graphic url="MS_HEB_c_1_17b.tif"/>
+      <graphic url="MS_HEB_c_1_18a.tif"/>
+      <graphic url="MS_HEB_c_1_18b.tif"/>
+      <graphic url="MS_HEB_c_1_19a.tif"/>
+      <graphic url="MS_HEB_c_1_19b.tif"/>
+      <graphic url="MS_HEB_c_1_20a.tif"/>
+      <graphic url="MS_HEB_c_1_20b.tif"/>
+      <graphic url="MS_HEB_c_1_21a.tif"/>
+      <graphic url="MS_HEB_c_1_21b.tif"/>
+      <graphic url="MS_HEB_c_1_22a.tif"/>
+      <graphic url="MS_HEB_c_1_22b.tif"/>
+      <graphic url="MS_HEB_c_1_23a.tif"/>
+      <graphic url="MS_HEB_c_1_23b.tif"/>
+      <graphic url="MS_HEB_c_1_24a.tif"/>
+      <graphic url="MS_HEB_c_1_24b.tif"/>
+      <graphic url="MS_HEB_c_1_25a.tif"/>
+      <graphic url="MS_HEB_c_1_25b.tif"/>
+      <graphic url="MS_HEB_c_1_26a.tif"/>
+      <graphic url="MS_HEB_c_1_26b.tif"/>
+      <graphic url="MS_HEB_c_1_27a.tif"/>
+      <graphic url="MS_HEB_c_1_27b.tif"/>
+      <graphic url="MS_HEB_c_1_28a.tif"/>
+      <graphic url="MS_HEB_c_1_28b.tif"/>
+      <graphic url="MS_HEB_c_1_29a.tif"/>
+      <graphic url="MS_HEB_c_1_29b.tif"/>
+      <graphic url="MS_HEB_c_1_30a.tif"/>
+      <graphic url="MS_HEB_c_1_30b.tif"/>
+      <graphic url="MS_HEB_c_1_31a.tif"/>
+      <graphic url="MS_HEB_c_1_31b.tif"/>
+      <graphic url="MS_HEB_c_1_32a.tif"/>
+      <graphic url="MS_HEB_c_1_32b.tif"/>
+      <graphic url="MS_HEB_c_1_33a.tif"/>
+      <graphic url="MS_HEB_c_1_33b.tif"/>
+      <graphic url="MS_HEB_c_1_34a.tif"/>
+      <graphic url="MS_HEB_c_1_34b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

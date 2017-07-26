@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_50">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. d. 23</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_d_23</idno>
+            <idno type="msID">MS_Heb_d_23</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_d_23" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. d. 23</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="MS_Heb_d_23-item1">
+                     <locus from="1a" to="11b">Fol. 1-11</locus>
+                     <title>Fragment of<persName>Abraham ben Maimon</persName>’s כפאיה אלעאבדין</title>
+                     <note>beg. of a chapter (<locus from="1b">fol. 1b</locus>)<quote type="beg">מן קואעד אלשריעה אלתי לא ישך פיהא שיא מן כרג ענהא אן הדה אלתורה ...</quote>, headed<quote type="head">פצל פי אגא... רא תנסך</quote>(not contained in<ref>Nos. 1274 to 1276</ref>).</note>
+                     <textLang mainLang="jrb"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Syr. Rabb. char.; fol. ,<material>paper</material>, much injured and obliterated.</p>
+                  <p>Ff. 11.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p051b.jpg">No. 2752</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Theology</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_d_23">
+                     <persName type="aut">Abraham b. Moses b. Maimon</persName>. כפאיה אלעאבדין.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2011-03-17">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_d_23_1a.tif"/>
+      <graphic url="MS_HEB_d_23_1b.tif"/>
+      <graphic url="MS_HEB_d_23_2a.tif"/>
+      <graphic url="MS_HEB_d_23_2b.tif"/>
+      <graphic url="MS_HEB_d_23_3a.tif"/>
+      <graphic url="MS_HEB_d_23_3b.tif"/>
+      <graphic url="MS_HEB_d_23_4a.tif"/>
+      <graphic url="MS_HEB_d_23_4b.tif"/>
+      <graphic url="MS_HEB_d_23_5a.tif"/>
+      <graphic url="MS_HEB_d_23_5b.tif"/>
+      <graphic url="MS_HEB_d_23_6a.tif"/>
+      <graphic url="MS_HEB_d_23_6b.tif"/>
+      <graphic url="MS_HEB_d_23_7a.tif"/>
+      <graphic url="MS_HEB_d_23_7b.tif"/>
+      <graphic url="MS_HEB_d_23_8a.tif"/>
+      <graphic url="MS_HEB_d_23_8b.tif"/>
+      <graphic url="MS_HEB_d_23_9a.tif"/>
+      <graphic url="MS_HEB_d_23_9b.tif"/>
+      <graphic url="MS_HEB_d_23_10a.tif"/>
+      <graphic url="MS_HEB_d_23_10b.tif"/>
+      <graphic url="MS_HEB_d_23_11a.tif"/>
+      <graphic url="MS_HEB_d_23_11b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_210">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital description of MS. Heb. f. 61</title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>oriental@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>MS_Heb_f_61</idno>
+            <idno type="msID">MS_Heb_f_61</idno>
+            <idno type="catalogue">Genizah</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Heb_f_61" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno>MS. Heb. f. 61</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ff. 53.</p>
+               </physDesc>
+               <history>
+                  <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p092b.jpg Catalogue-1_p093a.jpg">No. 2855</ref>.</source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart xml:id="MS_Heb_f_61-part1" n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part1-item1">
+                        <locus from="1a" to="19b">Fols. 1-19</locus>
+                        <title>Liturgical pieces for גשם</title>
+                        <note>Partly with vowel points.</note>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item1" n="a">
+                           <p>(<locus from="1a">fol. 1</locus>) end of א̇ב̇, ending<quote type="end">תֿענני עדי אפרים. בשפכי שיחות צהרים</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item2" n="b">
+                           <p>(<locus from="1a">ibid.</locus>)<quote type="beg">אקשטה כסל וקרב</quote>, four א̇ב̇, Zunz, p. 229, no. 83;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item3" n="c">
+                           <p>(<locus from="5a">fol. 5</locus>) headed<quote type="head">גוף</quote>, beg.<quote type="beg">תיכנס לארץ וחוצות</quote>, ת̇ש̇ר̇ק̇;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item4" n="d">
+                           <p>(<locus from="7a">fol. 7</locus>)<quote type="beg">יפתח ארץ לישע</quote>, Zunz, p. 60, no. 33;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item5" n="e">
+                           <p>(<locus from="11b">fol. 11b</locus>)<quote type="beg">הטל יופטר ... אֿויילו שני אחים בֿתוכחות</quote>, א̇ב̇;</p>
+                           <p>on the margin<quote type="head">פ̇ז̇ אחר</quote>, beg.<quote type="beg">יורה ומטר ומלקוש</quote>, acr.<quote type="acr">יושׂף לווי</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item6" n="f">
+                           <p>(<locus from="12b">fol. 12b</locus>) headed<quote type="head">אחר</quote>, beg.<quote type="beg">תרעיף שמים ממעל</quote>, ת̇ש̇ר̇ק̇ to ל;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item7" n="g">
+                           <p>(<locus from="13a">fol. 13</locus>)<quote type="beg">מים ניסכה ... גשם אֿוצרך תרוה</quote>, א̇ב̇ to ט;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item8" n="h">
+                           <p>(<locus from="13b">fol. 13b</locus>) headed<quote type="head">אחר</quote>, beg.<quote type="beg">אדון משמיך ... אֿזור נא גבורות</quote>, א̇ב̇;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item9" n="i">
+                           <p>(<locus from="15a">fol. 15</locus>) headed ל̇, beg.<quote type="beg">מזכירים גשמים ... גשם אוצרות שפרה</quote>, א̇ב̇ to ט, and acr.<quote type="acr">מבורך</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item10" n="k">
+                           <p>(<locus from="15b">fol. 15b</locus>) headed<quote type="head">אלהינו ואלהי אבותינו וגֿ</quote>, beg.<quote type="beg">היום אֿוצרות גשמים</quote>, א̇ב̇;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item11" n="l">
+                           <p>(<locus from="16b">fol. 16b</locus>)<quote type="beg">אֿמץ בֿנים בגשם</quote>, א̇ב̇;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item12" n="m">
+                           <p>(<locus from="17b">fol. 17b</locus>)<quote type="beg">עב ענני גישומים</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item13" n="n">
+                           <p>(<locus from="18a">fol. 18</locus>)<quote type="beg">יטריח עבי מזורו</quote>, acr.<quote type="acr">יוסף</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part1-item1-item14" n="o">
+                           <p>(<locus from="19a">fol. 19</locus>)<quote type="beg">איום זכור נא לשואלי מים</quote>, א̇ב̇ to ע.</p>
+                           <p>
+                              <locus from="19b">Fol. 19b</locus>blank.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 12mo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part2" n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/2</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part2-item1">
+                        <locus from="20a" to="37b">Fols. 20-37</locus>
+                        <title>Midrash תנחומא on בהעלותך; Rashi’s commentary on Zechariah ii. 14 to iv. 6</title>
+                        <msItem xml:id="MS_Heb_f_61-part2-item1-item1" n="a">
+                           <p>(<locus from="20a">fol. 20</locus>) Midrash תנחומא on בהעלותך, as in ed. Buber, p. כו, line 5 (הלוים לקיים) to the end of the parashah; there is a lacuna of one leaf between ff. 29 and 30;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part2-item1-item2" n="b">
+                           <p>(<locus from="36a">fol. 36</locus>) Rashi’s commentary on Zechariah ii. 14 to iv. 6 (the Haftarah to בהעלותך), headed<quote type="head">פירו̇ ההפטרה לרבי̇ שלמה ז̇צ̇ל̇</quote>, beg.<quote type="beg">רני ושמחי. ונלוו. ונתחברו.</quote>, incomplete.</p>
+                        </msItem>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char. (two hands); 16mo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part3" n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part3-item1">
+                        <locus from="38a" to="38b">Fol. 38</locus>
+                        <title>Mystical treatise on letters and numbers; charm</title>
+                        <msItem xml:id="MS_Heb_f_61-part3-item1-item1">
+                           <p>
+                              <locus from="38a">Fol. 38</locus>. Fragment of a mystical treatise on the letters and numbers, ending<quote type="end">וחסאב אלהנדי הוה אחאד עשרה מאיה אלף מאיה אלף א̇י̇ק̇</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part3-item1-item2">
+                           <p>
+                              <locus from="38b">fol. 38b</locus>, a charm, incomplete, with some vowel points and accents.</p>
+                        </msItem>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 16mo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part4" n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part4-item1">
+                        <locus from="39a" to="39b">Fol. 39</locus>
+                        <title>Liturgical pieces</title>
+                        <note>With vowel points.</note>
+                        <msItem xml:id="MS_Heb_f_61-part4-item1-item1" n="a">
+                           <p>(<locus from="39a">fol. 39</locus>) headed<quote type="head">... לשמואל הנגיד בן יוסף הלוי נח עדן</quote>, beg.<quote type="beg">הנה יחידתי בליליה. תרבה</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part4-item1-item2" n="b">
+                           <p>(<locus from="39b">fol. 39b</locus>) four lines in Arabic, beg.<quote type="beg">כֿבר מליח קיל אן תלתה אשיא ...</quote>;</p>
+                        </msItem>
+                        <msItem xml:id="MS_Heb_f_61-part4-item1-item3" n="c">
+                           <p>(<locus from="39b">ibid.</locus>)<quote type="head">פזמון</quote>, beg.<quote type="beg">[חס]דאי יגדאל ואיביו ידאל</quote>.</p>
+                        </msItem>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 16mo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part5" n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/5</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part5-item1">
+                        <locus from="40a" to="41b">Fols. 40, 41</locus>
+                        <title>An amulet</title>
+                        <note>beg.<quote type="beg">אם תבקש לשלוט על השרים ועל כל רוחין בישין ועל שנים עשר משפחות שירדו מן השמים ...</quote>.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 16mo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part6" n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part6-item1">
+                        <locus from="42a" to="43b">Fols. 42, 43</locus>
+                        <title>Responsum, in Arabic, on Mishnah ברכות iv. 1</title>
+                        <note>beg. missing. At the end<quote>הדא מא קאלה מרנו ורבינו יצחק הדין בר̇ כבוד מרנו ורבנו ששון הדין [ז̇]ק̇ל̇</quote>.</note>
+                        <note>Fol. 43b is blank.</note>
+                        <textLang mainLang="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 12mo,<material>paper</material>, injured and obliterated.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part7" n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part7-item1">
+                        <locus from="44a" to="45b">Fols. 44, 45</locus>
+                        <title>A poem</title>
+                        <note>beg.<quote type="beg">אני חשתי בשירי לענותך</quote>, with acr.<quote type="acr">אהרן הכהן</quote>, and on<locus from="45a">fol. 45</locus>(? part of same), margin,<quote>מחבצלת השרון אוהבו אהרן</quote>.</note>
+                        <note>Ff. 44a, 45b are blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; small squ. 24mo,<material>paper</material>, stained.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part8" n="8">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/8</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part8-item1">
+                        <locus from="46a" to="46b">Fol. 46</locus>
+                        <title>Historical fragment</title>
+                        <note>Headed<quote type="heb">בֿשֿרֿ משפחת הנגידים השרים החכמים אשר נהגו שררה בעם ייי צבאות עד כֿגֿקֿ יקרת מרי גאוני שמואל החבר</quote>.</note>
+                        <note>On the verso some scribbling in Arabic characters.</note>
+                        <textLang mainLang="he" otherLangs="ar"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; a strip of<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part9" n="9">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part9-item1">
+                        <locus from="47a" to="47b">Fol. 47</locus>
+                        <title>גט</title>
+                        <note>
+                           <p>dated<date calendar="#Hebrew-Seleucid" when="1369">Monday, Thammuz 5th, 1369 Sel.</date>=<date calendar="#Gregorian" when="1058">1058 A.D.</date>at Fostat.</p>
+                           <p>The parties were<persName>כלף בר שלמה</persName>and<persName>נסאבה בת עמאר</persName>.</p>
+                           <p>Signed by<persName>אהרן המומחה בר̇ אפרים ספרא ושהדא</persName>and<persName>טובה בר̇ הלל חתומא</persName>(?).</p>
+                        </note>
+                        <note>Verso blank.</note>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 16mo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1058">1058</origDate>
+                        <origPlace>Fostat</origPlace>
+                     </origin>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part10" n="10">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part10-item1">
+                        <locus from="48a" to="48b">Fol. 48</locus>
+                        <title>The end of a prayer-book</title>
+                        <note>
+                           <p>with the following colophon:</p>
+                           <p>
+                              <quote type="col">כמלת צלאת מעריב לילה̈ ראש השנה וצלאת̈ מוסף כמלת יום אלאתנין תאלת ועשרין מן חדש אלול שנת א̇ת̇ר̇ט̇ לשטרות וליצירה ה̇נ̇ח̇ ולחורבן א̇ר̇ל̇ (=1298) ברסם אלולד אלעזיז יוסף הלוי הבחור היקר ס̇ט̇ בר כ̇ג̇ק̇ מרנה ורבנה שלח הלוי הזקן היקר ס̇ט̇ האלהים יברכהו ...</quote>.</p>
+                        </note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 16mo,<material>paper</material>, injured.</p>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1298">1298</origDate>
+                     </origin>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part11" n="11">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/11</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part11-item1">
+                        <locus from="49a" to="49b">Fol. 49</locus>
+                        <title>Colophon of a book</title>
+                        <note>
+                           <p>as follows:</p>
+                           <p>
+                              <quote type="col">כתבתי אנה נתן הכהן ביר̇ ישועה ביר̇ יעקב בריבי ישועה בריבי יוסף בריבי פרחיה ביר̇ שפטיה תנוח נפשם ... י̇ו̇ם̇ אלה̇ ת̇מ̇ם אלכיתב בקדרת אללה</quote>.</p>
+                        </note>
+                        <note>Verso blank.</note>
+                        <textLang mainLang="he"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. Rabb. char.; 16mo,<material>paper</material>.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part12" n="12">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part12-item1">
+                        <locus from="50a" to="50b">Fol. 50</locus>
+                        <title>End of a legal document</title>
+                        <note>witnessed by<persName>יפת בר ארח הרופא נ̇ע̇</persName>and<persName>אלעזר בר נסים נ̇ע̇</persName>, whose signatures are witnessed by<persName>יצחק ביר̇ סעדיה רֿיֿתֿ</persName>and<persName>בנימין בר̇ יפת נ̇ע̇</persName>. Verso blank.</note>
+                        <textLang mainLang="he" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; fragment only,<material>paper</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part13" n="13">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part13-item1">
+                        <locus from="51a" to="51b">Fol. 51</locus>
+                        <title>Fragment of report of legal proceedings</title>
+                        <note>dated Tuesday the 5th of .. in the year 1.1. Sel. The names of the parties are<quote>מר̇ ורב̇ נת[נאל בן מר̇] ורב̇ צדקה הזקן החסיד נ̇ע̇</quote>and<quote>[... בן] דניאל הלוי ז̇ל̇</quote>. Verso blank.</note>
+                        <textLang mainLang="arc" otherLangs="jrb"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; fragment only,<material>paper</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part14" n="14">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part14-item1">
+                        <locus from="52a" to="52b">Fol. 52</locus>
+                        <title>גט</title>
+                        <note>
+                           <p>dated Tuesday the .. of Adar i, in the year .... Sel. at [Fostat].</p>
+                           <p>Parties,<quote>[...בר] צדקה</quote>and<quote>נסבאה בת נתן</quote>(?).</p>
+                           <p>Signed by<quote>אברהם ביר̇ יצחק ז̇ה̇צ̇ל̇</quote>and<quote>עלי (?) הכהן ביר̇ נחום (?)</quote>.</p>
+                        </note>
+                        <note>Verso blank.</note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 16mo,<material>vellum</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+               <msPart xml:id="MS_Heb_f_61-part15" n="15">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>MS. Heb. f. 61/15</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem xml:id="MS_Heb_f_61-part15-item1">
+                        <locus from="53a" to="53b">Fol. 53</locus>
+                        <title>גט</title>
+                        <note>
+                           <p>dated Wednesday the .. of Ab, in the year 1..5 at Fostat.</p>
+                           <p>Parties,<quote>אבו אל[חסן בן] סלאמה</quote>and<quote>חסן בנת אבו אלימן</quote>.</p>
+                           <p>Signed by<quote>יעקב הכהן בר יוסף נ̇ע̇</quote>and<quote>שמואל הלוי ביר̇ סעדיה נ̇ע̇</quote>.</p>
+                           <p>Addressed to the lady on the<locus from="53b">verso</locus>, with the name of an additional witness<quote>מבורך בר̇ נתן החבר ז̇ל̇</quote>.</p>
+                        </note>
+                        <textLang mainLang="arc"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <p>Syr. curs. char.; 24mo,<material>vellum</material>, much injured.</p>
+                  </physDesc>
+                  <history>
+                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1899">1899</date>(from the Genizah).</acquisition>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="INDEX">
+               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               </desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="Neubauer">
+               <term>Liturgy</term>
+               <term>Later Acquisitions</term>
+            </keywords>
+            <keywords scheme="#INDEX">
+               <term>
+                  <ref target="#MS_Heb_f_61_01">
+                     <persName type="aut">Eleazar Qalir</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_01">
+                     <persName type="aut">Joseph</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_01">Liturgy. גשם.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_01">
+                     <persName type="aut">Mebhorakh</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_02">Midrash. תנחומא.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_02">
+                     <persName type="aut">Solomon b. Isaac (Rashi)</persName>. Commentaries: Zechariah.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_03">Amulets.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_03">Mystical treatises. Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_04">Liturgy. Various fragments.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_04">
+                     <persName type="aut">Samuel the Nagid (b. Joseph)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_05">Amulets.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_06">
+                     <persName type="aut">Isaac b. Sason</persName>. Responsa (Arabic).</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_06">Mishnah. Commentaries, Arabic.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_07">
+                     <persName type="aut">Aaron, kohen</persName>. Poem.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_08">Historical treatises and fragments.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_08">
+                     <persName type="ment">Samuel החבר (=Nagid ?)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_08">
+                     <persName type="ment">Samuel the Nagid (b. Joseph)</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_09">
+                     <persName type="scribe">Aaron b. Ephraim</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_09">
+                     <persName type="wit">Aaron b. Ephraim</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_09">Deeds. Divorce.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_09">
+                     <persName type="par">Khalaf b. Solomon</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_09">
+                     <persName type="par">Nassabah dtr of ʿAmmar</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_09">
+                     <persName type="wit">Tobhah (=Tobiah ?) b. Hillel</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_10">
+                     <persName type="own">Joseph (levi) b. Shelah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_10">Liturgy. Maḥzor.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_11">
+                     <persName type="ment">Jacob b. Jeshua b. Joseph</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_11">
+                     <persName type="ment">Jeshua b. Jacob b. Jeshua</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_11">
+                     <persName type="ment">Jeshua b. Joseph b. Peraḥiah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_11">
+                     <persName type="ment">Joseph b. Peraḥiah b. Shephatiah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_11">
+                     <persName type="scribe">Nathan (kohen) b. Jeshua b. Jacob</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_11">
+                     <persName type="ment">Peraḥiah b. Shephatiah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_12">
+                     <persName type="wit">Benjamin b. Japhet</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_12">Deeds. Various.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_12">
+                     <persName type="wit">Eleazar b. Nissim</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_12">
+                     <persName type="wit">Isaac b. Seadiah רית</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_12">
+                     <persName type="wit">Japhet b. ארח</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_13">
+                     <persName type="par">... b. Daniel hal-levi</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_13">Deeds. Various.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_13">
+                     <persName type="par">Nethaneel b. Ẓedaqah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_14">
+                     <persName type="wit">Abraham b. Isaac</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_14">
+                     <persName type="wit">ʿAli (kohen) b. Nahum</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_14">Deeds. Divorce.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_14">
+                     <persName type="par">Nassabah dtr of Nathan</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_14">
+                     <persName type="par">... b. Ẓedaqah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_15">
+                     <persName type="par">Abu 'l-ḥasan b. Salamah</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_15">Deeds. Divorce.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_15">
+                     <persName type="par">Ḥasan dtr of Abu 'l-yaman</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_15">
+                     <persName type="wit">Jacob (kohen) b. Joseph</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_15">
+                     <persName type="wit">Mebhorakh b. Nathan</persName>.</ref>
+               </term>
+               <term>
+                  <ref target="#MS_Heb_f_61_15">
+                     <persName type="wit">Samuel (levi) b. Seadiah</persName>.</ref>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
+         </change>
+         <change when="2011-08-09">
+            <persName>Sabine Arndt</persName>created this file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS_HEB_f_61_1a.tif"/>
+      <graphic url="MS_HEB_f_61_1b.tif"/>
+      <graphic url="MS_HEB_f_61_2a.tif"/>
+      <graphic url="MS_HEB_f_61_2b.tif"/>
+      <graphic url="MS_HEB_f_61_3a.tif"/>
+      <graphic url="MS_HEB_f_61_3b.tif"/>
+      <graphic url="MS_HEB_f_61_4a.tif"/>
+      <graphic url="MS_HEB_f_61_4b.tif"/>
+      <graphic url="MS_HEB_f_61_5a.tif"/>
+      <graphic url="MS_HEB_f_61_5b.tif"/>
+      <graphic url="MS_HEB_f_61_6a.tif"/>
+      <graphic url="MS_HEB_f_61_6b.tif"/>
+      <graphic url="MS_HEB_f_61_7a.tif"/>
+      <graphic url="MS_HEB_f_61_7b.tif"/>
+      <graphic url="MS_HEB_f_61_8a.tif"/>
+      <graphic url="MS_HEB_f_61_8b.tif"/>
+      <graphic url="MS_HEB_f_61_9a.tif"/>
+      <graphic url="MS_HEB_f_61_9b.tif"/>
+      <graphic url="MS_HEB_f_61_10a.tif"/>
+      <graphic url="MS_HEB_f_61_10b.tif"/>
+      <graphic url="MS_HEB_f_61_11a.tif"/>
+      <graphic url="MS_HEB_f_61_11b.tif"/>
+      <graphic url="MS_HEB_f_61_12a.tif"/>
+      <graphic url="MS_HEB_f_61_12b.tif"/>
+      <graphic url="MS_HEB_f_61_13a.tif"/>
+      <graphic url="MS_HEB_f_61_13b.tif"/>
+      <graphic url="MS_HEB_f_61_14a.tif"/>
+      <graphic url="MS_HEB_f_61_14b.tif"/>
+      <graphic url="MS_HEB_f_61_15a.tif"/>
+      <graphic url="MS_HEB_f_61_15b.tif"/>
+      <graphic url="MS_HEB_f_61_16a.tif"/>
+      <graphic url="MS_HEB_f_61_16b.tif"/>
+      <graphic url="MS_HEB_f_61_17a.tif"/>
+      <graphic url="MS_HEB_f_61_17b.tif"/>
+      <graphic url="MS_HEB_f_61_18a.tif"/>
+      <graphic url="MS_HEB_f_61_18b.tif"/>
+      <graphic url="MS_HEB_f_61_19a.tif"/>
+      <graphic url="MS_HEB_f_61_19b.tif"/>
+      <graphic url="MS_HEB_f_61_20a.tif"/>
+      <graphic url="MS_HEB_f_61_20b.tif"/>
+      <graphic url="MS_HEB_f_61_21a.tif"/>
+      <graphic url="MS_HEB_f_61_21b.tif"/>
+      <graphic url="MS_HEB_f_61_22a.tif"/>
+      <graphic url="MS_HEB_f_61_22b.tif"/>
+      <graphic url="MS_HEB_f_61_23a.tif"/>
+      <graphic url="MS_HEB_f_61_23b.tif"/>
+      <graphic url="MS_HEB_f_61_24a.tif"/>
+      <graphic url="MS_HEB_f_61_24b.tif"/>
+      <graphic url="MS_HEB_f_61_25a.tif"/>
+      <graphic url="MS_HEB_f_61_25b.tif"/>
+      <graphic url="MS_HEB_f_61_26a.tif"/>
+      <graphic url="MS_HEB_f_61_26b.tif"/>
+      <graphic url="MS_HEB_f_61_27a.tif"/>
+      <graphic url="MS_HEB_f_61_27b.tif"/>
+      <graphic url="MS_HEB_f_61_28a.tif"/>
+      <graphic url="MS_HEB_f_61_28b.tif"/>
+      <graphic url="MS_HEB_f_61_29a.tif"/>
+      <graphic url="MS_HEB_f_61_29b.tif"/>
+      <graphic url="MS_HEB_f_61_30a.tif"/>
+      <graphic url="MS_HEB_f_61_30b.tif"/>
+      <graphic url="MS_HEB_f_61_31a.tif"/>
+      <graphic url="MS_HEB_f_61_31b.tif"/>
+      <graphic url="MS_HEB_f_61_32a.tif"/>
+      <graphic url="MS_HEB_f_61_32b.tif"/>
+      <graphic url="MS_HEB_f_61_33a.tif"/>
+      <graphic url="MS_HEB_f_61_33b.tif"/>
+      <graphic url="MS_HEB_f_61_34a.tif"/>
+      <graphic url="MS_HEB_f_61_34b.tif"/>
+      <graphic url="MS_HEB_f_61_35a.tif"/>
+      <graphic url="MS_HEB_f_61_35b.tif"/>
+      <graphic url="MS_HEB_f_61_36a.tif"/>
+      <graphic url="MS_HEB_f_61_36b.tif"/>
+      <graphic url="MS_HEB_f_61_37a.tif"/>
+      <graphic url="MS_HEB_f_61_37b.tif"/>
+      <graphic url="MS_HEB_f_61_38a.tif"/>
+      <graphic url="MS_HEB_f_61_38b.tif"/>
+      <graphic url="MS_HEB_f_61_39a.tif"/>
+      <graphic url="MS_HEB_f_61_39b.tif"/>
+      <graphic url="MS_HEB_f_61_40a.tif"/>
+      <graphic url="MS_HEB_f_61_40b.tif"/>
+      <graphic url="MS_HEB_f_61_41a.tif"/>
+      <graphic url="MS_HEB_f_61_41b.tif"/>
+      <graphic url="MS_HEB_f_61_42a.tif"/>
+      <graphic url="MS_HEB_f_61_42b.tif"/>
+      <graphic url="MS_HEB_f_61_43a.tif"/>
+      <graphic url="MS_HEB_f_61_43b.tif"/>
+      <graphic url="MS_HEB_f_61_44a.tif"/>
+      <graphic url="MS_HEB_f_61_44b.tif"/>
+      <graphic url="MS_HEB_f_61_45a.tif"/>
+      <graphic url="MS_HEB_f_61_45b.tif"/>
+      <graphic url="MS_HEB_f_61_46a.tif"/>
+      <graphic url="MS_HEB_f_61_46b.tif"/>
+      <graphic url="MS_HEB_f_61_47a.tif"/>
+      <graphic url="MS_HEB_f_61_47b.tif"/>
+      <graphic url="MS_HEB_f_61_48a.tif"/>
+      <graphic url="MS_HEB_f_61_48b.tif"/>
+      <graphic url="MS_HEB_f_61_49a.tif"/>
+      <graphic url="MS_HEB_f_61_49b.tif"/>
+      <graphic url="MS_HEB_f_61_50a.tif"/>
+      <graphic url="MS_HEB_f_61_50b.tif"/>
+      <graphic url="MS_HEB_f_61_51a.tif"/>
+      <graphic url="MS_HEB_f_61_51b.tif"/>
+      <graphic url="MS_HEB_f_61_52a.tif"/>
+      <graphic url="MS_HEB_f_61_52b.tif"/>
+      <graphic url="MS_HEB_f_61_53a.tif"/>
+      <graphic url="MS_HEB_f_61_53b.tif"/>
+      <graphic url="MS_HEB_f_61_54a.tif"/>
+      <graphic url="MS_HEB_f_61_54b.tif"/>
+      <graphic url="MS_HEB_f_61_55a.tif"/>
+      <graphic url="MS_HEB_f_61_55b.tif"/>
+   </facsimile>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
