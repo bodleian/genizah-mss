@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_136">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 60.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p015b.jpg">No. 2630</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p015b.jpg">No. 2630</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -69,15 +69,15 @@
                      <msItem xml:id="MS_Heb_e_48-part1-item1">
                         <locus from="1a" to="6b">Fol. 1</locus>
                         <title>Arabic translation of Exodus</title>
-                        <note>ix. 25 (מן אנסאן) to xii. 17 (עלי מר אגיאלכם). By<persName type="aut">Seadiah Gaon</persName>.</note>
+                        <note>ix. 25 (מן אנסאן) to xii. 17 (עלי מר אגיאלכם). By <persName type="aut">Seadiah Gaon</persName>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_48-part2" n="2">
@@ -90,16 +90,16 @@
                      <msItem xml:id="MS_Heb_e_48-part2-item1">
                         <locus from="7a" to="19b">Fol. 7</locus>
                         <title>Arabic translation of Exodus</title>
-                        <note>xii. 12 (פי בלד) to xx. 24 (מזבח). By<persName type="aut">Seadiah Gaon</persName>
+                        <note>xii. 12 (פי בלד) to xx. 24 (מזבח). By <persName type="aut">Seadiah Gaon</persName>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_48-part3" n="3">
@@ -112,15 +112,15 @@
                      <msItem xml:id="MS_Heb_e_48-part3-item1">
                         <locus from="20a" to="30b">Fol. 20</locus>
                         <title>Arabic translation of Exodus</title>
-                        <note>xx. 17 (ולא) to xxv. 23 (ונצף); the quire is marked י̇ז̇, the sections are marked on the margin by פרש. By<persName type="aut">Seadiah Gaon</persName>.</note>
+                        <note>xx. 17 (ולא) to xxv. 23 (ונצף); the quire is marked י̇ז̇, the sections are marked on the margin by פרש. By <persName type="aut">Seadiah Gaon</persName>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. small Rabb. char.; small 8vo,<material>paper</material>.</p>
+                     <p>Syr. small Rabb. char.; small 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_48-part4" n="4">
@@ -133,16 +133,16 @@
                      <msItem xml:id="MS_Heb_e_48-part4-item1">
                         <locus from="31a" to="32b">Fol. 31</locus>
                         <title>A fragment of an Arabic commentary or a homily on Haftaroth</title>
-                        <note>(leaves קנ and קנא), of קדושים.<p>Specimen for identification (<locus from="31b" to="31b">fol. 31b</locus>):<quote>כמתל מא תביֿין פי פרשת אחרי מות ושרח אלהפטרה ואסתחקֿו בדלך אלדֿל ואלעבודייה וכקו פי אלגלות מקהורין מגֿצובין באלכֿרוגִ מן מדהבהם ועלי אלסגוד ללאצנאם ואלאותאן כקולה פי אלהפטרה אליום ויהי בשנה השביעית בחמישי בעשור לחודש באו אנשים מזקני ישראל לדרוש את יי וישבו לפניו. האלאי אלזקנים הם חנניה מישאל ועזריה ודלך אן ענד מא אגלא נבוכדנצר ישראל</quote>.</p>
+                        <note>(leaves קנ and קנא), of קדושים. <p>Specimen for identification (<locus from="31b" to="31b">fol. 31b</locus>): <quote>כמתל מא תביֿין פי פרשת אחרי מות ושרח אלהפטרה ואסתחקֿו בדלך אלדֿל ואלעבודייה וכקו פי אלגלות מקהורין מגֿצובין באלכֿרוגִ מן מדהבהם ועלי אלסגוד ללאצנאם ואלאותאן כקולה פי אלהפטרה אליום ויהי בשנה השביעית בחמישי בעשור לחודש באו אנשים מזקני ישראל לדרוש את יי וישבו לפניו. האלאי אלזקנים הם חנניה מישאל ועזריה ודלך אן ענד מא אגלא נבוכדנצר ישראל</quote>.</p>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. cursive char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. cursive char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_48-part5" n="5">
@@ -156,15 +156,15 @@
                         <locus from="33a" to="46b">Fol. 33</locus>
                         <title>
                            <persName type="aut">Seadiah</persName>'s Arabic translation of Deuteronomy</title>
-                        <note>headed<quote type="head">אתחיל לכתוב שרח אלה הדברים לרבינו<persName type="aut">סעדיה פיומי גאון</persName>זכרו לברכה</quote>to אז יבדיל (iv. 41).</note>
+                        <note>headed <quote type="head">אתחיל לכתוב שרח אלה הדברים לרבינו <persName type="aut">סעדיה פיומי גאון</persName> זכרו לברכה</quote> to אז יבדיל (iv. 41).</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_48-part6" n="6">
@@ -178,19 +178,19 @@
                         <locus from="47a" to="60b">Fol. 47</locus>
                         <title>Arabic commentary on Numbers xxiii. 10</title>
                         <note>
-                           <p>Specimen for identification (<locus from="47a" to="47a">fol. 47</locus>):<quote>וקד פסר בעץ̇ אלעלמא עפר יעקב גפר יעקב מתל או לעֹפֶר האיֶלים והו קול בעיד</quote>;</p>
+                           <p>Specimen for identification (<locus from="47a" to="47a">fol. 47</locus>): <quote>וקד פסר בעץ̇ אלעלמא עפר יעקב גפר יעקב מתל או לעֹפֶר האיֶלים והו קול בעיד</quote>;</p>
                            <p>
-                              <locus from="58b" to="58b">fol. 58b</locus>ואכתלף אלעלמא.</p>
-                           <p>The author was a Karaite according to the following passage (xxviii. 26):<quote>וקו̇ בשבעתיכם יריד בה אן הדא אליום מורך בשבעה שבועות וליס הו מורך בכם יום מן שהד מת̇ל סאיר אלמועדים אלדי קאל פיהא באחד לחדש בעשור לחדש בארבעה עשר בחמשה עשר ואנמא הדא אליום הו בעקב שבעה שבועות ואול שבעה שבועות הו אול יום ממחרת שבת מן שבעת ימי מצה. וקאל מפסר אכר אנה אראד בה אן אלמנחה חדשה מגאב אלי אלכהן (?) מן אל יום אלגמעה פלדלך קאל בשבעתיכם. וקאל אכר (obliterated)</quote>; ends with מוסף.</p>
+                              <locus from="58b" to="58b">fol. 58b</locus> ואכתלף אלעלמא.</p>
+                           <p>The author was a Karaite according to the following passage (xxviii. 26): <quote>וקו̇ בשבעתיכם יריד בה אן הדא אליום מורך בשבעה שבועות וליס הו מורך בכם יום מן שהד מת̇ל סאיר אלמועדים אלדי קאל פיהא באחד לחדש בעשור לחדש בארבעה עשר בחמשה עשר ואנמא הדא אליום הו בעקב שבעה שבועות ואול שבעה שבועות הו אול יום ממחרת שבת מן שבעת ימי מצה. וקאל מפסר אכר אנה אראד בה אן אלמנחה חדשה מגאב אלי אלכהן (?) מן אל יום אלגמעה פלדלך קאל בשבעתיכם. וקאל אכר (obliterated)</quote>; ends with מוסף.</p>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; 4to,<material>paper</material>, injured and obliterated.</p>
+                     <p>Syr. squ. Rabb. char.; 4to, <material>paper</material>, injured and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -199,7 +199,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -243,7 +243,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-07-14">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

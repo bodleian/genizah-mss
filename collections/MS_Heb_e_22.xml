@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_111">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 10.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p030b.jpg">No. 2691</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p030b.jpg">No. 2691</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -76,24 +76,24 @@
                         </msItem>
                         <msItem xml:id="MS_Heb_e_22-part1-item1-item2" n="b">
                            <p>
-                              <title>[ה̇ הקפת הראש]</title>, beg. (<locus from="2b" to="4b">fol. 2b</locus>)<quote type="beg">הקורח קרחה בראשו והמקיף פאת ראשו והמשחית פאת זקנו תנו רבנן</quote>;</p>
+                              <title>[ה̇ הקפת הראש]</title>, beg. (<locus from="2b" to="4b">fol. 2b</locus>) <quote type="beg">הקורח קרחה בראשו והמקיף פאת ראשו והמשחית פאת זקנו תנו רבנן</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_22-part1-item1-item3" n="c">
                            <p>
-                              <title>[ה̇ צדקה]</title>(<locus from="5a" to="5a">fol. 5</locus>) a section begins<quote type="beg">והיזהיר הק̇ לישראל כדי שיעסקו בתו̇ ובגמילות חסדים שנ̇ ושמרתם את כל חקתי ואת כל משפטי</quote>,</p>
-                           <p>ends (<locus from="5b" to="6a">fol. 5b</locus>)<quote type="end">אמ̇ אף מקרב את הגאולה דכ̇ לאמר לציון עמי אתה</quote>, followed by a section beg.<quote type="beg">אנכי אנכי הוא מנחמכם אמ̇ ר̇ שמו̇ בר נחמני א̇ ר̇ יונתן דרכו שלאב</quote>(Pesiqta, ed. Buber, fol. 139a),</p>
+                              <title>[ה̇ צדקה]</title> (<locus from="5a" to="5a">fol. 5</locus>) a section begins <quote type="beg">והיזהיר הק̇ לישראל כדי שיעסקו בתו̇ ובגמילות חסדים שנ̇ ושמרתם את כל חקתי ואת כל משפטי</quote>,</p>
+                           <p>ends (<locus from="5b" to="6a">fol. 5b</locus>) <quote type="end">אמ̇ אף מקרב את הגאולה דכ̇ לאמר לציון עמי אתה</quote>, followed by a section beg. <quote type="beg">אנכי אנכי הוא מנחמכם אמ̇ ר̇ שמו̇ בר נחמני א̇ ר̇ יונתן דרכו שלאב</quote> (Pesiqta, ed. Buber, fol. 139a),</p>
                            <p>
-                              <locus from="6b" to="7b">fol. 6b</locus>headed<quote type="head">יוצר דפסח</quote>, beg.<quote type="beg">אשירה ואזמרה שמו אשנן חמשה ואלף בשילומו ש̇הש̇ אשר לשלמה</quote>,</p>
+                              <locus from="6b" to="7b">fol. 6b</locus> headed <quote type="head">יוצר דפסח</quote>, beg. <quote type="beg">אשירה ואזמרה שמו אשנן חמשה ואלף בשילומו ש̇הש̇ אשר לשלמה</quote>,</p>
                         </msItem>
                         <note>all incomplete and injured.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; oblong,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; oblong, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_22-part2" n="2">
@@ -116,10 +116,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; oblong,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; oblong, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_22-part3" n="3">
@@ -136,10 +136,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; oblong,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; oblong, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -148,7 +148,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -173,7 +173,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-08-05">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

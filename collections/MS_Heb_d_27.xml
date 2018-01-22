@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_54">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 4.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p052b.jpg">No. 2757</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p052b.jpg">No. 2757</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -69,17 +69,17 @@
                      <msItem xml:id="MS_Heb_d_27-part1-item1">
                         <locus from="1a" to="1b">Fol. 1</locus>
                         <title>Grammatical fragment</title>
-                        <note>much obliterated, beg.<quote type="beg">פן תאלת. אלבאקי מן חרוף אלעבראני אלאצול שבעה עשר</quote>,<p>end<quote type="end">וקד אסתקצת אלכלאם פי הדא אלמוצ̇ע פי הדאיה אלקאר עלי מא אנת תג̇דה הנאך פיב...</quote>;</p>
-                           <p>the next chapter (<locus from="1b">fol. 1b</locus>) beg.<quote type="beg">סאבע. אלשוא לא... (?) גזו</quote>, incomplete.</p>
+                        <note>much obliterated, beg. <quote type="beg">פן תאלת. אלבאקי מן חרוף אלעבראני אלאצול שבעה עשר</quote>, <p>end <quote type="end">וקד אסתקצת אלכלאם פי הדא אלמוצ̇ע פי הדאיה אלקאר עלי מא אנת תג̇דה הנאך פיב...</quote>;</p>
+                           <p>the next chapter (<locus from="1b">fol. 1b</locus>) beg. <quote type="beg">סאבע. אלשוא לא... (?) גזו</quote>, incomplete.</p>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>, obliterated.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>paper</material>, obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_27-part2" n="2">
@@ -92,15 +92,15 @@
                      <msItem xml:id="MS_Heb_d_27-part2-item1">
                         <locus from="2a" to="2b">Fol. 2</locus>
                         <title>
-                           <persName>David Qamḥi</persName>’s dictionary, from the end of בגד to beg. of בדק</title>
+                           <persName>David Qamḥi</persName> ’s dictionary, from the end of בגד to beg. of בדק</title>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; fol.,<material>vellum</material>, much injured.</p>
+                     <p>Syr. Rabb. char.; fol., <material>vellum</material>, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_27-part3" n="3">
@@ -112,17 +112,17 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_d_27-part3-item1">
                         <locus from="3a" to="4b">Fol. 3</locus>
-                        <title>Fragment of<persName>David Qamḥi</persName>’s dictionary</title>
+                        <title>Fragment of <persName>David Qamḥi</persName> ’s dictionary</title>
                         <note>from the end of נחה to נחש (end missing), and (<locus from="4a" to="4b">fol. 4</locus>) from end of נקר to נשא (end missing).</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>The missing leaves between fol. 3 and fol. 4 are to be found in<ref target="MS_Heb_d_79_11">MS. Heb. d. 79, fols. 27-32</ref>, which are by the same hand.</p>
-                     <p>Syr. Rabb. char.; fol.,<material>vellum</material>, much injured.</p>
+                     <p>The missing leaves between fol. 3 and fol. 4 are to be found in <ref target="MS_Heb_d_79_11">MS. Heb. d. 79, fols. 27-32</ref>, which are by the same hand.</p>
+                     <p>Syr. Rabb. char.; fol., <material>vellum</material>, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -131,7 +131,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -167,7 +167,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-03-18">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

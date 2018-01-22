@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_102">
    <teiHeader>
       <fileDesc>
@@ -50,15 +50,15 @@
                   <p>Ff. 18.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                  <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p064.jpg Catalogue-2_p065.jpg Catalogue-2_p066.jpg">fols. 64-66</ref>.</source>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p064.jpg Catalogue-2_p065.jpg Catalogue-2_p066.jpg">fols. 64-66</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -73,16 +73,16 @@
                         <locus from="1a" to="1b">Fol. 1</locus>
                         <title>Commentary in Arabic on Exod. 27 (?)</title>
                         <note>
-                           <locus from="1b">Verso</locus>beg.<quote>ואדא עדדתה מן לדן חיטאנה אלד̇ וגדתה ח̇ וממא ילי אלארץ̇ איצ̇א תגרהא ח̇ לאן אלזאויה הי אסם למוצ̇ע ...</quote>
+                           <locus from="1b">Verso</locus> beg. <quote>ואדא עדדתה מן לדן חיטאנה אלד̇ וגדתה ח̇ וממא ילי אלארץ̇ איצ̇א תגרהא ח̇ לאן אלזאויה הי אסם למוצ̇ע ...</quote>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.;<material>vellum</material>, 3 1/2 x 3 3/4 in., 13 lines; stained.</p>
+                     <p>Span. squ. char.; <material>vellum</material>, 3 1/2 x 3 3/4 in., 13 lines; stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part2" n="2">
@@ -99,10 +99,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, torn and stained.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, torn and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part3" n="3">
@@ -115,15 +115,15 @@
                      <msItem xml:id="MS_Heb_e_101-part3-item1">
                         <locus from="3a" to="3b">Fol. 3</locus>
                         <title>Liturgical</title>
-                        <note>headed<quote type="head">סילוק</quote>beg.<quote type="beg">נר חנוכה אֿורו יהי מיופה</quote>, א̇ב̇, incomplete.</note>
+                        <note>headed <quote type="head">סילוק</quote> beg. <quote type="beg">נר חנוכה אֿורו יהי מיופה</quote>, א̇ב̇, incomplete.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 3 1/8 x 5 5/8 in., 7 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 3 1/8 x 5 5/8 in., 7 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part4" n="4">
@@ -137,23 +137,23 @@
                         <locus from="4a" to="5b">Fols. 4, 5</locus>
                         <title>Liturgical</title>
                         <msItem xml:id="MS_Heb_e_101-part4-item1-item1" n="a">
-                           <p>end of<quote>ת̇ש̇ר̇ק̇</quote>(ה̇ to א̇)<quote type="beg">אֿת כל אלה באורה לבדה ואף כי שאר בריותיך</quote>, with refrain<quote>עוטה אור כשׂל'</quote>;</p>
+                           <p>end of <quote>ת̇ש̇ר̇ק̇</quote> (ה̇ to א̇) <quote type="beg">אֿת כל אלה באורה לבדה ואף כי שאר בריותיך</quote>, with refrain <quote>עוטה אור כשׂל'</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_101-part4-item1-item2" n="b">
-                           <p>א̇ת̇ב̇ש̇ beg.<quote>כאהל מתחתה תקרא</quote>, incomplete;</p>
+                           <p>א̇ת̇ב̇ש̇ beg. <quote>כאהל מתחתה תקרא</quote>, incomplete;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_101-part4-item1-item3" n="c">
                            <p>
-                              <locus from="5a">fol.5</locus>,<quote>ת̇ש̇ר̇ק̇</quote>, (נ̇ to ז̇) beg.<quote type="beg">נעניתה מעלה מעלה ומשואך רום וגם תחת [ייי אל] ג̇ד̇ ג̇מ̇מ̇ המֿליכנו</quote>.</p>
+                              <locus from="5a">fol.5</locus>, <quote>ת̇ש̇ר̇ק̇</quote>, (נ̇ to ז̇) beg. <quote type="beg">נעניתה מעלה מעלה ומשואך רום וגם תחת [ייי אל] ג̇ד̇ ג̇מ̇מ̇ המֿליכנו</quote>.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 4 x 6 1/8 in., 10-12 lines; injured and stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 4 x 6 1/8 in., 10-12 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part5" n="5">
@@ -166,17 +166,17 @@
                      <msItem xml:id="MS_Heb_e_101-part5-item1">
                         <locus from="6a" to="6b">Fol. 6</locus>
                         <title>Beg. of מג' אנטיוכס</title>
-                        <note>Part of the first 7 lines, cut on the fore-edge.<p>
+                        <note>Part of the first 7 lines, cut on the fore-edge. <p>
                               <locus from="6b">Verso</locus>, scribbling in Arabic naskhi.</p>
                         </note>
                         <textLang mainLang="he" otherLangs="ar"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char. (unskilfully written);<material>paper</material>, 5 1/2 x 5 1/2 in.</p>
+                     <p>Span. squ. char. (unskilfully written); <material>paper</material>, 5 1/2 x 5 1/2 in.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part6" n="6">
@@ -189,15 +189,15 @@
                      <msItem xml:id="MS_Heb_e_101-part6-item1">
                         <locus from="7a" to="7b">Fol. 7</locus>
                         <title>
-                           <persName>Maimonides</persName>’ Mishneh Torah, הל' איסורי ביאה, 19,2-16</title>
+                           <persName>Maimonides</persName> ’ Mishneh Torah, הל' איסורי ביאה, 19,2-16</title>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.;<material>paper</material>, 6 3/8 x 6 3/8 in., 25 lines; much injured and mostly illegible.</p>
+                     <p>Span. squ. char.; <material>paper</material>, 6 3/8 x 6 3/8 in., 25 lines; much injured and mostly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part7" n="7">
@@ -210,15 +210,15 @@
                      <msItem xml:id="MS_Heb_e_101-part7-item1">
                         <locus from="8a" to="8b">Fol. 8</locus>
                         <title>
-                           <persName>Maimonides</persName>’ Mishneh Torah, הל' איסורי ביאה,, cap.17 ?</title>
+                           <persName>Maimonides</persName> ’ Mishneh Torah, הל' איסורי ביאה,, cap.17 ?</title>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, about 6 x 4 7/8 in., about 22 lines; torn and illegible.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, about 6 x 4 7/8 in., about 22 lines; torn and illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part8" n="8">
@@ -233,27 +233,27 @@
                         <title>Responsa ?</title>
                         <msItem xml:id="MS_Heb_e_101-part8-item1-item1">
                            <p>
-                              <locus from="9a" to="9b">Fol. 9</locus>is a fragment containing only a few letters.</p>
+                              <locus from="9a" to="9b">Fol. 9</locus> is a fragment containing only a few letters.</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_101-part8-item1-item2">
                            <locus from="10a" to="10b">Fol. 10</locus>
                            <title>Responsa ?</title>
                            <msItem xml:id="MS_Heb_e_101-part8-item1-item2-item1" n="a">
-                              <p>in Arabic, beg. missing, beg.<quote type="beg">באסם אלקרי אלדי הו גזא אלדנב במעני ... באסם אלכטא ואלפרק בין על חטאתיכם ובין בחטאתיכם כאן בחטא[תיכם] יפעל בה מתל מא פעל ...</quote>. Lower half blank;</p>
+                              <p>in Arabic, beg. missing, beg. <quote type="beg">באסם אלקרי אלדי הו גזא אלדנב במעני ... באסם אלכטא ואלפרק בין על חטאתיכם ובין בחטאתיכם כאן בחטא[תיכם] יפעל בה מתל מא פעל ...</quote>. Lower half blank;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_101-part8-item1-item2-item2" n="b">
                               <p>
-                                 <locus from="10b">verso</locus>, beg.<quote type="beg">אלו הן הפוסלין לעדות כופר בעיקר ועובד עב̇ זר̇ נוקב שם יֿי ...</quote>, Sanh. iii,3.</p>
+                                 <locus from="10b">verso</locus>, beg. <quote type="beg">אלו הן הפוסלין לעדות כופר בעיקר ועובד עב̇ זר̇ נוקב שם יֿי ...</quote>, Sanh. iii,3.</p>
                            </msItem>
                         </msItem>
                         <textLang mainLang="jrb" otherLangs="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.;<material>paper</material>, 4 x 5 1/2 in., 11 lines, much injured, stained and obliterated.</p>
+                     <p>Syr. curs. char.; <material>paper</material>, 4 x 5 1/2 in., 11 lines, much injured, stained and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part9" n="9">
@@ -266,17 +266,17 @@
                      <msItem xml:id="MS_Heb_e_101-part9-item1">
                         <locus from="11a" to="11b">Fol. 11</locus>
                         <title>Fragment of a responsum ? dealing with גט</title>
-                        <note>At the end line in naskhi containing the signature ? ابو الفرج.<p>
-                              <locus from="11b">Verso</locus>blank.</p>
+                        <note>At the end line in naskhi containing the signature ? ابو الفرج. <p>
+                              <locus from="11b">Verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="jrb" otherLangs="ar"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>(torn), about 4 3/4 in. wide, much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material> (torn), about 4 3/4 in. wide, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part10" n="10">
@@ -289,16 +289,16 @@
                      <msItem xml:id="MS_Heb_e_101-part10-item1">
                         <locus from="12a" to="12b">Fol. 12</locus>
                         <title>Arabic poem</title>
-                        <note>beg. and end missing, acr. ?<persName type="acr">אבו אלפרג</persName>. Nearly all illegible. A section beg.<quote>באקלי קריב אלי אלאני ואלרטב מנה רטב ...</quote>
+                        <note>beg. and end missing, acr. ? <persName type="acr">אבו אלפרג</persName>. Nearly all illegible. A section beg. <quote>באקלי קריב אלי אלאני ואלרטב מנה רטב ...</quote>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/2 x 5 in., 13 lines; injured and stained.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/2 x 5 in., 13 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part11" n="11">
@@ -311,22 +311,22 @@
                      <msItem xml:id="MS_Heb_e_101-part11-item1">
                         <locus from="13a" to="13b">Fol. 13</locus>
                         <title>Part of a legal document</title>
-                        <note>It must have consisted of more than one leaf. The lines are torn at the end, so that it is not consecutive. The ends of the lines are in<ref target="MS_Heb_f_102">MS. Heb. f. 102</ref>, Fol. 43.<p>Dated<date calendar="#Hebrew-Seleucid" when="1532">1532 Sel.</date>=<date calendar="#Gregorian" when="1221">1221 A.D.</date>, under<persName>Abraham the Nagid</persName>. Plaintiff<persName type="heb">[אבו] אלמחאסן אלמתטבב מר̇ור̇ יפת הכהן הזקן הרופא</persName>
+                        <note>It must have consisted of more than one leaf. The lines are torn at the end, so that it is not consecutive. The ends of the lines are in <ref target="MS_Heb_f_102">MS. Heb. f. 102</ref>, Fol. 43. <p>Dated <date calendar="#Hebrew-Seleucid" when="1532">1532 Sel.</date> = <date calendar="#Gregorian" when="1221">1221 A.D.</date>, under <persName>Abraham the Nagid</persName>. Plaintiff <persName type="heb">[אבו] אלמחאסן אלמתטבב מר̇ור̇ יפת הכהן הזקן הרופא</persName>
                            </p>
                            <p>
-                              <locus from="13b">Verso</locus>blank.</p>
+                              <locus from="13b">Verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, about 3 3/8 x 5 1/2 in., 8 lines; much injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, about 3 3/8 x 5 1/2 in., 8 lines; much injured.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1221">1221</origDate>
                      </origin>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part12" n="12">
@@ -339,22 +339,22 @@
                      <msItem xml:id="MS_Heb_e_101-part12-item1">
                         <locus from="14a" to="14b">Fol. 14</locus>
                         <title>Contract</title>
-                        <note>dated [Marḥe]shwan<date calendar="#Hebrew-Seleucid" when="1543">1543 Sel.</date>=<date calendar="#Gregorian" when="1232">1232 A.D.</date>at Fostat under Abraham the Nagid.<p>Parties<persName type="heb">אלשיך אבו אלטאה [בן ? מר̇]ור̇ אלעזר נ̇ע̇</persName>and<persName type="heb">אלרייס אבו אלבהא [בן] מר̇ור̇ משה ... הרופא נ̇ע̇</persName>.</p>
+                        <note>dated [Marḥe]shwan <date calendar="#Hebrew-Seleucid" when="1543">1543 Sel.</date> = <date calendar="#Gregorian" when="1232">1232 A.D.</date> at Fostat under Abraham the Nagid. <p>Parties <persName type="heb">אלשיך אבו אלטאה [בן ? מר̇]ור̇ אלעזר נ̇ע̇</persName> and <persName type="heb">אלרייס אבו אלבהא [בן] מר̇ור̇ משה ... הרופא נ̇ע̇</persName>.</p>
                            <p>Signatures torn off.</p>
                            <p>
-                              <locus from="14b">Verso</locus>blank.</p>
+                              <locus from="14b">Verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 3 3/8 x 4 1/2 in., 12 lines; injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 3 3/8 x 4 1/2 in., 12 lines; injured.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1232">1232</origDate>
                      </origin>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part13" n="13">
@@ -367,18 +367,18 @@
                      <msItem xml:id="MS_Heb_e_101-part13-item1">
                         <locus from="15a" to="15b">Fol. 15</locus>
                         <title>Document</title>
-                        <note>dated Monday 6th Marḥeshwan (no year), relating to a dispute between שמון (with his brother עמראן) and ר̇ שמחה at the latter’s shop. Drawn up 'in the person of Jews, Moslems and Christians'.<p>Witness<persName type="heb">שלמה בירבי אליה ס̇ט̇ עֵד</persName>.</p>
+                        <note>dated Monday 6th Marḥeshwan (no year), relating to a dispute between שמון (with his brother עמראן) and ר̇ שמחה at the latter’s shop. Drawn up 'in the person of Jews, Moslems and Christians'. <p>Witness <persName type="heb">שלמה בירבי אליה ס̇ט̇ עֵד</persName>.</p>
                            <p>
-                              <locus from="15b">Verso</locus>blank.</p>
+                              <locus from="15b">Verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.;<material>paper</material>, 4 x 4 3/4 in., 8 lines; much injured.</p>
+                     <p>Syr. curs. char.; <material>paper</material>, 4 x 4 3/4 in., 8 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part14" n="14">
@@ -391,16 +391,16 @@
                      <msItem xml:id="MS_Heb_e_101-part14-item1">
                         <locus from="16a" to="16b">Fol. 16</locus>
                         <title>Contract for something to be done by the end of Nisan in the following year.</title>
-                        <note>Names mentioned are<persName type="heb">אלשיך אבו אלפצ̇ל</persName>,<persName type="heb">הלל בן יוסף</persName>,<persName type="heb">אלשיך אבו אלמנא</persName>. Witness<persName>ש... בן ר̇ שמואל נ̇ע̇</persName>.<p>
-                              <locus from="16b">Verso</locus>blank</p>.</note>
+                        <note>Names mentioned are <persName type="heb">אלשיך אבו אלפצ̇ל</persName>, <persName type="heb">הלל בן יוסף</persName>, <persName type="heb">אלשיך אבו אלמנא</persName>. Witness <persName>ש... בן ר̇ שמואל נ̇ע̇</persName>. <p>
+                              <locus from="16b">Verso</locus> blank</p>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.;<material>paper</material>, 5 x 5 1/2 in., 8 lines; much injured and stained.</p>
+                     <p>Syr. curs. char.; <material>paper</material>, 5 x 5 1/2 in., 8 lines; much injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part15" n="15">
@@ -413,15 +413,15 @@
                      <msItem xml:id="MS_Heb_e_101-part15-item1">
                         <locus from="17a" to="17b">Fol. 17</locus>
                         <title>Accounts</title>
-                        <note>headed<quote type="head">שרח חסאב אלשיך אבו אל...</quote>.<locus from="17b">Verso</locus>in another hand.</note>
+                        <note>headed <quote type="head">שרח חסאב אלשיך אבו אל...</quote>. <locus from="17b">Verso</locus> in another hand.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 3 x 5 1/4 in., 6 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 3 x 5 1/4 in., 6 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_101-part16" n="16">
@@ -434,7 +434,7 @@
                      <msItem xml:id="MS_Heb_e_101-part16-item1">
                         <locus from="18a" to="18b">Fol. 18</locus>
                         <title>Letter</title>
-                        <note>beg.<quote type="beg">בשמך רח̇ מן זכאי בן עזריהו נשיא גליות כל ישראל לכל הזקנים ... אשר במדינת דמשק ...</quote>
+                        <note>beg. <quote type="beg">בשמך רח̇ מן זכאי בן עזריהו נשיא גליות כל ישראל לכל הזקנים ... אשר במדינת דמשק ...</quote>
                            <p>
                               <locus from="18b">Verso</locus>, a list of Arabic metres, in another hand.</p>
                         </note>
@@ -442,10 +442,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 4 1/4 x 5 5/8 in., 7-9 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 4 1/4 x 5 5/8 in., 7-9 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through<persName>J. Offord</persName>in<date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
+                     <acquisition>Bought through <persName>J. Offord</persName> in <date calendar="#Gregorian" when="1906">1906</date>. From the Genizah.</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -454,7 +454,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="TYPED">
-               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -522,7 +522,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-06-24">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

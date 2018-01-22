@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_211">
    <teiHeader>
       <fileDesc>
@@ -47,24 +47,24 @@
                   <msItem xml:id="MS_Heb_f_98-star-item1">
                      <locus from="1a" to="22b">Fol. 1-22</locus>
                      <title>Fragments from the covers of MS. Heb. f. 98</title>
-                     <note>See<ref target="MS_Heb_f_98">MS. Heb. f. 98</ref>.</note>
+                     <note>See <ref target="MS_Heb_f_98">MS. Heb. f. 98</ref>.</note>
                      <textLang mainLang="he"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>Fragments from the covers of MS. Heb. f. 98.</p>
-                  <p>Yemen Rabb. char.;<material>paper</material>.</p>
+                  <p>Yemen Rabb. char.; <material>paper</material>.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought in<date calendar="#Gregorian" when="1907">1907</date>from<persName>J.H. Greenstone</persName>of Philadelphia.</acquisition>
+                  <acquisition>Bought in <date calendar="#Gregorian" when="1907">1907</date> from <persName>J.H. Greenstone</persName> of Philadelphia.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p078.jpg Catalogue-2_p079.jpg Catalogue-2_p080.jpg Catalogue-2_p081.jpg">fols. 78-81</ref>.</source>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p078.jpg Catalogue-2_p079.jpg Catalogue-2_p080.jpg Catalogue-2_p081.jpg">fols. 78-81</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -74,7 +74,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="TYPED">
-               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -84,7 +84,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2012-02-13">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

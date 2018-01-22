@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_1">
    <teiHeader>
       <fileDesc>
@@ -46,31 +46,31 @@
                <msContents>
                   <msItem xml:id="MS_Georg_c_1_P-item1">
                      <locus from="1a" to="2b">Pp. 1-4</locus>
-                     <title>Jerusalem Talmud,<quote>בבא קמא</quote>; Palimpsest of Jeremiah chap. viii</title>
+                     <title>Jerusalem Talmud, <quote>בבא קמא</quote>; Palimpsest of Jeremiah chap. viii</title>
                      <msItem xml:id="MS_Georg_c_1_P-item1-item1">
                         <title>Jerusalem Talmud, בבא קמא</title>
                         <note>
                            <p>
-                              <locus from="2b">p. 1</locus>, beg.<quote type="beg">ליפול וירד</quote>(ed. Krotoschin, fol. 5b, chap. vi, l. 33) to<quote>גדיש ואל יאמר שדה</quote>(ed. fol. 5c, l. 16);</p>
+                              <locus from="2b">p. 1</locus>, beg. <quote type="beg">ליפול וירד</quote> (ed. Krotoschin, fol. 5b, chap. vi, l. 33) to <quote>גדיש ואל יאמר שדה</quote> (ed. fol. 5c, l. 16);</p>
                            <p>
-                              <locus from="1a">p. 2</locus>, from<quote>שוגג לא ישלם כלום</quote>(ed. fol. 6b, chap. viii, l. 13) to<quote>ושלחה ידה</quote>(ed. ibid., l. 43);</p>
+                              <locus from="1a">p. 2</locus>, from <quote>שוגג לא ישלם כלום</quote> (ed. fol. 6b, chap. viii, l. 13) to <quote>ושלחה ידה</quote> (ed. ibid., l. 43);</p>
                            <p>
-                              <locus from="1b">p. 3</locus>, cont. to end of Hal. ix; the MS. cont. with<quote>אמר הא אמורה וכן את מוצא בריעי איוב וג̇</quote>;</p>
+                              <locus from="1b">p. 3</locus>, cont. to end of Hal. ix; the MS. cont. with <quote>אמר הא אמורה וכן את מוצא בריעי איוב וג̇</quote>;</p>
                            <p>
-                              <locus from="2a">p. 4</locus>, from<quote>חמור בר חמור</quote>(ed. fol. 5a, l. 4 from end of Hal. v) to<quote>שהוא ראויה</quote>(fol. 5b, l. 16 from below),</p>
+                              <locus from="2a">p. 4</locus>, from <quote>חמור בר חמור</quote> (ed. fol. 5a, l. 4 from end of Hal. v) to <quote>שהוא ראויה</quote> (fol. 5b, l. 16 from below),</p>
                            <p>with variations from the edition: see Dr. Lewy in Jahresbericht des jüdisch-theologischen Seminars, Fränckel'scher Stiftung, p. 20, note 1 (Breslau, 1895).</p>
                            <p>ed., with facsimiles, by P. Kokovtsov in the Zap. Vost. Otd. Imp. Russk. Arch. Obshch. vol. xi. pp. 195 sqq. (St. Petersburg, 1898).</p>
                         </note>
                      </msItem>
                      <msItem xml:id="MS_Georg_c_1_P-item1-item2">
                         <title>Palimpsest of Jeremiah chap. viii</title>
-                        <note>in Georgian, (<date calendar="#Gregorian" notBefore="0800" notAfter="0900">9th century</date>, or perhaps earlier, according to Mr.<persName type="ment">F. C. Conybeare</persName>).</note>
+                        <note>in Georgian, (<date calendar="#Gregorian" notBefore="0800" notAfter="0900">9th century</date>, or perhaps earlier, according to Mr. <persName type="ment">F. C. Conybeare</persName>).</note>
                      </msItem>
                      <textLang mainLang="he" otherLangs="ka"/>
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                  <p>Syr. Rabb. char.; 4to, <material>vellum</material>.</p>
                </physDesc>
                <history>
                   <origin>
@@ -81,10 +81,10 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p027a.jpg">No. 2672</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p027a.jpg">No. 2672</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -94,7 +94,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -119,7 +119,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-07-30">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

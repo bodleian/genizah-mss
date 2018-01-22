@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_56">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 48.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p012a.jpg">No. 2612</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p012a.jpg">No. 2612</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -70,20 +70,20 @@
                         <locus from="1a" to="2b"/>
                         <title>Genesis, Exodus</title>
                         <msItem xml:id="MS_Heb_d_29-part1-item1-item1" n="a">
-                           <p>(<locus from="1a" to="1b">fol. 1</locus>)<title>Genesis</title>xlix. 5 (מכרתיהם) to<title>Exodus</title>i. 7 (ובני)</p>
+                           <p>(<locus from="1a" to="1b">fol. 1</locus>) <title>Genesis</title> xlix. 5 (מכרתיהם) to <title>Exodus</title> i. 7 (ובני)</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_29-part1-item1-item2" n="b">
-                           <p>(<locus from="2a" to="2b">fol. 2</locus>)<title>Exodus</title>v. 10 (תבן) to vii. 16 (אלהי)</p>
+                           <p>(<locus from="2a" to="2b">fol. 2</locus>) <title>Exodus</title> v. 10 (תבן) to vii. 16 (אלהי)</p>
                         </msItem>
                         <note>With vowel points and accents.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 2 coll., 4to,<material>vellum</material>, stained.</p>
+                     <p>Span. squ. char.; 2 coll., 4to, <material>vellum</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part2" n="2">
@@ -101,10 +101,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 2 coll., fol. oblong,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; 2 coll., fol. oblong, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part3" n="3">
@@ -131,10 +131,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 2 coll., fol.,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 2 coll., fol., <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part4" n="4">
@@ -158,10 +158,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 2 coll., 4to,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 2 coll., 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part5" n="5">
@@ -179,10 +179,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Kar. (?) squ. char.; 3 coll., fol.,<material>vellum</material>.</p>
+                     <p>Kar. (?) squ. char.; 3 coll., fol., <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part6" n="6">
@@ -196,19 +196,19 @@
                         <locus from="21a" to="22b">Fol. 21</locus>
                         <title>Judges iii. 17 (ועגלון) to iv. 6 (first נפתלי)</title>
                         <note>
-                           <p>On<locus from="21b" to="21b">verso</locus>and<locus from="22a" to="22a">fol. 22</locus>in large characters,<title>Exodus</title>xiii. 10 (<quote>ימימה</quote>) to 16 (<quote>יד</quote>), 2 coll.</p>
+                           <p>On <locus from="21b" to="21b">verso</locus> and <locus from="22a" to="22a">fol. 22</locus> in large characters, <title>Exodus</title> xiii. 10 (<quote>ימימה</quote>) to 16 (<quote>יד</quote>), 2 coll.</p>
                            <p>
-                              <locus from="22b" to="22b">Verso</locus>; scribbling of passages of<title>Genesis and Psalm i</title>;</p>
+                              <locus from="22b" to="22b">Verso</locus>; scribbling of passages of <title>Genesis and Psalm i</title>;</p>
                            <p>all without vowel points.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 4to,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part7" n="4">
@@ -226,10 +226,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 4to,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part8" n="8">
@@ -247,11 +247,11 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 4to,<material>vellum</material>.</p>
-                     <p>Part of the same manuscript as<ref target="MS_Heb_d_79_06">MS. Heb. d. 79, fols. 12-17</ref>.</p>
+                     <p>Span. squ. char.; 4to, <material>vellum</material>.</p>
+                     <p>Part of the same manuscript as <ref target="MS_Heb_d_79_06">MS. Heb. d. 79, fols. 12-17</ref>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part9" n="9">
@@ -269,10 +269,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 2 coll., 4to,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 2 coll., 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part10" n="10">
@@ -296,10 +296,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 2 coll., 4to,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 2 coll., 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part11" n="11">
@@ -319,7 +319,7 @@
                      <p>Very much obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part12" n="12">
@@ -337,10 +337,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char. ; 4to,<material>paper</material>, much injured.</p>
+                     <p>Span. squ. char. ; 4to, <material>paper</material>, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_29-part13" n="13">
@@ -358,10 +358,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Kar. (?) squ. char.; 4to,<material>vellum</material>, written in hemistichs.</p>
+                     <p>Kar. (?) squ. char.; 4to, <material>vellum</material>, written in hemistichs.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -370,7 +370,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -443,7 +443,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-07-09">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

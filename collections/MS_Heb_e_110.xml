@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_110">
    <teiHeader>
       <fileDesc>
@@ -47,30 +47,30 @@
                   <msItem xml:id="MS_Heb_e_110-item1">
                      <locus from="1a" to="8b">Fols. 1-8</locus>
                      <title>Arabic commentary on Lev. 14,17 to 15,12</title>
-                     <note>Fragment of the same manuscript as<ref target="MS_Heb_d_34_11">no. 2680, 11</ref>.<p>At the beginning are bound in:</p>
+                     <note>Fragment of the same manuscript as <ref target="MS_Heb_d_34_11">no. 2680, 11</ref>. <p>At the beginning are bound in:</p>
                         <p>
-                           <locus from="extra_2">(a)</locus>a note by<persName>G. Maspero</persName>on the contents of the fragment;</p>
+                           <locus from="extra_2">(a)</locus> a note by <persName>G. Maspero</persName> on the contents of the fragment;</p>
                         <p>
-                           <locus from="extra_1">(b)</locus>a letter from<persName>F.Ll. Griffith</persName>on the provenance of it.</p>
+                           <locus from="extra_1">(b)</locus> a letter from <persName>F.Ll. Griffith</persName> on the provenance of it.</p>
                      </note>
                      <textLang mainLang="jrb"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>8 folios.</p>
-                  <p>Syr. Rabb. char.;<material>paper</material>, 7 1/2 x 5 3/8 in., about 35 lines; much injured.</p>
-                  <p>Fragment of the same manuscript as<ref target="MS_Heb_d_34_11">no. 2680, 11</ref>.</p>
+                  <p>Syr. Rabb. char.; <material>paper</material>, 7 1/2 x 5 3/8 in., about 35 lines; much injured.</p>
+                  <p>Fragment of the same manuscript as <ref target="MS_Heb_d_34_11">no. 2680, 11</ref>.</p>
                </physDesc>
                <history>
-                  <acquisition>Given (through<persName>F.Ll. Griffith</persName>) in<date calendar="#Gregorian" when="1911">1911</date>by<persName>G.W. Murray</persName>, who obtained them in the Fayum. Probably from the Genizah as no.<ref target="MS_Heb_d_34_11">2680, 11</ref>.</acquisition>
+                  <acquisition>Given (through <persName>F.Ll. Griffith</persName>) in <date calendar="#Gregorian" when="1911">1911</date> by <persName>G.W. Murray</persName>, who obtained them in the Fayum. Probably from the Genizah as no. <ref target="MS_Heb_d_34_11">2680, 11</ref>.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p078.jpg">fol. 78</ref>.</source>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p078.jpg">fol. 78</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -80,7 +80,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="TYPED">
-               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -90,7 +90,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-07-01">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

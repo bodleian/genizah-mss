@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_74">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 48.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p012b.jpg Catalogue-1_p013a.jpg">No. 2615</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p012b.jpg Catalogue-1_p013a.jpg">No. 2615</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -74,10 +74,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part2" n="2">
@@ -95,10 +95,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen squ. char.; 4to,<material>vellum</material>.</p>
+                     <p>Yemen squ. char.; 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part3" n="3">
@@ -122,10 +122,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen squ. char.; 4to,<material>vellum</material>, partly obliterated.</p>
+                     <p>Yemen squ. char.; 4to, <material>vellum</material>, partly obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part4" n="4">
@@ -161,10 +161,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 2 coll., 4to,<material>vellum</material>, some obliterated.</p>
+                     <p>Syr. squ. char.; 2 coll., 4to, <material>vellum</material>, some obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part5" n="5">
@@ -188,17 +188,17 @@
                         </msItem>
                         <msItem xml:id="MS_Heb_d_49-part5-item1-item2" n="β">
                            <title>Ezekiel with Targum</title>
-                           <note>(<locus from="17a" to="18b">fol. 17</locus>) Ezekiel xvi. 20, Targum<quote type="head">קדמי כנישתא</quote>, to xvii. 15 (אלה)</note>
+                           <note>(<locus from="17a" to="18b">fol. 17</locus>) Ezekiel xvi. 20, Targum <quote type="head">קדמי כנישתא</quote>, to xvii. 15 (אלה)</note>
                         </msItem>
                         <note>Each verse is followed by the Targum, with superlinear punctuation for text and Targum.</note>
                         <textLang mainLang="he" otherLangs="arc"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. char.; small fol.,<material>vellum</material>.</p>
+                     <p>Yemen Rabb. char.; small fol., <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part6" n="6">
@@ -216,10 +216,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 2 coll., 4to,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 2 coll., 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part7" n="7">
@@ -237,10 +237,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Greco-Germ. squ. char.; 2 coll., 4to,<material>vellum</material>.</p>
+                     <p>Greco-Germ. squ. char.; 2 coll., 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part8" n="8">
@@ -264,10 +264,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 4to,<material>vellum</material>, written in hemistichs.</p>
+                     <p>Span. squ. char.; 4to, <material>vellum</material>, written in hemistichs.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part9" n="9">
@@ -285,10 +285,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 2 coll., 4to,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 2 coll., 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part10" n="10">
@@ -306,10 +306,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 8vo oblong,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 8vo oblong, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part11" n="11">
@@ -327,10 +327,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 4to,<material>vellum</material>, written in hemistichs.</p>
+                     <p>Syr. squ. char.; 4to, <material>vellum</material>, written in hemistichs.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part12" n="12">
@@ -348,10 +348,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.; 2 coll., 4to,<material>vellum</material>.</p>
+                     <p>Span. squ. char.; 2 coll., 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part13" n="13">
@@ -369,10 +369,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part14" n="14">
@@ -390,7 +390,7 @@
                            <title>Esther ix. 28 to end</title>
                            <note>with vowel points and accents.</note>
                            <note>
-                              <p>At end<quote>חזק ונתחזקה ב̇ ה̇ ל̇ כ̇ ו̇ א̇ ע̇ י̇: אני שבתי בריבי אליא מכרתי החומש עם חמש מגלותיו ל ר̇ מיכ[אל] שטפילש שהוא ממקום אטליא מ .... בשלשה דינרים כירַטַא שיולי[ך] אותו לבן אחיו מ̇ יהודה בן מ̇ שבתי המקום יזכהו ללמוד א...</quote>injured</p>
+                              <p>At end <quote>חזק ונתחזקה ב̇ ה̇ ל̇ כ̇ ו̇ א̇ ע̇ י̇: אני שבתי בריבי אליא מכרתי החומש עם חמש מגלותיו ל ר̇ מיכ[אל] שטפילש שהוא ממקום אטליא מ .... בשלשה דינרים כירַטַא שיולי[ך] אותו לבן אחיו מ̇ יהודה בן מ̇ שבתי המקום יזכהו ללמוד א...</quote> injured</p>
                            </note>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_49-part14-item1-item2" n="b">
@@ -399,17 +399,17 @@
                            <note>beg. נשמת and ברכות</note>
                            <note>
                               <p>
-                                 <locus from="34b" to="34b">fol. 34b</locus>blank.</p>
+                                 <locus from="34b" to="34b">fol. 34b</locus> blank.</p>
                            </note>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Greco-Ital. squ. curs. char.; 2 coll., 4to,<material>vellum</material>.</p>
+                     <p>Greco-Ital. squ. curs. char.; 2 coll., 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part15" n="15">
@@ -433,10 +433,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part16" n="16">
@@ -460,10 +460,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 2 coll., 8vo,<material>vellum</material>, slightly injured.</p>
+                     <p>Syr. squ. char.; 2 coll., 8vo, <material>vellum</material>, slightly injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part17" n="17">
@@ -477,20 +477,20 @@
                         <locus from="39a" to="44b"/>
                         <title>Haftaroth</title>
                         <msItem xml:id="MS_Heb_d_49-part17-item1-item1" n="a">
-                           <p>(<locus from="39a" to="41b">fol. 39</locus>) for section כי תבא, beg. with end of the Targum of<title>Joshua</title>viii. 32, continuing with Hebrew text, and after each verse the<title>Targum</title>
+                           <p>(<locus from="39a" to="41b">fol. 39</locus>) for section כי תבא, beg. with end of the Targum of <title>Joshua</title> viii. 32, continuing with Hebrew text, and after each verse the <title>Targum</title>
                            </p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_49-part17-item1-item2" n="b">
-                           <p>(<locus from="42a" to="44b">fol. 42</locus>) for section נצבים,<title>Joshua</title>xxiv incomplete, fin. with the Hebrew text אם את (ver. 15).</p>
+                           <p>(<locus from="42a" to="44b">fol. 42</locus>) for section נצבים, <title>Joshua</title> xxiv incomplete, fin. with the Hebrew text אם את (ver. 15).</p>
                         </msItem>
                         <textLang mainLang="he" otherLangs="arc"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; large 8vo,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; large 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part18" n="18">
@@ -503,22 +503,22 @@
                      <msItem xml:id="MS_Heb_d_49-part18-item1">
                         <locus from="45a" to="45b"/>
                         <title>Haftaroth</title>
-                        <note>according to the triennial rite (see No.<ref target="MS_Heb_d_37_19_A MS_Heb_d_37_19_B MS_Heb_d_37_19_C MS_Heb_d_37_19_D">2603, 19</ref>)</note>
+                        <note>according to the triennial rite (see No. <ref target="MS_Heb_d_37_19_A MS_Heb_d_37_19_B MS_Heb_d_37_19_C MS_Heb_d_37_19_D">2603, 19</ref>)</note>
                         <msItem xml:id="MS_Heb_d_49-part18-item1-item1" n="a">
-                           <p>(<locus from="45a" to="45a">fol. 45</locus>)<title>Targum of Isaiah</title>(the Hebrew only indicated) li to ver. 6 (beg. missing), for Seder את אלהים אני ירא (Gen. xlii. 18)</p>
+                           <p>(<locus from="45a" to="45a">fol. 45</locus>) <title>Targum of Isaiah</title> (the Hebrew only indicated) li to ver. 6 (beg. missing), for Seder את אלהים אני ירא (Gen. xlii. 18)</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_49-part18-item1-item2" n="b">
-                           <p>(<locus from="45b" to="45b">fol. 45b</locus>)<title>Jeremiah</title>xlii. 12 to 16 (incomplete), for Seder ואל שדי (Gen. xliii. 14)</p>
+                           <p>(<locus from="45b" to="45b">fol. 45b</locus>) <title>Jeremiah</title> xlii. 12 to 16 (incomplete), for Seder ואל שדי (Gen. xliii. 14)</p>
                         </msItem>
-                        <note>Both Haftaroth have only the beg. of the verses of the Hebrew text, but the Targum completely, with vowel points for the Targum.is headed<quote type="head">ואל שדי יתן בירמיה</quote>.</note>
+                        <note>Both Haftaroth have only the beg. of the verses of the Hebrew text, but the Targum completely, with vowel points for the Targum.is headed <quote type="head">ואל שדי יתן בירמיה</quote>.</note>
                         <textLang mainLang="arc" otherLangs="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part19" n="19">
@@ -531,16 +531,16 @@
                      <msItem xml:id="MS_Heb_d_49-part19-item1">
                         <locus from="46a" to="46b">Fol. 46</locus>
                         <title>From a Karaitic prayer-book ?</title>
-                        <note>Beg. missing, Isaiah xxii. 20 (וקראתי) to 24. Next comes Jeremiah li. 50 and 51, followed by lii. 1 to 11 (בבלה), incomplete, headed<quote type="head">מחזונה בירמיה</quote>, probably from a Karaitic prayer-book.<p>The texts are provided with vowel points and accents; the letters רפי are provided with a line above.</p>
+                        <note>Beg. missing, Isaiah xxii. 20 (וקראתי) to 24. Next comes Jeremiah li. 50 and 51, followed by lii. 1 to 11 (בבלה), incomplete, headed <quote type="head">מחזונה בירמיה</quote>, probably from a Karaitic prayer-book. <p>The texts are provided with vowel points and accents; the letters רפי are provided with a line above.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Kar. Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Kar. Syr. squ. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_49-part20" n="20">
@@ -563,10 +563,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -575,7 +575,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -704,7 +704,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-02-19">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

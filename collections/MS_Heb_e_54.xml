@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_141">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 106.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p050a.jpg">No. 2744</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p050a.jpg">No. 2744</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -70,22 +70,22 @@
                         <locus from="1a" to="2b"/>
                         <title>Liturgies (<quote type="head">פזמון</quote>)</title>
                         <msItem xml:id="MS_Heb_e_54-part1-item1-item1" n="a">
-                           <p>beg. missing, first complete sentence is<quote>פז̇ שיחו מלאכי אל אשר מצא עבדו. כי ליל גלותו וארך גלמודו ומשל איש זר בו. ונסעו מצדו</quote>;</p>
+                           <p>beg. missing, first complete sentence is <quote>פז̇ שיחו מלאכי אל אשר מצא עבדו. כי ליל גלותו וארך גלמודו ומשל איש זר בו. ונסעו מצדו</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_54-part1-item1-item2" n="b">
-                           <p>(<locus from="1b">fol. 1b</locus>) headed<quote type="head">סליחה לר̇ יוסף</quote>, beg.<quote type="beg">בצר לי אקרא צור בכל מאד ובכל כח</quote>acr.<quote type="acr">יוס[ף]</quote>, incomplete;</p>
+                           <p>(<locus from="1b">fol. 1b</locus>) headed <quote type="head">סליחה לר̇ יוסף</quote>, beg. <quote type="beg">בצר לי אקרא צור בכל מאד ובכל כח</quote> acr. <quote type="acr">יוס[ף]</quote>, incomplete;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_54-part1-item1-item3" n="c">
-                           <p>(<locus from="2a">fol. 2</locus>)<quote type="beg">רדפני צר ואויב</quote>, end missing.</p>
+                           <p>(<locus from="2a">fol. 2</locus>) <quote type="beg">רדפני צר ואויב</quote>, end missing.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part2" n="2">
@@ -98,15 +98,15 @@
                      <msItem xml:id="MS_Heb_e_54-part2-item1">
                         <locus from="3a" to="12b">Fol. 3</locus>
                         <title>Liturgy</title>
-                        <note>beg. and end missing: beg.<quote type="beg">וכך אמר בתפלתו וג̇ סררתה רבתי ישבה בדד כי העיזה מצח</quote>.</note>
+                        <note>beg. and end missing: beg. <quote type="beg">וכך אמר בתפלתו וג̇ סררתה רבתי ישבה בדד כי העיזה מצח</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part3" n="3">
@@ -119,15 +119,15 @@
                      <msItem xml:id="MS_Heb_e_54-part3-item1">
                         <locus from="13a" to="27b">Fol. 13</locus>
                         <title>Fragments of liturgies</title>
-                        <note>beg. and end missing:<locus from="14b">fol. 14b</locus>beg.<quote type="beg">רשות ביאור דברי נכוחות</quote>.</note>
+                        <note>beg. and end missing: <locus from="14b">fol. 14b</locus> beg. <quote type="beg">רשות ביאור דברי נכוחות</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part4" n="4">
@@ -139,16 +139,16 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_54-part4-item1">
                         <locus from="28a" to="29b">Fol. 28</locus>
-                        <title>A few lines of<persName>Seadiah</persName>’s siddur</title>
-                        <note>on ff.<locus from="28b">28b</locus>and<locus from="29b">29b</locus>in large characters,<quote type="head">צלאתין רבינו סְעַדְיָה ב̇י̇ר̇ יוסף ז̇כ̇ל̇</quote>.</note>
+                        <title>A few lines of <persName>Seadiah</persName> ’s siddur</title>
+                        <note>on ff. <locus from="28b">28b</locus> and <locus from="29b">29b</locus> in large characters, <quote type="head">צלאתין רבינו סְעַדְיָה ב̇י̇ר̇ יוסף ז̇כ̇ל̇</quote>.</note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part5" n="5">
@@ -161,15 +161,15 @@
                      <msItem xml:id="MS_Heb_e_54-part5-item1">
                         <locus from="30a" to="37b">Fol. 30</locus>
                         <title>Various short liturgical pieces for ש̇ע̇</title>
-                        <note>marked with<quote type="head">לחן</quote>, etc.</note>
+                        <note>marked with <quote type="head">לחן</quote>, etc.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part6" n="6">
@@ -184,22 +184,22 @@
                         <title>Liturgies</title>
                         <note>beg. missing</note>
                         <msItem xml:id="MS_Heb_e_54-part6-item1-item1" n="a">
-                           <p>(<locus from="39b">fol. 39b</locus>)<quote type="head">מי כמוכה</quote>, beg.<quote type="beg">אדיר בסוד קדושים</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="39b">fol. 39b</locus>) <quote type="head">מי כמוכה</quote>, beg. <quote type="beg">אדיר בסוד קדושים</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_54-part6-item1-item2" n="b">
-                           <p>(<locus from="41b">fol. 41b</locus>)<quote type="head">יוצר</quote>, beg.<quote type="beg">שיבצתה קדם חרותי</quote>;</p>
+                           <p>(<locus from="41b">fol. 41b</locus>) <quote type="head">יוצר</quote>, beg. <quote type="beg">שיבצתה קדם חרותי</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_54-part6-item1-item3" n="c">
-                           <p>(<locus from="42b">fol. 42</locus>)<quote type="head">זולת</quote>, beg.<quote type="beg">ויוסף תגמוליו גומר</quote>.</p>
+                           <p>(<locus from="42b">fol. 42</locus>) <quote type="head">זולת</quote>, beg. <quote type="beg">ויוסף תגמוליו גומר</quote>.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part7" n="7">
@@ -213,22 +213,22 @@
                         <locus from="44a" to="45b"/>
                         <title>Liturgical</title>
                         <msItem xml:id="MS_Heb_e_54-part7-item1-item1" n="a">
-                           <p>(<locus from="44a">fol. 44</locus>) headed<quote type="head">יוצרר אחד</quote>, beg.<quote type="beg">בעונג אֿימצת לעדת</quote>, (א̇ב̇ to ט);</p>
+                           <p>(<locus from="44a">fol. 44</locus>) headed <quote type="head">יוצרר אחד</quote>, beg. <quote type="beg">בעונג אֿימצת לעדת</quote>, (א̇ב̇ to ט);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_54-part7-item1-item2" n="b">
-                           <p>(<locus from="44b">fol. 44b</locus>)<quote type="head">יוצר</quote>, beg.<quote type="beg">אאמיר לאל נכבד</quote>, (א̇ב̇ to ל);</p>
+                           <p>(<locus from="44b">fol. 44b</locus>) <quote type="head">יוצר</quote>, beg. <quote type="beg">אאמיר לאל נכבד</quote>, (א̇ב̇ to ל);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_54-part7-item1-item3" n="c">
-                           <p>(<locus from="45a">fol. 45</locus>) headed<quote type="head">גירה</quote>, beg.<quote type="beg">יום שבתון אין לשכוח</quote>, acr.<quote type="acr">יהודה</quote>(Zunz, p. 565).</p>
+                           <p>(<locus from="45a">fol. 45</locus>) headed <quote type="head">גירה</quote>, beg. <quote type="beg">יום שבתון אין לשכוח</quote>, acr. <quote type="acr">יהודה</quote> (Zunz, p. 565).</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part8" n="8">
@@ -241,15 +241,15 @@
                      <msItem xml:id="MS_Heb_e_54-part8-item1">
                         <locus from="46a" to="47b">Fol. 46</locus>
                         <title>The end of אזהרות</title>
-                        <note>end<quote type="end">שובבנו לגבולינו. מהרה התר עולינו. ונשוררך בשלוש פעמי רגלינו ככתוב ...</quote>.</note>
+                        <note>end <quote type="end">שובבנו לגבולינו. מהרה התר עולינו. ונשוררך בשלוש פעמי רגלינו ככתוב ...</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part9" n="9">
@@ -262,15 +262,15 @@
                      <msItem xml:id="MS_Heb_e_54-part9-item1">
                         <locus from="48a" to="48b">Fol. 48</locus>
                         <title>Fragment of a liturgy for פסח</title>
-                        <note>beg.<quote type="beg">ישקני מה גדלו גודל</quote>.</note>
+                        <note>beg. <quote type="beg">ישקני מה גדלו גודל</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part10" n="10">
@@ -283,15 +283,15 @@
                      <msItem xml:id="MS_Heb_e_54-part10-item1">
                         <locus from="49a" to="62b">Fol. 49</locus>
                         <title>The ritual for פסח night</title>
-                        <note>headed<quote type="head">סדר העשייה בלילי הפסח וכך הוא</quote>, containing the הגדה according to the Yemen rite, ending with נשמת.</note>
+                        <note>headed <quote type="head">סדר העשייה בלילי הפסח וכך הוא</quote>, containing the הגדה according to the Yemen rite, ending with נשמת.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part11" n="11">
@@ -303,17 +303,17 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_54-part11-item1">
                         <locus from="63b" to="63b">Fol. 63b</locus>
-                        <title>Liturgy for<quote>חודש וחנוכה</quote>
+                        <title>Liturgy for <quote>חודש וחנוכה</quote>
                         </title>
-                        <note>beg.<quote type="beg">חדש אוהל בת ציון</quote>.</note>
+                        <note>beg. <quote type="beg">חדש אוהל בת ציון</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part12" n="12">
@@ -326,15 +326,15 @@
                      <msItem xml:id="MS_Heb_e_54-part12-item1">
                         <locus from="64a" to="65b">Fol. 64</locus>
                         <title>A chapter on the tonic accents</title>
-                        <note>headed<quote type="head">פצל פי אלכלאם עלי אלאתני עשר לחן</quote>, beg.<quote type="beg">אלפזר פי אלואחד ועשרין ספר עלי צ̇רבין</quote>.</note>
+                        <note>headed <quote type="head">פצל פי אלכלאם עלי אלאתני עשר לחן</quote>, beg. <quote type="beg">אלפזר פי אלואחד ועשרין ספר עלי צ̇רבין</quote>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part13" n="13">
@@ -351,10 +351,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part14" n="14">
@@ -371,10 +371,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part15" n="15">
@@ -387,16 +387,16 @@
                      <msItem xml:id="MS_Heb_e_54-part15-item1">
                         <locus from="77a" to="80b">Fol. 77</locus>
                         <title>
-                           <persName>Alfasi</persName>on חולין, chapter viii</title>
+                           <persName>Alfasi</persName> on חולין, chapter viii</title>
                         <note>beginning missing.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_54-part16" n="16">
@@ -409,15 +409,15 @@
                      <msItem xml:id="MS_Heb_e_54-part16-item1">
                         <locus from="81a" to="106b">Fol. 81</locus>
                         <title>Agadic passages and notes</title>
-                        <note>(<locus from="84b" to="86b">fol. 84b</locus>one on the throne of Solomon, in Arabic), by modern hands.</note>
+                        <note>(<locus from="84b" to="86b">fol. 84b</locus> one on the throne of Solomon, in Arabic), by modern hands.</note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo,<material>paper</material>.</p>
+                     <p>Yemen Rabb. and curs. char., partly obliterated; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -426,7 +426,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -515,7 +515,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-03-16">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

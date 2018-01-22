@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_59">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 70.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p052a.jpg Catalogue-1_p052b.jpg">No. 2755</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p052a.jpg Catalogue-1_p052b.jpg">No. 2755</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -69,7 +69,7 @@
                      <msItem xml:id="MS_Heb_d_33-part1-item1">
                         <locus from="1a" to="2b">Fol. 1</locus>
                         <title>The great Masorah on 1 Kings ix. 6 (חקתי) to 2 Kings xi. 18 (מזבחתו)</title>
-                        <note>headed<quote type="head">בעץ̇ מן מלכים</quote>, not identical with the printed text;<p>followed (<locus from="1b">fol. 1b</locus>) by a list of the authors of the several books as in Babylonian Talmud Baba bathra 14b.</p>
+                        <note>headed <quote type="head">בעץ̇ מן מלכים</quote>, not identical with the printed text; <p>followed (<locus from="1b">fol. 1b</locus>) by a list of the authors of the several books as in Babylonian Talmud Baba bathra 14b.</p>
                            <p>Next comes the Masorah to Joshua i. 1;</p>
                            <p>
                               <locus from="2a">fol. 2</locus>, Masorah on Joshua xix. 18 to xxi. 4.</p>
@@ -78,10 +78,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; large 8vo,<material>vellum</material>.</p>
+                     <p>Syr. Rabb. char.; large 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part2" n="2">
@@ -94,17 +94,17 @@
                      <msItem xml:id="MS_Heb_d_33-part2-item1">
                         <locus from="3b" to="7b">Fol. 3b</locus>
                         <title>Masoretic chapter on Psalms</title>
-                        <note>beginning<quote type="beg">בעשרה דברים נאמר ספר תלים</quote>; then follows the enumeration of the פתוחות and סתומות of the Psalms;<p>
-                              <locus from="6b">fol. 6b</locus>headed<quote type="head">סדרי תלין</quote>, followed by other notes in which<quote>מחזורא רובא</quote>is mentioned in opposition to<quote>טבריה</quote>and R.<persName>Phinehas ראש הישיבה</persName>.</p>
+                        <note>beginning <quote type="beg">בעשרה דברים נאמר ספר תלים</quote>; then follows the enumeration of the פתוחות and סתומות of the Psalms; <p>
+                              <locus from="6b">fol. 6b</locus> headed <quote type="head">סדרי תלין</quote>, followed by other notes in which <quote>מחזורא רובא</quote> is mentioned in opposition to <quote>טבריה</quote> and R. <persName>Phinehas ראש הישיבה</persName>.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; 12mo,<material>vellum</material>.</p>
+                     <p>Syr. squ. Rabb. char.; 12mo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part3" n="3">
@@ -118,7 +118,7 @@
                         <locus from="8a" to="9b"/>
                         <title>Masorah</title>
                         <msItem xml:id="MS_Heb_d_33-part3-item1-item1" n="a">
-                           <p>(<locus from="8b">fol. 8b</locus>) another Masoretic chapter, headed<quote type="head">אילו הפסקיות פתוחות וסתומות וסדורות שבתורה</quote>, on Genesis i to xxxv. 23;</p>
+                           <p>(<locus from="8b">fol. 8b</locus>) another Masoretic chapter, headed <quote type="head">אילו הפסקיות פתוחות וסתומות וסדורות שבתורה</quote>, on Genesis i to xxxv. 23;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_33-part3-item1-item2" n="b">
                            <p>(<locus from="9a">fol. 9</locus>) the Masorah finals beginning with words ending in (<quote>אלהים דיהי מארת</quote>) ם to (<quote>ואל רשעו</quote>) ע, not as in the printed text.</p>
@@ -127,10 +127,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; oblong,<material>vellum</material>.</p>
+                     <p>Syr. squ. Rabb. char.; oblong, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part4" n="4">
@@ -156,10 +156,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; small 4to,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; small 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part5" n="5">
@@ -177,10 +177,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; small 4to,<material>vellum</material>, stained.</p>
+                     <p>Syr. squ. Rabb. char.; small 4to, <material>vellum</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part6" n="6">
@@ -196,7 +196,7 @@
                         <msItem xml:id="MS_Heb_d_33-part6-item1-item1" n="a">
                            <locus from="14a">fol. 14</locus>
                            <title>Masoretic chapter enumerating the cases in which ירד is used with על, and הלך with על</title>
-                           <note>followed by<quote>כמל גמיע מא ינבגי כתאבתה פי אול ספר ואלה שמות ואלדי יתלו דלך מן מאסרה וכלף בן אשר ובן נפתלי וקרי וכת̇ פי אכרה</quote>;</note>
+                           <note>followed by <quote>כמל גמיע מא ינבגי כתאבתה פי אול ספר ואלה שמות ואלדי יתלו דלך מן מאסרה וכלף בן אשר ובן נפתלי וקרי וכת̇ פי אכרה</quote>;</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_33-part6-item1-item2" n="b">
                            <locus from="14b">fol. 14b</locus>
@@ -210,10 +210,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part7" n="7">
@@ -229,7 +229,7 @@
                         <msItem xml:id="MS_Heb_d_33-part7-item1-item1" n="a">
                            <locus from="16a">(fol. 16)</locus>
                            <title>fragment of an Arabic treatise on dagesh and some of the accents</title>
-                           <note>ending<quote type="end">תמת שרוט אלא̇ו̇י̇ה̇ ואלב̇ג̇ד̇כ̇פ̇ת̇</quote>;</note>
+                           <note>ending <quote type="end">תמת שרוט אלא̇ו̇י̇ה̇ ואלב̇ג̇ד̇כ̇פ̇ת̇</quote>;</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_33-part7-item1-item2" n="b">
                            <locus from="17a">(fol. 17)</locus>
@@ -239,10 +239,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; 4to,<material>vellum</material>, injured and stained.</p>
+                     <p>Syr. squ. Rabb. char.; 4to, <material>vellum</material>, injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part8" n="8">
@@ -265,10 +265,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; small 4to,<material>vellum</material>, injured and stained.</p>
+                     <p>Syr. Rabb. char.; small 4to, <material>vellum</material>, injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part9" n="9">
@@ -281,16 +281,16 @@
                      <msItem xml:id="MS_Heb_d_33-part9-item1">
                         <locus from="20a" to="36b">Fol. 20</locus>
                         <title>Fragment of a grammatical treatise in Arabic</title>
-                        <note>on the plural and dual, on the particles, their use and meaning, on the gender of the substantive, and on the numerals.<p>On<locus from="20b">fol. 20b</locus>a chapter is headed<quote type="head">באב פי אלכואדם אלדי יסמוהא חרוף</quote>, beg.<quote>איצ̇א. אעלם אן אלכואדם פיהא מא יתצל אלצ̇מאיר בה ופיהא מא לא יתצל בה צ̇מיר. ופיהא מא הו מן לגה תתצרף...</quote>.</p>
+                        <note>on the plural and dual, on the particles, their use and meaning, on the gender of the substantive, and on the numerals. <p>On <locus from="20b">fol. 20b</locus> a chapter is headed <quote type="head">באב פי אלכואדם אלדי יסמוהא חרוף</quote>, beg. <quote>איצ̇א. אעלם אן אלכואדם פיהא מא יתצל אלצ̇מאיר בה ופיהא מא לא יתצל בה צ̇מיר. ופיהא מא הו מן לגה תתצרף...</quote>.</p>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. squ. Rabb. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part10" n="10">
@@ -322,10 +322,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. (<locus from="40b" to="40b">fol. 40b</locus>large squ.) char.; 4to,<material>paper</material>, injured.</p>
+                     <p>Yemen Rabb. (<locus from="40b" to="40b">fol. 40b</locus> large squ.) char.; 4to, <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part11" n="11">
@@ -343,10 +343,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. char.; 4to,<material>paper</material>, injured.</p>
+                     <p>Yemen Rabb. char.; 4to, <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part12" n="12">
@@ -363,10 +363,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. char.; 4to,<material>paper</material>, injured.</p>
+                     <p>Yemen Rabb. char.; 4to, <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part13" n="13">
@@ -379,15 +379,15 @@
                      <msItem xml:id="MS_Heb_d_33-part13-item1">
                         <locus from="44a" to="44b">Fol. 44</locus>
                         <title>Masoretic fragment</title>
-                        <note>enumerating the words ending in<quote>תי</quote>,<quote>צל</quote>, etc.</note>
+                        <note>enumerating the words ending in <quote>תי</quote>, <quote>צל</quote>, etc.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. squ. Rabb. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part14" n="14">
@@ -400,15 +400,15 @@
                      <msItem xml:id="MS_Heb_d_33-part14-item1">
                         <locus from="45a" to="48b">Fol. 45</locus>
                         <title>Dictionary to the Bible</title>
-                        <note>beginning<quote type="beg">וכל גוק ישראל אלי אן אנתהו אלי חד מואב ותם אחתאגו אלי אלמא וחפרו אלביר אלתי נשרו עליהא אלשירה</quote>, followed by the explanation of אשד to אשמן.</note>
+                        <note>beginning <quote type="beg">וכל גוק ישראל אלי אן אנתהו אלי חד מואב ותם אחתאגו אלי אלמא וחפרו אלביר אלתי נשרו עליהא אלשירה</quote>, followed by the explanation of אשד to אשמן.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. squ. Rabb. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part15" n="15">
@@ -443,10 +443,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.;<material>vellum</material>, cut.</p>
+                     <p>Syr. squ. Rabb. char.; <material>vellum</material>, cut.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part16" n="16">
@@ -469,10 +469,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 4to,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part17" n="17">
@@ -489,10 +489,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; oblong,<material>vellum</material>.</p>
+                     <p>Syr. Rabb. char.; oblong, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part18" n="18">
@@ -509,10 +509,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; 8vo,<material>vellum</material>, stained.</p>
+                     <p>Syr. squ. Rabb. char.; 8vo, <material>vellum</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part19" n="19">
@@ -529,10 +529,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 4to,<material>vellum</material>.</p>
+                     <p>Syr. Rabb. char.; 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part20" n="20">
@@ -549,10 +549,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; small 4to,<material>vellum</material>.</p>
+                     <p>Syr. Rabb. char.; small 4to, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part21" n="21">
@@ -564,7 +564,7 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_d_33-part21-item1">
                         <locus from="67a" to="68b"/>
-                        <title>Fragment of<persName>Abu 'l-Walid</persName>’s book of roots</title>
+                        <title>Fragment of <persName>Abu 'l-Walid</persName> ’s book of roots</title>
                         <msItem xml:id="MS_Heb_d_33-part21-item1-item1" n="a">
                            <p>(<locus from="67a">fol. 67</locus>) כרה col. 331, line 31 (<quote type="beg">ושרא</quote>) to כתב col. 334, line 30 (<quote type="end">נכתב</quote>) of the Oxford edition;</p>
                         </msItem>
@@ -575,10 +575,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; fol.,<material>vellum</material>.</p>
+                     <p>Syr. curs. char.; fol., <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_33-part22" n="22">
@@ -590,7 +590,7 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_d_33-part22-item1">
                         <locus from="69a" to="70b"/>
-                        <title>Fragment of<persName>Abu'l-Walid</persName>’s book of roots</title>
+                        <title>Fragment of <persName>Abu'l-Walid</persName> ’s book of roots</title>
                         <msItem xml:id="MS_Heb_d_33-part22-item1-item1" n="a">
                            <p>(<locus from="69a">fol. 69</locus>) סכך col. 481, line 4 (<quote type="beg">ולא אסתלחקנאה</quote>) to סלל col. 483, line 25 (<quote type="end">הסוללות</quote>);</p>
                         </msItem>
@@ -601,10 +601,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; fol.,<material>vellum</material>, stained and injured.</p>
+                     <p>Syr. squ. Rabb. char.; fol., <material>vellum</material>, stained and injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -613,7 +613,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -734,7 +734,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-03-17">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

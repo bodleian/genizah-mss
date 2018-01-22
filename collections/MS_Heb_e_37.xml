@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_126">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 103.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p035a.jpg Catalogue-1_p035b.jpg">No. 2710</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p035a.jpg Catalogue-1_p035b.jpg">No. 2710</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -69,16 +69,16 @@
                      <msItem xml:id="MS_Heb_e_37-part1-item1">
                         <locus from="1b" to="10b">Fol. 1b</locus>
                         <title>Liturgical</title>
-                        <note>headed<quote type="head">גשם דר̇ נחמיה</quote>, beg.<quote type="beg">אם ימלאו העבים</quote>, followed by<quote type="beg">אֿנובב נמהרי סבר פני מישרים דובר</quote>(<quote type="head">רשות</quote>);<locus from="3b" to="10b">fol. 3b</locus>
-                           <quote type="beg">אֿלוה בכל ממשלתו</quote>, acr.<quote type="acr">[?נ[חמיה</quote>, incomplete.</note>
+                        <note>headed <quote type="head">גשם דר̇ נחמיה</quote>, beg. <quote type="beg">אם ימלאו העבים</quote>, followed by <quote type="beg">אֿנובב נמהרי סבר פני מישרים דובר</quote> (<quote type="head">רשות</quote>); <locus from="3b" to="10b">fol. 3b</locus>
+                           <quote type="beg">אֿלוה בכל ממשלתו</quote>, acr. <quote type="acr">[?נ[חמיה</quote>, incomplete.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_37-part2" n="2">
@@ -91,32 +91,32 @@
                      <msItem xml:id="MS_Heb_e_37-part2-item1">
                         <locus from="11a" to="18b">Fol. 11</locus>
                         <title>For ר̇ה̇</title>
-                        <note>beg. missing, א̇ב̇, ends<quote type="end">תמוכים בדשן שה עקידה תשר אשר בו נפקדה ככ̇ ויי̇ פקד את שרה</quote>,<p>followed by<quote type="beg">נעלה בדין</quote>;</p>
+                        <note>beg. missing, א̇ב̇, ends <quote type="end">תמוכים בדשן שה עקידה תשר אשר בו נפקדה ככ̇ ויי̇ פקד את שרה</quote>, <p>followed by <quote type="beg">נעלה בדין</quote>;</p>
                            <p>
-                              <quote type="beg">תאלת זו כחפץ</quote>(Zunz, p. 62);</p>
+                              <quote type="beg">תאלת זו כחפץ</quote> (Zunz, p. 62);</p>
                            <p>
-                              <quote type="beg">אֿבן חוג</quote>(ibid.);</p>
+                              <quote type="beg">אֿבן חוג</quote> (ibid.);</p>
                            <p>
                               <quote type="beg">אֿדירי איומה</quote>;</p>
                            <p>
                               <quote type="beg">עד מתי תקצר רוחי</quote>;</p>
                            <p>
-                              <quote type="beg">ילד נתן לי אלי</quote>, acr.<quote type="acr">יה[ו]דה חזק</quote>;</p>
+                              <quote type="beg">ילד נתן לי אלי</quote>, acr. <quote type="acr">יה[ו]דה חזק</quote>;</p>
                            <p>
                               <quote type="beg">אמנם חמש עקרות נעצרו</quote>;</p>
                            <p>
-                              <quote type="beg">אדרת ממלכה על מה הושלכה</quote>(<quote type="head">קיקלר</quote>), Zunz, p. 52;</p>
+                              <quote type="beg">אדרת ממלכה על מה הושלכה</quote> (<quote type="head">קיקלר</quote>), Zunz, p. 52;</p>
                            <p>
-                              <quote type="beg">זבולי חרכה</quote>;<quote type="beg">אֿאפיד נזר איום</quote>, incomplete.</p>
+                              <quote type="beg">זבולי חרכה</quote>; <quote type="beg">אֿאפיד נזר איום</quote>, incomplete.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_37-part3" n="3">
@@ -130,121 +130,121 @@
                         <locus from="19a" to="34b"/>
                         <title>Seliḥoth</title>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item1" n="a">
-                           <p>(<locus from="19a" to="19a">fol. 19</locus>) beg.<quote type="beg">שעה לחש קוראיך וענותם אל תבזה</quote>;</p>
+                           <p>(<locus from="19a" to="19a">fol. 19</locus>) beg. <quote type="beg">שעה לחש קוראיך וענותם אל תבזה</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item2" n="b">
-                           <p>(<locus from="19b" to="19b">fol. 19b</locus>)<quote type="beg">בשערי... אֿתה אמרתה עמי לקרבה</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="19b" to="19b">fol. 19b</locus>) <quote type="beg">בשערי... אֿתה אמרתה עמי לקרבה</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item3" n="c">
-                           <p>(<locus from="19b" to="19b">ibid.</locus>)<quote type="beg">יושעון עבדיך</quote>(Isaac Gayyath, Zunz, p. 412);</p>
+                           <p>(<locus from="19b" to="19b">ibid.</locus>) <quote type="beg">יושעון עבדיך</quote> (Isaac Gayyath, Zunz, p. 412);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item4" n="d">
-                           <p>(<locus from="20a" to="20a">fol. 20</locus>)<quote type="beg">יעזוב רשע</quote>(Zunz, p. 222, 13);</p>
+                           <p>(<locus from="20a" to="20a">fol. 20</locus>) <quote type="beg">יעזוב רשע</quote> (Zunz, p. 222, 13);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item5" n="e">
-                           <p>(<locus from="20b" to="20b">fol. 20b</locus>) beg.<quote type="beg">ידעתי אלהי... אֿנכי החוטא</quote>, (א̇ב̇ and acr.<quote type="acr">יצחק</quote>);</p>
+                           <p>(<locus from="20b" to="20b">fol. 20b</locus>) beg. <quote type="beg">ידעתי אלהי... אֿנכי החוטא</quote>, (א̇ב̇ and acr. <quote type="acr">יצחק</quote>);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item6" n="f">
-                           <p>(<locus from="21a" to="21a">fol. 21</locus>)<quote type="beg">מי כמכה... אֿלה קצות דרכיו</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="21a" to="21a">fol. 21</locus>) <quote type="beg">מי כמכה... אֿלה קצות דרכיו</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item7" n="g">
-                           <p>(<locus from="21b" to="21b">fol. 21b</locus>)<quote type="beg">נותן זמירות... אֿני אל אל גבור</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="21b" to="21b">fol. 21b</locus>) <quote type="beg">נותן זמירות... אֿני אל אל גבור</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item8" n="h">
-                           <p>(<locus from="21b" to="21b">ibid.</locus>)<quote type="beg">יוי שמע נא את קולנו</quote>;</p>
+                           <p>(<locus from="21b" to="21b">ibid.</locus>) <quote type="beg">יוי שמע נא את קולנו</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item9" n="i">
-                           <p>(<locus from="22a" to="22b">fol. 22</locus>)<quote type="beg">יושעון קהליך העומדים בלילות</quote>(acr.<quote type="acr">יצחק</quote>);</p>
+                           <p>(<locus from="22a" to="22b">fol. 22</locus>) <quote type="beg">יושעון קהליך העומדים בלילות</quote> (acr. <quote type="acr">יצחק</quote>);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item10" n="k">
-                           <p>(<locus from="23a" to="23a">fol. 23</locus>)<quote type="beg">ותחת כל גביר</quote>;</p>
+                           <p>(<locus from="23a" to="23a">fol. 23</locus>) <quote type="beg">ותחת כל גביר</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item11" n="l">
-                           <p>(<locus from="23a" to="23a">ibid.</locus>)<quote type="beg">מוסד מכיל עולם ומקום לא יכילנו</quote>;</p>
+                           <p>(<locus from="23a" to="23a">ibid.</locus>) <quote type="beg">מוסד מכיל עולם ומקום לא יכילנו</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item12" n="m">
-                           <p>(<locus from="23b" to="23b">fol. 23b</locus>)<quote type="beg">אשר נטה שחקים</quote>(Zunz, p. 270, 7, but fuller);</p>
+                           <p>(<locus from="23b" to="23b">fol. 23b</locus>) <quote type="beg">אשר נטה שחקים</quote> (Zunz, p. 270, 7, but fuller);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item13" n="n">
-                           <p>(<locus from="24a" to="24a">fol. 24</locus>)<quote type="beg">יעור לבבי ממערכו לתת</quote>(acr.<quote type="acr">יצחק ברב שמואל</quote>);</p>
+                           <p>(<locus from="24a" to="24a">fol. 24</locus>) <quote type="beg">יעור לבבי ממערכו לתת</quote> (acr. <quote type="acr">יצחק ברב שמואל</quote>);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item14" n="o">
-                           <p>(<locus from="24b" to="24b">fol. 24b</locus>)<quote type="beg">שני חיי ומאויי</quote>(Gabirol, Zunz, p. 412);</p>
+                           <p>(<locus from="24b" to="24b">fol. 24b</locus>) <quote type="beg">שני חיי ומאויי</quote> (Gabirol, Zunz, p. 412);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item15" n="p">
-                           <p>(<locus from="24b" to="24b">ibid.</locus>)<quote type="beg">אין לנו פה להשיב ולא לשאת לך פנים</quote>(Zunz, p. 224);</p>
+                           <p>(<locus from="24b" to="24b">ibid.</locus>) <quote type="beg">אין לנו פה להשיב ולא לשאת לך פנים</quote> (Zunz, p. 224);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item16" n="q">
-                           <p>(<locus from="25a" to="25a">fol. 25</locus>)<quote type="beg">אנא יי אנא התרצה</quote>;</p>
+                           <p>(<locus from="25a" to="25a">fol. 25</locus>) <quote type="beg">אנא יי אנא התרצה</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item17" n="r">
-                           <p>(<locus from="25b" to="25b">fol. 25b</locus>)<quote type="beg">שלומי עליון ישיני מכפלה</quote>(Zunz, p. 408, 27);</p>
+                           <p>(<locus from="25b" to="25b">fol. 25b</locus>) <quote type="beg">שלומי עליון ישיני מכפלה</quote> (Zunz, p. 408, 27);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item18" n="s">
-                           <p>(<locus from="25b" to="25b">ibid.</locus>)<quote type="beg">ישראל למטה מקדישים לאל</quote>;</p>
+                           <p>(<locus from="25b" to="25b">ibid.</locus>) <quote type="beg">ישראל למטה מקדישים לאל</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item19" n="t">
-                           <p>(<locus from="26a" to="26a">fol. 26</locus>)<quote type="beg">יד תתיר לבן מעתיר בבית קדשך</quote>;</p>
+                           <p>(<locus from="26a" to="26a">fol. 26</locus>) <quote type="beg">יד תתיר לבן מעתיר בבית קדשך</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item20" n="u">
-                           <p>(<locus from="26b" to="26b">fol. 26b</locus>)<quote type="beg">מה רבו פלאיך ועצמו מוראיך... יושב עד וחונה</quote>(acr.<quote type="acr">יצחק</quote>);</p>
+                           <p>(<locus from="26b" to="26b">fol. 26b</locus>) <quote type="beg">מה רבו פלאיך ועצמו מוראיך... יושב עד וחונה</quote> (acr. <quote type="acr">יצחק</quote>);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item21" n="v">
-                           <p>(<locus from="26b" to="26b">ibid.</locus>)<quote type="beg">יודוך עם זה... אֿזון אנקת עמך</quote>, (א̇ב̇), acr.<quote type="acr">יוסף</quote>;</p>
+                           <p>(<locus from="26b" to="26b">ibid.</locus>) <quote type="beg">יודוך עם זה... אֿזון אנקת עמך</quote>, (א̇ב̇), acr. <quote type="acr">יוסף</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item22" n="w">
-                           <p>(<locus from="27a" to="27a">fol. 27</locus>)<quote type="beg">באשמורת הבקר ... אֿזל הזמן</quote>, ends<quote type="end">ואל תבזה בחסדך ענות עני ואביון</quote>(Zunz, p. 399, 8, but no יוסף);</p>
+                           <p>(<locus from="27a" to="27a">fol. 27</locus>) <quote type="beg">באשמורת הבקר ... אֿזל הזמן</quote>, ends <quote type="end">ואל תבזה בחסדך ענות עני ואביון</quote> (Zunz, p. 399, 8, but no יוסף);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item23" n="x">
-                           <p>(<locus from="27b" to="27b">fol. 27b</locus>)<quote type="beg">ידענו כי חטאנו... אֿבל אנחנו אשמים</quote>, (א̇ב̇), acr.<quote type="acr">יצחק</quote>;</p>
+                           <p>(<locus from="27b" to="27b">fol. 27b</locus>) <quote type="beg">ידענו כי חטאנו... אֿבל אנחנו אשמים</quote>, (א̇ב̇), acr. <quote type="acr">יצחק</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item24" n="y">
-                           <p>(<locus from="27b" to="27b">ibid.</locus>)<quote type="beg">יושב שמיך ... אֿנחה הראיתני</quote>, (א̇ב̇), acr.<quote type="acr">יוסף</quote>;</p>
+                           <p>(<locus from="27b" to="27b">ibid.</locus>) <quote type="beg">יושב שמיך ... אֿנחה הראיתני</quote>, (א̇ב̇), acr. <quote type="acr">יוסף</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item25" n="z">
-                           <p>(<locus from="28a" to="28a">fol. 28</locus>)<quote type="beg">עמדנו לפניך בבשת פנים... אֿלהים שבענו בבקר חסדך</quote>, (א̇ב̇), acr.<quote type="acr">עמרם</quote>;</p>
+                           <p>(<locus from="28a" to="28a">fol. 28</locus>) <quote type="beg">עמדנו לפניך בבשת פנים... אֿלהים שבענו בבקר חסדך</quote>, (א̇ב̇), acr. <quote type="acr">עמרם</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item26" n="a1">
-                           <p>(<locus from="28b" to="28b">fol. 28b</locus>)<quote type="beg">ישע ועוז ממרום תשלח... אֿזלו ימינו בֿאין חופש</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="28b" to="28b">fol. 28b</locus>) <quote type="beg">ישע ועוז ממרום תשלח... אֿזלו ימינו בֿאין חופש</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item27" n="b1">
-                           <p>(<locus from="28b" to="28b">ibid.</locus>)<quote type="beg">סיחנו תענה... אֿמולי לבבות לכודי בחובות</quote>, (א̇ב̇), acr.<quote type="acr">סהל</quote>?;</p>
+                           <p>(<locus from="28b" to="28b">ibid.</locus>) <quote type="beg">סיחנו תענה... אֿמולי לבבות לכודי בחובות</quote>, (א̇ב̇), acr. <quote type="acr">סהל</quote>?;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item28" n="c1">
-                           <p>(<locus from="29a" to="29a">fol. 29</locus>)<quote type="beg">יי שמעה בקולי... אֿם חטאי גמר</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="29a" to="29a">fol. 29</locus>) <quote type="beg">יי שמעה בקולי... אֿם חטאי גמר</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item29" n="d1">
-                           <p>(<locus from="29a" to="29a">ibid.</locus>)<quote type="beg">משולים אעבודך כחומר ... אֿתה שומר הברית והחסד</quote>, (א̇ב̇), acr.<quote type="acr">משה</quote>;</p>
+                           <p>(<locus from="29a" to="29a">ibid.</locus>) <quote type="beg">משולים אעבודך כחומר ... אֿתה שומר הברית והחסד</quote>, (א̇ב̇), acr. <quote type="acr">משה</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item30" n="e1">
-                           <p>(<locus from="29b" to="29b">fol. 29b</locus>)<quote type="beg">אל ארך אפים... תאזין קול שואגים</quote>(ת̇ש̇ר̇ק̇);</p>
+                           <p>(<locus from="29b" to="29b">fol. 29b</locus>) <quote type="beg">אל ארך אפים... תאזין קול שואגים</quote> (ת̇ש̇ר̇ק̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item31" n="f1">
-                           <p>(<locus from="30a" to="30a">fol. 30</locus>)<quote type="beg">כל שנאן ושרף תמיד יסלסלוך</quote>(acr. of the words after כל:<quote type="acr">שלמה קטן גבירל חזק</quote>, Zunz, p. 411, 7);</p>
+                           <p>(<locus from="30a" to="30a">fol. 30</locus>) <quote type="beg">כל שנאן ושרף תמיד יסלסלוך</quote> (acr. of the words after כל: <quote type="acr">שלמה קטן גבירל חזק</quote>, Zunz, p. 411, 7);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item32" n="g1">
-                           <p>(<locus from="30a" to="30a">ibid.</locus>)<quote type="beg">מי יסד שמי גבוהים</quote>(Joseph, Zunz, p. 724);</p>
+                           <p>(<locus from="30a" to="30a">ibid.</locus>) <quote type="beg">מי יסד שמי גבוהים</quote> (Joseph, Zunz, p. 724);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item33" n="h1">
-                           <p>(<locus from="30b" to="30b">fol. 30b</locus>)<quote type="beg">יגורתי מפני שמים</quote>(acr.<quote type="acr">יצחק בן קפרון</quote>);</p>
+                           <p>(<locus from="30b" to="30b">fol. 30b</locus>) <quote type="beg">יגורתי מפני שמים</quote> (acr. <quote type="acr">יצחק בן קפרון</quote>);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item34" n="i1">
-                           <p>(<locus from="31a" to="31a">fol. 31</locus>)<quote type="beg">הנה כעיני עבדים... הנה כעיני עוקד בקחתו מאכלת</quote>;</p>
+                           <p>(<locus from="31a" to="31a">fol. 31</locus>) <quote type="beg">הנה כעיני עבדים... הנה כעיני עוקד בקחתו מאכלת</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item35" n="k1">
-                           <p>(<locus from="31b" to="34a">fol. 31b</locus>) headed<quote type="head">מרתיה לרבינו סעדיה ז̇ל̇</quote>, beg.<quote type="beg">אם לפי בחרך צורנו באדם הזה הדל</quote>, refrain<quote type="beg">יזכור זאת וייבוש</quote>, ends<quote type="end">תרצה תשובתינו לחיים ומבני העולם הזה תשימנו</quote>, (four א̇ב̇);</p>
+                           <p>(<locus from="31b" to="34a">fol. 31b</locus>) headed <quote type="head">מרתיה לרבינו סעדיה ז̇ל̇</quote>, beg. <quote type="beg">אם לפי בחרך צורנו באדם הזה הדל</quote>, refrain <quote type="beg">יזכור זאת וייבוש</quote>, ends <quote type="end">תרצה תשובתינו לחיים ומבני העולם הזה תשימנו</quote>, (four א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part3-item1-item36" n="l1">
-                           <p>(<locus from="34b" to="34b">fol. 34b</locus>) headed<quote type="head">סליחה</quote>, beg.<quote type="beg">אליך יי נשאתי עיני</quote>, (א̇ב̇).</p>
+                           <p>(<locus from="34b" to="34b">fol. 34b</locus>) headed <quote type="head">סליחה</quote>, beg. <quote type="beg">אליך יי נשאתי עיני</quote>, (א̇ב̇).</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_37-part4" n="4">
@@ -257,7 +257,7 @@
                      <msItem xml:id="MS_Heb_e_37-part4-item1">
                         <locus from="35a" to="40b">Fol. 35</locus>
                         <title>Fragment of a liturgy for פסח (?)</title>
-                        <note>based upon the songs of Moses and of Deborah, beg. and end missing; the first complete section reads as follows:<p>
+                        <note>based upon the songs of Moses and of Deborah, beg. and end missing; the first complete section reads as follows: <p>
                               <quote>שוקיו להעמיד בתוך גוי מונעם. מיוסדים בכל צרתם בלי להניעם. ותשר נביאה על אויביה בהיכנעם. דבורה וברק בן אבינועם. חיכו ממתקים פתוח אמרי נועם. על במתי צר הרדופים מלהניעם. דבורה פתחה שיר נגד העם. בפרוע פרעות בישראל בהתנדב עם. אנה צרחו עם במפולת מזעם. קפץ ונס לאוהל ושם הוזעם. וברק רדפו והנה הוא מופעם. ויריעו כל העם שוטטו בארץ צבי בנענועם. תהלה ותפארת נתנו לאל מנענעם. אז ירד שעיר .לאדירים עם.</quote>
                            </p>
                         </note>
@@ -265,10 +265,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_37-part5" n="5">
@@ -283,26 +283,26 @@
                         <title>Liturgical</title>
                         <msItem xml:id="MS_Heb_e_37-part5-item1-item1" n="a">
                            <p>(<locus from="41a" to="42a">fol. 41</locus>) fragment of a liturgy, consisting of א̇ב̇ three times, beg. missing,</p>
-                           <p>letter ו reads as follows:<quote>ואל תחקור אותי ואל תנסה. ובמי דמעי פשעי תמסה. ולקול שועי הקשיבה ועשה. אל תאחר למענך אלהי</quote>.</p>
-                           <p>The last strophe is as follows:<quote>תאות ענוים לפניך תשא עלימו אור פניך. תכין לבם תקשיב אזניך. אתה תעשה ייי אלהי</quote>;</p>
+                           <p>letter ו reads as follows: <quote>ואל תחקור אותי ואל תנסה. ובמי דמעי פשעי תמסה. ולקול שועי הקשיבה ועשה. אל תאחר למענך אלהי</quote>.</p>
+                           <p>The last strophe is as follows: <quote>תאות ענוים לפניך תשא עלימו אור פניך. תכין לבם תקשיב אזניך. אתה תעשה ייי אלהי</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part5-item1-item2" n="b">
-                           <p>(<locus from="42b" to="43a">fol. 42b</locus>) headed<quote type="head">מעמד</quote>, beg.<quote type="beg">אבן בוחן פנה מיוקרת איתן משכיל בחכמה נחקרת</quote>, (two א̇ב̇), see Magazin Berliner, 1880, אוצר טוב, p. 105;</p>
+                           <p>(<locus from="42b" to="43a">fol. 42b</locus>) headed <quote type="head">מעמד</quote>, beg. <quote type="beg">אבן בוחן פנה מיוקרת איתן משכיל בחכמה נחקרת</quote>, (two א̇ב̇), see Magazin Berliner, 1880, אוצר טוב, p. 105;</p>
                            <p>
                               <locus from="43b" to="44a">fol. 43b</locus>
-                              <quote type="beg">אֿזי בהר מור רץ יונת אלם</quote>(Zunz, p. 411, 1);</p>
+                              <quote type="beg">אֿזי בהר מור רץ יונת אלם</quote> (Zunz, p. 411, 1);</p>
                            <p>
                               <locus from="44b" to="45b">fol. 44b</locus>
-                              <quote type="beg">אֿיש תם יושב אהלי תושיה</quote>(Zunz, p. 698, 19).</p>
+                              <quote type="beg">אֿיש תם יושב אהלי תושיה</quote> (Zunz, p. 698, 19).</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_37-part6" n="6">
@@ -316,72 +316,72 @@
                         <locus from="46a" to="59b"/>
                         <title>By Isaac Gayyath, יוצרות</title>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item1" n="a">
-                           <p>(<locus from="46a" to="46a">fol. 46</locus>) end of a liturgy, for זכור, with refrain<quote>לך נאוה תהלה</quote>;</p>
+                           <p>(<locus from="46a" to="46a">fol. 46</locus>) end of a liturgy, for זכור, with refrain <quote>לך נאוה תהלה</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item2" n="b">
-                           <p>(<locus from="46a" to="46a">ibid.</locus>) headed<quote type="head">יוצר לויבא עמלק</quote>, beg.<quote type="beg">אֿזי בבא זדון עם מתחלק</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="46a" to="46a">ibid.</locus>) headed <quote type="head">יוצר לויבא עמלק</quote>, beg. <quote type="beg">אֿזי בבא זדון עם מתחלק</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item3" n="c">
-                           <p>(<locus from="46b" to="47b">fol. 46b</locus>) headed<quote type="head">יוצר לפרה אדומה</quote>, beg.<quote type="beg">אחד טהור נתן מטמא בכשרון</quote>, (א̇ב̇), followed by אופן and רשות partly obliterated;</p>
+                           <p>(<locus from="46b" to="47b">fol. 46b</locus>) headed <quote type="head">יוצר לפרה אדומה</quote>, beg. <quote type="beg">אחד טהור נתן מטמא בכשרון</quote>, (א̇ב̇), followed by אופן and רשות partly obliterated;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item4" n="d">
-                           <p>(<locus from="48a" to="48a">fol. 48</locus>) headed<quote type="head">אופן</quote>, beg.<quote type="beg">האל הקדוש יקדיש עם קדוש</quote>(acr.<quote type="acr">ה יצחק גי</quote>);<quote type="beg">לשם אל המיוחד</quote>(<quote type="head">אופן</quote>), acr.<quote type="acr">ליצחק גיאת</quote>;<quote type="beg">יחד סעיפי יניבון</quote>(<quote type="head">רשות</quote>), acr.<quote type="acr">יצחק</quote>;</p>
+                           <p>(<locus from="48a" to="48a">fol. 48</locus>) headed <quote type="head">אופן</quote>, beg. <quote type="beg">האל הקדוש יקדיש עם קדוש</quote> (acr. <quote type="acr">ה יצחק גי</quote>); <quote type="beg">לשם אל המיוחד</quote> (<quote type="head">אופן</quote>), acr. <quote type="acr">ליצחק גיאת</quote>; <quote type="beg">יחד סעיפי יניבון</quote> (<quote type="head">רשות</quote>), acr. <quote type="acr">יצחק</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item5" n="e">
-                           <p>(<locus from="48b" to="48b">fol. 48b</locus>) heading cut off, first lines partly obliterated, last line<quote type="end">וצלול מימי יגונותיו העל ומהר פרש על ישראל שלום</quote>(acr.<quote type="acr">יצחק</quote>);<quote type="beg">ידיד קדם</quote>(<quote type="head">יי מלכנו</quote>), acr.<quote type="acr">יצחק</quote>; heading<quote type="head">פז̇ לחן ימותי טוב שדי</quote>, with acrostic<quote type="acr">יצחק</quote>;</p>
+                           <p>(<locus from="48b" to="48b">fol. 48b</locus>) heading cut off, first lines partly obliterated, last line <quote type="end">וצלול מימי יגונותיו העל ומהר פרש על ישראל שלום</quote> (acr. <quote type="acr">יצחק</quote>); <quote type="beg">ידיד קדם</quote> (<quote type="head">יי מלכנו</quote>), acr. <quote type="acr">יצחק</quote>; heading <quote type="head">פז̇ לחן ימותי טוב שדי</quote>, with acrostic <quote type="acr">יצחק</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item6" n="f">
-                           <p>(<locus from="49a" to="50b">fol. 49</locus>) headed<quote type="head">מעמד וישמע יתרו</quote>, beg.<quote type="beg">אליך אגלה צפוני נפלאות</quote>(acr.<quote type="acr">בן מאירי</quote>), followed by<quote type="head">מאורות</quote>(acr.<quote type="acr">יצחק</quote>) and<quote type="head">אל נא</quote>;</p>
+                           <p>(<locus from="49a" to="50b">fol. 49</locus>) headed <quote type="head">מעמד וישמע יתרו</quote>, beg. <quote type="beg">אליך אגלה צפוני נפלאות</quote> (acr. <quote type="acr">בן מאירי</quote>), followed by <quote type="head">מאורות</quote> (acr. <quote type="acr">יצחק</quote>) and <quote type="head">אל נא</quote>;</p>
                            <p>
-                              <locus from="50b" to="50b">fol. 50b</locus>heading ובכן דברי ירמיהו, beg. אֿשיחה במר נפשי, incomplete;</p>
+                              <locus from="50b" to="50b">fol. 50b</locus> heading ובכן דברי ירמיהו, beg. אֿשיחה במר נפשי, incomplete;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item7" n="g">
-                           <p>(<locus from="51a" to="51a">fol. 51</locus>) headed<quote type="head">יוצר וילך משה</quote>, beg.<quote type="beg">אז בהתם ענין להורות</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="51a" to="51a">fol. 51</locus>) headed <quote type="head">יוצר וילך משה</quote>, beg. <quote type="beg">אז בהתם ענין להורות</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item8" n="h">
-                           <p>(<locus from="51b" to="51b">fol. 51b</locus>)<quote type="head">מעמד שבת דברי</quote>, beg.<quote type="beg">אֿבך רובבתי בהעיזי</quote>;</p>
+                           <p>(<locus from="51b" to="51b">fol. 51b</locus>) <quote type="head">מעמד שבת דברי</quote>, beg. <quote type="beg">אֿבך רובבתי בהעיזי</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item9" n="i">
-                           <p>(<locus from="52a" to="53b">fol. 52</locus>) headed<quote type="head">מעמד שמעו</quote>, beg.<quote type="beg">איזון שמע מדובר</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="52a" to="53b">fol. 52</locus>) headed <quote type="head">מעמד שמעו</quote>, beg. <quote type="beg">איזון שמע מדובר</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item10" n="k">
-                           <p>(<locus from="54a" to="54b">fol. 54</locus>) headed<quote type="head">שבת איכה מצדר ליוצר</quote>, beg.<quote type="beg">אקונן ואבכה על תפארתי</quote>;</p>
+                           <p>(<locus from="54a" to="54b">fol. 54</locus>) headed <quote type="head">שבת איכה מצדר ליוצר</quote>, beg. <quote type="beg">אקונן ואבכה על תפארתי</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item11" n="l">
-                           <p>(<locus from="55a" to="55a">fol.55</locus>) headed<quote type="head">לחן דברי בן אמוץ</quote>, beg.<quote type="beg">דומם ישבה לארץ</quote>;</p>
+                           <p>(<locus from="55a" to="55a">fol.55</locus>) headed <quote type="head">לחן דברי בן אמוץ</quote>, beg. <quote type="beg">דומם ישבה לארץ</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item12" n="m">
-                           <p>(<locus from="55a" to="56b">ibid.</locus>) heading<quote type="head">יוצר לאלה הדברים</quote>, beg.<quote type="beg">אומן הנקרא מעין המתגבר</quote>, (א̇ב̇), followed by<quote type="head">מאורות</quote>,<quote type="head">אהבה</quote>, and<quote type="head">זולת</quote>, beg.<quote type="beg">איכה איפל גי הסוכן</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="55a" to="56b">ibid.</locus>) heading <quote type="head">יוצר לאלה הדברים</quote>, beg. <quote type="beg">אומן הנקרא מעין המתגבר</quote>, (א̇ב̇), followed by <quote type="head">מאורות</quote>, <quote type="head">אהבה</quote>, and <quote type="head">זולת</quote>, beg. <quote type="beg">איכה איפל גי הסוכן</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item13" n="n">
-                           <p>(<locus from="57a" to="57b">fol. 57</locus>) heading cut down,<quote type="head">מגן</quote>, beg.<quote type="beg">איכה אום כפלים לקתה שיר השירים</quote>, (א̇ב̇), followed by<quote type="head">מחיה</quote>,<quote type="head">מושלש</quote>;</p>
+                           <p>(<locus from="57a" to="57b">fol. 57</locus>) heading cut down, <quote type="head">מגן</quote>, beg. <quote type="beg">איכה אום כפלים לקתה שיר השירים</quote>, (א̇ב̇), followed by <quote type="head">מחיה</quote>, <quote type="head">מושלש</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item14" n="o">
                            <locus from="58a" to="58a">(fol. 58)</locus>
                            <msItem xml:id="MS_Heb_e_37-part6-item1-item14-item1" n="α">
-                              <p>headed<quote type="head">יוצר לראה אתה</quote>, beg.<quote type="beg">אמרות שבע ואמרו במחזה</quote>;</p>
+                              <p>headed <quote type="head">יוצר לראה אתה</quote>, beg. <quote type="beg">אמרות שבע ואמרו במחזה</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_37-part6-item1-item14-item2" n="β">
-                              <p>(<locus from="58a" to="58a">ibid.</locus>)<quote type="head">זולת להיתה עלי</quote>, beg.<quote type="beg">את מחזות מטיף ליום אחרון</quote>, (א̇ב̇);</p>
+                              <p>(<locus from="58a" to="58a">ibid.</locus>) <quote type="head">זולת להיתה עלי</quote>, beg. <quote type="beg">את מחזות מטיף ליום אחרון</quote>, (א̇ב̇);</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_37-part6-item1-item14-item3" n="γ">
-                              <p>(<locus from="58b" to="58b">fol. 58b</locus>) headed<quote type="head">אופן לשננו לשונם</quote>, beg.<quote type="beg">חיילי רום בניב ערוך</quote>;</p>
+                              <p>(<locus from="58b" to="58b">fol. 58b</locus>) headed <quote type="head">אופן לשננו לשונם</quote>, beg. <quote type="beg">חיילי רום בניב ערוך</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_37-part6-item1-item14-item4" n="δ">
-                              <p>(<locus from="58b" to="58b">ibid.</locus>) headed<quote type="head">אופן</quote>, beg.<quote type="beg">ארבע ראו מראות אלהים</quote>;</p>
+                              <p>(<locus from="58b" to="58b">ibid.</locus>) headed <quote type="head">אופן</quote>, beg. <quote type="beg">ארבע ראו מראות אלהים</quote>;</p>
                            </msItem>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part6-item1-item15" n="p">
-                           <p>(<locus from="59a" to="59b">fol. 59</locus>) headed<quote type="head">מעמד ראש השנה שובו אלי ואשובה אליכם</quote>, beg.<quote type="beg">יד דרך תשובה הוריתי</quote>(acr.<quote type="acr">יצחק בר יהודה גיאת חזק</quote>).</p>
+                           <p>(<locus from="59a" to="59b">fol. 59</locus>) headed <quote type="head">מעמד ראש השנה שובו אלי ואשובה אליכם</quote>, beg. <quote type="beg">יד דרך תשובה הוריתי</quote> (acr. <quote type="acr">יצחק בר יהודה גיאת חזק</quote>).</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_37-part7" n="7">
@@ -395,28 +395,28 @@
                         <locus from="60a" to="69b"/>
                         <title>Fragment of the liturgy for י̇ה̇כ̇</title>
                         <msItem xml:id="MS_Heb_e_37-part7-item1-item1" n="a">
-                           <p>(<locus from="60a" to="61a">fol. 60</locus>) beg. missing, ends<quote type="end">אף אמונתך בקהל קדושים: ליראה את שם הנאֿדר. הנבֿרר. הנגֿבר ... הנתֿקף</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="60a" to="61a">fol. 60</locus>) beg. missing, ends <quote type="end">אף אמונתך בקהל קדושים: ליראה את שם הנאֿדר. הנבֿרר. הנגֿבר ... הנתֿקף</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part7-item1-item2" n="b">
-                           <p>(<locus from="61b" to="61b">fol. 61b</locus>) headed<quote type="head">ובכן מי כמוכה באלים</quote>, beg.<quote type="beg">תקפך על כל אלים</quote>, (ת̇ש̇ר̇ק̇);</p>
+                           <p>(<locus from="61b" to="61b">fol. 61b</locus>) headed <quote type="head">ובכן מי כמוכה באלים</quote>, beg. <quote type="beg">תקפך על כל אלים</quote>, (ת̇ש̇ר̇ק̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part7-item1-item3" n="c">
-                           <p>(<locus from="62a" to="62b">fol. 62</locus>) headed<quote type="head">ובכן ימלוך יי לעולם</quote>, beg.<quote type="beg">ימלוך אֿדיר ברום גבוהים</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="62a" to="62b">fol. 62</locus>) headed <quote type="head">ובכן ימלוך יי לעולם</quote>, beg. <quote type="beg">ימלוך אֿדיר ברום גבוהים</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part7-item1-item4" n="d">
-                           <p>(<locus from="63a" to="64a">fol. 63</locus>) beg.<quote type="beg">אדפוק בצהרים פתח</quote>, (four א̇ב̇);</p>
+                           <p>(<locus from="63a" to="64a">fol. 63</locus>) beg. <quote type="beg">אדפוק בצהרים פתח</quote>, (four א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part7-item1-item5" n="e">
-                           <p>(<locus from="64b" to="68b">fol. 64b</locus>) headed<quote type="head">סדר עבודה לר̇ סעדיה ז̇ל̇</quote>, beg.<quote type="beg">אלהים יה מקדם: ואין לנגדו תמונה</quote>, (four א̇ב̇), incomplete, ending with צ1, followed (<locus from="69a" to="69b">fol. 69</locus>) by a fragment of the printed liturgy of the עבודה.</p>
+                           <p>(<locus from="64b" to="68b">fol. 64b</locus>) headed <quote type="head">סדר עבודה לר̇ סעדיה ז̇ל̇</quote>, beg. <quote type="beg">אלהים יה מקדם: ואין לנגדו תמונה</quote>, (four א̇ב̇), incomplete, ending with צ1, followed (<locus from="69a" to="69b">fol. 69</locus>) by a fragment of the printed liturgy of the עבודה.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_37-part8" n="8">
@@ -430,31 +430,31 @@
                         <locus from="70a" to="97b"/>
                         <title>For שבועות</title>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item1" n="a">
-                           <p>(<locus from="70a" to="70a">fol. 70</locus>)<title>מעריב</title>, beg. missing, last strophe beg.<quote type="beg">סיני עוטר בעשרה כתרים</quote>;</p>
+                           <p>(<locus from="70a" to="70a">fol. 70</locus>) <title>מעריב</title>, beg. missing, last strophe beg. <quote type="beg">סיני עוטר בעשרה כתרים</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item2" n="b">
-                           <p>(<locus from="70b" to="70b">fol. 70b</locus>)<title>שחרית</title>, headed<quote type="head">רשות למתן תורה</quote>, beg.<quote type="beg">אחלה בחיך בנעמה</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="70b" to="70b">fol. 70b</locus>) <title>שחרית</title>, headed <quote type="head">רשות למתן תורה</quote>, beg. <quote type="beg">אחלה בחיך בנעמה</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item3" n="c">
-                           <p>(<locus from="71a" to="71a">fol. 71</locus>)<title>מגן</title>, beg.<quote type="beg">אלפים קדומה בחלשי</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="71a" to="71a">fol. 71</locus>) <title>מגן</title>, beg. <quote type="beg">אלפים קדומה בחלשי</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item4" n="d">
-                           <p>(<locus from="71b" to="71b">fol. 71b</locus>)<title>מחיה</title>, beg.<quote type="beg">תורה תמימה ירשך ידידים</quote>, (ת̇ש̇ר̇ק̇);</p>
+                           <p>(<locus from="71b" to="71b">fol. 71b</locus>) <title>מחיה</title>, beg. <quote type="beg">תורה תמימה ירשך ידידים</quote>, (ת̇ש̇ר̇ק̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item5" n="e">
-                           <p>(<locus from="72a" to="72a">fol. 72</locus>) beg.<quote type="beg">אמון שעשועים הורשו נחלה</quote>, (א̇ב̇ to ל);</p>
+                           <p>(<locus from="72a" to="72a">fol. 72</locus>) beg. <quote type="beg">אמון שעשועים הורשו נחלה</quote>, (א̇ב̇ to ל);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item6" n="f">
-                           <p>(<locus from="72b" to="72b">fol. 72b</locus>) beg.<quote type="beg">בחודש השלישי ביאר משולת מים</quote>, incomplete (?);</p>
+                           <p>(<locus from="72b" to="72b">fol. 72b</locus>) beg. <quote type="beg">בחודש השלישי ביאר משולת מים</quote>, incomplete (?);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item7" n="g">
-                           <p>(<locus from="73a" to="73a">fol. 73</locus>) beg. missing, last strophe<quote type="end">לא תחמוד. תאות נשים אשר ממך נעלמת. תחרה בגורלך אשר לך ננאמת. תנויים עשרה בעניין הזה קיימת</quote>;</p>
+                           <p>(<locus from="73a" to="73a">fol. 73</locus>) beg. missing, last strophe <quote type="end">לא תחמוד. תאות נשים אשר ממך נעלמת. תחרה בגורלך אשר לך ננאמת. תנויים עשרה בעניין הזה קיימת</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item8" n="h">
-                           <p>(<locus from="73a" to="73a">ibid.</locus>) beg.<quote type="beg">וכל העם רואים אֿדון עולמים פנים בפנים</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="73a" to="73a">ibid.</locus>) beg. <quote type="beg">וכל העם רואים אֿדון עולמים פנים בפנים</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item9" n="i">
-                           <p>(<locus from="73b" to="74a">fol. 73b</locus>) beg.<quote type="beg">אֿדני אדמה היו מתפרקים</quote>;</p>
+                           <p>(<locus from="73b" to="74a">fol. 73b</locus>) beg. <quote type="beg">אֿדני אדמה היו מתפרקים</quote>;</p>
                            <p>
                               <locus from="74b" to="74b">fol. 74b</locus>
                               <quote type="beg">שבעה דברים קדומים; שבעה דורות הקדים</quote>;</p>
@@ -463,37 +463,37 @@
                               <quote type="beg">שבעה תהומות שת באדמות</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item10" n="k">
-                           <p>(<locus from="75b" to="80b">fol. 75b</locus>) headed<quote type="head">ובכן ייי קנני</quote>, beg.<quote type="beg">אראלי ערפל ושוכני שפל</quote>, (ten א̇ב̇), lacuna between ה and ו (<locus from="76b" to="77a">ff. 76 and 77</locus>);</p>
+                           <p>(<locus from="75b" to="80b">fol. 75b</locus>) headed <quote type="head">ובכן ייי קנני</quote>, beg. <quote type="beg">אראלי ערפל ושוכני שפל</quote>, (ten א̇ב̇), lacuna between ה and ו (<locus from="76b" to="77a">ff. 76 and 77</locus>);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item11" n="l">
-                           <p>(<locus from="81a" to="81a">fol. 81</locus>) headed<quote type="head">ובכן וירד משה אל העם</quote>, beg.<quote type="beg">וירד אֿומן מחולת מחנים</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="81a" to="81a">fol. 81</locus>) headed <quote type="head">ובכן וירד משה אל העם</quote>, beg. <quote type="beg">וירד אֿומן מחולת מחנים</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item12" n="m">
-                           <p>(<locus from="81b" to="83b">fol. 81b</locus>) based on the ten commandments, beg.<quote type="beg">ארגתי ארץ</quote>, ends<quote type="end">לא תחמד מחמד עין</quote>, (four א̇ב̇);</p>
+                           <p>(<locus from="81b" to="83b">fol. 81b</locus>) based on the ten commandments, beg. <quote type="beg">ארגתי ארץ</quote>, ends <quote type="end">לא תחמד מחמד עין</quote>, (four א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item13" n="n">
-                           <p>(<locus from="84a" to="84a">fol. 84</locus>) headed<quote type="head">וכל העם רואים</quote>, beg.<quote type="beg">וכל העם רואים תֿוקף תהלות ומע̇ לבֿרוך יושב תהילות גֿברו בחמורות וקלות</quote>, (א̇ב̇, ת instead of א, as on<locus from="87a" to="87a">fol. 87</locus>);</p>
+                           <p>(<locus from="84a" to="84a">fol. 84</locus>) headed <quote type="head">וכל העם רואים</quote>, beg. <quote type="beg">וכל העם רואים תֿוקף תהלות ומע̇ לבֿרוך יושב תהילות גֿברו בחמורות וקלות</quote>, (א̇ב̇, ת instead of א, as on <locus from="87a" to="87a">fol. 87</locus>);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item14" n="o">
-                           <p>(<locus from="84b" to="84b">fol. 84b</locus>) headed<quote type="head">ובכן וירד</quote>, beg.<quote type="beg">וירד אֿדון משמי ערבות</quote>, (א̇ב̇);</p>
+                           <p>(<locus from="84b" to="84b">fol. 84b</locus>) headed <quote type="head">ובכן וירד</quote>, beg. <quote type="beg">וירד אֿדון משמי ערבות</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item15" n="p">
-                           <p>(<locus from="84b" to="86b">ibid.</locus>) headed<quote type="head">ובכן ולך תעלה</quote>, beg.<quote type="beg">אדון עולמים היום בהיגלות</quote>, followed by<quote type="beg">הקול הראשון</quote>to<quote type="beg">הקול השביעי</quote>, concluding with<quote type="beg">גן נעול</quote>;</p>
+                           <p>(<locus from="84b" to="86b">ibid.</locus>) headed <quote type="head">ובכן ולך תעלה</quote>, beg. <quote type="beg">אדון עולמים היום בהיגלות</quote>, followed by <quote type="beg">הקול הראשון</quote> to <quote type="beg">הקול השביעי</quote>, concluding with <quote type="beg">גן נעול</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_37-part8-item1-item16" n="q">
-                           <p>(<locus from="87a" to="87a">fol. 87</locus>) headed<quote type="head">מוסף לעצרת</quote>, beg.<quote type="beg">תֿורה אילפתנו מלכי וקדושי</quote>;</p>
-                           <p>(<locus from="87a" to="95a">ibid.</locus>)<quote type="beg">מֿשה משמים הוריד</quote>, (א̇ב̇), followed by אזהרות, beg.<quote type="beg">אֿתה הנחלתה</quote>, followed by ש̇ע̇ (beg. missing) for ר̇ה̇;</p>
+                           <p>(<locus from="87a" to="87a">fol. 87</locus>) headed <quote type="head">מוסף לעצרת</quote>, beg. <quote type="beg">תֿורה אילפתנו מלכי וקדושי</quote>;</p>
+                           <p>(<locus from="87a" to="95a">ibid.</locus>) <quote type="beg">מֿשה משמים הוריד</quote>, (א̇ב̇), followed by אזהרות, beg. <quote type="beg">אֿתה הנחלתה</quote>, followed by ש̇ע̇ (beg. missing) for ר̇ה̇;</p>
                            <p>
-                              <locus from="95b" to="97b">fol. 95b</locus>י̇ח̇ לסכה, beg.<quote type="beg">וסוכה תהיה אצולה</quote>, lacuna, incomplete, and stained. (See<ref target="MS_Heb_g_2">MS. Heb. g. 2</ref>fol. 11.)</p>
+                              <locus from="95b" to="97b">fol. 95b</locus> י̇ח̇ לסכה, beg. <quote type="beg">וסוכה תהיה אצולה</quote>, lacuna, incomplete, and stained. (See <ref target="MS_Heb_g_2">MS. Heb. g. 2</ref> fol. 11.)</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_37-part9" n="9">
@@ -506,35 +506,35 @@
                      <msItem xml:id="MS_Heb_e_37-part9-item1">
                         <locus from="98a" to="103b">Fol. 98</locus>
                         <title>Liturgies [for section נצבים]</title>
-                        <note>beg. missing;<p>
+                        <note>beg. missing; <p>
                               <locus from="98b" to="98b">fol. 98b</locus>
-                              <quote type="beg">שוש אֿשיש אשת רווחה</quote>(אופן);</p>
+                              <quote type="beg">שוש אֿשיש אשת רווחה</quote> (אופן);</p>
                            <p>
                               <locus from="99a" to="99b">fol. 99</locus>
-                              <quote type="beg">אֿהובתך תפריחה</quote>(זולת);</p>
+                              <quote type="beg">אֿהובתך תפריחה</quote> (זולת);</p>
                            <p>
                               <locus from="100a" to="100a">fol. 100</locus>
-                              <quote type="beg">אפסו מנו ששונות</quote>(יי̇ מלכנו), א̇ב̇;</p>
-                           <p>at end (<locus from="100b" to="100b">fol. 100b</locus>)<quote type="beg">כמלת ברחם דודי יהי שמו מבורך לעולם ויתלוהא שבת שובה ישראל</quote>;</p>
+                              <quote type="beg">אפסו מנו ששונות</quote> (יי̇ מלכנו), א̇ב̇;</p>
+                           <p>at end (<locus from="100b" to="100b">fol. 100b</locus>) <quote type="beg">כמלת ברחם דודי יהי שמו מבורך לעולם ויתלוהא שבת שובה ישראל</quote>;</p>
                            <p>
                               <locus from="101a" to="102a">fol. 101</locus>
-                              <quote type="head">יוצר האזינו</quote>, beg. ,<quote type="beg">אֿ]ומר זה נגמר לדברה]</quote>, א̇ב̇;<quote type="beg">אילי הצדק מבינים</quote>(אופן), א̇ב̇;<quote type="beg">איזנת יחידי ארץ</quote>(זולת), א̇ב̇;</p>
+                              <quote type="head">יוצר האזינו</quote>, beg. , <quote type="beg">אֿ]ומר זה נגמר לדברה]</quote>, א̇ב̇; <quote type="beg">אילי הצדק מבינים</quote> (אופן), א̇ב̇; <quote type="beg">איזנת יחידי ארץ</quote> (זולת), א̇ב̇;</p>
                            <p>
                               <locus from="102b" to="102b">fol. 102b</locus>
-                              <quote type="head">וזאת הברכה</quote>, beg.<quote type="beg">אהובים אשר במסות מצוען המשה</quote>(א̇ב̇), incomplete;</p>
+                              <quote type="head">וזאת הברכה</quote>, beg. <quote type="beg">אהובים אשר במסות מצוען המשה</quote> (א̇ב̇), incomplete;</p>
                            <p>
                               <locus from="103a" to="103b">fol. 103</locus>
-                              <quote type="beg">אכלונו חיות ופראים</quote>(יי̇ מלכנו), א̇ב̇.</p>
+                              <quote type="beg">אכלונו חיות ופראים</quote> (יי̇ מלכנו), א̇ב̇.</p>
                            <p>Some vowel points.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1891">1891</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1891">1891</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -543,7 +543,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -676,7 +676,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-09-10">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

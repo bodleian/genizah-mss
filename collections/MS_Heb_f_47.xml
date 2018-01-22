@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_202">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 43.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p045b.jpg">No. 2734</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p045b.jpg">No. 2734</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -69,16 +69,16 @@
                      <msItem xml:id="MS_Heb_f_47-part1-item1">
                         <locus from="1a" to="1b">Fol. 1</locus>
                         <title>Liturgical leaf</title>
-                        <note>א̇ב̇, beg. with letter ט, thus<quote type="beg">טרף רוזנים בלא מגן וחרב. שיגבו מאש עזרו במלחמה</quote>, followed by letter י, beg.<quote>יומד איש תם</quote>;<p>with vowel points.</p>
+                        <note>א̇ב̇, beg. with letter ט, thus <quote type="beg">טרף רוזנים בלא מגן וחרב. שיגבו מאש עזרו במלחמה</quote>, followed by letter י, beg. <quote>יומד איש תם</quote>; <p>with vowel points.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Yemen Rabb. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_f_47-part2" n="2">
@@ -95,10 +95,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_f_47-part3" n="3">
@@ -111,27 +111,27 @@
                      <msItem xml:id="MS_Heb_f_47-part3-item1">
                         <locus from="3a" to="35b">Fol. 3</locus>
                         <title>Fragment of a prayer-book with Arabic rules</title>
-                        <note>beg.<quote type="beg">חדש עלינו את יום החדש הזה</quote>, followed by<quote type="head">צלוה̈ ר̇ח̇ ושבת</quote>.<p>Next come (<locus from="6a" to="8b">fol. 6</locus>)<quote type="beg">אבתדי בברכת המזון</quote>;</p>
+                        <note>beg. <quote type="beg">חדש עלינו את יום החדש הזה</quote>, followed by <quote type="head">צלוה̈ ר̇ח̇ ושבת</quote>. <p>Next come (<locus from="6a" to="8b">fol. 6</locus>) <quote type="beg">אבתדי בברכת המזון</quote>;</p>
                            <p>
-                              <locus from="9a" to="11b">fol. 9</locus>,<quote type="head">חנוכה</quote>;</p>
+                              <locus from="9a" to="11b">fol. 9</locus>, <quote type="head">חנוכה</quote>;</p>
                            <p>
-                              <locus from="12a" to="15b">fol. 12</locus>,<quote type="head">צלוה פור[ים]</quote>;</p>
+                              <locus from="12a" to="15b">fol. 12</locus>, <quote type="head">צלוה פור[ים]</quote>;</p>
                            <p>
-                              <locus from="16a" to="26a">fol. 16</locus>,<quote type="head">פרוץ̇ אלברכות</quote>;</p>
+                              <locus from="16a" to="26a">fol. 16</locus>, <quote type="head">פרוץ̇ אלברכות</quote>;</p>
                            <p>
-                              <locus from="26b" to="31b">fol. 26b</locus>,<quote type="head">ברכות</quote>;</p>
+                              <locus from="26b" to="31b">fol. 26b</locus>, <quote type="head">ברכות</quote>;</p>
                            <p>
-                              <locus from="32a" to="35b">fol. 32</locus>,<quote type="head">תשעה באב</quote>, incomplete;</p>
+                              <locus from="32a" to="35b">fol. 32</locus>, <quote type="head">תשעה באב</quote>, incomplete;</p>
                            <p>with vowel points.</p>
                         </note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_f_47-part4" n="4">
@@ -144,15 +144,15 @@
                      <msItem xml:id="MS_Heb_f_47-part4-item1">
                         <locus from="36a" to="43b">Fol. 36</locus>
                         <title>הגדה</title>
-                        <note>beg.<quote type="beg">כאילו הוא יצא</quote>to<quote type="end">אלי אתה</quote>, with Arabic rules.</note>
+                        <note>beg. <quote type="beg">כאילו הוא יצא</quote> to <quote type="end">אלי אתה</quote>, with Arabic rules.</note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. squ. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1892">1892</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1892">1892</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -161,7 +161,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -198,7 +198,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-02-18">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

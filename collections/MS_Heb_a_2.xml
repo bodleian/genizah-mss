@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_4">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 24.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p063a.jpg Catalogue-1_p063b.jpg">No. 2805</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p063a.jpg Catalogue-1_p063b.jpg">No. 2805</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -69,20 +69,20 @@
                      <msItem xml:id="MS_Heb_a_2-part1-item1">
                         <locus from="1a" to="1b">Fol. 1</locus>
                         <title>A fragment of a marriage contract</title>
-                        <note>dated the<date calendar="#Hebrew-Seleucid" when="1313">24th of Siwan, 1313 Sel.</date>(superscribed<date calendar="#Hebrew-Seleucid" when="1366">1366</date>) =<date calendar="#Gregorian" when="1002">1002 A.D.</date>, at<placeName>Fostat</placeName>(<quote>פסטאט מצרים</quote>) on the Nile;<p>the parties are<persName>Amram bar Maimon</persName>and<persName>... זהרא, daughter of Elishama</persName>(superscribed<persName>Josiah bar R. Nehemiah ראש פרקא</persName>and<persName>... כרימה, daughter of Isaac</persName>).</p>
+                        <note>dated the <date calendar="#Hebrew-Seleucid" when="1313">24th of Siwan, 1313 Sel.</date> (superscribed <date calendar="#Hebrew-Seleucid" when="1366">1366</date>) = <date calendar="#Gregorian" when="1002">1002 A.D.</date>, at <placeName>Fostat</placeName> (<quote>פסטאט מצרים</quote>) on the Nile; <p>the parties are <persName>Amram bar Maimon</persName> and <persName>... זהרא, daughter of Elishama</persName> (superscribed <persName>Josiah bar R. Nehemiah ראש פרקא</persName> and <persName>... כרימה, daughter of Isaac</persName>).</p>
                         </note>
                         <textLang mainLang="arc"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>, cut and injured.</p>
+                     <p>Or. squ. char.; <material>vellum</material>, cut and injured.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1002">1002</origDate>
                         <origPlace>Fostat</origPlace>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part2" n="2">
@@ -98,8 +98,8 @@
                         <msItem xml:id="MS_Heb_a_2-part2-item1-item1">
                            <locus from="2a">Fol. 2a</locus>
                            <title>A marriage contract</title>
-                           <note>complete (margins cut), dated<date calendar="#AM" when="4750">Thursday the 5th of Elul, 4750 A.M.</date>=<date calendar="#Gregorian" when="0990">990 A.D.</date>, at<placeName>מדינת ברקה</placeName>;<p>the parties are<persName>Aaron bar Jeshuah</persName>and<persName>חוסנה, daughter of Joseph אלצרפי</persName>, the dowry is expressed as follows:<quote>כסף זוזי מאתן ומאתן מנהג מדינת אטרבולוס</quote>, with some other presents;</p>
-                              <p>signed by a great number of witnesses, the first of whom is<persName>Joseph bar Nissin השופט</persName>.</p>
+                           <note>complete (margins cut), dated <date calendar="#AM" when="4750">Thursday the 5th of Elul, 4750 A.M.</date> = <date calendar="#Gregorian" when="0990">990 A.D.</date>, at <placeName>מדינת ברקה</placeName>; <p>the parties are <persName>Aaron bar Jeshuah</persName> and <persName>חוסנה, daughter of Joseph אלצרפי</persName>, the dowry is expressed as follows: <quote>כסף זוזי מאתן ומאתן מנהג מדינת אטרבולוס</quote>, with some other presents;</p>
+                              <p>signed by a great number of witnesses, the first of whom is <persName>Joseph bar Nissin השופט</persName>.</p>
                            </note>
                         </msItem>
                         <msItem xml:id="MS_Heb_a_2-part2-item1-item2">
@@ -110,14 +110,14 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="0990">990</origDate>
                         <origPlace>ברקה</origPlace>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part3" n="3">
@@ -131,29 +131,29 @@
                         <locus from="3a" to="3b">Fol. 3</locus>
                         <title>Fragments of Hebrew documents</title>
                         <msItem xml:id="MS_Heb_a_2-part3-item1-item1" n="a">
-                           <p>in which the property of<persName>Judah</persName>, which was in the hands of<persName>Netira son of Tobiah of Nisibis</persName>, was ordered by the זקנים to be restored to Judah’s sons,<persName>Sahl</persName>and<persName>Ḥosein</persName>.</p>
-                           <p>The date is cut off, only Monday the 7th of Tishri can be read, and the place where the elders decided the matter is<placeName>חנס מצרים</placeName>.</p>
+                           <p>in which the property of <persName>Judah</persName>, which was in the hands of <persName>Netira son of Tobiah of Nisibis</persName>, was ordered by the זקנים to be restored to Judah’s sons, <persName>Sahl</persName> and <persName>Ḥosein</persName>.</p>
+                           <p>The date is cut off, only Monday the 7th of Tishri can be read, and the place where the elders decided the matter is <placeName>חנס מצרים</placeName>.</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_a_2-part3-item1-item2" n="b">
-                           <p>The date<date calendar="#AM" when="4750">4750 A.M.</date>=<date calendar="#AM" when="0990">990 A.D.</date>is, however, given in fragment b, where Netira has the title of כהן. The signatures of the elders are missing in both fragments.</p>
+                           <p>The date <date calendar="#AM" when="4750">4750 A.M.</date> = <date calendar="#AM" when="0990">990 A.D.</date> is, however, given in fragment b, where Netira has the title of כהן. The signatures of the elders are missing in both fragments.</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_a_2-part3-item1-item3" n="c">
                            <p>
-                              <persName>Aminah daughter of Moses</persName>with her husband and her two daughters<persName>סיידה</persName>and<persName>סותית</persName>renounces all right to the property in her possession; the document is much cut, the signatures are missing, and of the date and place only the following can be made out: 19th of Tebeth, 47..,<placeName>.. שעל לשון ים מצרים</placeName>.</p>
+                              <persName>Aminah daughter of Moses</persName> with her husband and her two daughters <persName>סיידה</persName> and <persName>סותית</persName> renounces all right to the property in her possession; the document is much cut, the signatures are missing, and of the date and place only the following can be made out: 19th of Tebeth, 47.., <placeName>.. שעל לשון ים מצרים</placeName>.</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_a_2-part3-item1-item4">
                            <locus from="3b">Verso</locus>
                            <title>Fragments of a liturgy for the טל</title>
-                           <note>beg. as follows:<quote type="beg">הם אשר נתברכו בטל ילדות טל לאב המון ניתן בקץ רביבי טל</quote>; the months and the planets are mentioned in the last strophe.</note>
+                           <note>beg. as follows: <quote type="beg">הם אשר נתברכו בטל ילדות טל לאב המון ניתן בקץ רביבי טל</quote>; the months and the planets are mentioned in the last strophe.</note>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part4" n="4">
@@ -165,21 +165,21 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_a_2-part4-item1">
                         <locus from="4a" to="4b">Fol. 4.</locus>
-                        <title>A marriage contract between<persName>Japheth son of Solomon</persName>and<persName>Berakhah daughter of Shemariah</persName>
+                        <title>A marriage contract between <persName>Japheth son of Solomon</persName> and <persName>Berakhah daughter of Shemariah</persName>
                         </title>
-                        <note>made at Fostat on the Nile, on<date calendar="#Hebrew-Seleucid" when="1341">Tuesday the 4th of Marḥeshwan, 1341 Sel.</date>=<date calendar="#Gregorian" when="1030">1030 A.D.</date>, witnessed by<persName>.. החזן בירבי דויד החזן</persName>,<persName>Solomon bar Ḥakim</persName>,<persName>Mashiaḥ bar Zemaḥ</persName>,<persName>Abraham hal-Levi bar Samuel</persName>,<persName>Phinehas ben Ephraim</persName>,<persName>Joseph bar Manṣur ? hal-Levi</persName>,<persName>Jeshuah hal-Levi bar Abraham ס̇נ̇ג̇</persName>,<persName>Baruch ? bar Ḥasn</persName>and<persName>אפרים ז̇ע̇ החבר ב̇ס̇ג̇ בר שמריה</persName>.</note>
+                        <note>made at Fostat on the Nile, on <date calendar="#Hebrew-Seleucid" when="1341">Tuesday the 4th of Marḥeshwan, 1341 Sel.</date> = <date calendar="#Gregorian" when="1030">1030 A.D.</date>, witnessed by <persName>.. החזן בירבי דויד החזן</persName>, <persName>Solomon bar Ḥakim</persName>, <persName>Mashiaḥ bar Zemaḥ</persName>, <persName>Abraham hal-Levi bar Samuel</persName>, <persName>Phinehas ben Ephraim</persName>, <persName>Joseph bar Manṣur ? hal-Levi</persName>, <persName>Jeshuah hal-Levi bar Abraham ס̇נ̇ג̇</persName>, <persName>Baruch ? bar Ḥasn</persName> and <persName>אפרים ז̇ע̇ החבר ב̇ס̇ג̇ בר שמריה</persName>.</note>
                         <textLang mainLang="arc"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origPlace>Fostat</origPlace>
                         <origDate when="1030">1030</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part5" n="5">
@@ -195,7 +195,7 @@
                         <msItem xml:id="MS_Heb_a_2-part5-item1-item1">
                            <locus from="5a">Fol. 5a</locus>
                            <title>A marriage contract</title>
-                           <note>the names of the parties are<persName>… ? bar כתיר</persName>and<persName>Mubarakat daughter of Solomon Kahana</persName>, drawn up at<placeName>Fostat on the Nile</placeName>, on<date calendar="#Hebrew-Seleucid" when="1368">Wednesday the 5th of Siwan, 1368 Sel.</date>=<date calendar="#Gregorian" when="1057">1057 A.D.</date>; signatures cut off.</note>
+                           <note>the names of the parties are <persName>… ? bar כתיר</persName> and <persName>Mubarakat daughter of Solomon Kahana</persName>, drawn up at <placeName>Fostat on the Nile</placeName>, on <date calendar="#Hebrew-Seleucid" when="1368">Wednesday the 5th of Siwan, 1368 Sel.</date> = <date calendar="#Gregorian" when="1057">1057 A.D.</date>; signatures cut off.</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_a_2-part5-item1-item2">
                            <locus from="5b">Verso</locus>
@@ -206,14 +206,14 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origPlace>Fostat</origPlace>
                         <origDate when="1057">1057</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part6" n="6">
@@ -226,19 +226,19 @@
                      <msItem xml:id="MS_Heb_a_2-part6-item1">
                         <locus from="6a" to="6b">Fol. 6</locus>
                         <title>A marriage contract</title>
-                        <note>dated<date calendar="#Hebrew-Seleucid" when="1438">… Siwan, 1438 Sel.</date>=<date calendar="#Gregorian" when="1127">1127 A.D.</date>, at<placeName>Fostat</placeName>, the man’s name is<persName>תקוה hal-Levi son of מר̇ו̇ר̇ פרחיה</persName>, the rest is cut off.</note>
+                        <note>dated <date calendar="#Hebrew-Seleucid" when="1438">… Siwan, 1438 Sel.</date> = <date calendar="#Gregorian" when="1127">1127 A.D.</date>, at <placeName>Fostat</placeName>, the man’s name is <persName>תקוה hal-Levi son of מר̇ו̇ר̇ פרחיה</persName>, the rest is cut off.</note>
                         <textLang mainLang="arc"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. Rabb. char.;<material>vellum</material>.</p>
+                     <p>Or. Rabb. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origPlace>Fostat</origPlace>
                         <origDate when="1127">1127</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part7" n="7">
@@ -251,20 +251,20 @@
                      <msItem xml:id="MS_Heb_a_2-part7-item1">
                         <locus from="7a" to="7b">Fol. 7</locus>
                         <title>An Arabic document</title>
-                        <note>cut, containing an agreement made in the presence of the ב̇ד̇, between<persName>[ש]מואל son of Japheth החבר</persName>, and al-Sheikh<persName>Abu 'l-Fadhl אלשראבי R. Shelah son of Eleazar haz-Zaqen</persName>about some property at<placeName>Fostat</placeName>(names given), dated by the Tribunal (no names) in the<date calendar="#Hebrew-Seleucid" when="1414">second decade of Iyyar, 1414 Sel.</date>=<date calendar="#Gregorian" when="1103">1103 A.D.</date>
+                        <note>cut, containing an agreement made in the presence of the ב̇ד̇, between <persName>[ש]מואל son of Japheth החבר</persName>, and al-Sheikh <persName>Abu 'l-Fadhl אלשראבי R. Shelah son of Eleazar haz-Zaqen</persName> about some property at <placeName>Fostat</placeName> (names given), dated by the Tribunal (no names) in the <date calendar="#Hebrew-Seleucid" when="1414">second decade of Iyyar, 1414 Sel.</date> = <date calendar="#Gregorian" when="1103">1103 A.D.</date>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. Rabb. char.;<material>vellum</material>.</p>
+                     <p>Or. Rabb. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origPlace>Fostat</origPlace>
                         <origDate when="1103">1103</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part8" n="8">
@@ -277,19 +277,19 @@
                      <msItem xml:id="MS_Heb_a_2-part8-item1">
                         <locus from="8a" to="8b">Fol. 8</locus>
                         <title>A document concerning a sale of property</title>
-                        <note>the parties are<persName>Abu 'l-maʿani</persName>and<persName>Abu 'l-faraj</persName>; drawn up at<placeName>Fostat</placeName>, in the month of<date calendar="#Hebrew-Seleucid" when="1456">Nisan, 1456 Sel.</date>=<date calendar="#Gregorian" when="1145">1145 A.D.</date>, in the presence of<persName>Samuel han-Nagid</persName>.</note>
+                        <note>the parties are <persName>Abu 'l-maʿani</persName> and <persName>Abu 'l-faraj</persName>; drawn up at <placeName>Fostat</placeName>, in the month of <date calendar="#Hebrew-Seleucid" when="1456">Nisan, 1456 Sel.</date> = <date calendar="#Gregorian" when="1145">1145 A.D.</date>, in the presence of <persName>Samuel han-Nagid</persName>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. Rabb. char.;<material>vellum</material>.</p>
+                     <p>Or. Rabb. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1145">1145</origDate>
                         <origPlace>Fostat</origPlace>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part9" n="9">
@@ -302,20 +302,20 @@
                      <msItem xml:id="MS_Heb_a_2-part9-item1">
                         <locus from="9a" to="9b">Fol. 9</locus>
                         <title>A will, in Arabic</title>
-                        <note>of<persName>אבו אלפצ[ל] אלקזאז בן אלשיך אבו אלברכאת הידוע בן אלמקדסי</persName>(witnessed by<persName>Solomon bar Nisim</persName>and<persName>Levi hal-Levi ben R. Abraham</persName>) bequeathing his property to his two sons,<persName>אבו אלברכאת</persName>and<persName>אבו אלחסן</persName>;<p>made at<placeName>Fostat</placeName>, on<date calendar="#Hebrew-Seleucid" when="1500">Wednesday the 15th of Kislew, 1500 Sel.</date>=<date calendar="#Gregorian" when="1189">1189 A.D.</date>, in the presence (רשותיה) of<persName>Sar Shalom hal-Levi</persName>.</p>
+                        <note>of <persName>אבו אלפצ[ל] אלקזאז בן אלשיך אבו אלברכאת הידוע בן אלמקדסי</persName> (witnessed by <persName>Solomon bar Nisim</persName> and <persName>Levi hal-Levi ben R. Abraham</persName>) bequeathing his property to his two sons, <persName>אבו אלברכאת</persName> and <persName>אבו אלחסן</persName>; <p>made at <placeName>Fostat</placeName>, on <date calendar="#Hebrew-Seleucid" when="1500">Wednesday the 15th of Kislew, 1500 Sel.</date> = <date calendar="#Gregorian" when="1189">1189 A.D.</date>, in the presence (רשותיה) of <persName>Sar Shalom hal-Levi</persName>.</p>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. Rabb. char.;<material>vellum</material>.</p>
+                     <p>Or. Rabb. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origPlace>Fostat</origPlace>
                         <origDate when="1189">1189</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part10" n="10">
@@ -328,16 +328,16 @@
                      <msItem xml:id="MS_Heb_a_2-part10-item1">
                         <locus from="10a" to="10b">Fol. 10</locus>
                         <title>Fragment of a marriage contract</title>
-                        <note>much cut, witnessed by<persName>Joseph bar Solomon</persName>,<persName>Joseph ben R. Nisim</persName>, and<persName>Joseph bar Shemariah</persName>.<p>On the<locus from="10b">verso</locus>some scribbling in Hebrew and Arabic.</p>
+                        <note>much cut, witnessed by <persName>Joseph bar Solomon</persName>, <persName>Joseph ben R. Nisim</persName>, and <persName>Joseph bar Shemariah</persName>. <p>On the <locus from="10b">verso</locus> some scribbling in Hebrew and Arabic.</p>
                         </note>
                         <textLang mainLang="arc" otherLangs="he jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. curs. char.;<material>vellum</material>.</p>
+                     <p>Or. curs. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part11" n="11">
@@ -350,15 +350,15 @@
                      <msItem xml:id="MS_Heb_a_2-part11-item1">
                         <locus from="11a" to="11b">Fol. 11</locus>
                         <title>List, in Arabic, of mercantile transactions</title>
-                        <note>beg.<quote type="beg">מערפה חסאב אבי אלבשר מן ד̇לך עדל לך אלוזן</quote>.</note>
+                        <note>beg. <quote type="beg">מערפה חסאב אבי אלבשר מן ד̇לך עדל לך אלוזן</quote>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part12" n="12">
@@ -371,15 +371,15 @@
                      <msItem xml:id="MS_Heb_a_2-part12-item1">
                         <locus from="12a" to="12b">Fol. 12</locus>
                         <title>A fragment of a conveyance of property</title>
-                        <note>beg.<quote type="beg">... אלסוק אלכביר אלמערופה</quote>; much cut.</note>
+                        <note>beg. <quote type="beg">... אלסוק אלכביר אלמערופה</quote>; much cut.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. curs. char.;<material>vellum</material>.</p>
+                     <p>Or. curs. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part13" n="13">
@@ -394,23 +394,23 @@
                         <title>Document; liturgy</title>
                         <msItem xml:id="MS_Heb_a_2-part13-item1-item1">
                            <locus from="13a">Fol. 13a</locus>
-                           <title>A fragment of a document concerning a vineyard in the possession of<persName>Joseph bar Isaac</persName>
+                           <title>A fragment of a document concerning a vineyard in the possession of <persName>Joseph bar Isaac</persName>
                            </title>
                            <note>situated לעבר נהר תאג̇א במקום שיודעין אותו ואדילעפש בכפר אלביג̇ש, much cut.</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_a_2-part13-item1-item2">
                            <locus from="13b">Verso</locus>
                            <title>A fragment of a liturgy for Pesaḥ</title>
-                           <note>by a later (cursive) hand, with the refrain<quote>ברח דודי</quote>; a strophe beg.<quote>הכו עיר ידי שעיר</quote>; much obliterated.</note>
+                           <note>by a later (cursive) hand, with the refrain <quote>ברח דודי</quote>; a strophe beg. <quote>הכו עיר ידי שעיר</quote>; much obliterated.</note>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part14" n="14">
@@ -423,18 +423,18 @@
                      <msItem xml:id="MS_Heb_a_2-part14-item1">
                         <locus from="14a" to="14b">Fol. 14</locus>
                         <title>The end of a letter in rhymed prose</title>
-                        <note>from<persName>Judah Sofer bar Ali</persName>to<persName>Meborakh bar David hab-Babli</persName>(on the<locus from="14b">verso</locus>),<p>ending with<quote>ותן שלום לאדוני מרי ורבנא אברהם הרופא זקננו וחשובנו בן כבוד גדולת קדושת מרנא ורבנא עלי נ̇נ̇ ותקבלו שלום רב מחמודי עלי</quote>.</p>
-                           <p>This is followed by a postscript, beg.<quote>וקד געלת רקעה דרג כתאבך מתפצ̇ל תרפעהא לסידי אבי עמרן בן יחיי אלרקי ...</quote>, and mentioning<persName>ולדי אבו אלחסן</persName>.</p>
-                           <p>On the<locus from="14b">verso</locus>are some entries by a later hand, beg.<quote>אשתרית מן אבו אלעלא רטלין ...</quote>.</p>
+                        <note>from <persName>Judah Sofer bar Ali</persName> to <persName>Meborakh bar David hab-Babli</persName> (on the <locus from="14b">verso</locus>), <p>ending with <quote>ותן שלום לאדוני מרי ורבנא אברהם הרופא זקננו וחשובנו בן כבוד גדולת קדושת מרנא ורבנא עלי נ̇נ̇ ותקבלו שלום רב מחמודי עלי</quote>.</p>
+                           <p>This is followed by a postscript, beg. <quote>וקד געלת רקעה דרג כתאבך מתפצ̇ל תרפעהא לסידי אבי עמרן בן יחיי אלרקי ...</quote>, and mentioning <persName>ולדי אבו אלחסן</persName>.</p>
+                           <p>On the <locus from="14b">verso</locus> are some entries by a later hand, beg. <quote>אשתרית מן אבו אלעלא רטלין ...</quote>.</p>
                         </note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part15" n="15">
@@ -447,15 +447,15 @@
                      <msItem xml:id="MS_Heb_a_2-part15-item1">
                         <locus from="15a" to="15b">Fol. 15</locus>
                         <title>The end of a legal document</title>
-                        <note>signed<persName>אלחנן בית דין בירבי שמריה</persName>.</note>
+                        <note>signed <persName>אלחנן בית דין בירבי שמריה</persName>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part16" n="16">
@@ -467,16 +467,16 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_a_2-part16-item1">
                         <locus from="16a" to="16b">Fol. 16</locus>
-                        <title>A letter from<persName>Ḥalfon hal-Levi son of Menasseh בן אלקטאיף</persName>to R.<persName>Ḥalfon ben Isaac השר הנכבד נדיב ...</persName>(on the<locus from="16b">verso</locus>).</title>
-                        <note>The preamble is in Hebrew and in rhymed prose, the letter is in Arabic. It is mentioned that a letter had already been sent to him by<persName>אלשיך אבו סעיד כֿגֿקֿ מֿרֿוֿרֿ חלפון הלוי היקר הנבון נֿטֿרֿחֿ בר כֿגֿקֿ נתנאל הלוי הזקן הנכבד נ̇ע̇</persName>.</note>
+                        <title>A letter from <persName>Ḥalfon hal-Levi son of Menasseh בן אלקטאיף</persName> to R. <persName>Ḥalfon ben Isaac השר הנכבד נדיב ...</persName> (on the <locus from="16b">verso</locus>).</title>
+                        <note>The preamble is in Hebrew and in rhymed prose, the letter is in Arabic. It is mentioned that a letter had already been sent to him by <persName>אלשיך אבו סעיד כֿגֿקֿ מֿרֿוֿרֿ חלפון הלוי היקר הנבון נֿטֿרֿחֿ בר כֿגֿקֿ נתנאל הלוי הזקן הנכבד נ̇ע̇</persName>.</note>
                         <textLang mainLang="jrb" otherLangs="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. Rabb. char.;<material>paper</material>.</p>
+                     <p>Or. Rabb. char.; <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part17" n="17">
@@ -488,20 +488,20 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_a_2-part17-item1">
                         <locus from="17a" to="17b">Fol. 17</locus>
-                        <title>A business letter in Arabic sent from<placeName>Alexandria</placeName>to<persName>אבו אלכיר בן זכריא בן ...</persName>by<persName>יחיי בן מנטי (?)</persName>
+                        <title>A business letter in Arabic sent from <placeName>Alexandria</placeName> to <persName>אבו אלכיר בן זכריא בן ...</persName> by <persName>יחיי בן מנטי (?)</persName>
                         </title>
-                        <note>dated in the month of Siwan. All the names in it are Arabic, e.g.<persName>אבו אלפצ̇ל</persName>,<persName>אלשיך אבו טייב</persName>.</note>
+                        <note>dated in the month of Siwan. All the names in it are Arabic, e.g. <persName>אבו אלפצ̇ל</persName>, <persName>אלשיך אבו טייב</persName>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. curs. char.;<material>vellum</material>.</p>
+                     <p>Or. curs. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origPlace>Alexandria</origPlace>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part18" n="18">
@@ -514,18 +514,18 @@
                      <msItem xml:id="MS_Heb_a_2-part18-item1">
                         <locus from="18a" to="18b">Fol. 18</locus>
                         <title>A business letter in Arabic</title>
-                        <note>from<placeName>Alexandria</placeName>, dated in the month of Siwan, addressed<quote>לאכי וסידי אבי יחיי נהראי בן נסים</quote>, by<persName>Israel ben Nathan of Kairowan</persName>, the same persons are mentioned as in<ref target="#MS_Heb_a_2_17">No. 17</ref>.</note>
+                        <note>from <placeName>Alexandria</placeName>, dated in the month of Siwan, addressed <quote>לאכי וסידי אבי יחיי נהראי בן נסים</quote>, by <persName>Israel ben Nathan of Kairowan</persName>, the same persons are mentioned as in <ref target="#MS_Heb_a_2_17">No. 17</ref>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. curs. char.;<material>paper</material>.</p>
+                     <p>Or. curs. char.; <material>paper</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origPlace>Alexandria</origPlace>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part19" n="19">
@@ -538,18 +538,18 @@
                      <msItem xml:id="MS_Heb_a_2-part19-item1">
                         <locus from="19a" to="19b">Fol. 19</locus>
                         <title>A business letter in Arabic</title>
-                        <note>addressed to<persName>אבי יצחק בן צאלח</persName>by<persName>צדקה בן זכריא</persName>, from Alexandria, in the month of Siwan.</note>
+                        <note>addressed to <persName>אבי יצחק בן צאלח</persName> by <persName>צדקה בן זכריא</persName>, from Alexandria, in the month of Siwan.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. curs. char.;<material>paper</material>.</p>
+                     <p>Or. curs. char.; <material>paper</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origPlace>Alexandria</origPlace>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part20" n="20">
@@ -562,15 +562,15 @@
                      <msItem xml:id="MS_Heb_a_2-part20-item1">
                         <locus from="20a" to="20b">Fol. 20</locus>
                         <title>A business letter in Arabic</title>
-                        <note>dated the 4th of Elul, addressed to<persName>Abu Zecharia ben Judah ben Moses ben ...</persName>by<persName>מוסי בן יצחק</persName>.</note>
+                        <note>dated the 4th of Elul, addressed to <persName>Abu Zecharia ben Judah ben Moses ben ...</persName> by <persName>מוסי בן יצחק</persName>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. curs. char.;<material>vellum</material>.</p>
+                     <p>Or. curs. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part21" n="21">
@@ -583,15 +583,15 @@
                      <msItem xml:id="MS_Heb_a_2-part21-item1">
                         <locus from="21a" to="21b">Fol. 21</locus>
                         <title>A letter</title>
-                        <note>beg. and end much cut, preamble in Hebrew and verso in Arabic. The following names occur:<persName>אמא אלשיך אלרשד הק̇ב̇ה̇ יכפיה</persName>,<persName>ואמא אלשיך אבו מנצור פמא ערפת</persName>....</note>
+                        <note>beg. and end much cut, preamble in Hebrew and verso in Arabic. The following names occur: <persName>אמא אלשיך אלרשד הק̇ב̇ה̇ יכפיה</persName>, <persName>ואמא אלשיך אבו מנצור פמא ערפת</persName>....</note>
                         <textLang mainLang="jrb" otherLangs="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. Rabb. char.;<material>paper</material>.</p>
+                     <p>Or. Rabb. char.; <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part22" n="22">
@@ -604,15 +604,15 @@
                      <msItem xml:id="MS_Heb_a_2-part22-item1">
                         <locus from="22a" to="22b">Fol. 22</locus>
                         <title>An Arabic letter</title>
-                        <note>beg. missing. R.<persName>Moses</persName>and R.<persName>Obadiah</persName>are mentioned; on the margin is the date לילה אלאתנין ד̇ תמוז. The<locus from="22b">verso</locus>contains a postscript in which<persName>אלשיך אבו אלפצ̇ל אלסופר</persName>is mentioned.</note>
+                        <note>beg. missing. R. <persName>Moses</persName> and R. <persName>Obadiah</persName> are mentioned; on the margin is the date לילה אלאתנין ד̇ תמוז. The <locus from="22b">verso</locus> contains a postscript in which <persName>אלשיך אבו אלפצ̇ל אלסופר</persName> is mentioned.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. curs. char.;<material>paper</material>.</p>
+                     <p>Or. curs. char.; <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part23" n="23">
@@ -624,21 +624,21 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_a_2-part23-item1">
                         <locus from="23a" to="23b">Fol. 23</locus>
-                        <title>Document concerning the cession of the property of<persName>Abu 'l-Maʿali ben Japheth</persName>to his friend<persName>Mulat daughter of R. Joseph hak-Kohen ben Adoniah</persName>
+                        <title>Document concerning the cession of the property of <persName>Abu 'l-Maʿali ben Japheth</persName> to his friend <persName>Mulat daughter of R. Joseph hak-Kohen ben Adoniah</persName>
                         </title>
-                        <note>dated<date calendar="#AM" when="4810">Wednesday the 14th of Iyyar, 810</date>=<date calendar="#Gregorian" when="1050">1050 A.D.</date>, in<placeName>Kairowan</placeName>; witnesses,<persName>Joseph ben R. Judah</persName>,<persName>Nissim bar Abraham חדירי</persName>,<persName>Abraham bar Joseph ראש הסדר</persName>.</note>
+                        <note>dated <date calendar="#AM" when="4810">Wednesday the 14th of Iyyar, 810</date> = <date calendar="#Gregorian" when="1050">1050 A.D.</date>, in <placeName>Kairowan</placeName>; witnesses, <persName>Joseph ben R. Judah</persName>, <persName>Nissim bar Abraham חדירי</persName>, <persName>Abraham bar Joseph ראש הסדר</persName>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1050">1050</origDate>
                         <origPlace>Kairowan</origPlace>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_a_2-part24" n="24">
@@ -651,15 +651,15 @@
                      <msItem xml:id="MS_Heb_a_2-part24-item1">
                         <locus from="24a" to="24b">Fol. 24</locus>
                         <title>A collection of Agadic sentences from the Talmud</title>
-                        <note>The first legible section beg.<quote>מפני ארבעה דברים המאורות לוקים על כותבי פלסטה ועל מעידי עידות שקר...</quote>(B. Talm. Succah, fol. 29).</note>
+                        <note>The first legible section beg. <quote>מפני ארבעה דברים המאורות לוקים על כותבי פלסטה ועל מעידי עידות שקר...</quote> (B. Talm. Succah, fol. 29).</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. squ. char.;<material>vellum</material>.</p>
+                     <p>Or. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" notBefore="1890" notAfter="1891">1890-1</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -668,7 +668,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -1090,7 +1090,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-04-01">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

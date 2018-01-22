@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_175">
    <teiHeader>
       <fileDesc>
@@ -48,7 +48,7 @@
                      <msItem xml:id="MS_Heb_f_18-item1-item1" n="1">
                         <locus from="1a" to="33a">Fol. 1</locus>
                         <title>An Arabic treatise in defence of the Rabbanitic belief in an oral law, against the Karaites</title>
-                        <note>beg. missing. After having spoken of Anan's controversy, the author proves from passages in the Bible that a tradition must have existed besides the written law. At the end there is a discussion as to the month Ve-Adar.<p>The colophon (<locus from="33a">fol. 33</locus>) says that the book was finished (<quote>נגמר הספר הזה</quote>, the composition or the copy?) on the<date calendar="#AM" when="4872">1st of Elul, 4872 A.M.</date>=<date calendar="#Gregorian" when="1112">1112 A.D.</date>, for (לכבוד) R.<persName>Joseph, son of Rebiʿah hak-Kohen</persName>.</p>
+                        <note>beg. missing. After having spoken of Anan's controversy, the author proves from passages in the Bible that a tradition must have existed besides the written law. At the end there is a discussion as to the month Ve-Adar. <p>The colophon (<locus from="33a">fol. 33</locus>) says that the book was finished (<quote>נגמר הספר הזה</quote>, the composition or the copy?) on the <date calendar="#AM" when="4872">1st of Elul, 4872 A.M.</date> = <date calendar="#Gregorian" when="1112">1112 A.D.</date>, for (לכבוד) R. <persName>Joseph, son of Rebiʿah hak-Kohen</persName>.</p>
                         </note>
                      </msItem>
                      <msItem xml:id="MS_Heb_f_18-item1-item2" n="2">
@@ -60,57 +60,57 @@
                         <locus from="37a" to="50b"/>
                         <title>Mishnah to be recited on various occasions</title>
                         <msItem xml:id="MS_Heb_f_18-item1-item3-item1" n="a">
-                           <p>(<locus from="37a">fol. 37</locus>)<quote type="head">פרק לילי שבת</quote>, beg.<quote type="beg">במה מדליקין</quote>;</p>
+                           <p>(<locus from="37a">fol. 37</locus>) <quote type="head">פרק לילי שבת</quote>, beg. <quote type="beg">במה מדליקין</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_f_18-item1-item3-item2" n="b">
-                           <p>(<locus from="38a">fol. 38</locus>)<quote type="head">ליום</quote>, beg.<quote type="beg">אילו דברים שאין להם שיעור</quote>, followed by prayers;</p>
+                           <p>(<locus from="38a">fol. 38</locus>) <quote type="head">ליום</quote>, beg. <quote type="beg">אילו דברים שאין להם שיעור</quote>, followed by prayers;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_f_18-item1-item3-item3" n="c">
-                           <p>(<locus from="39a">fol. 39</locus>)<quote type="head">פרק לילי פסח</quote>, beg.<quote type="beg">ערב פסחים סמוך למנחה</quote>;</p>
+                           <p>(<locus from="39a">fol. 39</locus>) <quote type="head">פרק לילי פסח</quote>, beg. <quote type="beg">ערב פסחים סמוך למנחה</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_f_18-item1-item3-item4" n="d">
-                           <p>(<locus from="40b">fol. 40b</locus>)<quote type="head">לילי ויושע</quote>, beg.<quote type="beg">ביצה שנולדה</quote>;</p>
+                           <p>(<locus from="40b">fol. 40b</locus>) <quote type="head">לילי ויושע</quote>, beg. <quote type="beg">ביצה שנולדה</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_f_18-item1-item3-item5" n="e">
-                           <p>(<locus from="42a">fol. 42</locus>)<quote type="head">לילי חג השבועות</quote>, beg.<quote type="beg">כיצד מפרישין את הביכורים</quote>;</p>
+                           <p>(<locus from="42a">fol. 42</locus>) <quote type="head">לילי חג השבועות</quote>, beg. <quote type="beg">כיצד מפרישין את הביכורים</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_f_18-item1-item3-item6" n="f">
-                           <p>(<locus from="43b">fol. 43b</locus>)<quote type="head">ראש השנה</quote>, beg.<quote type="beg">ארבעה ראשי שנים</quote>;</p>
+                           <p>(<locus from="43b">fol. 43b</locus>) <quote type="head">ראש השנה</quote>, beg. <quote type="beg">ארבעה ראשי שנים</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_f_18-item1-item3-item7" n="g">
-                           <p>(<locus from="45a">fol. 45</locus>)<quote type="head">לילי כיפור</quote>, beg.<quote type="beg">יום הכיפורים אסור</quote>;</p>
+                           <p>(<locus from="45a">fol. 45</locus>) <quote type="head">לילי כיפור</quote>, beg. <quote type="beg">יום הכיפורים אסור</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_f_18-item1-item3-item8" n="h">
-                           <p>(<locus from="46b">fol. 46b</locus>)<quote type="head">לילי סוכה</quote>, beg.<quote type="beg">סוכה שהיא גבוהה</quote>;</p>
+                           <p>(<locus from="46b">fol. 46b</locus>) <quote type="head">לילי סוכה</quote>, beg. <quote type="beg">סוכה שהיא גבוהה</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_f_18-item1-item3-item9" n="i">
-                           <p>(<locus from="48a">fol. 48</locus>)<quote type="head">לילי שמיני עצרת</quote>, beg.<quote type="beg">החליל ה̇</quote>.</p>
+                           <p>(<locus from="48a">fol. 48</locus>) <quote type="head">לילי שמיני עצרת</quote>, beg. <quote type="beg">החליל ה̇</quote>.</p>
                         </msItem>
-                        <note>At the end (<locus from="50a">fol. 50</locus>)<quote>כמל בעון אלרחמן ...</quote>.</note>
+                        <note>At the end (<locus from="50a">fol. 50</locus>) <quote>כמל בעון אלרחמן ...</quote>.</note>
                      </msItem>
                      <msItem xml:id="MS_Heb_f_18-item1-item4" n="4">
                         <locus from="51a" to="52b"/>
                         <title>Arabic treatises</title>
                         <msItem xml:id="MS_Heb_f_18-item1-item4-item1" n="a">
-                           <p>(<locus from="51a">fol. 51</locus>)<quote type="head">נסכה קלע אלאתאר</quote>, recipes for cleaning cloth;</p>
+                           <p>(<locus from="51a">fol. 51</locus>) <quote type="head">נסכה קלע אלאתאר</quote>, recipes for cleaning cloth;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_f_18-item1-item4-item2" n="b">
-                           <p>(<locus from="52a">fol. 52</locus>) on the planets, beg.<quote type="beg">הדה אשכאל אלכואכב ומערפה עקאקיר אלמרמוז עליהא</quote>.</p>
+                           <p>(<locus from="52a">fol. 52</locus>) on the planets, beg. <quote type="beg">הדה אשכאל אלכואכב ומערפה עקאקיר אלמרמוז עליהא</quote>.</p>
                         </msItem>
                      </msItem>
                      <msItem xml:id="MS_Heb_f_18-item1-item5">
-                        <p>Blank leaves and some scribbling from<locus from="53a" to="58b">ff. 53 to 58</locus>.</p>
+                        <p>Blank leaves and some scribbling from <locus from="53a" to="58b">ff. 53 to 58</locus>.</p>
                      </msItem>
                      <msItem xml:id="MS_Heb_f_18-item1-item6" n="5">
                         <locus from="58b" to="67b">Fol. 58b</locus>
                         <title>An index of verses for the Sidras</title>
-                        <note>headed<quote type="head">פהרסת פואסיק והלכות על פרשיות התורה</quote>, beg.<quote type="beg">בראשית. שמע אלי ... וכת̇ ברכי נפשי ... וכת̇ יי̇ בחכמה ... בדבר יי̇ ... תנן אין דורשין בעריות</quote>incomplete, ends with ראה.</note>
+                        <note>headed <quote type="head">פהרסת פואסיק והלכות על פרשיות התורה</quote>, beg. <quote type="beg">בראשית. שמע אלי ... וכת̇ ברכי נפשי ... וכת̇ יי̇ בחכמה ... בדבר יי̇ ... תנן אין דורשין בעריות</quote> incomplete, ends with ראה.</note>
                      </msItem>
                      <textLang mainLang="jrb" otherLangs="he"/>
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Syr. Rabb. char.; 8vo,<material>paper</material>.</p>
+                  <p>Syr. Rabb. char.; 8vo, <material>paper</material>.</p>
                   <p>Ff. 67 (some blank).</p>
                </physDesc>
                <history>
@@ -119,15 +119,15 @@
                         <origDate when="1112">1112</origDate>
                      </ref>
                   </origin>
-                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p059b.jpg">No. 2791</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p059b.jpg">No. 2791</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -137,7 +137,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -190,7 +190,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-03-28">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

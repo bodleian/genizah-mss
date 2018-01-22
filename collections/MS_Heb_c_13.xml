@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_25">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 28.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p064b.jpg Catalogue-1_p065a.jpg">No. 2807</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p064b.jpg Catalogue-1_p065a.jpg">No. 2807</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -69,18 +69,18 @@
                      <msItem xml:id="MS_Heb_c_13-part1-item1">
                         <locus from="1a" to="1b">Fol. 1</locus>
                         <title>A deed in Arabic conveying property</title>
-                        <note>from<persName>מר̇ו̇ר̇ תקוה הלוי המכונה אבו אלמנא ב̇ר̇ פרחיה הלוי דידיע בן אלאמעט</persName>to<persName>אלשיך אבו אלמפצ̇ל כ̇ג̇ק̇ מר̇ור̇ נתנאל ב̇ר̇ פרחיה חמדת הישיבה ... ס̇ט̇</persName>, dated<date calendar="#Hebrew-Seleucid" when="1436">Kislew, 1436 Sel.</date>=<date calendar="#Gregorian" when="1125">1125 A.D.</date>, at Fostat. Signed<persName>יצחק ביר̇ שמואל הספרדי</persName>and<persName>חלפון הלוי ביר̇ מנשה נ̇ע̇</persName>.</note>
+                        <note>from <persName>מר̇ו̇ר̇ תקוה הלוי המכונה אבו אלמנא ב̇ר̇ פרחיה הלוי דידיע בן אלאמעט</persName> to <persName>אלשיך אבו אלמפצ̇ל כ̇ג̇ק̇ מר̇ור̇ נתנאל ב̇ר̇ פרחיה חמדת הישיבה ... ס̇ט̇</persName>, dated <date calendar="#Hebrew-Seleucid" when="1436">Kislew, 1436 Sel.</date> = <date calendar="#Gregorian" when="1125">1125 A.D.</date>, at Fostat. Signed <persName>יצחק ביר̇ שמואל הספרדי</persName> and <persName>חלפון הלוי ביר̇ מנשה נ̇ע̇</persName>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.;<material>paper</material>.</p>
+                     <p>Syr. curs. char.; <material>paper</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1125">1125</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part2" n="2">
@@ -93,15 +93,15 @@
                      <msItem xml:id="MS_Heb_c_13-part2-item1">
                         <locus from="2a" to="2b">Fol. 2</locus>
                         <title>A fragment of a magical treatise in Arabic</title>
-                        <note>beg.<quote>אהבה בריק יכתב בזעפראן</quote>; incomplete and injured.</note>
+                        <note>beg. <quote>אהבה בריק יכתב בזעפראן</quote>; incomplete and injured.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part3" n="3">
@@ -114,18 +114,18 @@
                      <msItem xml:id="MS_Heb_c_13-part3-item1">
                         <locus from="4a" to="4b">Fol. 4</locus>
                         <title>A fragment of entries in Arabic</title>
-                        <note>beg.<quote type="beg">שנת אֿתֿרֿמֿטֿ אלאגל ... אלשיך מוסי</quote>(=<date calendar="#Gregorian" when="1338">1338 A.D.</date>).</note>
+                        <note>beg. <quote type="beg">שנת אֿתֿרֿמֿטֿ אלאגל ... אלשיך מוסי</quote> (= <date calendar="#Gregorian" when="1338">1338 A.D.</date>).</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, injured.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1338">1338</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part4" n="4">
@@ -140,7 +140,7 @@
                         <title>Letter</title>
                         <msItem xml:id="MS_Heb_c_13-part4-item1-item1">
                            <title>A Spanish letter</title>
-                           <note>beg.<quote type="beg">שיניורה שואיגרה אין לוגאר די מאדרי</quote>, end<quote type="end">אילקי ווש ביזה לאש מאנוס קומו וואישטרו היג̇ו עובדייה דיג̇אג̇י</quote>; the name of<persName>יוסף ג̇אייאן</persName>is mentioned.</note>
+                           <note>beg. <quote type="beg">שיניורה שואיגרה אין לוגאר די מאדרי</quote>, end <quote type="end">אילקי ווש ביזה לאש מאנוס קומו וואישטרו היג̇ו עובדייה דיג̇אג̇י</quote>; the name of <persName>יוסף ג̇אייאן</persName> is mentioned.</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_c_13-part4-item1-item2">
                            <locus from="5b">Verso</locus>
@@ -151,10 +151,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.; small 8vo,<material>paper</material>.</p>
+                     <p>Span. Rabb. char.; small 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part5" n="5">
@@ -167,15 +167,15 @@
                      <msItem xml:id="MS_Heb_c_13-part5-item1">
                         <locus from="6a" to="6b">Ff. 6-8</locus>
                         <title>Three oblong slips containing lists of names</title>
-                        <note>beg.<quote type="beg">אלשיך מחרז אלצבאג</quote>.</note>
+                        <note>beg. <quote type="beg">אלשיך מחרז אלצבאג</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.;<material>paper</material>.</p>
+                     <p>Syr. curs. char.; <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part6" n="6">
@@ -188,15 +188,15 @@
                      <msItem xml:id="MS_Heb_c_13-part6-item1">
                         <locus from="9a" to="9b">Fol. 9</locus>
                         <title>A fragment of a letter (?)</title>
-                        <note>much injured; the name of<persName>הלל בן ניסין</persName>is mentioned in it.</note>
+                        <note>much injured; the name of <persName>הלל בן ניסין</persName> is mentioned in it.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.;<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part7" n="7">
@@ -209,15 +209,15 @@
                      <msItem xml:id="MS_Heb_c_13-part7-item1">
                         <locus from="10a" to="10b">Fol. 10</locus>
                         <title>A fragment of some business record in Arabic</title>
-                        <note>mostly obliterated, ending<quote type="end">סבעה דרהם ורבע</quote>.</note>
+                        <note>mostly obliterated, ending <quote type="end">סבעה דרהם ורבע</quote>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.;<material>vellum</material>.</p>
+                     <p>Syr. squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part8" n="8">
@@ -229,15 +229,15 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_c_13-part8-item1">
                         <locus from="11a" to="11b">Fol. 11</locus>
-                        <title>The end of a commercial document, in which<quote>שלושה חנותים</quote>are mentioned.</title>
+                        <title>The end of a commercial document, in which <quote>שלושה חנותים</quote> are mentioned.</title>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.;<material>vellum</material>, obliterated.</p>
+                     <p>Syr. squ. char.; <material>vellum</material>, obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part9" n="9">
@@ -250,21 +250,21 @@
                      <msItem xml:id="MS_Heb_c_13-part9-item1">
                         <locus from="12a" to="12b">Fol. 12</locus>
                         <title>A fragment of an Arabic commercial document</title>
-                        <note>dated the<date calendar="#Hijri-qamari">2nd decade of the month Shawwal, 425 A.H.</date>=<date calendar="#Gregorian" when="1034-09">September, 1034 A.D.</date>The following words occur in it:<p>
+                        <note>dated the <date calendar="#Hijri-qamari">2nd decade of the month Shawwal, 425 A.H.</date> = <date calendar="#Gregorian" when="1034-09">September, 1034 A.D.</date> The following words occur in it: <p>
                               <quote>עלי נפסה אן מסאפר בן ישעי̇ בן אסראייל אשתרי מנה למוסי בן הבה בן סלמון אלצפתי אלטפל אליהודי במאלה דון מאל נפסה גמיע אלחאנות אלתי במדינת טבריה פי אלצף אלגרבי מן סוק אליהוד</quote>.</p>
-                           <p>The previous owner seems to have been<persName>בשראן בן גאלב</persName>.</p>
+                           <p>The previous owner seems to have been <persName>בשראן בן גאלב</persName>.</p>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1034-09">September 1034</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part10" n="10">
@@ -277,8 +277,8 @@
                      <msItem xml:id="MS_Heb_c_13-part10-item1">
                         <locus from="13a" to="13b">Fol. 13</locus>
                         <title>A fragment of an Arabic commercial document</title>
-                        <note>much injured, end<quote type="end">... מנחם מעצ̇ים שלומך</quote>
-                           <p>On the<locus from="13b">verso</locus>are the following words:</p>
+                        <note>much injured, end <quote type="end">... מנחם מעצ̇ים שלומך</quote>
+                           <p>On the <locus from="13b">verso</locus> are the following words:</p>
                            <p>
                               <quote>מא שהיה בפאנינו אנו העדים אבו סעד אברהם בן שלה אבו אלפצ̇ל בן סהל</quote>.</p>
                         </note>
@@ -286,10 +286,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part11" n="11">
@@ -303,12 +303,12 @@
                         <locus from="14a" to="14b">Fol. 14</locus>
                         <msItem xml:id="MS_Heb_c_13-part11-item1-item1">
                            <title>A fragment of a Hebrew commercial letter</title>
-                           <note>addressed to<persName>Hillel החבר son of R. Jeshua החזן</persName>. The writer says that he sent some object to<placeName>Jerusalem</placeName>(אל קדש).</note>
+                           <note>addressed to <persName>Hillel החבר son of R. Jeshua החזן</persName>. The writer says that he sent some object to <placeName>Jerusalem</placeName> (אל קדש).</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_c_13-part11-item1-item2">
                            <locus from="14b">Verso</locus>
                            <title>Arabic fragment by the same hand</title>
-                           <note>in which the following words occur:<p>
+                           <note>in which the following words occur: <p>
                                  <quote>ולי ענד אברהים בן סלמן ... ורק גייד וינפדה לי שרעה ... ושלומך ירבה אוהבך ... [ש]למה הכהן מעיר דלתון (?) רב̇ יוסף נ̇נ̇</quote>.</p>
                            </note>
                         </msItem>
@@ -316,10 +316,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part12" n="12">
@@ -332,15 +332,15 @@
                      <msItem xml:id="MS_Heb_c_13-part12-item1">
                         <locus from="15a" to="15b">Fol. 15</locus>
                         <title>A fragment of a letter in Hebrew</title>
-                        <note>by some imprisoned Jews, judging from the words<quote>... היותינו בגופינו אסורים</quote>.</note>
+                        <note>by some imprisoned Jews, judging from the words <quote>... היותינו בגופינו אסורים</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part13" n="13">
@@ -353,18 +353,18 @@
                      <msItem xml:id="MS_Heb_c_13-part13-item1">
                         <locus from="16a" to="16b">Fol. 16</locus>
                         <title>A fragment of a marriage contract</title>
-                        <note>dated<placeName>Tiberias</placeName>, the<date calendar="#AM" when="4705">12th of Siwan, [4]705</date>(above which is written 90) =<date calendar="#Gregorian" when="0945">945</date>or<date calendar="#Gregorian" when="1035">1035 A.D.</date>; the parties are<persName>Isaac ben Abraham</persName>and<persName>פניתה(?) daughter of R. Moses חזנה</persName>.</note>
+                        <note>dated <placeName>Tiberias</placeName>, the <date calendar="#AM" when="4705">12th of Siwan, [4]705</date> (above which is written 90) = <date calendar="#Gregorian" when="0945">945</date> or <date calendar="#Gregorian" when="1035">1035 A.D.</date>; the parties are <persName>Isaac ben Abraham</persName> and <persName>פניתה(?) daughter of R. Moses חזנה</persName>.</note>
                         <textLang mainLang="arc"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>vellum</material>.</p>
+                     <p>Syr. Rabb. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate notBefore="0945" notAfter="1035">945 or 1035</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part14" n="14">
@@ -377,18 +377,18 @@
                      <msItem xml:id="MS_Heb_c_13-part14-item1">
                         <locus from="17a" to="18b">Ff. 17, 18</locus>
                         <title>Fragments of a Hebrew letter</title>
-                        <note>by some persons in distress, at<placeName>רקת</placeName>, addressed to<quote>שני האחים</quote>(<locus from="17b">fol.17b</locus>)<quote>היקרים רבנא מכתאר הבחור ...</quote>; (<locus from="18b">fol.18b</locus>)<quote>רבנא יצחק</quote>. The words<quote>יגיע מיד מרואן הכהן וחבירו העוז ..</quote>. occur in it.</note>
+                        <note>by some persons in distress, at <placeName>רקת</placeName>, addressed to <quote>שני האחים</quote> (<locus from="17b">fol.17b</locus>) <quote>היקרים רבנא מכתאר הבחור ...</quote>; (<locus from="18b">fol.18b</locus>) <quote>רבנא יצחק</quote>. The words <quote>יגיע מיד מרואן הכהן וחבירו העוז ..</quote>. occur in it.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. (? Karaitic) char.;<material>paper</material>, injured.</p>
+                     <p>Syr. Rabb. (? Karaitic) char.; <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origPlace>רקת</origPlace>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part15" n="15">
@@ -401,15 +401,15 @@
                      <msItem xml:id="MS_Heb_c_13-part15-item1">
                         <locus from="19a" to="19b">Fol. 19</locus>
                         <title>Fragment of a commercial document</title>
-                        <note>between the lines are entires mentioning<placeName>Fostat</placeName>, Sheikh<persName>Abu 'l-Faraj</persName>and other names.</note>
+                        <note>between the lines are entires mentioning <placeName>Fostat</placeName>, Sheikh <persName>Abu 'l-Faraj</persName> and other names.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.;<material>vellum</material>.</p>
+                     <p>Syr. curs. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part16" n="16">
@@ -422,16 +422,16 @@
                      <msItem xml:id="MS_Heb_c_13-part16-item1">
                         <locus from="20a" to="20b">Fol. 20</locus>
                         <title>A Hebrew responsum</title>
-                        <note>addressed to<persName>Nahrai son of R. Nisim [son of R. Jeshua ?] son of R. Joseph</persName>, concerning a case of levirate.<p>On the margin the following words occur:<quote>אברהם ביר̇ פראח ודומיהו ארבעה זקנים אחרים והלכו והחזירו תשובה לבית דין</quote>.</p>
+                        <note>addressed to <persName>Nahrai son of R. Nisim [son of R. Jeshua ?] son of R. Joseph</persName>, concerning a case of levirate. <p>On the margin the following words occur: <quote>אברהם ביר̇ פראח ודומיהו ארבעה זקנים אחרים והלכו והחזירו תשובה לבית דין</quote>.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; fol.,<material>paper</material>, injured.</p>
+                     <p>Syr. Rabb. char.; fol., <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part17" n="17a,b">
@@ -447,21 +447,21 @@
                         <msItem xml:id="MS_Heb_c_13-part17-item1-item1" n="a">
                            <locus from="21a">Fol. 21</locus>
                            <title>Fragment of an Arabic document</title>
-                           <note>concerning some dispute between<persName>Joshua ben Ali</persName>and<persName>Joseph ben ...</persName>, settled by the Beth-din; dated Thursday the 27th of [Nisan], signed<persName>Abraham hak-Kohen ben אהרן שחרים? נ̇נ̇</persName>,<persName>Joseph ben נעמא[ן?]</persName>,<persName>Joseph bar Benjamin</persName>,<persName>Judah ben Ẓedakah</persName>, with the formula<quote>אנן כתבנן שימושא</quote>.</note>
+                           <note>concerning some dispute between <persName>Joshua ben Ali</persName> and <persName>Joseph ben ...</persName>, settled by the Beth-din; dated Thursday the 27th of [Nisan], signed <persName>Abraham hak-Kohen ben אהרן שחרים? נ̇נ̇</persName>, <persName>Joseph ben נעמא[ן?]</persName>, <persName>Joseph bar Benjamin</persName>, <persName>Judah ben Ẓedakah</persName>, with the formula <quote>אנן כתבנן שימושא</quote>.</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_c_13-part17-item1-item2" n="b">
                            <locus from="21b">Fol. 21b</locus>
                            <title>A marriage certificate</title>
-                           <note>dated Sunday<quote>שלהי ניסן</quote>, beg.<quote type="beg">אמלך שמעון בר חאתם לבנאת הבתולה בת שמואל</quote>, attested by<quote>... ונחמיה ולדה ויפת החזן בר דויד החזן</quote>.</note>
+                           <note>dated Sunday <quote>שלהי ניסן</quote>, beg. <quote type="beg">אמלך שמעון בר חאתם לבנאת הבתולה בת שמואל</quote>, attested by <quote>... ונחמיה ולדה ויפת החזן בר דויד החזן</quote>.</note>
                         </msItem>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part18" n="17c">
@@ -477,21 +477,21 @@
                         <msItem xml:id="MS_Heb_c_13-part18-item1-item1" n="c">
                            <locus from="22a">Fol. 22</locus>
                            <title>A fragment of a document</title>
-                           <note>beg.<quote type="beg">וכן כל חפץ ושאלה אשר יהי לכם מצד המלכות הגד תגידוהו לפנינו כי אז נצוה את בעלי בתים חשובים אשר בבגדד אשר אנחנו יושבים ביניהם בני מ̇ר̇ נטירא ובני מ̇ר̇ אהרן זכר הנאספים לברכה</quote>.</note>
+                           <note>beg. <quote type="beg">וכן כל חפץ ושאלה אשר יהי לכם מצד המלכות הגד תגידוהו לפנינו כי אז נצוה את בעלי בתים חשובים אשר בבגדד אשר אנחנו יושבים ביניהם בני מ̇ר̇ נטירא ובני מ̇ר̇ אהרן זכר הנאספים לברכה</quote>.</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_c_13-part18-item1-item2" n="d">
                            <locus from="22b">Fol. 22b</locus>
                            <title>An Arabic document</title>
-                           <note>dated Thursday the 27th of Nisan (cf.<ref target="#MS_Heb_c_13_17_a_b">a</ref>), giving the evidence of<persName>מבארך בן הבה</persName>and<persName>Jacob Levi ben Joseph</persName>, signed by<persName>Abraham hak-Kohen ben R. Aaron נ̇נ̇</persName>, and<persName>Joseph bar Obadiah</persName>, with the formula<quote>אנן כתבנן שימושא</quote>, as in<ref target="#MS_Heb_c_13_17_a_b">a</ref>.</note>
+                           <note>dated Thursday the 27th of Nisan (cf. <ref target="#MS_Heb_c_13_17_a_b">a</ref>), giving the evidence of <persName>מבארך בן הבה</persName> and <persName>Jacob Levi ben Joseph</persName>, signed by <persName>Abraham hak-Kohen ben R. Aaron נ̇נ̇</persName>, and <persName>Joseph bar Obadiah</persName>, with the formula <quote>אנן כתבנן שימושא</quote>, as in <ref target="#MS_Heb_c_13_17_a_b">a</ref>.</note>
                         </msItem>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. (c square) char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. (c square) char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part19" n="18">
@@ -504,18 +504,18 @@
                      <msItem xml:id="MS_Heb_c_13-part19-item1">
                         <locus from="23a" to="23b">Fol. 23</locus>
                         <title>A Hebrew letter</title>
-                        <note>addressed by Solomon to חברנו ואהובנו כֿגֿקֿ מ̇ר̇ אפרים בן מר̇ רב̇ שמריה נוחו עדן, to inform him that excommunications are interdicted at present. The following passage occurs in it:<p>
+                        <note>addressed by Solomon to חברנו ואהובנו כֿגֿקֿ מ̇ר̇ אפרים בן מר̇ רב̇ שמריה נוחו עדן, to inform him that excommunications are interdicted at present. The following passage occurs in it: <p>
                               <quote>עד בוא פתשגן בשם המלכות ובשם נגיד המחנות אל נגיד רמלה להזהיר לבל החרים וכל אשר יעבור ישולח בו יד וכתב אל מושל עיר הקודש לעלות אל ההר ביום הושענא וכלי יסורין עמו וכל אשר יזכיר חרם ילקה</quote>.</p>
-                           <p>On the<locus from="23b">verso</locus>some scribbling in Arabic.</p>
+                           <p>On the <locus from="23b">verso</locus> some scribbling in Arabic.</p>
                         </note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; fol.,<material>paper</material>.</p>
+                     <p>Syr. Rabb. char.; fol., <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part20" n="19">
@@ -528,15 +528,15 @@
                      <msItem xml:id="MS_Heb_c_13-part20-item1">
                         <locus from="24a" to="24b">Fol. 24</locus>
                         <title>A Hebrew commercial letter</title>
-                        <note>addressed by<persName>Joseph ben Aaron (?) from Aden</persName>to<persName>Joseph ibn שנגו in Egypt</persName>, dated Friday the ? of Elul. The writer mentions that he came from טַבוֹל to Aden on his way to Calicut. Other names also occur.</note>
+                        <note>addressed by <persName>Joseph ben Aaron (?) from Aden</persName> to <persName>Joseph ibn שנגו in Egypt</persName>, dated Friday the ? of Elul. The writer mentions that he came from טַבוֹל to Aden on his way to Calicut. Other names also occur.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; fol.,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; fol., <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_c_13-part21" n="20">
@@ -556,16 +556,16 @@
                         <msItem xml:id="MS_Heb_c_13-part21-item1-item2">
                            <locus from="27a" to="28b">27, 28</locus>
                            <title>the continuation of the marriage contract</title>
-                           <note>injured; dated ..., at<placeName>מעזיה אלקאהרה</placeName>, near Fostat; parties,<persName>Nathan (?) son of David הזקן</persName>and<persName>סת אלסאדה daughter of מר̇ור̇ ע[ב]דיה (?) הזקן</persName>.</note>
+                           <note>injured; dated ..., at <placeName>מעזיה אלקאהרה</placeName>, near Fostat; parties, <persName>Nathan (?) son of David הזקן</persName> and <persName>סת אלסאדה daughter of מר̇ור̇ ע[ב]דיה (?) הזקן</persName>.</note>
                         </msItem>
                         <textLang mainLang="arc"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. and squ. char.;<material>vellum</material>, illuminated.</p>
+                     <p>Syr. curs. and squ. char.; <material>vellum</material>, illuminated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>G. J. Chester</persName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>G. J. Chester</persName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -574,7 +574,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -867,7 +867,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-04-06">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

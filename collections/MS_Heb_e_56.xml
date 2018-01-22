@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_143">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 60 (=53).</p>
                </physDesc>
                <history>
-                  <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1895">1895</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1895">1895</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p065a.jpg">No. 2808</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p065a.jpg">No. 2808</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -70,17 +70,17 @@
                         <locus from="1a" to="32b">Fol. 1</locus>
                         <title>
                            <quote type="head">כתאב אלשטרות</quote>, formulae of legal documents, by Hai Gaon ben Sherira Gaon</title>
-                        <note>beg. with<quote>כתובת אשה</quote>to<quote>גט מיאון</quote>, incomplete and injured. There are no dates or names of persons.<p>Copyist or owner (<locus from="1a">fol. 1</locus>)<persName>יצחק בר שמואל החבר נֿעֿ</persName>.</p>
+                        <note>beg. with <quote>כתובת אשה</quote> to <quote>גט מיאון</quote>, incomplete and injured. There are no dates or names of persons. <p>Copyist or owner (<locus from="1a">fol. 1</locus>) <persName>יצחק בר שמואל החבר נֿעֿ</persName>.</p>
                         </note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <origin>Owner or scribe:<persName>Isaac b. Samuel</persName>.</origin>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1895">1895</date>(from the Genizah).</acquisition>
+                     <origin>Owner or scribe: <persName>Isaac b. Samuel</persName>.</origin>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1895">1895</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_56-part2" n="2">
@@ -91,7 +91,7 @@
                   </msIdentifier>
                   <msContents>
                      <msItem xml:id="MS_Heb_e_56-part2-item1">
-                        <note>Fol. 33 to fol. 39, see<ref target="MS_Heb_e_82_d">No. 2801, d</ref>.</note>
+                        <note>Fol. 33 to fol. 39, see <ref target="MS_Heb_e_82_d">No. 2801, d</ref>.</note>
                      </msItem>
                   </msContents>
                </msPart>
@@ -111,7 +111,7 @@
                         </msItem>
                         <msItem xml:id="MS_Heb_e_56-part3-item1-item2" n="b">
                            <locus from="41a">(fol. 41)</locus>
-                           <title>headed<quote type="head">זה ספר לחנוך בן ירד</quote>
+                           <title>headed <quote type="head">זה ספר לחנוך בן ירד</quote>
                            </title>
                            <note>incomplete.</note>
                         </msItem>
@@ -119,10 +119,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1895">1895</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1895">1895</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_56-part4" n="4">
@@ -135,22 +135,22 @@
                      <msItem xml:id="MS_Heb_e_56-part4-item1">
                         <locus from="42a" to="52b">Fol. 42</locus>
                         <title>קינות</title>
-                        <note>some א̇ב̇, beg. missing, obliterated;<p>
-                              <locus from="46a">fol. 46</locus>is headed<quote type="head">יוצר דצומא זעירא</quote>, beg.<quote type="beg">אֿיכה אופלת ציון</quote>;</p>
+                        <note>some א̇ב̇, beg. missing, obliterated; <p>
+                              <locus from="46a">fol. 46</locus> is headed <quote type="head">יוצר דצומא זעירא</quote>, beg. <quote type="beg">אֿיכה אופלת ציון</quote>;</p>
                            <p>
                               <locus from="47a">fol. 47</locus>
-                              <quote type="beg">אאביך</quote>(Zunz, p. 46, 17), headed<quote type="head">י̇ח̇ דר̇ אלעזר</quote>.</p>
+                              <quote type="beg">אאביך</quote> (Zunz, p. 46, 17), headed <quote type="head">י̇ח̇ דר̇ אלעזר</quote>.</p>
                            <p>
-                              <locus from="52a">Fol. 52</locus>is blank.</p>
+                              <locus from="52a">Fol. 52</locus> is blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; squ. 12mo,<material>paper</material>, much stained.</p>
+                     <p>Syr. Rabb. char.; squ. 12mo, <material>paper</material>, much stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1895">1895</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1895">1895</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_56-part5" n="5">
@@ -163,15 +163,15 @@
                      <msItem xml:id="MS_Heb_e_56-part5-item1">
                         <locus from="53a" to="60b">Fol. 53</locus>
                         <title>Fragment of an Arabic translation of Esther, with commentary</title>
-                        <note>chapter ii, beg. with Mordecai’s genealogy; chap. iii (<locus from="59b">fol. 59b</locus>) begins<quote>אחר. ובעד הד̇ה אלאמור עט̇ם אחשורש אלמלך המן ... ושרפה וגעל מרתבתה פוק גמיע רויסאיה. וכל. וגמיע קואדה אלדין בבאבה יגתון ויסגדון להמן לאן כדי אמרהם לה אלמלך ומרדכי לא יגתו ולא יסגד</quote>.</note>
+                        <note>chapter ii, beg. with Mordecai’s genealogy; chap. iii (<locus from="59b">fol. 59b</locus>) begins <quote>אחר. ובעד הד̇ה אלאמור עט̇ם אחשורש אלמלך המן ... ושרפה וגעל מרתבתה פוק גמיע רויסאיה. וכל. וגמיע קואדה אלדין בבאבה יגתון ויסגדון להמן לאן כדי אמרהם לה אלמלך ומרדכי לא יגתו ולא יסגד</quote>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. curs. char.; 8vo,<material>vellum</material>, much injured.</p>
+                     <p>Syr. squ. Rabb. curs. char.; 8vo, <material>vellum</material>, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1895">1895</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1895">1895</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -180,7 +180,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -242,7 +242,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-04-11">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

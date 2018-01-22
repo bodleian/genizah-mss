@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_13">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 28.</p>
                </physDesc>
                <history>
-                  <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
+                  <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p003.jpg Catalogue-2_p004.jpg">fols. 3, 4</ref>.</source>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p003.jpg Catalogue-2_p004.jpg">fols. 3, 4</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -68,7 +68,7 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_b_18-part1-item1">
                         <locus from="1a" to="20b">Fols. 1-20</locus>
-                        <title>Fragments of the<title>ס' מצוות הגדול</title>(ס'מ'ג') by Moses of Coucy</title>
+                        <title>Fragments of the <title>ס' מצוות הגדול</title> (ס'מ'ג') by Moses of Coucy</title>
                         <note>as in ed. Venice, 1547, but with some differences.</note>
                         <msItem xml:id="MS_Heb_b_18-part1-item1-item1" n="a">
                            <p>
@@ -99,10 +99,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 16 1/2 x 11 1/2 in., 2 columns, 38 lines, much injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 16 1/2 x 11 1/2 in., 2 columns, 38 lines, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
+                     <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_b_18-part2" n="2">
@@ -116,7 +116,7 @@
                         <locus from="21a" to="21b">Fol. 21</locus>
                         <msItem xml:id="MS_Heb_b_18-part2-item1-item1">
                            <title>Liturgical</title>
-                           <note>Eight lines in Arabic beg.<quote type="beg">אלעבוד ירגבו אלי אללה תעאלי</quote>; then, after a blank space, the prayer beg.<quote type="beg">אתה בחרתה בישראל מכל עם</quote>.</note>
+                           <note>Eight lines in Arabic beg. <quote type="beg">אלעבוד ירגבו אלי אללה תעאלי</quote>; then, after a blank space, the prayer beg. <quote type="beg">אתה בחרתה בישראל מכל עם</quote>.</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_b_18-part2-item1-item2">
                            <p>
@@ -126,10 +126,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char. (<locus from="21b" to="21b">verso</locus>, Arabic naskhi);<material>paper</material>, 15 1/4 x 7 3/4 in., much injured.</p>
+                     <p>Syr. squ. char. (<locus from="21b" to="21b">verso</locus>, Arabic naskhi); <material>paper</material>, 15 1/4 x 7 3/4 in., much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
+                     <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_b_18-part3" n="3">
@@ -154,10 +154,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char. (<locus from="22b" to="22b">verso</locus>, Arabic naskhi);<material>paper</material>, 16 1/2 x 6 3/4 in.</p>
+                     <p>Syr. squ. char. (<locus from="22b" to="22b">verso</locus>, Arabic naskhi); <material>paper</material>, 16 1/2 x 6 3/4 in.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
+                     <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_b_18-part4" n="4">
@@ -182,10 +182,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char. very roughly written;<material>paper</material>, 24 1/4 x 7 1/4 in.</p>
+                     <p>Syr. squ. char. very roughly written; <material>paper</material>, 24 1/4 x 7 1/4 in.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
+                     <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_b_18-part5" n="5">
@@ -198,19 +198,19 @@
                      <msItem xml:id="MS_Heb_b_18-part5-item1">
                         <locus from="24a" to="24b">Fol. 24</locus>
                         <title>An amulet</title>
-                        <note>beg.<quote type="beg">קמיע לחן ולחסד ולרחמים על שם [נסים רומאדו (?) crossed out] בר תמר דמתקרה חנינה (?) בת אסתר וראו כל עמי הארץ כי שם אדוני נקרא עליך...</quote>
+                        <note>beg. <quote type="beg">קמיע לחן ולחסד ולרחמים על שם [נסים רומאדו (?) crossed out] בר תמר דמתקרה חנינה (?) בת אסתר וראו כל עמי הארץ כי שם אדוני נקרא עליך...</quote>
                            <p>With diagrams.</p>
                            <p>
-                              <locus from="24b" to="24b">Verso</locus>blank.</p>
+                              <locus from="24b" to="24b">Verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. curs. char.;<material>paper</material>, 40 x 6 in.</p>
+                     <p>Or. curs. char.; <material>paper</material>, 40 x 6 in.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
+                     <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_b_18-part6" n="6">
@@ -222,16 +222,16 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_b_18-part6-item1">
                         <locus from="25a" to="26b">Fols. 25-26</locus>
-                        <title>Fragments (§§ 924-25) of<title>אבי העזרי</title>(ראבי"ה)</title>
+                        <title>Fragments (§§ 924-25) of <title>אבי העזרי</title> (ראבי"ה)</title>
                         <note>as in MS. Opp. 66; Mich. 599, 608. (Neub. 637-39.)(§ 924 is not marked in these 3 manuscripts.)</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Squ. char.;<material>vellum</material>.</p>
+                     <p>Squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Acquired by exchange from<persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
+                     <acquisition>Acquired by exchange from <persName>C. D. Ginsburg</persName>. From the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_b_18-part7" n="7">
@@ -248,7 +248,7 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Germ. curs. char.;<material>paper</material>.</p>
+                     <p>Germ. curs. char.; <material>paper</material>.</p>
                   </physDesc>
                   <history>
                      <acquisition>From the binding of Opp. fol. 683.</acquisition>
@@ -269,7 +269,7 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Squ. char.;<material>vellum</material>.</p>
+                     <p>Squ. char.; <material>vellum</material>.</p>
                   </physDesc>
                   <history>
                      <acquisition>From Opp. 4to 596.</acquisition>
@@ -281,7 +281,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="TYPED">
-               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -312,7 +312,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-10-20">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

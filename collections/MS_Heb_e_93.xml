@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_157">
    <teiHeader>
       <fileDesc>
@@ -50,15 +50,15 @@
                   <p>Ff. 100.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                  <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p035.jpg Catalogue-2_p036.jpg Catalogue-2_p037.jpg Catalogue-2_p038.jpg Catalogue-2_p039.jpg Catalogue-2_p040.jpg Catalogue-2_p041.jpg">fols. 35-41</ref>.</source>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p035.jpg Catalogue-2_p036.jpg Catalogue-2_p037.jpg Catalogue-2_p038.jpg Catalogue-2_p039.jpg Catalogue-2_p040.jpg Catalogue-2_p041.jpg">fols. 35-41</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -72,18 +72,18 @@
                      <msItem xml:id="MS_Heb_e_93-part1-item1">
                         <locus from="1a" to="1b">Fol. 1</locus>
                         <title>Preface to a Siddur</title>
-                        <note>beg.<quote type="beg">בשמ̇ רחמ̇ אעלם ארשדך אללה אן אחסן מא יקתניה אלשר טאעה רבה. ועבאדתה אפצ̇ל דכרה ואכתסאבה. ... וסאלתני איידן אללה אן ארסם לך פי כתאבא. [י]קתצ̇י ? לואזם אלפראד מן כל באבא. ...</quote>
+                        <note>beg. <quote type="beg">בשמ̇ רחמ̇ אעלם ארשדך אללה אן אחסן מא יקתניה אלשר טאעה רבה. ועבאדתה אפצ̇ל דכרה ואכתסאבה. ... וסאלתני איידן אללה אן ארסם לך פי כתאבא. [י]קתצ̇י ? לואזם אלפראד מן כל באבא. ...</quote>
                            <p>
-                              <locus from="1b" to="1b">Verso</locus>(really recto) blank.</p>
+                              <locus from="1b" to="1b">Verso</locus> (really recto) blank.</p>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 3/4 x 4 1/2 in., 15 lines; injured and stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 3/4 x 4 1/2 in., 15 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part2" n="2">
@@ -95,17 +95,17 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part2-item1">
                         <locus from="2a" to="2b">Fol. 2</locus>
-                        <title>Title<quote type="head">סידור צלואת שהר אלמועדים</quote>and some scribbling.</title>
+                        <title>Title <quote type="head">סידור צלואת שהר אלמועדים</quote> and some scribbling.</title>
                         <note>
                            <locus from="2b" to="2b">Verso</locus>, six lines for חג השבועות and scribbling.</note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. and Rabb. char.;<material>paper</material>, 6 1/2 x 3 3/4 in.; stained.</p>
+                     <p>Syr. squ. and Rabb. char.; <material>paper</material>, 6 1/2 x 3 3/4 in.; stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part3" n="3">
@@ -118,17 +118,17 @@
                      <msItem xml:id="MS_Heb_e_93-part3-item1">
                         <locus from="3a" to="3b">Fol. 3</locus>
                         <title>From a Siddur.</title>
-                        <note>After a rubric in Arabic, follows a<quote type="head">יוצר</quote>for Pesaḥ, beg.<quote type="beg">אסירי התקוה שובו לבצרון</quote>, (א̇ב̇).<p>
-                              <locus from="3b" to="3b">Verso</locus>headed (in red)<quote type="head">? לאחיו יעקב ז̇ל̇</quote>beg.<quote type="beg">במוצאי יום קדש</quote>, Zunz, p. 560, acr.<quote type="acr">יעקב ח̇</quote>.</p>
+                        <note>After a rubric in Arabic, follows a <quote type="head">יוצר</quote> for Pesaḥ, beg. <quote type="beg">אסירי התקוה שובו לבצרון</quote>, (א̇ב̇). <p>
+                              <locus from="3b" to="3b">Verso</locus> headed (in red) <quote type="head">? לאחיו יעקב ז̇ל̇</quote> beg. <quote type="beg">במוצאי יום קדש</quote>, Zunz, p. 560, acr. <quote type="acr">יעקב ח̇</quote>.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span./Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 5 in., 22 lines; injured.</p>
+                     <p>Span./Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 5 in., 22 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part4" n="4">
@@ -140,15 +140,15 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part4-item1">
                         <locus from="4a" to="4b">Fol. 4</locus>
-                        <title>Common prayers from<quote type="head">והוא רחום</quote>to the heading<quote type="head">צלות מעריב</quote>.</title>
+                        <title>Common prayers from <quote type="head">והוא רחום</quote> to the heading <quote type="head">צלות מעריב</quote>.</title>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 3/8 x 4 3/4 in., 13 and 11 lines; injured and obliterated.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 3/8 x 4 3/4 in., 13 and 11 lines; injured and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part5" n="5">
@@ -161,18 +161,18 @@
                      <msItem xml:id="MS_Heb_e_93-part5-item1">
                         <locus from="5a" to="6b">Fols. 5, 6</locus>
                         <title>Siddur</title>
-                        <note>beg.<quote type="beg">כאין נגדיך ואנשי השם כלא היו וחכמים כבלי מדע</quote>
+                        <note>beg. <quote type="beg">כאין נגדיך ואנשי השם כלא היו וחכמים כבלי מדע</quote>
                            <p>
-                              <locus from="6a" to="6b">Fol. 6</locus>headed<quote type="head">תם יצף קדמה ויקף ויבתדי יקול</quote>beg.<quote type="beg">יֿיָֿיֿ שפתי תפתח</quote>to<quote type="end">ב̇א̇ יָֿיֿ הרוצה בתשובה</quote>.</p>
+                              <locus from="6a" to="6b">Fol. 6</locus> headed <quote type="head">תם יצף קדמה ויקף ויבתדי יקול</quote> beg. <quote type="beg">יֿיָֿיֿ שפתי תפתח</quote> to <quote type="end">ב̇א̇ יָֿיֿ הרוצה בתשובה</quote>.</p>
                         </note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/4 x 4 7/8 in., 13 lines; injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/4 x 4 7/8 in., 13 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part6" n="6">
@@ -185,18 +185,18 @@
                      <msItem xml:id="MS_Heb_e_93-part6-item1">
                         <locus from="7a" to="8b">Fols. 7, 8</locus>
                         <title>Blessings.</title>
-                        <note>Fols.<locus from="7b" to="7b">7b</locus>and<locus from="8a" to="8a">8a</locus>are blank.<p>
-                              <locus from="8b" to="8b">Fol. 8b</locus>, for Pesaḥ beg.<quote type="beg">רתבת קידוס פסח אתפק לילה אלאחד יבתדי ויקול בעד אן ... אלכאס וימלאה כמר ברוך אתה ...</quote>
+                        <note>Fols. <locus from="7b" to="7b">7b</locus> and <locus from="8a" to="8a">8a</locus> are blank. <p>
+                              <locus from="8b" to="8b">Fol. 8b</locus>, for Pesaḥ beg. <quote type="beg">רתבת קידוס פסח אתפק לילה אלאחד יבתדי ויקול בעד אן ... אלכאס וימלאה כמר ברוך אתה ...</quote>
                            </p>
                         </note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 7 x 5 1/8 in., 14 lines; stained.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 7 x 5 1/8 in., 14 lines; stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part7" n="7">
@@ -209,17 +209,17 @@
                      <msItem xml:id="MS_Heb_e_93-part7-item1">
                         <locus from="9a" to="10b">Fols. 9, 10</locus>
                         <title>Haggada for Pesaḥ</title>
-                        <note>beg. at<quote type="beg">ואת עמלינו ואת לחצינו ויוציאנו לא על ידי מלאך</quote>, shorter than the usual. Then follow Mish. Pes. x.5, Psalms 113, 114 and ברוך אתה, incomplete, ending at<quote type="end">דמם לקיר מזבחך</quote>.<p>
-                              <locus from="10a" to="10b">Fol. 10</locus>with vowel points.</p>
+                        <note>beg. at <quote type="beg">ואת עמלינו ואת לחצינו ויוציאנו לא על ידי מלאך</quote>, shorter than the usual. Then follow Mish. Pes. x.5, Psalms 113, 114 and ברוך אתה, incomplete, ending at <quote type="end">דמם לקיר מזבחך</quote>. <p>
+                              <locus from="10a" to="10b">Fol. 10</locus> with vowel points.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/2 x 4 7/8 in., 17 lines; much injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/2 x 4 7/8 in., 17 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part8" n="8">
@@ -245,16 +245,16 @@
                         <msItem xml:id="MS_Heb_e_93-part8-item1-item2">
                            <locus from="12a" to="12b">Fol.12</locus>
                            <title>For Pesaḥ</title>
-                           <note>beg. and end missing, end<quote type="end">אחר על שלישי יברכו. ...ן כל מתי חיים יצורים. ואומרים על רביעי עוד להלל</quote>, rhyming in<quote>– רים</quote>.</note>
+                           <note>beg. and end missing, end <quote type="end">אחר על שלישי יברכו. ...ן כל מתי חיים יצורים. ואומרים על רביעי עוד להלל</quote>, rhyming in <quote>– רים</quote>.</note>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, about 6 1/4 x 4 in., 12 or 13 lines; injured and stained.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, about 6 1/4 x 4 in., 12 or 13 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part9" n="9">
@@ -267,15 +267,15 @@
                      <msItem xml:id="MS_Heb_e_93-part9-item1">
                         <locus from="13a" to="13b">Fol. 13</locus>
                         <title>Haggada for Pesaḥ</title>
-                        <note>from<quote type="beg">את יצחק ואת יעקב. וירא את עינינו</quote>to<quote type="beg">זו גלוי השכינה שנא̇ או הנסה</quote>. Many corrections.</note>
+                        <note>from <quote type="beg">את יצחק ואת יעקב. וירא את עינינו</quote> to <quote type="beg">זו גלוי השכינה שנא̇ או הנסה</quote>. Many corrections.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/2 x 4 3/4 in., 12 lines; injured and obliterated.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/2 x 4 3/4 in., 12 lines; injured and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part10" n="10">
@@ -293,10 +293,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>(fragment only), 5 1/4 in. wide.</p>
+                     <p>Span. Rabb. char.; <material>paper</material> (fragment only), 5 1/4 in. wide.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part11" n="11">
@@ -310,19 +310,19 @@
                         <locus from="15a" to="15b">Fol. 15</locus>
                         <title>For שבעות</title>
                         <msItem xml:id="MS_Heb_e_93-part11-item1-item1" n="a">
-                           <p>end of a piece, ending<quote type="end">וכל העם רואים את הקולות ואת הלפידים</quote>;</p>
+                           <p>end of a piece, ending <quote type="end">וכל העם רואים את הקולות ואת הלפידים</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part11-item1-item2" n="b">
-                           <p>beg.<quote type="beg">וכל העם אֿומרים ... לבֿרוך יושב תהלות</quote>, (א̇ב̇); incomplete ending with קֿ.</p>
+                           <p>beg. <quote type="beg">וכל העם אֿומרים ... לבֿרוך יושב תהלות</quote>, (א̇ב̇); incomplete ending with קֿ.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 3/4 x 4 1/4 in., 13 lines, injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 3/4 x 4 1/4 in., 13 lines, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part12" n="12">
@@ -338,14 +338,14 @@
                         <msItem xml:id="MS_Heb_e_93-part12-item1-item1">
                            <locus from="16a" to="16b">Fol. 16</locus>
                            <msItem xml:id="MS_Heb_e_93-part12-item1-item1-item1" n="a">
-                              <p>ending<quote type="end">כי צדקה הם לפוסריהם. כי חיים הם למוצאיהם</quote>, rhyming in<quote>–ים</quote>;</p>
+                              <p>ending <quote type="end">כי צדקה הם לפוסריהם. כי חיים הם למוצאיהם</quote>, rhyming in <quote>–ים</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part12-item1-item1-item2" n="b">
-                              <p>beg.<quote type="beg">הר סיני. תורה עלה (?) הר ציון שכינה ...</quote>;</p>
+                              <p>beg. <quote type="beg">הר סיני. תורה עלה (?) הר ציון שכינה ...</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part12-item1-item1-item3" n="c">
                               <p>
-                                 <quote type="head">רהט</quote>beg.<quote type="beg">ירד עלה (?) סיני לקבל תורה</quote>acr.<quote type="acr">יוסף</quote>;</p>
+                                 <quote type="head">רהט</quote> beg. <quote type="beg">ירד עלה (?) סיני לקבל תורה</quote> acr. <quote type="acr">יוסף</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part12-item1-item1-item4" n="d">
                               <p>
@@ -355,15 +355,15 @@
                         <msItem xml:id="MS_Heb_e_93-part12-item1-item2">
                            <locus from="17a" to="17b">fol. 17</locus>
                            <msItem xml:id="MS_Heb_e_93-part12-item1-item2-item1" n="e">
-                              <p>a piece ending<quote type="end">מכון ערבות להתדרר. קול יי בהדר</quote>;</p>
+                              <p>a piece ending <quote type="end">מכון ערבות להתדרר. קול יי בהדר</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part12-item1-item2-item2" n="f">
                               <p>
-                                 <quote type="beg">אויילו חיילים בכוח</quote>, rhyming in<quote>- לים</quote>;</p>
+                                 <quote type="beg">אויילו חיילים בכוח</quote>, rhyming in <quote>- לים</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part12-item1-item2-item3" n="g">
                               <p>
-                                 <quote type="beg">בכוננך שחקים יסדת להקים</quote>, rhyming in<quote>-קים</quote>;</p>
+                                 <quote type="beg">בכוננך שחקים יסדת להקים</quote>, rhyming in <quote>-קים</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part12-item1-item2-item4" n="h">
                               <p>
@@ -374,10 +374,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 5 in., 11 and 12 lines; injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 5 in., 11 and 12 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part13" n="13">
@@ -390,15 +390,15 @@
                      <msItem xml:id="MS_Heb_e_93-part13-item1">
                         <locus from="18a" to="18b">Fol. 18</locus>
                         <title>For ראש השנה.</title>
-                        <note>Rubric followed by<quote type="beg">אדירי איומה</quote>, (א̇ב̇), by<persName>Qalir</persName>(Zunz, p.53), incomplete.</note>
+                        <note>Rubric followed by <quote type="beg">אדירי איומה</quote>, (א̇ב̇), by <persName>Qalir</persName> (Zunz, p.53), incomplete.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 7 x 5 in., 13 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 7 x 5 in., 13 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part14" n="14">
@@ -416,10 +416,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Greek Rabb. char.;<material>paper</material>, 6 3/4 x 5 1/4 in., 15 lines; much injured.</p>
+                     <p>Greek Rabb. char.; <material>paper</material>, 6 3/4 x 5 1/4 in., 15 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part15" n="15">
@@ -433,22 +433,22 @@
                         <locus from="20a" to="20b">Fol. 20</locus>
                         <title>For סוכות</title>
                         <msItem xml:id="MS_Heb_e_93-part15-item1-item1" n="a">
-                           <p>ending<quote type="end">ותפרוש עלינו סכת שלומך</quote>;</p>
+                           <p>ending <quote type="end">ותפרוש עלינו סכת שלומך</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part15-item1-item2" n="b">
                            <title>
                               <quote type="head">מעריב ראש השנה</quote>
                            </title>
-                           <note>beg.<quote type="beg">אמוני נבונים בתקעם בירח</quote>, (א̇ב̇) in a later hand.</note>
+                           <note>beg. <quote type="beg">אמוני נבונים בתקעם בירח</quote>, (א̇ב̇) in a later hand.</note>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 x 4 3/8 in.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 x 4 3/8 in.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part16" n="16">
@@ -464,37 +464,37 @@
                         <msItem xml:id="MS_Heb_e_93-part16-item1-item1">
                            <locus from="21a" to="21b">Fol. 21</locus>
                            <msItem xml:id="MS_Heb_e_93-part16-item1-item1-item1" n="a">
-                              <p>end<quote type="end">לראות מה ידבר בי ומה אשיב על תוכחתי</quote>, acr.<quote type="acr">[י]פת</quote>;</p>
+                              <p>end <quote type="end">לראות מה ידבר בי ומה אשיב על תוכחתי</quote>, acr. <quote type="acr">[י]פת</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part16-item1-item1-item2" n="b">
-                              <p>headed<quote type="head">קאל לראש שנה</quote>beg.<quote type="beg">חוק היום מצוה קבועה ... יֿום זה תדרכו (?)</quote>, acr.<quote type="acr">יפת</quote>;</p>
+                              <p>headed <quote type="head">קאל לראש שנה</quote> beg. <quote type="beg">חוק היום מצוה קבועה ... יֿום זה תדרכו (?)</quote>, acr. <quote type="acr">יפת</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part16-item1-item1-item3" n="c">
                               <p>
-                                 <locus from="21b" to="21b">fol. 21v</locus>, heading<quote type="head">ליום יום יחידתי</quote>(cf. Zunz, p. 216) beg.<quote type="beg">מה אעשה ואני פעלתי</quote>;</p>
+                                 <locus from="21b" to="21b">fol. 21v</locus>, heading <quote type="head">ליום יום יחידתי</quote> (cf. Zunz, p. 216) beg. <quote type="beg">מה אעשה ואני פעלתי</quote>;</p>
                            </msItem>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part16-item1-item2">
                            <locus from="22a" to="22b">fol. 22</locus>
                            <msItem xml:id="MS_Heb_e_93-part16-item1-item2-item1" n="d">
-                              <p>beg. missing, beg.<quote type="beg">אז לא איבוש בלמדי מצוה</quote>, acr.<quote type="acr">...אני</quote>;</p>
+                              <p>beg. missing, beg. <quote type="beg">אז לא איבוש בלמדי מצוה</quote>, acr. <quote type="acr">...אני</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part16-item1-item2-item2" n="e">
-                              <p>headed<quote type="head">ליונה זמיריך</quote>beg.<quote type="beg">גדול עוונות ... לו חכמו בעלי דמיון</quote>acr.<quote type="acr">לוי</quote>?;</p>
+                              <p>headed <quote type="head">ליונה זמיריך</quote> beg. <quote type="beg">גדול עוונות ... לו חכמו בעלי דמיון</quote> acr. <quote type="acr">לוי</quote>?;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part16-item1-item2-item3" n="f">
                               <p>
-                                 <locus from="22b" to="22b">fol. 22v</locus>heading<quote type="head">ליעלו לאלה (?)</quote>beg.<quote type="beg">לפני יָי הגולה</quote>, acr.<quote type="acr">לוי</quote>.</p>
+                                 <locus from="22b" to="22b">fol. 22v</locus> heading <quote type="head">ליעלו לאלה (?)</quote> beg. <quote type="beg">לפני יָי הגולה</quote>, acr. <quote type="acr">לוי</quote>.</p>
                            </msItem>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 3/8 x 4 7/8 in., about 18 lines.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 3/8 x 4 7/8 in., about 18 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part17" n="17">
@@ -508,25 +508,25 @@
                         <locus from="23a" to="23b">Fol. 23</locus>
                         <title>For ראש השנה</title>
                         <msItem xml:id="MS_Heb_e_93-part17-item1-item1" n="a">
-                           <p>ending<quote type="end">צרעת יזוב ובשרו נמס</quote>;</p>
+                           <p>ending <quote type="end">צרעת יזוב ובשרו נמס</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part17-item1-item2" n="b">
                            <p>
-                              <quote type="beg">אל אדיר מהררי טרף</quote>, acr.<quote type="acr">אברהם</quote>;</p>
+                              <quote type="beg">אל אדיר מהררי טרף</quote>, acr. <quote type="acr">אברהם</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part17-item1-item3" n="c">
                            <p>
-                              <locus from="23b" to="23b">verso</locus>, beg.<quote type="beg">יא מהר פדותינו בזכות המילה... יֿודיע מכאובינו</quote>(not = Zunz, p. 674,1).</p>
+                              <locus from="23b" to="23b">verso</locus>, beg. <quote type="beg">יא מהר פדותינו בזכות המילה... יֿודיע מכאובינו</quote> (not = Zunz, p. 674,1).</p>
                         </msItem>
                         <note>With vowel points, often incorrect ( ֵ for ְ ).</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Persian squ. char.; unskillfully written,<material>paper</material>6 1/2 x 4 1/2 in., 17 lines.</p>
+                     <p>Persian squ. char.; unskillfully written, <material>paper</material> 6 1/2 x 4 1/2 in., 17 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part18" n="18">
@@ -539,15 +539,15 @@
                      <msItem xml:id="MS_Heb_e_93-part18-item1">
                         <locus from="24a" to="24b">Fol. 24</locus>
                         <title>סליחה</title>
-                        <note>beg. and end missing, beg.<quote type="beg">כי יגרע נטפי מים אל מי תשא עינים בעוניך</quote>, end<quote type="end">מכל נגע כי יעצור שמים</quote>. Additions in the margins.</note>
+                        <note>beg. and end missing, beg. <quote type="beg">כי יגרע נטפי מים אל מי תשא עינים בעוניך</quote>, end <quote type="end">מכל נגע כי יעצור שמים</quote>. Additions in the margins.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 5 1/4 in., 18 lines; injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 5 1/4 in., 18 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part19" n="19">
@@ -559,40 +559,40 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part19-item1">
                         <locus from="25a" to="26b">Fols. 25, 26</locus>
-                        <title>For<quote>י'הכ'</quote>
+                        <title>For <quote>י'הכ'</quote>
                         </title>
                         <msItem xml:id="MS_Heb_e_93-part19-item1-item1">
                            <locus from="25a" to="25b">Fol. 25</locus>
                            <msItem xml:id="MS_Heb_e_93-part19-item1-item1-item1" n="a">
-                              <p>beg.<quote type="beg">אתן תהלה לאל</quote>, (א̇ב̇ to ו̇) by ?<persName>Elijah b. Menaḥem</persName>(Zunz, p. 127,2);</p>
+                              <p>beg. <quote type="beg">אתן תהלה לאל</quote>, (א̇ב̇ to ו̇) by ? <persName>Elijah b. Menaḥem</persName> (Zunz, p. 127,2);</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part19-item1-item1-item2" n="b">
                               <p>
-                                 <locus from="25b" to="25b">verso</locus>,<quote type="beg">א̇ו̇א̇ ... אמיץ שוכן [בא]רץ</quote>, (א̇ב̇ to ו̇);</p>
+                                 <locus from="25b" to="25b">verso</locus>, <quote type="beg">א̇ו̇א̇ ... אמיץ שוכן [בא]רץ</quote>, (א̇ב̇ to ו̇);</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part19-item1-item1-item3" n="c">
                               <p>
-                                 <quote type="beg">א̇ו̇א̇ תבוא לפניך תפלתינו</quote>, Zunz, p. 300, by<persName>Judah b. Samuel</persName>;</p>
+                                 <quote type="beg">א̇ו̇א̇ תבוא לפניך תפלתינו</quote>, Zunz, p. 300, by <persName>Judah b. Samuel</persName>;</p>
                            </msItem>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part19-item1-item2">
                            <locus from="26a" to="26b">fol. 26</locus>
                            <msItem xml:id="MS_Heb_e_93-part19-item1-item2-item1" n="d">
-                              <p>end<quote type="end">גוי מקרב גוי לקחתה צי ים למה יאמרו מצרים ברעה הוציאם</quote>;</p>
+                              <p>end <quote type="end">גוי מקרב גוי לקחתה צי ים למה יאמרו מצרים ברעה הוציאם</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part19-item1-item2-item2" n="e">
                               <p>
-                                 <quote type="head">אל מלך</quote>beg.<quote type="beg">פשעי עמך יבוקשו ואינם</quote>.</p>
+                                 <quote type="head">אל מלך</quote> beg. <quote type="beg">פשעי עמך יבוקשו ואינם</quote>.</p>
                            </msItem>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.;<material>paper</material>, 6 1/2 x 4 3/4 in., 16-18 lines; injured.</p>
+                     <p>Syr. curs. char.; <material>paper</material>, 6 1/2 x 4 3/4 in., 16-18 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part20" n="20">
@@ -612,16 +612,16 @@
                         <msItem xml:id="MS_Heb_e_93-part20-item1-item2">
                            <locus from="28a" to="28b">Fol. 28</locus>
                            <title>הושענא</title>
-                           <note>beg. missing, a § beg.<quote>למענך אלהינו תעשה ולא לנו</quote>.</note>
+                           <note>beg. missing, a § beg. <quote>למענך אלהינו תעשה ולא לנו</quote>.</note>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 5/8 x 5 in., 14 lines; injured and defaced.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 5/8 x 5 in., 14 lines; injured and defaced.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part21" n="21">
@@ -634,15 +634,15 @@
                      <msItem xml:id="MS_Heb_e_93-part21-item1">
                         <locus from="29a" to="29b">Fol. 29</locus>
                         <title>סליחה</title>
-                        <note>(א̇ב̇), beg. and end missing, ט̇ beg.<quote>טהור ומלבדו אין עוד</quote>, ק̇ beg.<quote>קנאת גוי מנצחיך ועתה יגדל נא כוחיך בזכות</quote>.</note>
+                        <note>(א̇ב̇), beg. and end missing, ט̇ beg. <quote>טהור ומלבדו אין עוד</quote>, ק̇ beg. <quote>קנאת גוי מנצחיך ועתה יגדל נא כוחיך בזכות</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 3/8 x 5 in., 11 lines; injured and stained.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 3/8 x 5 in., 11 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part22" n="22">
@@ -655,15 +655,15 @@
                      <msItem xml:id="MS_Heb_e_93-part22-item1">
                         <locus from="30a" to="30b">Fol. 30</locus>
                         <title>סליחה</title>
-                        <note>end<quote type="end">נתק קהיון בדחות סורים ובאושים ומבסור. בליל צום העשור</quote>; with vowel points (<quote>ֻו</quote>for וּ) and raphe.</note>
+                        <note>end <quote type="end">נתק קהיון בדחות סורים ובאושים ומבסור. בליל צום העשור</quote>; with vowel points (<quote>ֻו</quote> for וּ) and raphe.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 7 x 5 in., 13 lines.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 7 x 5 in., 13 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part23" n="23">
@@ -676,15 +676,15 @@
                      <msItem xml:id="MS_Heb_e_93-part23-item1">
                         <locus from="31a" to="31b">Fol. 31</locus>
                         <title>סליחה</title>
-                        <note>4 א̇ב̇ from ג̇ to ט̇ both incomplete. ד̇ beg.<quote>אלהי דֿרשתיך ירא וזווע. דֿל לא תבזה בעמדו משויע</quote>, with vowel points.</note>
+                        <note>4 א̇ב̇ from ג̇ to ט̇ both incomplete. ד̇ beg. <quote>אלהי דֿרשתיך ירא וזווע. דֿל לא תבזה בעמדו משויע</quote>, with vowel points.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 7 x 4 3/4 in., 14 lines; injured and stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 7 x 4 3/4 in., 14 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part24" n="24">
@@ -697,15 +697,15 @@
                      <msItem xml:id="MS_Heb_e_93-part24-item1">
                         <locus from="32a" to="32b">Fol. 32</locus>
                         <title>סליחה</title>
-                        <note>the last legible passage is<quote>אז כל ימי חיי עמדתי לפניך. בתפילה ותחנונים</quote>.</note>
+                        <note>the last legible passage is <quote>אז כל ימי חיי עמדתי לפניך. בתפילה ותחנונים</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>(torn), 4 7/8 in. wide, much obliterated.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material> (torn), 4 7/8 in. wide, much obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part25" n="25">
@@ -719,20 +719,20 @@
                         <locus from="33a" to="33b">Fol. 33</locus>
                         <title>סליחות</title>
                         <msItem xml:id="MS_Heb_e_93-part25-item1-item1" n="a">
-                           <p>end<quote type="end">ושים עליהם רוב שלומך להודיע כי [ש]מך נקרא על עירך ועל עמך</quote>;</p>
+                           <p>end <quote type="end">ושים עליהם רוב שלומך להודיע כי [ש]מך נקרא על עירך ועל עמך</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part25-item1-item2" n="b">
                            <p>
-                              <quote type="head">אחרת פזמ̇</quote>beg.<quote type="beg">ידענו כי חטאנו ולך חבול חבלנו</quote>, incomplete.</p>
+                              <quote type="head">אחרת פזמ̇</quote> beg. <quote type="beg">ידענו כי חטאנו ולך חבול חבלנו</quote>, incomplete.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 5 in., 16 lines; injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 5 in., 16 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part26" n="26">
@@ -745,15 +745,15 @@
                      <msItem xml:id="MS_Heb_e_93-part26-item1">
                         <locus from="34a" to="34b">Fol. 34</locus>
                         <title>עקידה (?)</title>
-                        <note>beg.<quote type="beg">הנה כעיני עוקד בקחתו מאכלת. כעיני נעקד בנטותו גולגולת</quote>.</note>
+                        <note>beg. <quote type="beg">הנה כעיני עוקד בקחתו מאכלת. כעיני נעקד בנטותו גולגולת</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 4 3/4 in., 14 lines; injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 4 3/4 in., 14 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part27" n="27">
@@ -765,27 +765,27 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part27-item1">
                         <locus from="35a" to="35b">Fol. 35</locus>
-                        <title>For<quote>י'הכ'</quote>(?)</title>
+                        <title>For <quote>י'הכ'</quote> (?)</title>
                         <msItem xml:id="MS_Heb_e_93-part27-item1-item1" n="a">
-                           <p>end<quote type="end">ושיר חדש נשיר בנעים בית קום</quote>;</p>
+                           <p>end <quote type="end">ושיר חדש נשיר בנעים בית קום</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part27-item1-item2" n="b">
                            <p>
-                              <quote type="head">יי מלכינו</quote>beg.<quote type="beg">יה בגלותה (?) ..תע לכבדינו</quote>, (א̇ב̇);</p>
+                              <quote type="head">יי מלכינו</quote> beg. <quote type="beg">יה בגלותה (?) ..תע לכבדינו</quote>, (א̇ב̇);</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part27-item1-item3" n="c">
                            <p>
-                              <locus from="35b" to="35b">verso</locus>beg.<quote type="beg">יפת שמיך הגנוז</quote>.</p>
+                              <locus from="35b" to="35b">verso</locus> beg. <quote type="beg">יפת שמיך הגנוז</quote>.</p>
                         </msItem>
                         <note>An addition in the margin.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char. (roughly written);<material>paper</material>, 6 3/4 x 4 in.; injured and partly illegible.</p>
+                     <p>Span. Rabb. char. (roughly written); <material>paper</material>, 6 3/4 x 4 in.; injured and partly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part28" n="28">
@@ -797,20 +797,20 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part28-item1">
                         <locus from="36a" to="37b">Fols. 36, 37</locus>
-                        <title>Headed<quote type="head">יוצרות שלכיפור</quote>
+                        <title>Headed <quote type="head">יוצרות שלכיפור</quote>
                         </title>
-                        <note>beg.<quote type="beg">סלח נא לש... כפר נא לעורכי חינון</quote>
+                        <note>beg. <quote type="beg">סלח נא לש... כפר נא לעורכי חינון</quote>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
                      <p>
-                        <locus from="37a" to="37b">Fol. 37</locus>has only a few letters of each line.</p>
-                     <p>Syr. squ. char.;<material>paper</material>, 6 1/4 x 5 in., 16 lines; much injured and mostly illegible.</p>
+                        <locus from="37a" to="37b">Fol. 37</locus> has only a few letters of each line.</p>
+                     <p>Syr. squ. char.; <material>paper</material>, 6 1/4 x 5 in., 16 lines; much injured and mostly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part29" n="29">
@@ -822,26 +822,26 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part29-item1">
                         <locus from="38a" to="39b">Fols. 38, 39</locus>
-                        <title>For<quote>י'הכ'</quote>
+                        <title>For <quote>י'הכ'</quote>
                         </title>
                         <msItem xml:id="MS_Heb_e_93-part29-item1-item1">
                            <locus from="38a" to="38b">Fol. 38</locus>
-                           <note>beg. and end missing; a § beg.<quote>חש הגוף לדבר אמנם הרשעתי</quote>.</note>
+                           <note>beg. and end missing; a § beg. <quote>חש הגוף לדבר אמנם הרשעתי</quote>.</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part29-item1-item2">
                            <locus from="39a" to="39b">Fol. 39</locus>
-                           <note>heading obliterated, beg.<quote type="beg">אתן תהלה</quote>as on<ref target="MS_Heb_e_93_19">fol. 25</ref>.</note>
+                           <note>heading obliterated, beg. <quote type="beg">אתן תהלה</quote> as on <ref target="MS_Heb_e_93_19">fol. 25</ref>.</note>
                         </msItem>
                         <note>
-                           <locus from="39a" to="39b">Fol. 39</locus>has vowel points.</note>
+                           <locus from="39a" to="39b">Fol. 39</locus> has vowel points.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 4 1/2 in.,<locus from="39a" to="39b">fol.39</locus>much injured and mostly illegible.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 4 1/2 in., <locus from="39a" to="39b">fol.39</locus> much injured and mostly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part30" n="30">
@@ -854,15 +854,15 @@
                      <msItem xml:id="MS_Heb_e_93-part30-item1">
                         <locus from="40a" to="41b">Fols. 40, 41</locus>
                         <title>סליחה</title>
-                        <note>beg. and end missing: the sections begin<quote>ואם בעושר</quote>,<quote>ואם בחכמה</quote>,<quote>ואם בתפלה</quote>,<quote>ואם ישמח</quote>.</note>
+                        <note>beg. and end missing: the sections begin <quote>ואם בעושר</quote>, <quote>ואם בחכמה</quote>, <quote>ואם בתפלה</quote>, <quote>ואם ישמח</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 4 3/4 in., 16 lines; injured and partly illegible.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 4 3/4 in., 16 lines; injured and partly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part31" n="31">
@@ -876,7 +876,7 @@
                         <locus from="42a" to="42b">Fol. 42</locus>
                         <title>For שמחת תורה</title>
                         <msItem xml:id="MS_Heb_e_93-part31-item1-item1" n="a">
-                           <p>beg. missing, a § beg.<quote>אליכם [אקרא אישים?]</quote>;</p>
+                           <p>beg. missing, a § beg. <quote>אליכם [אקרא אישים?]</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part31-item1-item2" n="b">
                            <p>
@@ -887,10 +887,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 5/8 x 4 7/8 in., 15 lines; mostly illegible.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 5/8 x 4 7/8 in., 15 lines; mostly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part32" n="32">
@@ -903,15 +903,15 @@
                      <msItem xml:id="MS_Heb_e_93-part32-item1">
                         <locus from="43a" to="43b">Fol. 43</locus>
                         <title>For עצרת</title>
-                        <note>a § (בגילה) beg.<quote type="beg">בקדוש מכובד מכל ימים</quote>; with vowel points.</note>
+                        <note>a § (בגילה) beg. <quote type="beg">בקדוש מכובד מכל ימים</quote>; with vowel points.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, about 5 1/2 x 4 1/2 in., 12 lines; injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, about 5 1/2 x 4 1/2 in., 12 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part33" n="33">
@@ -927,23 +927,23 @@
                         <msItem xml:id="MS_Heb_e_93-part33-item1-item1" n="a">
                            <locus from="44a" to="44a">Fol. 44a</locus>
                            <title>א̇ב̇ beg. at ד̇ composed of names of countries;</title>
-                           <note>ט̇ is<quote>מטרפליא אפרסיא אפרכסיא וטפסריהם</quote>;</note>
+                           <note>ט̇ is <quote>מטרפליא אפרסיא אפרכסיא וטפסריהם</quote>;</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part33-item1-item2" n="b">
                            <locus from="44b" to="44b">verso</locus>
-                           <title>headed<quote type="head">אלדורה אלתא[ניה] ...</quote>
+                           <title>headed <quote type="head">אלדורה אלתא[ניה] ...</quote>
                            </title>
-                           <note>א̇ב̇ beg.<quote type="beg">למען אב ידעך</quote>, Zunz p. 81, no. 14.</note>
+                           <note>א̇ב̇ beg. <quote type="beg">למען אב ידעך</quote>, Zunz p. 81, no. 14.</note>
                         </msItem>
                         <note>Some vowel points.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/2 x 4 7/8 in., 15-16 lines; injured and stained.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/2 x 4 7/8 in., 15-16 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part34" n="34">
@@ -958,22 +958,22 @@
                         <title>For הושענה</title>
                         <msItem xml:id="MS_Heb_e_93-part34-item1-item1" n="a">
                            <title>ת̇ש̇ר̇ק̇</title>
-                           <note>beg. missing, beg.<quote type="beg">למענך פֿענח בנוף נתכנה (?) למענך עֿלה להורות גשנה</quote>, cf. Zunz p. 81 no. 22 or 23; at the end<quote type="end">והדה אלפביתאת</quote>;</note>
+                           <note>beg. missing, beg. <quote type="beg">למענך פֿענח בנוף נתכנה (?) למענך עֿלה להורות גשנה</quote>, cf. Zunz p. 81 no. 22 or 23; at the end <quote type="end">והדה אלפביתאת</quote>;</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part34-item1-item2" n="b">
                            <locus from="45b" to="45b">verso</locus>
-                           <title>headed<quote type="head">ענה בהושענא</quote>
+                           <title>headed <quote type="head">ענה בהושענא</quote>
                            </title>
-                           <note>beg.<quote type="beg">ענה אתויים בשמך דצים</quote>, א̇ב̇, Zunz p. 82, no. 31, only two lines.</note>
+                           <note>beg. <quote type="beg">ענה אתויים בשמך דצים</quote>, א̇ב̇, Zunz p. 82, no. 31, only two lines.</note>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/4 x 4 3/8 in., 13 lines; injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/4 x 4 3/8 in., 13 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part35" n="35">
@@ -986,15 +986,15 @@
                      <msItem xml:id="MS_Heb_e_93-part35-item1">
                         <locus from="46a" to="46b">Fol. 46</locus>
                         <title>For פורים</title>
-                        <note>beg. and end missing, beg.<quote type="beg">ביום הראשון בא מרדכי אל פתח.</quote>.</note>
+                        <note>beg. and end missing, beg. <quote type="beg">ביום הראשון בא מרדכי אל פתח.</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/2 x 4 3/4 in., about 16 lines; much injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/2 x 4 3/4 in., about 16 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part36" n="36">
@@ -1007,17 +1007,17 @@
                      <msItem xml:id="MS_Heb_e_93-part36-item1">
                         <locus from="47a" to="47b">Fol. 47</locus>
                         <title>For חנוכה</title>
-                        <note>beg.<quote type="beg">... ההגבורות והתש[ועו]ת והמלחמות והפרות (?) והפרקן שעשית יי אל[הינו] עמנו ועם אבותינו בימים ההם ובזמן הזה...</quote>.<p>
-                              <locus from="47b" to="47b">Verso</locus>blank.</p>
+                        <note>beg. <quote type="beg">... ההגבורות והתש[ועו]ת והמלחמות והפרות (?) והפרקן שעשית יי אל[הינו] עמנו ועם אבותינו בימים ההם ובזמן הזה...</quote>. <p>
+                              <locus from="47b" to="47b">Verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/2 x 5 in., 18 lines; injured and mostly illegible.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/2 x 5 in., 18 lines; injured and mostly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part37" n="37">
@@ -1030,15 +1030,15 @@
                      <msItem xml:id="MS_Heb_e_93-part37-item1">
                         <locus from="48a" to="49b">Fols. 48, 49</locus>
                         <title>קינה in stanzas of 2 lines</title>
-                        <note>beg. missing, a § is (<locus from="48b" to="48b">fol. 48v</locus>)<quote>נדבק אלי חכו לשון גמול. בצמאה ואין יושב בבית גמול.</quote>, ending on<locus from="49b" to="49b">fol. 49v</locus>, followed by another beg.<quote type="beg">אבכה במר על עוצם קורותי</quote>, only 4 lines.</note>
+                        <note>beg. missing, a § is (<locus from="48b" to="48b">fol. 48v</locus>) <quote>נדבק אלי חכו לשון גמול. בצמאה ואין יושב בבית גמול.</quote>, ending on <locus from="49b" to="49b">fol. 49v</locus>, followed by another beg. <quote type="beg">אבכה במר על עוצם קורותי</quote>, only 4 lines.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 x 4 1/4 in., 12 lines; injured and partly illegible.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 x 4 1/4 in., 12 lines; injured and partly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part38" n="38">
@@ -1053,25 +1053,25 @@
                         <title>Liturgical</title>
                         <msItem xml:id="MS_Heb_e_93-part38-item1-item1" n="a">
                            <locus from="50a" to="50a">recto</locus>
-                           <title>headed<quote type="head">קינה ל̇ יפה נוף ונויהו (?)</quote>
+                           <title>headed <quote type="head">קינה ל̇ יפה נוף ונויהו (?)</quote>
                            </title>
-                           <note>beg.<quote type="beg">נאסף מזרחי. ונשרע מרזחי</quote>;</note>
+                           <note>beg. <quote type="beg">נאסף מזרחי. ונשרע מרזחי</quote>;</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part38-item1-item2" n="b">
                            <locus from="50b" to="50b">verso</locus>
-                           <title>headed<quote type="head">אחרת ל̇ גלה כבוד מישר[אל?]</quote>
+                           <title>headed <quote type="head">אחרת ל̇ גלה כבוד מישר[אל?]</quote>
                            </title>
-                           <note>beg.<quote type="beg">[יל]ד נחטף מחק יולד</quote>.</note>
+                           <note>beg. <quote type="beg">[יל]ד נחטף מחק יולד</quote>.</note>
                         </msItem>
                         <note>Some vowel points.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. (or curs.) char.;<material>paper</material>, 6 1/4 x 4 3/4 in., 15 lines; injured.</p>
+                     <p>Syr. Rabb. (or curs.) char.; <material>paper</material>, 6 1/4 x 4 3/4 in., 15 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part39" n="39">
@@ -1084,16 +1084,16 @@
                      <msItem xml:id="MS_Heb_e_93-part39-item1">
                         <locus from="51a" to="51b">Fol. 51</locus>
                         <title>קינה</title>
-                        <note>beg. missing, beg.<quote type="beg">ידידות חשוקה נערה. נפשה לחשקה נערה</quote>.<p>Stanzas of 4 lines. With vowel points and raphe.</p>
+                        <note>beg. missing, beg. <quote type="beg">ידידות חשוקה נערה. נפשה לחשקה נערה</quote>. <p>Stanzas of 4 lines. With vowel points and raphe.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 x 4 in., 15 lines, injured and obliterated.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 x 4 in., 15 lines, injured and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part40" n="40">
@@ -1106,15 +1106,15 @@
                      <msItem xml:id="MS_Heb_e_93-part40-item1">
                         <locus from="52a" to="52b">Fol. 52</locus>
                         <title>קינה</title>
-                        <note>beg. missing, beg.<quote type="beg">בכי נפשי ואל תחשי ואל תדום בת עיניך וקולך שאי</quote>.</note>
+                        <note>beg. missing, beg. <quote type="beg">בכי נפשי ואל תחשי ואל תדום בת עיניך וקולך שאי</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/2 x 3 5/8 in., about 16 lines; end torn.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/2 x 3 5/8 in., about 16 lines; end torn.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part41" n="41">
@@ -1128,24 +1128,24 @@
                         <locus from="53a" to="53b">Fol. 53</locus>
                         <title>קינה</title>
                         <msItem xml:id="MS_Heb_e_93-part41-item1-item1" n="a">
-                           <p>א̇ב̇, beg. missing, end<quote type="end">תרוני יושבת ציון. תם עונך בת ציון</quote>;</p>
+                           <p>א̇ב̇, beg. missing, end <quote type="end">תרוני יושבת ציון. תם עונך בת ציון</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part41-item1-item2" n="b">
-                           <p>headed<quote type="head">קינה עלי הדא אלפסוק</quote>(Is. 3,8), beg.<quote type="beg">... כי לבי מלא מיגוני אחרי אשר היה מלא מששוני</quote>
+                           <p>headed <quote type="head">קינה עלי הדא אלפסוק</quote> (Is. 3,8), beg. <quote type="beg">... כי לבי מלא מיגוני אחרי אשר היה מלא מששוני</quote>
                            </p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part41-item1-item3" n="c">
                            <p>
-                              <locus from="53b" to="53b">verso</locus>,<quote type="head">אחרת</quote>, beg.<quote type="beg">אפל מקדש הנאהב</quote>.</p>
+                              <locus from="53b" to="53b">verso</locus>, <quote type="head">אחרת</quote>, beg. <quote type="beg">אפל מקדש הנאהב</quote>.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>(torn), 5 in. wide, about 18 lines.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material> (torn), 5 in. wide, about 18 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part42" n="42">
@@ -1161,23 +1161,23 @@
                         <msItem xml:id="MS_Heb_e_93-part42-item1-item1">
                            <locus from="54a" to="54a"/>
                            <msItem xml:id="MS_Heb_e_93-part42-item1-item1-item1" n="a">
-                              <p>end<quote type="end">חסרי ימלא ועיוותי יתקנה. וברחמיו הוא לרנן? יהמוך? קרה</quote>;</p>
+                              <p>end <quote type="end">חסרי ימלא ועיוותי יתקנה. וברחמיו הוא לרנן? יהמוך? קרה</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part42-item1-item1-item2" n="b">
-                              <p>headed<quote type="head">אח̇ פז̇</quote>beg.<quote type="beg">האערב רב יגונותי</quote>;</p>
+                              <p>headed <quote type="head">אח̇ פז̇</quote> beg. <quote type="beg">האערב רב יגונותי</quote>;</p>
                            </msItem>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part42-item1-item2">
                            <locus from="54b" to="54b">verso</locus>
                            <msItem xml:id="MS_Heb_e_93-part42-item1-item2-item1" n="c">
                               <p>
-                                 <quote type="head">אח̇ פז̇</quote>beg.<quote type="beg">האשכחה דאגת לבי ואגילה</quote>, incomplete;</p>
+                                 <quote type="head">אח̇ פז̇</quote> beg. <quote type="beg">האשכחה דאגת לבי ואגילה</quote>, incomplete;</p>
                            </msItem>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part42-item1-item3">
                            <locus from="55a" to="55b">fol. 55</locus>
                            <msItem xml:id="MS_Heb_e_93-part42-item1-item3-item1" n="d">
-                              <p>beg. and end missing, a § beg.<quote type="beg">הוריד הדרי ירבה. וישיבני כקדמת ומארץ אלי שחק יתן ...</quote>.</p>
+                              <p>beg. and end missing, a § beg. <quote type="beg">הוריד הדרי ירבה. וישיבני כקדמת ומארץ אלי שחק יתן ...</quote>.</p>
                            </msItem>
                         </msItem>
                         <note>With vowel points.</note>
@@ -1185,10 +1185,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>(torn), 4 5/8 in. wide, about 22 lines; much stained and partly illegible.</p>
+                     <p>Span. Rabb. char.; <material>paper</material> (torn), 4 5/8 in. wide, about 22 lines; much stained and partly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part43" n="43">
@@ -1201,17 +1201,17 @@
                      <msItem xml:id="MS_Heb_e_93-part43-item1">
                         <locus from="56a" to="56b">Fol. 56</locus>
                         <title>קינה</title>
-                        <note>headed<quote type="head">בשמ̇ רחמ̇ אשקה יין הרקח</quote>beg.<quote type="beg">אשר ... ברקתו למותי ושביוני</quote>.<p>
-                              <locus from="56b" to="56b">Verso</locus>blank.</p>
+                        <note>headed <quote type="head">בשמ̇ רחמ̇ אשקה יין הרקח</quote> beg. <quote type="beg">אשר ... ברקתו למותי ושביוני</quote>. <p>
+                              <locus from="56b" to="56b">Verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 5 1/8 in., 15 lines; injured and stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 5 1/8 in., 15 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part44" n="44">
@@ -1229,10 +1229,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.;<material>paper</material>(torn), about 5 in. wide, about 13 lines.</p>
+                     <p>Syr. squ. char.; <material>paper</material> (torn), about 5 in. wide, about 13 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part45" n="45">
@@ -1245,15 +1245,15 @@
                      <msItem xml:id="MS_Heb_e_93-part45-item1">
                         <locus from="58a" to="58b">Fol. 58</locus>
                         <title>For Sabbath</title>
-                        <note>beg.<quote type="beg">שלום על כל ישראל, ... קדוש יעקב המלך הטוב וכלכם ברוכים</quote>, followed by Psalm 121; incomplete, headed<quote type="head">ואמא צלוה לילה אלסבת</quote>.</note>
+                        <note>beg. <quote type="beg">שלום על כל ישראל, ... קדוש יעקב המלך הטוב וכלכם ברוכים</quote>, followed by Psalm 121; incomplete, headed <quote type="head">ואמא צלוה לילה אלסבת</quote>.</note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 3/8 x 4 3/4 in., 11 lines, much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 3/8 x 4 3/4 in., 11 lines, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part46" n="46">
@@ -1271,10 +1271,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/2 x 5 in., 13 lines; injured and obliterated.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/2 x 5 in., 13 lines; injured and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part47" n="47">
@@ -1292,10 +1292,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 7 x 5 1/4 in., 15 lines; much injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 7 x 5 1/4 in., 15 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part48" n="48">
@@ -1313,10 +1313,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.;<material>paper</material>(torn), 6 3/4 x about 5 in., 12 lines.</p>
+                     <p>Span. squ. char.; <material>paper</material> (torn), 6 3/4 x about 5 in., 12 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part49" n="49">
@@ -1329,15 +1329,15 @@
                      <msItem xml:id="MS_Heb_e_93-part49-item1">
                         <locus from="62a" to="62b">Fol. 62</locus>
                         <title>Common prayers</title>
-                        <note>including<quote>אהבת עולם</quote>.</note>
+                        <note>including <quote>אהבת עולם</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 7 x 4 1/4 in., 16 lines.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 7 x 4 1/4 in., 16 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part50" n="50">
@@ -1353,30 +1353,30 @@
                         <msItem xml:id="MS_Heb_e_93-part50-item1-item1">
                            <locus from="63a" to="63b">Fol. 63</locus>
                            <msItem xml:id="MS_Heb_e_93-part50-item1-item1-item1" n="a">
-                              <p>ending (<locus from="63b" to="63b">fol. 63v</locus>)<quote type="end">למעני למעני אעשה. ואהבה על פשע ...בסה</quote>;</p>
+                              <p>ending (<locus from="63b" to="63b">fol. 63v</locus>) <quote type="end">למעני למעני אעשה. ואהבה על פשע ...בסה</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part50-item1-item1-item2" n="b">
                               <p>
-                                 <quote type="head">יוצר אח̇ לר̇ שמו[א] נ̇ע̇</quote>beg.<quote type="beg">ארבעה חלוקי כפרה</quote>incomplete;</p>
+                                 <quote type="head">יוצר אח̇ לר̇ שמו[א] נ̇ע̇</quote> beg. <quote type="beg">ארבעה חלוקי כפרה</quote> incomplete;</p>
                            </msItem>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part50-item1-item2">
                            <locus from="64a" to="64b">fol. 64</locus>
                            <msItem xml:id="MS_Heb_e_93-part50-item1-item2-item1" n="c">
-                              <p>end<quote type="end">יה ממרומיך נחכה? רוב טובך. יי צבאות אשרי איש בטח בך</quote>;</p>
+                              <p>end <quote type="end">יה ממרומיך נחכה? רוב טובך. יי צבאות אשרי איש בטח בך</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part50-item1-item2-item2" n="d">
-                              <p>headed<quote type="head">יוצר</quote>beg.<quote type="beg">אפתח פי ואויחלה ברוב עוז ותהלה</quote>.</p>
+                              <p>headed <quote type="head">יוצר</quote> beg. <quote type="beg">אפתח פי ואויחלה ברוב עוז ותהלה</quote>.</p>
                            </msItem>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 1/4 x 4 7/8 in., 16 lines; much injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 1/4 x 4 7/8 in., 16 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part51" n="51">
@@ -1390,20 +1390,20 @@
                         <locus from="65a" to="65b">Fol. 65</locus>
                         <title>Liturgical</title>
                         <msItem xml:id="MS_Heb_e_93-part51-item1-item1" n="a">
-                           <p>beg. missing, beg.<quote type="beg">ברח דודך קולו שמעי</quote>, acr.<quote type="acr">[אב]רהם</quote>;</p>
+                           <p>beg. missing, beg. <quote type="beg">ברח דודך קולו שמעי</quote>, acr. <quote type="acr">[אב]רהם</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part51-item1-item2" n="b">
                            <p>
-                              <locus from="65b" to="65b">verso</locus>, headed<quote type="head">אברהם מי כמכה</quote>beg.<quote type="beg">אל מי נמשילך ואין ערוך אליך</quote>, acr.<quote type="acr">אברהם</quote>.</p>
+                              <locus from="65b" to="65b">verso</locus>, headed <quote type="head">אברהם מי כמכה</quote> beg. <quote type="beg">אל מי נמשילך ואין ערוך אליך</quote>, acr. <quote type="acr">אברהם</quote>.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 4 3/4 in., 24 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 4 3/4 in., 24 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part52" n="52">
@@ -1415,28 +1415,28 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part52-item1">
                         <locus from="66a" to="66b">Fol. 66</locus>
-                        <title>By<persName>Judah ha-Levi</persName>
+                        <title>By <persName>Judah ha-Levi</persName>
                         </title>
                         <msItem xml:id="MS_Heb_e_93-part52-item1-item1" n="a">
-                           <p>headed<quote type="head">ולה פי אלועט̇</quote>beg.<quote type="beg">[ל]בי עמוד כי מי בסוד</quote>
+                           <p>headed <quote type="head">ולה פי אלועט̇</quote> beg. <quote type="beg">[ל]בי עמוד כי מי בסוד</quote>
                            </p>
                            <p>Brody, Diwan … Jehuda ha-Levi ii p. 218;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part52-item1-item2" n="b">
                            <p>
-                              <locus from="66b" to="66b">verso</locus>headed<quote type="head">ואיצא לה ז̇ל̇</quote>beg.<quote type="beg">אל אל חי ברכו ופשוט חסידיו</quote>;</p>
+                              <locus from="66b" to="66b">verso</locus> headed <quote type="head">ואיצא לה ז̇ל̇</quote> beg. <quote type="beg">אל אל חי ברכו ופשוט חסידיו</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part52-item1-item3" n="c">
-                           <p>headed<quote type="head">ואיצא לה ז̇ל̇</quote>beg.<quote type="beg">אותותינו התמהמהו</quote>. Luzzatto, Divan, no. 80, א̇ב̇ to ח̇.</p>
+                           <p>headed <quote type="head">ואיצא לה ז̇ל̇</quote> beg. <quote type="beg">אותותינו התמהמהו</quote>. Luzzatto, Divan, no. 80, א̇ב̇ to ח̇.</p>
                         </msItem>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. curs. char.;<material>paper</material>, 6 3/4 x 4 7/8 in., 19 lines; injured.</p>
+                     <p>Span. curs. char.; <material>paper</material>, 6 3/4 x 4 7/8 in., 19 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part53" n="53">
@@ -1449,18 +1449,18 @@
                      <msItem xml:id="MS_Heb_e_93-part53-item1">
                         <locus from="67a" to="67b">Fol. 67</locus>
                         <title>For גשם</title>
-                        <note>end<quote type="end">...שכלל מקדש אריאל. בחיי כל קהל ישראל ויהיו? ברכה</quote>
+                        <note>end <quote type="end">...שכלל מקדש אריאל. בחיי כל קהל ישראל ויהיו? ברכה</quote>
                            <p>
-                              <locus from="67b" to="67b">Verso</locus>and one third of<locus from="67a" to="67a">recto</locus>blank.</p>
+                              <locus from="67b" to="67b">Verso</locus> and one third of <locus from="67a" to="67a">recto</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 4 1/2 in.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 4 1/2 in.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part54" n="54">
@@ -1473,16 +1473,16 @@
                      <msItem xml:id="MS_Heb_e_93-part54-item1">
                         <locus from="68a" to="68b">Fol. 68</locus>
                         <title>For גשם</title>
-                        <note>end<quote type="end">כמו שאתה הוא יהוה אלהינו רב להושיע. משיב הרוח ומוריד הגשם. לברכה</quote>.<p>Half the<locus from="68b" to="68b">verso</locus>blank.</p>
+                        <note>end <quote type="end">כמו שאתה הוא יהוה אלהינו רב להושיע. משיב הרוח ומוריד הגשם. לברכה</quote>. <p>Half the <locus from="68b" to="68b">verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. (Pers.?) squ. char.;<material>paper</material>, 6 1/4 x 4 1/2 in., 20 lines; injured and stained.</p>
+                     <p>Or. (Pers.?) squ. char.; <material>paper</material>, 6 1/4 x 4 1/2 in., 20 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part55" n="55">
@@ -1496,15 +1496,15 @@
                         <locus from="69a" to="69b">Fol. 69</locus>
                         <title>For מילה</title>
                         <msItem xml:id="MS_Heb_e_93-part55-item1-item1" n="a">
-                           <p>end<quote type="end">חתול חולת זכה קהלת בהנה נחלת יי בנים</quote>;</p>
+                           <p>end <quote type="end">חתול חולת זכה קהלת בהנה נחלת יי בנים</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part55-item1-item2" n="b">
                            <p>
-                              <quote type="head">אחר</quote>beg.<quote type="beg">יי ישמרהו ויחיהו ואושר בארץ</quote>;</p>
+                              <quote type="head">אחר</quote> beg. <quote type="beg">יי ישמרהו ויחיהו ואושר בארץ</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part55-item1-item3" n="c">
                            <p>
-                              <quote type="head">אחר</quote>beg.<quote type="beg">ילד זה יפדה</quote>, acr.<quote type="acr">יושׂ[ף]?</quote>
+                              <quote type="head">אחר</quote> beg. <quote type="beg">ילד זה יפדה</quote>, acr. <quote type="acr">יושׂ[ף]?</quote>
                            </p>
                         </msItem>
                         <note>With vowel points.</note>
@@ -1512,10 +1512,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 5/8 x 4 3/4 in., 15 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 5/8 x 4 3/4 in., 15 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part56" n="56">
@@ -1527,19 +1527,19 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part56-item1">
                         <locus from="70a" to="70b">Fol. 70</locus>
-                        <title>Headed<quote type="head">לחתן</quote>
+                        <title>Headed <quote type="head">לחתן</quote>
                         </title>
-                        <note>beg.<quote type="beg">אתה חתן אשריך. תשתה מים מביריך</quote>;<p>
-                              <locus from="70b" to="70b">verso</locus>heading<quote type="head">לחתן</quote>, beg.<quote type="beg">אור חתן יזרח</quote>, incomplete.</p>
+                        <note>beg. <quote type="beg">אתה חתן אשריך. תשתה מים מביריך</quote>; <p>
+                              <locus from="70b" to="70b">verso</locus> heading <quote type="head">לחתן</quote>, beg. <quote type="beg">אור חתן יזרח</quote>, incomplete.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>vellum</material>, 6 1/2 x 5 1/4 in., 20 lines; much injured and mostly obliterated.</p>
+                     <p>Syr. Rabb. char.; <material>vellum</material>, 6 1/2 x 5 1/4 in., 20 lines; much injured and mostly obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part57" n="57">
@@ -1552,16 +1552,16 @@
                      <msItem xml:id="MS_Heb_e_93-part57-item1">
                         <locus from="71a" to="71b">Fol. 71</locus>
                         <title>For ברכת המתים ?</title>
-                        <note>beg. and end missing, end<quote type="end">וקומי רני למלכך יומך ולילך שאי אליו כפים והשתחוי לו אפים אול יתאו (?)</quote>
+                        <note>beg. and end missing, end <quote type="end">וקומי רני למלכך יומך ולילך שאי אליו כפים והשתחוי לו אפים אול יתאו (?)</quote>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 5 1/4 in., 11 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 5 1/4 in., 11 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part58" n="58">
@@ -1573,17 +1573,17 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part58-item1">
                         <locus from="72a" to="72b">Fol. 72</locus>
-                        <title>Headed<quote type="head">אחר</quote>
+                        <title>Headed <quote type="head">אחר</quote>
                         </title>
-                        <note>beg.<quote type="beg">[ברוך שמך] יי צבאות בך כל היצורים</quote>, א̇ב̇.</note>
+                        <note>beg. <quote type="beg">[ברוך שמך] יי צבאות בך כל היצורים</quote>, א̇ב̇.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 4 3/8 in., 15 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 4 3/8 in., 15 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part59" n="59">
@@ -1597,20 +1597,20 @@
                         <locus from="73a" to="73b">Fol. 73</locus>
                         <title>פיוטים</title>
                         <msItem xml:id="MS_Heb_e_93-part59-item1-item1" n="a">
-                           <p>end<quote type="end">... אדוניו אהבת עולם אהבתיך יעקב עבדי אשר בחרתיך</quote>;</p>
+                           <p>end <quote type="end">... אדוניו אהבת עולם אהבתיך יעקב עבדי אשר בחרתיך</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part59-item1-item2" n="b">
-                           <p>beg.<quote type="beg">אור... לשם באפי נשמה רבה</quote>, acr.<quote type="acr">אברהם</quote>?</p>
+                           <p>beg. <quote type="beg">אור... לשם באפי נשמה רבה</quote>, acr. <quote type="acr">אברהם</quote>?</p>
                         </msItem>
-                        <note>At the end the name<persName type="heb">יחזקאל</persName>. Two thirds of the<locus from="73b" to="73b">verso</locus>blank.</note>
+                        <note>At the end the name <persName type="heb">יחזקאל</persName>. Two thirds of the <locus from="73b" to="73b">verso</locus> blank.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 5 in., 14 lines; stained and much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 5 in., 14 lines; stained and much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part60" n="60">
@@ -1623,17 +1623,17 @@
                      <msItem xml:id="MS_Heb_e_93-part60-item1">
                         <locus from="74a" to="74b">Fol. 74</locus>
                         <title>פיוט</title>
-                        <note>end of א̇ב̇. Paragraph ר beg.<quote type="beg">רֿאשי עם יחד ? שבטי ישראל. ובדברי קדשך כתוב ... שֿאו שערים ראשיכם והנשאו ...</quote>
+                        <note>end of א̇ב̇. Paragraph ר beg. <quote type="beg">רֿאשי עם יחד ? שבטי ישראל. ובדברי קדשך כתוב ... שֿאו שערים ראשיכם והנשאו ...</quote>
                            <p>With vowel points and raphe.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.;<material>paper</material>, about 6 1/2 x 5 in., 13 lines; much injured.</p>
+                     <p>Syr. squ. char.; <material>paper</material>, about 6 1/2 x 5 in., 13 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part61" n="61">
@@ -1647,20 +1647,20 @@
                         <locus from="75a" to="75b">Fol. 75</locus>
                         <title>From a collection of poems</title>
                         <msItem xml:id="MS_Heb_e_93-part61-item1-item1" n="a">
-                           <p>end (<locus from="75b" to="75b">verso</locus>)<quote type="end">כמה בעלוהו (?) אדונים כן א... מאן דבוק כי אם ביאשיהו (?)</quote>
+                           <p>end (<locus from="75b" to="75b">verso</locus>) <quote type="end">כמה בעלוהו (?) אדונים כן א... מאן דבוק כי אם ביאשיהו (?)</quote>
                            </p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part61-item1-item2" n="b">
-                           <p>headed<quote type="head">וקאל א[יצא הדא] אבו עמר בן ברון אלאגרנאטי רחמה אללה</quote>, beg.<quote type="beg">לא מתמול פיות שחוק נמלאו</quote>.</p>
+                           <p>headed <quote type="head">וקאל א[יצא הדא] אבו עמר בן ברון אלאגרנאטי רחמה אללה</quote>, beg. <quote type="beg">לא מתמול פיות שחוק נמלאו</quote>.</p>
                         </msItem>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 7 1/8 x 4 3/4 in., 14 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 7 1/8 x 4 3/4 in., 14 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part62" n="62">
@@ -1678,10 +1678,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 5/8 x 4 3/4 in., 13 lines; much injured.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 5/8 x 4 3/4 in., 13 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part63" n="63">
@@ -1695,19 +1695,19 @@
                         <locus from="77a" to="77b">Fol. 77</locus>
                         <title>פיוטים</title>
                         <msItem xml:id="MS_Heb_e_93-part63-item1-item1" n="a">
-                           <p>headed<quote type="head">אחר</quote>beg.<quote type="beg">אני גולה (?) יסודה</quote>, acr.<quote type="acr">אברהם</quote>;</p>
+                           <p>headed <quote type="head">אחר</quote> beg. <quote type="beg">אני גולה (?) יסודה</quote>, acr. <quote type="acr">אברהם</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part63-item1-item2" n="b">
-                           <p>headed<quote type="head">א[לו ל]מילה</quote>beg.<quote type="beg">הבוקר אור יר.ו עם בבכי לנו. כי ילד ילד לנו ... בא זמן צדק</quote>.</p>
+                           <p>headed <quote type="head">א[לו ל]מילה</quote> beg. <quote type="beg">הבוקר אור יר.ו עם בבכי לנו. כי ילד ילד לנו ... בא זמן צדק</quote>.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 5 in., 15 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 5 in., 15 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part64" n="64">
@@ -1721,26 +1721,26 @@
                         <locus from="78a" to="78b">Fol. 78</locus>
                         <title>פיוטים</title>
                         <msItem xml:id="MS_Heb_e_93-part64-item1-item1" n="a">
-                           <p>end<quote type="end">שמו יגדל ויתקדש בפי כל. אשר נשמת אלוה חי באפיו</quote>;</p>
+                           <p>end <quote type="end">שמו יגדל ויתקדש בפי כל. אשר נשמת אלוה חי באפיו</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part64-item1-item2" n="b">
-                           <p>headed<quote type="head">ופי אלמעני איצא</quote>beg.<quote type="beg">ידעתיך בטרם תצרני</quote>;</p>
+                           <p>headed <quote type="head">ופי אלמעני איצא</quote> beg. <quote type="beg">ידעתיך בטרם תצרני</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part64-item1-item3" n="c">
                            <p>
-                              <locus from="78b" to="78b">verso</locus>, same heading beg.<quote type="beg">[?אדו]ני בשמך רעיוני</quote>;</p>
+                              <locus from="78b" to="78b">verso</locus>, same heading beg. <quote type="beg">[?אדו]ני בשמך רעיוני</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part64-item1-item4" n="d">
-                           <p>same heading, beg.<quote type="beg">אני קטן מאד מן החסדים</quote>, א̇ב̇ incomplete, ending with ד̇.</p>
+                           <p>same heading, beg. <quote type="beg">אני קטן מאד מן החסדים</quote>, א̇ב̇ incomplete, ending with ד̇.</p>
                         </msItem>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen Rabb. char.;<material>paper</material>, much torn.</p>
+                     <p>Yemen Rabb. char.; <material>paper</material>, much torn.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part65" n="65">
@@ -1755,16 +1755,16 @@
                         <title>Liturgical</title>
                         <msItem xml:id="MS_Heb_e_93-part65-item1-item1">
                            <locus from="79a" to="79b">Fol. 79</locus>
-                           <note>blank, except for a few words on the<locus from="79b" to="79b">verso</locus>.</note>
+                           <note>blank, except for a few words on the <locus from="79b" to="79b">verso</locus>.</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part65-item1-item2">
                            <locus from="80a" to="80b">Fol. 80</locus>
                            <title>פיוטים</title>
                            <msItem xml:id="MS_Heb_e_93-part65-item1-item2-item1" n="a">
-                              <p>beg. and end broken, a § beg.<quote>נפשו כחורב וכציון אל טל חרב וציון</quote>;</p>
+                              <p>beg. and end broken, a § beg. <quote>נפשו כחורב וכציון אל טל חרב וציון</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part65-item1-item2-item2" n="b">
-                              <p>beg. (?)<quote type="beg">יצעק לך אסיר כלא</quote>, with refrain<quote>ויאמר שלחיני</quote>, acr.<quote type="acr">יצ[חק]</quote>.</p>
+                              <p>beg. (?) <quote type="beg">יצעק לך אסיר כלא</quote>, with refrain <quote>ויאמר שלחיני</quote>, acr. <quote type="acr">יצ[חק]</quote>.</p>
                            </msItem>
                            <note>Some vowel points. Additions on the margin.</note>
                         </msItem>
@@ -1772,10 +1772,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>(torn), 4 1/2 in. wide.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material> (torn), 4 1/2 in. wide.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part66" n="66">
@@ -1789,22 +1789,22 @@
                         <locus from="81a" to="82b">Fols. 81, 82</locus>
                         <title>פיוטים</title>
                         <msItem xml:id="MS_Heb_e_93-part66-item1-item1" n="a">
-                           <p>beg. missing, a § beg.<quote>קמתי חצות לילה מלא פחדך. ובאתי למקדשך לפלל נגדך</quote>, in stanzas of 4 lines, acr.<quote type="acr">[י]צחק [ח]זק</quote>;</p>
+                           <p>beg. missing, a § beg. <quote>קמתי חצות לילה מלא פחדך. ובאתי למקדשך לפלל נגדך</quote>, in stanzas of 4 lines, acr. <quote type="acr">[י]צחק [ח]זק</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part66-item1-item2" n="b">
                            <p>
-                              <locus from="82a" to="82b">fol. 82</locus>a similar<quote>פיוט</quote>, א̇ב̇ beg. missing, beg. at ה̇;</p>
-                           <p>the last lines are<quote type="end">קהלות עמיך יהללוך בהגיון. רוחשים שבחך שוכן שְמֵי</quote>.</p>
+                              <locus from="82a" to="82b">fol. 82</locus> a similar <quote>פיוט</quote>, א̇ב̇ beg. missing, beg. at ה̇;</p>
+                           <p>the last lines are <quote type="end">קהלות עמיך יהללוך בהגיון. רוחשים שבחך שוכן שְמֵי</quote>.</p>
                         </msItem>
                         <note>With vowel points.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.;<material>paper</material>, 6 5/8 x 7 7/8 in., 13 lines; much injured.</p>
+                     <p>Syr. squ. char.; <material>paper</material>, 6 5/8 x 7 7/8 in., 13 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part67" n="67">
@@ -1820,19 +1820,19 @@
                         <msItem xml:id="MS_Heb_e_93-part67-item1-item1">
                            <locus from="83a" to="83b">fol. 83</locus>
                            <msItem xml:id="MS_Heb_e_93-part67-item1-item1-item1" n="a">
-                              <p>headed<quote type="head">אחר</quote>beg.<quote type="beg">איילות ישע תעודד לערב</quote>, א̇ב̇ incomplete;</p>
+                              <p>headed <quote type="head">אחר</quote> beg. <quote type="beg">איילות ישע תעודד לערב</quote>, א̇ב̇ incomplete;</p>
                            </msItem>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part67-item1-item2">
                            <locus from="84a" to="84b">fol. 84</locus>
                            <msItem xml:id="MS_Heb_e_93-part67-item1-item2-item1" n="b">
-                              <p>end<quote type="end">ועלזי צהלי ורני? כי בצדקה תכונני. ובקדושת ...</quote>;</p>
+                              <p>end <quote type="end">ועלזי צהלי ורני? כי בצדקה תכונני. ובקדושת ...</quote>;</p>
                            </msItem>
                            <msItem xml:id="MS_Heb_e_93-part67-item1-item2-item2" n="c">
                               <p>
-                                 <quote type="head">אחר</quote>beg.<quote type="beg">אל שו[כן רו]מה</quote>?, א̇ב̇, end<quote type="end">ואתם אֿרץ חפץ. אדעה אתכם בחפץ. וכל גבולך לאבני חפץ. עניה תשמח וג'</quote>
+                                 <quote type="head">אחר</quote> beg. <quote type="beg">אל שו[כן רו]מה</quote>?, א̇ב̇, end <quote type="end">ואתם אֿרץ חפץ. אדעה אתכם בחפץ. וכל גבולך לאבני חפץ. עניה תשמח וג'</quote>
                               </p>
-                              <p>Followed by the heading<quote type="head">אחר</quote>.</p>
+                              <p>Followed by the heading <quote type="head">אחר</quote>.</p>
                            </msItem>
                         </msItem>
                         <note>Partly with vowel points.</note>
@@ -1840,10 +1840,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 4 in., 15 lines; injured and stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 4 in., 15 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part68" n="68">
@@ -1856,17 +1856,17 @@
                      <msItem xml:id="MS_Heb_e_93-part68-item1">
                         <locus from="85a" to="85b">Fol. 85</locus>
                         <title>Hymn</title>
-                        <note>beg. and end missing, beg.<quote type="beg">... אחרון ובאחרית ראשון הזן לכל הבריות ... צרוך לא יחסר החפץ להצדיק וידך פתוחה ...</quote>
+                        <note>beg. and end missing, beg. <quote type="beg">... אחרון ובאחרית ראשון הזן לכל הבריות ... צרוך לא יחסר החפץ להצדיק וידך פתוחה ...</quote>
                            <p>With vowel points.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 4 7/8 in., 11 lines; injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 4 7/8 in., 11 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part69" n="69">
@@ -1878,19 +1878,19 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_e_93-part69-item1">
                         <locus from="86a" to="86b">Fol. 86</locus>
-                        <title>Headed<quote type="head">למר̇ לוי בר</quote>
+                        <title>Headed <quote type="head">למר̇ לוי בר</quote>
                         </title>
-                        <note>beg.<quote type="beg">לכודה? כהוא? מכמר? בשבך ומגורך מבשר לך ואמר צאי ממאסריך</quote>acr.<quote type="acr">לוי</quote>.<p>
-                              <locus from="86b" to="86b">Verso</locus>blank.</p>
+                        <note>beg. <quote type="beg">לכודה? כהוא? מכמר? בשבך ומגורך מבשר לך ואמר צאי ממאסריך</quote> acr. <quote type="acr">לוי</quote>. <p>
+                              <locus from="86b" to="86b">Verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 7 x 4 7/8 in., 13 lines; injured and stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 7 x 4 7/8 in., 13 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part70" n="70">
@@ -1903,16 +1903,16 @@
                      <msItem xml:id="MS_Heb_e_93-part70-item1">
                         <locus from="87a" to="87b">Fol. 87</locus>
                         <title>פיוט</title>
-                        <note>headed<quote type="head">ל̇</quote>beg.<quote type="beg">מים אֿדירים ממקדש ... נפתחים. בֿעת יבואו האובדים והנדחים</quote>, א̇ב̇, incomplete.<p>With vowel points.</p>
+                        <note>headed <quote type="head">ל̇</quote> beg. <quote type="beg">מים אֿדירים ממקדש ... נפתחים. בֿעת יבואו האובדים והנדחים</quote>, א̇ב̇, incomplete. <p>With vowel points.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 3/8 x 4 7/8 in., 14 lines.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 3/8 x 4 7/8 in., 14 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part71" n="71">
@@ -1926,21 +1926,21 @@
                         <locus from="88a" to="88b">Fol. 88</locus>
                         <title>פיוטים</title>
                         <msItem xml:id="MS_Heb_e_93-part71-item1-item1" n="a">
-                           <p>א̇ב̇ beg. missing, end (<locus from="88b" to="88b">verso</locus>)<quote type="end">... עלימו אור פניך ... ותקשיב אזנך. תענה יי אלהי</quote>, followed by biblical verses;</p>
+                           <p>א̇ב̇ beg. missing, end (<locus from="88b" to="88b">verso</locus>) <quote type="end">... עלימו אור פניך ... ותקשיב אזנך. תענה יי אלהי</quote>, followed by biblical verses;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part71-item1-item2" n="b">
                            <p>
-                              <quote type="head">מעמד</quote>beg.<quote type="beg">אבן בוחן פינה מיוקרת</quote>, א̇ב̇ (only three lines).</p>
+                              <quote type="head">מעמד</quote> beg. <quote type="beg">אבן בוחן פינה מיוקרת</quote>, א̇ב̇ (only three lines).</p>
                         </msItem>
                         <note>With vowel points.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>(torn), about 5 in. wide.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material> (torn), about 5 in. wide.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part72" n="72">
@@ -1953,17 +1953,17 @@
                      <msItem xml:id="MS_Heb_e_93-part72-item1">
                         <locus from="89a" to="89b">Fol. 89</locus>
                         <title>פיוט</title>
-                        <note>headed<quote type="head">ב̇</quote>beg.<quote type="beg">א.לק מכבודו אל בראך ועל ... ועל ארבע דמות חיות נשאך</quote>.<p>
+                        <note>headed <quote type="head">ב̇</quote> beg. <quote type="beg">א.לק מכבודו אל בראך ועל ... ועל ארבע דמות חיות נשאך</quote>. <p>
                               <locus from="89b" to="89b">Verso</locus>, only 3 words.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 5 in., 12 lines; partly obliterated.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 5 in., 12 lines; partly obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part73" n="73">
@@ -1976,17 +1976,17 @@
                      <msItem xml:id="MS_Heb_e_93-part73-item1">
                         <locus from="90a" to="90b">Fol. 90</locus>
                         <title>פיוט</title>
-                        <note>headed<quote type="head">בשם יי</quote>beg.<quote type="beg">השקיפה אל ממעון קדשיך. וגאל את שאר ניניך</quote>.<p>
-                              <locus from="90b" to="90b">Verso</locus>blank.</p>
+                        <note>headed <quote type="head">בשם יי</quote> beg. <quote type="beg">השקיפה אל ממעון קדשיך. וגאל את שאר ניניך</quote>. <p>
+                              <locus from="90b" to="90b">Verso</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>(torn), 4 7/8 in. wide, stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material> (torn), 4 7/8 in. wide, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part74" n="74">
@@ -1999,15 +1999,15 @@
                      <msItem xml:id="MS_Heb_e_93-part74-item1">
                         <locus from="91a" to="91b">Fol. 91</locus>
                         <title>פיוט</title>
-                        <note>א̇ב̇ beg. and end missing. The first complete line is<quote type="beg">ליוצא החוצה ומבתו בכוכבי נחת יזכר לבנים ליושר</quote>.</note>
+                        <note>א̇ב̇ beg. and end missing. The first complete line is <quote type="beg">ליוצא החוצה ומבתו בכוכבי נחת יזכר לבנים ליושר</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/2 x 5 3/8 in., 16 lines; injured and stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/2 x 5 3/8 in., 16 lines; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part75" n="75">
@@ -2021,20 +2021,20 @@
                         <locus from="92a" to="92b">Fol. 92</locus>
                         <title>קינות</title>
                         <msItem xml:id="MS_Heb_e_93-part75-item1-item1" n="a">
-                           <p>end<quote type="end">לישב תחת עץ החיים. ... פטר תהי צרורה בצרור החיים. יבוא שלום ...</quote>;</p>
+                           <p>end <quote type="end">לישב תחת עץ החיים. ... פטר תהי צרורה בצרור החיים. יבוא שלום ...</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part75-item1-item2" n="b">
                            <p>
-                              <quote type="head">אחר</quote>beg.<quote type="beg">יהי שלום יהי שלום יהי שלום באֿסיפתו. יהי שלום יהי שלום יהי שלום בביאתו</quote>, א̇ב̇; at the end another heading<quote type="head">אחר</quote>.</p>
+                              <quote type="head">אחר</quote> beg. <quote type="beg">יהי שלום יהי שלום יהי שלום באֿסיפתו. יהי שלום יהי שלום יהי שלום בביאתו</quote>, א̇ב̇; at the end another heading <quote type="head">אחר</quote>.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 3/8 x 4 7/8 in., 14 lines; partly illegible.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 3/8 x 4 7/8 in., 14 lines; partly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part76" n="76">
@@ -2048,21 +2048,21 @@
                         <locus from="93a" to="93b">Fol. 93</locus>
                         <title>פיוטים</title>
                         <msItem xml:id="MS_Heb_e_93-part76-item1-item1" n="a">
-                           <p>א̇ב̇ end<quote type="end">תֿאזין שועתי. אלהי ישועתי. ותאמר שמעתי. קול תחנוניך. אל מלך וג'</quote>;</p>
+                           <p>א̇ב̇ end <quote type="end">תֿאזין שועתי. אלהי ישועתי. ותאמר שמעתי. קול תחנוניך. אל מלך וג'</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part76-item1-item2" n="b">
                            <p>
-                              <locus from="93b" to="93b">verso</locus>, beg.<quote type="beg">אליך אלהים ערכנו תפלה</quote>, א̇ב̇, incomplete.</p>
+                              <locus from="93b" to="93b">verso</locus>, beg. <quote type="beg">אליך אלהים ערכנו תפלה</quote>, א̇ב̇, incomplete.</p>
                         </msItem>
                         <note>Some vowel points.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 1/4 x 5 in., 16 lines.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 1/4 x 5 in., 16 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part77" n="77">
@@ -2076,20 +2076,20 @@
                         <locus from="94a" to="94b">Fol. 94</locus>
                         <title>פיוטים</title>
                         <msItem xml:id="MS_Heb_e_93-part77-item1-item1" n="a">
-                           <p>end<quote type="end">נאור נחנן נועם נאימתך ? כי הם עמך ונחלתך. יעודו רחמיך וג'</quote>;</p>
+                           <p>end <quote type="end">נאור נחנן נועם נאימתך ? כי הם עמך ונחלתך. יעודו רחמיך וג'</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part77-item1-item2" n="b">
                            <p>
-                              <quote type="head">אחר</quote>beg. (refrain)?<quote type="beg">דפקנו ובאשמורות פתחי היכליך</quote>, א̇ב̇ incomplete.</p>
+                              <quote type="head">אחר</quote> beg. (refrain)? <quote type="beg">דפקנו ובאשמורות פתחי היכליך</quote>, א̇ב̇ incomplete.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 5 1/2 x 5 1/8 in., 12 lines, much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 5 1/2 x 5 1/8 in., 12 lines, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part78" n="78">
@@ -2103,23 +2103,23 @@
                         <locus from="95a" to="95b">Fol. 95</locus>
                         <title>פיוטים</title>
                         <msItem xml:id="MS_Heb_e_93-part78-item1-item1" n="a">
-                           <p>end<quote type="end">ואל הר קדשך העלה</quote>, acr.<quote type="acr">[יהו]דה</quote>, by<persName>Judah ha-levi</persName>, Luzzatto, Divan no. 76;</p>
+                           <p>end <quote type="end">ואל הר קדשך העלה</quote>, acr. <quote type="acr">[יהו]דה</quote>, by <persName>Judah ha-levi</persName>, Luzzatto, Divan no. 76;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part78-item1-item2" n="b">
-                           <p>headed<quote type="head">ולה איצ̇א ז̇צ̇ל̇</quote>beg.<quote type="beg">[יושב כ]רובים יום יום באימה. ... הֿתיצבי נפשי</quote>, acr.<quote type="acr">יהודה</quote>;</p>
+                           <p>headed <quote type="head">ולה איצ̇א ז̇צ̇ל̇</quote> beg. <quote type="beg">[יושב כ]רובים יום יום באימה. ... הֿתיצבי נפשי</quote>, acr. <quote type="acr">יהודה</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part78-item1-item3" n="c">
                            <p>
-                              <locus from="95b" to="95b">verso</locus>, headed<quote type="head">ולמ̇ משה ז̇ל̇</quote>, beg.<quote type="beg">מה תשבי עצובה כאשה עזובה</quote>, (acr.<quote type="acr">משה</quote>?).</p>
+                              <locus from="95b" to="95b">verso</locus>, headed <quote type="head">ולמ̇ משה ז̇ל̇</quote>, beg. <quote type="beg">מה תשבי עצובה כאשה עזובה</quote>, (acr. <quote type="acr">משה</quote>?).</p>
                         </msItem>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. (or curs.) char.;<material>paper</material>, 6 5/8 x 5 in., 21 lines.</p>
+                     <p>Syr. Rabb. (or curs.) char.; <material>paper</material>, 6 5/8 x 5 in., 21 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part79" n="79">
@@ -2134,20 +2134,20 @@
                         <title>Poems in Arabic</title>
                         <msItem xml:id="MS_Heb_e_93-part79-item1-item1">
                            <p>
-                              <locus from="96a" to="96b">fol. 96</locus>is only half a leaf containing ends of lines;</p>
+                              <locus from="96a" to="96b">fol. 96</locus> is only half a leaf containing ends of lines;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_e_93-part79-item1-item2">
                            <p>
-                              <locus from="97a" to="97b">fol. 97</locus>beg. missing, beg.<quote type="beg">מסרינא ... ברת אבי ואמי שקיקתי חאצ̇רת אול ...</quote>.</p>
+                              <locus from="97a" to="97b">fol. 97</locus> beg. missing, beg. <quote type="beg">מסרינא ... ברת אבי ואמי שקיקתי חאצ̇רת אול ...</quote>.</p>
                         </msItem>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. (unusual) Rabb. char.;<material>paper</material>, 6 x 4 1/4 in., 18 lines; much injured and partly illegible.</p>
+                     <p>Span. (unusual) Rabb. char.; <material>paper</material>, 6 x 4 1/4 in., 18 lines; much injured and partly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part80" n="80">
@@ -2160,16 +2160,16 @@
                      <msItem xml:id="MS_Heb_e_93-part80-item1">
                         <locus from="98a" to="98b">Fol. 98</locus>
                         <title>Arabic translation of liturgy</title>
-                        <note>a legible passage is<quote>א̇ו̇א̇ אללה אלכאלק אלג̇באר כלקת אלדניא באקתדאר ורתבתהא מג̇זייה בלא אעתדאר ג̇עלת תלתהא נבאתא ואשג̇אר ...</quote>
+                        <note>a legible passage is <quote>א̇ו̇א̇ אללה אלכאלק אלג̇באר כלקת אלדניא באקתדאר ורתבתהא מג̇זייה בלא אעתדאר ג̇עלת תלתהא נבאתא ואשג̇אר ...</quote>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.;<material>paper</material>, 6 7/8 x 5 1/8 in., 12 lines; partly illegible.</p>
+                     <p>Span. Rabb. char.; <material>paper</material>, 6 7/8 x 5 1/8 in., 12 lines; partly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part81" n="81">
@@ -2182,16 +2182,16 @@
                      <msItem xml:id="MS_Heb_e_93-part81-item1">
                         <locus from="99a" to="99b">Fol. 99</locus>
                         <title>Arabic translation of liturgy</title>
-                        <note>a paragraph ends<quote>פלא תכאפהם פאן אללה יעינך עליהם ויוצלך אלי גמיע מא תחב ברחמתה</quote>.<p>Some scribbling on<locus from="99b" to="99b">verso</locus>.</p>
+                        <note>a paragraph ends <quote>פלא תכאפהם פאן אללה יעינך עליהם ויוצלך אלי גמיע מא תחב ברחמתה</quote>. <p>Some scribbling on <locus from="99b" to="99b">verso</locus>.</p>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 6 5/8 x 5 in., 20 lines; partly illegible.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 6 5/8 x 5 in., 20 lines; partly illegible.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_e_93-part82" n="82">
@@ -2204,18 +2204,18 @@
                      <msItem xml:id="MS_Heb_e_93-part82-item1">
                         <locus from="100a" to="100b">Fol. 100</locus>
                         <title>Liturgical</title>
-                        <note>beg.<quote type="beg">בשם רחום וחנון. אתה הוא יי אלהי האלהים ואדוני האדונים האל הנאמן ...</quote>.<p>Some vowel points.</p>
+                        <note>beg. <quote type="beg">בשם רחום וחנון. אתה הוא יי אלהי האלהים ואדוני האדונים האל הנאמן ...</quote>. <p>Some vowel points.</p>
                            <p>
-                              <locus from="100b" to="100b">Verso</locus>(really recto) blank.</p>
+                              <locus from="100b" to="100b">Verso</locus> (really recto) blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.;<material>vellum</material>, 7 x 3 3/4 in., 15 lines, injured and stained.</p>
+                     <p>Syr. squ. char.; <material>vellum</material>, 7 x 3 3/4 in., 15 lines, injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought in<date calendar="#Gregorian" when="1906-01">January 1906</date>, through<persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
+                     <acquisition>Bought in <date calendar="#Gregorian" when="1906-01">January 1906</date>, through <persName>J. Offord</persName>. Ultimately from the Genizah.</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -2224,7 +2224,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="TYPED">
-               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -2323,7 +2323,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-12-02">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

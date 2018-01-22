@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_140">
    <teiHeader>
       <fileDesc>
@@ -47,26 +47,26 @@
                   <msItem xml:id="MS_Heb_e_52_R-item1">
                      <locus from="1a" to="10a"/>
                      <title>A scroll, writing on both sides, containing Babylonian Talmud, tractate ביצה</title>
-                     <note>beg. with the words<quote type="beg">ונודים באנו למחלוקת ר̇ יהודה ורבנן</quote>(fol. 28b, l. 17) to end.<p>Postscript:<quote>הדרן עלך משילין. חסלת ביצה ברחמי שמיא</quote>.</p>
-                        <p>Owner:<quote type="own">לאברהם בר יצחק בר אברהם בר דניאל בר יצחק נ̇ע̇ הידוע באבן אלבקרה</quote>.</p>
+                     <note>beg. with the words <quote type="beg">ונודים באנו למחלוקת ר̇ יהודה ורבנן</quote> (fol. 28b, l. 17) to end. <p>Postscript: <quote>הדרן עלך משילין. חסלת ביצה ברחמי שמיא</quote>.</p>
+                        <p>Owner: <quote type="own">לאברהם בר יצחק בר אברהם בר דניאל בר יצחק נ̇ע̇ הידוע באבן אלבקרה</quote>.</p>
                      </note>
                      <textLang mainLang="he"/>
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Syr. Rabb. char.;<material>paper</material>.</p>
+                  <p>Syr. Rabb. char.; <material>paper</material>.</p>
                </physDesc>
                <history>
-                  <provenance>Owner:<persName type="own">Abraham b. Isaac, אבן אלבקרה</persName>.</provenance>
-                  <acquisition>Bought from<persName>Wertheimer</persName>,<date calendar="#Gregorian" when="1893">1893</date>(from the Genizah).</acquisition>
+                  <provenance>Owner: <persName type="own">Abraham b. Isaac, אבן אלבקרה</persName>.</provenance>
+                  <acquisition>Bought from <persName>Wertheimer</persName>, <date calendar="#Gregorian" when="1893">1893</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p028a.jpg">No. 2678</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p028a.jpg">No. 2678</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -76,7 +76,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -114,7 +114,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-08-02">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

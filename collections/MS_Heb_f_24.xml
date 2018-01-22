@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_181">
    <teiHeader>
       <fileDesc>
@@ -48,8 +48,8 @@
                      <locus from="1a" to="14b">Fol. 1</locus>
                      <title>Two sermons for the feast of Purim, in Arabic</title>
                      <msItem xml:id="MS_Heb_f_24-item1-item1" n="a">
-                        <p>beg. missing; ends<quote type="end">וכמא קאל קומי אורי ... וכן יהי רצון</quote>.</p>
-                        <p>The copy was finished on the<date calendar="#Hebrew-Seleucid" when="1481">10th of Adar, 1481 Sel.</date>=<date calendar="#Gregorian" when="1170">1170 A.D.</date>, by<persName>Manasseh, son of R. Eleazar</persName>;</p>
+                        <p>beg. missing; ends <quote type="end">וכמא קאל קומי אורי ... וכן יהי רצון</quote>.</p>
+                        <p>The copy was finished on the <date calendar="#Hebrew-Seleucid" when="1481">10th of Adar, 1481 Sel.</date> = <date calendar="#Gregorian" when="1170">1170 A.D.</date>, by <persName>Manasseh, son of R. Eleazar</persName>;</p>
                      </msItem>
                      <msItem xml:id="MS_Heb_f_24-item1-item2" n="b">
                         <p>(<locus from="9a">fol. 9</locus>) beg. and end missing.</p>
@@ -58,21 +58,21 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Syr. squ. Rabb. char.; 8vo,<material>paper</material>, last leaves much injured.</p>
+                  <p>Syr. squ. Rabb. char.; 8vo, <material>paper</material>, last leaves much injured.</p>
                   <p>Ff. 14.</p>
                </physDesc>
                <history>
                   <origin>
-                     <origDate when="1170">1170</origDate>Scribe:<persName type="scribe">Menasseh b. Eleazar</persName>.</origin>
-                  <acquisition>Given by the<orgName>Egypt Expl. Fund</orgName>,<date calendar="#Gregorian" when="1890">1890</date>(from the Genizah).</acquisition>
+                     <origDate when="1170">1170</origDate> Scribe: <persName type="scribe">Menasseh b. Eleazar</persName>.</origin>
+                  <acquisition>Given by the <orgName>Egypt Expl. Fund</orgName>, <date calendar="#Gregorian" when="1890">1890</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p060b.jpg">No. 2796</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p060b.jpg">No. 2796</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -82,7 +82,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -108,7 +108,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-04-01">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_99">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 47.</p>
                </physDesc>
                <history>
-                  <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                  <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library,<ref facs="Catalogue-2_p031.jpg Catalogue-2_p032.jpg Catalogue-2_p033.jpg">fols. 31-33</ref>.</source>
+                        <source>Manuscript description based on typewritten catalogue in the Bodleian Library, <ref facs="Catalogue-2_p031.jpg Catalogue-2_p032.jpg Catalogue-2_p033.jpg">fols. 31-33</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -74,10 +74,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.;<material>vellum</material>, 8 1/4 x 7 1/4 in., 2 columns, 25 lines, stained.</p>
+                     <p>Span. squ. char.; <material>vellum</material>, 8 1/4 x 7 1/4 in., 2 columns, 25 lines, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part2" n="2">
@@ -94,10 +94,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.;<material>vellum</material>, 8 5/8 x 6 1/2 in., 20 lines.</p>
+                     <p>Syr. squ. char.; <material>vellum</material>, 8 5/8 x 6 1/2 in., 20 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part3" n="3">
@@ -111,15 +111,15 @@
                         <locus from="5a" to="5b">Fol. 5</locus>
                         <title>
                            <persName>Rashi</persName>'s commentary on Gen. 31,30-49, but with additions.</title>
-                        <note>On גלעד (verse 47) he quotes<persName type="heb">ר̇ שמואל בר נחמני</persName>.</note>
+                        <note>On גלעד (verse 47) he quotes <persName type="heb">ר̇ שמואל בר נחמני</persName>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 9 x 6 1/2 in., 21 lines, much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 9 x 6 1/2 in., 21 lines, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part4" n="4">
@@ -141,10 +141,10 @@
                         <locus from="6a" to="6a">Recto</locus>, an addition in the margin;</p>
                      <p>
                         <locus from="6b" to="6b">verso</locus>, 1st column has been inked over again, the other is nearly obliterated.</p>
-                     <p>French squ. char.;<material>vellum</material>, 8 3/4 x 7 3/4 in., two columns, 22 lines.</p>
+                     <p>French squ. char.; <material>vellum</material>, 8 3/4 x 7 3/4 in., two columns, 22 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part5" n="5">
@@ -157,16 +157,16 @@
                      <msItem xml:id="MS_Heb_d_80-part5-item1">
                         <locus from="7a" to="14b">Fols. 7-14</locus>
                         <title>Ezek. 1,12 to 10,7</title>
-                        <note>with vowel points and accents.<p>Some corrections and קרי on the margins.</p>
+                        <note>with vowel points and accents. <p>Some corrections and קרי on the margins.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.;<material>vellum</material>, 5 3/8 x 6 1/4 in., two columns, 17 lines; stained.</p>
+                     <p>Syr. squ. char.; <material>vellum</material>, 5 3/8 x 6 1/4 in., two columns, 17 lines; stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part6" n="6">
@@ -183,10 +183,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.;<material>vellum</material>, 5 3/4 x 7 in., 14 lines; injured.</p>
+                     <p>Span. squ. char.; <material>vellum</material>, 5 3/4 x 7 in., 14 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part7" n="7">
@@ -204,10 +204,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen (?) squ. char.;<material>vellum</material>, 6 5/8 x 7 in., 13 lines.</p>
+                     <p>Yemen (?) squ. char.; <material>vellum</material>, 6 5/8 x 7 in., 13 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part8" n="8">
@@ -225,10 +225,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. squ. char.;<material>vellum</material>, 8 1/4 x 7 in., 16 lines; slightly injured.</p>
+                     <p>Span. squ. char.; <material>vellum</material>, 8 1/4 x 7 in., 16 lines; slightly injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part9" n="9">
@@ -241,17 +241,17 @@
                      <msItem xml:id="MS_Heb_d_80-part9-item1">
                         <locus from="26a" to="26b">Fol. 26</locus>
                         <title>Liturgical</title>
-                        <note>headed<quote type="head">מוסף לה ז̇ל̇</quote>, beg.<quote type="beg">יונה שוכבת בינות שפתים</quote>;<p>end:<quote type="end">כמעשה ארץ מצרים אשר ישבתם בה</quote>, acr.<quote type="acr">יצחק בן יהודה גיאת</quote>.</p>
+                        <note>headed <quote type="head">מוסף לה ז̇ל̇</quote>, beg. <quote type="beg">יונה שוכבת בינות שפתים</quote>; <p>end: <quote type="end">כמעשה ארץ מצרים אשר ישבתם בה</quote>, acr. <quote type="acr">יצחק בן יהודה גיאת</quote>.</p>
                            <p>With vowel points and raphe.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Gr. ? Rabb. char.;<material>vellum</material>, 6 x 5 3/4 in., 17 lines.</p>
+                     <p>Gr. ? Rabb. char.; <material>vellum</material>, 6 x 5 3/4 in., 17 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part10" n="10">
@@ -264,7 +264,7 @@
                      <msItem xml:id="MS_Heb_d_80-part10-item1">
                         <locus from="27a" to="28b">Fols. 27, 28</locus>
                         <title>Arabic treatise on degrees of relationship.</title>
-                        <note>A partly legible passage is<p>
+                        <note>A partly legible passage is <p>
                               <quote>ומן אלאך אלי אכר אלקום כל אך הנאך פפי מנזלה אול מע אול והם ארבעה. וכל ולד הנאך פפי מנזלה אול מע [תאני] והם עשרה. וכל ולד אלולד פפי מנ[זלה אול מע ת]אלת והם עשרון. אלחאצלין פי מנזלה אול מע תאלת ארבעין שכצא עשרון מן פוק ועשרון מן אספל. ופי מנזלה אול מע תאני עשרון שכצא עשרה מן פוק ועשרה מן אספל. ופי מנזלה אול מע אול ארבעה. ...</quote>
                            </p>
                         </note>
@@ -273,13 +273,13 @@
                   </msContents>
                   <physDesc>
                      <p>
-                        <locus from="27a" to="27b">Fol. 27</locus>is illegible.</p>
+                        <locus from="27a" to="27b">Fol. 27</locus> is illegible.</p>
                      <p>
-                        <locus from="28a" to="28b">Fol. 28</locus>is much injured.</p>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 8 1/4 x 6 1/4 in., 23 lines.</p>
+                        <locus from="28a" to="28b">Fol. 28</locus> is much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 8 1/4 x 6 1/4 in., 23 lines.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part11" n="11">
@@ -292,18 +292,18 @@
                      <msItem xml:id="MS_Heb_d_80-part11-item1">
                         <locus from="29a" to="30b">Fols. 29, 30</locus>
                         <title>Fragment of mystical theological treatise</title>
-                        <note>beg.<quote type="beg">...ישראל [cf. Rashi on Exod. 10,10] רעה נגד פניהם ונתקרע ונהפך להם לדם ברית מילה דכתיב היום גלותי את חרפת מצרים מעליכם גלגלתי (?) גלגלא וגלגלתי ותקנתי שיהא הדם מצוה ובמקום שיש דין אין דין והיינו כששבו בתשובה. ולא כתיב יי̇ צבאות יעץ מי יפר אלא ומי יפר.</quote>
-                           <p>On<locus from="30a" to="30b">fol. 30</locus>a paragraph beg.<quote>כעין החשמל (Ezek. 1,4) פירוש נקרא חשמל על שחש למול ארבע קליפי ערלה. מתוך האש בזכות חנניה מישאל ועזריה מתוך האש שמסרו עצמן לכבושן האש ...</quote>
+                        <note>beg. <quote type="beg">...ישראל [cf. Rashi on Exod. 10,10] רעה נגד פניהם ונתקרע ונהפך להם לדם ברית מילה דכתיב היום גלותי את חרפת מצרים מעליכם גלגלתי (?) גלגלא וגלגלתי ותקנתי שיהא הדם מצוה ובמקום שיש דין אין דין והיינו כששבו בתשובה. ולא כתיב יי̇ צבאות יעץ מי יפר אלא ומי יפר.</quote>
+                           <p>On <locus from="30a" to="30b">fol. 30</locus> a paragraph beg. <quote>כעין החשמל (Ezek. 1,4) פירוש נקרא חשמל על שחש למול ארבע קליפי ערלה. מתוך האש בזכות חנניה מישאל ועזריה מתוך האש שמסרו עצמן לכבושן האש ...</quote>
                            </p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 8 1/2 x 5 7/8 in., 22 lines; much injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 8 1/2 x 5 7/8 in., 22 lines; much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part12" n="12">
@@ -317,15 +317,15 @@
                         <locus from="31a" to="31b">Fol. 31</locus>
                         <title>
                            <persName>Maimonides</persName>
-                           <title>י"ד</title>,<quote>הלכות שלוחין ושותפין</quote>, v. 4-11.</title>
+                           <title>י"ד</title>, <quote>הלכות שלוחין ושותפין</quote>, v. 4-11.</title>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 8 3/4 x 6 in., 19 lines; injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 8 3/4 x 6 in., 19 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part13" n="13">
@@ -342,10 +342,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. squ. char.;<material>paper</material>, 7 1/2 x 6 1/4 in., 19 lines; injured.</p>
+                     <p>Syr. Rabb. squ. char.; <material>paper</material>, 7 1/2 x 6 1/4 in., 19 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part14" n="14">
@@ -358,17 +358,17 @@
                      <msItem xml:id="MS_Heb_d_80-part14-item1">
                         <locus from="34a" to="35b">Fols. 34, 35</locus>
                         <title>Commentary on Mishnah Tamid i and ii.</title>
-                        <note>Cap. ii beg.<quote>ראובן אחיו וכו̇ נטלו את המג... המזבח החלו לגרוף את האפר במגרפות ...</quote>
+                        <note>Cap. ii beg. <quote>ראובן אחיו וכו̇ נטלו את המג... המזבח החלו לגרוף את האפר במגרפות ...</quote>
                            <p>No continuous passage.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>vellum</material>, 8 1/4 x 6 1/2 in., 56 lines; very much injured.</p>
+                     <p>Syr. Rabb. char.; <material>vellum</material>, 8 1/4 x 6 1/2 in., 56 lines; very much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part15" n="15">
@@ -381,18 +381,18 @@
                      <msItem xml:id="MS_Heb_d_80-part15-item1">
                         <locus from="36b" to="36b">Fol. 36b</locus>
                         <title>Fragment of a responsum (?) on ה' אישות</title>
-                        <note>Extract:<quote>אבל אם האש[ה אומרת] לא נבלעתי והאיש אומר בעלתי ולא מצאתי דם והאשה אומרת בתולה שלימה אני וכמו הדבר הזה ... בדיקה לבדוק אותם על פי נשים בקיאות ...</quote>
+                        <note>Extract: <quote>אבל אם האש[ה אומרת] לא נבלעתי והאיש אומר בעלתי ולא מצאתי דם והאשה אומרת בתולה שלימה אני וכמו הדבר הזה ... בדיקה לבדוק אותם על פי נשים בקיאות ...</quote>
                            <p>
-                              <locus from="36a" to="36a">Recto</locus>blank.</p>
+                              <locus from="36a" to="36a">Recto</locus> blank.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>(half a leaf only), 7 x 5 5/8 in.; injured and stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material> (half a leaf only), 7 x 5 5/8 in.; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part16" n="16">
@@ -405,16 +405,16 @@
                      <msItem xml:id="MS_Heb_d_80-part16-item1">
                         <locus from="37a" to="38b">Fols. 37, 38</locus>
                         <title>Fragment of a commentary (or responsum ?) on ה' ירושה</title>
-                        <note>beg.<quote type="beg">ואמרו חכמ' הניח בנות גדולות וקטנות אין הגדולות מתפרנסות ... ולא הקטנות נזונות על הגדולות אלא חולקות בשוה. ... אם השיאן אביהן. אבל נשאו הם לאחר [repeated [אבל ... לאחר ולקחו ממון אחר מיתת אביהן.</quote>
+                        <note>beg. <quote type="beg">ואמרו חכמ' הניח בנות גדולות וקטנות אין הגדולות מתפרנסות ... ולא הקטנות נזונות על הגדולות אלא חולקות בשוה. ... אם השיאן אביהן. אבל נשאו הם לאחר [repeated [אבל ... לאחר ולקחו ממון אחר מיתת אביהן.</quote>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>(half leaves only) 5 1/2 x 7 in.; injured and stained.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material> (half leaves only) 5 1/2 x 7 in.; injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part17" n="17">
@@ -426,18 +426,18 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_d_80-part17-item1">
                         <locus from="39b" to="39b">Fol. 39b</locus>
-                        <title>The beginning of<persName>Maimonides</persName>' Arabic commentary on Mishnah Hullin i.1</title>
-                        <note>Headed<quote type="head">מסכת שחיטה</quote>; ending with<quote type="end">שהיה דרסה חלדה הגרמה ועיקור וסת (?) בין כלהא פי</quote>.<p>
-                              <locus from="39a" to="39a">Recto</locus>blank.</p>
+                        <title>The beginning of <persName>Maimonides</persName>' Arabic commentary on Mishnah Hullin i.1</title>
+                        <note>Headed <quote type="head">מסכת שחיטה</quote>; ending with <quote type="end">שהיה דרסה חלדה הגרמה ועיקור וסת (?) בין כלהא פי</quote>. <p>
+                              <locus from="39a" to="39a">Recto</locus> blank.</p>
                         </note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 7 7/8 x 5 1/2 in., 16 lines; injured.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 7 7/8 x 5 1/2 in., 16 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part18" n="18">
@@ -451,15 +451,15 @@
                         <locus from="40a" to="40b">Fol. 40</locus>
                         <title>
                            <persName>Maimonides</persName>' Arabic commentary on Eduyoth vi.3 to vii.4</title>
-                        <note>beg.<quote type="beg">העצם טהור יעני טהור משום אבר</quote>, ending<quote type="end">אן זוחלים אלמיאה אלסאילה אלמנג̇רה̈ עלי</quote>.</note>
+                        <note>beg. <quote type="beg">העצם טהור יעני טהור משום אבר</quote>, ending <quote type="end">אן זוחלים אלמיאה אלסאילה אלמנג̇רה̈ עלי</quote>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. (?) Rabb. char.;<material>paper</material>8 x 5 7/8 in., 21 lines; injured.</p>
+                     <p>Syr. (?) Rabb. char.; <material>paper</material> 8 x 5 7/8 in., 21 lines; injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part19" n="19">
@@ -472,17 +472,17 @@
                      <msItem xml:id="MS_Heb_d_80-part19-item1">
                         <locus from="41a" to="41b">Fol. 41</locus>
                         <title>A collection of biblical verses, perhaps for liturgical use</title>
-                        <note>beginning with the left hand column containing Ps. 80,1-5; 21-31; 34-39; 1 Chr. 17,9-10 continuing at right angles with 1 Chr. 17,10; 17,13-14; 17,16 followed by a reversed column containing 1 Chr.17,16-17, Ps. 39,2-3, Prov. 26,1; 27,3; 27,22; 29,23; 30,12. In col. 1, 1 Chr. 17,9 is headed<quote type="head">דבית דויד</quote>; in col. 3, Prov. 26,1 is headed<quote type="head">في משלי</quote>.<p>
+                        <note>beginning with the left hand column containing Ps. 80,1-5; 21-31; 34-39; 1 Chr. 17,9-10 continuing at right angles with 1 Chr. 17,10; 17,13-14; 17,16 followed by a reversed column containing 1 Chr.17,16-17, Ps. 39,2-3, Prov. 26,1; 27,3; 27,22; 29,23; 30,12. In col. 1, 1 Chr. 17,9 is headed <quote type="head">דבית דויד</quote>; in col. 3, Prov. 26,1 is headed <quote type="head">في משלי</quote>. <p>
                               <locus from="41b" to="41b">Verso</locus>, 2 Chr. 25,3-4; 25,16, and a short note in Arabic illegible. The rest is blank.</p>
                         </note>
                         <textLang mainLang="he" otherLangs="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.;<material>paper</material>, 7 1/2 x 6 3/8 in., stained and obliterated.</p>
+                     <p>Syr. Rabb. char.; <material>paper</material>, 7 1/2 x 6 3/8 in., stained and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part20" n="20">
@@ -495,19 +495,19 @@
                      <msItem xml:id="MS_Heb_d_80-part20-item1">
                         <locus from="42a" to="42b">Fol. 42</locus>
                         <title>End of a כתובה.</title>
-                        <note>The man's name appears to be<persName type="heb">אבו אלפצ̇איל</persName>. Dated<date calendar="#Hebrew-Seleucid" when="1446">Elul 1, 1446 [Sel.]</date>=<date calendar="#Julian" when="1135">1135 A.D.</date>in<placeName>Egypt</placeName>, by authority of<persName type="heb">מצליח הכהן ראש ישיבת גאון יעקב</persName>, and witnessed by<persName type="heb">נתן הכהן בר̇ שלמה הכהן נ̇ע̇</persName>,<persName type="heb">אברהם בר ישועה נ̇ע̇</persName>,<persName type="heb">חלפון הלוי ביר̇ מנשה נ̇ע̇</persName>. Cf.<ref target="MS_Heb_a_3_08">No. 2873, 8</ref>etc.<locus from="42b" to="42b">Verso</locus>blank.</note>
+                        <note>The man's name appears to be <persName type="heb">אבו אלפצ̇איל</persName>. Dated <date calendar="#Hebrew-Seleucid" when="1446">Elul 1, 1446 [Sel.]</date> = <date calendar="#Julian" when="1135">1135 A.D.</date> in <placeName>Egypt</placeName>, by authority of <persName type="heb">מצליח הכהן ראש ישיבת גאון יעקב</persName>, and witnessed by <persName type="heb">נתן הכהן בר̇ שלמה הכהן נ̇ע̇</persName>, <persName type="heb">אברהם בר ישועה נ̇ע̇</persName>, <persName type="heb">חלפון הלוי ביר̇ מנשה נ̇ע̇</persName>. Cf. <ref target="MS_Heb_a_3_08">No. 2873, 8</ref> etc. <locus from="42b" to="42b">Verso</locus> blank.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.;<material>paper</material>(torn), 6 1/2 x 6 3/4, obliterated.</p>
+                     <p>Syr. curs. char.; <material>paper</material> (torn), 6 1/2 x 6 3/4, obliterated.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1135">1135</origDate>
                         <origPlace>Egypt</origPlace>
                      </origin>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part21" n="21">
@@ -523,22 +523,22 @@
                         <msItem xml:id="MS_Heb_d_80-part21-item1-item1">
                            <locus from="43a" to="43a">Recto</locus>
                            <title>Fragment of a liturgical composition for marriage</title>
-                           <note>beg. (?)<quote type="beg">ויהי תלדות (?) מיצחק (?) מרוב ששון כי הוא בן אבי אבא ... בן שלש (?) והיא לאחרון וראשון ומעודו לא טעה ולא חטא ולא טעם טעם חאט ולא נכשל בדבור פיהו ולא מלול לשון לפני קדוש שמך יהללוהו שמים וארץ וכל יצירה כי הוא המועיל לכלה וזוכר זכות נעקד כשה...</quote>Roughly written in a Syr. curs. hand.</note>
+                           <note>beg. (?) <quote type="beg">ויהי תלדות (?) מיצחק (?) מרוב ששון כי הוא בן אבי אבא ... בן שלש (?) והיא לאחרון וראשון ומעודו לא טעה ולא חטא ולא טעם טעם חאט ולא נכשל בדבור פיהו ולא מלול לשון לפני קדוש שמך יהללוהו שמים וארץ וכל יצירה כי הוא המועיל לכלה וזוכר זכות נעקד כשה...</quote> Roughly written in a Syr. curs. hand.</note>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_80-part21-item1-item2">
                            <locus from="43b" to="43b">Verso</locus>
                            <title>End of a letter in Arabic naskhi.</title>
-                           <note>Mention is made of a payment to<persName type="heb">(?)الشيخ ابو سعيد بن عوكل</persName>; greetings to<persName type="heb">اخى ابو الحسن على</persName>and all our friends.</note>
+                           <note>Mention is made of a payment to <persName type="heb">(?)الشيخ ابو سعيد بن عوكل</persName>; greetings to <persName type="heb">اخى ابو الحسن على</persName> and all our friends.</note>
                         </msItem>
                         <textLang mainLang="he" otherLangs="ar"/>
                      </msItem>
                   </msContents>
                   <physDesc>
                      <p>
-                        <locus from="43a" to="43a">Recto</locus>Syr. curs. char.,<locus from="43b" to="43b">verso</locus>naskhi;<material>paper</material>, 8 1/2 x 7 1/8 in., injured and stained.</p>
+                        <locus from="43a" to="43a">Recto</locus> Syr. curs. char., <locus from="43b" to="43b">verso</locus> naskhi; <material>paper</material>, 8 1/2 x 7 1/8 in., injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part22" n="22">
@@ -551,15 +551,15 @@
                      <msItem xml:id="MS_Heb_d_80-part22-item1">
                         <locus from="44a" to="44b">Fol. 44</locus>
                         <title>End of a business letter</title>
-                        <note>very incorrectly written by a person who was more familiar with Arabic than with Hebrew. He had to go to<placeName type="heb">קסיא</placeName>with<persName>Jacob Cohen</persName>to receive payment. He mentions dealings in salt with כהר̇<persName>Elisha</persName>and<persName type="heb">המשומד יחיא</persName>who went to the qadhi (קדי)<persName>Abd-al-baqi</persName>and the lawyer (פקי = فقيه)<persName>Abd-al-majid</persName>about it.</note>
+                        <note>very incorrectly written by a person who was more familiar with Arabic than with Hebrew. He had to go to <placeName type="heb">קסיא</placeName> with <persName>Jacob Cohen</persName> to receive payment. He mentions dealings in salt with כהר̇ <persName>Elisha</persName> and <persName type="heb">המשומד יחיא</persName> who went to the qadhi (קדי) <persName>Abd-al-baqi</persName> and the lawyer (פקי = فقيه) <persName>Abd-al-majid</persName> about it.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Or. Rabb. char. (with some Italian features);<material>paper</material>, 8 x 4 1/4 in., injured.</p>
+                     <p>Or. Rabb. char. (with some Italian features); <material>paper</material>, 8 x 4 1/4 in., injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part23" n="23">
@@ -572,15 +572,15 @@
                      <msItem xml:id="MS_Heb_d_80-part23-item1">
                         <locus from="45a" to="45b">Fol. 45</locus>
                         <title>Fragment of a letter in Arabic.</title>
-                        <note>No name or date.<locus from="45b" to="45b">Verso</locus>blank.</note>
+                        <note>No name or date. <locus from="45b" to="45b">Verso</locus> blank.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.;<material>vellum</material>, 6 x 7 1/4 in., stained and obliterated.</p>
+                     <p>Syr. curs. char.; <material>vellum</material>, 6 x 7 1/4 in., stained and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part24" n="24">
@@ -593,16 +593,16 @@
                      <msItem xml:id="MS_Heb_d_80-part24-item1">
                         <locus from="46a" to="46b">Fol. 46</locus>
                         <title>Fragment of a letter</title>
-                        <note>concerning a transaction to which the witnesses were<persName type="heb">חמזה</persName>,<persName type="heb">אחמד בן עלי אלמקדסי</persName>,<persName type="heb">עלי בן [עבד] אללה בן מחמד</persName>,<persName type="heb">אלחסין בן עלי אבן סיף</persName>,<persName type="heb">מחמד בן זיד אלמוסוי</persName>,<persName type="heb">בן אחמד אל ...</persName>
-                           <persName type="heb">מחמד בן עלי בן סיף</persName>. Other persons mentioned are<persName type="heb">הלל בן ניסין</persName>,<persName>Benjamin</persName>,<persName type="heb">יהושע הכהן הממ[חה] בירבי יאיר החבר</persName>, and on the margin<persName type="heb">זכריה החבר</persName>and<persName type="heb">אברהם בן סלמון</persName>(?).<locus from="46b" to="46b">Verso</locus>blank.</note>
+                        <note>concerning a transaction to which the witnesses were <persName type="heb">חמזה</persName>, <persName type="heb">אחמד בן עלי אלמקדסי</persName>, <persName type="heb">עלי בן [עבד] אללה בן מחמד</persName>, <persName type="heb">אלחסין בן עלי אבן סיף</persName>, <persName type="heb">מחמד בן זיד אלמוסוי</persName>, <persName type="heb">בן אחמד אל ...</persName>
+                           <persName type="heb">מחמד בן עלי בן סיף</persName>. Other persons mentioned are <persName type="heb">הלל בן ניסין</persName>, <persName>Benjamin</persName>, <persName type="heb">יהושע הכהן הממ[חה] בירבי יאיר החבר</persName>, and on the margin <persName type="heb">זכריה החבר</persName> and <persName type="heb">אברהם בן סלמון</persName> (?). <locus from="46b" to="46b">Verso</locus> blank.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. squ. char.;<material>paper</material>, 5 1/4 x 6 3/8 in., stained.</p>
+                     <p>Syr. Rabb. squ. char.; <material>paper</material>, 5 1/4 x 6 3/8 in., stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_80-part25" n="25">
@@ -615,7 +615,7 @@
                      <msItem xml:id="MS_Heb_d_80-part25-item1">
                         <locus from="47a" to="47b">Fol. 47</locus>
                         <title>Seven lines scribbled in Arabic.</title>
-                        <note>The rest blank.<p>
+                        <note>The rest blank. <p>
                               <locus from="47b" to="47b">Verso</locus>, a little scribbling only.</p>
                         </note>
                         <textLang mainLang="jrb"/>
@@ -627,7 +627,7 @@
                         <material>vellum</material>, 7 x 7 in., stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Originally from the Genizah. Given in<date calendar="#Gregorian" when="1910">1910</date>by<persName>A. Cowley</persName>.</acquisition>
+                     <acquisition>Originally from the Genizah. Given in <date calendar="#Gregorian" when="1910">1910</date> by <persName>A. Cowley</persName>.</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -636,7 +636,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="TYPED">
-               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>Personal names in Latin characters, according to the transliteration system of the general index of the <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -768,7 +768,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2010-11-30">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

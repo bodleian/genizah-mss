@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_84">
    <teiHeader>
       <fileDesc>
@@ -47,15 +47,15 @@
                   <p>Ff. 111.</p>
                </physDesc>
                <history>
-                  <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                  <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Manuscript description based on<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>,<ref facs="Catalogue-1_p093b.jpg Catalogue-1_p094a.jpg Catalogue-1_p094b.jpg">No. 2859</ref>.</source>
+                        <source>Manuscript description based on <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>, <ref facs="Catalogue-1_p093b.jpg Catalogue-1_p094a.jpg Catalogue-1_p094b.jpg">No. 2859</ref>.</source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact<ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact<email>oriental@bodleian.ox.ac.uk</email>for further information on the availability of this manuscript</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>oriental@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -74,10 +74,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, injured.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part2" n="2">
@@ -89,17 +89,17 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_d_61-part2-item1">
                         <locus from="7a" to="8b">Fols. 7, 8</locus>
-                        <title>An astrological fragment, headed<quote type="head">ברג̇ אלחות</quote>
+                        <title>An astrological fragment, headed <quote type="head">ברג̇ אלחות</quote>
                         </title>
                         <note>the author quotes opinions of דורינוס, הרמס, בטלמיוס, ארסטטאליס.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part3" n="3">
@@ -113,28 +113,28 @@
                         <locus from="9a" to="10b">Fols. 9, 10</locus>
                         <title>Legal documents</title>
                         <msItem xml:id="MS_Heb_d_61-part3-item1-item1" n="a">
-                           <p>(<locus from="9a">fol. 9</locus>) a deed of gift from<quote>יוסף בן יוסף</quote>to<quote>אבו אלכצה בן אבו אלפרנס נ̇ע̇</quote>, dated in the middle of Nisan,<date calendar="#Hebrew-Seleucid" when="1411">1411</date>=<date calendar="#Gregorian" when="1100">1100 A.D.</date>;</p>
-                           <p>signed by<quote>יצחק ביר̇ שמואל ז̇ל̇</quote>,<quote>משה ביר צלחון ת̇נ̇ת̇ע̇ה̇</quote>, and<quote>צדקה הלוי בר שלמה ס̇ט̇</quote>;</p>
+                           <p>(<locus from="9a">fol. 9</locus>) a deed of gift from <quote>יוסף בן יוסף</quote> to <quote>אבו אלכצה בן אבו אלפרנס נ̇ע̇</quote>, dated in the middle of Nisan, <date calendar="#Hebrew-Seleucid" when="1411">1411</date> = <date calendar="#Gregorian" when="1100">1100 A.D.</date>;</p>
+                           <p>signed by <quote>יצחק ביר̇ שמואל ז̇ל̇</quote>, <quote>משה ביר צלחון ת̇נ̇ת̇ע̇ה̇</quote>, and <quote>צדקה הלוי בר שלמה ס̇ט̇</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part3-item1-item2" n="b">
-                           <p>(<locus from="9b">fol. 9b</locus>) contract between<quote>גניה בנת חסין</quote>and<quote>הלאל בן פרג̇</quote>, same year;</p>
-                           <p>also signed by<quote>יצחק בר̇ שמואל נ̇ע̇</quote>and by<quote>יוסף בר צדקה ז̇צ̇ל̇</quote>;</p>
+                           <p>(<locus from="9b">fol. 9b</locus>) contract between <quote>גניה בנת חסין</quote> and <quote>הלאל בן פרג̇</quote>, same year;</p>
+                           <p>also signed by <quote>יצחק בר̇ שמואל נ̇ע̇</quote> and by <quote>יוסף בר צדקה ז̇צ̇ל̇</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part3-item1-item3" n="c">
-                           <p>(<locus from="10a">fol. 10</locus>) fragment of accounts, followed by the beginning of a deed concerning<quote>מליחה בת מר̇ ור̇ אברהם הזקן הלוי הידוע בן נצ̇יר אלעטאר ס̇ט̇</quote>, the wife of<quote>אלשיך אבו סעד מר̇ ור̇ צ̇ביאן הכהן אלצירפי בר מר̇ ור̇ אפרים הכהן הזקן נ̇ע̇</quote>.</p>
+                           <p>(<locus from="10a">fol. 10</locus>) fragment of accounts, followed by the beginning of a deed concerning <quote>מליחה בת מר̇ ור̇ אברהם הזקן הלוי הידוע בן נצ̇יר אלעטאר ס̇ט̇</quote>, the wife of <quote>אלשיך אבו סעד מר̇ ור̇ צ̇ביאן הכהן אלצירפי בר מר̇ ור̇ אפרים הכהן הזקן נ̇ע̇</quote>.</p>
                            <p>The lower half of the page and fol. 10b are blank.</p>
                         </msItem>
                         <textLang mainLang="jrb" otherLangs="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, injured and stained.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, injured and stained.</p>
                   </physDesc>
                   <history>
                      <origin>
                         <origDate when="1100">1100</origDate>
                      </origin>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part4" n="4">
@@ -148,15 +148,15 @@
                         <locus from="11a" to="18b">Fols. 11-18</locus>
                         <title>Homilies on the פרשיות</title>
                         <note>from ואתחנן, beg. missing, to שפטים, incomplete;</note>
-                        <note>עקב beg. (<locus from="14a">fol. 14</locus>)<quote>והיה עקב תשמעון ז̇ש̇ה̇ למה אירא בימי רע ויתברך שמו שלה̇ב̇ה̇ שנתן תורה לישר̇ שבה ת̇ר̇י̇ג̇ מצות שיש בהן מצוות קלות וחמורות מפני שיש בהן מצות קלות ואין בני אדם משגיחין בהן אלא משליכין אותן תחת עקביהן ...</quote>.</note>
+                        <note>עקב beg. (<locus from="14a">fol. 14</locus>) <quote>והיה עקב תשמעון ז̇ש̇ה̇ למה אירא בימי רע ויתברך שמו שלה̇ב̇ה̇ שנתן תורה לישר̇ שבה ת̇ר̇י̇ג̇ מצות שיש בהן מצוות קלות וחמורות מפני שיש בהן מצות קלות ואין בני אדם משגיחין בהן אלא משליכין אותן תחת עקביהן ...</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.; 8vo,<material>paper</material>, much injured.</p>
+                     <p>Span. Rabb. char.; 8vo, <material>paper</material>, much injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part5" n="5">
@@ -170,33 +170,33 @@
                         <locus from="19a" to="26b">Fols. 19-26</locus>
                         <title>Fragments in Arabic</title>
                         <msItem xml:id="MS_Heb_d_61-part5-item1-item1" n="a">
-                           <p>(<locus from="19a">fol. 19</locus>)<title>short commentary on Jeremiah xiii. 19 to xiv. 19</title>
+                           <p>(<locus from="19a">fol. 19</locus>) <title>short commentary on Jeremiah xiii. 19 to xiv. 19</title>
                            </p>
-                           <p>beg.<quote type="beg">מגלוקה ליס מן יפתחהא. הגלת שלומים פתחו באלאמאן. וקיל כאנו אולא ינגלו ...</quote>;</p>
+                           <p>beg. <quote type="beg">מגלוקה ליס מן יפתחהא. הגלת שלומים פתחו באלאמאן. וקיל כאנו אולא ינגלו ...</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part5-item1-item2" n="b">
-                           <p>(<locus from="21a">fol. 21</locus>)<title>on the calendar</title>;</p>
+                           <p>(<locus from="21a">fol. 21</locus>) <title>on the calendar</title>;</p>
                            <p>perhaps from a commentary on Job.</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part5-item1-item3" n="c">
-                           <p>(<locus from="22a">fol. 22</locus>)<title>on animals</title>
+                           <p>(<locus from="22a">fol. 22</locus>) <title>on animals</title>
                            </p>
-                           <p>beg.<quote type="beg">ולא יגתר ולה אצ̇לאף והו אלכנזיר וחדה ואלראבע מא לא יגתר ולא ט̇לף לה מתל אלפרס ואלחמאר ואלאסד ומא אשבההם ועלי אנה לם ישרח פי אלתורה אן אול מא כלק אללה מן אלבהאים ...</quote>;</p>
+                           <p>beg. <quote type="beg">ולא יגתר ולה אצ̇לאף והו אלכנזיר וחדה ואלראבע מא לא יגתר ולא ט̇לף לה מתל אלפרס ואלחמאר ואלאסד ומא אשבההם ועלי אנה לם ישרח פי אלתורה אן אול מא כלק אללה מן אלבהאים ...</quote>;</p>
                            <p>perhaps from a commentary on Job.</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part5-item1-item4" n="d">
-                           <p>(<locus from="25a">fol. 25</locus>)<title>fragment of a theological treatise</title>
+                           <p>(<locus from="25a">fol. 25</locus>) <title>fragment of a theological treatise</title>
                            </p>
-                           <p>ending<quote type="end">... וגב אן נפסר והיתה לכם לחקת עולם מובדא על מר אלזמאן באלסוא והדא מא לא יקול בה אחד לא נחן ולא אלענאניה ולא אלקראיין ...</quote>.</p>
+                           <p>ending <quote type="end">... וגב אן נפסר והיתה לכם לחקת עולם מובדא על מר אלזמאן באלסוא והדא מא לא יקול בה אחד לא נחן ולא אלענאניה ולא אלקראיין ...</quote>.</p>
                         </msItem>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. (d Span.) Rabb. char.; 8vo,<material>vellum</material>, stained.</p>
+                     <p>Syr. (d Span.) Rabb. char.; 8vo, <material>vellum</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part6" n="6">
@@ -210,22 +210,22 @@
                         <locus from="27a" to="28b">Fols. 27, 28</locus>
                         <title>Liturgical pieces</title>
                         <msItem xml:id="MS_Heb_d_61-part6-item1-item1" n="a">
-                           <p>(<locus from="27a">fol. 27</locus>) headed<quote type="head">תמאם סלוק כי מי יודע וג̇</quote>, beg.<quote type="beg">ומזונות בו נקצצים ועד שווה פרוטה בחצץ מתפוצצים</quote>;</p>
+                           <p>(<locus from="27a">fol. 27</locus>) headed <quote type="head">תמאם סלוק כי מי יודע וג̇</quote>, beg. <quote type="beg">ומזונות בו נקצצים ועד שווה פרוטה בחצץ מתפוצצים</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part6-item1-item2" n="b">
-                           <p>(<locus from="28a">fol. 28</locus>) rubrical rules for<quote>מוסף יום שני</quote>, followed by<quote type="head">מעמד תקיעות יום שני ראש שנה דר̇ אלעזר</quote>, beg.<quote type="beg">אדן חוג היקומך בוקק למשפט בקומך</quote>, א̇ב̇;</p>
+                           <p>(<locus from="28a">fol. 28</locus>) rubrical rules for <quote>מוסף יום שני</quote>, followed by <quote type="head">מעמד תקיעות יום שני ראש שנה דר̇ אלעזר</quote>, beg. <quote type="beg">אדן חוג היקומך בוקק למשפט בקומך</quote>, א̇ב̇;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part6-item1-item3" n="c">
-                           <p>(<locus from="28b">fol. 28b</locus>) (<quote type="head">מגן</quote>)<quote type="beg">תזכור לזאת עולה שיי עקוד לעולם</quote>, ת̇ש̇ר̇ק̇.</p>
+                           <p>(<locus from="28b">fol. 28b</locus>) (<quote type="head">מגן</quote>) <quote type="beg">תזכור לזאת עולה שיי עקוד לעולם</quote>, ת̇ש̇ר̇ק̇.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>, stained.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>paper</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part7" n="7">
@@ -241,17 +241,17 @@
                         <note>
                            <p>divided into sections numbered י̇ב̇ to י̇ז̇, incomplete;</p>
                            <p>no. 12 on ציצית, nos. 13-17 on פסח;</p>
-                           <p>no. 14 headed<quote type="head">לר̇ שלמה אלסנגארי</quote>,</p>
-                           <p>beg.<quote>ראית פי סלוק אלפסח יקול פיה ולמה אכילת מרור על שמיררו חיימו במרור והמתקתם ... פגעל אלעלה אלחרוסת מתיקת מרור וגא פי אלתלמוד אלעראקי מא ינאקץ̇ דלך והו אנה יגב אן ילבת אלאנסאן באלמרור ...</quote>.</p>
+                           <p>no. 14 headed <quote type="head">לר̇ שלמה אלסנגארי</quote>,</p>
+                           <p>beg. <quote>ראית פי סלוק אלפסח יקול פיה ולמה אכילת מרור על שמיררו חיימו במרור והמתקתם ... פגעל אלעלה אלחרוסת מתיקת מרור וגא פי אלתלמוד אלעראקי מא ינאקץ̇ דלך והו אנה יגב אן ילבת אלאנסאן באלמרור ...</quote>.</p>
                         </note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, stained.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part8" n="8">
@@ -264,18 +264,18 @@
                      <msItem xml:id="MS_Heb_d_61-part8-item1">
                         <locus from="35a" to="36b">Fols. 35, 36</locus>
                         <title>Fragment of the Arabic commentary of Samuel b. Ḥofni on Numbers xxi. 31 to xxii. 1</title>
-                        <note>ending<quote type="end">ואראד בקו̇ עד בלתי ... אנהם לם יסתבקון מנהם אחדא והדא כקו̇ פי אהל עי ויכו אתם ... וקו̇ ויחנו בערבות מואב תקדמה לכבר בלק מעהם</quote>
+                        <note>ending <quote type="end">ואראד בקו̇ עד בלתי ... אנהם לם יסתבקון מנהם אחדא והדא כקו̇ פי אהל עי ויכו אתם ... וקו̇ ויחנו בערבות מואב תקדמה לכבר בלק מעהם</quote>
                         </note>
-                        <note>with the following colophon<quote type="col">כמלה פראסה̈ זאת הקת התורה בעון אללה תאליף רבינו שמואל כהן גאון בן חפני כהן ז̇צ̇ל̇</quote>.</note>
+                        <note>with the following colophon <quote type="col">כמלה פראסה̈ זאת הקת התורה בעון אללה תאליף רבינו שמואל כהן גאון בן חפני כהן ז̇צ̇ל̇</quote>.</note>
                         <note>Fol. 36b is blank.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>, stained.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>paper</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part9" n="9">
@@ -288,15 +288,15 @@
                      <msItem xml:id="MS_Heb_d_61-part9-item1">
                         <locus from="37a" to="38b">Fols. 37, 38</locus>
                         <title>Halakha in Arabic on חזקה</title>
-                        <note>beg. with the end of cap. 2; cap.3, beg.<quote type="beg">פאלחזקה אלתי יצח בהא מלך נכסי הגר ודלך יכון עלי וג̇וה מכצוצה</quote>; cap. 4, beg.<quote type="beg">ואלקסם אלד̇ ... הי חזקה תצח בה מלך אשיא מכצוצה פי אלאשתראך</quote>.</note>
+                        <note>beg. with the end of cap. 2; cap.3, beg. <quote type="beg">פאלחזקה אלתי יצח בהא מלך נכסי הגר ודלך יכון עלי וג̇וה מכצוצה</quote>; cap. 4, beg. <quote type="beg">ואלקסם אלד̇ ... הי חזקה תצח בה מלך אשיא מכצוצה פי אלאשתראך</quote>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. and Rabb. char.; 8vo,<material>vellum</material>, injured and stained.</p>
+                     <p>Syr. curs. and Rabb. char.; 8vo, <material>vellum</material>, injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part10" n="10">
@@ -309,15 +309,15 @@
                      <msItem xml:id="MS_Heb_d_61-part10-item1">
                         <locus from="39a" to="42b">Fols. 39-42</locus>
                         <title>Fragment of a commentary in Arabic on Deuteronomy v. 19-23</title>
-                        <note>after general remarks on the commandments, verse 19 beg.<quote type="beg">וקאל פי אלאכרי את הדברים האלה ... פשהד אלנבי באן כל ואחד מן האדין אלקולין קול אללה ליס פיה קול לגירה וסנסתו פי אלכלאם פי דלך</quote>. Fol. 41 is marked כ̇ד̇.</note>
+                        <note>after general remarks on the commandments, verse 19 beg. <quote type="beg">וקאל פי אלאכרי את הדברים האלה ... פשהד אלנבי באן כל ואחד מן האדין אלקולין קול אללה ליס פיה קול לגירה וסנסתו פי אלכלאם פי דלך</quote>. Fol. 41 is marked כ̇ד̇.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>vellum</material>, stained.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>vellum</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part11" n="11">
@@ -332,7 +332,7 @@
                         <title>Commentary on Hosea</title>
                         <msItem xml:id="MS_Heb_d_61-part11-item1-item1" n="a">
                            <p>(<locus from="43a">fol. 43</locus>) the end of an introduction to the minor prophets, in Arabic, followed by commentary on Hosea i. 1</p>
-                           <p>headed<quote type="head">אלמקאלה אלאולה</quote>, beg.<quote type="beg">נבתדי בעוון אלה̇ פי קיצת הושע. תחלת דבר יי בהושע. אבתדא תכלים אלרב להושע קאל אלרב להושע אנטליק ואתכיר לך אלאומה אלטאגיה ואולאד אטוגיאן</quote>;</p>
+                           <p>headed <quote type="head">אלמקאלה אלאולה</quote>, beg. <quote type="beg">נבתדי בעוון אלה̇ פי קיצת הושע. תחלת דבר יי בהושע. אבתדא תכלים אלרב להושע קאל אלרב להושע אנטליק ואתכיר לך אלאומה אלטאגיה ואולאד אטוגיאן</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part11-item1-item2" n="b">
                            <p>(<locus from="44a">fol. 44</locus>) on Hosea vii. 1, 2.</p>
@@ -341,10 +341,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>vellum</material>, stained.</p>
+                     <p>Syr. curs. char.; 8vo, <material>vellum</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part12" n="12">
@@ -357,15 +357,15 @@
                      <msItem xml:id="MS_Heb_d_61-part12-item1">
                         <locus from="45a" to="45b">Fol. 45</locus>
                         <title>Fragment of an Arabic vocabulary to Genesis</title>
-                        <note>beg. with<quote type="beg">בר</quote>(xli. 35) and ending with<quote>כבדו</quote>(xlviii. 10).</note>
+                        <note>beg. with <quote type="beg">בר</quote> (xli. 35) and ending with <quote>כבדו</quote> (xlviii. 10).</note>
                         <textLang mainLang="jrb" otherLangs="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>vellum</material>, stained.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>vellum</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part13" n="13">
@@ -388,10 +388,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. Rabb. char.; 8vo,<material>paper</material>, much injured and obliterated.</p>
+                     <p>Syr. squ. Rabb. char.; 8vo, <material>paper</material>, much injured and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part14" n="14">
@@ -409,10 +409,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. curs. char.; 8vo,<material>paper</material>, stained, injured and obliterated.</p>
+                     <p>Span. curs. char.; 8vo, <material>paper</material>, stained, injured and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part15" n="15">
@@ -430,10 +430,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.; 8vo,<material>paper</material>, injured and stained.</p>
+                     <p>Span. Rabb. char.; 8vo, <material>paper</material>, injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part16" n="16">
@@ -448,28 +448,28 @@
                         <title>Poetical pieces</title>
                         <note>Notes on the margins. Some vowel points.</note>
                         <msItem xml:id="MS_Heb_d_61-part16-item1-item1" n="a">
-                           <p>(<locus from="55a">fol. 55</locus>) after two lines injured, heading<quote type="head">וקאל פי רכובה אלבחר</quote>, beg.<quote type="beg">ממים רבים תמשיני ... אֿיך לב נע ונד ינפש</quote>, acr.<quote type="acr">אברם</quote>;</p>
+                           <p>(<locus from="55a">fol. 55</locus>) after two lines injured, heading <quote type="head">וקאל פי רכובה אלבחר</quote>, beg. <quote type="beg">ממים רבים תמשיני ... אֿיך לב נע ונד ינפש</quote>, acr. <quote type="acr">אברם</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part16-item1-item2" n="b">
-                           <p>(<locus from="55a">ibid.</locus>) headed<quote type="head">וקאל איצ̇א רחמה אללה</quote>, beg.<quote type="beg">אל בוראי ראשית הכל מלי</quote>, א̇ב̇, incomplete;</p>
+                           <p>(<locus from="55a">ibid.</locus>) headed <quote type="head">וקאל איצ̇א רחמה אללה</quote>, beg. <quote type="beg">אל בוראי ראשית הכל מלי</quote>, א̇ב̇, incomplete;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part16-item1-item3" n="c">
-                           <p>(<locus from="56a">fol. 56</locus>) beg. missing, end<quote type="end">למקום היכלי מקצוי נשיה תשובי ... תקרבי</quote>;</p>
+                           <p>(<locus from="56a">fol. 56</locus>) beg. missing, end <quote type="end">למקום היכלי מקצוי נשיה תשובי ... תקרבי</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part16-item1-item4" n="d">
-                           <p>(<locus from="56a">ibid.</locus>) headed<quote type="head">ולה פי חתן</quote>, beg.<quote type="beg">אביר דורו גביר עירו</quote>(see No. 2497, D. 7), acr.<quote type="acr">אברם</quote>;</p>
+                           <p>(<locus from="56a">ibid.</locus>) headed <quote type="head">ולה פי חתן</quote>, beg. <quote type="beg">אביר דורו גביר עירו</quote> (see No. 2497, D. 7), acr. <quote type="acr">אברם</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part16-item1-item5" n="e">
-                           <p>(<locus from="56b">fol. 56b</locus>) headed<quote type="head">ולה הבדלה</quote>, beg.<quote type="beg">מתי יבשר בביאת נגידי אליהו</quote>, acr.<quote type="acr">אברה[ם]</quote>, incomplete.</p>
+                           <p>(<locus from="56b">fol. 56b</locus>) headed <quote type="head">ולה הבדלה</quote>, beg. <quote type="beg">מתי יבשר בביאת נגידי אליהו</quote>, acr. <quote type="acr">אברה[ם]</quote>, incomplete.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Yemen curs. char.; 8vo,<material>paper</material>, injured and stained.</p>
+                     <p>Yemen curs. char.; 8vo, <material>paper</material>, injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part17" n="17">
@@ -492,10 +492,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Span. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part18" n="18">
@@ -508,16 +508,16 @@
                      <msItem xml:id="MS_Heb_d_61-part18-item1">
                         <locus from="59a" to="62b">Fols. 59-62</locus>
                         <title>Fragment of הלכות אבל</title>
-                        <note>beg. and end missing, beg.<quote type="beg">וגם ראיתי כתוב בספרו אבל אם הספינה גדולה שאינה רועדת כשדורכין בה מותר ליכנס בה כהן אפילו היה מת בתוכה</quote>.</note>
+                        <note>beg. and end missing, beg. <quote type="beg">וגם ראיתי כתוב בספרו אבל אם הספינה גדולה שאינה רועדת כשדורכין בה מותר ליכנס בה כהן אפילו היה מת בתוכה</quote>.</note>
                         <note>Ff. 60 and 61 are numbered ק̇ב̇ and ק̇ג̇, fol. 62, ק̇מ̇א̇.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Germ. curs. char.; 8vo,<material>paper</material>, much stained.</p>
+                     <p>Germ. curs. char.; 8vo, <material>paper</material>, much stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part19" n="19">
@@ -535,10 +535,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, injured.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part20" n="20">
@@ -551,15 +551,15 @@
                      <msItem xml:id="MS_Heb_d_61-part20-item1">
                         <locus from="64a" to="64b">Fol. 64</locus>
                         <title>Arabic translation of Genesis xlix. 15 to l. 8</title>
-                        <note>chap. 1, beg.<quote type="beg">וסקט יוסף עלי וגה אביה ובכא ע[ליה] וקבלה. ווצא יוסף אלמעאלגין לתחניט אביה וחנטו אלמעאלגין לישראל</quote>.</note>
+                        <note>chap. 1, beg. <quote type="beg">וסקט יוסף עלי וגה אביה ובכא ע[ליה] וקבלה. ווצא יוסף אלמעאלגין לתחניט אביה וחנטו אלמעאלגין לישראל</quote>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>paper</material>, injured and obliterated.</p>
+                     <p>Syr. squ. char.; 8vo, <material>paper</material>, injured and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part21" n="21">
@@ -574,7 +574,7 @@
                         <title>Commentary in Arabic on Ezekiel, Amos</title>
                         <msItem xml:id="MS_Heb_d_61-part21-item1-item1" n="a">
                            <p>(<locus from="65a">fol. 65</locus>) on Ezekiel xxvii. 19 to 34;</p>
-                           <p>beg. missing, beg.<quote type="beg">בהא מן אלבעד אליך ותבקא פיך מתרבץ בהא וישתק מאזל מן אזלו מים ולאגל אלדגש פי נתנו פסרת געלת לא געל ואד כאן חקה יגי נתנו וקיל אן אלקריב כון אלדגש פיהא זאיד ...</quote>;</p>
+                           <p>beg. missing, beg. <quote type="beg">בהא מן אלבעד אליך ותבקא פיך מתרבץ בהא וישתק מאזל מן אזלו מים ולאגל אלדגש פי נתנו פסרת געלת לא געל ואד כאן חקה יגי נתנו וקיל אן אלקריב כון אלדגש פיהא זאיד ...</quote>;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part21-item1-item2" n="b">
                            <p>(<locus from="66a">fol. 66</locus>) on Amos iv. 10 to vi. 4.</p>
@@ -583,10 +583,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. squ. char.; 8vo,<material>paper</material>, stained and injured.</p>
+                     <p>Syr. squ. char.; 8vo, <material>paper</material>, stained and injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part22" n="22">
@@ -603,10 +603,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.; 8vo,<material>paper</material>, stained.</p>
+                     <p>Span. Rabb. char.; 8vo, <material>paper</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part23" n="23">
@@ -624,10 +624,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>, obliterated.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>paper</material>, obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part24" n="24">
@@ -639,19 +639,19 @@
                   <msContents>
                      <msItem xml:id="MS_Heb_d_61-part24-item1">
                         <locus from="78a" to="78b">Fol. 78</locus>
-                        <title>Headed<quote type="head">בס̇ חידושי גיטין לֿהֿרֿמֿבֿןֿ</quote>
+                        <title>Headed <quote type="head">בס̇ חידושי גיטין לֿהֿרֿמֿבֿןֿ</quote>
                         </title>
-                        <note>beg. missing, beg.<quote type="beg">יש להם. וא̇ע̇פ̇כ̇ אר̇ ישר̇ בחבתה עומדת ובקדושתה</quote>.</note>
+                        <note>beg. missing, beg. <quote type="beg">יש להם. וא̇ע̇פ̇כ̇ אר̇ ישר̇ בחבתה עומדת ובקדושתה</quote>.</note>
                         <note>
-                           <locus from="78b">Fol. 78b</locus>has three lines; the rest blank.</note>
+                           <locus from="78b">Fol. 78b</locus> has three lines; the rest blank.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. curs. char.; 8vo,<material>paper</material>.</p>
+                     <p>Span. curs. char.; 8vo, <material>paper</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part25" n="25">
@@ -664,15 +664,15 @@
                      <msItem xml:id="MS_Heb_d_61-part25-item1">
                         <locus from="79a" to="79b">Fol. 79</locus>
                         <title>Halakhoth on בבא מציעא, ff. 104b and 105</title>
-                        <note>beg. missing, beg.<quote type="beg">ביה רווחא לא שקלין מיניה מידי אלא הדר עיסקא למריה וכן היל̇ גרסי̇ בפרק המוכר את הבית שטר כיס היוצא על היתומים דייגי גולה אמרו ...</quote>.</note>
+                        <note>beg. missing, beg. <quote type="beg">ביה רווחא לא שקלין מיניה מידי אלא הדר עיסקא למריה וכן היל̇ גרסי̇ בפרק המוכר את הבית שטר כיס היוצא על היתומים דייגי גולה אמרו ...</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, injured.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part26" n="26">
@@ -685,15 +685,15 @@
                      <msItem xml:id="MS_Heb_d_61-part26-item1">
                         <locus from="80a" to="81b">Fols. 80, 81</locus>
                         <title>Psalms viii. 6 to xi. 1</title>
-                        <note>Ps. ix is headed<quote type="head">פתח</quote>; Pss. x, xi,<quote type="head">פתח פתח</quote>.</note>
+                        <note>Ps. ix is headed <quote type="head">פתח</quote>; Pss. x, xi, <quote type="head">פתח פתח</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, stained.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part27" n="27">
@@ -706,16 +706,16 @@
                      <msItem xml:id="MS_Heb_d_61-part27-item1">
                         <locus from="82a" to="82b">Fol. 82</locus>
                         <title>Introduction to a philosophical work, in Arabic</title>
-                        <note>beg.<quote type="beg">אלקאעדה̈ אלאולי. וג̇וד אלבארי סבחאנה ודלך אן תם מוג̇וד באכמל אנחא אלוג̇וד הו עלה̈ וג̇וד אלמוג̇ודאת כלהא ובה קואם וג̇ודהא ומנה תסתמד אלבקא ...</quote>.</note>
-                        <note>On.<locus from="82a">fol. 82a</locus>, some scribbling and the names<quote>בן אלשיך אבו עמראן אבו אלפצ̇ל</quote>.</note>
+                        <note>beg. <quote type="beg">אלקאעדה̈ אלאולי. וג̇וד אלבארי סבחאנה ודלך אן תם מוג̇וד באכמל אנחא אלוג̇וד הו עלה̈ וג̇וד אלמוג̇ודאת כלהא ובה קואם וג̇ודהא ומנה תסתמד אלבקא ...</quote>.</note>
+                        <note>On. <locus from="82a">fol. 82a</locus>, some scribbling and the names <quote>בן אלשיך אבו עמראן אבו אלפצ̇ל</quote>.</note>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, stained and injured.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, stained and injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part28" n="28">
@@ -738,10 +738,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; small 4to,<material>vellum</material>, much injured and obliterated.</p>
+                     <p>Syr. Rabb. char.; small 4to, <material>vellum</material>, much injured and obliterated.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part29" n="29">
@@ -764,10 +764,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.; 8vo,<material>vellum</material>, injured and stained.</p>
+                     <p>Span. Rabb. char.; 8vo, <material>vellum</material>, injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part30" n="30">
@@ -785,10 +785,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. Rabb. char.; 8vo,<material>vellum</material>, injured.</p>
+                     <p>Span. Rabb. char.; 8vo, <material>vellum</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part31" n="31">
@@ -811,10 +811,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, injured and stained.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part32" n="32">
@@ -832,10 +832,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>paper</material>, stained.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>paper</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part33" n="33">
@@ -852,16 +852,16 @@
                            <p>(<locus from="92a">fol. 92</locus>) on fol. 32ab;</p>
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part33-item1-item2" n="b">
-                           <p>(<locus from="93a">fol. 93</locus>) on fol. 36, last line, to fol. 39, beg.<quote type="beg">מעשר כרבנן סבירא ליה דחייב במעשר בקטון. גדלו בדפוס ... לא שנו שהוא פסול אלא דעביד לה כמין ברייה אחרת אלא כמין ברייתו כשר ...</quote>.</p>
+                           <p>(<locus from="93a">fol. 93</locus>) on fol. 36, last line, to fol. 39, beg. <quote type="beg">מעשר כרבנן סבירא ליה דחייב במעשר בקטון. גדלו בדפוס ... לא שנו שהוא פסול אלא דעביד לה כמין ברייה אחרת אלא כמין ברייתו כשר ...</quote>.</p>
                         </msItem>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, stained.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part34" n="34">
@@ -874,17 +874,17 @@
                      <msItem xml:id="MS_Heb_d_61-part34-item1">
                         <locus from="94a" to="98b">Fols. 94-98</locus>
                         <title>Commentary on Babylonian Talmud חגיגה, fol. 12b to the end of the tractate</title>
-                        <note>beg.<quote type="beg">... ר̇ שמעון בן אלעזר אומ̇ על עמוד אחד ... הנה העמוד הזה הוא סוד מדת היסוד אשר כל הצנורות הם נכללים בו ...</quote>.</note>
-                        <note>At the end<quote>נשלם מסכת חגיגה</quote>, and catchword of the next heading<quote>מסכת עירובין</quote>.</note>
+                        <note>beg. <quote type="beg">... ר̇ שמעון בן אלעזר אומ̇ על עמוד אחד ... הנה העמוד הזה הוא סוד מדת היסוד אשר כל הצנורות הם נכללים בו ...</quote>.</note>
+                        <note>At the end <quote>נשלם מסכת חגיגה</quote>, and catchword of the next heading <quote>מסכת עירובין</quote>.</note>
                         <note>The leaves are numbered צ̇ to צ̇ד̇.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Span. curs. char.; 8vo,<material>paper</material>, stained.</p>
+                     <p>Span. curs. char.; 8vo, <material>paper</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part35" n="35">
@@ -903,10 +903,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, slightly injured and stained.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, slightly injured and stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part36" n="36">
@@ -919,15 +919,15 @@
                      <msItem xml:id="MS_Heb_d_61-part36-item1">
                         <locus from="103a" to="106b">Fols. 103-106</locus>
                         <title>Commentary on Babylonian Talmud שבת, ff. 78 and 79</title>
-                        <note>beg.<quote type="beg">דם כרביעית שלדוכיפת דהוא תרנגלא ברא או שלעטלף כדי לכחול עין אחת ברקית כאותה ששנינו השוכר את החמור והבריקה.</quote>.</note>
+                        <note>beg. <quote type="beg">דם כרביעית שלדוכיפת דהוא תרנגלא ברא או שלעטלף כדי לכחול עין אחת ברקית כאותה ששנינו השוכר את החמור והבריקה.</quote>.</note>
                         <textLang mainLang="he"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, stained.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, stained.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part37" n="37">
@@ -945,10 +945,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. curs. char.; 8vo,<material>paper</material>, injured.</p>
+                     <p>Syr. curs. char.; 8vo, <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part38" n="38">
@@ -961,11 +961,11 @@
                      <msItem xml:id="MS_Heb_d_61-part38-item1">
                         <locus from="108a" to="109b">Fols. 108, 109</locus>
                         <title>Alfasi on פסחים</title>
-                        <note>On<locus from="108a">fol. 108a</locus>is the title<quote type="head">הלכות רבתי חיבור רבנו יצחק אלפאסי ז̇ל̇</quote>, with a list of contents.</note>
+                        <note>On <locus from="108a">fol. 108a</locus> is the title <quote type="head">הלכות רבתי חיבור רבנו יצחק אלפאסי ז̇ל̇</quote>, with a list of contents.</note>
                         <note>
-                           <p>Owners (ibid.)<quote type="own">לאוצר יפת הכהן בן מרב (?)ורב̇ יוסף הכהן</quote>;</p>
-                           <p>below, crossed through,<quote type="own">נעתקה לאלעזר ביר̇ סעדיה אלבבלי</quote>;</p>
-                           <p>below,<quote type="own">משקנה אברהם בר דוד</quote>.</p>
+                           <p>Owners (ibid.) <quote type="own">לאוצר יפת הכהן בן מרב (?)ורב̇ יוסף הכהן</quote>;</p>
+                           <p>below, crossed through, <quote type="own">נעתקה לאלעזר ביר̇ סעדיה אלבבלי</quote>;</p>
+                           <p>below, <quote type="own">משקנה אברהם בר דוד</quote>.</p>
                         </note>
                         <msItem xml:id="MS_Heb_d_61-part38-item1-item1" n="a">
                            <p>(<locus from="108b">fol. 108b</locus>) the beg. to ed. Bomberg, fol. 230b, line 21 (באורתא);</p>
@@ -977,10 +977,10 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Greek (?). Rabb. char.; 8vo,<material>paper</material>, injured.</p>
+                     <p>Greek (?). Rabb. char.; 8vo, <material>paper</material>, injured.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Heb_d_61-part39" n="39">
@@ -998,16 +998,16 @@
                         </msItem>
                         <msItem xml:id="MS_Heb_d_61-part39-item1-item2" n="b">
                            <p>(<locus from="111a">fol. 111</locus>) on 1 Chronicles xxviii. 11 and 12,</p>
-                           <p>beg.<quote type="beg">ארץ̇ אלי חד אן עמלת אליציעים ה̇ אדרע פדלך כ̇ דראע מן אספל אלארץ̇ אלי אנתהי אלעלאלי פיכון קו̇ פי קטעה מן אלהיכל עשר̇ אמ̇ ...</quote>.</p>
+                           <p>beg. <quote type="beg">ארץ̇ אלי חד אן עמלת אליציעים ה̇ אדרע פדלך כ̇ דראע מן אספל אלארץ̇ אלי אנתהי אלעלאלי פיכון קו̇ פי קטעה מן אלהיכל עשר̇ אמ̇ ...</quote>.</p>
                         </msItem>
                         <textLang mainLang="jrb"/>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <p>Syr. Rabb. char.; 8vo,<material>vellum</material>.</p>
+                     <p>Syr. Rabb. char.; 8vo, <material>vellum</material>.</p>
                   </physDesc>
                   <history>
-                     <acquisition>Bought through the Rev.<persName>Prof. Sayce</persName>,<date calendar="#Gregorian" when="1896">1896</date>(from the Genizah).</acquisition>
+                     <acquisition>Bought through the Rev. <persName>Prof. Sayce</persName>, <date calendar="#Gregorian" when="1896">1896</date> (from the Genizah).</acquisition>
                   </history>
                </msPart>
             </msDesc>
@@ -1016,7 +1016,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy xml:id="INDEX">
-               <desc>General index of<bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
+               <desc>General index of <bibl>Catalogue of the Hebrew Manuscripts in the Bodleian Library, vol. ii, by Adolf Neubauer and Arthur Ernest Cowley, Oxford 1906</bibl>
                </desc>
             </taxonomy>
          </classDecl>
@@ -1261,7 +1261,7 @@
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl">https://github.com/bodleian/genizah-mss/tree/master/processing/convertGenizah2Bodley.xsl</ref>
          </change>
          <change when="2011-08-09">
-            <persName>Sabine Arndt</persName>created this file</change>
+            <persName>Sabine Arndt</persName> created this file</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
