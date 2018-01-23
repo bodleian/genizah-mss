@@ -23,14 +23,22 @@ declare option saxon:output "indent=yes";
                 _?m = multiple field (typically facets)
                 *ni = not indexed (except _tni fields which are copied to the fulltext index)
         :)
+        
+        (: The following are not needed by Genizah currently, but will be when they add 
+           their co-owned Lewis-Gibson collection (see https://cudl.lib.cam.ac.uk/collections/lewisgibson)
+           in mid-2018:
+           
+           bod:materials($x//tei:msDesc//tei:physDesc//tei:supportDesc[@material], 'ms_materials_sm', 'Not specified')
+           bod:trueIfExists($x//tei:sourceDesc//tei:decoDesc/tei:decoNote, 'ms_deconote_b')
+           bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:institution, 'ms_institution_s', 'Not specified')
+           bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:collection, 'ms_collection_s', 'Not specified')
+        :)
             
         return <doc>
             <field name="type">manuscript</field>
             <field name="pk">{ $msid }</field>
             <field name="id">{ $msid }</field>
             <field name="filename_sni">{ base-uri($x) }</field>
-            { bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:collection, 'ms_collection_s', 'Not specified') }
-            { bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:institution, 'ms_institution_s', 'Not specified') }
             { bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:idno[@type="shelfmark"], 'ms_shelfmark_s') }
             { bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:idno[@type="shelfmark"], 'ms_shelfmark_sort') }
             { bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:idno, 'ms_shelfmark_s') }
@@ -48,8 +56,6 @@ declare option saxon:output "indent=yes";
             { for $lang in $languages2index
                 return bod:many2many($x//tei:msContents/tei:msItem/tei:title[@xml:lang = $lang], concat('ms_works_', $lang, '_sm'))
             }
-            { bod:trueIfExists($x//tei:sourceDesc//tei:decoDesc/tei:decoNote, 'ms_deconote_b') }
-            { bod:materials($x//tei:msDesc//tei:physDesc//tei:supportDesc[@material], 'ms_materials_sm', 'Not specified') }
             { bod:physForm($x//tei:physDesc/tei:objectDesc, 'ms_physform_sm', 'Not specified') }
             { bod:languages($x//tei:sourceDesc//tei:textLang, 'ms_lang_sm', 'Not specified') }
             { bod:centuries($x//tei:origin//tei:origDate[@calendar = '#Gregorian' or (not(@calendar) and count(ancestor::tei:origin//tei:origDate) eq 1)], 'ms_date_sm', 'Not Specified') }
