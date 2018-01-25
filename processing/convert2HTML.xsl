@@ -22,56 +22,36 @@
     <xsl:template name="Header">
         <div class="header" style="float:right; margin-left:1em; margin-bottom:2em; padding:0.5em; padding-right:1em; background-color:#EEEEEE; border:1px #CCCCCC solid; max-width:15%;">
             <p>Jump to:</p>
-            <ul style="font-variant:small-caps; list-style-type:none; padding-left:0em;">
-                <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/(msContents|msPart)" mode="fraglist"/>
-            </ul>
+            <table style="font-variant:small-caps; list-style-type:none; padding-left:0em;">
+                <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc//msItem[title]" mode="fraglist"/>
+            </table>
         </div>
-    </xsl:template>
-    
-    <xsl:template match="msContents" mode="fraglist">
-        <xsl:apply-templates select="msPart|msItem" mode="fraglist"/>
-    </xsl:template>
-    
-    <xsl:template match="msPart" mode="fraglist">
-        <li>
-            <a href="{ concat('#', @xml:id) }">
-                <xsl:apply-templates select="msIdentifier"/>
-            </a>
-            <ul style="list-style-type:none; padding-left:1em;">
-                <xsl:apply-templates select="msContents|msPart|msItem" mode="fraglist"/>
-            </ul>
-        </li>
     </xsl:template>
 
     <xsl:template match="msItem" mode="fraglist">
-        <xsl:choose>
-            <xsl:when test="title">
-                <li>
-                    <xsl:variable name="titletext" select="normalize-space(string-join(title[1]//text()[not(ancestor::foreign)], ' '))"/>
-                    <a href="{ concat('#', @xml:id) }" title="{ $titletext }">
-                        <xsl:value-of select="bod:shorten($titletext, 24)"/>
-                        <xsl:apply-templates select="(.//locus)[1]" mode="fraglist"/>
-                    </a>
-                    <xsl:if test=".//msItem[title]">
-                        <ul style="list-style-type:none; padding-left:1em;">
-                            <xsl:apply-templates select="msContents|msPart|msItem" mode="fraglist"/>
-                        </ul>
+        <tr style="vertical-align:top;">
+            <td>
+                <xsl:variable name="titletext" select="normalize-space(string-join(title[1]//text()[not(ancestor::foreign)], ' '))"/>
+                <a href="{ concat('#', @xml:id) }" title="{ $titletext }">
+                    <xsl:value-of select="bod:shorten($titletext, 32)"/>
+                </a>
+            </td>
+            <td>
+                <xsl:if test="ancestor::msPart or .//locus">
+                    <xsl:if test="ancestor::msPart">
+                        <xsl:text>Part </xsl:text>
+                        <xsl:value-of select="ancestor::msPart[1]/@n"/>
+                        <xsl:if test=".//locus">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
                     </xsl:if>
-                </li>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:if test=".//msItem[title]">
-                    <ul style="list-style-type:none; padding-left:1em;">
-                        <xsl:apply-templates select="msContents|msPart|msItem" mode="fraglist"/>
-                    </ul>
+                    <xsl:apply-templates select="(.//locus)[1]" mode="fraglist"/>
                 </xsl:if>
-            </xsl:otherwise>
-        </xsl:choose>
+            </td>
+        </tr>
     </xsl:template>
     
-    
     <xsl:template match="locus" mode="fraglist">
-        <xsl:text> (</xsl:text>
         <xsl:choose>
             <xsl:when test="exists(.//text())">
                 <xsl:value-of select="normalize-space(string-join(.//text(), ' '))"/>
@@ -83,7 +63,6 @@
                 <xsl:value-of select="@to"/>
             </xsl:when>
         </xsl:choose>
-        <xsl:text>)</xsl:text>
     </xsl:template>
     
     
