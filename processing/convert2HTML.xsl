@@ -20,9 +20,9 @@
 
     
     <xsl:template name="Header">
-        <div class="header" style="float:right; margin-left:1em; margin-bottom:2em; padding:0.5em; padding-right:1em; background-color:#EEEEEE; border:1px #CCCCCC solid; max-width:15%;">
-            <p>Jump to:</p>
-            <table style="font-variant:small-caps; list-style-type:none; padding-left:0em;">
+        <div style="float:right;font-variant:small-caps; margin-left:1em; margin-bottom:2em; padding:0.5em; background-color:#EEEEEE; border:1px #CCCCCC solid; max-width:25%;">
+            <p>List of works:</p>
+            <table>
                 <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc//msItem[title]" mode="fraglist"/>
             </table>
         </div>
@@ -30,19 +30,19 @@
 
     <xsl:template match="msItem" mode="fraglist">
         <tr style="vertical-align:top;">
-            <td>
+            <td style="padding-right:1em;">
                 <xsl:variable name="titletext" select="normalize-space(string-join(title[1]//text()[not(ancestor::foreign)], ' '))"/>
                 <a href="{ concat('#', @xml:id) }" title="{ $titletext }">
-                    <xsl:value-of select="bod:shorten($titletext, 32)"/>
+                    <xsl:value-of select="bod:shorten($titletext, 48)"/>
                 </a>
             </td>
-            <td>
+            <td style="font-size:0.8em; white-space:nowrap;">
                 <xsl:if test="ancestor::msPart or .//locus">
                     <xsl:if test="ancestor::msPart">
                         <xsl:text>Part </xsl:text>
                         <xsl:value-of select="ancestor::msPart[1]/@n"/>
                         <xsl:if test=".//locus">
-                            <xsl:text>, </xsl:text>
+                            <br/>
                         </xsl:if>
                     </xsl:if>
                     <xsl:apply-templates select="(.//locus)[1]" mode="fraglist"/>
