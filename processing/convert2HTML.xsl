@@ -38,9 +38,11 @@
             </td>
             <td style="font-size:0.8em; white-space:nowrap;">
                 <xsl:if test="ancestor::msPart or .//locus">
-                    <xsl:if test="ancestor::msPart">
-                        <xsl:text>Part </xsl:text>
-                        <xsl:value-of select="ancestor::msPart[1]/@n"/>
+                    <xsl:if test="ancestor::msPart and (ancestor::msPart//msItem[title])[1]/@xml:id = @xml:id">
+                        <a href="{ concat('#', ancestor::msPart[1]/@xml:id) }">
+                            <xsl:text>Part </xsl:text>
+                            <xsl:value-of select="ancestor::msPart[1]/@n"/>
+                        </a>
                         <xsl:if test=".//locus">
                             <br/>
                         </xsl:if>
