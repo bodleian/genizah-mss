@@ -9,7 +9,7 @@
     exclude-result-prefixes="tei html xs bod"
     version="2.0">
     
-    <xsl:import href="../../consolidated-tei-schema/msdesc2html.xsl"/>
+    <xsl:import href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc2html.xsl"/>
 
     <!-- Only set this variable if you want full URLs hardcoded into the HTML
          on the web site (previewManuscript.xsl overrides this to do so when previewing.) -->
@@ -73,23 +73,30 @@
     
     <xsl:template name="Footer">
         <div class="footer">
-            <h3>Catalogue Images</h3>
-            <ul>
-                <xsl:for-each select="tokenize(/TEI/teiHeader/fileDesc/sourceDesc/msDesc/additional/adminInfo/tei:recordHist/tei:source/tei:ref/@facs, ' ')">
-                    <li>
-                        <a href="{ concat('http://genizah-qa.bodleian.ox.ac.uk/images/catalogue/', .) }"><xsl:value-of select="."/></a>
-                    </li>
-                </xsl:for-each>
-            </ul>
-            <h3>Fragment Images</h3>
-            <ul>
-                <xsl:for-each select="/TEI/facsimile/graphic/@url">
-                    <xsl:variable name="jpg" select="replace(., '\.tiff*$', '.jpg')"/>
-                    <li>
-                        <a href="{ concat('http://genizah-qa.bodleian.ox.ac.uk/images/fragments/', $jpg) }"><xsl:value-of select="$jpg"/></a>
-                    </li>
-                </xsl:for-each>
-            </ul>
+            <xsl:if test="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/additional/adminInfo/tei:recordHist/tei:source/tei:ref/@facs">
+                <h3>Catalogue Images</h3>
+                <ul>
+                    <xsl:for-each select="tokenize(string-join(/TEI/teiHeader/fileDesc/sourceDesc/msDesc/additional/adminInfo/tei:recordHist/tei:source/tei:ref/@facs, ' '), ' ')">
+                        <li>
+                            <a href="{ concat('/images/catalogue/', .) }"><xsl:value-of select="substring-before(substring-after(., '_'), '.jpg')"/></a>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
+            <xsl:if test="/TEI/facsimile/graphic">
+                <h3>Fragment Images</h3>
+                <p style="float:right;">
+                    <xsl:for-each select="/TEI/facsimile/graphic/@url">
+                        <xsl:variable name="jpgfilename" select="replace(., '\.tiff*$', '.jpg')"/>
+                        <xsl:variable name="fullsizefile" select="concat('/fragments/full/', $jpgfilename)"/>
+                        <xsl:variable name="thumbfile" select="concat('/fragments/thumbs/', $jpgfilename)"/>
+                        <xsl:variable name="folio" select="tokenize(substring-before($jpgfilename, '.jpg'), '_')[last()]"/>
+                        <a href="{ $fullsizefile }" title="{ $folio }" style="display: inline-block; float:right;">
+                            <img src="{ $thumbfile }" alt="Thumbnail of { $folio }" height="80"/>
+                        </a>
+                    </xsl:for-each>
+                </p>
+            </xsl:if>
         </div>
     </xsl:template>
 
