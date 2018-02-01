@@ -17,26 +17,28 @@
 
     <!-- Any templates added below will override the templates in the shared
          imported stylesheet, allowing customization of manuscript display for each catalogue. -->
-
-    
+ 
     <xsl:template name="Header">
-        <div style="float:right;font-variant:small-caps; margin-left:1em; margin-bottom:2em; padding:0.5em; background-color:#EEEEEE; border:1px #CCCCCC solid; max-width:25%;">
+        <aside class="aside-navigation ">
             <p>List of works:</p>
-            <table>
+            <table role="nav">
                 <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc//msItem[title]" mode="fraglist"/>
+                <xsl:if test="count(/TEI/teiHeader/fileDesc/sourceDesc/msDesc//msItem[title]) eq 0">
+                    <tr><td colspan="2"><xsl:text>No works have been identified in this manuscript.</xsl:text></td></tr>
+                </xsl:if>
             </table>
-        </div>
+        </aside>
     </xsl:template>
 
     <xsl:template match="msItem" mode="fraglist">
-        <tr style="vertical-align:top;">
-            <td style="padding-right:1em;">
+        <tr>
+            <td>
                 <xsl:variable name="titletext" select="normalize-space(string-join(title[1]//text()[not(ancestor::foreign)], ' '))"/>
                 <a href="{ concat('#', @xml:id) }" title="{ $titletext }">
-                    <xsl:value-of select="bod:shorten($titletext, 48)"/>
+                    <xsl:value-of select="bod:shortenToNearestWord($titletext, 48)"/>
                 </a>
             </td>
-            <td style="font-size:0.8em; white-space:nowrap;">
+            <td>
                 <xsl:if test="ancestor::msPart or .//locus">
                     <xsl:if test="ancestor::msPart and (ancestor::msPart//msItem[title])[1]/@xml:id = @xml:id">
                         <a href="{ concat('#', ancestor::msPart[1]/@xml:id) }">
