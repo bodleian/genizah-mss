@@ -4,7 +4,7 @@ declare option saxon:output "indent=yes";
 
 <add>
 {
-    let $doc := doc("../authority/works_master.xml")
+    let $doc := doc("../../hebrew-mss/authority/works_master.xml")
     let $collection := collection("../collections?select=*.xml;recurse=yes")
     let $works := $doc//tei:listBibl/tei:bibl[@xml:id]
    
