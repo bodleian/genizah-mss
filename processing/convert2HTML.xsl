@@ -71,11 +71,11 @@
     
     
     
-    <xsl:template name="Footer">
-        <div class="footer">
+    <xsl:template name="AdditionalContent">
+        <div class="additional_content">
             <xsl:if test="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/additional/adminInfo/tei:recordHist/tei:source/tei:ref/@facs">
                 <h3>Catalogue Images</h3>
-                <ul>
+                <ul style="list-style-type:none;">
                     <xsl:for-each select="tokenize(string-join(/TEI/teiHeader/fileDesc/sourceDesc/msDesc/additional/adminInfo/tei:recordHist/tei:source/tei:ref/@facs, ' '), ' ')">
                         <li>
                             <a href="{ concat('/images/catalogue/', .) }"><xsl:value-of select="substring-before(substring-after(., '_'), '.jpg')"/></a>
