@@ -22,39 +22,41 @@ declare option saxon:output "indent=yes";
         
         let $variants := $person/tei:persName[@type="variant"]
 
-        return 
-        <doc>
-            <field name="type">person</field>
-            <field name="pk">{ $id }</field>
-            <field name="id">{ $id }</field>
-            <field name="title">{ $name }</field>
-            <field name="alpha_title">{  bod:alphabetize($name) }</field>
-            <field name="pp_name_s">{ $name }</field>
-            {
-            for $variant in $variants
-                let $vname := normalize-space($variant/string())
-                order by $vname
-                return <field name="pp_variant_sm">{ $vname }</field>
-            }
-            {
-            let $roles := distinct-values(
-                                (
-                                $collection//tei:persName[@key = $id]/ancestor::editor[1]/@role/tokenize(., ' '),
-                                $collection//tei:persName[@key = $id]/@type/tokenize(., ' '), 
-                                if ($isauthor) then 'author' else ()
-                                )
-                            )[not(. = ('alt','standard','unknown','desc','ment','wit','par','heb','beg','head','end','acr','ara','col'))]      (: TODO: Find out what these mean and map them to something? :)
-            for $role in $roles
-                order by $role
-                return <field name="pp_roles_sm">{ bod:personRoleLookup($role) }</field>
-
-            }
-            {
-            for $ms in $mss
-                order by $ms
-                return <field name="link_manuscripts_smni">{ $ms }</field>
-            }
-        </doc>
+        return if (count($mss) gt 0) then 
+            <doc>
+                <field name="type">person</field>
+                <field name="pk">{ $id }</field>
+                <field name="id">{ $id }</field>
+                <field name="title">{ $name }</field>
+                <field name="alpha_title">{  bod:alphabetize($name) }</field>
+                <field name="pp_name_s">{ $name }</field>
+                {
+                for $variant in $variants
+                    let $vname := normalize-space($variant/string())
+                    order by $vname
+                    return <field name="pp_variant_sm">{ $vname }</field>
+                }
+                {
+                let $roles := distinct-values(
+                                    (
+                                    $collection//tei:persName[@key = $id]/ancestor::editor[1]/@role/tokenize(., ' '),
+                                    $collection//tei:persName[@key = $id]/@type/tokenize(., ' '), 
+                                    if ($isauthor) then 'author' else ()
+                                    )
+                                )[not(. = ('alt','standard','unknown','desc','ment','wit','par','heb','beg','head','end','acr','ara','col'))]      (: TODO: Find out what these mean and map them to something? :)
+                for $role in $roles
+                    order by $role
+                    return <field name="pp_roles_sm">{ bod:personRoleLookup($role) }</field>
+    
+                }
+                {
+                for $ms in $mss
+                    order by $ms
+                    return <field name="link_manuscripts_smni">{ $ms }</field>
+                }
+            </doc>
+        else
+            ()
 }
 
 </add>
