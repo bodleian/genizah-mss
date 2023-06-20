@@ -120,6 +120,7 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                     { bod:physForm($x//tei:physDesc/tei:objectDesc, 'ms_physform_sm', 'Not specified') }
                     { bod:languages($x//tei:sourceDesc//tei:textLang, 'ms_lang_sm', 'Not specified') }
                     { bod:centuries($x//tei:origin//tei:origDate[@calendar = '#Gregorian' or (not(@calendar) and count(ancestor::tei:origin//tei:origDate) eq 1)], 'ms_date_sm', 'Not Specified') }
+                    { bod:years($x//tei:origin//tei:origDate[@calendar = '#Gregorian' or (not(@calendar) and count(ancestor::tei:origin//tei:origDate) eq 1)]) }
                     { bod:many2many($x//tei:profileDesc/tei:textClass/tei:keywords/tei:term, 'ms_subjects_sm') }
                     { bod:requesting($x/tei:TEI) }
                     { bod:indexHTML($htmldoc, 'ms_textcontent_tni') }
